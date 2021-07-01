@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="du" end="8" id="3" rel="nucl">
+        <node begin="0" cat="np" end="4" id="4" rel="dp">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Peeters" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Peeters" sense="Peeters" word="Peeters"/>
+          <node begin="1" cat="pp" end="4" id="6" rel="mod">
+            <node begin="1" end="2" frame="preposition(over,[heen])" his="normal" his_1="normal" id="7" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="2" cat="np" end="4" id="8" rel="obj1">
+              <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="collectief" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="collectief" sense="collectief" vform="adj" word="collectief"/>
+              <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="standpunt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="standpunt" sense="standpunt" word="standpunt"/>
+            </node>
+          </node>
+        </node>
+        <node begin="4" cat="np" end="8" id="11" rel="dp">
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="12" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+          <node begin="6" cat="pp" end="8" id="14" rel="mod">
+            <node begin="6" end="7" frame="preposition(over,[heen])" his="normal" his_1="normal" id="15" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="16" lcat="np" lemma="Brexit" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Brexit" sense="Brexit" word="Brexit"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="conj" end="15" id="17" rel="sat">
+        <node begin="9" cat="np" end="11" id="18" rel="cnj">
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="19" lcat="np" lemma="stap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stap" sense="stap" word="Stap"/>
+          <node begin="10" end="11" frame="dir_adverb" his="normal" his_1="normal" id="20" lcat="advp" lemma="vooruit" pos="adv" postag="BW()" pt="bw" rel="mod" root="vooruit" sense="vooruit" special="dir" word="vooruit"/>
+        </node>
+        <node begin="11" conjtype="neven" end="12" frame="conj(maar)" his="normal" his_1="normal" id="21" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+        <node begin="12" cat="np" end="15" id="22" rel="cnj">
+          <node begin="12" end="13" frame="modal_adverb" his="normal" his_1="normal" id="23" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sc="modal" sense="nog" word="nog"/>
+          <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(no_e(odet_adv))" graad="basis" his="normal" his_1="normal" id="24" infl="no_e" lcat="ap" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+          <node begin="14" buiging="zonder" end="15" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="25" lcat="np" lemma="vragen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="vraag" sc="intransitive" sense="vraag" special="v_noun" word="vragen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Peeters over collectief standpunt Britse regering over Brexit : Stap vooruit maar nog veel vragen</sentence>
+  <comments>
+    <comment>Q#1|Peeters over collectief standpunt Britse regering over Brexit : Stap vooruit maar nog veel vragen|1|1|4.284262400130005</comment>
+  </comments>
+</alpino_ds>

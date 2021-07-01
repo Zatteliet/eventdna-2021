@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="3" lcat="np" lemma="fod" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fod" sense="fod" word="FOD"/>
+        <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Financiën" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Financiën" sense="Financiën" word="Financiën"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg,part_transitive(op))" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="op_schorten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="schort_op" sc="part_transitive(op)" sense="schort_op" stype="declarative" tense="present" word="schort" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="6" lcat="np" lemma="fles_verkoop" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="fles_verkoop" sense="fles_verkoop" word="flessenverkoop"/>
+      <node begin="4" end="5" frame="particle(op)" his="normal" his_1="normal" id="7" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="5" cat="pp" end="7" id="8" rel="mod">
+        <node begin="5" end="6" frame="preposition(na,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="vergiftiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="vergiftiging" sense="vergiftiging" word="vergiftiging"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">FOD Financiën schort flessenverkoop op na vergiftiging</sentence>
+  <comments>
+    <comment>Q#1|FOD Financiën schort flessenverkoop op na vergiftiging|1|1|-1.9757888180599985</comment>
+  </comments>
+</alpino_ds>

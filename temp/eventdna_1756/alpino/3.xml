@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="3" lcat="np" lemma="Defensie_minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Defensie_minister" sense="Defensie_minister" word="Defensieminister"/>
+        <node begin="1" cat="mwu" end="3" his="name" his_1="not_begin" id="4" mwu_root="Steven Vandeput" mwu_sense="Steven Vandeput" rel="app">
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Steven" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steven" sense="Steven" spectype="deeleigen" word="Steven"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Vandeput" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vandeput" sense="Vandeput" spectype="deeleigen" word="Vandeput"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,fixed([svp_pp(onder,vuur)],no_passive))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="liggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lig" sc="fixed([svp_pp(onder,vuur)],no_passive)" sense="onder-vuur-lig" stype="declarative" tense="present" word="ligt" wvorm="pv"/>
+      <node begin="4" end="5" frame="adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" sense="opnieuw" word="opnieuw"/>
+      <node begin="5" cat="pp" end="7" id="9" rel="svp">
+        <node begin="5" end="6" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="10" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+        <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="vuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="vuur" sense="vuur" word="vuur"/>
+      </node>
+    </node>
+    <node begin="7" end="8" frame="punct(punt)" his="normal" his_1="normal" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Defensieminister Steven Vandeput ligt opnieuw onder vuur .</sentence>
+  <comments>
+    <comment>Q#3|Defensieminister Steven Vandeput ligt opnieuw onder vuur .|1|1|-4.916952188229999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,540 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_8",
+                        "entity_2"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_2",
+                        "event_4"
+                    ],
+                    "coref_bucket_4": [
+                        "event_1",
+                        "event_3"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Erdogan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Erdogan",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "cartoonist",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            3,
+                            4
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Nederlands-Limburgse cartoonist",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    3
+                                ]
+                            },
+                            "string": "Nederlands-Limburgse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            3
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Nederlands-Limburgse",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    10
+                                ]
+                            },
+                            "string": "Turkse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            10
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Turkse",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    12,
+                                    13,
+                                    14
+                                ]
+                            },
+                            "string": "Recep Tayyip Erdogan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            12,
+                            13,
+                            14
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Recep Tayyip Erdogan",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    17
+                                ]
+                            },
+                            "string": "Twitter",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            17
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Twitter",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    22
+                                ]
+                            },
+                            "string": "Maastrichtse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            22
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Maastrichtse",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    24,
+                                    25,
+                                    26
+                                ]
+                            },
+                            "string": "Ruben L. Oppenheimer",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            24,
+                            25,
+                            26
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Ruben L. Oppenheimer",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Author",
+                                    "span": [
+                                        3,
+                                        4
+                                    ]
+                                },
+                                "string": "Nederlands-Limburgse cartoonist"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "content",
+                                    "argument_role": "Content",
+                                    "span": [
+                                        2
+                                    ]
+                                },
+                                "string": "tekening"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Negative",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8
+                        ],
+                        "subtype": "Publication",
+                        "tense": "Present",
+                        "type": "Journalism"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Erdogan wil tekening Nederlands-Limburgse cartoonist van internet laten verdwijnen"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Erdogan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Erdogan wil tekening Nederlands-Limburgse cartoonist van internet laten verdwijnen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Author",
+                                    "span": [
+                                        24,
+                                        25,
+                                        26
+                                    ]
+                                },
+                                "string": "Ruben L. Oppenheimer"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "content",
+                                    "argument_role": "Content",
+                                    "span": [
+                                        18,
+                                        19
+                                    ]
+                                },
+                                "string": "een cartoon"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Negative",
+                        "prominence": "Main",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27
+                        ],
+                        "subtype": "Publication",
+                        "tense": "Present",
+                        "type": "Journalism"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Turkse president Recep Tayyip Erdogan eist dat Twitter een cartoon van de Maastrichtse cartoonist Ruben L. Oppenheimer verwijdert"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        17
+                                    ]
+                                },
+                                "string": "Twitter"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        12,
+                                        13,
+                                        14
+                                    ]
+                                },
+                                "string": "Recep Tayyip Erdogan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Turkse president Recep Tayyip Erdogan eist dat Twitter een cartoon van de Maastrichtse cartoonist Ruben L. Oppenheimer verwijdert"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000610",
+                            "heads of state"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": [
+                    [
+                        [
+                            "medtop:20001132",
+                            "cultural policies"
+                        ],
+                        [
+                            "medtop:20000621",
+                            "government policy"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000814",
+                            "ethics"
+                        ],
+                        [
+                            "medtop:20000808",
+                            "values"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ]
+                ]
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+        ],
+        "token_string": "Erdogan wil tekening Nederlands-Limburgse cartoonist van internet laten verdwijnen De Turkse president Recep Tayyip Erdogan eist dat Twitter een cartoon van de Maastrichtse cartoonist Ruben L. Oppenheimer verwijdert ."
+    },
+    "meta": {
+        "author": "eventdna_anno_4",
+        "id": "eventdna_31"
+    }
+}

@@ -1,0 +1,46 @@
+Europa	Europa	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+schiet	schieten	WW(pv,tgw,ev)	B-VP	O
+Brits	Brits	ADJ(prenom,basis,zonder)	B-NP	B-LOC
+voorstel	voorstel	N(soort,ev,basis,onz,stan)	I-NP	O
+over	over	VZ(init)	B-PP	O
+douane	douane	N(soort,ev,basis,zijd,stan)	B-NP	O
+af	af	VZ(fin)	O	O
+				
+Meerderheid	meerderheid	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+Britten	Brit	N(soort,mv,basis)	I-NP	I-MISC
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+nieuw	nieuw	ADJ(prenom,basis,zonder)	B-NP	O
+Brexit-referendum	brexit-referendum	N(soort,ev,basis,onz,stan)	I-NP	B-MISC
+				
+Michel	Michel	SPEC(deeleigen)	B-NP	B-PER
+Barnier	Barnier	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+de	de	LID(bep)	B-NP	O
+EU-onderhandelaar	EU-onderhandelaar	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Brexit	Brexit	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+,	,	LET()	O	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+het	het	LID(bep)	B-NP	O
+voorstel	voorstel	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Britse	Brits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+premier	premier	N(soort,ev,basis,zijd,stan)	I-NP	O
+Theresa	Theresa	SPEC(deeleigen)	I-NP	B-PER
+May	May	SPEC(deeleigen)	I-NP	I-PER
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+douane­afspraken	douane­afspraak	N(soort,mv,basis)	I-NP	O
+tussen	tussen	VZ(init)	B-PP	O
+Londen	Londen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+de	de	LID(bep)	B-NP	O
+EU	EU	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+na	na	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Brexit	Brexit	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+afgewezen	afwijzen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="2" infl="pl_num" lcat="detp" lemma="20.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="20.000" sense="20.000" special="hoofd" word="20.000"/>
+      <node begin="1" end="2" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="3" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="euro" sense="euro" special="meas_mod" word="euro"/>
+      <node begin="2" cat="pp" end="9" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="np" end="9" id="6" rel="obj1">
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(stof)" graad="basis" his="normal" his_1="normal" id="7" infl="stof" lcat="ap" lemma="gouden" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gouden" sense="gouden" vform="adj" word="gouden"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="tip" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tip" sense="tip" word="tip"/>
+          <node begin="5" cat="pp" end="9" id="9" rel="mod">
+            <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" cat="np" end="9" id="11" rel="obj1">
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="moord_zaak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="moord_zaak" sense="moord_zaak" word="moordzaak"/>
+              <node begin="7" cat="mwu" end="9" his="name" his_1="not_begin" id="13" mwu_root="Antwerpse drugscrimineel" mwu_sense="Antwerpse drugscrimineel" rel="app">
+                <node begin="7" end="8" frame="proper_name(both)" id="14" lcat="np" lemma="Antwerpse" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Antwerpse" sense="Antwerpse" spectype="deeleigen" word="Antwerpse"/>
+                <node begin="8" end="9" frame="proper_name(both)" id="15" lcat="np" lemma="drugscrimineel" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="drugscrimineel" sense="drugscrimineel" spectype="deeleigen" word="drugscrimineel"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">20.000 euro voor gouden tip in moordzaak Antwerpse drugscrimineel</sentence>
+  <comments>
+    <comment>Q#1|20.000 euro voor gouden tip in moordzaak Antwerpse drugscrimineel|1|1|2.947542108039998</comment>
+  </comments>
+</alpino_ds>

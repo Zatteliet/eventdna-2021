@@ -1,0 +1,56 @@
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+probeerde	proberen	WW(pv,verl,ev)	B-VP	O
+Mueller	Mueller	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+in	in	VZ(init)	B-PP	O
+juni	juni	N(eigen,ev,basis,zijd,stan)	B-NP	O
+te	te	VZ(init)	B-VP	O
+ontslaan	ontslaan	WW(inf,vrij,zonder)	I-VP	O
+				
+Amerikaans	Amerikaans	ADJ(prenom,basis,zonder)	B-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Donald	Donald	SPEC(deeleigen)	I-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+geprobeerd	proberen	WW(vd,vrij,zonder)	I-VP	O
+om	om	VZ(init)	B-PP	O
+speciaal	speciaal	ADJ(prenom,basis,zonder)	B-NP	O
+aanklager	aanklager	N(soort,ev,basis,zijd,stan)	I-NP	O
+Robert	Robert	SPEC(deeleigen)	I-NP	B-PER
+Mueller	Mueller	SPEC(deeleigen)	I-NP	I-PER
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+zomer	zomer	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+ontslaan	ontslaan	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+krabbelde	krabbelen	WW(pv,verl,ev)	B-VP	O
+terug	terug	BW()	B-ADVP	O
+toen	toen	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+advocaat	advocaat	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Witte	wit	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Huis	huis	N(soort,ev,basis,onz,stan)	I-NP	I-LOC
+,	,	LET()	O	O
+Donald	Donald	SPEC(deeleigen)	B-NP	B-PER
+McGahn	McGahn	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+zelf	zelf	BW()	B-ADVP	O
+met	met	VZ(init)	O	O
+opstappen	opstappen	WW(inf,vrij,zonder)	B-VP	O
+dreigde	dreigen	WW(pv,verl,ev)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,det)	B-NP	O
+bericht	bericht	N(soort,ev,basis,onz,stan)	I-NP	O
+de	de	LID(bep)	B-NP	O
+New	New	SPEC(deeleigen)	I-NP	B-PRO
+York	York	SPEC(deeleigen)	I-NP	I-PRO
+Times	Times	SPEC(deeleigen)	I-NP	I-PRO
+donderdag	donderdag	N(eigen,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

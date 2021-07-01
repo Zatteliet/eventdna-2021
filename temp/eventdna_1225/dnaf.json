@@ -1,0 +1,574 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_3",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_5",
+                        "entity_7",
+                        "entity_2"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_8",
+                        "entity_4"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_4": [
+                        "event_2",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Russische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Russische",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "Zeebrugge",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            4
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Zeebrugge",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6
+                                ]
+                            },
+                            "string": "Russische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Russische",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    14
+                                ]
+                            },
+                            "string": "Seafront",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            14
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Seafront",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "Zeebrugge",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Zeebrugge",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    35,
+                                    36
+                                ]
+                            },
+                            "string": "Albert II-dok",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            35,
+                            36
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Albert II-dok",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    45
+                                ]
+                            },
+                            "string": "Zeebrugse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            45
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Zeebrugse",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    59
+                                ]
+                            },
+                            "string": "Seafront",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            59
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Seafront",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "string": "Russische onderzee\u00ebr"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Origin",
+                                    "span": [
+                                        4
+                                    ]
+                                },
+                                "string": "Zeebrugge"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "subtype": "TransportArtifact",
+                        "tense": "Present",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Russische onderzee\u00ebr verdwijnt uit Zeebrugge"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        19
+                                    ]
+                                },
+                                "string": "2019"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        9,
+                                        10,
+                                        11,
+                                        12,
+                                        13,
+                                        14
+                                    ]
+                                },
+                                "string": "De Russische onderzee\u00ebr die deel uitmaakt van het museum Seafront"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Origin",
+                                    "span": [
+                                        16
+                                    ]
+                                },
+                                "string": "Zeebrugge"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19
+                        ],
+                        "subtype": "TransportArtifact",
+                        "tense": "Future",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Russische onderzee\u00ebr die deel uitmaakt van het museum Seafront in Zeebrugge verdwijnt in 2019"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        21,
+                                        22
+                                    ]
+                                },
+                                "string": "De duikboot"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "Albert II-dok"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De duikboot rust , en vooral roest , al ruim twintig jaar in het Albert II-dok"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Negative",
+                        "prominence": "Background",
+                        "span": [
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55,
+                            56
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Conservering in het water blijkt niet langer mogelijk"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000601",
+                            "military equipment"
+                        ],
+                        [
+                            "medtop:20000598",
+                            "defence"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60
+        ],
+        "token_string": "Russische onderzee\u00ebr verdwijnt uit Zeebrugge De Russische onderzee\u00ebr die deel uitmaakt van het museum Seafront in Zeebrugge verdwijnt in 2019 . De duikboot rust , en vooral roest , al ruim twintig jaar in het Albert II-dok en was zo stilaan een icoon in het Zeebrugse straatbeeld geworden . Conservering in het water blijkt niet langer mogelijk , meldt Seafront ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_1225"
+    }
+}

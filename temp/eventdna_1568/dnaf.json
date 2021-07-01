@@ -1,0 +1,524 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_7",
+                        "entity_3"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_4",
+                        "entity_2"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_1",
+                        "event_3",
+                        "event_2"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Dievenbende",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Dievenbende",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "nieuwbouwproject",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            2
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "nieuwbouwproject",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    10
+                                ]
+                            },
+                            "string": "Dieven",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            10
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Dieven",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "nieuwbouwproject",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een nieuwbouwproject aan de Oudebaan in Ekeren",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    26
+                                ]
+                            },
+                            "string": "Oudebaan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            26
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Oudebaan",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    28
+                                ]
+                            },
+                            "string": "Ekeren",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            28
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Ekeren",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    30
+                                ]
+                            },
+                            "string": "Ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            30
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Ze",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        2
+                                    ]
+                                },
+                                "string": "nieuwbouwproject"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Beneficiary",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Dievenbende"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Present",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Dievenbende rooft nieuwbouwproject leeg"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        4
+                                    ]
+                                },
+                                "string": "Verwarmingsketels"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        6
+                                    ]
+                                },
+                                "string": "toestellen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        8
+                                    ]
+                                },
+                                "string": "kranen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Unspecified",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Verwarmingsketels , toestellen en kranen gestolen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        22,
+                                        23,
+                                        24,
+                                        25,
+                                        26,
+                                        27,
+                                        28
+                                    ]
+                                },
+                                "string": "een nieuwbouwproject aan de Oudebaan in Ekeren"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        19
+                                    ]
+                                },
+                                "string": "kranen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        15
+                                    ]
+                                },
+                                "string": "keukentoestellen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        10
+                                    ]
+                                },
+                                "string": "Dieven"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        17
+                                    ]
+                                },
+                                "string": "douchekoppen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        13
+                                    ]
+                                },
+                                "string": "verwarmingsketels"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Past",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Dieven hebben verschillende verwarmingsketels , keukentoestellen , douchekoppen en kranen gestolen in een nieuwbouwproject aan de Oudebaan in Ekeren"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000104",
+                            "theft"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000101",
+                            "organised crime"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+        ],
+        "token_string": "Dievenbende rooft nieuwbouwproject leeg Verwarmingsketels , toestellen en kranen gestolen Dieven hebben verschillende verwarmingsketels , keukentoestellen , douchekoppen en kranen gestolen in een nieuwbouwproject aan de Oudebaan in Ekeren . Ze gingen heel professioneel te werk , klinkt het ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_1568"
+    }
+}

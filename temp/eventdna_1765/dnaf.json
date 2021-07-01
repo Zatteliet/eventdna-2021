@@ -1,0 +1,526 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_3",
+                        "entity_5",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_4",
+                        "entity_2"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_2",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Ryanair",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Ryanair",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5
+                                ]
+                            },
+                            "string": "piloten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            5
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "piloten",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    11
+                                ]
+                            },
+                            "string": "Ryanair",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            11
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Ryanair",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    32
+                                ]
+                            },
+                            "string": "piloten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            31,
+                            32
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zijn piloten",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    36
+                                ]
+                            },
+                            "string": "budgetmaatschappij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            34,
+                            35,
+                            36
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De Ierse budgetmaatschappij",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    35
+                                ]
+                            },
+                            "string": "Ierse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            35
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Ierse",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Ryanair"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        5
+                                    ]
+                                },
+                                "string": "piloten"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Ryanair verwacht dat conflict met piloten nog niet voorbij is"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        31,
+                                        32
+                                    ]
+                                },
+                                "string": "zijn piloten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        11
+                                    ]
+                                },
+                                "string": "Ryanair"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        15,
+                                        16,
+                                        17,
+                                        18,
+                                        19,
+                                        20
+                                    ]
+                                },
+                                "string": "de rest van zijn lopende boekjaar"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Prijsvechter Ryanair houdt ook in de rest van zijn lopende boekjaar rekening met verstoringen als gevolg van een slepende ruzie met zijn piloten"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        34,
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "De Ierse budgetmaatschappij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        45,
+                                        46,
+                                        47
+                                    ]
+                                },
+                                "string": "het hele boekjaar"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De Ierse budgetmaatschappij handhaafde desondanks haar verwachting voor de winst in het hele boekjaar"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000529",
+                            "labour dispute"
+                        ],
+                        [
+                            "medtop:20000524",
+                            "labour relations"
+                        ],
+                        [
+                            "medtop:09000000",
+                            "labour"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000512",
+                            "employee"
+                        ],
+                        [
+                            "medtop:20000509",
+                            "employment"
+                        ],
+                        [
+                            "medtop:09000000",
+                            "labour"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000513",
+                            "employer"
+                        ],
+                        [
+                            "medtop:20000509",
+                            "employment"
+                        ],
+                        [
+                            "medtop:09000000",
+                            "labour"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000338",
+                            "air transport"
+                        ],
+                        [
+                            "medtop:20000337",
+                            "transport"
+                        ],
+                        [
+                            "medtop:20000209",
+                            "economic sector"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48
+        ],
+        "token_string": "Ryanair verwacht dat conflict met piloten nog niet voorbij is Prijsvechter Ryanair houdt ook in de rest van zijn lopende boekjaar rekening met verstoringen als gevolg van een slepende ruzie met zijn piloten . De Ierse budgetmaatschappij handhaafde desondanks haar verwachting voor de winst in het hele boekjaar ."
+    },
+    "meta": {
+        "author": "eventdna_anno_4",
+        "id": "eventdna_1765"
+    }
+}

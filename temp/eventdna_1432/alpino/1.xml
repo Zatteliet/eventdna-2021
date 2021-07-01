@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="ppart" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="obj1">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ap" lemma="voormalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="Voormalige"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="4" lcat="np" lemma="Trump_adviseur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Trump_adviseur" sense="Trump_adviseur" word="Trump-adviseur"/>
+      </node>
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,np_pc_pp(tot))" his="normal" his_1="normal" id="5" infl="psp" lcat="ppart" lemma="veroordelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroordeel" sc="np_pc_pp(tot)" sense="veroordeel-tot" word="veroordeeld" wvorm="vd"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="9" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+          <node begin="5" end="6" frame="tmp_noun(de,count,pl,measure)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="week" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="week" sc="measure" sense="week" special="tmp" word="weken"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="cel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="cel" sense="cel" word="cel"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Voormalige Trump-adviseur veroordeeld tot twee weken cel</sentence>
+  <comments>
+    <comment>Q#1|Voormalige Trump-adviseur veroordeeld tot twee weken cel|1|1|-1.7301867826299997</comment>
+  </comments>
+</alpino_ds>

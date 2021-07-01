@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="np" end="7" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Diana Krall" mwu_sense="Diana Krall" rel="hd">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Diana" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Diana" sense="Diana" spectype="deeleigen" word="Diana"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Krall" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Krall" sense="Krall" spectype="deeleigen" word="Krall"/>
+      </node>
+      <node begin="2" cat="pp" end="7" id="5" rel="mod">
+        <node begin="2" end="3" frame="preposition(achter,[aan,door,langs,om,uit,vandaan])" his="normal" his_1="normal" id="6" lcat="pp" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" sense="achter" vztype="init" word="achter"/>
+        <node begin="3" cat="np" end="7" id="7" rel="obj1">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="piano" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="piano" sense="piano" word="piano"/>
+          <node begin="5" cat="pp" end="7" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" end="7" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="12" lcat="np" lemma="Elisabethzaal" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Elisabethzaal" sense="Elisabethzaal" word="Elisabethzaal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Diana Krall achter de piano in Elisabethzaal</sentence>
+  <comments>
+    <comment>Q#1|Diana Krall achter de piano in Elisabethzaal|1|1|4.3745926608499985</comment>
+  </comments>
+</alpino_ds>

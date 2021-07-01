@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="speculatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="speculatie" sense="speculatie" word="Speculatie"/>
+      <node begin="1" cat="pp" end="9" id="3" rel="mod">
+        <node begin="1" end="2" frame="preposition(over,[heen])" his="normal" his_1="normal" id="4" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="2" cat="np" end="9" id="5" rel="obj1">
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="ontslag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ontslag" sense="ontslag" word="ontslag"/>
+          <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="7" mwu_root="Boris Johnson" mwu_sense="Boris Johnson" rel="app">
+            <node begin="3" end="4" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Boris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Boris" sense="Boris" spectype="deeleigen" word="Boris"/>
+            <node begin="4" end="5" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Johnson" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Johnson" sense="Johnson" spectype="deeleigen" word="Johnson"/>
+          </node>
+          <node begin="5" cat="pp" end="9" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(na,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+            <node begin="6" cat="np" end="9" id="12" rel="obj1">
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="13" lcat="np" lemma="brexit_toespraak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="brexit_toespraak" sense="brexit_toespraak" word="brexit-toespraak"/>
+              <node begin="7" cat="mwu" end="9" his="name" his_1="not_begin" id="14" mwu_root="Theresa May" mwu_sense="Theresa May" rel="app">
+                <node begin="7" end="8" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Theresa" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theresa" sense="Theresa" spectype="deeleigen" word="Theresa"/>
+                <node begin="8" end="9" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="May" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="May" sense="May" spectype="deeleigen" word="May"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Speculatie over ontslag Boris Johnson na brexit-toespraak Theresa May</sentence>
+  <comments>
+    <comment>Q#1|Speculatie over ontslag Boris Johnson na brexit-toespraak Theresa May|1|1|1.6448989700799983</comment>
+  </comments>
+</alpino_ds>

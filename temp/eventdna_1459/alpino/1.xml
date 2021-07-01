@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+        <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Senaat" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Senaat" sense="Senaat" word="Senaat"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(voor))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="stemmen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stem" sc="pc_pp(voor)" sense="stem-voor" stype="declarative" tense="present" word="stemt" wvorm="pv"/>
+      <node begin="3" cat="ap" end="5" id="6" rel="mod">
+        <node begin="3" end="4" frame="sentence_adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sense="bijna" special="sentence" word="bijna"/>
+        <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="unaniem" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="unaniem" sense="unaniem" vform="adj" word="unaniem"/>
+      </node>
+      <node begin="5" cat="pp" end="9" id="9" rel="pc">
+        <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="6" cat="np" end="9" id="11" rel="obj1">
+          <node begin="6" end="7" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="behoud" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="behoud" sense="behoud" word="behoud"/>
+          <node begin="7" cat="pp" end="9" id="13" rel="mod">
+            <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="8" end="9" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="15" lcat="np" lemma="NAVO" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="NAVO" sense="NAVO" word="NAVO"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Amerikaanse Senaat stemt bijna unaniem voor behoud van NAVO</sentence>
+  <comments>
+    <comment>Q#1|Amerikaanse Senaat stemt bijna unaniem voor behoud van NAVO|1|1|-3.415375166569999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,55 @@
+Beruchte	berucht	ADJ(prenom,basis,met-e,stan)	B-NP	O
+sekteleider	sekteleider	N(soort,ev,basis,zijd,stan)	I-NP	O
+Charles	Charles	SPEC(deeleigen)	I-NP	B-PER
+Manson	Manson	SPEC(deeleigen)	I-NP	I-PER
+overleden	overlijden	WW(vd,vrij,zonder)	B-VP	O
+				
+De	de	LID(bep)	O	O
+tot	tot	VZ(init)	B-PP	O
+levenslang	levenslang	ADJ(vrij,basis,zonder)	B-NP	O
+veroordeelde	veroordelen	WW(vd,prenom,met-e)	I-NP	O
+massamoordenaar	massamoordenaar	N(soort,ev,basis,zijd,stan)	I-NP	O
+Charles	Charles	SPEC(deeleigen)	I-NP	B-PER
+Manson	Manson	SPEC(deeleigen)	I-NP	I-PER
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+overleden	overlijden	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+vroegere	vroeg	ADJ(prenom,comp,met-e,stan)	I-NP	O
+sekteleider	sekteleider	N(soort,ev,basis,zijd,stan)	I-NP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+voorbije	voorbij	ADJ(prenom,basis,met-e,stan)	I-NP	O
+maanden	maand	N(soort,mv,basis)	I-NP	O
+en	en	VG(neven)	O	O
+jaren	jaar	N(soort,mv,basis)	B-NP	O
+al	al	BW()	B-ADVP	O
+meermaals	meermaals	BW()	I-ADVP	O
+met	met	VZ(init)	B-PP	O
+gezondheidsproblemen	gezondheidsprobleem	N(soort,mv,basis)	B-NP	O
+opgenomen	opnemen	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ziekenhuis	ziekenhuis	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+83	83	TW(hoofd,prenom,stan)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+meldt	melden	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+zus	zus	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+bekendste	bekend	ADJ(prenom,sup,met-e,stan)	I-NP	O
+slachtoffer	slachtoffer	N(soort,ev,basis,onz,stan)	I-NP	O
+aan	aan	VZ(init)	B-PP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+media	media	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				

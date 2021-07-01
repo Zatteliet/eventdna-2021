@@ -1,0 +1,54 @@
+Met	met	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Brexit	Brexit	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+zou	zullen	WW(pv,verl,ev)	B-VP	O
+dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+een	een	LID(onbep)	B-NP	O
+rel	rel	N(soort,ev,basis,zijd,stan)	I-NP	O
+kunnen	kunnen	WW(inf,vrij,zonder)	B-VP	O
+veroorzaken	veroorzaken	WW(inf,vrij,zonder)	I-VP	O
+				
+Westhoek	westhoek	N(soort,ev,basis,onz,stan)	B-NP	O
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+EU-vlaggen	EU-vlag	N(soort,mv,basis)	I-NP	B-MISC
+plaatsen	plaatsen	WW(pv,tgw,mv)	B-VP	O
+bij	bij	VZ(init)	B-PP	O
+begraafplaatsen	begraafplaats	N(soort,mv,basis)	B-NP	O
+				
+Stefaan	Stefaan	SPEC(deeleigen)	B-NP	B-PER
+Decrock	Decrock	SPEC(deeleigen)	I-NP	I-PER
+riep	roepen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Westhoekburgemeesters	westhoekburgemeester	N(soort,mv,basis)	I-NP	B-MISC
+op	op	VZ(fin)	O	O
+om	om	VZ(init)	B-PP	O
+EU-vlaggen	EU-vlag	N(soort,mv,basis)	B-NP	B-MISC
+te	te	VZ(init)	B-VP	O
+hangen	hangen	WW(inf,vrij,zonder)	I-VP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+oorlogsbegraafplaatsen	oorlogsbegraafplaats	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+idee	idee	N(soort,ev,basis,onz,stan)	I-NP	O
+dat	dat	VNW(betr,pron,3,ev)	B-NP	O
+steun	steun	N(soort,ev,basis,zijd,stan)	I-NP	O
+vindt	vinden	WW(pv,tgw,met-t)	B-VP	O
+bij	bij	VZ(init)	B-PP	O
+Roeselaars	Roeselaar	N(eigen,ev,basis,gen)	B-NP	B-LOC
+Europarlementslid	europarlementslid	N(soort,ev,basis,onz,stan)	I-NP	B-MISC
+Vandenkendelaere	Vandenkendelaere	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+en	en	VG(neven)	O	O
+de	de	LID(bep)	B-NP	O
+Duitse	Duits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+ambassadeur	ambassadeur	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+niet	niet	BW()	B-ADVP	O
+bij	bij	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Westhoekoverleg	westhoekoverleg	N(soort,ev,basis,onz,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				

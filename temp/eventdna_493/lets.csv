@@ -1,0 +1,44 @@
+18-jarige	18-jarig	ADJ(nom,basis,met-e,zonder-n,stan)	B-NP	O
+uit	uit	VZ(init)	B-PP	O
+SP.A-nest	SP.A-nest	N(eigen,ev,basis,onz,stan)	B-NP	B-MISC
+komt	komen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(fin)	O	O
+voor	voor	VZ(init)	B-PP	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+				
+Laura	Laura	SPEC(deeleigen)	B-NP	B-PER
+Adriaenssens	Adriaenssens	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+18	18	TW(hoofd,vrij)	B-NP	O
+)	)	LET()	O	O
+stapt	stappen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	B-PP	O
+14	14	TW(hoofd,vrij)	B-NP	O
+oktober	oktober	N(eigen,ev,basis,zijd,stan)	I-NP	O
+vanop	vanop	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+tweede	twee	TW(rang,prenom,stan)	I-NP	O
+plaats	plaats	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+N-VA-lijst	N-VA-lijst	N(eigen,ev,basis,zijd,stan)	I-NP	B-MISC
+naar	naar	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+polderkiezer	polderkiezer	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Meteen	meteen	BW()	B-ADVP	O
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+ze	ze	VNW(pers,pron,3,ev,fem)	B-NP	O
+de	de	LID(bep)	B-NP	O
+jongste	jong	ADJ(prenom,sup,met-e,stan)	I-NP	O
+kandidaat	kandidaat	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+verkiesbare	verkiesbaar	ADJ(prenom,basis,met-e,stan)	I-NP	O
+plaats	plaats	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+district	district	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,568 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_2"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_7",
+                        "entity_3"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_8",
+                        "entity_4"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_4": [
+                        "event_3",
+                        "event_1"
+                    ],
+                    "coref_bucket_5": [
+                        "event_2",
+                        "event_4"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5
+                                ]
+                            },
+                            "string": "aarde",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            4,
+                            5
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "de aarde",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    7
+                                ]
+                            },
+                            "string": "Japan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            7
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Japan",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    9
+                                ]
+                            },
+                            "string": "tsunami",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            9
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "tsunami",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    14
+                                ]
+                            },
+                            "string": "Fukushima",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            14
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Fukushima",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "Japan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Japan",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    25
+                                ]
+                            },
+                            "string": "aardbeving",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            24,
+                            25
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de aardbeving",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    28
+                                ]
+                            },
+                            "string": "tsunami",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "tsunami , die op 11 maart 2011 ook leidden tot de kernramp van Fukushima",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    41
+                                ]
+                            },
+                            "string": "Fukushima",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            41
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Fukushima",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        7
+                                    ]
+                                },
+                                "string": "Japan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Japan herdenkt tsunami en nucleaire ramp van Fukushima"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        14
+                                    ]
+                                },
+                                "string": "Fukushima"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "nucleaire ramp van Fukushima"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        18
+                                    ]
+                                },
+                                "string": "zondag"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        16
+                                    ]
+                                },
+                                "string": "Japan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "In Japan zijn zondag de duizenden slachtoffers herdacht van de aardbeving en daaropvolgende tsunami , die op 11 maart 2011 ook leidden tot de kernramp van Fukushima"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        41
+                                    ]
+                                },
+                                "string": "Fukushima"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            38,
+                            39,
+                            40,
+                            41
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de kernramp van Fukushima"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000153",
+                            "earthquake"
+                        ],
+                        [
+                            "medtop:20000151",
+                            "natural disaster"
+                        ],
+                        [
+                            "medtop:20000148",
+                            "disaster"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000154",
+                            "flood"
+                        ],
+                        [
+                            "medtop:20000151",
+                            "natural disaster"
+                        ],
+                        [
+                            "medtop:20000148",
+                            "disaster"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+        ],
+        "token_string": "Zeven jaar geleden beefde de aarde : Japan herdenkt tsunami en nucleaire ramp van Fukushima In Japan zijn zondag de duizenden slachtoffers herdacht van de aardbeving en daaropvolgende tsunami , die op 11 maart 2011 ook leidden tot de kernramp van Fukushima . Om 14.46 uur lokale tijd werd op vele plaatsen een minuut stilte in acht genomen ."
+    },
+    "meta": {
+        "author": "eventdna_anno_3",
+        "id": "eventdna_1671"
+    }
+}

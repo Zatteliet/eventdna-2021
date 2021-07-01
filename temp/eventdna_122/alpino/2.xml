@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(ligg_streep)" his="normal" his_1="normal" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="9" end="10" frame="punct(ligg_streep)" his="normal" his_1="normal" id="2" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="15" end="16" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="30" id="4" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="5" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="Het"/>
+      <node begin="1" end="2" frame="verb(unacc,past(sg),copula)" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="7" rel="predc">
+        <node begin="2" end="3" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="veelzeggend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="veelzeggend" sense="veelzeggend" vform="adj" word="veelzeggende"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="opmerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opmerking" sense="opmerking" word="opmerking"/>
+      </node>
+      <node begin="6" cat="np" end="9" id="11" rel="mod">
+        <node begin="6" end="7" frame="modal_adverb(adv_noun_prep)" his="normal" his_1="normal" id="12" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna" word="bijna"/>
+        <node begin="7" end="8" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="vermaning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vermaning" sense="vermaning" word="vermaning"/>
+      </node>
+      <node begin="10" cat="pp" end="15" id="15" rel="mod">
+        <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="11" cat="mwu" end="15" his="name" his_1="not_begin" id="17" mwu_root="Europees Parlementsvoorzitter Antonio Tajani" mwu_sense="Europees Parlementsvoorzitter Antonio Tajani" rel="obj1">
+          <node begin="11" end="12" frame="proper_name(both,'ORG')" id="18" lcat="np" lemma="Europees" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europees" sense="Europees" spectype="deeleigen" word="Europees"/>
+          <node begin="12" end="13" frame="proper_name(both,'ORG')" id="19" lcat="np" lemma="Parlementsvoorzitter" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parlementsvoorzitter" sense="Parlementsvoorzitter" spectype="deeleigen" word="Parlementsvoorzitter"/>
+          <node begin="13" end="14" frame="proper_name(both,'ORG')" id="20" lcat="np" lemma="Antonio" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Antonio" sense="Antonio" spectype="deeleigen" word="Antonio"/>
+          <node begin="14" end="15" frame="proper_name(both,'ORG')" id="21" lcat="np" lemma="Tajani" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tajani" sense="Tajani" spectype="deeleigen" word="Tajani"/>
+        </node>
+      </node>
+      <node begin="16" end="17" frame="tmp_adverb" his="normal" his_1="normal" id="22" lcat="advp" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteren" sense="gisteren" special="tmp" word="gisteren"/>
+      <node begin="17" cat="pp" end="30" id="23" rel="mod">
+        <node begin="17" end="18" frame="preposition(tijdens,[])" his="normal" his_1="normal" id="24" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+        <node begin="18" cat="np" end="30" id="25" rel="obj1">
+          <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="26" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="19" end="20" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="debat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="debat" sense="debat" word="debat"/>
+          <node begin="20" cat="pp" end="30" id="28" rel="mod">
+            <node begin="20" end="21" frame="preposition(in,[])" his="normal" his_1="normal" id="29" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="21" cat="np" end="30" id="30" rel="obj1">
+              <node begin="21" buiging="zonder" end="22" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="31" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+              <node begin="22" end="23" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="halfrond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="halfrond" sense="halfrond" word="halfrond"/>
+              <node begin="23" cat="pp" end="30" id="33" rel="mod">
+                <node begin="23" end="24" frame="preposition(na,[])" his="normal" his_1="normal" id="34" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+                <node begin="24" cat="np" end="30" id="35" rel="obj1">
+                  <node begin="24" end="25" frame="determiner(de)" his="normal" his_1="normal" id="36" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="25" end="26" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="speech" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="speech" sense="speech" word="speech"/>
+                  <node begin="26" cat="pp" end="30" id="38" rel="mod">
+                    <node begin="26" end="27" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="39" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="27" cat="np" end="30" id="40" rel="obj1">
+                      <node begin="27" end="28" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="41" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+                      <node begin="28" cat="mwu" end="30" his="normal" his_1="names_dictionary" id="42" mwu_root="Charles Michel" mwu_sense="Charles Michel" rel="app">
+                        <node begin="28" end="29" frame="proper_name(sg,'PER')" id="43" lcat="np" lemma="Charles" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Charles" sense="Charles" spectype="deeleigen" word="Charles"/>
+                        <node begin="29" end="30" frame="proper_name(sg,'PER')" id="44" lcat="np" lemma="Michel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Michel" sense="Michel" spectype="deeleigen" word="Michel"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" his="normal" his_1="normal" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Het was een veelzeggende opmerking - bijna een vermaning - van Europees Parlementsvoorzitter Antonio Tajani , gisteren tijdens het debat in zijn halfrond na de speech van premier Charles Michel .</sentence>
+  <comments>
+    <comment>Q#2|Het was een veelzeggende opmerking - bijna een vermaning - van Europees Parlementsvoorzitter Antonio Tajani , gisteren tijdens het debat in zijn halfrond na de speech van premier Charles Michel .|1|1|2.0138903685400122</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="Michel" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Michel" sense="Michel" word="Michel"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" end="3" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="5" lcat="np" lemma="Francken" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Francken" sense="Francken" word="Francken"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,pl,part_transitive(op))" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="op_schorten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="schort_op" sc="part_transitive(op)" sense="schort_op" stype="declarative" tense="present" word="schorten" wvorm="pv"/>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="vlucht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vlucht" sense="vlucht" word="vlucht"/>
+        <node begin="5" cat="pp" end="7" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="Soedanees" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Soedanees" sense="Soedanees" word="Soedanees"/>
+        </node>
+      </node>
+      <node begin="7" cat="mwu" end="10" his="normal" his_1="normal" id="12" mwu_root="te elfder ure" mwu_sense="te elfder ure" rel="mod">
+        <node begin="7" end="8" frame="adverb" id="13" lcat="advp" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mwp" root="te" sense="te" word="te"/>
+        <node begin="8" end="9" frame="adverb" id="14" lcat="advp" lemma="elfder" pos="adv" postag="BW()" pt="bw" rel="mwp" root="elfder" sense="elfder" word="elfder"/>
+        <node begin="9" end="10" frame="adverb" id="15" lcat="advp" lemma="ure" pos="adv" postag="BW()" pt="bw" rel="mwp" root="ure" sense="ure" word="ure"/>
+      </node>
+      <node begin="10" end="11" frame="particle(op)" his="normal" his_1="normal" id="16" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+  </node>
+  <sentence sentid="1">Michel en Francken schorten vlucht met Soedanees te elfder ure op</sentence>
+  <comments>
+    <comment>Q#1|Michel en Francken schorten vlucht met Soedanees te elfder ure op|1|1|0.6930238225800007</comment>
+  </comments>
+</alpino_ds>

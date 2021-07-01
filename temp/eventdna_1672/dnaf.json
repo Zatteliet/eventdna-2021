@@ -1,0 +1,370 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_6",
+                        "entity_4"
+                    ]
+                },
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    1
+                                ]
+                            },
+                            "string": "Afrikaans",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            1
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Afrikaans",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    3
+                                ]
+                            },
+                            "string": "Lufthansa",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            3
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Lufthansa",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5,
+                                    6
+                                ]
+                            },
+                            "string": "Brussels Airlines",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            5,
+                            6
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Brussels Airlines",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    8
+                                ]
+                            },
+                            "string": "hun",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            8
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "hun",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    11
+                                ]
+                            },
+                            "string": "Afrika",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            11
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Afrika",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    26
+                                ]
+                            },
+                            "string": "luchtvaart\u00admaatschappijen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            25,
+                            26
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de luchtvaart\u00admaatschappijen",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        3
+                                    ]
+                                },
+                                "string": "Lufthansa"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        5,
+                                        6
+                                    ]
+                                },
+                                "string": "Brussels Airlines"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        11
+                                    ]
+                                },
+                                "string": "Afrika"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Lufthansa en Brussels Airlines bundelen hun krachten in Afrika"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        25,
+                                        26
+                                    ]
+                                },
+                                "string": "de luchtvaart\u00admaatschappijen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "het almaar hechter wordende huwelijk tussen de luchtvaart\u00admaatschappijen"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000338",
+                            "air transport"
+                        ],
+                        [
+                            "medtop:20000337",
+                            "transport"
+                        ],
+                        [
+                            "medtop:20000209",
+                            "economic sector"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ]
+                ],
+                "uncertain": [
+                    [
+                        [
+                            "medtop:20000200",
+                            "joint venture"
+                        ],
+                        [
+                            "medtop:20000192",
+                            "strategy and marketing"
+                        ],
+                        [
+                            "medtop:20000170",
+                            "business information"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ]
+                ]
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27
+        ],
+        "token_string": "Een Afrikaans huwelijk Lufthansa en Brussels Airlines bundelen hun krachten in Afrika . Het is een volgende stap in het almaar hechter wordende huwelijk tussen de luchtvaart\u00admaatschappijen ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_1672"
+    }
+}

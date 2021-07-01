@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="du" end="7" id="3" rel="dp">
+        <node begin="0" cat="np" end="2" id="4" rel="dp">
+          <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(ge_both(adv))" his="normal" his_1="decap" his_1_1="normal" id="5" infl="both" lcat="ppart" lemma="gewezen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gewezen" sense="gewezen" vform="psp" word="Gewezen" wvorm="vd"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="campagne_leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="campagne_leider" sense="campagne_leider" word="campagneleider"/>
+        </node>
+        <node begin="2" cat="ppart" end="7" id="7" rel="dp">
+          <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="8" infl="no_e" lcat="ppart" lemma="veroordeeld" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroordeeld" sense="veroordeeld" vform="psp" word="veroordeeld" wvorm="vd"/>
+          <node begin="3" cat="pp" end="7" id="9" rel="mod">
+            <node begin="3" end="4" frame="preposition(wegens,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="wegens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="wegens" sense="wegens" vztype="init" word="wegens"/>
+            <node begin="4" cat="conj" end="7" id="11" rel="obj1">
+              <node begin="4" end="5" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="oplichting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="oplichting" sense="oplichting" word="oplichting"/>
+              <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="belasting_ontduiking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="belasting_ontduiking" sense="belasting_ontduiking" word="belastingontduiking"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="du" end="11" id="15" rel="dp">
+        <node begin="8" end="9" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="16" lcat="np" lemma="Trump" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="Trump" sense="Trump" word="Trump"/>
+        <node begin="9" cat="ap" end="11" id="17" rel="dp">
+          <node begin="9" end="10" frame="adverb" his="normal" his_1="normal" id="18" lcat="advp" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" sense="zeer" word="zeer"/>
+          <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="19" infl="no_e" lcat="ap" lemma="triest" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="triest" sense="triest" vform="adj" word="triest"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Gewezen campagneleider veroordeeld wegens oplichting en belastingontduiking , Trump zeer triest</sentence>
+  <comments>
+    <comment>Q#1|Gewezen campagneleider veroordeeld wegens oplichting en belastingontduiking , Trump zeer triest|1|1|1.2479660345700077</comment>
+  </comments>
+</alpino_ds>

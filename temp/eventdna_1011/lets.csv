@@ -1,0 +1,40 @@
+Vlaanderen	Vlaanderen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+flagrant	flagrant	ADJ(vrij,basis,zonder)	B-AP	O
+de	de	LID(bep)	B-NP	O
+mist	mist	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(fin)	O	O
+met	met	VZ(init)	B-PP	O
+klimaatbeleid	klimaatbeleid	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Vlaanderen	Vlaanderen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+tegen	tegen	VZ(init)	B-PP	O
+2020	2020	TW(hoofd,vrij)	B-NP	O
+de	de	LID(bep)	B-NP	O
+uitstoot	uitstoot	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+broeikasgassen	broeikasgas	N(soort,mv,basis)	B-NP	O
+met	met	VZ(init)	B-PP	O
+15,7	15,7	TW(hoofd,prenom,stan)	B-NP	O
+procent	procent	N(soort,ev,basis,onz,stan)	I-NP	O
+reduceren	reduceren	WW(inf,vrij,zonder)	B-VP	O
+ten	te	VZ(versm)	B-NP	O
+opzichte	opzicht	N(soort,ev,basis,dat)	I-NP	O
+van	van	VZ(init)	B-PP	O
+2005	2005	TW(hoofd,vrij)	B-NP	O
+.	.	LET()	O	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+ziet	zien	WW(pv,tgw,met-t)	B-VP	O
+ernaar	ernaar	BW()	B-ADVP	O
+uit	uit	VZ(fin)	O	O
+dat	dat	VG(onder)	O	O
+we	we	VNW(pers,pron,1,mv)	B-NP	O
+stranden	stranden	WW(pv,tgw,mv)	B-VP	O
+op	op	VZ(init)	B-PP	O
+amper	amper	BW()	B-NP	O
+2	2	TW(hoofd,prenom,stan)	I-NP	O
+procent	procent	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

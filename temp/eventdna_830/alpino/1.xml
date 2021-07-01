@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="2" lcat="np" lemma="Puigdemont" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="Puigdemont" sense="Puigdemont" word="Puigdemont"/>
+      <node begin="1" cat="ppart" end="8" id="3" rel="dp">
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(ge_no_e(padv),pp(tot))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ppart" lemma="bereid" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bereid" sc="pp(tot)" sense="bereid-tot" vform="psp" word="bereid"/>
+        <node begin="2" cat="pp" end="8" id="5" rel="pc">
+          <node begin="2" end="3" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="3" cat="np" end="8" id="7" rel="obj1">
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="volledig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="volledig" sense="volledig" vform="adj" word="volledige"/>
+            <node begin="4" end="5" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="medewerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="medewerking" sense="medewerking" word="medewerking"/>
+            <node begin="5" cat="pp" end="8" id="10" rel="mod">
+              <node begin="5" end="6" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="6" cat="np" end="8" id="12" rel="obj1">
+                <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" sense="Belgisch" vform="adj" word="Belgische"/>
+                <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="justitie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="justitie" sense="justitie" word="justitie"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Puigdemont bereid tot volledige medewerking met Belgische justitie</sentence>
+  <comments>
+    <comment>Q#1|Puigdemont bereid tot volledige medewerking met Belgische justitie|1|1|1.2701944740599975</comment>
+  </comments>
+</alpino_ds>

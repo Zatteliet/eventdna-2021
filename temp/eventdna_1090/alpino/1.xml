@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="np" end="13" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" frame="modal_adverb" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="advp" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" sc="modal" sense="zeker" word="Zeker"/>
+      <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="3" infl="pl_num" lcat="detp" lemma="8" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="8" sense="8" special="hoofd" word="8"/>
+      <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="dode" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="dode" sense="dode" word="doden"/>
+      <node begin="3" cat="pp" end="13" id="5" rel="mod">
+        <node begin="3" end="4" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="6" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+        <node begin="4" cat="np" end="13" id="7" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="botsing" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="botsing" sense="botsing" word="botsing"/>
+          <node begin="5" cat="pp" end="13" id="9" rel="mod">
+            <node begin="5" end="6" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="10" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+            <node begin="6" cat="conj" end="13" id="11" rel="obj1">
+              <node begin="6" cat="np" end="9" id="12" rel="cnj">
+                <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="truck" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="truck" sense="truck" word="truck"/>
+                <node begin="7" cat="pp" end="9" id="14" rel="mod">
+                  <node begin="7" buiging="zonder" end="8" frame="preposition(vol,[])" graad="basis" his="normal" his_1="normal" id="15" lcat="pp" lemma="vol" pos="prep" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vol" sense="vol" word="vol"/>
+                  <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="16" lcat="np" lemma="seizoen_arbeider" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="seizoen_arbeider" sense="seizoen_arbeider" word="seizoensarbeiders"/>
+                </node>
+              </node>
+              <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="10" cat="np" end="13" id="18" rel="cnj">
+                <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="bestel_wagen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bestel_wagen" sense="bestel_wagen" word="bestelwagen"/>
+                <node begin="11" cat="pp" end="13" id="20" rel="mod">
+                  <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="12" end="13" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="22" lcat="np" lemma="Turkije" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Turkije" sense="Turkije" word="Turkije"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Zeker 8 doden bij botsing tussen truck vol seizoensarbeiders en bestelwagen in Turkije</sentence>
+  <comments>
+    <comment>Q#1|Zeker 8 doden bij botsing tussen truck vol seizoensarbeiders en bestelwagen in Turkije|1|1|-5.603811467890006</comment>
+  </comments>
+</alpino_ds>

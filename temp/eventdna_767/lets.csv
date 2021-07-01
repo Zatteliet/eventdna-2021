@@ -1,0 +1,32 @@
+Dodelijke	dodelijk	ADJ(prenom,basis,met-e,stan)	B-NP	O
+gijzeling	gijzeling	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+grootste	groot	ADJ(prenom,sup,met-e,stan)	B-NP	O
+veteranentehuis	veteranentehuis	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+VS	VS	N(eigen,mv,basis)	B-NP	B-LOC
+				
+In	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+staat	staat	N(soort,ev,basis,zijd,stan)	I-NP	O
+Californië	Californië	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+drie	drie	TW(hoofd,prenom,stan)	I-NP	O
+verzorgsters	verzorgster	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+veteranentehuis	veteranentehuis	N(soort,ev,basis,onz,stan)	I-NP	O
+gegijzeld	gijzelen	WW(vd,vrij,zonder)	B-VP	O
+en	en	VG(neven)	O	O
+gedood	doden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Daarna	daarna	BW()	B-ADVP	O
+doodde	doden	WW(pv,verl,ev)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	O	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	O	O
+.	.	LET()	O	O
+				

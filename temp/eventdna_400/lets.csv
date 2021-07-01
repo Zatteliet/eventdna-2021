@@ -1,0 +1,29 @@
+België	België	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+ontsnapt	ontsnappen	WW(pv,tgw,met-t)	B-VP	O
+aan	aan	VZ(init)	B-PP	O
+Europees	Europees	ADJ(prenom,basis,zonder)	B-NP	B-LOC
+strafbankje	strafbankje	N(soort,ev,dim,onz,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Europese	Europees	ADJ(prenom,basis,met-e,stan)	I-NP	B-ORG
+Commissie	commissie	N(soort,ev,basis,zijd,stan)	I-NP	I-ORG
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+dat	dat	VG(onder)	O	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+België	België	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+een	een	LID(onbep)	B-AP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-AP	O
+'	'	LET()	O	O
+tekortprocedure	tekortprocedure	N(soort,ev,basis,zijd,stan)	B-NP	O
+'	'	LET()	O	O
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+geopend	openen	WW(vd,vrij,zonder)	I-VP	O
+wegens	wegens	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+te	te	BW()	I-NP	O
+hoge	hoog	ADJ(prenom,basis,met-e,stan)	I-NP	O
+schuldgraad	schuldgraad	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

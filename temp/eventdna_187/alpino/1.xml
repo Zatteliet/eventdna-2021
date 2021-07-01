@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="ppart" end="9" id="3" rel="nucl">
+        <node begin="0" cat="np" end="4" id="4" rel="obj2">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" infl="e" lcat="ap" lemma="langverwacht" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="langverwacht" sense="langverwacht" vform="adj" word="Langverwachte"/>
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="audit" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="audit" sense="audit" word="audits"/>
+          <node begin="2" cat="pp" end="4" id="7" rel="mod">
+            <node begin="2" end="3" frame="preposition(over,[heen])" his="normal" his_1="normal" id="8" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="rol" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="rol" sense="rol" word="rol"/>
+          </node>
+        </node>
+        <node begin="4" cat="np" end="7" id="10" rel="obj1">
+          <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="leger" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="leger" sense="leger" word="leger"/>
+          <node begin="5" cat="pp" end="7" id="12" rel="mod">
+            <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="14" lcat="np" lemma="F-16_dossier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="F-16_dossier" sense="F-16_dossier" word="F-16-dossier"/>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="tmp_adverb" his="normal" his_1="normal" id="15" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="vandaag"/>
+        <node begin="8" buiging="zonder" end="9" frame="verb(hebben,psp,ninv(np_np,part_np_np(voor)))" his="normal" his_1="part-V" id="16" infl="psp" lcat="ppart" lemma="voor_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_voor" sc="part_np_np(voor)" sense="stel_voor" word="voorgesteld" wvorm="vd"/>
+      </node>
+      <node begin="10" cat="whsub" end="13" id="17" rel="sat">
+        <node begin="10" case="both" def="indef" end="11" frame="pronoun(ywh,thi,both,de,both,indef)" gen="de" getal="getal" his="normal" his_1="normal" id="18" index="1" lcat="np" lemma="wie" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="whd" rnum="sg" root="wie" sense="wie" status="vol" vwtype="vb" wh="ywh" word="wie"/>
+        <node begin="10" cat="ssub" end="13" id="19" rel="body">
+          <node begin="10" end="11" id="20" index="1" rel="su"/>
+          <node begin="11" end="12" frame="verb(hebben,past(sg),tr_sbar)" his="normal" his_1="normal" id="21" infl="sg" lcat="ssub" lemma="weten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="weet" sc="tr_sbar" sense="weet" tense="past" word="wist" wvorm="pv"/>
+          <node begin="12" case="both" def="indef" end="13" frame="pronoun(ywh,thi,sg,het,both,indef,nparg)" gen="het" getal="ev" his="normal" his_1="normal" id="22" lcat="np" lemma="wat" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="vc" rnum="sg" root="wat" sense="wat" special="nparg" status="vol" stype="whquestion" vwtype="vb" wh="ywh" word="wat"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(vraag)" his="normal" his_1="normal" id="23" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="1">Langverwachte audits over rol leger in F-16-dossier vandaag voorgesteld : wie wist wat ?</sentence>
+  <comments>
+    <comment>Q#1|Langverwachte audits over rol leger in F-16-dossier vandaag voorgesteld : wie wist wat ?|1|1|5.525200596120006</comment>
+  </comments>
+</alpino_ds>

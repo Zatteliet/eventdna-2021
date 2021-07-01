@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="koningin" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="koningin" sense="koningin" word="Koningin"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" cat="mwu" end="4" his="name" his_1="not_begin" id="5" mwu_root="De Croo" mwu_sense="De Croo" rel="cnj">
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Croo" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Croo" sense="Croo" spectype="deeleigen" word="Croo"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="bezoeken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bezoek" sc="transitive" sense="bezoek" stype="declarative" tense="present" word="bezoeken" wvorm="pv"/>
+      <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Ghana" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Ghana" sense="Ghana" word="Ghana"/>
+    </node>
+  </node>
+  <sentence sentid="1">Koningin en De Croo bezoeken Ghana</sentence>
+  <comments>
+    <comment>Q#1|Koningin en De Croo bezoeken Ghana|1|1|-0.38562306789000056</comment>
+  </comments>
+</alpino_ds>

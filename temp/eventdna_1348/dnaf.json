@@ -1,0 +1,1123 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_12",
+                        "entity_2"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_10",
+                        "entity_5",
+                        "entity_6"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_1",
+                        "entity_7",
+                        "entity_11"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_1",
+                        "entity_7",
+                        "entity_11",
+                        "entity_14"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_7",
+                        "entity_11",
+                        "entity_14"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_13",
+                        "entity_3"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_10": [
+                        "event_10",
+                        "event_1"
+                    ],
+                    "coref_bucket_7": [
+                        "event_3",
+                        "event_7"
+                    ],
+                    "coref_bucket_8": [
+                        "event_5",
+                        "event_6"
+                    ],
+                    "coref_bucket_9": [
+                        "event_8",
+                        "event_4"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Erdogan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Erdogan",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    54
+                                ]
+                            },
+                            "string": "Turkije",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            54
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Turkije",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    66
+                                ]
+                            },
+                            "string": "Erdogan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            66
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Erdogan",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    73,
+                                    74,
+                                    75
+                                ]
+                            },
+                            "string": "New York Times",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            73,
+                            74,
+                            75
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "New York Times",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    73,
+                                    74
+                                ]
+                            },
+                            "string": "New York",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            73,
+                            74
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "New York",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    77
+                                ]
+                            },
+                            "string": "Hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            77
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Hij",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    87
+                                ]
+                            },
+                            "string": "vrienden",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            86,
+                            87
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "nieuwe vrienden",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    89
+                                ]
+                            },
+                            "string": "bondgenoten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            89
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "bondgenoten",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5,
+                                    6,
+                                    7
+                                ]
+                            },
+                            "string": "New York Times",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            5,
+                            6,
+                            7
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "New York Times",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5,
+                                    6
+                                ]
+                            },
+                            "string": "New York",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            5,
+                            6
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "New York",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    9
+                                ]
+                            },
+                            "string": "Trump",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            9
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Trump",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    15
+                                ]
+                            },
+                            "string": "Turkse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            15
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Turkse",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    25
+                                ]
+                            },
+                            "string": "Turkse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            25
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Turkse",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    29,
+                                    30,
+                                    31
+                                ]
+                            },
+                            "string": "Recep Tayyip Erdogan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            29,
+                            30,
+                            31
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Recep Tayyip Erdogan",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    33,
+                                    34
+                                ]
+                            },
+                            "string": "Verenigde Staten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            33,
+                            34
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Verenigde Staten",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    50
+                                ]
+                            },
+                            "string": "regering-Trump",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            49,
+                            50
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "de regering-Trump",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "content",
+                                    "argument_role": "Content",
+                                    "span": [
+                                        4
+                                    ]
+                                },
+                                "string": "opiniestuk"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Author",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Erdogan"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Publisher",
+                                    "span": [
+                                        5,
+                                        6,
+                                        7
+                                    ]
+                                },
+                                "string": "New York Times"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Publication",
+                        "tense": "Present",
+                        "type": "Journalism"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Erdogan haalt uit in opiniestuk New York Times naar Trump"
+                },
+                "event_10": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        67
+                                    ]
+                                },
+                                "string": "vrijdagavond"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Author",
+                                    "span": [
+                                        66
+                                    ]
+                                },
+                                "string": "Erdogan"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "content",
+                                    "argument_role": "Content",
+                                    "span": [
+                                        70
+                                    ]
+                                },
+                                "string": "gastbijdrage"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Publisher",
+                                    "span": [
+                                        73,
+                                        74,
+                                        75
+                                    ]
+                                },
+                                "string": "New York Times"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            65,
+                            66,
+                            67,
+                            68,
+                            69,
+                            70,
+                            71,
+                            72,
+                            73,
+                            74,
+                            75
+                        ],
+                        "subtype": "Publication",
+                        "tense": "Past",
+                        "type": "Journalism"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "schreef Erdogan vrijdagavond in een gastbijdrage in de New York Times"
+                },
+                "event_11": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        77
+                                    ]
+                                },
+                                "string": "Hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        89
+                                    ]
+                                },
+                                "string": "bondgenoten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        86,
+                                        87
+                                    ]
+                                },
+                                "string": "nieuwe vrienden"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            77,
+                            78,
+                            79,
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            85,
+                            86,
+                            87,
+                            88,
+                            89
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Hij dreigt er anders mee te beginnen zoeken naar nieuwe vrienden en bondgenoten"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        9
+                                    ]
+                                },
+                                "string": "Trump"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Erdogan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Erdogan haalt uit in opiniestuk New York Times naar Trump"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "waarschuwt voor verdere escalatie"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            13,
+                            14
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "verdere escalatie"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            15,
+                            16,
+                            17,
+                            18,
+                            19
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Turkse lira in vrije val"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de koersval van de Turkse lira"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        29,
+                                        30,
+                                        31
+                                    ]
+                                },
+                                "string": "Recep Tayyip Erdogan"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        33,
+                                        34
+                                    ]
+                                },
+                                "string": "Verenigde Staten"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Past",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "heeft president Recep Tayyip Erdogan de Verenigde Staten , een NAVO-bondgenoot , bedreigd met een verdere escalatie van de crisis"
+                },
+                "event_8": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een verdere escalatie van de crisis"
+                },
+                "event_9": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            59,
+                            60
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "onze samenwerking"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000610",
+                            "heads of state"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000047",
+                            "newspaper"
+                        ],
+                        [
+                            "medtop:20000045",
+                            "mass media"
+                        ],
+                        [
+                            "medtop:01000000",
+                            "arts, culture, entertainment and media"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000355",
+                            "currency value"
+                        ],
+                        [
+                            "medtop:20000346",
+                            "macro economics"
+                        ],
+                        [
+                            "medtop:20000344",
+                            "economy"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90
+        ],
+        "token_string": "Erdogan haalt uit in opiniestuk New York Times naar Trump en waarschuwt voor verdere escalatie Turkse lira in vrije val Na de koersval van de Turkse lira heeft president Recep Tayyip Erdogan de Verenigde Staten , een NAVO-bondgenoot , bedreigd met een verdere escalatie van de crisis . Als de regering-Trump de soevereiniteit van Turkije niet respecteert , kan onze samenwerking in gevaar zijn , schreef Erdogan vrijdagavond in een gastbijdrage in de New York Times . Hij dreigt er anders mee te beginnen zoeken naar nieuwe vrienden en bondgenoten ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_1348"
+    }
+}

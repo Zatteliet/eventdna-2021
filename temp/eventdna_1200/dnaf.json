@@ -1,0 +1,454 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_3",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_6",
+                        "entity_2"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_2",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Politie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Politie",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    7
+                                ]
+                            },
+                            "string": "Avicii",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            7
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Avicii",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    31
+                                ]
+                            },
+                            "string": "politie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            30,
+                            31,
+                            32,
+                            33
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "de politie van Masqat",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    33
+                                ]
+                            },
+                            "string": "Masqat",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            33
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Masqat",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    38
+                                ]
+                            },
+                            "string": "Oman",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            38
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Oman",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    46
+                                ]
+                            },
+                            "string": "Avicii",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            46
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Avicii",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        7
+                                    ]
+                                },
+                                "string": "Avicii"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7
+                        ],
+                        "subtype": "Die",
+                        "tense": "Unspecified",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "onverwacht overlijden van 28-jarige top-dj Avicii"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        46
+                                    ]
+                                },
+                                "string": "Avicii"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        40
+                                    ]
+                                },
+                                "string": "vrijdag"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47,
+                            48
+                        ],
+                        "subtype": "Die",
+                        "tense": "Past",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "vrijdag het levenloze lichaam van top-dj Avicii werd aangetroffen"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000810",
+                            "death and dying"
+                        ],
+                        [
+                            "medtop:20000808",
+                            "values"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000505",
+                            "celebrity"
+                        ],
+                        [
+                            "medtop:20000504",
+                            "high-society"
+                        ],
+                        [
+                            "medtop:20000502",
+                            "people"
+                        ],
+                        [
+                            "medtop:08000000",
+                            "human interest"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70
+        ],
+        "token_string": "Politie na onverwacht overlijden van 28-jarige top-dj Avicii : Ons onderzoek is klaar . We weten wat er gebeurd is We gaan niet uit van kwaad opzet . Dat meldt de politie van Masqat , de hoofdstad van Oman waar vrijdag het levenloze lichaam van top-dj Avicii werd aangetroffen . We weten wat er gebeurd is . We kiezen er echter voor om het niet te verspreiden in de media ."
+    },
+    "meta": {
+        "author": "eventdna_anno_3",
+        "id": "eventdna_1200"
+    }
+}

@@ -1,0 +1,1210 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_8",
+                        "entity_3"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_1",
+                        "entity_9"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_10",
+                        "entity_2"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_15",
+                        "entity_4",
+                        "entity_11"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_13",
+                        "entity_14",
+                        "entity_6"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_15",
+                        "entity_4",
+                        "entity_16",
+                        "entity_11"
+                    ],
+                    "coref_bucket_7": [
+                        "entity_15",
+                        "entity_16",
+                        "entity_11"
+                    ],
+                    "coref_bucket_8": [
+                        "entity_17",
+                        "entity_5"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_10": [
+                        "event_1",
+                        "event_6"
+                    ],
+                    "coref_bucket_11": [
+                        "event_4",
+                        "event_8"
+                    ],
+                    "coref_bucket_12": [
+                        "event_9",
+                        "event_3"
+                    ],
+                    "coref_bucket_9": [
+                        "event_5",
+                        "event_2",
+                        "event_7"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "agent",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            2
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "agent",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    48
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            46,
+                            47,
+                            48
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een zwarte man",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    53
+                                ]
+                            },
+                            "string": "mensen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            52,
+                            53
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Honderden mensen",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    67
+                                ]
+                            },
+                            "string": "rechter",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            66,
+                            67
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "de rechter",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    71
+                                ]
+                            },
+                            "string": "politie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            69,
+                            70,
+                            71
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "de racistische politie",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    78
+                                ]
+                            },
+                            "string": "politie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            77,
+                            78
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "De politie",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    83,
+                                    84
+                                ]
+                            },
+                            "string": "de manifestanten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            83,
+                            84
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de manifestanten",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    91
+                                ]
+                            },
+                            "string": "manifestanten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            90,
+                            91
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de manifestanten",
+                    "type": "entity"
+                },
+                "entity_17": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    94
+                                ]
+                            },
+                            "string": "agenten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            93,
+                            94
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de agenten",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            4,
+                            5
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "zwarte man",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    12,
+                                    13
+                                ]
+                            },
+                            "string": "Saint Louis",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            12,
+                            13
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Saint Louis",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    14
+                                ]
+                            },
+                            "string": "Manifestanten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            14
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Manifestanten",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "agenten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            16
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "agenten",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    22
+                                ]
+                            },
+                            "string": "politie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            22
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "politie",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    33
+                                ]
+                            },
+                            "string": "Amerikaanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            33
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Amerikaanse",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    34,
+                                    35,
+                                    36,
+                                    37,
+                                    38
+                                ]
+                            },
+                            "string": "Saint Louis ( Missouri )",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            34,
+                            35,
+                            36,
+                            37,
+                            38
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Saint Louis ( Missouri )",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    42
+                                ]
+                            },
+                            "string": "politieagent",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            41,
+                            42
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een politieagent",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        2
+                                    ]
+                                },
+                                "string": "agent"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "crime",
+                                    "argument_role": "Crime",
+                                    "span": [
+                                        4,
+                                        5,
+                                        6
+                                    ]
+                                },
+                                "string": "zwarte man doodschoot"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "subtype": "Acquit",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Vrijspraak van agent die zwarte man doodschoot"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        12,
+                                        13
+                                    ]
+                                },
+                                "string": "Saint Louis"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13
+                        ],
+                        "subtype": "Demonstrate",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "hevige protesten in Saint Louis"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        17,
+                                        18,
+                                        19,
+                                        20
+                                    ]
+                                },
+                                "string": "met stenen en flessen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        16
+                                    ]
+                                },
+                                "string": "agenten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        14
+                                    ]
+                                },
+                                "string": "Manifestanten"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Present",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Manifestanten bekogelen agenten met stenen en flessen"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        22
+                                    ]
+                                },
+                                "string": "politie"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        24
+                                    ]
+                                },
+                                "string": "traangas"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            22,
+                            23,
+                            24,
+                            25
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Present",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "politie zet traangas in"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        28
+                                    ]
+                                },
+                                "string": "vrijdagavond"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        34,
+                                        35,
+                                        36,
+                                        37,
+                                        38
+                                    ]
+                                },
+                                "string": "Saint Louis ( Missouri )"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38
+                        ],
+                        "subtype": "Demonstrate",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Er zijn vrijdagavond protesten uitgebroken in het Amerikaanse Saint Louis ( Missouri )"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "crime",
+                                    "argument_role": "Crime",
+                                    "span": [
+                                        46,
+                                        47,
+                                        48,
+                                        49,
+                                        50
+                                    ]
+                                },
+                                "string": "een zwarte man had doodgeschoten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        41,
+                                        42
+                                    ]
+                                },
+                                "string": "een politieagent"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47,
+                            48,
+                            49,
+                            50
+                        ],
+                        "subtype": "Acquit",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een politieagent werd vrijgesproken die een zwarte man had doodgeschoten"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "DemonstrateEntity",
+                                    "span": [
+                                        52,
+                                        53
+                                    ]
+                                },
+                                "string": "Honderden mensen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            52,
+                            53,
+                            54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60,
+                            61,
+                            62,
+                            63,
+                            64,
+                            65,
+                            66,
+                            67,
+                            68,
+                            69,
+                            70,
+                            71
+                        ],
+                        "subtype": "Demonstrate",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Honderden mensen trokken spontaan de straat op om te protesteren tegen de uitspraak van de rechter en de racistische politie"
+                },
+                "event_8": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        77,
+                                        78
+                                    ]
+                                },
+                                "string": "De politie"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        83,
+                                        84
+                                    ]
+                                },
+                                "string": "de manifestanten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        80
+                                    ]
+                                },
+                                "string": "traangas"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            77,
+                            78,
+                            79,
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            85,
+                            86,
+                            87,
+                            88
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "De politie heeft traangas ingezet om de manifestanten uit elkaar te drijven"
+                },
+                "event_9": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        90,
+                                        91
+                                    ]
+                                },
+                                "string": "de manifestanten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        93,
+                                        94
+                                    ]
+                                },
+                                "string": "de agenten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        95,
+                                        96,
+                                        97,
+                                        98
+                                    ]
+                                },
+                                "string": "met stenen en flessen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            90,
+                            91,
+                            92,
+                            93,
+                            94,
+                            95,
+                            96,
+                            97,
+                            98
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de manifestanten bekogelden de agenten met stenen en flessen"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000099",
+                            "homicide"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000120",
+                            "civil rights"
+                        ],
+                        [
+                            "medtop:20000587",
+                            "fundamental rights"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000133",
+                            "police"
+                        ],
+                        [
+                            "medtop:20000129",
+                            "law enforcement"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000777",
+                            "racism"
+                        ],
+                        [
+                            "medtop:20000775",
+                            "discrimination"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+        ],
+        "token_string": "Vrijspraak van agent die zwarte man doodschoot leidt tot hevige protesten in Saint Louis Manifestanten bekogelen agenten met stenen en flessen , politie zet traangas in Er zijn vrijdagavond protesten uitgebroken in het Amerikaanse Saint Louis ( Missouri ) , nadat een politieagent werd vrijgesproken die een zwarte man had doodgeschoten . Honderden mensen trokken spontaan de straat op om te protesteren tegen de uitspraak van de rechter en de racistische politie , aldus Amerikaanse media . De politie heeft traangas ingezet om de manifestanten uit elkaar te drijven , de manifestanten bekogelden de agenten met stenen en flessen ."
+    },
+    "meta": {
+        "author": "eventdna_anno_4",
+        "id": "eventdna_1499"
+    }
+}

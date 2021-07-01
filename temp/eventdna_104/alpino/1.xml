@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="3" lcat="np" lemma="VN_baas" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VN_baas" sense="VN_baas" word="VN-baas"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Guterres" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Guterres" sense="Guterres" word="Guterres"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(voor))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="waarschuwen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="waarschuw" sc="pc_pp(voor)" sense="waarschuw-voor" stype="declarative" tense="present" word="waarschuwt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="5" cat="mwu" end="7" his="normal" his_1="names_dictionary" id="10" mwu_root="Koude Oorlog" mwu_sense="Koude Oorlog" rel="hd">
+            <node begin="5" end="6" frame="proper_name(sg)" id="11" lcat="np" lemma="Koude" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Koude" sense="Koude" spectype="deeleigen" word="Koude"/>
+            <node begin="6" end="7" frame="proper_name(sg)" id="12" lcat="np" lemma="Oorlog" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Oorlog" sense="Oorlog" spectype="deeleigen" word="Oorlog"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">VN-baas Guterres waarschuwt voor nieuwe Koude Oorlog</sentence>
+  <comments>
+    <comment>Q#1|VN-baas Guterres waarschuwt voor nieuwe Koude Oorlog|1|1|-0.9780609235000016</comment>
+  </comments>
+</alpino_ds>

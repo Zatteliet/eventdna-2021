@@ -1,0 +1,44 @@
+Beschoten	beschieten	WW(vd,prenom,zonder)	B-NP	O
+boerendochter	boerendochter	N(soort,ev,basis,zijd,stan)	I-NP	O
+krijgt	krijgen	WW(pv,tgw,met-t)	B-VP	O
+266.000	266.000	TW(hoofd,prenom,stan)	B-NP	O
+euro	euro	N(soort,ev,basis,zijd,stan)	I-NP	O
+schadevergoeding	schadevergoeding	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+33-jarige	33-jarig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Bilzenaar	bilzenaar	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+Jan	Jan	SPEC(deeleigen)	I-NP	B-PER
+B.	B.	SPEC(deeleigen)	I-NP	I-PER
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+aan	aan	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+ex-vriendin	ex-vriendin	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	O	O
+op	op	VZ(init)	B-PP	O
+21	21	TW(hoofd,vrij)	B-NP	O
+februari	februari	N(eigen,ev,basis,zijd,stan)	I-NP	O
+2014	2014	TW(hoofd,vrij)	I-NP	O
+beschoot	beschieten	WW(pv,verl,ev)	B-VP	O
+,	,	LET()	O	O
+een	een	LID(onbep)	B-NP	O
+voorlopige	voorlopig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+schadevergoeding	schadevergoeding	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+liefst	liefst	BW()	B-NP	O
+266.477,60	266.477,60	TW(hoofd,prenom,stan)	I-NP	O
+euro	euro	N(soort,ev,basis,zijd,stan)	I-NP	O
+betalen	betalen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Hasseltse	hasselts	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+strafrechter	strafrechter	N(soort,ev,basis,zijd,stan)	I-NP	O
+vrijdag	vrijdag	N(eigen,ev,basis,zijd,stan)	I-NP	O
+beslist	beslissen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="30" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Antwerps" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Antwerps" sense="Antwerps" vform="adj" word="Antwerpse"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="technologie_bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="technologie_bedrijf" sense="technologie_bedrijf" word="technologiebedrijf"/>
+        <node begin="3" end="4" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="7" lcat="np" lemma="Talmundo" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="Talmundo" sense="Talmundo" word="Talmundo"/>
+      </node>
+      <node begin="4" end="5" frame="verb(zijn,sg3,aux(inf))" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" stype="declarative" tense="present" word="gaat" wvorm="pv"/>
+      <node begin="0" cat="inf" end="30" id="9" rel="vc">
+        <node begin="0" end="4" id="10" index="1" rel="su"/>
+        <node begin="5" cat="pp" end="8" id="11" rel="mod">
+          <node begin="5" end="6" frame="preposition(vanaf,[])" his="normal" his_1="normal" id="12" lcat="pp" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" sense="vanaf" vztype="init" word="vanaf"/>
+          <node begin="6" cat="np" end="8" id="13" rel="obj1">
+            <node begin="6" buiging="zonder" end="7" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="14" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+            <node begin="7" end="8" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+        </node>
+        <node begin="8" cat="np" end="21" id="16" rel="obj1">
+          <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="18" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="werknemer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="werknemer" sense="werknemer" word="werknemers"/>
+          <node begin="11" cat="pp" end="21" id="20" rel="mod">
+            <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="12" cat="np" end="21" id="22" rel="obj1">
+              <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" sense="Europees" vform="adj" word="Europese"/>
+              <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="multinational" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="multinational" sense="multinational" word="multinationals"/>
+              <node begin="14" cat="cp" end="21" id="25" rel="mod">
+                <node begin="14" end="15" frame="complementizer(als)" his="normal" his_1="normal" id="26" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+                <node begin="15" cat="conj" end="21" id="27" rel="body">
+                  <node begin="15" end="16" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="28" lcat="np" lemma="Engie" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Engie" sense="Engie" word="Engie"/>
+                  <node begin="17" end="18" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="29" lcat="np" lemma="Sodexo" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Sodexo" sense="Sodexo" word="Sodexo"/>
+                  <node begin="18" conjtype="neven" end="19" frame="conj(en)" his="normal" his_1="normal" id="30" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="19" cat="mwu" end="21" his="normal" his_1="names_dictionary" id="31" mwu_root="Banco Santander" mwu_sense="Banco Santander" rel="cnj">
+                    <node begin="19" end="20" frame="proper_name(sg,'ORG')" id="32" lcat="np" lemma="Banco" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Banco" sense="Banco" spectype="deeleigen" word="Banco"/>
+                    <node begin="20" end="21" frame="proper_name(sg,'ORG')" id="33" lcat="np" lemma="Santander" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Santander" sense="Santander" spectype="deeleigen" word="Santander"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="21" buiging="zonder" end="22" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="34" infl="inf" lcat="inf" lemma="begeleiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="begeleid" sc="transitive" sense="begeleid" word="begeleiden" wvorm="inf"/>
+        <node begin="22" cat="pp" end="30" id="35" rel="mod">
+          <node begin="22" end="23" frame="preposition(in,[])" his="normal" his_1="normal" id="36" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="23" cat="np" end="30" id="37" rel="obj1">
+            <node begin="23" end="24" frame="determiner(de)" his="normal" his_1="normal" id="38" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="24" end="25" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="week" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="week" sense="week" special="tmp" word="weken"/>
+            <node begin="25" cat="conj" end="30" id="40" rel="mod">
+              <node begin="26" conjtype="neven" end="27" frame="conj(en)" his="w_dia" id="41" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="én"/>
+              <node begin="25" cat="pp" end="30" id="42" rel="cnj">
+                <node begin="25" end="26" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="43" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                <node begin="28" cat="np" end="30" id="44" index="2" rel="obj1">
+                  <node begin="28" buiging="zonder" end="29" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="45" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                  <node begin="29" end="30" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="46" lcat="np" lemma="aan_werving" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aan_werving" sense="aan_werving" word="aanwerving"/>
+                </node>
+              </node>
+              <node begin="27" cat="pp" end="30" id="47" rel="cnj">
+                <node begin="27" end="28" frame="preposition(na,[])" his="normal" his_1="normal" id="48" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+                <node begin="28" end="30" id="49" index="2" rel="obj1"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" his="normal" his_1="normal" id="50" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Het Antwerpse technologiebedrijf Talmundo gaat vanaf dit jaar de nieuwe werknemers van Europese multinationals als Engie , Sodexo en Banco Santander begeleiden in de weken voor én na hun aanwerving .</sentence>
+  <comments>
+    <comment>Q#2|Het Antwerpse technologiebedrijf Talmundo gaat vanaf dit jaar de nieuwe werknemers van Europese multinationals als Engie , Sodexo en Banco Santander begeleiden in de weken voor én na hun aanwerving .|1|1|-9.146016135350006</comment>
+  </comments>
+</alpino_ds>

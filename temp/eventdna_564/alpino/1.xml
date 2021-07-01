@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="3" infl="no_e" lcat="ap" lemma="Brits" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Brits"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="parlement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="parlement" sense="parlement" word="parlement"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg,np_ld_pp)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="zetten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zet" sc="np_ld_pp" sense="zet" stype="declarative" tense="present" word="zet" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="licht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="licht" sense="licht" word="licht"/>
+      <node begin="4" cat="pp" end="10" id="7" rel="ld">
+        <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="8" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="5" cat="np" end="10" id="9" rel="obj1">
+          <node begin="5" buiging="zonder" end="6" frame="noun(het,mass,sg)" gen="het" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="groen" num="sg" pos="noun" positie="nom" postag="ADJ(nom,basis,zonder,zonder-n)" pt="adj" rel="hd" rnum="sg" root="groen" sense="groen" word="groen"/>
+          <node begin="6" cat="pp" end="10" id="11" rel="mod">
+            <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="7" cat="np" end="10" id="13" rel="obj1">
+              <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="uitbreiding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uitbreiding" sense="uitbreiding" word="uitbreiding"/>
+              <node begin="8" cat="np" end="10" id="15" rel="app">
+                <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="luchthaven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="luchthaven" sense="luchthaven" word="luchthaven"/>
+                <node begin="9" end="10" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="Heathrow" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Heathrow" sense="Heathrow" word="Heathrow"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Brits parlement zet licht op groen voor uitbreiding luchthaven Heathrow</sentence>
+  <comments>
+    <comment>Q#1|Brits parlement zet licht op groen voor uitbreiding luchthaven Heathrow|1|1|-0.4525062406599951</comment>
+  </comments>
+</alpino_ds>

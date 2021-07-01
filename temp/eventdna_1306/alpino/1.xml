@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(dubb_punt)" his="normal" his_1="normal" id="2" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="14" id="3" rel="--">
+      <node begin="0" cat="conj" end="8" id="4" rel="nucl">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(ge_no_e(adv))" his="normal" his_1="decap" his_1_1="normal" id="5" infl="no_e" lcat="ppart" lemma="neergestort" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="cnj" root="neergestort" sense="neergestort" vform="psp" word="Neergestort" wvorm="vd"/>
+        <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="6" infl="both" lcat="ppart" lemma="gevangen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="cnj" root="gevangen" sense="gevangen" vform="psp" word="gevangen" wvorm="vd"/>
+        <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="4" cat="ppart" end="8" id="8" rel="cnj">
+          <node begin="4" cat="ap" end="7" id="9" rel="mod">
+            <node begin="4" cat="np" end="6" id="10" rel="me">
+              <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="11" infl="pl_num" lcat="detp" lemma="5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="5" sense="5" special="hoofd" word="5"/>
+              <node begin="5" end="6" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+            </node>
+            <node aform="base" begin="6" buiging="zonder" end="7" frame="np_me_adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="lang" sc="np_me" sense="lang" vform="adj" word="lang"/>
+          </node>
+          <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="14" infl="no_e" lcat="ppart" lemma="gefolterd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gefolterd" sense="gefolterd" vform="psp" word="gefolterd" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="9" cat="np" end="14" id="15" rel="sat">
+        <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="vreselijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vreselijk" sense="vreselijk" vform="adj" word="vreselijke"/>
+        <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="18" lcat="np" lemma="oorlog_verhaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="oorlog_verhaal" sense="oorlog_verhaal" word="oorlogsverhaal"/>
+        <node begin="12" cat="pp" end="14" id="19" rel="mod">
+          <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="13" end="14" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="McCain" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="McCain" sense="McCain" word="McCain"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Neergestort , gevangen en 5 jaar lang gefolterd : het vreselijke oorlogsverhaal van McCain</sentence>
+  <comments>
+    <comment>Q#1|Neergestort , gevangen en 5 jaar lang gefolterd : het vreselijke oorlogsverhaal van McCain|1|1|1.0699811979000045</comment>
+  </comments>
+</alpino_ds>

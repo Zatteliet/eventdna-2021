@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="17" end="18" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="19" end="20" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="20" end="21" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="0" cat="conj" end="7" id="5" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Vlaanderen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Vlaanderen" sense="Vlaanderen" word="Vlaanderen"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" cat="np" end="7" id="8" rel="cnj">
+          <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="deelstaat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="deelstaat" sense="deelstaat" word="deelstaat"/>
+          <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="12" mwu_root="Noord-Rijnland Westfalen" mwu_sense="Noord-Rijnland Westfalen" rel="app">
+            <node begin="5" end="6" frame="proper_name(both,'LOC')" id="13" lcat="np" lemma="Noord-Rijnland" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Noord-Rijnland" sense="Noord-Rijnland" spectype="deeleigen" word="Noord-Rijnland"/>
+            <node begin="6" end="7" frame="proper_name(both,'LOC')" id="14" lcat="np" lemma="Westfalen" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Westfalen" sense="Westfalen" spectype="deeleigen" word="Westfalen"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,pl,modifier(tr_sbar))" his="normal" his_1="normal" id="15" infl="pl" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wil" sc="modifier(tr_sbar)" sense="wil" stype="declarative" tense="present" word="willen" wvorm="pv"/>
+      <node begin="8" cat="cp" end="25" id="16" rel="vc">
+        <node begin="8" conjtype="onder" end="9" frame="complementizer(dat)" his="normal" his_1="normal" id="17" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="9" cat="ssub" end="25" id="18" rel="body">
+          <node begin="9" cat="np" end="12" id="19" index="1" rel="su">
+            <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="20" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+            <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="21" infl="e" lcat="ap" lemma="federaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="federaal" sense="federaal" vform="adj" word="federale"/>
+            <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="regering" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="regering" sense="regering" word="regeringen"/>
+          </node>
+          <node begin="14" end="15" frame="verb(zijn,pl,aux(inf))" his="normal" his_1="normal" id="23" infl="pl" lcat="ssub" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present" word="gaan" wvorm="pv"/>
+          <node begin="9" cat="inf" end="25" id="24" rel="vc">
+            <node begin="9" end="12" id="25" index="1" rel="su"/>
+            <node begin="12" cat="pp" end="14" id="26" rel="mod">
+              <node begin="12" end="13" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="27" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="13" end="14" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="28" lcat="np" lemma="Nederland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Nederland" sense="Nederland" word="Nederland"/>
+            </node>
+            <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,pc_pp(over))" his="normal" his_1="normal" id="29" infl="inf" lcat="inf" lemma="spreken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="spreek" sc="pc_pp(over)" sense="spreek-over" word="spreken" wvorm="inf"/>
+            <node begin="16" cat="pp" end="25" id="30" rel="pc">
+              <node begin="16" end="17" frame="preposition(over,[heen])" his="normal" his_1="normal" id="31" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="18" cat="np" end="25" id="32" rel="obj1">
+                <node begin="18" end="19" frame="proper_name(both)" genus="zijd" getal="ev" graad="basis" his="quoted_name" his_1="&apos;" his_2="&apos;" id="33" lcat="np" lemma="3RX" naamval="stan" neclass="MISC" ntype="soort" num="both" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="3RX" sense="3RX" word="3RX"/>
+                <node begin="21" cat="np" end="25" id="34" rel="app">
+                  <node begin="21" end="22" frame="determiner(een)" his="normal" his_1="normal" id="35" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="36" infl="e" lcat="ap" lemma="alternatief" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="alternatief" sense="alternatief" vform="adj" word="alternatieve"/>
+                  <node begin="23" cat="mwu" end="25" his="normal" his_1="names_dictionary" id="37" mwu_root="IJzeren Rijn" mwu_sense="IJzeren Rijn" rel="hd">
+                    <node begin="23" end="24" frame="proper_name(sg)" id="38" lcat="np" lemma="IJzeren" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="IJzeren" sense="IJzeren" spectype="deeleigen" word="IJzeren"/>
+                    <node begin="24" end="25" frame="proper_name(sg)" id="39" lcat="np" lemma="Rijn" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rijn" sense="Rijn" spectype="deeleigen" word="Rijn"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Vlaanderen en de Duitse deelstaat Noord-Rijnland Westfalen willen dat hun federale regeringen met Nederland gaan spreken over &apos; 3RX &apos; , een alternatieve IJzeren Rijn .</sentence>
+  <comments>
+    <comment>Q#3|Vlaanderen en de Duitse deelstaat Noord-Rijnland Westfalen willen dat hun federale regeringen met Nederland gaan spreken over &apos; 3RX &apos; , een alternatieve IJzeren Rijn .|1|1|-7.297366564979994</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="20" id="3" rel="--">
+      <node begin="3" end="4" frame="verb(hebben,past(pl),fixed([[present]],imp_passive))" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="tekenen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="teken" sc="fixed([[present]],imp_passive)" sense="present-teken" stype="declarative" tense="past" word="tekenden" wvorm="pv"/>
+      <node begin="4" buiging="zonder" end="5" frame="fixed_part([present])" graad="basis" his="normal" his_1="normal" id="5" lcat="fixed" lemma="present" pos="fixed" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="svp" root="present" sense="present" word="present"/>
+      <node begin="0" cat="np" end="20" id="6" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="7" infl="e" lcat="ap" lemma="talrijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="talrijk" sense="talrijk" vform="adj" word="Talrijke"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" sense="politiek" vform="adj" word="politieke"/>
+        <node begin="2" end="3" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="figuur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="figuur" sense="figuur" word="figuren"/>
+        <node begin="6" cat="rel" end="20" id="10" rel="mod">
+          <node begin="6" cat="pp" end="8" id="11" rel="rhd">
+            <node begin="6" end="7" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="12" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+            <node begin="7" case="obl" end="8" frame="rel_pronoun(both,obl)" gen="both" getal="getal" his="normal" his_1="normal" id="13" lcat="np" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" rnum="pl" root="wie" sense="wie" status="vol" vwtype="vb" wh="rel" word="wie"/>
+          </node>
+          <node begin="8" cat="conj" end="20" id="14" rel="body">
+            <node begin="8" cat="np" end="11" id="15" rel="cnj">
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+              <node begin="9" cat="mwu" end="11" his="normal" his_1="names_dictionary" id="17" mwu_root="Charles Michel" mwu_sense="Charles Michel" rel="app">
+                <node begin="9" end="10" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Charles" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Charles" sense="Charles" spectype="deeleigen" word="Charles"/>
+                <node begin="10" end="11" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Michel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Michel" sense="Michel" spectype="deeleigen" word="Michel"/>
+              </node>
+            </node>
+            <node begin="12" cat="np" end="15" id="20" rel="cnj">
+              <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="21" lcat="np" lemma="CDH_voorzitter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CDH_voorzitter" sense="CDH_voorzitter" word="CDH-voorzitter"/>
+              <node begin="13" cat="mwu" end="15" his="name" his_1="not_begin" id="22" mwu_root="Benoît Lutgen" mwu_sense="Benoît Lutgen" rel="app">
+                <node begin="13" end="14" frame="proper_name(both,'PER')" id="23" lcat="np" lemma="Benoît" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Benoît" sense="Benoît" spectype="deeleigen" word="Benoît"/>
+                <node begin="14" end="15" frame="proper_name(both,'PER')" id="24" lcat="np" lemma="Lutgen" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Lutgen" sense="Lutgen" spectype="deeleigen" word="Lutgen"/>
+              </node>
+            </node>
+            <node begin="15" conjtype="neven" end="16" frame="conj(en)" his="normal" his_1="normal" id="25" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="16" cat="np" end="20" id="26" rel="cnj">
+              <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="27" lcat="np" lemma="PS_voorzitter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="PS_voorzitter" sense="PS_voorzitter" word="PS-voorzitter"/>
+              <node begin="17" cat="mwu" end="20" his="normal" his_1="names_dictionary" id="28" mwu_root="Elio Di Rupo" mwu_sense="Elio Di Rupo" rel="app">
+                <node begin="17" end="18" frame="proper_name(sg,'PER')" id="29" lcat="np" lemma="Elio" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Elio" sense="Elio" spectype="deeleigen" word="Elio"/>
+                <node begin="18" end="19" frame="proper_name(sg,'PER')" id="30" lcat="np" lemma="Di" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Di" sense="Di" spectype="deeleigen" word="Di"/>
+                <node begin="19" end="20" frame="proper_name(sg,'PER')" id="31" lcat="np" lemma="Rupo" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rupo" sense="Rupo" spectype="deeleigen" word="Rupo"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Talrijke politieke figuren tekenden present , onder wie premier Charles Michel , CDH-voorzitter Benoît Lutgen en PS-voorzitter Elio Di Rupo .</sentence>
+  <comments>
+    <comment>Q#3|Talrijke politieke figuren tekenden present , onder wie premier Charles Michel , CDH-voorzitter Benoît Lutgen en PS-voorzitter Elio Di Rupo .|1|1|-5.588009614859999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="2" end="3" frame="verb(unacc,past(pl),passive)" his="normal" his_1="normal" id="2" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werden" wvorm="pv"/>
+      <node begin="6" end="7" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="compound" his_1="hyphen" id="3" index="1" lcat="np" lemma="DNA_staal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="DNA_staal" sense="DNA_staal" word="DNA-stalen"/>
+      <node begin="0" cat="ppart" end="8" id="4" rel="vc">
+        <node begin="0" cat="np" end="2" id="5" rel="mod">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(de,nwh,mod,pro,yparg)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="6" infl="de" lcat="detp" lemma="dezelfde" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="dezelfde" sense="dezelfde" wh="nwh" word="Dezelfde"/>
+          <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+        </node>
+        <node begin="3" cat="mwu" end="5" his="normal" his_1="normal" id="8" mwu_root="ter plaatse" mwu_sense="ter plaatse" rel="mod">
+          <node begin="3" end="4" frame="loc_adverb" id="9" lcat="advp" lemma="ter" pos="adv" postag="VZ(versm)" pt="vz" rel="mwp" root="ter" sense="ter" special="loc" vztype="versm" word="ter"/>
+          <node begin="4" end="5" frame="loc_adverb" getal="ev" graad="basis" id="10" lcat="advp" lemma="plaatse" naamval="dat" ntype="soort" pos="adv" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="plaatse" sense="plaatse" special="loc" word="plaatse"/>
+        </node>
+        <node begin="5" end="6" frame="adverb" his="normal" his_1="normal" id="11" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+        <node begin="6" end="7" id="12" index="1" rel="obj1"/>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="13" infl="psp" lcat="ppart" lemma="nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem" sc="transitive" sense="neem" word="genomen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" his="normal" his_1="normal" id="14" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Dezelfde dag werden ter plaatse nog DNA-stalen genomen .</sentence>
+  <comments>
+    <comment>Q#6|Dezelfde dag werden ter plaatse nog DNA-stalen genomen .|1|1|-5.119229819439997</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" index="1" lcat="np" lemma="EU" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="EU" sense="EU" word="EU"/>
+      <node begin="1" end="2" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="normal" id="3" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="6" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" buiging="zonder" end="3" frame="verb(hebben,inf,pc_pp(in))" his="normal" his_1="normal" id="6" infl="inf" lcat="inf" lemma="investeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="investeer" sc="pc_pp(in)" sense="investeer-in" word="investeren" wvorm="inf"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="pc">
+          <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="6" id="9" rel="obj1">
+            <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="Afrikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Afrikaans" sense="Afrikaans" vform="adj" word="Afrikaanse"/>
+            <node begin="5" buiging="met-e" end="6" frame="noun(de,count,pl)" gen="de" getal-n="mv-n" graad="comp" his="normal" his_1="normal" id="11" lcat="np" lemma="jongere" num="pl" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="jongere" sense="jongere" word="jongeren"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">EU wil investeren in Afrikaanse jongeren</sentence>
+  <comments>
+    <comment>Q#1|EU wil investeren in Afrikaanse jongeren|1|1|-4.9459754280500015</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="0" cat="smain" end="30" id="1" rel="--">
+      <node begin="0" cat="np" end="17" id="2" index="1" rel="su">
+        <node begin="0" case="both" def="indef" end="1" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" getal-n="zonder-n" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="Een"/>
+        <node begin="1" cat="pp" end="17" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="17" id="6" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="number(rang)" his="normal" his_1="normal" id="8" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+            <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="telefoon_gesprek" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="telefoon_gesprek" sense="telefoon_gesprek" word="telefoongesprekken"/>
+            <node begin="5" cat="pp" end="17" id="10" rel="mod">
+              <node begin="5" end="6" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="11" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+              <node begin="6" cat="conj" end="17" id="12" rel="obj1">
+                <node begin="6" cat="np" end="11" id="13" rel="cnj">
+                  <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+                  <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="bondskanselier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bondskanselier" sense="bondskanselier" word="bondskanselier"/>
+                  <node begin="9" cat="mwu" end="11" his="normal" his_1="names_dictionary" id="17" mwu_root="Angela Merkel" mwu_sense="Angela Merkel" rel="app">
+                    <node begin="9" end="10" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Angela" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Angela" sense="Angela" spectype="deeleigen" word="Angela"/>
+                    <node begin="10" end="11" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Merkel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Merkel" sense="Merkel" spectype="deeleigen" word="Merkel"/>
+                  </node>
+                </node>
+                <node begin="11" conjtype="neven" end="12" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="12" cat="np" end="17" id="21" rel="cnj">
+                  <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+                  <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+                  <node begin="15" cat="mwu" end="17" his="normal" his_1="names_dictionary" id="25" mwu_root="Donald Trump" mwu_sense="Donald Trump" rel="app">
+                    <node begin="15" end="16" frame="proper_name(sg,'PER')" id="26" lcat="np" lemma="Donald" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Donald" sense="Donald" spectype="deeleigen" word="Donald"/>
+                    <node begin="16" end="17" frame="proper_name(sg,'PER')" id="27" lcat="np" lemma="Trump" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Trump" sense="Trump" spectype="deeleigen" word="Trump"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="17" end="18" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="28" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="30" id="29" rel="vc">
+        <node begin="0" end="17" id="30" index="1" rel="su"/>
+        <node begin="18" cat="advp" end="21" id="31" rel="mod">
+          <node begin="18" end="19" frame="tmp_app_noun" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="advp" lemma="begin" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="begin" sense="begin" special="tmp_app" word="begin"/>
+          <node begin="19" cat="np" end="21" id="33" rel="mod">
+            <node begin="19" buiging="zonder" end="20" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="34" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+            <node begin="20" end="21" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+        </node>
+        <node begin="21" cat="pp" end="23" id="36" rel="pc">
+          <node begin="21" end="22" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="37" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="22" end="23" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="frictie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="frictie" sense="frictie" word="fricties"/>
+        </node>
+        <node begin="23" buiging="zonder" end="24" frame="verb(hebben,psp,pc_pp(tot))" his="normal" his_1="normal" id="39" infl="psp" lcat="ppart" lemma="leiden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" word="geleid" wvorm="vd"/>
+        <node begin="24" cat="pp" end="30" id="40" rel="mod">
+          <node begin="24" end="25" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="41" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+          <node begin="25" cat="np" end="30" id="42" rel="obj1">
+            <node begin="25" end="26" frame="determiner(de)" his="normal" his_1="normal" id="43" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="26" end="27" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="44" lcat="np" lemma="regering" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="regering" sense="regering" word="regeringen"/>
+            <node begin="27" cat="pp" end="30" id="45" rel="mod">
+              <node begin="27" end="28" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="46" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="28" cat="np" end="30" id="47" rel="obj1">
+                <node begin="28" buiging="met-e" end="29" frame="adj_number(pl_num)" getal="mv" graad="basis" his="normal" his_1="normal" id="48" infl="pl_num" lcat="detp" lemma="beide" naamval="stan" pdtype="grad" pos="det" positie="prenom" postag="VNW(onbep,grad,stan,prenom,met-e,mv,basis)" pt="vnw" rel="det" root="beide" sense="beide" special="adj_number" vwtype="onbep" word="beide"/>
+                <node begin="29" end="30" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="49" lcat="np" lemma="land" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="land" sense="land" word="landen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" his="normal" his_1="normal" id="50" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Een van de eerste telefoongesprekken tussen de Duitse bondskanselier Angela Merkel en de Amerikaanse president Donald Trump heeft begin dit jaar tot fricties geleid tussen de regeringen van beide landen .</sentence>
+  <comments>
+    <comment>Q#2|Een van de eerste telefoongesprekken tussen de Duitse bondskanselier Angela Merkel en de Amerikaanse president Donald Trump heeft begin dit jaar tot fricties geleid tussen de regeringen van beide landen .|1|1|-22.102232180810002</comment>
+  </comments>
+</alpino_ds>

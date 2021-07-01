@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" frame="verb(hebben,past(sg),aux(inf))" his="normal" his_1="normal" id="2" infl="sg" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zou" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="3" index="1" rel="su">
+        <node begin="2" end="3" frame="determiner(een)" his="normal" his_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="vuilnisbak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vuilnisbak" sense="vuilnisbak" word="vuilnisbak"/>
+      </node>
+      <node begin="0" cat="inf" end="8" id="6" rel="vc">
+        <node begin="0" end="1" frame="er_loc_adverb" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="7" lcat="advp" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="daar" sense="daar" special="er_loc" status="vol" vwtype="aanw" word="Daar"/>
+        <node begin="2" end="4" id="8" index="1" rel="su"/>
+        <node begin="2" cat="ahi" end="7" id="9" rel="vc">
+          <node begin="4" cat="mwu" end="6" his="normal" his_1="normal" id="10" mwu_root="aan het" mwu_sense="aan het" rel="cmp">
+            <node begin="4" end="5" frame="complementizer(aan_het)" id="11" lcat="ahi" lemma="aan" pos="comp" postag="VZ(init)" pt="vz" rel="mwp" root="aan" sc="aan_het" sense="aan" vztype="init" word="aan"/>
+            <node begin="5" end="6" frame="complementizer(aan_het)" id="12" lcat="ahi" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="comp" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sc="aan_het" sense="het" word="het"/>
+          </node>
+          <node begin="2" cat="inf" end="7" id="13" rel="body">
+            <node begin="2" end="4" id="14" index="1" rel="su"/>
+            <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="smeulen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="smeul" sc="intransitive" sense="smeul" word="smeulen" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="7" buiging="zonder" end="8" frame="verb(unacc,inf,aan_het)" his="normal" his_1="normal" id="16" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="aan_het" sense="ben-aan_het" word="zijn" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" his="normal" his_1="normal" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Daar zou een vuilnisbak aan het smeulen zijn .</sentence>
+  <comments>
+    <comment>Q#3|Daar zou een vuilnisbak aan het smeulen zijn .|1|1|-4.186368871379999</comment>
+  </comments>
+</alpino_ds>

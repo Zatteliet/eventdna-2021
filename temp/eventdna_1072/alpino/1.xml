@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="3" end="4" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="7" end="8" frame="punct(dubb_punt)" his="normal" his_1="normal" id="3" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="1" cat="du" end="15" id="4" rel="--">
+      <node begin="1" cat="np" end="7" id="5" rel="tag">
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(ge_e)" his="normal" his_1="decap" his_1_1="normal" id="6" infl="e" lcat="ppart" lemma="gericht" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gericht" sense="gericht" vform="psp" word="Gerichte" wvorm="vd"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanval" sense="aanval" word="aanval"/>
+        <node begin="4" cat="pp" end="7" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="9" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="5" cat="np" end="7" id="10" rel="obj1">
+            <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="krant" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="krant" sense="krant" word="krant"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="smain" end="15" id="13" rel="nucl">
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="schutter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="schutter" sense="schutter" word="schutter"/>
+        <node begin="9" end="10" frame="verb('hebben/zijn',past(sg),transitive)" his="normal" his_1="normal" id="15" infl="sg" lcat="smain" lemma="verliezen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="verlies" sc="transitive" sense="verlies" stype="declarative" tense="past" word="verloor" wvorm="pv"/>
+        <node begin="10" end="11" frame="adverb" his="normal" his_1="normal" id="16" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+        <node begin="11" cat="np" end="15" id="17" rel="obj1">
+          <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="recht_zaak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="recht_zaak" sense="recht_zaak" word="rechtszaken"/>
+          <node begin="12" cat="pp" end="15" id="19" rel="mod">
+            <node begin="12" end="13" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="20" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="13" cat="mwu" end="15" his="name" his_1="not_begin" id="21" mwu_root="Capital Gazette" mwu_sense="Capital Gazette" rel="obj1">
+              <node begin="13" end="14" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Capital" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Capital" sense="Capital" spectype="deeleigen" word="Capital"/>
+              <node begin="14" end="15" frame="proper_name(sg,'PER')" id="23" lcat="np" lemma="Gazette" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gazette" sense="Gazette" spectype="deeleigen" word="Gazette"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">&apos; Gerichte aanval &apos; op Amerikaanse krant : schutter verloor al rechtszaken tegen Capital Gazette</sentence>
+  <comments>
+    <comment>Q#1|&apos; Gerichte aanval &apos; op Amerikaanse krant : schutter verloor al rechtszaken tegen Capital Gazette|1|1|0.5126514212400084</comment>
+  </comments>
+</alpino_ds>

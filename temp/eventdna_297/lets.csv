@@ -1,0 +1,40 @@
+Provincie	provincie	N(soort,ev,basis,zijd,stan)	B-NP	O
+schrapt	schrappen	WW(pv,tgw,met-t)	B-VP	O
+plannen	plan	N(soort,mv,basis)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+moskee	moskee	N(soort,ev,basis,zijd,stan)	B-NP	O
+Frère-Orbanstraat	Frère-Orbanstraat	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+				
+De	de	LID(bep)	B-NP	O
+provincie	provincie	N(soort,ev,basis,zijd,stan)	I-NP	O
+West-Vlaanderen	West-Vlaanderen	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+ziet	zien	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+moskee	moskee	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Oostendse	oostends	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Frère-Orbanstraat	Frère-Orbanstraat	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+niet	niet	BW()	B-ADVP	O
+zitten	zitten	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+beroep	beroep	N(soort,ev,basis,onz,stan)	I-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+vergunning	vergunning	N(soort,ev,basis,zijd,stan)	I-NP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+verworpen	verwerpen	WW(vd,vrij,zonder)	I-VP	O
+en	en	VG(neven)	O	O
+ook	ook	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+stad	stad	N(soort,ev,basis,zijd,stan)	I-NP	O
+krijgt	krijgen	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+veeg	veeg	N(soort,ev,basis,onz,stan)	I-NP	O
+uit	uit	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+pan	pan	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

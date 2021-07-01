@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="ppart" end="6" id="2" rel="--">
+      <node begin="0" cat="conj" end="5" id="3" rel="obj1">
+        <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="decap_and_compound" his_1="2" id="4" lcat="np" lemma="verwarming_ketel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="verwarming_ketel" sense="verwarming_ketel" word="Verwarmingsketels"/>
+        <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="toestel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="toestel" sense="toestel" word="toestellen"/>
+        <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="6" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="kraan" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="kraan" sense="kraan" word="kranen"/>
+      </node>
+      <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="8" infl="psp" lcat="ppart" lemma="stelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="steel" sc="transitive" sense="steel" word="gestolen" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="2">Verwarmingsketels , toestellen en kranen gestolen</sentence>
+  <comments>
+    <comment>Q#2|Verwarmingsketels , toestellen en kranen gestolen|1|1|1.4679877176600002</comment>
+  </comments>
+</alpino_ds>

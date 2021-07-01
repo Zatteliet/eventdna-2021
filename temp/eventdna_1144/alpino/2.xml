@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="0" cat="smain" end="26" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" cat="mwu" end="3" his="normal" his_1="names_dictionary" id="4" mwu_root="Europees Parlement" mwu_sense="Europees Parlement" rel="hd">
+          <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="5" lcat="np" lemma="Europees" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europees" sense="Europees" spectype="deeleigen" word="Europees"/>
+          <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="6" lcat="np" lemma="Parlement" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parlement" sense="Parlement" spectype="deeleigen" word="Parlement"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,part_so_pp_np(uit))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="uit_reiken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="reik_uit" sc="part_so_pp_np(uit)" sense="reik_uit" stype="declarative" tense="present" word="reikt" wvorm="pv"/>
+      <node begin="4" cat="np" end="12" id="8" rel="obj1">
+        <node begin="4" buiging="zonder" end="5" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="9" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="jaarlijks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jaarlijks" sense="jaarlijks" vform="adj" word="jaarlijkse"/>
+        <node begin="6" end="7" frame="proper_name(both)" genus="genus" getal="ev" graad="basis" his="name" his_1="not_begin" id="11" lcat="np" lemma="Sacharovprijs" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="Sacharovprijs" sense="Sacharovprijs" word="Sacharovprijs"/>
+        <node begin="7" cat="pp" end="12" id="12" rel="mod">
+          <node begin="7" end="8" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="8" cat="np" end="12" id="14" rel="obj1">
+            <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="vrijheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrijheid" sense="vrijheid" word="vrijheid"/>
+            <node begin="10" cat="pp" end="12" id="17" rel="mod">
+              <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="11" buiging="zonder" end="12" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="19" lcat="np" lemma="denken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" rnum="sg" root="denk" sc="intransitive" sense="denk" special="v_noun" word="denken" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="12" cat="np" end="14" id="20" rel="mod">
+        <node begin="12" buiging="zonder" end="13" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="21" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+        <node begin="13" end="14" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+      </node>
+      <node begin="14" end="15" frame="particle(uit)" his="normal" his_1="normal" id="23" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+      <node begin="15" cat="pp" end="26" id="24" rel="obj2">
+        <node begin="15" end="16" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="25" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+        <node begin="16" cat="conj" end="26" id="26" rel="obj1">
+          <node begin="19" conjtype="neven" end="20" frame="conj(en)" his="normal" his_1="normal" id="27" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="16" cat="np" end="26" id="28" rel="cnj">
+            <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="29" index="1" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="30" infl="e" lcat="ap" lemma="democratisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="democratisch" sense="democratisch" vform="adj" word="democratische"/>
+            <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="oppositie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oppositie" sense="oppositie" word="oppositie"/>
+            <node begin="22" cat="pp" end="26" id="32" index="2" rel="mod">
+              <node begin="22" end="23" frame="preposition(in,[])" his="normal" his_1="normal" id="33" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="23" cat="np" end="26" id="34" rel="obj1">
+                <node begin="23" end="24" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="35" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node aform="base" begin="24" buiging="met-e" end="25" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="36" infl="e" lcat="ap" lemma="Zuidamerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Zuidamerikaans" sense="Zuidamerikaans" vform="adj" word="Zuid-Amerikaanse"/>
+                <node begin="25" end="26" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="37" lcat="np" lemma="Venezuela" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Venezuela" sense="Venezuela" word="Venezuela"/>
+              </node>
+            </node>
+          </node>
+          <node begin="16" cat="np" end="26" id="38" rel="cnj">
+            <node begin="16" end="17" id="39" index="1" rel="det"/>
+            <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="40" infl="e" lcat="ap" lemma="politiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="politiek" sense="politiek" vform="adj" word="politieke"/>
+            <node begin="21" end="22" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="41" lcat="np" lemma="gevangene" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gevangene" sense="gevangene" word="gevangenen"/>
+            <node begin="22" end="26" id="42" index="2" rel="mod"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" frame="punct(punt)" his="normal" his_1="normal" id="43" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Het Europees Parlement reikt zijn jaarlijkse Sacharovprijs voor de vrijheid van denken dit jaar uit aan de democratische oppositie en politieke gevangenen in het Zuid-Amerikaanse Venezuela .</sentence>
+  <comments>
+    <comment>Q#2|Het Europees Parlement reikt zijn jaarlijkse Sacharovprijs voor de vrijheid van denken dit jaar uit aan de democratische oppositie en politieke gevangenen in het Zuid-Amerikaanse Venezuela .|1|1|-2.80103333095998</comment>
+  </comments>
+</alpino_ds>

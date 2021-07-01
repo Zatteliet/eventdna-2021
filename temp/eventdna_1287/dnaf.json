@@ -1,0 +1,814 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_6",
+                        "entity_2",
+                        "entity_11"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_9",
+                        "entity_12",
+                        "entity_3"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_14",
+                        "entity_4"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_12",
+                        "entity_9",
+                        "entity_3",
+                        "entity_13"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_9",
+                        "entity_12",
+                        "entity_13",
+                        "entity_15"
+                    ],
+                    "coref_bucket_7": [
+                        "entity_12",
+                        "entity_13",
+                        "entity_15"
+                    ]
+                },
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Noord-Korea",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Noord-Korea",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    29
+                                ]
+                            },
+                            "string": "Japanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            29
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Japanse",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    38
+                                ]
+                            },
+                            "string": "raket",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            37,
+                            38
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een raket",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    40
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            40
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    45
+                                ]
+                            },
+                            "string": "Ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            45
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Ze",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    48
+                                ]
+                            },
+                            "string": "inwoners",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            47,
+                            48
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "haar inwoners",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    47
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            47
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    63,
+                                    64
+                                ]
+                            },
+                            "string": "NHK World",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            63,
+                            64
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "NHK World",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    3
+                                ]
+                            },
+                            "string": "raket",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            3
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "raket",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6
+                                ]
+                            },
+                            "string": "Japan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Japan",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    8
+                                ]
+                            },
+                            "string": "burgers",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            8
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "burgers",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    13
+                                ]
+                            },
+                            "string": "Noord-Korea",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            13
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Noord-Korea",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    18
+                                ]
+                            },
+                            "string": "raket",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            16,
+                            17,
+                            18
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "een onge\u00efdentificeerde raket",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "Zuid-Koreaanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            23
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Zuid-Koreaanse",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    25
+                                ]
+                            },
+                            "string": "Yonhap",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            25
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Yonhap",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    30
+                                ]
+                            },
+                            "string": "regering",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            28,
+                            29,
+                            30
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De Japanse regering",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        3
+                                    ]
+                                },
+                                "string": "raket"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Noord-Korea"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Present",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Noord-Korea vuurt opnieuw raket af"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        6
+                                    ]
+                                },
+                                "string": "Japan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Japan roept burgers op om te schuilen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        16,
+                                        17,
+                                        18
+                                    ]
+                                },
+                                "string": "een onge\u00efdentificeerde raket"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        13
+                                    ]
+                                },
+                                "string": "Noord-Korea"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Noord-Korea heeft opnieuw een onge\u00efdentificeerde raket afgevuurd"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        28,
+                                        29,
+                                        30
+                                    ]
+                                },
+                                "string": "De Japanse regering"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Past",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De Japanse regering heeft laten weten dat er vermoedelijk een raket over haar grondgebied is gevlogen"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        45
+                                    ]
+                                },
+                                "string": "Ze"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            45,
+                            46,
+                            47,
+                            48,
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Ze vraagt haar inwoners om te schuilen en uit de buurt te blijven van eventuele brokstukken"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000602",
+                            "military weaponry"
+                        ],
+                        [
+                            "medtop:20000601",
+                            "military equipment"
+                        ],
+                        [
+                            "medtop:20000598",
+                            "defence"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+        ],
+        "token_string": "Noord-Korea vuurt opnieuw raket af , Japan roept burgers op om te schuilen Noord-Korea heeft opnieuw een onge\u00efdentificeerde raket afgevuurd , bericht het Zuid-Koreaanse persagentschap Yonhap vrijdag . De Japanse regering heeft laten weten dat er vermoedelijk een raket over haar grondgebied is gevlogen . Ze vraagt haar inwoners om te schuilen en uit de buurt te blijven van eventuele brokstukken , schrijft NHK World ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_1287"
+    }
+}

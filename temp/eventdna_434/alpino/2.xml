@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(ligg_streep)" his="normal" his_1="normal" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" end="1" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="asiel_beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="dp" rnum="sg" root="asiel_beleid" sense="asiel_beleid" word="Asielbeleid"/>
+      <node begin="2" cat="smain" end="14" id="4" rel="dp">
+        <node begin="2" cat="conj" end="7" id="5" rel="su">
+          <node begin="2" cat="mwu" end="4" his="name" his_1="begin" id="6" mwu_root="John Crombez" mwu_sense="John Crombez" rel="cnj">
+            <node begin="2" end="3" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="John" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="John" sense="John" spectype="deeleigen" word="John"/>
+            <node begin="3" end="4" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Crombez" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Crombez" sense="Crombez" spectype="deeleigen" word="Crombez"/>
+          </node>
+          <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="9" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="10" mwu_root="Wouter Beke" mwu_sense="Wouter Beke" rel="cnj">
+            <node begin="5" end="6" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Wouter" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wouter" sense="Wouter" spectype="deeleigen" word="Wouter"/>
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Beke" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Beke" sense="Beke" spectype="deeleigen" word="Beke"/>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(hebben,pl,part_transitive(op))" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="op_pikken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="pik_op" sc="part_transitive(op)" sense="pik_op" stype="declarative" tense="present" word="pikken" wvorm="pv"/>
+        <node begin="8" cat="np" end="13" id="14" rel="obj1">
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="heet" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="heet" sense="heet" vform="adj" word="hete"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="aardappel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aardappel" sense="aardappel" word="aardappel"/>
+          <node begin="10" cat="mwu" end="13" his="normal" his_1="names_dictionary" id="17" mwu_root="Bart De Wever" mwu_sense="Bart De Wever" rel="app">
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Bart" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bart" sense="Bart" spectype="deeleigen" word="Bart"/>
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+            <node begin="12" end="13" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Wever" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wever" sense="Wever" spectype="deeleigen" word="Wever"/>
+          </node>
+        </node>
+        <node begin="13" end="14" frame="particle(op)" his="normal" his_1="normal" id="21" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Asielbeleid - John Crombez en Wouter Beke pikken hete aardappel Bart De Wever op</sentence>
+  <comments>
+    <comment>Q#2|Asielbeleid - John Crombez en Wouter Beke pikken hete aardappel Bart De Wever op|1|1|1.9353849226100015</comment>
+  </comments>
+</alpino_ds>

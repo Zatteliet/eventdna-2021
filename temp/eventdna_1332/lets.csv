@@ -1,0 +1,43 @@
+62	62	TW(hoofd,prenom,stan)	B-NP	O
+miljard	miljard	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+België	België	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+naar	naar	VZ(init)	B-PP	O
+belastingparadijs	belastingparadijs	N(soort,ev,basis,onz,stan)	B-NP	O
+Dubai	Dubai	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+				
+Eén	eén	TW(hoofd,prenom,stan)	B-NP	O
+bedrijf	bedrijf	N(soort,ev,basis,onz,stan)	I-NP	O
+versluisde	versluizen	WW(pv,verl,ev)	B-VP	O
+vorig	vorig	ADJ(prenom,basis,zonder)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+56	56	TW(hoofd,prenom,stan)	I-NP	O
+miljard	miljard	N(soort,ev,basis,onz,stan)	I-NP	O
+naar	naar	VZ(init)	B-PP	O
+V.A.E	V.A.E	N(eigen,ev,basis,onz,stan)	B-NP	B-ORG
+				
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+bedrijven	bedrijf	N(soort,mv,basis)	I-NP	O
+verkiezen	verkiezen	WW(pv,tgw,mv)	B-VP	O
+Dubai	Dubai	N(eigen,ev,basis,onz,stan)	B-NP	B-PER
+als	als	VZ(init)	B-PP	O
+belastingparadijs	belastingparadijs	N(soort,ev,basis,onz,stan)	B-NP	O
+.	.	LET()	O	O
+				
+Met	met	VZ(init)	B-PP	O
+dank	dank	N(soort,ev,basis,zijd,stan)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+één	één	TW(hoofd,vrij)	B-NP	O
+(	(	LET()	O	O
+diamant	diamant	N(soort,ev,basis,zijd,stan)	B-NP	O
+?	?	LET()	O	O
+)	)	LET()	O	O
+bedrijf	bedrijf	N(soort,ev,basis,onz,stan)	B-NP	O
+en	en	VG(neven)	O	O
+een	een	LID(onbep)	B-NP	O
+extreem	extreem	ADJ(vrij,basis,zonder)	I-NP	O
+gunstig	gunstig	ADJ(prenom,basis,zonder)	I-NP	O
+dubbel	dubbel	ADJ(prenom,basis,zonder)	I-NP	O
+belastingverdrag	belastingverdrag	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

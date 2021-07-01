@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="Michel" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Michel" sense="Michel" word="Michel"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,ld_pp)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="mikken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="mik" sc="ld_pp" sense="mik" stype="declarative" tense="present" word="mikt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="6" id="4" rel="ld">
+        <node begin="2" end="3" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="5" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="accoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="accoord" sense="accoord" word="akkoord"/>
+          <node begin="4" cat="pp" end="6" id="8" rel="mod">
+            <node begin="4" end="5" frame="preposition(over,[heen])" his="normal" his_1="normal" id="9" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="10" lcat="np" lemma="mobiliteit_budget" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="mobiliteit_budget" sense="mobiliteit_budget" word="mobiliteitsbudget"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Michel mikt op akkoord over mobiliteitsbudget</sentence>
+  <comments>
+    <comment>Q#1|Michel mikt op akkoord over mobiliteitsbudget|1|1|-1.1904429141799997</comment>
+  </comments>
+</alpino_ds>

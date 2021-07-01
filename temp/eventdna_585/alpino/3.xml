@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="1" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="dp">
+        <node begin="0" cat="pp" end="2" id="4" rel="mod">
+          <node begin="0" end="1" frame="preposition(op,[af,na])" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+          <node begin="1" end="2" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="6" lcat="np" lemma="Wechat" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Wechat" sense="Wechat" word="Wechat"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg1,np_np)" his="normal" his_1="normal" id="7" infl="sg1" lcat="smain" lemma="doen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="doe" sc="np_np" sense="doe" stype="declarative" tense="present" word="doe" wvorm="pv"/>
+        <node begin="3" case="both" def="def" end="4" frame="pronoun(nwh,je,sg,de,both,def,wkpro)" gen="de" getal="getal" his="normal" his_1="normal" id="8" lcat="np" lemma="je" naamval="obl" num="sg" pdtype="pron" per="je" persoon="2v" pos="pron" postag="VNW(pr,pron,obl,red,2v,getal)" pt="vnw" rel="obj2" rnum="sg" root="je" sense="je" special="wkpro" status="red" vwtype="pr" wh="nwh" word="je"/>
+        <node begin="4" end="5" frame="noun(het,mass,sg)" gen="het" getal="ev" his="normal" his_1="normal" id="9" lcat="np" lemma="alles" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="alles" sense="alles" status="vol" vwtype="onbep" word="alles"/>
+      </node>
+      <node begin="6" cat="inf" end="13" id="10" rel="dp">
+        <node begin="6" cat="pp" end="9" id="11" rel="mod">
+          <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="9" id="13" rel="obj1">
+            <node begin="7" end="8" frame="determiner(een)" his="normal" his_1="normal" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="pizza" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="pizza" sense="pizza" word="pizza"/>
+          </node>
+        </node>
+        <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="16" infl="inf" lcat="inf" lemma="bestellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bestel" sc="intransitive" sense="bestel" word="bestellen" wvorm="inf"/>
+        <node begin="10" cat="pp" end="13" id="17" rel="mod">
+          <node begin="10" end="11" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="11" cat="np" end="13" id="19" rel="obj1">
+            <node begin="11" end="12" frame="determiner(een)" his="normal" his_1="normal" id="20" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="scheiding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="scheiding" sense="scheiding" word="scheiding"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,ninv(transitive,part_transitive(aan)))" his="robust_skip" id="22" infl="inf" lcat="--" lemma="aan_vragen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="--" root="vraag_aan" sc="part_transitive(aan)" sense="vraag_aan" word="aanvragen" wvorm="inf"/>
+    <node begin="14" end="15" frame="punct(punt)" his="robust_skip" id="23" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Op Wechat doe je alles : van een pizza bestellen tot een scheiding aanvragen .</sentence>
+  <comments>
+    <comment>Q#3|Op Wechat doe je alles : van een pizza bestellen tot een scheiding aanvragen .|1|3|5.993799026490007</comment>
+  </comments>
+</alpino_ds>

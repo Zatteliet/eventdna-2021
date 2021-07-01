@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="0" cat="cp" end="17" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(als)" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="Als"/>
+        <node begin="1" cat="ssub" end="17" id="5" rel="body">
+          <node begin="1" cat="conj" end="8" id="6" rel="su">
+            <node begin="1" cat="np" end="4" id="7" rel="cnj">
+              <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="9" mwu_root="Europese Unie" mwu_sense="Europese Unie" rel="hd">
+                <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Europese" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europese" sense="Europese" spectype="deeleigen" word="Europese"/>
+                <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="Unie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Unie" sense="Unie" spectype="deeleigen" word="Unie"/>
+              </node>
+            </node>
+            <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="5" cat="np" end="8" id="13" rel="cnj">
+              <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="14" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="6" cat="mwu" end="8" his="normal" his_1="names_dictionary" id="15" mwu_root="Verenigd Koninkrijk" mwu_sense="Verenigd Koninkrijk" rel="hd">
+                <node begin="6" end="7" frame="proper_name(sg,'LOC')" id="16" lcat="np" lemma="Verenigd" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Verenigd" sense="Verenigd" spectype="deeleigen" word="Verenigd"/>
+                <node begin="7" end="8" frame="proper_name(sg,'LOC')" id="17" lcat="np" lemma="Koninkrijk" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Koninkrijk" sense="Koninkrijk" spectype="deeleigen" word="Koninkrijk"/>
+              </node>
+            </node>
+          </node>
+          <node begin="10" end="11" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="18" infl="pl" lcat="ssub" lemma="bereiken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bereik" sc="transitive" sense="bereik" tense="present" word="bereiken" wvorm="pv"/>
+          <node begin="8" cat="np" end="14" id="19" rel="obj1">
+            <node begin="8" buiging="zonder" end="9" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="20" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+            <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="accoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="accoord" sense="accoord" word="akkoord"/>
+            <node begin="11" cat="pp" end="14" id="22" rel="mod">
+              <node begin="11" end="12" frame="preposition(over,[heen])" his="normal" his_1="normal" id="23" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="12" cat="np" end="14" id="24" rel="obj1">
+                <node aform="compar" begin="12" buiging="met-e" end="13" frame="adjective(ere)" graad="comp" his="normal" his_1="normal" id="25" infl="e" lcat="ap" lemma="ver" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="ver" sense="ver" vform="adj" word="verdere"/>
+                <node begin="13" end="14" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="samenwerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="samenwerking" sense="samenwerking" word="samenwerking"/>
+              </node>
+            </node>
+          </node>
+          <node begin="14" cat="pp" end="17" id="27" rel="mod">
+            <node begin="14" end="15" frame="preposition(na,[])" his="normal" his_1="normal" id="28" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+            <node begin="15" cat="np" end="17" id="29" rel="obj1">
+              <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="16" end="17" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="31" lcat="np" lemma="brexit" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="brexit" sense="brexit" word="brexit"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="32" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="19" cat="np" end="21" id="33" rel="su">
+        <node begin="19" end="20" frame="determiner(de)" his="normal" his_1="normal" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="impact" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="impact" sense="impact" word="impact"/>
+      </node>
+      <node begin="21" cat="ap" end="23" id="36" rel="predc">
+        <node aform="base" begin="21" buiging="zonder" end="22" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="37" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijk"/>
+        <node aform="base" begin="22" buiging="zonder" end="23" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="38" infl="no_e" lcat="ap" lemma="catastrofaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="catastrofaal" sense="catastrofaal" vform="adj" word="catastrofaal"/>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Als de Europese Unie en het Verenigd Koninkrijk geen akkoord bereiken over verdere samenwerking na de brexit , is de impact mogelijk catastrofaal .</sentence>
+  <comments>
+    <comment>Q#2|Als de Europese Unie en het Verenigd Koninkrijk geen akkoord bereiken over verdere samenwerking na de brexit , is de impact mogelijk catastrofaal .|1|1|-9.146032538450001</comment>
+  </comments>
+</alpino_ds>

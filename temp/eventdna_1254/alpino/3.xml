@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="15" id="3" rel="--">
+      <node begin="2" cat="smain" end="5" id="4" rel="tag">
+        <node begin="2" end="3" frame="dip_sbar_adverb" his="normal" his_1="normal" id="5" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="vc" root="zo" sc="dip_sbar" sense="zo" word="zo"/>
+        <node begin="3" end="4" frame="verb(hebben,pl,sbar)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="vrezen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vrees" sc="sbar" sense="vrees" tense="present" word="vrezen" wvorm="pv"/>
+        <node begin="4" case="both" def="def" end="5" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="7" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+      </node>
+      <node begin="0" cat="du" end="15" id="8" rel="nucl">
+        <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="9" lcat="du" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" sc="root" sense="want" word="Want"/>
+        <node begin="6" cat="smain" end="15" id="10" rel="nucl">
+          <node begin="6" cat="np" end="8" id="11" index="1" rel="su">
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="12" infl="e" lcat="ap" lemma="virtueel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="virtueel" sense="virtueel" vform="adj" word="virtuele"/>
+            <node begin="7" end="8" frame="noun(de,count,both)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="valuta" ntype="soort" num="both" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="valuta" sense="valuta" word="valuta"/>
+          </node>
+          <node begin="8" end="9" frame="verb('hebben/zijn',pl,aux(inf))" his="normal" his_1="normal" id="14" infl="pl" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" stype="declarative" tense="present" word="kunnen" wvorm="pv"/>
+          <node begin="6" cat="inf" end="15" id="15" rel="vc">
+            <node begin="6" end="8" id="16" index="1" rel="su"/>
+            <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,pc_pp(tot))" his="normal" his_1="normal" id="17" infl="inf" lcat="inf" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" word="leiden" wvorm="inf"/>
+            <node begin="10" cat="pp" end="15" id="18" rel="pc">
+              <node begin="10" end="11" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+              <node begin="11" cat="conj" end="15" id="20" rel="obj1">
+                <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="speculatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="speculatie" sense="speculatie" word="speculatie"/>
+                <node begin="12" conjtype="neven" end="13" frame="conj(en)" his="normal" his_1="normal" id="22" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="13" cat="np" end="15" id="23" rel="cnj">
+                  <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="24" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="grote"/>
+                  <node begin="14" end="15" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="verlies" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verlies" sense="verlies" word="verliezen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Want , zo vrezen ze , virtuele valuta kunnen leiden tot speculatie en grote verliezen .</sentence>
+  <comments>
+    <comment>Q#3|Want , zo vrezen ze , virtuele valuta kunnen leiden tot speculatie en grote verliezen .|1|1|-7.4413172414699975</comment>
+  </comments>
+</alpino_ds>

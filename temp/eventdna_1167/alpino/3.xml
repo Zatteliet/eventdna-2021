@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="19" end="20" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="8" end="9" frame="verb(hebben,past(sg),aux(inf))" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zou" wvorm="pv"/>
+      <node begin="9" cat="np" end="11" id="6" index="1" rel="su">
+        <node begin="9" buiging="zonder" end="10" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="7" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="dat"/>
+        <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="scenario" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="scenario" sense="scenario" word="scenario"/>
+      </node>
+      <node begin="0" cat="inf" end="25" id="9" rel="vc">
+        <node begin="0" cat="pp" end="7" id="10" rel="mod">
+          <node begin="0" end="1" frame="preposition(in,[])" his="normal" his_1="decap" his_1_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="7" id="12" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="14" infl="e" lcat="ap" lemma="heel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="heel" sense="heel" vform="adj" word="hele"/>
+            <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="15" lcat="np" lemma="EU" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="EU" sense="EU" word="EU"/>
+            <node begin="5" cat="pp" end="7" id="16" rel="mod">
+              <node begin="5" end="6" frame="preposition(zonder,[])" his="normal" his_1="normal" id="17" lcat="pp" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" sense="zonder" vztype="init" word="zonder"/>
+              <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="Groot-Brittannië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Groot-Brittannië" sense="Groot-Brittannië" word="Groot-Brittannië"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="11" id="19" index="1" rel="su"/>
+        <node begin="11" buiging="zonder" end="12" frame="verb(hebben,inf,pc_pp(tot))" his="normal" his_1="normal" id="20" infl="inf" lcat="inf" lemma="leiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" word="leiden" wvorm="inf"/>
+        <node begin="12" cat="pp" end="25" id="21" rel="pc">
+          <node begin="12" end="13" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="22" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="13" cat="conj" end="25" id="23" rel="obj1">
+            <node begin="13" cat="np" end="19" id="24" rel="cnj">
+              <node begin="13" end="14" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="25" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="14" end="15" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="verlies" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verlies" sense="verlies" word="verlies"/>
+              <node begin="15" cat="pp" end="19" id="27" rel="mod">
+                <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="16" cat="np" end="19" id="29" rel="obj1">
+                  <node begin="16" end="17" frame="number(hoofd(both))" his="normal" his_1="normal" id="30" infl="both" lcat="detp" lemma="1,2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="1,2" sense="1,2" special="hoofd" word="1,2"/>
+                  <node begin="17" end="18" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoen"/>
+                  <node begin="18" end="19" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="job" sense="job" word="jobs"/>
+                </node>
+              </node>
+            </node>
+            <node begin="20" conjtype="neven" end="21" frame="conj(en)" his="normal" his_1="normal" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="21" cat="np" end="25" id="34" rel="cnj">
+              <node begin="21" cat="pp" end="23" id="35" rel="mod">
+                <node begin="21" end="22" frame="preposition(in,[])" his="normal" his_1="normal" id="36" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="22" end="23" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="37" lcat="np" lemma="Groot-Brittannië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Groot-Brittannië" sense="Groot-Brittannië" word="Groot-Brittannië"/>
+              </node>
+              <node begin="23" end="24" frame="number(hoofd(pl_num))" his="normal" his_1="number_expression" id="38" infl="pl_num" lcat="detp" lemma="526.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="526.000" sense="526.000" special="hoofd" word="526.000"/>
+              <node begin="24" end="25" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="job" sense="job" word="jobs"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">In de hele EU , zonder Groot-Brittannië , zou dat scenario leiden tot het verlies van 1,2 miljoen jobs , en in Groot-Brittannië 526.000 jobs .</sentence>
+  <comments>
+    <comment>Q#3|In de hele EU , zonder Groot-Brittannië , zou dat scenario leiden tot het verlies van 1,2 miljoen jobs , en in Groot-Brittannië 526.000 jobs .|1|1|-10.934053874709997</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,586 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_3"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_2",
+                        "entity_10"
+                    ]
+                },
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0,
+                                    1,
+                                    2
+                                ]
+                            },
+                            "string": "Raad Van State",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Raad Van State",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    46
+                                ]
+                            },
+                            "string": "omleidingsweg",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            45,
+                            46,
+                            47,
+                            48,
+                            49,
+                            50,
+                            51
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de omleidingsweg van de Noord-Zuid in Houthalen-Helchteren",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    51
+                                ]
+                            },
+                            "string": "Houthalen-Helchteren",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            51
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Houthalen-Helchteren",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "omleidingsweg",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            4,
+                            5
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "omleidingsweg Noord-Zuid",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    10,
+                                    11,
+                                    12
+                                ]
+                            },
+                            "string": "Raad van State",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            10,
+                            11,
+                            12
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Raad van State",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    21
+                                ]
+                            },
+                            "string": "N-VA",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            21
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "N-VA",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23,
+                                    24,
+                                    25
+                                ]
+                            },
+                            "string": "CD & V",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            23,
+                            24,
+                            25
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "CD & V",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    27,
+                                    28
+                                ]
+                            },
+                            "string": "Open Vld",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            27,
+                            28
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Open Vld",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    34,
+                                    35
+                                ]
+                            },
+                            "string": "Complexe Projecten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            34,
+                            35
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Complexe Projecten",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    39
+                                ]
+                            },
+                            "string": "meerderheidspartijen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            37,
+                            38,
+                            39
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De Vlaamse meerderheidspartijen",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    38
+                                ]
+                            },
+                            "string": "Vlaamse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            38
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Vlaamse",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Sender",
+                                    "span": [
+                                        0,
+                                        1,
+                                        2
+                                    ]
+                                },
+                                "string": "Raad Van State"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8
+                        ],
+                        "subtype": "Broadcast",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Raad Van State verklaart omleidingsweg Noord-Zuid dood en begraven"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        10,
+                                        11,
+                                        12
+                                    ]
+                                },
+                                "string": "Raad van State"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35
+                        ],
+                        "subtype": "Correspondence",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Raad van State geeft een negatief advies voor de aanpassingen die N-VA , CD & V en Open Vld willen doorvoeren aan het decreet Complexe Projecten"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        45,
+                                        46,
+                                        47,
+                                        48,
+                                        49,
+                                        50,
+                                        51
+                                    ]
+                                },
+                                "string": "de omleidingsweg van de Noord-Zuid in Houthalen-Helchteren"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            45,
+                            46,
+                            47,
+                            48,
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55
+                        ],
+                        "subtype": "Artifact",
+                        "tense": "Future",
+                        "type": "Manufacture"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de omleidingsweg van de Noord-Zuid in Houthalen-Helchteren alsnog aan te leggen"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000633",
+                            "planning inquiries"
+                        ],
+                        [
+                            "medtop:20000626",
+                            "interior policy"
+                        ],
+                        [
+                            "medtop:20000621",
+                            "government policy"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56
+        ],
+        "token_string": "Raad Van State verklaart omleidingsweg Noord-Zuid dood en begraven De Raad van State geeft een negatief advies voor de aanpassingen die N-VA , CD & V en Open Vld willen doorvoeren aan het decreet Complexe Projecten . De Vlaamse meerderheidspartijen willen die aanpassingen doorvoeren om de omleidingsweg van de Noord-Zuid in Houthalen-Helchteren alsnog aan te leggen ."
+    },
+    "meta": {
+        "author": "eventdna_anno_3",
+        "id": "eventdna_1714"
+    }
+}

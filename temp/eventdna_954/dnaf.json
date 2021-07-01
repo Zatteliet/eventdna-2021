@@ -1,0 +1,451 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_3",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_2",
+                        "entity_4"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_6",
+                        "entity_7"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_4": [
+                        "event_3",
+                        "event_2"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    1
+                                ]
+                            },
+                            "string": "regering",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0,
+                            1
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Franse regering",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Franse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Franse",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    7
+                                ]
+                            },
+                            "string": "regering",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            5,
+                            6,
+                            7
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Franse regering",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6
+                                ]
+                            },
+                            "string": "Franse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Franse",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    13,
+                                    14,
+                                    15
+                                ]
+                            },
+                            "string": "Le Canard Encha\u00een\u00e9",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            13,
+                            14,
+                            15
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Le Canard Encha\u00een\u00e9",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    26
+                                ]
+                            },
+                            "string": "ministerie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            25,
+                            26,
+                            27,
+                            28
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Het ministerie van Werk",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    38
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            38
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "zijn",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "string": "Franse regering"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Future",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Franse regering gaat werklozen viseren"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        5,
+                                        6,
+                                        7
+                                    ]
+                                },
+                                "string": "De Franse regering"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            5,
+                            6,
+                            7,
+                            8
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Future",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Franse regering gaat"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        25,
+                                        26,
+                                        27,
+                                        28
+                                    ]
+                                },
+                                "string": "Het ministerie van Werk"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Het ministerie van Werk overweegt ' hardere sancties ' tegen stempelaars die naar zijn mening niet actief genoeg een job zoeken"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000630",
+                            "pension and welfare policy"
+                        ],
+                        [
+                            "medtop:20000626",
+                            "interior policy"
+                        ],
+                        [
+                            "medtop:20000621",
+                            "government policy"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "token_string": "Franse regering gaat werklozen viseren De Franse regering gaat , aldus het weekblad Le Canard Encha\u00een\u00e9 , strenger controleren of werklozen wel werk zoeken . Het ministerie van Werk overweegt ' hardere sancties ' tegen stempelaars die naar zijn mening niet actief genoeg een job zoeken ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_954"
+    }
+}

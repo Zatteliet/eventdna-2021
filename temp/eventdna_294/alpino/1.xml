@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="ppart" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="obj1">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="schutter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="schutter" sense="schutter" word="Schutter"/>
+        <node begin="1" cat="np" end="3" id="4" rel="app">
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="aanslag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanslag" sense="aanslag" word="aanslag"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Luik" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Luik" sense="Luik" word="Luik"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+      <node begin="4" cat="pp" end="6" id="8" rel="mod">
+        <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="5" end="6" frame="np(year)" his="normal" his_1="normal" id="10" lcat="np" lemma="2014" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="2014" sense="2014" word="2014"/>
+      </node>
+      <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,transitive)" his="form_of_suffix" his_1="eerd" id="11" infl="psp" lcat="ppart" lemma="geradicaliseer" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geradicaliseer" sc="transitive" sense="geradicaliseer" word="geradicaliseerd" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Schutter aanslag Luik al in 2014 geradicaliseerd</sentence>
+  <comments>
+    <comment>Q#1|Schutter aanslag Luik al in 2014 geradicaliseerd|1|1|6.4323219197</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,439 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_3",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_2",
+                        "entity_6"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_1",
+                        "event_3"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Unizo",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Unizo",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    5
+                                ]
+                            },
+                            "string": "partijen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            4,
+                            5
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "politieke partijen",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16,
+                                    17
+                                ]
+                            },
+                            "string": "Unizo Riemst",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16,
+                            17
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Unizo Riemst",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    17
+                                ]
+                            },
+                            "string": "Riemst",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            17
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Riemst",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            23
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    32
+                                ]
+                            },
+                            "string": "partijen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            29,
+                            30,
+                            31,
+                            32
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de lokale politieke partijen",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Giver",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Unizo"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        4,
+                                        5
+                                    ]
+                                },
+                                "string": "politieke partijen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "subtype": "Transaction",
+                        "tense": "Present",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Unizo overhandigt ondernemersprioriteiten aan politieke partijen"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        13,
+                                        14
+                                    ]
+                                },
+                                "string": "14 oktober"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+                        "subtype": "Vote",
+                        "tense": "Unspecified",
+                        "type": "Politics"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de gemeenteraadsverkiezingen op 14 oktober"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        19,
+                                        20,
+                                        21
+                                    ]
+                                },
+                                "string": "dinsdag 20 maart"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        29,
+                                        30,
+                                        31,
+                                        32
+                                    ]
+                                },
+                                "string": "de lokale politieke partijen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        17
+                                    ]
+                                },
+                                "string": "Riemst"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Giver",
+                                    "span": [
+                                        16,
+                                        17
+                                    ]
+                                },
+                                "string": "Unizo Riemst"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32
+                        ],
+                        "subtype": "Transaction",
+                        "tense": "Past",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "heeft Unizo Riemst op dinsdag 20 maart alvast haar dossier met ondernemersprioriteiten overhandigd aan de lokale politieke partijen"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000578",
+                            "local elections"
+                        ],
+                        [
+                            "medtop:20000574",
+                            "election"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000170",
+                            "business information"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+        ],
+        "token_string": "Unizo overhandigt ondernemersprioriteiten aan politieke partijen . Naar aanleiding van de gemeenteraadsverkiezingen op 14 oktober heeft Unizo Riemst op dinsdag 20 maart alvast haar dossier met ondernemersprioriteiten overhandigd aan de lokale politieke partijen ."
+    },
+    "meta": {
+        "author": "eventdna_anno_3",
+        "id": "eventdna_1686"
+    }
+}

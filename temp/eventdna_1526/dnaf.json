@@ -1,0 +1,438 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_6"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_5",
+                        "entity_2",
+                        "entity_7"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_4",
+                        "entity_3"
+                    ]
+                },
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "kandidaten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Deze zeven kandidaten",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    10
+                                ]
+                            },
+                            "string": "Poetin",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            10
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Poetin",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    13
+                                ]
+                            },
+                            "string": "Russische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            13
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Russische",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    17
+                                ]
+                            },
+                            "string": "Russische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            17
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Russische",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    19,
+                                    20
+                                ]
+                            },
+                            "string": "Vladimir Poetin",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            19,
+                            20
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Vladimir Poetin",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    29
+                                ]
+                            },
+                            "string": "kandidaten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zeven kandidaten die een gooi doen naar het presidentschap",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    59
+                                ]
+                            },
+                            "string": "Poetin",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            59
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Poetin",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "topic",
+                                    "argument_role": "Topic",
+                                    "span": [
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "het presidentschap"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        23,
+                                        24,
+                                        25
+                                    ]
+                                },
+                                "string": "vandaag / zondag"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "subtype": "Vote",
+                        "tense": "Present",
+                        "type": "Politics"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De huidige Russische president Vladimir Poetin neemt het vandaag / zondag op tegen zeven kandidaten die een gooi doen naar het presidentschap"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000579",
+                            "national elections"
+                        ],
+                        [
+                            "medtop:20000574",
+                            "election"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000582",
+                            "political candidates"
+                        ],
+                        [
+                            "medtop:20000574",
+                            "election"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+        ],
+        "token_string": "Deze zeven kandidaten nemen het ( tevergeefs ) op tegen Poetin in de Russische verkiezingen De huidige Russische president Vladimir Poetin neemt het vandaag / zondag op tegen zeven kandidaten die een gooi doen naar het presidentschap . Een gooi die bij voorbaat vruchteloos lijkt , want met ongeveer 70 procent in de peilingen ziet het ernaar uit dat Poetin gewonnen spel heeft ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_1526"
+    }
+}

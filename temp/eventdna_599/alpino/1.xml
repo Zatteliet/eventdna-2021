@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="1" cat="smain" end="9" id="2" rel="--">
+      <node begin="1" end="2" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="3" index="1" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="VS" sense="VS" word="VS"/>
+      <node begin="2" end="3" frame="verb(unacc,pl,aux_psp_zijn)" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="1" cat="ppart" end="9" id="5" rel="vc">
+        <node begin="1" end="2" id="6" index="1" rel="su"/>
+        <node begin="3" cat="np" end="8" id="7" rel="obj1">
+          <node aform="super" begin="3" buiging="met-e" end="4" frame="adjective(ste)" graad="sup" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="grootste"/>
+          <node begin="4" end="5" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="handel_oorlog" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="handel_oorlog" sense="handel_oorlog" word="handelsoorlog"/>
+          <node begin="5" cat="pp" end="8" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="8" id="12" rel="obj1">
+              <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="economisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="economisch" sense="economisch" vform="adj" word="economische"/>
+              <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="geschiedenis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="geschiedenis" sense="geschiedenis" word="geschiedenis"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" buiging="zonder" end="9" frame="verb('hebben/zijn',psp,transitive)" his="normal" his_1="normal" id="15" infl="psp" lcat="ppart" lemma="starten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="start" sc="transitive" sense="start" word="gestart" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="9" end="10" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="16" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">&apos; VS zijn grootste handelsoorlog van economische geschiedenis gestart &apos;</sentence>
+  <comments>
+    <comment>Q#1|&apos; VS zijn grootste handelsoorlog van economische geschiedenis gestart &apos;|1|1|-2.8347255324000016</comment>
+  </comments>
+</alpino_ds>

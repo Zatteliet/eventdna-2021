@@ -1,0 +1,30 @@
+De	de	LID(bep)	B-NP	O
+alles	alles	VNW(onbep,pron,3o,ev)	I-NP	O
+grijpende	grijpen	WW(od,prenom,met-e)	I-NP	O
+tentakels	tentakel	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Alibaba	Alibaba	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+De	de	LID(bep)	B-NP	O
+steile	steil	ADJ(prenom,basis,met-e,stan)	I-NP	O
+opmars	opmars	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Chinese	Chinees	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+internetgigant	internetgigant	N(soort,ev,basis,zijd,stan)	I-NP	O
+Alibaba	Alibaba	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+lijkt	lijken	WW(pv,tgw,met-t)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+te	te	VZ(init)	B-VP	O
+stuiten	stuiten	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Oprichter	oprichter	N(soort,ev,basis,zijd,stan)	B-NP	O
+Jack	Jack	SPEC(deeleigen)	I-NP	B-PER
+Ma	Ma	SPEC(deeleigen)	I-NP	I-PER
+bouwt	bouwen	WW(pv,tgw,met-t)	B-VP	O
+aan	aan	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+wereldimperium	wereldimperium	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

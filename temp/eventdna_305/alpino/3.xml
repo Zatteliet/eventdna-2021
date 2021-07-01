@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="22" id="2" rel="--">
+      <node begin="0" cat="np" end="17" id="3" rel="su">
+        <node aform="compar" begin="0" buiging="zonder" end="1" frame="adjective(meer)" graad="comp" his="normal" his_1="decap" his_1_1="normal" id="4" infl="meer" lcat="np" lemma="meer" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" rnum="sg" root="meer" sense="meer" vform="adj" vwtype="onbep" word="Meer"/>
+        <node begin="1" cat="cp" end="7" id="5" rel="obcomp">
+          <node begin="1" conjtype="onder" end="2" frame="comparative(dan)" his="normal" his_1="normal" id="6" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+          <node begin="2" cat="np" end="7" id="7" rel="body">
+            <node begin="2" case="both" def="indef" end="3" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="een"/>
+            <node begin="3" cat="pp" end="7" id="9" rel="mod">
+              <node begin="3" end="4" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="4" cat="np" end="7" id="11" rel="obj1">
+                <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="5" end="6" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="13" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+                <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="tand_arts" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tand_arts" sense="tand_arts" word="tandartsen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="7" cat="rel" end="17" id="15" rel="mod">
+          <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="16" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="7" cat="ssub" end="17" id="17" rel="body">
+            <node begin="7" end="8" id="18" index="1" rel="su"/>
+            <node begin="15" end="16" frame="verb(unacc,sg_heeft,aux_psp_zijn)" his="normal" his_1="normal" id="19" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="present" word="is" wvorm="pv"/>
+            <node begin="7" cat="ppart" end="17" id="20" rel="vc">
+              <node begin="7" end="8" id="21" index="1" rel="su"/>
+              <node begin="8" cat="pp" end="10" id="22" rel="mod">
+                <node begin="8" end="9" frame="preposition(sinds,[])" his="normal" his_1="normal" id="23" lcat="pp" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" sense="sinds" vztype="init" word="sinds"/>
+                <node begin="9" end="10" frame="np(year)" his="normal" his_1="normal" id="24" lcat="np" lemma="2012" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="2012" sense="2012" word="2012"/>
+              </node>
+              <node begin="10" cat="pp" end="12" id="25" rel="mod">
+                <node begin="10" end="11" frame="preposition(in,[])" his="normal" his_1="normal" id="26" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="27" lcat="np" lemma="België" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="België" sense="België" word="België"/>
+              </node>
+              <node begin="12" cat="pp" end="15" id="28" rel="predc">
+                <node begin="12" end="13" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="29" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+                <node begin="13" cat="np" end="15" id="30" rel="obj1">
+                  <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="31" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="14" end="15" frame="meas_mod_noun(de,count,sg,pred_pp(aan))" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="slag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="slag" sc="pred_pp(aan)" sense="slag" special="meas_mod" word="slag"/>
+                </node>
+              </node>
+              <node begin="16" buiging="zonder" end="17" frame="verb(zijn,psp,pp_copula(aan,slag))" his="normal" his_1="normal" id="33" infl="psp" lcat="ppart" lemma="gaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ga" sc="pp_copula(aan,slag)" sense="aan-slag-ga" word="gegaan" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" frame="verb(zijn,sg3,ld_pp)" his="normal" his_1="normal" id="34" infl="sg3" lcat="smain" lemma="komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom" sc="ld_pp" sense="kom" stype="declarative" tense="present" word="komt" wvorm="pv"/>
+      <node begin="19" cat="pp" end="22" id="35" rel="ld">
+        <node begin="19" end="20" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="36" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="20" cat="np" end="22" id="37" rel="obj1">
+          <node begin="20" end="21" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="38" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="21" end="22" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="buitenland" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="buitenland" sense="buitenland" word="buitenland"/>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Meer dan een op de vier tandartsen die sinds 2012 in België aan de slag is gegaan , komt uit het buitenland .</sentence>
+  <comments>
+    <comment>Q#3|Meer dan een op de vier tandartsen die sinds 2012 in België aan de slag is gegaan , komt uit het buitenland .|1|1|-5.325276620329996</comment>
+  </comments>
+</alpino_ds>

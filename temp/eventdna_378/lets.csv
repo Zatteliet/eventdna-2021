@@ -1,0 +1,51 @@
+Veiligheid	veiligheid	N(soort,ev,basis,zijd,stan)	B-NP	O
+eerst	eerst	BW()	B-ADVP	O
+in	in	VZ(init)	B-PP	O
+nieuw	nieuw	ADJ(prenom,basis,zonder)	B-NP	O
+mobiliteitsplan	mobiliteitsplan	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+Na	na	VZ(init)	B-PP	O
+twee	twee	TW(hoofd,prenom,stan)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+mobiliteitsplan	mobiliteitsplan	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Lovendegem	Lovendegem	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+klaar	klaar	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+trekt	trekken	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+kaart	kaart	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+fietsers	fietser	N(soort,mv,basis)	B-NP	O
+en	en	VG(neven)	O	O
+voetgangers	voetganger	N(soort,mv,basis)	B-NP	O
+,	,	LET()	O	O
+zeker	zeker	ADJ(vrij,basis,zonder)	B-AP	O
+ook	ook	BW()	B-ADVP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+buurt	buurt	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	O	O
+de	de	LID(bep)	O	O
+N9	N9	SPEC(symb)	O	B-ORG
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+gemeente	gemeente	N(soort,ev,basis,zijd,stan)	I-NP	O
+nodigt	nodigen	WW(pv,tgw,met-t)	B-VP	O
+burgers	burger	N(soort,mv,basis)	B-NP	O
+nog	nog	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+laatste	laat	ADJ(prenom,sup,met-e,stan)	I-NP	O
+keer	keer	N(soort,ev,basis,genus,stan)	I-NP	O
+uit	uit	VZ(fin)	O	O
+om	om	VZ(init)	B-PP	O
+opmerkingen	opmerking	N(soort,mv,basis)	B-NP	O
+te	te	VZ(init)	B-VP	O
+formuleren	formuleren	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

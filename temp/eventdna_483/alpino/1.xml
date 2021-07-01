@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="lid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="lid" sense="lid" word="Leden"/>
+        <node begin="1" cat="mwu" end="3" his="name" his_1="not_begin" id="4" mwu_root="Groep Diane" mwu_sense="Groep Diane" rel="app">
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Groep" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Groep" sense="Groep" spectype="deeleigen" word="Groep"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Diane" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Diane" sense="Diane" spectype="deeleigen" word="Diane"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(pl),transitive)" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="organiseren" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="organiseer" sc="transitive" sense="organiseer" stype="declarative" tense="past" word="organiseerden" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="obj1">
+        <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="overval" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="overval" sense="overval" word="overvallen"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Leden Groep Diane organiseerden de overvallen</sentence>
+  <comments>
+    <comment>Q#1|Leden Groep Diane organiseerden de overvallen|1|1|-0.1135967857500002</comment>
+  </comments>
+</alpino_ds>

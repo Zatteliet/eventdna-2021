@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="8" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="raad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="raad" sense="raad" word="raad"/>
+        <node begin="2" cat="pp" end="8" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="8" id="7" rel="obj1">
+            <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="bestuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bestuur" sense="bestuur" word="bestuur"/>
+            <node begin="4" cat="pp" end="8" id="9" rel="mod">
+              <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="5" cat="np" end="8" id="11" rel="obj1">
+                <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="6" cat="mwu" end="8" his="normal" his_1="names_dictionary" id="13" mwu_root="Europese Investeringsbank" mwu_sense="Europese Investeringsbank" rel="hd">
+                  <node begin="6" end="7" frame="proper_name(sg,'ORG')" id="14" lcat="np" lemma="Europese" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europese" sense="Europese" spectype="deeleigen" word="Europese"/>
+                  <node begin="7" end="8" frame="proper_name(sg,'ORG')" id="15" lcat="np" lemma="Investeringsbank" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Investeringsbank" sense="Investeringsbank" spectype="deeleigen" word="Investeringsbank"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="16" infl="sg3" lcat="smain" lemma="beslissen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="beslis" sc="sbar" sense="beslis" stype="declarative" tense="present" word="beslist" wvorm="pv"/>
+      <node begin="9" cat="cp" end="19" id="17" rel="vc">
+        <node begin="9" conjtype="onder" end="10" frame="complementizer(of)" his="normal" his_1="normal" id="18" lcat="cp" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" sc="of" sense="of" word="of"/>
+        <node begin="10" cat="ssub" end="19" id="19" rel="body">
+          <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="20" index="1" lcat="np" lemma="Vlaanderen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Vlaanderen" sense="Vlaanderen" word="Vlaanderen"/>
+          <node begin="14" end="15" frame="verb(hebben,sg,modifier(aux(inf)))" his="normal" his_1="normal" id="21" infl="sg" lcat="ssub" lemma="mogen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="mag" sc="modifier(aux(inf))" sense="mag" tense="present" word="mag" wvorm="pv"/>
+          <node begin="10" cat="inf" end="19" id="22" rel="vc">
+            <node begin="10" end="11" id="23" index="1" rel="su"/>
+            <node begin="11" cat="np" end="14" id="24" rel="obj1">
+              <node begin="11" end="12" frame="determiner(een)" his="normal" his_1="normal" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="12" end="13" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="miljard" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljard" sc="measure" sense="miljard" special="meas_mod" word="miljard"/>
+              <node begin="13" end="14" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="euro" sense="euro" special="meas_mod" word="euro"/>
+            </node>
+            <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="28" infl="inf" lcat="inf" lemma="lenen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leen" sc="transitive" sense="leen" word="lenen" wvorm="inf"/>
+            <node begin="16" cat="pp" end="19" id="29" rel="mod">
+              <node begin="16" end="17" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="30" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="17" cat="np" end="19" id="31" rel="obj1">
+                <node begin="17" end="18" frame="determiner(de)" his="normal" his_1="normal" id="32" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="18" end="19" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="33" lcat="np" lemma="werkzaamheid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="werkzaamheid" sense="werkzaamheid" word="werkzaamheden"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">De raad van bestuur van de Europese Investeringsbank beslist of Vlaanderen een miljard euro mag lenen voor de werkzaamheden .</sentence>
+  <comments>
+    <comment>Q#4|De raad van bestuur van de Europese Investeringsbank beslist of Vlaanderen een miljard euro mag lenen voor de werkzaamheden .|1|1|-6.929993316169998</comment>
+  </comments>
+</alpino_ds>

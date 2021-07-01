@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="np" end="12" id="1" rel="--">
+      <node begin="0" cat="detp" end="3" id="2" rel="det">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="3" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+          <node begin="0" buiging="zonder" end="1" frame="pre_num_adv(both)" graad="comp" id="4" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="Meer"/>
+          <node begin="1" conjtype="onder" end="2" frame="pre_num_adv(both)" id="5" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+        </node>
+        <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="6" infl="pl_num" lcat="detp" lemma="160" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="160" sense="160" special="hoofd" word="160"/>
+      </node>
+      <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="arrestatie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="arrestatie" sense="arrestatie" word="arrestaties"/>
+      <node begin="4" cat="pp" end="12" id="8" rel="mod">
+        <node begin="4" end="5" frame="preposition(na,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="5" cat="np" end="12" id="10" rel="obj1">
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="razzia" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="razzia" sense="razzia" word="razzia"/>
+          <node begin="6" cat="pp" end="12" id="12" rel="mod">
+            <node begin="6" end="7" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="13" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="7" cat="np" end="12" id="14" rel="obj1">
+              <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="maffia" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="maffia" sense="maffia" word="maffia"/>
+              <node begin="8" cat="pp" end="12" id="16" rel="mod">
+                <node begin="8" end="9" frame="preposition(in,[])" his="normal" his_1="normal" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="9" cat="conj" end="12" id="18" rel="obj1">
+                  <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="19" lcat="np" lemma="Italië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Italië" sense="Italië" word="Italië"/>
+                  <node begin="10" conjtype="neven" end="11" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="Duitsland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Duitsland" sense="Duitsland" word="Duitsland"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Meer dan 160 arrestaties na razzia tegen maffia in Italië en Duitsland</sentence>
+  <comments>
+    <comment>Q#1|Meer dan 160 arrestaties na razzia tegen maffia in Italië en Duitsland|1|1|-0.742516229030002</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="1" cat="du" end="7" id="2" rel="--">
+      <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="3" lcat="np" lemma="HR_manager" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" rnum="pl" root="HR_manager" sense="HR_manager" word="HR-managers"/>
+      <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="4" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="dp" root="niet" sense="niet" word="niet"/>
+      <node begin="3" cat="ap" end="7" id="5" rel="dp">
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv),pp(voor))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="klaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="klaar" sc="pp(voor)" sense="klaar-voor" vform="adj" word="klaar"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="pc">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" cat="np" end="7" id="9" rel="obj1">
+            <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="technologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="technologisch" sense="technologisch" vform="adj" word="technologische"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="evolutie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="evolutie" sense="evolutie" word="evolutie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="12" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">&apos; HR-managers niet klaar voor technologische evolutie &apos;</sentence>
+  <comments>
+    <comment>Q#1|&apos; HR-managers niet klaar voor technologische evolutie &apos;|1|1|4.683472957740002</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,39 @@
+Peruaanse	peruaans	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Kuczynski	Kuczynski	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+stapt	stappen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	O	O
+				
+De	de	LID(bep)	B-NP	O
+Peruaanse	peruaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Pedro	Pedro	SPEC(deeleigen)	I-NP	B-PER
+Pablo	Pablo	SPEC(deeleigen)	I-NP	I-PER
+Kuczynski	Kuczynski	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+onder	onder	VZ(init)	B-PP	O
+grote	groot	ADJ(prenom,basis,met-e,stan)	B-NP	O
+druk	druk	N(soort,ev,basis,zijd,stan)	I-NP	O
+stond	staan	WW(pv,verl,ev)	B-VP	O
+door	door	VZ(init)	O	O
+een	een	LID(onbep)	B-AP	O
+smeergeldaffaire	smeergeldaffair	ADJ(prenom,basis,met-e,stan)	I-AP	O
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+afgetreden	aftreden	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Daarmee	daarmee	BW()	B-ADVP	O
+voorkwam	voorkomen	WW(pv,verl,ev)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+een	een	LID(onbep)	O	O
+voor	voor	VZ(init)	B-PP	O
+donderdag	donderdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+geplande	plannen	WW(vd,prenom,met-e)	I-NP	O
+afzettingsprocedure	afzettingsprocedure	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+parlement	parlement	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

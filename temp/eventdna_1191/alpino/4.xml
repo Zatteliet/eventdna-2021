@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="13" end="14" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="33" id="2" rel="--">
+      <node begin="0" cat="smain" end="13" id="3" rel="nucl">
+        <node begin="0" cat="pp" end="5" id="4" rel="mod">
+          <node begin="0" end="1" frame="preposition(volgens,[])" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="Volgens"/>
+          <node begin="1" cat="np" end="5" id="6" rel="obj1">
+            <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj" word="Nederlandse"/>
+            <node begin="3" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="9" mwu_root="Openbaar Ministerie" mwu_sense="Openbaar Ministerie" rel="hd">
+              <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Openbaar" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Openbaar" sense="Openbaar" spectype="deeleigen" word="Openbaar"/>
+              <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="Ministerie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ministerie" sense="Ministerie" spectype="deeleigen" word="Ministerie"/>
+            </node>
+          </node>
+        </node>
+        <node begin="5" end="6" frame="verb(zijn,sg3,pc_pp(om))" his="normal" his_1="normal" id="12" infl="sg3" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="pc_pp(om)" sense="ga-om" stype="declarative" tense="present" word="gaat" wvorm="pv"/>
+        <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="13" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+        <node begin="7" cat="pp" end="13" id="14" rel="pc">
+          <node begin="7" end="8" frame="preposition(om,[heen])" his="normal" his_1="normal" id="15" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+          <node begin="8" cat="np" end="13" id="16" rel="obj1">
+            <node begin="8" end="9" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="17" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+            <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="Nederlander" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Nederlander" sense="Nederlander" word="Nederlanders"/>
+            <node begin="10" cat="pp" end="13" id="19" rel="mod">
+              <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="11" cat="np" end="13" id="21" rel="obj1">
+                <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="Marokkaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Marokkaans" sense="Marokkaans" vform="adj" word="Marokkaanse"/>
+                <node begin="12" end="13" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="origine" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="origine" sense="origine" word="origine"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="conj" end="33" id="24" rel="sat">
+        <node begin="14" cat="smain" end="25" id="25" rel="cnj">
+          <node begin="14" cat="np" end="21" id="26" index="1" rel="su">
+            <node begin="14" end="15" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="27" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+            <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="broer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="broer" sense="broer" word="broers"/>
+            <node begin="16" cat="pp" end="21" id="29" rel="mod">
+              <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="30" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="17" cat="np" end="21" id="31" rel="obj1">
+                <node begin="17" cat="conj" end="20" id="32" rel="det">
+                  <node begin="17" end="18" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="33" infl="pl_num" lcat="detp" lemma="29" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="29" sense="29" special="hoofd" word="29"/>
+                  <node begin="18" conjtype="neven" end="19" frame="conj(en)" his="normal" his_1="normal" id="34" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="19" end="20" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="35" infl="pl_num" lcat="detp" lemma="26" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="26" sense="26" special="hoofd" word="26"/>
+                </node>
+                <node begin="20" end="21" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="36" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+              </node>
+            </node>
+          </node>
+          <node begin="21" end="22" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="37" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+          <node begin="14" cat="ppart" end="25" id="38" rel="vc">
+            <node begin="14" end="21" id="39" index="1" rel="obj1"/>
+            <node begin="22" buiging="zonder" end="23" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="40" infl="psp" lcat="ppart" lemma="op_pakken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="pak_op" sc="part_transitive(op)" sense="pak_op" word="opgepakt" wvorm="vd"/>
+            <node begin="23" cat="pp" end="25" id="41" rel="mod">
+              <node begin="23" end="24" frame="preposition(in,[])" his="normal" his_1="normal" id="42" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="24" end="25" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="43" lcat="np" lemma="Oudenbosch" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Oudenbosch" sense="Oudenbosch" word="Oudenbosch"/>
+            </node>
+          </node>
+        </node>
+        <node begin="25" conjtype="neven" end="26" frame="conj(en)" his="normal" his_1="normal" id="44" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="26" cat="smain" end="33" id="45" rel="cnj">
+          <node begin="26" cat="np" end="29" id="46" index="2" rel="su">
+            <node begin="26" end="27" frame="determiner(een)" his="normal" his_1="normal" id="47" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="27" buiging="met-e" end="28" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="48" infl="e" lcat="ap" lemma="37_jarig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="37_jarig" sense="37_jarig" vform="adj" word="37-jarige"/>
+            <node begin="28" end="29" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="49" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+          </node>
+          <node begin="29" end="30" frame="verb(unacc,sg_heeft,passive)" his="normal" his_1="normal" id="50" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+          <node begin="26" cat="ppart" end="33" id="51" rel="vc">
+            <node begin="26" end="29" id="52" index="2" rel="obj1"/>
+            <node begin="30" buiging="zonder" end="31" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="53" infl="psp" lcat="ppart" lemma="arresteren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="arresteer" sc="transitive" sense="arresteer" word="gearresteerd" wvorm="vd"/>
+            <node begin="31" cat="pp" end="33" id="54" rel="mod">
+              <node begin="31" end="32" frame="preposition(in,[])" his="normal" his_1="normal" id="55" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="32" end="33" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="56" lcat="np" lemma="Roosendaal" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Roosendaal" sense="Roosendaal" word="Roosendaal"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" frame="punct(punt)" his="normal" his_1="normal" id="57" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Volgens het Nederlandse Openbaar Ministerie gaat het om vier Nederlanders van Marokkaanse origine : twee broers van 29 en 26 jaar zijn opgepakt in Oudenbosch en een 37-jarige man is gearresteerd in Roosendaal .</sentence>
+  <comments>
+    <comment>Q#4|Volgens het Nederlandse Openbaar Ministerie gaat het om vier Nederlanders van Marokkaanse origine : twee broers van 29 en 26 jaar zijn opgepakt in Oudenbosch en een 37-jarige man is gearresteerd in Roosendaal .|1|1|-16.600396724170007</comment>
+  </comments>
+</alpino_ds>

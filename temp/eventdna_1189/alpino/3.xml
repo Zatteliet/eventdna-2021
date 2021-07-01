@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="21" end="22" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="30" end="31" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="34" id="3" rel="--">
+      <node begin="0" cat="smain" end="9" id="4" rel="cnj">
+        <node begin="0" cat="np" end="2" id="5" rel="mod">
+          <node begin="0" buiging="met-e" end="1" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="decap" his_1_1="normal" id="6" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="Deze"/>
+          <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="week" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="week" sense="week" special="tmp" word="week"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,past(sg),intransitive)" his="normal" his_1="normal" id="8" infl="sg" lcat="smain" lemma="vieren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vier" sc="intransitive" sense="vier" stype="declarative" tense="past" word="vierde" wvorm="pv"/>
+        <node begin="3" cat="np" end="6" id="9" rel="su">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="staat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat" sense="staat" word="staat"/>
+          <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="12" lcat="np" lemma="Israël" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Israël" sense="Israël" word="Israël"/>
+        </node>
+        <node begin="6" cat="np" end="9" id="13" rel="mod">
+          <node begin="6" buiging="zonder" end="7" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="14" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="7" end="8" frame="number(rang)" his="normal" his_1="normal" id="15" lcat="ap" lemma="70ste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="70ste" sense="70ste" special="rang" word="70ste"/>
+          <node begin="8" end="9" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="verjaar_dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verjaar_dag" sense="verjaar_dag" special="tmp" word="verjaardag"/>
+        </node>
+      </node>
+      <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="10" cat="du" end="34" id="18" rel="cnj">
+        <node begin="10" cat="np" end="12" id="19" rel="dp">
+          <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="11" end="12" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="verhuis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verhuis" sense="verhuis" word="verhuis"/>
+        </node>
+        <node begin="12" cat="pp" end="19" id="22" rel="dp">
+          <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="13" cat="np" end="19" id="24" rel="obj1">
+            <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="26" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+            <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="ambassade" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ambassade" sense="ambassade" word="ambassade"/>
+            <node begin="16" cat="pp" end="19" id="28" rel="mod">
+              <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="29" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="17" cat="mwu" end="19" his="normal" his_1="names_dictionary" id="30" mwu_root="Tel Aviv" mwu_sense="Tel Aviv" rel="obj1">
+                <node begin="17" end="18" frame="proper_name(sg,'LOC')" id="31" lcat="np" lemma="Tel" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tel" sense="Tel" spectype="deeleigen" word="Tel"/>
+                <node begin="18" end="19" frame="proper_name(sg,'LOC')" id="32" lcat="np" lemma="Aviv" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Aviv" sense="Aviv" spectype="deeleigen" word="Aviv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="19" cat="pp" end="34" id="33" rel="dp">
+          <node begin="19" end="20" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="34" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="20" cat="np" end="34" id="35" rel="obj1">
+            <node begin="20" end="21" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="36" lcat="np" lemma="Jerusalem" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="Jerusalem" sense="Jerusalem" word="Jerusalem"/>
+            <node begin="22" cat="np" end="34" id="37" rel="app">
+              <node begin="22" end="23" frame="determiner(een)" his="normal" his_1="normal" id="38" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="23" end="24" frame="meas_mod_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="plaats" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="plaats" sense="plaats" special="meas_mod" word="plaats"/>
+              <node begin="24" cat="rel" end="34" id="40" rel="mod">
+                <node begin="24" case="no_obl" end="25" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="41" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="24" cat="ssub" end="34" id="42" rel="body">
+                  <node begin="24" end="25" id="43" index="1" rel="su"/>
+                  <node aform="base" begin="25" buiging="zonder" end="26" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="44" infl="no_e" lcat="ap" lemma="heilig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="heilig" sense="heilig" vform="adj" word="heilig"/>
+                  <node begin="26" end="27" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="45" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+                  <node begin="27" cat="pp" end="34" id="46" rel="mod">
+                    <node begin="27" end="28" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="47" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                    <node begin="28" cat="conj" end="34" id="48" rel="obj1">
+                      <node begin="28" end="29" frame="left_conj(als)" his="normal" his_1="normal" id="49" lcat="vg" lemma="zowel" pos="vg" postag="BW()" pt="bw" rel="crd" root="zowel" sense="zowel" special="left" word="zowel"/>
+                      <node begin="29" end="30" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="50" lcat="np" lemma="moslim" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="moslim" sense="moslim" word="moslims"/>
+                      <node begin="31" end="32" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="51" lcat="np" lemma="christen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="christen" sense="christen" word="christenen"/>
+                      <node begin="32" conjtype="onder" end="33" frame="right_conj(als)" his="normal" his_1="normal" id="52" lcat="vg" lemma="als" pos="vg" postag="VG(onder)" pt="vg" rel="crd" root="als" sense="als" special="right" word="als"/>
+                      <node begin="33" end="34" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="53" lcat="np" lemma="jood" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="jood" sense="jood" word="joden"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" frame="punct(punt)" his="normal" his_1="normal" id="54" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Deze week vierde de staat Israël zijn 70ste verjaardag en de verhuis van de Amerikaanse ambassade van Tel Aviv naar Jerusalem , een plaats die heilig is voor zowel moslims , christenen als joden .</sentence>
+  <comments>
+    <comment>Q#3|Deze week vierde de staat Israël zijn 70ste verjaardag en de verhuis van de Amerikaanse ambassade van Tel Aviv naar Jerusalem , een plaats die heilig is voor zowel moslims , christenen als joden .|1|1|-6.500572255259986</comment>
+  </comments>
+</alpino_ds>

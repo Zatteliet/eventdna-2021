@@ -1,0 +1,826 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_3"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_7",
+                        "entity_9",
+                        "entity_4"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_2",
+                        "entity_10"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_4": [
+                        "event_1",
+                        "event_4",
+                        "event_5"
+                    ],
+                    "coref_bucket_5": [
+                        "event_6",
+                        "event_3",
+                        "event_2"
+                    ],
+                    "coref_bucket_6": [
+                        "event_7",
+                        "event_3",
+                        "event_6",
+                        "event_2"
+                    ],
+                    "coref_bucket_7": [
+                        "event_7",
+                        "event_3",
+                        "event_6",
+                        "event_8"
+                    ],
+                    "coref_bucket_8": [
+                        "event_7",
+                        "event_6",
+                        "event_8"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "Trump",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            4
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Trump",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    61
+                                ]
+                            },
+                            "string": "China",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            61
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "China",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    84
+                                ]
+                            },
+                            "string": "Bloomberg",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            84
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Bloomberg",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6
+                                ]
+                            },
+                            "string": "China",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "China",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    11
+                                ]
+                            },
+                            "string": "VS",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            11
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "VS",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "Chinese",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Chinese",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    20,
+                                    21
+                                ]
+                            },
+                            "string": "Verenigde Staten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            20,
+                            21
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Verenigde Staten",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    34
+                                ]
+                            },
+                            "string": "douane-autoriteit",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            32,
+                            33,
+                            34
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de Chinese douane-autoriteit",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    33
+                                ]
+                            },
+                            "string": "Chinese",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            33
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Chinese",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    45
+                                ]
+                            },
+                            "string": "landen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            43,
+                            44,
+                            45
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de twee landen",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    58
+                                ]
+                            },
+                            "string": "Chinese",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            58
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Chinese",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        4
+                                    ]
+                                },
+                                "string": "Trump"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Spanningen en dreigementen van Trump"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "handelsoverschot met VS bereikt nieuw record"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        23,
+                                        24
+                                    ]
+                                },
+                                "string": "in juni"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Het Chinese handelsoverschot met de Verenigde Staten heeft in juni een nieuw record bereikt"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Present",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de spanningen tussen de twee landen verder oplopen"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            53,
+                            54
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "dat conflict"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            56,
+                            57,
+                            58,
+                            59
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "het grote Chinese handelsoverschot"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        61
+                                    ]
+                                },
+                                "string": "China"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            61,
+                            62,
+                            63,
+                            64,
+                            65,
+                            66,
+                            67,
+                            68,
+                            69,
+                            70,
+                            71
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "China liet in juni een overschot van 28,97 miljard dollar optekenen"
+                },
+                "event_8": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            88,
+                            89,
+                            90,
+                            91
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "het hoogste overschot ooit"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000610",
+                            "heads of state"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000376",
+                            "trade dispute"
+                        ],
+                        [
+                            "medtop:20000373",
+                            "international trade"
+                        ],
+                        [
+                            "medtop:20000346",
+                            "macro economics"
+                        ],
+                        [
+                            "medtop:20000344",
+                            "economy"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000375",
+                            "trade balance"
+                        ],
+                        [
+                            "medtop:20000373",
+                            "international trade"
+                        ],
+                        [
+                            "medtop:20000346",
+                            "macro economics"
+                        ],
+                        [
+                            "medtop:20000344",
+                            "economy"
+                        ],
+                        [
+                            "medtop:04000000",
+                            "economy, business and finance"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99
+        ],
+        "token_string": "Spanningen en dreigementen van Trump deren China niet : handelsoverschot met VS bereikt nieuw record Het Chinese handelsoverschot met de Verenigde Staten heeft in juni een nieuw record bereikt . Dat heeft de Chinese douane-autoriteit vrijdag bekendgemaakt , net nu de spanningen tussen de twee landen verder oplopen . Aan de basis van dat conflict ligt het grote Chinese handelsoverschot . China liet in juni een overschot van 28,97 miljard dollar optekenen , een stijging met 18 procent in vergelijking met mei . Volgens Bloomberg gaat het om het hoogste overschot ooit - de data gaan terug tot 1999 ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_1641"
+    }
+}

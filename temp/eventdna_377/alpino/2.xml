@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="modal_adverb" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sc="modal" sense="weer" word="Weer"/>
+      <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="3" lcat="np" lemma="onduidelijkheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="onduidelijkheid" sense="onduidelijkheid" word="onduidelijkheid"/>
+      <node begin="2" cat="pp" end="9" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(over,[heen])" his="normal" his_1="normal" id="5" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="3" cat="whrel" end="9" id="6" rel="obj1">
+          <node begin="3" case="both" def="indef" end="4" frame="pronoun(ywh,thi,both,de,both,indef)" gen="de" getal="getal" his="normal" his_1="normal" id="7" index="1" lcat="np" lemma="wie" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="rhd" rnum="sg" root="wie" sense="wie" status="vol" vwtype="vb" wh="ywh" word="wie"/>
+          <node begin="3" cat="ssub" end="9" id="8" rel="body">
+            <node begin="3" end="4" id="9" index="1" rel="su"/>
+            <node begin="5" end="6" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" his="normal" his_1="normal" id="10" infl="sg" lcat="ssub" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="present" word="moet" wvorm="pv"/>
+            <node begin="3" cat="inf" end="9" id="11" rel="vc">
+              <node begin="3" end="4" id="12" index="1" rel="su"/>
+              <node begin="6" buiging="zonder" end="7" frame="verb(unacc,inf,copula)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="copula" sense="word" word="worden" wvorm="inf"/>
+              <node begin="4" cat="np" end="9" id="14" rel="predc">
+                <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="minister_president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister_president" sense="minister_president" word="minister-president"/>
+                <node begin="7" cat="pp" end="9" id="16" rel="mod">
+                  <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="8" end="9" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="Catalonië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Catalonië" sense="Catalonië" word="Catalonië"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Weer onduidelijkheid over wie minister-president moet worden van Catalonië</sentence>
+  <comments>
+    <comment>Q#2|Weer onduidelijkheid over wie minister-president moet worden van Catalonië|1|1|-3.5782484623400013</comment>
+  </comments>
+</alpino_ds>

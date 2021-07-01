@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Paradise Papers" mwu_sense="Paradise Papers" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'PER')" id="3" lcat="np" lemma="Paradise" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Paradise" sense="Paradise" spectype="deeleigen" word="Paradise"/>
+        <node begin="1" end="2" frame="proper_name(both,'PER')" id="4" lcat="np" lemma="Papers" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Papers" sense="Papers" spectype="deeleigen" word="Papers"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="onthullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="onthul" sc="transitive" sense="onthul" stype="declarative" tense="present" word="onthullen" wvorm="pv"/>
+      <node begin="3" cat="conj" end="10" id="6" rel="obj1">
+        <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="3" cat="np" end="10" id="8" rel="cnj">
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" index="1" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="belasting_paradijs" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="belasting_paradijs" sense="belasting_paradijs" word="belastingparadijzen"/>
+          <node begin="7" cat="conj" end="10" id="11" index="2" rel="app">
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="12" lcat="np" lemma="Trump" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Trump" sense="Trump" word="Trump"/>
+            <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="Rusland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Rusland" sense="Rusland" word="Rusland"/>
+          </node>
+        </node>
+        <node begin="3" cat="np" end="10" id="15" rel="cnj">
+          <node begin="3" end="4" id="16" index="1" rel="mod"/>
+          <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="band" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="band" sense="band" word="banden"/>
+          <node begin="7" end="10" id="18" index="2" rel="app"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Paradise Papers onthullen nieuwe belastingparadijzen en banden Trump en Rusland</sentence>
+  <comments>
+    <comment>Q#1|Paradise Papers onthullen nieuwe belastingparadijzen en banden Trump en Rusland|1|1|3.12870655999</comment>
+  </comments>
+</alpino_ds>

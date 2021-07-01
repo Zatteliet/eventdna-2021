@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="ouder" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="ouder" sense="ouder" word="Ouders"/>
+      <node begin="1" end="2" frame="verb(hebben,past(pl),nonp_pred_np)" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="zetten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zet" sc="nonp_pred_np" sense="zet" stype="declarative" tense="past" word="zetten" wvorm="pv"/>
+      <node begin="2" case="both" def="def" end="3" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="5" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="obj1" rnum="sg" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+      <node begin="3" cat="ap" end="9" id="6" rel="predc">
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="form_of_suffix" his_1="ig" id="7" infl="no_e" lcat="ap" lemma="­tegenwoordig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="­tegenwoordig" sense="­tegenwoordig" vform="adj" word="­tegenwoordig"/>
+        <node begin="4" end="5" frame="adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="haast" pos="adv" postag="BW()" pt="bw" rel="mod" root="haast" sense="haast" word="haast"/>
+        <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(both(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="both" lcat="ap" lemma="standaard" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="standaard" sense="standaard" vform="adj" word="standaard"/>
+        <node begin="6" cat="pp" end="9" id="10" rel="mod">
+          <node begin="6" end="7" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="11" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="7" cat="np" end="9" id="12" rel="obj1">
+            <node begin="7" buiging="zonder" end="8" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="13" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="14" lcat="np" lemma="geboorte_lijst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="geboorte_lijst" sense="geboorte_lijst" word="geboortelijst"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="pp" end="16" id="15" rel="mod">
+        <node begin="10" cat="mwu" end="13" his="normal" his_1="normal" id="16" mwu_root="uit vrees voor" mwu_sense="uit vrees voor" rel="hd">
+          <node begin="10" end="11" frame="preposition([uit,vrees,voor],[])" id="17" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="11" end="12" frame="preposition([uit,vrees,voor],[])" id="18" lcat="pp" lemma="vrees" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="vrees" sense="vrees" vztype="init" word="vrees"/>
+          <node begin="12" end="13" frame="preposition([uit,vrees,voor],[])" id="19" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vztype="init" word="voor"/>
+        </node>
+        <node begin="13" cat="np" end="16" id="20" rel="obj1">
+          <node begin="13" end="14" frame="determiner(een)" his="normal" his_1="normal" id="21" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="mogelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijke"/>
+          <node begin="15" end="16" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="wiegedood" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wiegedood" sense="wiegedood" word="wiegendood"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Ouders zetten ze ­tegenwoordig haast standaard op hun geboortelijst , uit vrees voor een mogelijke wiegendood .</sentence>
+  <comments>
+    <comment>Q#3|Ouders zetten ze ­tegenwoordig haast standaard op hun geboortelijst , uit vrees voor een mogelijke wiegendood .|1|1|5.536685638370006</comment>
+  </comments>
+</alpino_ds>

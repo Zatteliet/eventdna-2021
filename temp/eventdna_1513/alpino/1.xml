@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="2" lcat="np" lemma="Brusselaar" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="dp" rnum="pl" root="Brusselaar" sense="Brusselaar" word="Brusselaars"/>
+      <node begin="1" cat="ap" end="8" id="3" rel="dp">
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(padv),pp(over))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="ongerust" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="ongerust" sc="pp(over)" sense="ongerust-over" vform="adj" word="ongerust"/>
+        <node begin="2" cat="pp" end="8" id="5" rel="pc">
+          <node begin="2" end="3" frame="preposition(over,[heen])" his="normal" his_1="normal" id="6" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="3" cat="np" end="8" id="7" rel="obj1">
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="metro_lijn" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="metro_lijn" sense="metro_lijn" word="metrolijn"/>
+            <node begin="5" cat="pp" end="8" id="10" rel="mod">
+              <node begin="5" end="6" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="11" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+              <node begin="6" cat="np" end="8" id="12" rel="obj1">
+                <node begin="6" buiging="zonder" end="7" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="13" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="huis" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="huis" sense="huis" word="huizen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Brusselaars ongerust over nieuwe metrolijn onder hun huizen</sentence>
+  <comments>
+    <comment>Q#1|Brusselaars ongerust over nieuwe metrolijn onder hun huizen|1|1|3.011051244609999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,46 @@
+Zolang	zolang	VG(onder)	O	O
+Puigdemont	Puigdemont	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+collega's	collega	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+blijven	blijven	WW(pv,tgw,mv)	B-VP	O
+,	,	LET()	O	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+ze	ze	VNW(pers,pron,3,mv)	O	O
+er	er	VNW(aanw,adv-pron,3,getal)	O	O
+in	in	VZ(init)	B-PP	O
+Spanje	Spanje	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+geen	geen	VNW(onbep,det)	B-NP	O
+last	last	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	O	O
+				
+DE	DE	LID(bep)	B-NP	O
+KERN	KERN	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Hoe	hoe	BW()	B-ADVP	O
+zou	zullen	WW(pv,verl,ev)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+nog	nog	BW()	B-ADVP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+met	met	VZ(init)	B-PP	O
+Carles	Carles	SPEC(deeleigen)	B-NP	B-PER
+Puigdemont	Puigdemont	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+de	de	LID(bep)	O	O
+door	door	VZ(init)	B-PP	O
+Spanje	Spanje	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+afgezette	afzetten	WW(vd,prenom,met-e)	I-NP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+met	met	VZ(init)	B-PP	O
+vlag	vlag	N(soort,ev,basis,zijd,stan)	B-NP	O
+en	en	VG(neven)	O	O
+wimpel	wimpel	N(soort,ev,basis,zijd,stan)	B-NP	O
+herkozen	herkiezen	WW(vd,vrij,zonder)	B-VP	O
+minister-president	minister-president	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+Catalonië	Catalonië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+?	?	LET()	O	O
+				

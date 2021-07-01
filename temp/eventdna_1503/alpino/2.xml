@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(ligg_streep)" his="normal" his_1="normal" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="8" end="9" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="11" end="12" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="du" end="13" id="4" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Duitsland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="dp" rnum="sg" root="Duitsland" sense="Duitsland" word="Duitsland"/>
+      <node begin="2" cat="smain" end="13" id="6" rel="dp">
+        <node begin="2" cat="conj" end="7" id="7" index="1" rel="su">
+          <node begin="2" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="8" mwu_root="CDU / CSU" mwu_sense="CDU / CSU" rel="cnj">
+            <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="9" lcat="np" lemma="CDU" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CDU" sense="CDU" spectype="deeleigen" word="CDU"/>
+            <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="/" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="/" sense="/" spectype="deeleigen" word="/"/>
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="CSU" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CSU" sense="CSU" spectype="deeleigen" word="CSU"/>
+          </node>
+          <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="6" end="7" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="SPD" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="SPD" sense="SPD" word="SPD"/>
+        </node>
+        <node begin="7" end="8" frame="verb(hebben,pl,modifier(aux(inf)))" his="normal" his_1="normal" id="14" infl="pl" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="willen" wvorm="pv"/>
+        <node begin="2" cat="inf" end="13" id="15" rel="vc">
+          <node begin="2" end="7" id="16" index="1" rel="su"/>
+          <node begin="9" cat="mwu" end="11" his="name" his_1="begin" id="17" mwu_root="Grote Coalitie" mwu_sense="Grote Coalitie" rel="obj1">
+            <node begin="9" end="10" frame="proper_name(both)" id="18" lcat="np" lemma="Grote" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Grote" sense="Grote" spectype="deeleigen" word="Grote"/>
+            <node begin="10" end="11" frame="proper_name(both)" id="19" lcat="np" lemma="Coalitie" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Coalitie" sense="Coalitie" spectype="deeleigen" word="Coalitie"/>
+          </node>
+          <node begin="12" buiging="zonder" end="13" frame="verb(hebben,inf,ninv(transitive,part_transitive(voort)))" his="normal" his_1="part-V" id="20" infl="inf" lcat="inf" lemma="voort_zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet_voort" sc="part_transitive(voort)" sense="zet_voort" word="voortzetten" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Duitsland - CDU / CSU en SPD willen &apos; Grote Coalitie &apos; voortzetten</sentence>
+  <comments>
+    <comment>Q#2|Duitsland - CDU / CSU en SPD willen &apos; Grote Coalitie &apos; voortzetten|1|1|0.4169856070099982</comment>
+  </comments>
+</alpino_ds>

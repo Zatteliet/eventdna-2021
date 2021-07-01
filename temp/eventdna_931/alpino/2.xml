@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="7" end="8" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="2" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="8" cat="mwu" end="10" his="normal" his_1="names_dictionary" id="3" index="1" mwu_root="Vladimir Poetin" mwu_sense="Vladimir Poetin" rel="su">
+        <node begin="8" end="9" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Vladimir" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vladimir" sense="Vladimir" spectype="deeleigen" word="Vladimir"/>
+        <node begin="9" end="10" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Poetin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Poetin" sense="Poetin" spectype="deeleigen" word="Poetin"/>
+      </node>
+      <node begin="0" cat="ppart" end="14" id="6" rel="vc">
+        <node begin="0" cat="pp" end="7" id="7" rel="mod">
+          <node begin="0" cat="np" end="2" id="8" rel="mod">
+            <node begin="0" buiging="met-e" end="1" frame="adj_number(enkele)" his="normal" his_1="decap" his_1_1="normal" id="9" infl="enkele" lcat="detp" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" sense="enkel" special="adj_number" vwtype="onbep" word="Enkele"/>
+            <node begin="1" end="2" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="maand" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maand" sense="maand" special="tmp" word="maanden"/>
+          </node>
+          <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="3" cat="np" end="7" id="12" rel="obj1">
+            <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="4" end="5" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="president_verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="president_verkiezing" sense="president_verkiezing" special="tmp" word="presidentsverkiezingen"/>
+            <node begin="5" cat="pp" end="7" id="15" rel="mod">
+              <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="Rusland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rusland" sense="Rusland" word="Rusland"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" end="10" id="18" index="1" rel="su"/>
+        <node begin="10" cat="np" end="13" id="19" rel="obj1">
+          <node begin="10" end="11" frame="determiner(een)" his="normal" his_1="normal" id="20" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="11" end="12" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="resem" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="resem" sc="measure" sense="resem" word="resem"/>
+          <node begin="12" end="13" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="22" lcat="np" lemma="provincie_gouverneur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="provincie_gouverneur" sense="provincie_gouverneur" word="provinciegouverneurs"/>
+        </node>
+        <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="23" infl="psp" lcat="ppart" lemma="vervangen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vervang" sc="transitive" sense="vervang" word="vervangen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Enkele maanden voor de presidentsverkiezingen in Rusland heeft Vladimir Poetin een resem provinciegouverneurs vervangen .</sentence>
+  <comments>
+    <comment>Q#2|Enkele maanden voor de presidentsverkiezingen in Rusland heeft Vladimir Poetin een resem provinciegouverneurs vervangen .|1|1|-3.70664033113</comment>
+  </comments>
+</alpino_ds>

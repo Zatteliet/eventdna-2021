@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="cp" end="19" id="1" rel="--">
+      <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="Omdat"/>
+      <node begin="1" cat="ssub" end="19" id="3" rel="body">
+        <node begin="3" end="4" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="4" infl="sg3" lcat="ssub" lemma="heersen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heers" sc="intransitive" sense="heers" tense="present" word="heerst" wvorm="pv"/>
+        <node begin="1" cat="np" end="19" id="5" rel="su">
+          <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="6" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="2" end="3" frame="noun(het,count,sg,sbar)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="gevoel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gevoel" sc="sbar" sense="gevoel" word="gevoel"/>
+          <node begin="4" cat="cp" end="19" id="8" rel="vc">
+            <node begin="4" conjtype="onder" end="5" frame="complementizer(dat)" his="normal" his_1="normal" id="9" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="5" cat="ssub" end="19" id="10" rel="body">
+              <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="11" lcat="np" lemma="Trump" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Trump" sense="Trump" word="Trump"/>
+              <node begin="6" cat="np" end="11" id="12" rel="obj1">
+                <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="14" infl="e" lcat="ap" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="goede"/>
+                <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="relatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="relatie" sense="relatie" word="relatie"/>
+                <node begin="9" cat="pp" end="11" id="16" rel="mod">
+                  <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                  <node begin="10" end="11" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="Poetin" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Poetin" sense="Poetin" word="Poetin"/>
+                </node>
+              </node>
+              <node begin="11" end="12" frame="verb(hebben,sg3,np_pc_pp(boven))" his="normal" his_1="normal" id="19" infl="sg3" lcat="ssub" lemma="verkiezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verkies" sc="np_pc_pp(boven)" sense="verkies-boven" tense="present" word="verkiest" wvorm="pv"/>
+              <node begin="12" cat="pp" end="19" id="20" rel="pc">
+                <node begin="12" end="13" frame="preposition(boven,[uit])" his="normal" his_1="normal" id="21" lcat="pp" lemma="boven" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="boven" sense="boven" vztype="init" word="boven"/>
+                <node begin="13" cat="np" end="19" id="22" rel="obj1">
+                  <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="stevig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="stevig" sense="stevig" vform="adj" word="stevige"/>
+                  <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="band" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="band" sense="band" word="banden"/>
+                  <node begin="15" cat="pp" end="19" id="25" rel="mod">
+                    <node begin="15" end="16" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="26" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                    <node begin="16" cat="np" end="19" id="27" rel="obj1">
+                      <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="17" cat="mwu" end="19" his="normal" his_1="names_dictionary" id="29" mwu_root="Europese Unie" mwu_sense="Europese Unie" rel="hd">
+                        <node begin="17" end="18" frame="proper_name(sg,'ORG')" id="30" lcat="np" lemma="Europese" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europese" sense="Europese" spectype="deeleigen" word="Europese"/>
+                        <node begin="18" end="19" frame="proper_name(sg,'ORG')" id="31" lcat="np" lemma="Unie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Unie" sense="Unie" spectype="deeleigen" word="Unie"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Omdat het gevoel heerst dat Trump een goede relatie met Poetin verkiest boven stevige banden met de Europese Unie .</sentence>
+  <comments>
+    <comment>Q#6|Omdat het gevoel heerst dat Trump een goede relatie met Poetin verkiest boven stevige banden met de Europese Unie .|1|1|-4.928461268540001</comment>
+  </comments>
+</alpino_ds>

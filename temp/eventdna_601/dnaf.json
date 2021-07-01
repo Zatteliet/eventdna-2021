@@ -1,0 +1,935 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_13",
+                        "entity_8"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_9",
+                        "entity_2"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_12",
+                        "entity_3",
+                        "entity_5"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_4",
+                        "entity_7"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_1",
+                        "entity_13",
+                        "entity_14",
+                        "entity_8"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_13",
+                        "entity_14",
+                        "entity_8"
+                    ]
+                },
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "Vlamingen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Twee jonge Vlamingen",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    34
+                                ]
+                            },
+                            "string": "Eeklo",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            34
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Eeklo",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    36
+                                ]
+                            },
+                            "string": "Aalter",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            36
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Aalter",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    43
+                                ]
+                            },
+                            "string": "vliegtuig",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            42,
+                            43
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Het vliegtuig",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    53
+                                ]
+                            },
+                            "string": "Ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            53
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Ze",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    61
+                                ]
+                            },
+                            "string": "ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            61
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "ze",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    69
+                                ]
+                            },
+                            "string": "directeur",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            68,
+                            69,
+                            70,
+                            71,
+                            72,
+                            73,
+                            74
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de directeur van het vliegveld van Abbeville",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    72
+                                ]
+                            },
+                            "string": "vliegveld",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            71,
+                            72,
+                            73,
+                            74
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "het vliegveld van Abbeville",
+                    "type": "entity"
+                },
+                "entity_17": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    74
+                                ]
+                            },
+                            "string": "Abbeville",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            74
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Abbeville",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "Vlamingen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            2
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Vlamingen",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    7
+                                ]
+                            },
+                            "string": "vliegtuigje",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            7
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "vliegtuigje",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    9
+                                ]
+                            },
+                            "string": "Frankrijk",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            9
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Frankrijk",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    20
+                                ]
+                            },
+                            "string": "ULM-vliegtuigje",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            19,
+                            20
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "een ULM-vliegtuigje",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "noorden",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            22,
+                            23,
+                            24,
+                            25
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "het noorden van Frankrijk",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    25
+                                ]
+                            },
+                            "string": "Frankrijk",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            25
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Frankrijk",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    28
+                                ]
+                            },
+                            "string": "Vlamingen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "twee Vlamingen van 16 en 28 uit Eeklo en Aalter",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    28
+                                ]
+                            },
+                            "string": "Vlamingen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            28
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Vlamingen",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        0,
+                                        1,
+                                        2
+                                    ]
+                                },
+                                "string": "Twee jonge Vlamingen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        9
+                                    ]
+                                },
+                                "string": "Frankrijk"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Die",
+                        "tense": "Present",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Twee jonge Vlamingen sterven bij crash met vliegtuigje in Frankrijk"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        9
+                                    ]
+                                },
+                                "string": "Frankrijk"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        7
+                                    ]
+                                },
+                                "string": "vliegtuigje"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "crash met vliegtuigje in Frankrijk"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33,
+                                        34,
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "twee Vlamingen van 16 en 28 uit Eeklo en Aalter"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        22,
+                                        23,
+                                        24,
+                                        25
+                                    ]
+                                },
+                                "string": "het noorden van Frankrijk"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40
+                        ],
+                        "subtype": "Die",
+                        "tense": "Past",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Bij een crash met een ULM-vliegtuigje in het noorden van Frankrijk zijn twee Vlamingen van 16 en 28 uit Eeklo en Aalter om het leven gekomen"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        19,
+                                        20
+                                    ]
+                                },
+                                "string": "een ULM-vliegtuigje"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        22,
+                                        23,
+                                        24,
+                                        25
+                                    ]
+                                },
+                                "string": "het noorden van Frankrijk"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "een crash met een ULM-vliegtuigje in het noorden van Frankrijk"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        42,
+                                        43
+                                    ]
+                                },
+                                "string": "Het vliegtuig"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47,
+                            48
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Het vliegtuig vatte vuur tijdens de vlucht"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        42,
+                                        43
+                                    ]
+                                },
+                                "string": "Het vliegtuig"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            42,
+                            43
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Het vliegtuig"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000144",
+                            "air and space accident and incident"
+                        ],
+                        [
+                            "medtop:20000143",
+                            "transport accident and incident"
+                        ],
+                        [
+                            "medtop:20000139",
+                            "accident and emergency incident"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78
+        ],
+        "token_string": "Twee jonge Vlamingen sterven bij crash met vliegtuigje in Frankrijk : Geen parachute aan boord Bij een crash met een ULM-vliegtuigje in het noorden van Frankrijk zijn twee Vlamingen van 16 en 28 uit Eeklo en Aalter om het leven gekomen . Het vliegtuig vatte vuur tijdens de vlucht en stortte neer . Ze hadden geen parachutes bij . Anders hadden ze misschien nog een kans gehad zegt de directeur van het vliegveld van Abbeville over de ramp ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_601"
+    }
+}

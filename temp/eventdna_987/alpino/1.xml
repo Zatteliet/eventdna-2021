@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="4" end="5" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="7" id="3" rel="--">
+      <node begin="0" cat="np" end="4" id="4" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Russisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj" word="Russische"/>
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="nucleair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nucleair" sense="nucleair" vform="adj" word="nucleaire"/>
+        <node begin="3" end="4" frame="proper_name(sg)" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="Titanic" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Titanic" sense="Titanic" word="Titanic"/>
+      </node>
+      <node begin="5" end="6" frame="verb('hebben/zijn',sg3,part_intransitive(uit))" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="uit_varen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vaar_uit" sc="part_intransitive(uit)" sense="vaar_uit" stype="declarative" tense="present" word="vaart" wvorm="pv"/>
+      <node begin="6" end="7" frame="particle(uit)" his="normal" his_1="normal" id="9" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+    </node>
+  </node>
+  <sentence sentid="1">Russische &apos; nucleaire Titanic &apos; vaart uit</sentence>
+  <comments>
+    <comment>Q#1|Russische &apos; nucleaire Titanic &apos; vaart uit|1|1|-1.1711223523900007</comment>
+  </comments>
+</alpino_ds>

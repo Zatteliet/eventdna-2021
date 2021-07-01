@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="conj" end="15" id="1" rel="--">
+      <node begin="0" cat="smain" end="6" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="Dat"/>
+          <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="verhoor" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verhoor" sense="verhoor" word="verhoor"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="6" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="6" id="7" rel="vc">
+          <node begin="0" end="2" id="8" index="1" rel="su"/>
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="uiteindelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="uiteindelijk" sense="uiteindelijk" vform="adj" word="uiteindelijk"/>
+          <node begin="4" end="5" frame="tmp_adverb" his="normal" his_1="normal" id="10" lcat="advp" lemma="nooit" pos="adv" postag="BW()" pt="bw" rel="mod" root="nooit" sense="nooit" special="tmp" word="nooit"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(intransitive,part_intransitive(plaats)))" his="normal" his_1="part-V" id="11" infl="psp" lcat="ppart" lemma="plaats_vinden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vind_plaats" sc="part_intransitive(plaats)" sense="vind_plaats" word="plaatsgevonden" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="7" cat="smain" end="15" id="13" rel="cnj">
+        <node begin="7" end="8" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="14" index="2" lcat="np" lemma="Berwouts" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Berwouts" sense="Berwouts" word="Berwouts"/>
+        <node begin="8" end="9" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="15" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="7" cat="inf" end="15" id="16" rel="vc">
+          <node begin="7" end="8" id="17" index="2" rel="su"/>
+          <node begin="13" buiging="zonder" end="14" frame="verb('hebben/zijn',inf,aux(inf))" his="normal" his_1="normal" id="18" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+          <node begin="7" cat="inf" end="15" id="19" rel="vc">
+            <node begin="7" end="8" id="20" index="2" rel="su"/>
+            <node begin="9" end="10" frame="pp" his="normal" his_1="normal" id="21" lcat="pp" lemma="nadien" pos="pp" postag="BW()" pt="bw" rel="mod" root="nadien" sense="nadien" word="nadien"/>
+            <node begin="10" cat="pp" end="12" id="22" rel="mod">
+              <node begin="10" end="11" frame="preposition(zonder,[])" his="normal" his_1="normal" id="23" lcat="pp" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" sense="zonder" vztype="init" word="zonder"/>
+              <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="probleem" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="probleem" sense="probleem" word="problemen"/>
+            </node>
+            <node begin="12" end="13" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="25" lcat="np" lemma="Congo" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Congo" sense="Congo" word="Congo"/>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="26" infl="inf" lcat="inf" lemma="verlaten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlaat" sc="transitive" sense="verlaat" word="verlaten" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat verhoor heeft uiteindelijk nooit plaatsgevonden en Berwouts heeft nadien zonder problemen Congo kunnen verlaten .</sentence>
+  <comments>
+    <comment>Q#3|Dat verhoor heeft uiteindelijk nooit plaatsgevonden en Berwouts heeft nadien zonder problemen Congo kunnen verlaten .|1|1|-9.973310788200004</comment>
+  </comments>
+</alpino_ds>

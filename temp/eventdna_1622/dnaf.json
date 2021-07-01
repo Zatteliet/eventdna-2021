@@ -1,0 +1,562 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_2"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_4",
+                        "entity_3"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_8",
+                        "entity_5",
+                        "entity_7"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_4": [
+                        "event_2",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            "string": "Prins Laurent",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0,
+                            1
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Prins Laurent",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    14,
+                                    15
+                                ]
+                            },
+                            "string": "Prins Laurent",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            14,
+                            15
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Prins Laurent",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    25
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            25
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    42
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            42
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    44,
+                                    45
+                                ]
+                            },
+                            "string": "Laurent Arnauts",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            44,
+                            45
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Laurent Arnauts",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    50
+                                ]
+                            },
+                            "string": "Kamer",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            50
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Kamer",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    52
+                                ]
+                            },
+                            "string": "Ik",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            52
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Ik",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    67
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            67
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    69,
+                                    70
+                                ]
+                            },
+                            "string": "La Libre",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            69,
+                            70
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "La Libre",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Sender",
+                                    "span": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "string": "Prins Laurent"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "subtype": "Broadcast",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Prins Laurent wil zich publiekelijk verdedigen"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Sender",
+                                    "span": [
+                                        14,
+                                        15
+                                    ]
+                                },
+                                "string": "Prins Laurent"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26
+                        ],
+                        "subtype": "Broadcast",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Prins Laurent hoopt publiekelijk te kunnen pleiten tegen de inhouding van zijn dotatie"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        25
+                                    ]
+                                },
+                                "string": "zijn"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Negative",
+                        "prominence": "Background",
+                        "span": [
+                            22,
+                            23,
+                            24,
+                            25,
+                            26
+                        ],
+                        "subtype": "TransferMoney",
+                        "tense": "Unspecified",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de inhouding van zijn dotatie"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000506",
+                            "imperial and royal matters"
+                        ],
+                        [
+                            "medtop:20000504",
+                            "high-society"
+                        ],
+                        [
+                            "medtop:20000502",
+                            "people"
+                        ],
+                        [
+                            "medtop:08000000",
+                            "human interest"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81
+        ],
+        "token_string": "Prins Laurent wil zich publiekelijk verdedigen : Achter gesloten deuren kunnen we niet aanvaarden Prins Laurent hoopt publiekelijk te kunnen pleiten tegen de inhouding van zijn dotatie , en niet achter gesloten deuren . Dat staat te lezen in een brief die zijn advocaat Laurent Arnauts heeft overgemaakt aan de Kamer . Ik hoop op een debat dat zo sereen en wettelijk is als mogelijk , zegt hij in La Libre . Een verdediging achter gesloten deuren kunnen we niet aanvaarden ."
+    },
+    "meta": {
+        "author": "eventdna_anno_3",
+        "id": "eventdna_1622"
+    }
+}

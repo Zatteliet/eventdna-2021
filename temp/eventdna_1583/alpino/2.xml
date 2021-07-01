@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="8" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Frans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans" sense="Frans" vform="adj" word="Franse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+        <node begin="3" cat="pp" end="8" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="mwu" end="8" his="name" his_1="not_begin" id="8" mwu_root="Ecologische Transitie Nicolas Hulot" mwu_sense="Ecologische Transitie Nicolas Hulot" rel="obj1">
+            <node begin="4" end="5" frame="proper_name(both,'ORG')" id="9" lcat="np" lemma="Ecologische" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ecologische" sense="Ecologische" spectype="deeleigen" word="Ecologische"/>
+            <node begin="5" end="6" frame="proper_name(both,'ORG')" id="10" lcat="np" lemma="Transitie" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Transitie" sense="Transitie" spectype="deeleigen" word="Transitie"/>
+            <node begin="6" end="7" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="Nicolas" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nicolas" sense="Nicolas" spectype="deeleigen" word="Nicolas"/>
+            <node begin="7" end="8" frame="proper_name(both,'ORG')" id="12" lcat="np" lemma="Hulot" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Hulot" sense="Hulot" spectype="deeleigen" word="Hulot"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(zijn,sg3,part_ld_pp(op))" his="normal" his_1="normal" id="13" infl="sg3" lcat="smain" lemma="op_stappen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stap_op" sc="part_ld_pp(op)" sense="stap_op" stype="declarative" tense="present" word="stapt" wvorm="pv"/>
+      <node begin="9" end="10" frame="particle(op)" his="normal" his_1="normal" id="14" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="10" cat="pp" end="13" id="15" rel="ld">
+        <node begin="10" end="11" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="16" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="11" cat="np" end="13" id="17" rel="obj1">
+          <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De Franse minister van Ecologische Transitie Nicolas Hulot stapt op uit de regering .</sentence>
+  <comments>
+    <comment>Q#2|De Franse minister van Ecologische Transitie Nicolas Hulot stapt op uit de regering .|1|1|-3.747357835559996</comment>
+  </comments>
+</alpino_ds>

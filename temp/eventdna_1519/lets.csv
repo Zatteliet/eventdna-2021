@@ -1,0 +1,35 @@
+Catalaanse	Catalaans	ADJ(prenom,basis,met-e,stan)	B-NP	O
+minister-president	minister-president	N(soort,ev,basis,zijd,stan)	I-NP	O
+koopt	kopen	WW(pv,tgw,met-t)	B-VP	O
+tijd	tijd	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Catalaanse	Catalaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+minister-president	minister-president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Carles	Carles	SPEC(deeleigen)	I-NP	B-PER
+Puigdemont	Puigdemont	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+dan	dan	BW()	B-ADVP	O
+toch	toch	BW()	I-ADVP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+vervroegde	vervroegen	WW(vd,prenom,met-e)	I-NP	O
+verkiezingen	verkiezing	N(soort,mv,basis)	I-NP	O
+uitgeroepen	uitroepen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+nochtans	nochtans	BW()	B-ADVP	O
+eerder	eerder	BW()	B-ADVP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+dag	dag	N(soort,ev,basis,zijd,stan)	I-NP	O
+aangekondigd	aankondigen	WW(vd,vrij,zonder)	B-VP	O
+door	door	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Catalaanse	Catalaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+persagentschap	persagentschap	N(soort,ev,basis,onz,stan)	I-NP	O
+Catalan	Catalan	SPEC(deeleigen)	I-NP	B-PER
+News	News	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				

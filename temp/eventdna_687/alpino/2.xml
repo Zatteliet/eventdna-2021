@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" index="1" lcat="np" lemma="Rusland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Rusland" sense="Rusland" word="Rusland"/>
+      <node begin="1" end="2" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="normal" id="3" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="14" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(vanaf,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="vanaf" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="vanaf" sense="vanaf" vztype="init" word="vanaf"/>
+          <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+        </node>
+        <node begin="4" cat="ap" end="7" id="9" rel="mod">
+          <node begin="4" cat="np" end="6" id="10" rel="me">
+            <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="5" end="6" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="week" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="week" sense="week" special="tmp" word="week"/>
+          </node>
+          <node aform="base" begin="6" buiging="zonder" end="7" frame="np_me_adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="lang" sc="np_me" sense="lang" vform="adj" word="lang"/>
+        </node>
+        <node begin="7" cat="np" end="13" id="14" rel="obj1">
+          <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" sense="militair" vform="adj" word="militaire"/>
+          <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="oefening" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="oefening" sense="oefening" word="oefeningen"/>
+          <node begin="9" cat="pp" end="13" id="17" rel="mod">
+            <node begin="9" end="10" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="18" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="10" cat="np" end="13" id="19" rel="obj1">
+              <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="11" cat="mwu" end="13" his="normal" his_1="names_dictionary" id="21" mwu_root="Middellandse Zee" mwu_sense="Middellandse Zee" rel="hd">
+                <node begin="11" end="12" frame="proper_name(sg,'LOC')" id="22" lcat="np" lemma="Middellandse" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Middellandse" sense="Middellandse" spectype="deeleigen" word="Middellandse"/>
+                <node begin="12" end="13" frame="proper_name(sg,'LOC')" id="23" lcat="np" lemma="Zee" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zee" sense="Zee" spectype="deeleigen" word="Zee"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="24" infl="inf" lcat="inf" lemma="organiseren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="organiseer" sc="transitive" sense="organiseer" word="organiseren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Rusland wil vanaf zaterdag een week lang militaire oefeningen op de Middellandse Zee organiseren .</sentence>
+  <comments>
+    <comment>Q#2|Rusland wil vanaf zaterdag een week lang militaire oefeningen op de Middellandse Zee organiseren .|1|1|-4.189350920289998</comment>
+  </comments>
+</alpino_ds>

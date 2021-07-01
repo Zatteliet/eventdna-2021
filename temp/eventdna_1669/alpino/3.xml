@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" cat="detp" end="3" id="3" rel="det">
+          <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="4" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+            <node begin="0" buiging="zonder" end="1" frame="pre_num_adv(both)" graad="comp" id="5" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="Meer"/>
+            <node begin="1" conjtype="onder" end="2" frame="pre_num_adv(both)" id="6" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+          </node>
+          <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="200" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="200" sense="200" special="hoofd" word="200"/>
+        </node>
+        <node begin="3" end="4" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+      </node>
+      <node begin="4" end="5" frame="verb(unacc,pl,aux_psp_zijn)" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="17" id="10" rel="vc">
+        <node begin="0" end="4" id="11" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(zijn,psp,ninv(intransitive,part_intransitive(samen)))" his="normal" his_1="part-V" id="12" infl="psp" lcat="ppart" lemma="samen_komen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kom_samen" sc="part_intransitive(samen)" sense="kom_samen" word="samengekomen" wvorm="vd"/>
+        <node begin="6" cat="oti" end="17" id="13" rel="mod">
+          <node begin="6" end="7" frame="complementizer(om)" his="normal" his_1="normal" id="14" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="7" cat="ti" end="17" id="15" rel="body">
+            <node begin="11" end="12" frame="complementizer(te)" his="normal" his_1="normal" id="16" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="7" cat="inf" end="17" id="17" rel="body">
+              <node begin="7" cat="np" end="9" id="18" rel="obj2">
+                <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="20" lcat="np" lemma="N-VA_politicus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="N-VA_politicus" sense="N-VA_politicus" word="N-VA-politicus"/>
+              </node>
+              <node begin="12" buiging="zonder" end="13" frame="verb(hebben,inf,np_np)" his="normal" his_1="normal" id="21" infl="inf" lcat="inf" lemma="geven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="geef" sc="np_np" sense="geef" word="geven" wvorm="inf"/>
+              <node begin="9" cat="np" end="17" id="22" rel="obj1">
+                <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="23" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="10" end="11" frame="noun(het,count,sg,vp)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="bevel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bevel" sc="vp" sense="bevel" word="bevel"/>
+                <node begin="13" cat="ti" end="17" id="25" rel="vc">
+                  <node begin="15" end="16" frame="complementizer(te)" his="normal" his_1="normal" id="26" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                  <node begin="13" cat="inf" end="17" id="27" rel="body">
+                    <node begin="13" cat="np" end="15" id="28" rel="obj1">
+                      <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="31" infl="inf" lcat="inf" lemma="verlaten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlaat" sc="transitive" sense="verlaat" word="verlaten" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Meer dan 200 mensen zijn samengekomen om de N-VA-politicus het bevel te geven de regering te verlaten .</sentence>
+  <comments>
+    <comment>Q#3|Meer dan 200 mensen zijn samengekomen om de N-VA-politicus het bevel te geven de regering te verlaten .|1|1|-12.061226147549998</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,39 @@
+'	'	LET()	O	O
+Wij	wij	VNW(pers,pron,1,mv)	B-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+Turkse	Turks	ADJ(prenom,basis,met-e,stan)	B-AP	B-LOC
+én	én	VG(neven)	O	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+nationalisten	nationalist	N(soort,mv,basis)	I-NP	O
+'	'	LET()	O	O
+				
+Reportage	reportage	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-ORG
+Grijze	grijs	ADJ(prenom,basis,met-e,stan)	I-NP	I-ORG
+Wolven	wolf	N(soort,mv,basis)	I-NP	I-ORG
+riepen	roepen	WW(pv,verl,mv)	B-VP	O
+zaterdag	zaterdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+op	op	VZ(fin)	O	O
+om	om	VZ(init)	O	O
+voor	voor	VZ(init)	B-PP	O
+Erdogan	Erdogan	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+en	en	VG(neven)	O	O
+Turks	Turks	ADJ(vrij,basis,zonder)	B-AP	B-LOC
+uiterst	uiterst	ADJ(vrij,basis,zonder)	I-AP	O
+rechts	rechts	ADJ(vrij,basis,zonder)	I-AP	O
+te	te	VZ(init)	B-VP	O
+stemmen	stemmen	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+deel	deel	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Genkse	genks	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+politiek	politiek	N(soort,ev,basis,zijd,stan)	I-NP	O
+tekende	tekenen	WW(pv,verl,ev)	B-VP	O
+present	present	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				

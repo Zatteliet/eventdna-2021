@@ -1,0 +1,861 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_5",
+                        "entity_10",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_2",
+                        "entity_16"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_3",
+                        "entity_17"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_7",
+                        "entity_4"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_12",
+                        "entity_5",
+                        "entity_10",
+                        "entity_1"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_11",
+                        "entity_6"
+                    ],
+                    "coref_bucket_7": [
+                        "entity_12",
+                        "entity_5",
+                        "entity_10",
+                        "entity_15"
+                    ],
+                    "coref_bucket_8": [
+                        "entity_12",
+                        "entity_10",
+                        "entity_15"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_9": [
+                        "event_1",
+                        "event_2"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Puigdemont",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Puigdemont",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    33,
+                                    34
+                                ]
+                            },
+                            "string": "Carles Puigdemont",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            33,
+                            34
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Carles Puigdemont",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    39
+                                ]
+                            },
+                            "string": "ministers",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            36,
+                            37,
+                            38,
+                            39
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "vier van zijn ministers",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    38
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            38
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    56
+                                ]
+                            },
+                            "string": "hun",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            56
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "hun",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    59
+                                ]
+                            },
+                            "string": "Spanje",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            59
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Spanje",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    71
+                                ]
+                            },
+                            "string": "Puigdemont",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            71
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "Puigdemont",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    83
+                                ]
+                            },
+                            "string": "justitie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            81,
+                            82,
+                            83
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "de Belgische justitie",
+                    "type": "entity"
+                },
+                "entity_17": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    82
+                                ]
+                            },
+                            "string": "Belgische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            82
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "Belgische",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    7
+                                ]
+                            },
+                            "string": "justitie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            6,
+                            7
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Belgische justitie",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6
+                                ]
+                            },
+                            "string": "Belgische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Belgische",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    9
+                                ]
+                            },
+                            "string": "parket",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            8,
+                            9
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Federaal parket",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    13
+                                ]
+                            },
+                            "string": "Puigdemont",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            13
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Puigdemont",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    15
+                                ]
+                            },
+                            "string": "co",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            15
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "co",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "parket",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            21,
+                            22,
+                            23
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Het federaal parket",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    26
+                                ]
+                            },
+                            "string": "Europese",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            26
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Europese",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    31
+                                ]
+                            },
+                            "string": "Catalaanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            31
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Catalaanse",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Destination",
+                                    "span": [
+                                        8,
+                                        9
+                                    ]
+                                },
+                                "string": "Federaal parket"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        11,
+                                        12,
+                                        13,
+                                        14,
+                                        15
+                                    ]
+                                },
+                                "string": "aanhoudingsbevel voor Puigdemont en co"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16
+                        ],
+                        "subtype": "TransportArtifact",
+                        "tense": "Past",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Federaal parket heeft aanhoudingsbevel voor Puigdemont en co ontvangen"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Destination",
+                                    "span": [
+                                        21,
+                                        22,
+                                        23
+                                    ]
+                                },
+                                "string": "Het federaal parket"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33,
+                                        34,
+                                        35,
+                                        36,
+                                        37,
+                                        38,
+                                        39
+                                    ]
+                                },
+                                "string": "de Europese aanhoudingsbevelen voor de afgezette Catalaanse leider Carles Puigdemont en vier van zijn ministers"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43
+                        ],
+                        "subtype": "TransportArtifact",
+                        "tense": "Past",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Het federaal parket heeft de Europese aanhoudingsbevelen voor de afgezette Catalaanse leider Carles Puigdemont en vier van zijn ministers goed en wel ontvangen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        56
+                                    ]
+                                },
+                                "string": "hun"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Destination",
+                                    "span": [
+                                        59
+                                    ]
+                                },
+                                "string": "Spanje"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            56,
+                            57,
+                            58,
+                            59
+                        ],
+                        "subtype": "Extradite",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "hun overlevering aan Spanje"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000127",
+                            "extradition"
+                        ],
+                        [
+                            "medtop:20000126",
+                            "international law"
+                        ],
+                        [
+                            "medtop:20000121",
+                            "law"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000648",
+                            "political dissent"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    18,
+                    19,
+                    20
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    45,
+                    46,
+                    47,
+                    48
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65
+                ]
+            },
+            "sentence_7": {
+                "token_ids": [
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84
+        ],
+        "token_string": "Puigdemont bereid tot volledige medewerking met Belgische justitie Federaal parket heeft aanhoudingsbevel voor Puigdemont en co ontvangen . Wat nu ? Het federaal parket heeft de Europese aanhoudingsbevelen voor de afgezette Catalaanse leider Carles Puigdemont en vier van zijn ministers goed en wel ontvangen . Maar wat nu ? De procedure die eventueel kan leiden tot hun overlevering aan Spanje kan trot 100 dagen duren . In een Nederlandstalige tweet liet Puigdemont zaterdag weten bereid te zijn tot volledige medewerking met de Belgische justitie ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_830"
+    }
+}

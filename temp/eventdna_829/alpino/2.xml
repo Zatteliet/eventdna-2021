@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="33" id="2" rel="--">
+      <node begin="0" cat="np" end="18" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="klant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="klant" sense="klant" word="klanten"/>
+        <node begin="2" cat="pp" end="5" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="8" rel="obj1">
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="luchtvaart_maatschappij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="luchtvaart_maatschappij" sense="luchtvaart_maatschappij" word="luchtvaartmaatschappij"/>
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="Ryanair" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Ryanair" sense="Ryanair" word="Ryanair"/>
+          </node>
+        </node>
+        <node begin="5" cat="rel" end="18" id="11" rel="mod">
+          <node begin="5" case="no_obl" end="6" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="12" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="5" cat="ssub" end="18" id="13" rel="body">
+            <node begin="5" end="6" id="14" index="1" rel="su"/>
+            <node begin="14" cat="np" end="16" id="15" index="2" rel="obj1">
+              <node begin="14" buiging="zonder" end="15" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="16" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+              <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="vlucht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vlucht" sense="vlucht" word="vlucht"/>
+            </node>
+            <node begin="6" cat="ppart" end="17" id="18" rel="vc">
+              <node begin="6" cat="pp" end="14" id="19" rel="mod">
+                <node begin="6" end="7" frame="preposition(door,[heen])" his="normal" his_1="normal" id="20" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                <node begin="7" cat="np" end="14" id="21" rel="obj1">
+                  <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="staking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staking" sense="staking" word="staking"/>
+                  <node begin="9" cat="pp" end="14" id="24" rel="mod">
+                    <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="25" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="10" cat="np" end="14" id="26" rel="obj1">
+                      <node begin="10" cat="conj" end="13" id="27" rel="det">
+                        <node begin="10" end="11" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="28" infl="pl_num" lcat="detp" lemma="25" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="25" sense="25" special="hoofd" word="25"/>
+                        <node begin="11" conjtype="neven" end="12" frame="conj(en)" his="normal" his_1="normal" id="29" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                        <node begin="12" end="13" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="30" infl="pl_num" lcat="detp" lemma="26" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="26" sense="26" special="hoofd" word="26"/>
+                      </node>
+                      <node begin="13" end="14" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="juli" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="juli" sense="juli" special="tmp" word="juli"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="14" end="16" id="32" index="2" rel="obj1"/>
+              <node begin="16" buiging="zonder" end="17" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="33" infl="psp" lcat="ppart" lemma="annuleren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="annuleer" sc="transitive" sense="annuleer" word="geannuleerd" wvorm="vd"/>
+            </node>
+            <node begin="17" end="18" frame="verb(hebben,pl,obj1_passive)" his="normal" his_1="normal" id="34" infl="pl" lcat="ssub" lemma="zien" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zie" sc="obj1_passive" sense="zie" tense="present" word="zien" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="19" end="20" frame="verb(hebben,pl,transitive_ndev)" his="normal" his_1="normal" id="35" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+      <node begin="20" cat="cp" end="27" id="36" rel="mod">
+        <node begin="20" conjtype="onder" end="21" frame="complementizer(pp)" his="normal" his_1="normal" id="37" lcat="cp" lemma="behalve" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="behalve" sc="pp" sense="behalve" word="behalve"/>
+        <node begin="21" cat="pp" end="27" id="38" rel="body">
+          <node begin="21" end="22" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="39" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="22" cat="conj" end="27" id="40" rel="obj1">
+            <node begin="22" cat="np" end="24" id="41" rel="cnj">
+              <node begin="22" end="23" frame="determiner(een)" his="normal" his_1="normal" id="42" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="43" lcat="np" lemma="om_boeking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="om_boeking" sense="om_boeking" word="omboeking"/>
+            </node>
+            <node begin="24" conjtype="neven" end="25" frame="conj(of)" his="normal" his_1="normal" id="44" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+            <node begin="25" cat="np" end="27" id="45" rel="cnj">
+              <node begin="25" end="26" frame="determiner(een)" his="normal" his_1="normal" id="46" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="47" lcat="np" lemma="terugbetaling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="terugbetaling" sense="terugbetaling" word="terugbetaling"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="27" end="28" frame="sentence_adverb" his="normal" his_1="normal" id="48" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+      <node begin="28" cat="np" end="33" id="49" rel="obj1">
+        <node begin="28" end="29" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="50" lcat="np" lemma="recht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="recht" sense="recht" word="recht"/>
+        <node begin="29" cat="pp" end="33" id="51" rel="mod">
+          <node begin="29" end="30" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="52" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="30" cat="np" end="33" id="53" rel="obj1">
+            <node begin="30" end="31" frame="determiner(een)" his="normal" his_1="normal" id="54" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="31" buiging="zonder" end="32" frame="adjective(postn_both(adv))" graad="basis" his="normal" his_1="normal" id="55" infl="both" lcat="ap" lemma="extra" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="extra" sense="extra" vform="adj" word="extra"/>
+            <node begin="32" end="33" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="56" lcat="np" lemma="compensatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="compensatie" sense="compensatie" word="compensatie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" frame="punct(punt)" his="normal" his_1="normal" id="57" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De klanten van luchtvaartmaatschappij Ryanair die door de staking van 25 en 26 juli hun vlucht geannuleerd zien , hebben behalve op een omboeking of een terugbetaling ook recht op een extra compensatie .</sentence>
+  <comments>
+    <comment>Q#2|De klanten van luchtvaartmaatschappij Ryanair die door de staking van 25 en 26 juli hun vlucht geannuleerd zien , hebben behalve op een omboeking of een terugbetaling ook recht op een extra compensatie .|1|1|-6.520422911619992</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="cp" end="6" id="1" rel="--">
+      <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="cp" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" sense="terwijl" word="Terwijl"/>
+      <node begin="1" cat="ssub" end="6" id="3" rel="body">
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Gent" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Gent" sense="Gent" word="Gent"/>
+        </node>
+        <node begin="3" cat="np" end="5" id="7" rel="su">
+          <node begin="3" end="4" frame="noun(de,count,pl,measure)" gen="de" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="duizenden" num="pl" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" rnum="pl" root="duizenden" sc="measure" sense="duizenden" word="duizenden"/>
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="woning" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="woning" sense="woning" word="woningen"/>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,pl,ninv(intransitive,part_intransitive(leeg)))" his="normal" his_1="part-V" id="10" infl="pl" lcat="ssub" lemma="leeg_staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta_leeg" sc="part_intransitive(leeg)" sense="sta_leeg" tense="present" word="leegstaan" wvorm="pv"/>
+      </node>
+    </node>
+    <node begin="6" end="7" frame="punct(punt)" his="normal" his_1="normal" id="11" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Terwijl in Gent duizenden woningen leegstaan .</sentence>
+  <comments>
+    <comment>Q#5|Terwijl in Gent duizenden woningen leegstaan .|1|1|1.8474009333799977</comment>
+  </comments>
+</alpino_ds>

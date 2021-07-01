@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="13" id="3" rel="--">
+      <node begin="0" cat="conj" end="4" id="4" rel="cnj">
+        <node begin="0" cat="np" end="2" id="5" rel="cnj">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="6" infl="e" lcat="ap" lemma="ranzig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ranzig" sense="ranzig" vform="adj" word="Ranzige"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="taal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="taal" sense="taal" word="taal"/>
+        </node>
+        <node begin="3" end="4" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="8" lcat="np" lemma="degoutant" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="degoutant" sense="degoutant" word="degoutant"/>
+      </node>
+      <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="9" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="5" cat="smain" end="13" id="10" rel="cnj">
+        <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="11" infl="no_e" lcat="ap" lemma="in_triest" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predm" root="in_triest" sense="in_triest" vform="adj" word="intriest"/>
+        <node begin="7" end="8" frame="verb(hebben,sg3,pc_pp(op))" his="normal" his_1="normal" id="12" infl="sg3" lcat="smain" lemma="klinken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="klink" sc="pc_pp(op)" sense="klink-op" stype="declarative" tense="present" word="klinkt" wvorm="pv"/>
+        <node begin="8" end="9" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="13" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+        <node begin="9" cat="mwu" end="11" his="normal" his_1="normal" id="14" mwu_root="onder meer" mwu_sense="onder meer" rel="mod">
+          <node begin="9" end="10" frame="adverb" id="15" lcat="advp" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" sense="onder" vztype="init" word="onder"/>
+          <node begin="10" buiging="zonder" end="11" frame="adverb" graad="comp" id="16" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" vwtype="onbep" word="meer"/>
+        </node>
+        <node begin="11" cat="pp" end="13" id="17" rel="pc">
+          <node begin="11" end="12" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="18" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="12" end="13" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="internet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="internet" sense="internet" word="internet"/>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Ranzige taal , degoutant en intriest , klinkt het onder meer op internet .</sentence>
+  <comments>
+    <comment>Q#5|Ranzige taal , degoutant en intriest , klinkt het onder meer op internet .|1|1|6.43844775003</comment>
+  </comments>
+</alpino_ds>

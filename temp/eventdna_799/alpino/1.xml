@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="parket" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="parket" sense="parket" word="Parket"/>
+        <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Limburg" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Limburg" sense="Limburg" word="Limburg"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),np_pc_pp(op))" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="controleren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="controleer" sc="np_pc_pp(op)" sense="controleer-op" stype="declarative" tense="past" word="controleerde" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="obj1">
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="158" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="158" sense="158" special="hoofd" word="158"/>
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="8" lcat="np" lemma="scherm_vennootschap" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="scherm_vennootschap" sense="scherm_vennootschap" word="schermvennootschappen"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="9" rel="pc">
+        <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="fraude" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="fraude" sense="fraude" word="fraude"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Parket Limburg controleerde 158 schermvennootschappen op fraude</sentence>
+  <comments>
+    <comment>Q#1|Parket Limburg controleerde 158 schermvennootschappen op fraude|1|1|-0.7532395803999989</comment>
+  </comments>
+</alpino_ds>

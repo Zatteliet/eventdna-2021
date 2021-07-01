@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="24" end="25" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="29" id="2" rel="--">
+      <node begin="0" cat="np" end="24" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="beleid" sense="beleid" word="beleid"/>
+        <node begin="2" cat="pp" end="24" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="24" id="8" rel="obj1">
+            <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="4" end="5" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="10" lcat="np" lemma="regering-Trump" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering-Trump" sense="regering-Trump" word="regering-Trump"/>
+            <node begin="5" cat="oti" end="24" id="11" rel="mod">
+              <node begin="5" end="6" frame="complementizer(om)" his="normal" his_1="normal" id="12" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="6" cat="conj" end="24" id="13" rel="body">
+                <node begin="6" cat="ti" end="17" id="14" rel="cnj">
+                  <node begin="15" end="16" frame="complementizer(te)" his="normal" his_1="normal" id="15" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                  <node begin="6" cat="inf" end="17" id="16" rel="body">
+                    <node begin="6" cat="np" end="13" id="17" rel="obj1">
+                      <node begin="6" end="7" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="gezin" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gezin" sense="gezin" word="gezinnen"/>
+                      <node begin="7" cat="pp" end="13" id="19" rel="mod">
+                        <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                        <node begin="8" cat="np" end="13" id="21" rel="obj1">
+                          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="illegaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="illegaal" sense="illegaal" vform="adj" word="illegale"/>
+                          <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="migrant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="migrant" sense="migrant" word="migranten"/>
+                          <node begin="10" cat="pp" end="13" id="24" rel="mod">
+                            <node begin="10" end="11" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="25" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+                            <node begin="11" cat="np" end="13" id="26" rel="obj1">
+                              <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                              <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="grens" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="grens" sense="grens" word="grens"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="13" cat="pp" end="15" id="29" rel="ld">
+                      <node begin="13" end="14" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="30" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                      <node begin="14" case="dat_acc" def="def" end="15" frame="pronoun(nwh,thi,pl,de,dat_acc,def)" gen="de" getal="mv" his="normal" his_1="normal" id="31" lcat="np" lemma="elkaar" naamval="obl" num="pl" pdtype="pron" per="thi" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" rnum="pl" root="elkaar" sense="elkaar" status="vol" vwtype="recip" wh="nwh" word="elkaar"/>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,np_ld_pp)" his="normal" his_1="normal" id="32" infl="inf" lcat="inf" lemma="halen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="haal" sc="np_ld_pp" sense="haal" word="halen" wvorm="inf"/>
+                  </node>
+                </node>
+                <node begin="17" conjtype="neven" end="18" frame="conj(en)" his="normal" his_1="normal" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="18" cat="ti" end="24" id="34" rel="cnj">
+                  <node begin="19" end="20" frame="complementizer(te)" his="normal" his_1="normal" id="35" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                  <node begin="18" cat="inf" end="24" id="36" rel="body">
+                    <node begin="18" end="19" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+                    <node begin="20" buiging="zonder" end="21" frame="verb(hebben,inf,np_pc_pp(van))" his="normal" his_1="normal" id="38" infl="inf" lcat="inf" lemma="scheiden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="scheid" sc="np_pc_pp(van)" sense="scheid-van" word="scheiden" wvorm="inf"/>
+                    <node begin="21" cat="pp" end="24" id="39" rel="pc">
+                      <node begin="21" end="22" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="40" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                      <node begin="22" cat="np" end="24" id="41" rel="obj1">
+                        <node begin="22" buiging="zonder" end="23" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="42" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+                        <node begin="23" end="24" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="43" lcat="np" lemma="ouder" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="ouder" sense="ouder" word="ouders"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="25" end="26" frame="verb(zijn,sg,pc_pp(op))" his="normal" his_1="normal" id="44" infl="sg" lcat="smain" lemma="stuiten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="stuit" sc="pc_pp(op)" sense="stuit-op" stype="declarative" tense="present" word="stuit" wvorm="pv"/>
+      <node begin="26" cat="pp" end="29" id="45" rel="pc">
+        <node begin="26" end="27" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="46" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="27" cat="np" end="29" id="47" rel="obj1">
+          <node aform="base" begin="27" buiging="met-e" end="28" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="48" infl="e" lcat="ap" lemma="ongekend" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ongekend" sense="ongekend" vform="adj" word="ongekende"/>
+          <node begin="28" end="29" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="49" lcat="np" lemma="tegenstand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tegenstand" sense="tegenstand" word="tegenstand"/>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" his="normal" his_1="normal" id="50" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Het beleid van de regering-Trump om gezinnen van illegale migranten aan de grens uit elkaar te halen en kinderen te scheiden van hun ouders , stuit op ongekende tegenstand .</sentence>
+  <comments>
+    <comment>Q#3|Het beleid van de regering-Trump om gezinnen van illegale migranten aan de grens uit elkaar te halen en kinderen te scheiden van hun ouders , stuit op ongekende tegenstand .|1|1|-6.164475079379988</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="np" end="8" id="1" rel="--">
+      <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" infl="no_e" lcat="ap" lemma="vervelend" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vervelend" sense="vervelend" vform="adj" word="Vervelend"/>
+      <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="3" lcat="np" lemma="dilemma" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="dilemma" sense="dilemma" word="dilemma"/>
+      <node begin="2" cat="pp" end="8" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="np" end="8" id="6" rel="obj1">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="Catalaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Catalaans" sense="Catalaans" vform="adj" word="Catalaanse"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leider" sense="leider" word="leider"/>
+          <node begin="6" cat="mwu" end="8" his="name" his_1="not_begin" id="10" mwu_root="Carles Puigdemont" mwu_sense="Carles Puigdemont" rel="app">
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Carles" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Carles" sense="Carles" spectype="deeleigen" word="Carles"/>
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Puigdemont" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Puigdemont" sense="Puigdemont" spectype="deeleigen" word="Puigdemont"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" his="normal" his_1="normal" id="13" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Vervelend dilemma voor de Catalaanse leider Carles Puigdemont .</sentence>
+  <comments>
+    <comment>Q#3|Vervelend dilemma voor de Catalaanse leider Carles Puigdemont .|1|1|2.177327411059998</comment>
+  </comments>
+</alpino_ds>

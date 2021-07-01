@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="np" end="16" id="3" rel="--">
+      <node aform="super" begin="0" buiging="met-e" end="1" frame="adjective(ste)" graad="sup" his="normal" his_1="decap" his_1_1="normal" id="4" infl="e" lcat="ap" lemma="bloedig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="bloedig" sense="bloedig" vform="adj" word="Bloedigste"/>
+      <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+      <node begin="2" cat="pp" end="7" id="6" rel="mod">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="7" id="8" rel="obj1">
+          <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Gaza" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Gaza" sense="Gaza" word="Gaza"/>
+          <node begin="4" cat="pp" end="7" id="10" rel="mod">
+            <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="5" cat="np" end="7" id="12" rel="obj1">
+              <node begin="5" end="6" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="13" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+              <node begin="6" end="7" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="conj" end="16" id="15" rel="app">
+        <node begin="8" cat="np" end="11" id="16" rel="cnj">
+          <node begin="8" buiging="zonder" end="9" frame="modal_adverb" graad="basis" his="normal" his_1="normal" id="17" index="1" lcat="advp" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" sc="modal" sense="zeker" word="zeker"/>
+          <node begin="9" end="10" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="18" infl="pl_num" lcat="detp" lemma="16" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="16" sense="16" special="hoofd" word="16"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="dode" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="dode" sense="dode" word="doden"/>
+        </node>
+        <node begin="8" cat="np" end="16" id="20" rel="cnj">
+          <node begin="8" end="9" id="21" index="1" rel="mod"/>
+          <node begin="12" cat="detp" end="15" id="22" rel="det">
+            <node begin="12" cat="mwu" end="14" his="normal" his_1="normal" id="23" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+              <node begin="12" buiging="zonder" end="13" frame="pre_num_adv(both)" graad="comp" id="24" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+              <node begin="13" conjtype="onder" end="14" frame="pre_num_adv(both)" id="25" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+            </node>
+            <node begin="14" end="15" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="26" infl="pl_num" lcat="detp" lemma="1.400" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="1.400" sense="1.400" special="hoofd" word="1.400"/>
+          </node>
+          <node aform="base" begin="15" buiging="met-e" end="16" frame="nominalized_adjective" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="gewond" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="gewond" sense="gewond" special="a_noun" word="gewonden"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Bloedigste dag in Gaza in vier jaar : zeker 16 doden , meer dan 1.400 gewonden</sentence>
+  <comments>
+    <comment>Q#1|Bloedigste dag in Gaza in vier jaar : zeker 16 doden , meer dan 1.400 gewonden|1|1|-0.7424874666400019</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="24" id="3" rel="--">
+      <node begin="0" cat="du" end="12" id="4" rel="nucl">
+        <node begin="0" cat="sv1" end="5" id="5" rel="sat">
+          <node begin="0" end="1" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="decap" his_1_1="normal" id="6" infl="modal_not_u" lcat="sv1" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present" word="Wil" wvorm="pv"/>
+          <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" index="1" lcat="np" lemma="Vlaanderen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Vlaanderen" sense="Vlaanderen" word="Vlaanderen"/>
+          <node begin="1" cat="inf" end="5" id="8" rel="vc">
+            <node begin="1" end="2" id="9" index="1" rel="su"/>
+            <node begin="2" cat="np" end="4" id="10" rel="obj1">
+              <node begin="2" buiging="zonder" end="3" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="11" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+              <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="identiteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="identiteit" sense="identiteit" word="identiteit"/>
+            </node>
+            <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="bewaren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bewaar" sc="transitive" sense="bewaar" word="bewaren" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="6" cat="smain" end="12" id="14" rel="nucl">
+          <node begin="7" end="8" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" his="normal" his_1="normal" id="15" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+          <node begin="8" cat="np" end="10" id="16" index="2" rel="su">
+            <node begin="8" end="9" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="roer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="roer" sense="roer" word="roer"/>
+          </node>
+          <node begin="6" cat="inf" end="12" id="19" rel="vc">
+            <node begin="8" end="10" id="20" index="2" rel="su"/>
+            <node begin="10" buiging="zonder" end="11" frame="verb(unacc,inf,passive)" his="normal" his_1="normal" id="21" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+            <node begin="6" cat="ppart" end="12" id="22" rel="vc">
+              <node begin="6" end="7" frame="tmp_adverb" his="normal" his_1="normal" id="23" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" sense="dan" special="tmp" word="dan"/>
+              <node begin="8" end="10" id="24" index="2" rel="obj1"/>
+              <node begin="11" buiging="zonder" end="12" frame="verb(hebben,psp,ninv(transitive,part_transitive(om)))" his="normal" his_1="part-V" id="25" infl="psp" lcat="ppart" lemma="om_gooien" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gooi_om" sc="part_transitive(om)" sense="gooi_om" word="omgegooid" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="sv1" end="24" id="26" rel="tag">
+        <node begin="13" end="14" frame="verb(hebben,past(sg),sbar)" his="normal" his_1="normal" id="27" infl="sg" lcat="sv1" lemma="waarschuwen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="waarschuw" sc="sbar" sense="waarschuw" tense="past" word="waarschuwde" wvorm="pv"/>
+        <node begin="14" cat="np" end="18" id="28" rel="su">
+          <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="voorzitter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voorzitter" sense="voorzitter" word="voorzitter"/>
+          <node begin="15" cat="mwu" end="18" his="normal" his_1="names_dictionary" id="30" mwu_root="Wim De Wit" mwu_sense="Wim De Wit" rel="app">
+            <node begin="15" end="16" frame="proper_name(sg,'PER')" id="31" lcat="np" lemma="Wim" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wim" sense="Wim" spectype="deeleigen" word="Wim"/>
+            <node begin="16" end="17" frame="proper_name(sg,'PER')" id="32" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+            <node begin="17" end="18" frame="proper_name(sg,'PER')" id="33" lcat="np" lemma="Wit" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wit" sense="Wit" spectype="deeleigen" word="Wit"/>
+          </node>
+        </node>
+        <node begin="18" cat="pp" end="24" id="34" rel="mod">
+          <node begin="18" end="19" frame="preposition(tijdens,[])" his="normal" his_1="normal" id="35" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+          <node begin="19" cat="np" end="24" id="36" rel="obj1">
+            <node begin="19" buiging="zonder" end="20" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="37" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="toespraak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="toespraak" sense="toespraak" word="toespraak"/>
+            <node begin="21" cat="pp" end="24" id="39" rel="mod">
+              <node begin="21" end="22" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="40" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="22" cat="np" end="24" id="41" rel="obj1">
+                <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="42" infl="e" lcat="ap" lemma="jaarlijks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jaarlijks" sense="jaarlijks" vform="adj" word="jaarlijkse"/>
+                <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="43" lcat="np" lemma="IJzer_wake" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="IJzer_wake" sense="IJzer_wake" word="IJzerwake"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="44" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Wil Vlaanderen zijn identiteit bewaren , dan moet het roer worden omgegooid , waarschuwde voorzitter Wim De Wit tijdens zijn toespraak op jaarlijkse IJzerwake .</sentence>
+  <comments>
+    <comment>Q#2|Wil Vlaanderen zijn identiteit bewaren , dan moet het roer worden omgegooid , waarschuwde voorzitter Wim De Wit tijdens zijn toespraak op jaarlijkse IJzerwake .|1|1|-12.3048827332</comment>
+  </comments>
+</alpino_ds>

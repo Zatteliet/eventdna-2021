@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="6" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="predc">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="both" lcat="ap" lemma="rechter" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="rechter" sense="rechter" vform="adj" word="Rechter"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Catalaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Catalaans" sense="Catalaans" vform="adj" word="Catalaanse"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="politicus" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="politicus" sense="politicus" word="politici"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="7" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="5" buiging="zonder" end="6" frame="proper_name(both)" graad="basis" his="quoted_name" his_1="&apos;" his_2="&apos;" id="8" lcat="np" lemma="partijdig" neclass="MISC" num="both" pos="name" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="su" rnum="sg" root="partijdig" sense="partijdig" word="partijdig"/>
+    </node>
+    <node begin="6" end="7" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="9" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">Rechter Catalaanse politici is &apos; partijdig &apos;</sentence>
+  <comments>
+    <comment>Q#1|Rechter Catalaanse politici is &apos; partijdig &apos;|1|1|1.9946944939900022</comment>
+  </comments>
+</alpino_ds>

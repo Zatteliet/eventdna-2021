@@ -1,0 +1,1255 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_9",
+                        "entity_14",
+                        "entity_1"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_2": [
+                        "event_11",
+                        "event_2"
+                    ],
+                    "coref_bucket_3": [
+                        "event_1",
+                        "event_13"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Drugsbende",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Drugsbende",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    71
+                                ]
+                            },
+                            "string": "drugslabo's",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            71
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "drugslabo's",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    81
+                                ]
+                            },
+                            "string": "Genk",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            81
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Genk",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    83
+                                ]
+                            },
+                            "string": "Maaseik",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            83
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Maaseik",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    85
+                                ]
+                            },
+                            "string": "Opglabbeek",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            85
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Opglabbeek",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    90
+                                ]
+                            },
+                            "string": "ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            90
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "ze",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    26
+                                ]
+                            },
+                            "string": "rechter",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            25,
+                            26
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de rechter",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    30
+                                ]
+                            },
+                            "string": "rechtbank",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            28,
+                            29,
+                            30,
+                            31,
+                            32
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de correctionele rechtbank in Tongeren",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    32
+                                ]
+                            },
+                            "string": "Tongeren",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            32
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Tongeren",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    41
+                                ]
+                            },
+                            "string": "kopstuk",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            38,
+                            39,
+                            40,
+                            41
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "het 49-jarige Nederlandse kopstuk",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    40
+                                ]
+                            },
+                            "string": "Nederlandse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            40
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Nederlandse",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    50
+                                ]
+                            },
+                            "string": "beklaagden",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            48,
+                            49,
+                            50
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Vijftien anderen beklaagden",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    63
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            62,
+                            63
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Een man",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    69
+                                ]
+                            },
+                            "string": "drugsbende",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            68,
+                            69
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "De drugsbende",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Giver",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Drugsbende"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "money",
+                                    "argument_role": "Money",
+                                    "span": [
+                                        2,
+                                        3,
+                                        4
+                                    ]
+                                },
+                                "string": "7,7 miljoen euro"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "subtype": "TransferMoney",
+                        "tense": "Present",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Drugsbende moet 7,7 miljoen euro terugbetalen"
+                },
+                "event_10": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        62,
+                                        63
+                                    ]
+                                },
+                                "string": "Een man"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            62,
+                            63,
+                            64,
+                            65,
+                            66
+                        ],
+                        "subtype": "Acquit",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Een man kreeg de vrijspraak"
+                },
+                "event_11": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        83
+                                    ]
+                                },
+                                "string": "Maaseik"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        81
+                                    ]
+                                },
+                                "string": "Genk"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        77
+                                    ]
+                                },
+                                "string": "xtc"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        85
+                                    ]
+                                },
+                                "string": "Opglabbeek"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        79
+                                    ]
+                                },
+                                "string": "amfetamines"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            74,
+                            75,
+                            76,
+                            77,
+                            78,
+                            79,
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            85
+                        ],
+                        "subtype": "Artifact",
+                        "tense": "Unspecified",
+                        "type": "Manufacture"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de massaproductie van xtc en amfetamines in Genk , Maaseik en Opglabbeek"
+                },
+                "event_12": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        90
+                                    ]
+                                },
+                                "string": "ze"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            87,
+                            88,
+                            89,
+                            90,
+                            91,
+                            92,
+                            93,
+                            94,
+                            95,
+                            96,
+                            97,
+                            98,
+                            99,
+                            100
+                        ],
+                        "subtype": "Sentence",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "De winsten die ze maakten , goed voor zo'n 7.795.447 euro , werden verbeurdverklaard"
+                },
+                "event_13": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Giver",
+                                    "span": [
+                                        90
+                                    ]
+                                },
+                                "string": "ze"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "money",
+                                    "argument_role": "Money",
+                                    "span": [
+                                        95,
+                                        96,
+                                        97
+                                    ]
+                                },
+                                "string": "zo'n 7.795.447 euro"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            87,
+                            88,
+                            89,
+                            90,
+                            91,
+                            92,
+                            93,
+                            94,
+                            95,
+                            96,
+                            97,
+                            98,
+                            99,
+                            100
+                        ],
+                        "subtype": "TransferMoney",
+                        "tense": "Past",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "De winsten die ze maakten , goed voor zo'n 7.795.447 euro , werden verbeurdverklaard"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        8
+                                    ]
+                                },
+                                "string": "MDMA"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            7,
+                            8
+                        ],
+                        "subtype": "Artifact",
+                        "tense": "Unspecified",
+                        "type": "Manufacture"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "productie MDMA"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        33
+                                    ]
+                                },
+                                "string": "woensdag"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        32
+                                    ]
+                                },
+                                "string": "Tongeren"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        38,
+                                        39,
+                                        40,
+                                        41
+                                    ]
+                                },
+                                "string": "het 49-jarige Nederlandse kopstuk"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Adjudicator",
+                                    "span": [
+                                        25,
+                                        26,
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32
+                                    ]
+                                },
+                                "string": "de rechter van de correctionele rechtbank in Tongeren"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46
+                        ],
+                        "subtype": "Sentence",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Twaalf jaar opsluiting en een geldboete van 60.000 euro , dat is de zware straf die de rechter van de correctionele rechtbank in Tongeren woensdag tijdens de zitting voor het 49-jarige Nederlandse kopstuk in een grootschalige drugszaak uitsprak"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            9,
+                            10,
+                            11
+                        ],
+                        "subtype": "ArrestJail",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Twaalf jaar opsluiting"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "money",
+                                    "argument_role": "Money",
+                                    "span": [
+                                        16,
+                                        17
+                                    ]
+                                },
+                                "string": "60.000 euro"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ],
+                        "subtype": "Fine",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "een geldboete van 60.000 euro"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        38,
+                                        39,
+                                        40,
+                                        41
+                                    ]
+                                },
+                                "string": "het 49-jarige Nederlandse kopstuk"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45
+                        ],
+                        "subtype": "TrialHearing",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de zitting voor het 49-jarige Nederlandse kopstuk in een grootschalige drugszaak"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            43,
+                            44,
+                            45
+                        ],
+                        "subtype": "Investigation",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "een grootschalige drugszaak"
+                },
+                "event_8": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        48,
+                                        49,
+                                        50
+                                    ]
+                                },
+                                "string": "Vijftien anderen beklaagden"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            48,
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60
+                        ],
+                        "subtype": "Sentence",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Vijftien anderen beklaagden werden veroordeeld tot straffen tussen 15 maanden en tien jaar"
+                },
+                "event_9": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            56,
+                            57,
+                            58,
+                            59,
+                            60
+                        ],
+                        "subtype": "ArrestJail",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "15 maanden en tien jaar"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000102",
+                            "gang activity"
+                        ],
+                        [
+                            "medtop:20000101",
+                            "organised crime"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000096",
+                            "drug trafficking"
+                        ],
+                        [
+                            "medtop:20000095",
+                            "drug related crimes"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000137",
+                            "prison"
+                        ],
+                        [
+                            "medtop:20000134",
+                            "punishment (criminal)"
+                        ],
+                        [
+                            "medtop:20000129",
+                            "law enforcement"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000136",
+                            "fine (penalty)"
+                        ],
+                        [
+                            "medtop:20000134",
+                            "punishment (criminal)"
+                        ],
+                        [
+                            "medtop:20000129",
+                            "law enforcement"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000111",
+                            "trial (court)"
+                        ],
+                        [
+                            "medtop:20000107",
+                            "court"
+                        ],
+                        [
+                            "medtop:20000106",
+                            "judiciary"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000125",
+                            "criminal law"
+                        ],
+                        [
+                            "medtop:20000121",
+                            "law"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101
+        ],
+        "token_string": "Drugsbende moet 7,7 miljoen euro terugbetalen voor productie MDMA Twaalf jaar opsluiting en een geldboete van 60.000 euro , dat is de zware straf die de rechter van de correctionele rechtbank in Tongeren woensdag tijdens de zitting voor het 49-jarige Nederlandse kopstuk in een grootschalige drugszaak uitsprak . Vijftien anderen beklaagden werden veroordeeld tot straffen tussen 15 maanden en tien jaar . Een man kreeg de vrijspraak . De drugsbende stelde drugslabo's op voor de massaproductie van xtc en amfetamines in Genk , Maaseik en Opglabbeek . De winsten die ze maakten , goed voor zo'n 7.795.447 euro , werden verbeurdverklaard ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_912"
+    }
+}

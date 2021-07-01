@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="du" end="6" id="3" rel="dp">
+        <node begin="0" end="1" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Ombudsman" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="dp" rnum="sg" root="Ombudsman" sense="Ombudsman" word="Ombudsman"/>
+        <node begin="1" cat="ap" end="6" id="5" rel="dp">
+          <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="vernietigend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vernietigend" sense="vernietigend" vform="adj" word="vernietigend"/>
+          <node begin="2" cat="pp" end="6" id="7" rel="mod">
+            <node begin="2" end="3" frame="preposition(over,[heen])" his="normal" his_1="normal" id="8" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="3" cat="np" end="6" id="9" rel="obj1">
+              <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="aanstelling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanstelling" sense="aanstelling" word="aanstelling"/>
+              <node begin="4" cat="pp" end="6" id="11" rel="mod">
+                <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="13" lcat="np" lemma="EU_top_ambtenaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="EU_top_ambtenaar" sense="EU_top_ambtenaar" word="EU-topambtenaar"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="np" end="11" id="14" rel="dp">
+        <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="decap" his_1_1="normal" id="15" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="Vier"/>
+        <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="voorbeeld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="voorbeeld" sense="voorbeeld" word="voorbeelden"/>
+        <node begin="9" cat="pp" end="11" id="17" rel="mod">
+          <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="10" end="11" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="wan_beheer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="wan_beheer" sense="wan_beheer" word="wanbeheer"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Ombudsman vernietigend over aanstelling van EU-topambtenaar : Vier voorbeelden van wanbeheer</sentence>
+  <comments>
+    <comment>Q#1|Ombudsman vernietigend over aanstelling van EU-topambtenaar : Vier voorbeelden van wanbeheer|1|1|4.52337068625</comment>
+  </comments>
+</alpino_ds>

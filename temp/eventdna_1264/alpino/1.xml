@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="dp">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Congolees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Congolees" sense="Congolees" vform="adj" word="Congolese"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leider" sense="leider" word="leider"/>
+        <node begin="2" end="3" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="5" lcat="np" lemma="Bemba" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Bemba" sense="Bemba" word="Bemba"/>
+      </node>
+      <node begin="3" cat="du" end="7" id="6" rel="dp">
+        <node begin="3" end="4" frame="tmp_adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="dp" root="dan" sense="dan" special="tmp" word="dan"/>
+        <node begin="4" end="5" frame="adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="dp" root="toch" sense="toch" word="toch"/>
+        <node begin="5" cat="np" end="7" id="9" rel="dp">
+          <node begin="5" buiging="zonder" end="6" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="10" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="oorlog_misdadiger" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oorlog_misdadiger" sense="oorlog_misdadiger" word="oorlogsmisdadiger"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Congolese leider Bemba dan toch geen oorlogsmisdadiger</sentence>
+  <comments>
+    <comment>Q#1|Congolese leider Bemba dan toch geen oorlogsmisdadiger|1|2|3.9686676134600023</comment>
+  </comments>
+</alpino_ds>

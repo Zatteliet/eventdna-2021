@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="du" end="11" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" rel="dp">
+        <node begin="0" cat="np" end="3" id="3" rel="cnj">
+          <node begin="0" end="1" frame="modal_adverb(noun_prep)" his="normal" his_1="decap" his_1_1="normal" id="4" index="1" lcat="advp" lemma="minstens" pos="adv" postag="BW()" pt="bw" rel="mod" root="minstens" sc="noun_prep" sense="minstens" word="Minstens"/>
+          <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="5" index="2" infl="pl_num" lcat="detp" lemma="21" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="21" sense="21" special="hoofd" word="21"/>
+          <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="diplomaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="diplomaat" sense="diplomaat" word="diplomaten"/>
+        </node>
+        <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="7" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="np" end="5" id="8" rel="cnj">
+          <node begin="0" end="1" id="9" index="1" rel="mod"/>
+          <node begin="1" end="2" id="10" index="2" rel="det"/>
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="ambtenaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="ambtenaar" sense="ambtenaar" word="ambtenaren"/>
+        </node>
+      </node>
+      <node begin="5" cat="np" end="11" id="12" rel="dp">
+        <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="slachtoffer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="slachtoffer" sense="slachtoffer" word="slachtoffer"/>
+        <node begin="6" cat="pp" end="11" id="14" rel="mod">
+          <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="11" id="16" rel="obj1">
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanval" sense="aanval" word="aanval"/>
+            <node begin="8" cat="pp" end="11" id="18" rel="mod">
+              <node begin="8" end="9" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="9" cat="np" end="11" id="20" rel="obj1">
+                <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(adv))" graad="basis" his="form_of_suffix" his_1="isch" id="21" infl="no_e" lcat="ap" lemma="sonisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="sonisch" sense="sonisch" vform="adj" word="sonisch"/>
+                <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="wapen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="wapen" sense="wapen" word="wapen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="3">Minstens 21 diplomaten en ambtenaren slachtoffer van aanval met sonisch wapen</sentence>
+  <comments>
+    <comment>Q#3|Minstens 21 diplomaten en ambtenaren slachtoffer van aanval met sonisch wapen|1|1|4.855319333500005</comment>
+  </comments>
+</alpino_ds>

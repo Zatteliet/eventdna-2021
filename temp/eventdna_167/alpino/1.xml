@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Spaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Spaans" sense="Spaans" vform="adj" word="Spaanse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(aan))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="twijfelen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="twijfel" sc="pc_pp(aan)" sense="twijfel-aan" stype="declarative" tense="present" word="twijfelt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="7" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="9" lcat="np" lemma="slaag_kans" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="slaag_kans" sense="slaag_kans" word="slaagkansen"/>
+          <node begin="5" cat="np" end="7" id="10" rel="app">
+            <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="asiel_aanvraag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="asiel_aanvraag" sense="asiel_aanvraag" word="asielaanvraag"/>
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="12" lcat="np" lemma="Puigdemont" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Puigdemont" sense="Puigdemont" word="Puigdemont"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Spaanse regering twijfelt aan slaagkansen asielaanvraag Puigdemont</sentence>
+  <comments>
+    <comment>Q#1|Spaanse regering twijfelt aan slaagkansen asielaanvraag Puigdemont|1|1|-0.7581588655099991</comment>
+  </comments>
+</alpino_ds>

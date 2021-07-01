@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="29" id="3" rel="--">
+      <node begin="0" cat="pp" end="10" id="4" rel="mod">
+        <node begin="0" end="1" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="Met"/>
+        <node begin="1" cat="np" end="10" id="6" rel="obj1">
+          <node begin="1" end="2" frame="number(hoofd(sg_num))" his="normal" his_1="normal" id="7" infl="sg_num" lcat="detp" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" sense="één" special="hoofd" word="één"/>
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="stem" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stem" sense="stem" word="stem"/>
+          <node begin="4" cat="pp" end="10" id="9" rel="mod">
+            <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="5" cat="np" end="10" id="11" rel="obj1">
+              <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="6" cat="ppart" end="8" id="13" rel="mod">
+                <node aform="base" begin="6" end="7" frame="adjective(both(osentadv))" his="normal" his_1="normal" id="14" infl="both" lcat="ap" lemma="zelden" pos="adj" postag="BW()" pt="bw" rel="mod" root="zelden" sense="zelden" vform="adj" word="zelden"/>
+                <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(ge_e)" his="normal" his_1="normal" id="15" infl="e" lcat="ppart" lemma="gehoord" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gehoord" sense="gehoord" vform="psp" word="gehoorde" wvorm="vd"/>
+              </node>
+              <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="16" infl="e" lcat="ap" lemma="fel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="fel" sense="fel" vform="adj" word="felle"/>
+              <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="taal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="taal" sense="taal" word="taal"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" frame="verb(hebben,past(pl),sbar)" his="normal" his_1="normal" id="18" infl="pl" lcat="smain" lemma="eisen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="eis" sc="sbar" sense="eis" stype="declarative" tense="past" word="eisten" wvorm="pv"/>
+      <node begin="12" cat="np" end="23" id="19" rel="su">
+        <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="13" end="14" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="21" infl="pl_num" lcat="detp" lemma="54" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="54" sense="54" special="hoofd" word="54"/>
+        <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="ambassadeur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="ambassadeur" sense="ambassadeur" word="ambassadeurs"/>
+        <node begin="15" cat="pp" end="19" id="23" rel="mod">
+          <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="24" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="16" cat="np" end="19" id="25" rel="obj1">
+            <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="27" infl="e" lcat="ap" lemma="Afrikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Afrikaans" sense="Afrikaans" vform="adj" word="Afrikaanse"/>
+            <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="groep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="groep" sense="groep" word="groep"/>
+          </node>
+        </node>
+        <node begin="19" cat="pp" end="23" id="29" rel="mod">
+          <node begin="19" end="20" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="30" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+          <node begin="20" cat="np" end="23" id="31" rel="obj1">
+            <node begin="20" end="21" frame="determiner(de)" his="normal" his_1="normal" id="32" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="21" cat="mwu" end="23" his="normal" his_1="names_dictionary" id="33" mwu_root="Verenigde Naties" mwu_sense="Verenigde Naties" rel="hd">
+              <node begin="21" end="22" frame="proper_name(both,'ORG')" id="34" lcat="np" lemma="Verenigde" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Verenigde" sense="Verenigde" spectype="deeleigen" word="Verenigde"/>
+              <node begin="22" end="23" frame="proper_name(both,'ORG')" id="35" lcat="np" lemma="Naties" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Naties" sense="Naties" spectype="deeleigen" word="Naties"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="23" cat="cp" end="29" id="36" rel="vc">
+        <node begin="23" conjtype="onder" end="24" frame="complementizer(dat)" his="normal" his_1="normal" id="37" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="24" cat="ssub" end="29" id="38" rel="body">
+          <node begin="24" cat="np" end="26" id="39" rel="su">
+            <node begin="24" end="25" frame="determiner(de)" his="normal" his_1="normal" id="40" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="25" end="26" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="41" lcat="np" lemma="VS_president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VS_president" sense="VS_president" word="VS-president"/>
+          </node>
+          <node begin="26" cat="np" end="28" id="42" rel="obj1">
+            <node begin="26" buiging="zonder" end="27" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="43" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="27" end="28" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="44" lcat="np" lemma="woord" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="woord" sense="woord" word="woorden"/>
+          </node>
+          <node begin="28" end="29" frame="verb(hebben,sg3,ninv(transitive,part_transitive(terug)))" his="normal" his_1="part-V" id="45" infl="sg3" lcat="ssub" lemma="terug_nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem_terug" sc="part_transitive(terug)" sense="neem_terug" tense="present" word="terugneemt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" his="normal" his_1="normal" id="46" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Met één stem , in een zelden gehoorde felle taal , eisten de 54 ambassadeurs van de Afrikaanse groep bij de Verenigde Naties dat de VS-president zijn woorden terugneemt .</sentence>
+  <comments>
+    <comment>Q#3|Met één stem , in een zelden gehoorde felle taal , eisten de 54 ambassadeurs van de Afrikaanse groep bij de Verenigde Naties dat de VS-president zijn woorden terugneemt .|1|1|-6.540320902350004</comment>
+  </comments>
+</alpino_ds>

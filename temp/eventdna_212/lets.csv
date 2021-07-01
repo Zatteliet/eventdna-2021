@@ -1,0 +1,54 @@
+Op	op	VZ(init)	B-PP	O
+bezoek	bezoek	N(soort,ev,basis,onz,stan)	B-NP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+sans-papiers	sans-papier	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Hotel	Hotel	SPEC(deeleigen)	B-NP	B-LOC
+Astrid	Astrid	SPEC(deeleigen)	I-NP	I-LOC
+				
+In	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+voormalige	voormalig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+lobby	lobby	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+Brussels	Brussels	ADJ(prenom,basis,zonder)	I-NP	B-LOC
+driesterrenhotel	driesterrenhotel	N(soort,ev,basis,onz,stan)	I-NP	O
+slapen	slapen	WW(inf,vrij,zonder)	B-VP	O
+nu	nu	BW()	B-ADVP	O
+mensen	mens	N(soort,mv,basis)	B-NP	O
+op	op	VZ(init)	B-PP	O
+matrassen	matras	N(soort,mv,basis)	B-NP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+grond	grond	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+willen	willen	WW(pv,tgw,mv)	B-VP	O
+maar	maar	BW()	B-ADVP	O
+één	één	TW(hoofd,prenom,stan)	B-NP	O
+ding	ding	N(soort,ev,basis,onz,stan)	I-NP	O
+:	:	LET()	O	O
+papieren	papieren	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+'	'	LET()	O	O
+Samen	samen	BW()	B-AP	O
+sterk	sterk	ADJ(vrij,basis,zonder)	I-AP	O
+!	!	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+toch	toch	BW()	B-ADVP	O
+hoe	hoe	BW()	B-ADVP	O
+jullie	jullie	VNW(pers,pron,2v,mv)	I-ADVP	O
+dat	dat	VG(onder)	O	O
+hier	hier	VNW(aanw,adv-pron,3o,getal)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Vlaanderen	Vlaanderen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+zeggen	zeggen	WW(inf,vrij,zonder)	B-VP	O
+?	?	LET()	O	O
+'	'	LET()	O	O
+				

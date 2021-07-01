@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="22" id="2" rel="--">
+      <node begin="0" cat="smain" end="14" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(pron)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="5" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="Zijn"/>
+          <node begin="1" end="2" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="partij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="partij" sense="partij" special="tmp" word="partij"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,past(sg),fixed([[in,de,wacht],acc],norm_passive))" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="slepen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="sleep" sc="fixed([[in,de,wacht],acc],norm_passive)" sense="in-de-wacht-sleep" stype="declarative" tense="past" word="sleepte" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="8" rel="obj1">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="10" lcat="np" lemma="gouverneur_zetel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gouverneur_zetel" sense="gouverneur_zetel" word="gouverneurszetel"/>
+        </node>
+        <node begin="5" cat="mwu" end="8" his="normal" his_1="normal" id="11" mwu_root="in de wacht" mwu_sense="in de wacht" rel="svp">
+          <node begin="5" end="6" frame="fixed_part([in,de,wacht])" id="12" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="6" end="7" frame="fixed_part([in,de,wacht])" id="13" lcat="fixed" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" sense="de" word="de"/>
+          <node begin="7" end="8" frame="fixed_part([in,de,wacht])" genus="zijd" getal="ev" graad="basis" id="14" lcat="fixed" lemma="wacht" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="wacht" sense="wacht" word="wacht"/>
+        </node>
+        <node begin="8" cat="pp" end="14" id="15" rel="mod">
+          <node begin="8" end="9" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="9" cat="np" end="14" id="17" rel="obj1">
+            <node begin="9" end="10" frame="number(hoofd(pl_num))" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="18" infl="pl_num" lcat="np" lemma="17" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="pl" root="17" sense="17" special="hoofd" word="17"/>
+            <node begin="10" cat="pp" end="14" id="19" rel="mod">
+              <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="11" cat="np" end="14" id="21" rel="obj1">
+                <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="12" end="13" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="23" infl="pl_num" lcat="detp" lemma="23" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="23" sense="23" special="hoofd" word="23"/>
+                <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="deelstaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="deelstaat" sense="deelstaat" word="deelstaten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="15" cat="smain" end="22" id="25" rel="tag">
+        <node begin="16" end="17" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="26" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="17" cat="np" end="21" id="27" index="1" rel="su">
+          <node begin="17" end="18" frame="determiner(de)" his="normal" his_1="normal" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="18" buiging="met-e" end="19" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="29" infl="e" lcat="ap" lemma="nationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nationaal" sense="nationaal" vform="adj" word="nationale"/>
+          <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="kies_commissie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kies_commissie" sense="kies_commissie" word="kiescommissie"/>
+          <node begin="20" end="21" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="31" lcat="np" lemma="CNE" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="CNE" sense="CNE" word="CNE"/>
+        </node>
+        <node begin="15" cat="ppart" end="22" id="32" rel="vc">
+          <node begin="15" end="16" frame="dip_sbar_adverb" his="normal" his_1="normal" id="33" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="vc" root="zo" sc="dip_sbar" sense="zo" word="zo"/>
+          <node begin="17" end="21" id="34" index="1" rel="su"/>
+          <node begin="21" buiging="zonder" end="22" frame="verb(hebben,psp,ninv(sbar,part_sbar(bekend)))" his="normal" his_1="part-V" id="35" infl="psp" lcat="ppart" lemma="bekend_maken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="maak_bekend" sc="part_sbar(bekend)" sense="maak_bekend" word="bekendgemaakt" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="36" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Zijn partij sleepte de gouverneurszetel in de wacht in 17 van de 23 deelstaten , zo heeft de nationale kiescommissie CNE bekendgemaakt .</sentence>
+  <comments>
+    <comment>Q#3|Zijn partij sleepte de gouverneurszetel in de wacht in 17 van de 23 deelstaten , zo heeft de nationale kiescommissie CNE bekendgemaakt .|1|1|-10.369366273109998</comment>
+  </comments>
+</alpino_ds>

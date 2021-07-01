@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="advp" end="3" id="2" rel="mod">
+        <node begin="0" buiging="zonder" end="1" frame="tmp_app_noun" graad="comp" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="advp" lemma="eerder" pos="adv" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="eerder" sense="eerder" special="tmp_app" word="Eerder"/>
+        <node begin="1" cat="np" end="3" id="4" rel="mod">
+          <node begin="1" buiging="met-e" end="2" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+          <node begin="2" end="3" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="week" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="week" sense="week" special="tmp" word="week"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="publiceren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="publiceer" sc="transitive" sense="publiceer" stype="declarative" tense="past" word="publiceerde" wvorm="pv"/>
+      <node begin="4" cat="conj" end="7" id="8" rel="su">
+        <node begin="4" end="5" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="9" lcat="np" lemma="Kind" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Kind" sense="Kind" word="Kind"/>
+        <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="6" end="7" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="11" lcat="np" lemma="Gezin" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Gezin" sense="Gezin" word="Gezin"/>
+      </node>
+      <node begin="7" cat="np" end="14" id="12" rel="obj1">
+        <node begin="7" end="8" frame="determiner(een)" his="normal" his_1="normal" id="13" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="rapport" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="rapport" sense="rapport" word="rapport"/>
+        <node begin="9" cat="pp" end="14" id="15" rel="mod">
+          <node begin="9" end="10" frame="preposition(over,[heen])" his="normal" his_1="normal" id="16" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="10" cat="np" end="14" id="17" rel="obj1">
+            <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="19" lcat="np" lemma="kansarmoede_index" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kansarmoede_index" sense="kansarmoede_index" word="kansarmoede-index"/>
+            <node begin="12" cat="pp" end="14" id="20" rel="mod">
+              <node begin="12" end="13" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="21" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="13" end="14" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="22" infl="pl_num" lcat="np" lemma="2017" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="2017" sense="2017" special="hoofd" word="2017"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Eerder deze week publiceerde Kind en Gezin een rapport over de kansarmoede-index voor 2017 .</sentence>
+  <comments>
+    <comment>Q#2|Eerder deze week publiceerde Kind en Gezin een rapport over de kansarmoede-index voor 2017 .|1|1|-4.836136791790004</comment>
+  </comments>
+</alpino_ds>

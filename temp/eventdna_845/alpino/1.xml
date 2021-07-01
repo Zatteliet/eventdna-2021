@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="militair" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="militair" sense="militair" word="Militairen"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="lopen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="loop" sc="transitive" sense="loop" stype="declarative" tense="present" word="lopen" wvorm="pv"/>
+      <node begin="2" cat="advp" end="4" his="normal" his_1="normal" id="4" rel="mod">
+        <node begin="2" end="3" frame="adverb" id="5" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" sense="niet" word="niet"/>
+        <node aform="compar" begin="3" buiging="zonder" end="4" frame="adjective(er(tmpadv))" graad="comp" id="6" infl="no_e" lcat="ap" lemma="langer" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="langer" sense="langer" vform="adj" word="langer"/>
+      </node>
+      <node begin="4" cat="np" end="8" id="7" rel="obj1">
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="patrouille" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="patrouille" sense="patrouille" word="patrouilles"/>
+        <node begin="5" cat="pp" end="8" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="10" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="6" cat="mwu" end="8" his="name" his_1="not_begin" id="11" mwu_root="Antwerpse winkelas" mwu_sense="Antwerpse winkelas" rel="obj1">
+            <node begin="6" end="7" frame="proper_name(both)" id="12" lcat="np" lemma="Antwerpse" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Antwerpse" sense="Antwerpse" spectype="deeleigen" word="Antwerpse"/>
+            <node begin="7" end="8" frame="proper_name(both)" id="13" lcat="np" lemma="winkelas" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="winkelas" sense="winkelas" spectype="deeleigen" word="winkelas"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Militairen lopen niet langer patrouilles op Antwerpse winkelas</sentence>
+  <comments>
+    <comment>Q#1|Militairen lopen niet langer patrouilles op Antwerpse winkelas|1|1|1.698076263779999</comment>
+  </comments>
+</alpino_ds>

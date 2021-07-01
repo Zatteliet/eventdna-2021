@@ -1,0 +1,540 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_2",
+                        "entity_3",
+                        "entity_4"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_2": [
+                        "event_2",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "doden",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Minstens 69 doden",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    9
+                                ]
+                            },
+                            "string": "Vietnam",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            9
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Vietnam",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    20
+                                ]
+                            },
+                            "string": "Vietnam",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            20
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Vietnam",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    30
+                                ]
+                            },
+                            "string": "land",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            29,
+                            30
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "het land",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    39
+                                ]
+                            },
+                            "string": "mensen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            38,
+                            39
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "30 mensen",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    44
+                                ]
+                            },
+                            "string": "autoriteiten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            43,
+                            44
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de autoriteiten",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        9
+                                    ]
+                                },
+                                "string": "Vietnam"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        0,
+                                        1,
+                                        2
+                                    ]
+                                },
+                                "string": "Minstens 69 doden"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Die",
+                        "tense": "Present",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Minstens 69 doden na doortocht van taifoen Damrey in Vietnam"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        20
+                                    ]
+                                },
+                                "string": "Vietnam"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24
+                        ],
+                        "subtype": "Die",
+                        "tense": "Present",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Het aantal doden na de doortocht van taifoen Damrey in Vietnam is naar 69 gestegen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        29,
+                                        30
+                                    ]
+                                },
+                                "string": "het land"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zware neerslag het land blijft teisteren"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        38,
+                                        39
+                                    ]
+                                },
+                                "string": "30 mensen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Er worden ook nog 30 mensen vermist"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000157",
+                            "meteorological disaster"
+                        ],
+                        [
+                            "medtop:20000151",
+                            "natural disaster"
+                        ],
+                        [
+                            "medtop:20000148",
+                            "disaster"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000158",
+                            "windstorms"
+                        ],
+                        [
+                            "medtop:20000157",
+                            "meteorological disaster"
+                        ],
+                        [
+                            "medtop:20000151",
+                            "natural disaster"
+                        ],
+                        [
+                            "medtop:20000148",
+                            "disaster"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000168",
+                            "emergency response"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000810",
+                            "death and dying"
+                        ],
+                        [
+                            "medtop:20000808",
+                            "values"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+        ],
+        "token_string": "Minstens 69 doden na doortocht van taifoen Damrey in Vietnam Het aantal doden na de doortocht van taifoen Damrey in Vietnam is naar 69 gestegen , terwijl zware neerslag het land blijft teisteren . Er worden ook nog 30 mensen vermist , aldus de autoriteiten dinsdag . Eerder al was sprake van een van de zwaarste stormen van de afgelopen jaren ."
+    },
+    "meta": {
+        "author": "eventdna_anno_4",
+        "id": "eventdna_271"
+    }
+}

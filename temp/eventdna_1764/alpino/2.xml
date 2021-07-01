@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="21" end="22" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="29" id="3" rel="--">
+      <node begin="0" cat="smain" end="27" id="4" rel="dp">
+        <node begin="0" cat="np" end="2" id="5" rel="su">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(het)" getal="mv" his="normal" his_1="decap" his_1_1="normal" id="6" infl="het" lcat="detp" lemma="ons" naamval="stan" npagr="evon" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,zonder,evon)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="Ons"/>
+          <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="land" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="land" sense="land" word="land"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,part_np_ld_pp(uit,van))" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="uit_steunen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="steun_uit" sc="part_np_ld_pp(uit,van)" sense="steun_uit" stype="declarative" tense="present" word="steunt" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="9" rel="obj1">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="resolutie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="resolutie" sense="resolutie" word="resolutie"/>
+        </node>
+        <node begin="5" cat="pp" end="21" id="12" rel="ld">
+          <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="21" id="14" rel="obj1">
+            <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="15" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="7" cat="mwu" end="9" his="normal" his_1="names_dictionary" id="16" mwu_root="Europees Parlement" mwu_sense="Europees Parlement" rel="hd">
+              <node begin="7" end="8" frame="proper_name(sg,'ORG')" id="17" lcat="np" lemma="Europees" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europees" sense="Europees" spectype="deeleigen" word="Europees"/>
+              <node begin="8" end="9" frame="proper_name(sg,'ORG')" id="18" lcat="np" lemma="Parlement" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parlement" sense="Parlement" spectype="deeleigen" word="Parlement"/>
+            </node>
+            <node begin="9" cat="pp" end="14" id="19" rel="mod">
+              <node begin="9" end="10" frame="preposition(om,[heen])" his="normal" his_1="normal" id="20" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+              <node begin="10" cat="np" end="14" id="21" rel="obj1">
+                <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="22" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="gebruik" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gebruik" sense="gebruik" word="gebruik"/>
+                <node begin="12" cat="pp" end="14" id="24" rel="mod">
+                  <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="25" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="13" end="14" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="26" lcat="np" lemma="glyfosaat" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="glyfosaat" sense="glyfosaat" word="glyfosaat"/>
+                </node>
+              </node>
+            </node>
+            <node begin="15" cat="np" end="21" id="27" rel="app">
+              <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="16" cat="ppart" end="18" id="29" rel="mod">
+                <node aform="super" begin="16" buiging="zonder" end="17" frame="adjective(st(adv))" graad="sup" his="normal" his_1="normal" id="30" infl="no_e" lcat="ap" lemma="meest" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,sup)" pt="vnw" rel="mod" root="meest" sense="meest" vform="adj" vwtype="onbep" word="meest"/>
+                <node aform="base" begin="17" buiging="met-e" end="18" frame="adjective(ge_e)" his="normal" his_1="normal" id="31" infl="e" lcat="ppart" lemma="verkocht" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="verkocht" sense="verkocht" vform="psp" word="verkochte" wvorm="vd"/>
+              </node>
+              <node begin="18" end="19" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="32" lcat="np" lemma="onkruidverdelger" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="onkruidverdelger" sense="onkruidverdelger" word="onkruidverdelger"/>
+              <node begin="19" cat="pp" end="21" id="33" rel="mod">
+                <node begin="19" end="20" frame="preposition(ter,[],nodet)" his="normal" his_1="normal" id="34" lcat="pp" lemma="ter" pos="prep" postag="VZ(versm)" pt="vz" rel="hd" root="ter" sc="nodet" sense="ter" vztype="versm" word="ter"/>
+                <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="wereld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="wereld" sense="wereld" word="wereld"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="22" cat="pp" end="25" id="36" rel="mod">
+          <node begin="22" end="23" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="37" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+          <node begin="23" cat="np" end="25" id="38" rel="obj1">
+            <node begin="23" end="24" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="december" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="december" sense="december" special="tmp" word="december"/>
+            <node begin="24" end="25" frame="np(year)" his="normal" his_1="normal" id="40" lcat="np" lemma="2022" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="sg" root="2022" sense="2022" word="2022"/>
+          </node>
+        </node>
+        <node begin="25" end="26" frame="adverb" his="normal" his_1="normal" id="41" lcat="advp" lemma="helemaal" pos="adv" postag="BW()" pt="bw" rel="mod" root="helemaal" sense="helemaal" word="helemaal"/>
+        <node begin="26" end="27" frame="particle(uit)" his="normal" his_1="normal" id="42" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+      </node>
+      <node begin="27" cat="ti" end="29" id="43" rel="dp">
+        <node begin="27" end="28" frame="complementizer(te)" his="normal" his_1="normal" id="44" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="28" buiging="zonder" end="29" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="45" infl="inf" lcat="inf" lemma="faseren" pos="verb" positie="prenom" postag="WW(inf,prenom,zonder)" pt="ww" rel="body" root="faseer" sc="transitive" sense="faseer" word="faseren" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" his="robust_skip" id="46" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Ons land steunt de resolutie van het Europees Parlement om het gebruik van glyfosaat , de meest verkochte onkruidverdelger ter wereld , tegen december 2022 helemaal uit te faseren .</sentence>
+  <comments>
+    <comment>Q#2|Ons land steunt de resolutie van het Europees Parlement om het gebruik van glyfosaat , de meest verkochte onkruidverdelger ter wereld , tegen december 2022 helemaal uit te faseren .|1|2|8.841430185440013</comment>
+  </comments>
+</alpino_ds>

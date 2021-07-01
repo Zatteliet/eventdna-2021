@@ -1,0 +1,572 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {},
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    3
+                                ]
+                            },
+                            "string": "Rohingya",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            3
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Rohingya",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    10
+                                ]
+                            },
+                            "string": "VN",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            10
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "VN",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    14
+                                ]
+                            },
+                            "string": "top\u00adgeneraals",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            13,
+                            14
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Myanmarese top\u00adgeneraals",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    13
+                                ]
+                            },
+                            "string": "Myanmarese",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            13
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Myanmarese",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    17
+                                ]
+                            },
+                            "string": "Strafhof",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            17
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Strafhof",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "regering",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de regering van Nobelprijswinnares Aung San Suu Kyi",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    26,
+                                    27,
+                                    28,
+                                    29
+                                ]
+                            },
+                            "string": "Aung San Suu Kyi",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            26,
+                            27,
+                            28,
+                            29
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Aung San Suu Kyi",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    37
+                                ]
+                            },
+                            "string": "leger",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            36,
+                            37
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "het leger",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        3
+                                    ]
+                                },
+                                "string": "Rohingya"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            1,
+                            2,
+                            3
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Campagne tegen Rohingya"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        13,
+                                        14
+                                    ]
+                                },
+                                "string": "Myanmarese top\u00adgeneraals"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Adjudicator",
+                                    "span": [
+                                        17
+                                    ]
+                                },
+                                "string": "Strafhof"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Plaintiff",
+                                    "span": [
+                                        10
+                                    ]
+                                },
+                                "string": "VN"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19
+                        ],
+                        "subtype": "Sue",
+                        "tense": "Present",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De VN vragen om Myanmarese top\u00adgeneraals voor het Strafhof te brengen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Present",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Ook de regering van Nobelprijswinnares Aung San Suu Kyi , die minder macht heeft dan het leger , schoot zwaar tekort , klinkt het"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000072",
+                            "genocide"
+                        ],
+                        [
+                            "medtop:20000071",
+                            "massacre"
+                        ],
+                        [
+                            "medtop:16000000",
+                            "conflict, war and peace"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000795",
+                            "national or ethnic minority"
+                        ],
+                        [
+                            "medtop:20000788",
+                            "mankind"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000644",
+                            "international organisation"
+                        ],
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000599",
+                            "armed forces"
+                        ],
+                        [
+                            "medtop:20000598",
+                            "defence"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000111",
+                            "trial (court)"
+                        ],
+                        [
+                            "medtop:20000107",
+                            "court"
+                        ],
+                        [
+                            "medtop:20000106",
+                            "judiciary"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000614",
+                            "national government"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000498",
+                            "award and prize"
+                        ],
+                        [
+                            "medtop:20000497",
+                            "accomplishment"
+                        ],
+                        [
+                            "medtop:08000000",
+                            "human interest"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000613",
+                            "ministers (government)"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "token_string": "' Campagne tegen Rohingya was poging tot volkerenmoord ' De VN vragen om Myanmarese top\u00adgeneraals voor het Strafhof te brengen . Ook de regering van Nobelprijswinnares Aung San Suu Kyi , die minder macht heeft dan het leger , schoot zwaar tekort , klinkt het ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_83"
+    }
+}

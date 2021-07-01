@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="7" end="8" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="3" end="4" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="4" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+      <node begin="6" cat="np" end="9" id="5" index="1" rel="su">
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="gewoon" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="gewoon" sense="gewoon" vform="adj" word="gewoon"/>
+        <node begin="8" end="9" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="publiek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="publiek" sense="publiek" word="publiek"/>
+      </node>
+      <node begin="0" cat="ppart" end="17" id="8" rel="vc">
+        <node begin="0" cat="mwu" end="3" his="normal" his_1="decap" his_1_1="normal" id="9" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+          <node aform="base" begin="0" end="1" frame="adjective(pred(adv))" id="10" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="Voor"/>
+          <node aform="base" begin="1" end="2" frame="adjective(pred(adv))" id="11" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+          <node aform="base" begin="2" end="3" frame="adjective(pred(adv))" getal-n="zonder-n" id="12" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+        </node>
+        <node begin="4" end="5" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="13" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="6" end="9" id="14" index="1" rel="obj1"/>
+        <node begin="9" buiging="zonder" end="10" frame="verb(hebben,psp,ninv(np_ld_pp,part_np_ld_pp(toe)))" his="normal" his_1="part-V" id="15" infl="psp" lcat="ppart" lemma="toe_laten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="laat_toe" sc="part_np_ld_pp(toe)" sense="laat_toe" word="toegelaten" wvorm="vd"/>
+        <node begin="10" cat="pp" end="17" id="16" rel="ld">
+          <node begin="10" end="11" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="17" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="11" cat="np" end="17" id="18" rel="obj1">
+            <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="uitreiking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uitreiking" sense="uitreiking" word="uitreiking"/>
+            <node begin="13" cat="pp" end="17" id="21" rel="mod">
+              <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="22" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="14" cat="np" end="17" id="23" rel="obj1">
+                <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="15" cat="mwu" end="17" his="normal" his_1="names_dictionary" id="25" mwu_root="Gouden Schoen" mwu_sense="Gouden Schoen" rel="hd">
+                  <node begin="15" end="16" frame="proper_name(sg)" id="26" lcat="np" lemma="Gouden" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gouden" sense="Gouden" spectype="deeleigen" word="Gouden"/>
+                  <node begin="16" end="17" frame="proper_name(sg)" id="27" lcat="np" lemma="Schoen" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Schoen" sense="Schoen" spectype="deeleigen" word="Schoen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Voor het eerst werd er &apos; gewoon &apos; publiek toegelaten op de uitreiking van de Gouden Schoen .</sentence>
+  <comments>
+    <comment>Q#2|Voor het eerst werd er &apos; gewoon &apos; publiek toegelaten op de uitreiking van de Gouden Schoen .|1|1|-3.892842328570001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="du" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="China outsourcet" mwu_sense="China outsourcet" rel="dp">
+        <node begin="0" end="1" frame="proper_name(both)" id="3" lcat="np" lemma="China" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="China" sense="China" spectype="deeleigen" word="China"/>
+        <node begin="1" end="2" frame="proper_name(both)" id="4" lcat="np" lemma="outsourcet" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="outsourcet" sense="outsourcet" spectype="deeleigen" word="outsourcet"/>
+      </node>
+      <node begin="2" cat="np" end="5" id="5" rel="dp">
+        <node begin="2" buiging="zonder" end="3" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="6" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="vuil" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vuil" sense="vuil" vform="adj" word="vuile"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="lucht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="lucht" sense="lucht" word="lucht"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">China outsourcet zijn vuile lucht</sentence>
+  <comments>
+    <comment>Q#1|China outsourcet zijn vuile lucht|1|1|0.5392526833299995</comment>
+  </comments>
+</alpino_ds>

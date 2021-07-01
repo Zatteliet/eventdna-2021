@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="du" end="12" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="12" id="3" rel="nucl">
+        <node begin="1" cat="pp" end="5" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="5" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="2" cat="np" end="5" id="6" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="number(rang)" his="normal" his_1="normal" id="8" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+            <node begin="4" end="5" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="9" lcat="np" lemma="proces_dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="proces_dag" sense="proces_dag" special="tmp" word="procesdag"/>
+          </node>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="10" infl="sg3" lcat="smain" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" sc="intransitive" sense="dreig" stype="declarative" tense="present" word="dreigt" wvorm="pv"/>
+        <node begin="6" cat="np" end="12" id="11" rel="su">
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="discussie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="discussie" sense="discussie" word="discussie"/>
+          <node begin="7" cat="pp" end="12" id="13" rel="mod">
+            <node begin="7" end="8" frame="preposition(over,[heen])" his="normal" his_1="normal" id="14" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="8" cat="whrel" end="12" id="15" rel="obj1">
+              <node begin="8" cat="np" end="10" id="16" index="1" rel="rhd">
+                <node begin="8" buiging="met-e" end="9" frame="determiner(welke,rwh,nmod,pro,yparg)" his="normal" his_1="normal" id="17" infl="welke" lcat="detp" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" sense="welk" vwtype="vb" wh="rwh" word="welke"/>
+                <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="straf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="straf" sense="straf" word="straf"/>
+              </node>
+              <node begin="8" cat="ssub" end="12" id="19" rel="body">
+                <node begin="8" end="10" id="20" index="1" rel="obj1"/>
+                <node begin="10" end="11" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="21" lcat="np" lemma="Abdeslam" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Abdeslam" sense="Abdeslam" word="Abdeslam"/>
+                <node begin="11" end="12" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="22" infl="sg3" lcat="ssub" lemma="riskeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="riskeer" sc="transitive" sense="riskeer" tense="present" word="riskeert" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Maar op de eerste procesdag dreigt discussie over welke straf Abdeslam riskeert .</sentence>
+  <comments>
+    <comment>Q#3|Maar op de eerste procesdag dreigt discussie over welke straf Abdeslam riskeert .|1|1|-2.0806310052399994</comment>
+  </comments>
+</alpino_ds>

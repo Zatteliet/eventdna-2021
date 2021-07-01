@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="politie" sense="politie" word="Politie"/>
+      <node begin="1" end="2" frame="verb(hebben,sg_heeft,nonp_pred_np_ndev)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="nonp_pred_np_ndev" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="2" cat="np" end="6" id="4" rel="obj1">
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="persoon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="persoon" sense="persoon" word="persoon"/>
+        <node begin="3" cat="pp" end="6" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="8" rel="obj1">
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="cruciaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="cruciaal" sense="cruciaal" vform="adj" word="cruciaal"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="belang" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="belang" sense="belang" word="belang"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" cat="pp" end="15" id="11" rel="predc">
+        <node begin="6" end="7" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="7" cat="np" end="15" id="13" rel="obj1">
+          <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="14" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="8" end="9" frame="noun(het,count,sg,pred_pp(op))" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="spoor" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="spoor" sc="pred_pp(op)" sense="spoor" word="spoor"/>
+          <node begin="9" cat="pp" end="15" id="16" rel="mod">
+            <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="10" cat="np" end="15" id="18" rel="obj1">
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="zoek_tocht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zoek_tocht" sense="zoek_tocht" word="zoektocht"/>
+              <node begin="11" cat="pp" end="15" id="20" rel="mod">
+                <node begin="11" end="12" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="21" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+                <node begin="12" cat="np" end="15" id="22" rel="obj1">
+                  <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(ge_e)" his="normal" his_1="normal" id="23" infl="e" lcat="ppart" lemma="vermist" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="vermist" sense="vermist" vform="psp" word="vermiste" wvorm="vd"/>
+                  <node begin="13" cat="mwu" end="15" his="name" his_1="not_begin" id="24" mwu_root="Maddie McCann" mwu_sense="Maddie McCann" rel="hd">
+                    <node begin="13" end="14" frame="proper_name(sg,'PER')" id="25" lcat="np" lemma="Maddie" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Maddie" sense="Maddie" spectype="deeleigen" word="Maddie"/>
+                    <node begin="14" end="15" frame="proper_name(sg,'PER')" id="26" lcat="np" lemma="McCann" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="McCann" sense="McCann" spectype="deeleigen" word="McCann"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Politie heeft persoon van cruciaal belang op het spoor in zoektocht naar vermiste Maddie McCann</sentence>
+  <comments>
+    <comment>Q#1|Politie heeft persoon van cruciaal belang op het spoor in zoektocht naar vermiste Maddie McCann|1|1|3.1623603623700123</comment>
+  </comments>
+</alpino_ds>

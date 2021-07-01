@@ -1,0 +1,513 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_6",
+                        "entity_2",
+                        "entity_4"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_5",
+                        "entity_7",
+                        "entity_1"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_6",
+                        "entity_2",
+                        "entity_4",
+                        "entity_8"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_6",
+                        "entity_4",
+                        "entity_8"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_5": [
+                        "event_4",
+                        "event_3",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Vrouw",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Vrouw",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    8
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            7,
+                            8,
+                            9,
+                            10
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Een man uit Veurne",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    10
+                                ]
+                            },
+                            "string": "Veurne",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            10
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Veurne",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            16
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    18
+                                ]
+                            },
+                            "string": "ex-partner",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            17,
+                            18
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zijn ex-partner",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    17
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            17
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    24
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            24
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    30
+                                ]
+                            },
+                            "string": "Hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            30
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Hij",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Vrouw"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        6
+                                    ]
+                                },
+                                "string": "wapens"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Vrouw meermaals verkracht onder bedreiging van wapens"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        7,
+                                        8,
+                                        9,
+                                        10
+                                    ]
+                                },
+                                "string": "Een man uit Veurne"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28
+                        ],
+                        "subtype": "ArrestJail",
+                        "tense": "Present",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Een man uit Veurne riskeert vier jaar cel nadat hij zijn ex-partner bedreigd had met wapens en haar meermaals misbruikt zou hebben"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        16
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        22
+                                    ]
+                                },
+                                "string": "wapens"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        17,
+                                        18
+                                    ]
+                                },
+                                "string": "zijn ex-partner"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "hij zijn ex-partner bedreigd had met wapens en haar meermaals misbruikt zou hebben"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            32,
+                            33
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de verkrachting"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20001193",
+                            "sexual misconduct"
+                        ],
+                        [
+                            "medtop:20000802",
+                            "social problem"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37
+        ],
+        "token_string": "Vrouw meermaals verkracht onder bedreiging van wapens Een man uit Veurne riskeert vier jaar cel nadat hij zijn ex-partner bedreigd had met wapens en haar meermaals misbruikt zou hebben . Hij zou de verkrachting zelfs gefilmd hebben ."
+    },
+    "meta": {
+        "author": "eventdna_anno_3",
+        "id": "eventdna_1709"
+    }
+}

@@ -1,0 +1,36 @@
+'	'	LET()	O	O
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+te	te	BW()	B-AP	O
+laat	laat	ADJ(vrij,basis,zonder)	I-AP	O
+om	om	VZ(init)	B-PP	O
+verkiezingen	verkiezing	N(soort,mv,basis)	B-NP	O
+in	in	VZ(init)	B-PP	O
+VS	VS	N(eigen,mv,basis)	B-NP	B-LOC
+te	te	VZ(init)	B-VP	O
+beveiligen	beveiligen	WW(inf,vrij,zonder)	I-VP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+tussentijdse	tussentijds	ADJ(prenom,basis,met-e,stan)	I-NP	O
+par­lementsverkiezingen	par­lementsverkiezing	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+november	november	N(eigen,ev,basis,zijd,stan)	B-NP	O
+2018	2018	TW(hoofd,vrij)	I-NP	O
+vrijwaren	vrijwaren	WW(inf,vrij,zonder)	B-VP	O
+van	van	VZ(init)	B-PP	O
+beïnvloeding	beïnvloeding	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	O	O
+buitenaf	buitenaf	BW()	B-ADVP	O
+kan	kunnen	WW(pv,tgw,ev)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+,	,	LET()	O	O
+zegt	zeggen	WW(pv,tgw,met-t)	B-VP	O
+Alex	Alex	SPEC(deeleigen)	B-NP	B-PER
+Stamos	Stamos	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+ex-Facebook	ex-Facebook	N(eigen,ev,basis,zijd,stan)	B-NP	B-MISC
+.	.	LET()	O	O
+				

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="2" lcat="np" lemma="Nazi_belediging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Nazi_belediging" sense="Nazi_belediging" word="Nazi-belediging"/>
+      <node begin="1" end="2" frame="verb(hebben,sg,so_meas)" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="kosten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kost" sc="so_meas" sense="kost" stype="declarative" tense="present" word="kost" wvorm="pv"/>
+      <node begin="2" end="3" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Pool" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj2" rnum="sg" root="Pool" sense="Pool" word="Pool"/>
+      <node begin="3" cat="np" end="7" id="5" rel="me">
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="6" lcat="np" lemma="vice_voorzitterschap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vice_voorzitterschap" sense="vice_voorzitterschap" word="vicevoorzitterschap"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="mwu" end="7" his="normal" his_1="names_dictionary" id="9" mwu_root="Europees Parlement" mwu_sense="Europees Parlement" rel="obj1">
+            <node begin="5" end="6" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Europees" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europees" sense="Europees" spectype="deeleigen" word="Europees"/>
+            <node begin="6" end="7" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="Parlement" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parlement" sense="Parlement" spectype="deeleigen" word="Parlement"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Nazi-belediging kost Pool vicevoorzitterschap van Europees Parlement</sentence>
+  <comments>
+    <comment>Q#1|Nazi-belediging kost Pool vicevoorzitterschap van Europees Parlement|1|1|2.718923786080001</comment>
+  </comments>
+</alpino_ds>

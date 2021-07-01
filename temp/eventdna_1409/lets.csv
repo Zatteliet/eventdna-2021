@@ -1,0 +1,53 @@
+Heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+IS	ISen	WW(pv,tgw,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+nieuw	nieuw	ADJ(prenom,basis,zonder)	I-NP	O
+slagveld	slagveld	N(soort,ev,basis,onz,stan)	I-NP	O
+?	?	LET()	O	O
+				
+Afghanistan	Afghanistan	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+-	-	LET()	O	O
+Bloedige	bloedig	ADJ(prenom,basis,met-e,stan)	B-NP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+hoofdstad	hoofdstad	N(soort,ev,basis,zijd,stan)	B-NP	O
+Kaboel	Kaboel	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+eist	eisen	WW(pv,tgw,met-t)	B-VP	O
+veertig	veertig	TW(hoofd,prenom,stan)	B-NP	O
+slachtoffers	slachtoffer	N(soort,mv,basis)	I-NP	O
+				
+Bij	bij	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+dubbele	dubbel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Afghaanse	afghaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+hoofdstad	hoofdstad	N(soort,ev,basis,zijd,stan)	I-NP	O
+Kaboel	Kaboel	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+zeker	zeker	ADJ(vrij,basis,zonder)	B-NP	O
+40	40	TW(hoofd,prenom,stan)	I-NP	O
+doden	dood	ADJ(nom,basis,met-e,mv-n)	I-NP	O
+gevallen	vallen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+aanval	aanval	N(soort,ev,basis,zijd,stan)	I-NP	O
+gericht	richten	WW(vd,vrij,zonder)	B-VP	O
+was	zijn	WW(pv,verl,ev)	I-VP	O
+op	op	VZ(init)	B-PP	O
+sjiitische	sjiitisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+plaatsen	plaats	N(soort,mv,basis)	I-NP	O
+en	en	VG(neven)	O	O
+opgeëist	opeisen	WW(vd,vrij,zonder)	B-VP	O
+werd	worden	WW(pv,verl,ev)	I-VP	O
+door	door	VZ(init)	B-PP	O
+IS	IS	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+toeval	toeval	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

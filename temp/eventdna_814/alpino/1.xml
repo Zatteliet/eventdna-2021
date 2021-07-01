@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="16" end="17" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="np" lemma="topman" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="topman" sense="topman" word="Topman"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="6" lcat="np" lemma="Fedpack" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Fedpack" sense="Fedpack" word="Fedpack"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg,np_ld_pp)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" sc="np_ld_pp" sense="laat" stype="declarative" tense="present" word="laat" wvorm="pv"/>
+      <node begin="3" cat="np" end="18" id="8" rel="obj1">
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="parlement" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj2" rnum="sg" root="parlement" sense="parlement" word="parlement"/>
+        <node begin="4" cat="pp" end="6" id="10" rel="ld">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="stoel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="stoel" sense="stoel" word="stoel"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" frame="v_noun(so_np_ld_pp)" getal-n="zonder-n" his="normal" his_1="normal" id="13" lcat="np" lemma="vallen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="val" sc="so_np_ld_pp" sense="val" special="v_noun" word="vallen" wvorm="inf"/>
+        <node begin="7" cat="pp" end="18" id="14" rel="mod">
+          <node begin="7" end="8" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="8" cat="np" end="18" id="16" rel="obj1">
+            <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="pleidooi" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="pleidooi" sense="pleidooi" word="pleidooi"/>
+            <node begin="9" cat="pp" end="12" id="18" rel="mod">
+              <node begin="9" end="10" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="variant" his_1_1="variant" his_1_1_1="voor" his_1_1_2="vóór" his_1_2="normal" id="19" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="vóór"/>
+              <node begin="10" cat="np" end="12" id="20" rel="obj1">
+                <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="21" infl="both" lcat="ap" lemma="plastic" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="plastic" sense="plastic" vform="adj" word="plastic"/>
+                <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="zak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zak" sense="zak" word="zak"/>
+              </node>
+            </node>
+            <node begin="13" cat="np" end="16" id="23" rel="app">
+              <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="24" lcat="np" lemma="plastic" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="plastic" sense="plastic" word="Plastic"/>
+              <node begin="14" cat="pp" end="16" id="25" rel="mod">
+                <node begin="14" end="15" frame="preposition(in,[])" his="normal" his_1="normal" id="26" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="oceaan" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="oceaan" sense="oceaan" word="oceanen"/>
+              </node>
+            </node>
+            <node begin="17" end="18" frame="proper_name(pl,'ORG')" getal="mv" graad="basis" his="normal" his_1="plural" his_1_1="names_dictionary" id="28" lcat="np" lemma="da" neclass="ORG" ntype="eigen" num="pl" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="app" rnum="pl" root="da" sense="da" word="da&apos;s"/>
+          </node>
+        </node>
+      </node>
+      <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(no_e(locadv))" graad="basis" his="normal" his_1="normal" id="29" infl="no_e" lcat="ap" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ver" sense="ver" vform="adj" word="ver"/>
+      <node begin="19" cat="pp" end="21" id="30" rel="ld">
+        <node begin="19" end="20" frame="preposition(van,[af,uit,vandaan],loc_adv)" his="normal" his_1="normal" id="31" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sc="loc_adv" sense="van" vztype="init" word="van"/>
+        <node begin="20" end="21" frame="er_loc_adverb" getal="getal" his="normal" his_1="normal" id="32" lcat="advp" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="obj1" root="hier" sense="hier" special="er_loc" status="vol" vwtype="aanw" word="hier"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Topman Fedpack laat parlement van stoel vallen met pleidooi vóór plastic zak : Plastic in oceanen , da&apos;s ver van hier</sentence>
+  <comments>
+    <comment>Q#1|Topman Fedpack laat parlement van stoel vallen met pleidooi vóór plastic zak : Plastic in oceanen , da&apos;s ver van hier|1|1|12.135007091259999</comment>
+  </comments>
+</alpino_ds>

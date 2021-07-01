@@ -1,0 +1,54 @@
+Landbouw	landbouw	N(soort,ev,basis,zijd,stan)	B-NP	O
+kreunt	kreunen	WW(pv,tgw,met-t)	B-VP	O
+onder	onder	VZ(init)	B-PP	O
+droogte	droogte	N(soort,ev,basis,zijd,stan)	B-NP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+miljoenen	miljoen	N(soort,mv,basis)	B-NP	O
+liters	liter	N(soort,mv,basis)	I-NP	O
+water	water	N(soort,ev,basis,onz,stan)	I-NP	O
+gaan	gaan	WW(pv,tgw,mv)	B-VP	O
+de	de	LID(bep)	B-NP	O
+riool	riool	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(fin)	O	O
+				
+Water	water	N(soort,ev,basis,onz,stan)	B-NP	O
+oppompen	oppompen	WW(inf,vrij,zonder)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+realisatie	realisatie	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+bouwwerk	bouwwerk	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Meestal	meestal	BW()	B-ADVP	O
+verdwijnt	verdwijnen	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-AP	O
+kostbaar	kostbaar	ADJ(vrij,basis,zonder)	I-AP	O
+goed	goed	ADJ(vrij,basis,zonder)	I-AP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+riool	riool	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+anders	anders	BW()	B-ADVP	O
+,	,	LET()	O	O
+zegt	zeggen	WW(pv,tgw,met-t)	B-VP	O
+Natuurpunt	Natuurpunt	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+provinciegouverneur	provinciegouverneur	N(soort,ev,basis,zijd,stan)	I-NP	O
+wijst	wijzen	WW(pv,tgw,met-t)	B-VP	O
+erop	erop	BW()	B-ADVP	O
+dat	dat	VG(onder)	O	O
+dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+geen	geen	VNW(onbep,det)	I-NP	O
+makkelijke	makkelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+opdracht	opdracht	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+.	.	LET()	O	O
+				

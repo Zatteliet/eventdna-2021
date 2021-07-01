@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="conj" end="4" id="3" rel="dp">
+        <node begin="0" cat="smain" end="2" id="4" rel="cnj">
+          <node begin="0" buiging="zonder" end="1" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="np" lemma="grenzen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="su" rnum="sg" root="grens" sc="intransitive" sense="grens" special="v_noun" word="Grenzen" wvorm="inf"/>
+          <node begin="1" end="2" frame="verb(hebben,sg,intransitive)" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="dichten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="dicht" sc="intransitive" sense="dicht" stype="declarative" tense="present" word="dicht" wvorm="pv"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" frame="conj(of)" id="7" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+        <node begin="3" end="4" frame="adverb" id="8" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="cnj" root="niet" sense="niet" word="niet"/>
+      </node>
+      <node begin="5" cat="smain" end="9" id="9" rel="dp">
+        <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="normal" id="10" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+        <node begin="6" end="7" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="11" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="7" cat="np" end="9" id="12" rel="predc">
+          <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="kwestie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kwestie" sense="kwestie" word="kwestie"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Grenzen dicht of niet , dat is de kwestie</sentence>
+  <comments>
+    <comment>Q#1|Grenzen dicht of niet , dat is de kwestie|1|1|-1.013200982760001</comment>
+  </comments>
+</alpino_ds>

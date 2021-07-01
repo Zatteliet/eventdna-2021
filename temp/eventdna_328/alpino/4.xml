@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="dp">
+        <node begin="1" end="2" frame="verb(unacc,past(pl),te_passive)" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="vallen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="val" sc="te_passive" sense="val" stype="declarative" tense="past" word="vielen" wvorm="pv"/>
+        <node begin="3" cat="np" end="6" id="5" index="1" rel="su">
+          <node begin="3" buiging="zonder" end="4" frame="modal_adverb" graad="basis" his="normal" his_1="normal" id="6" lcat="advp" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" sc="modal" sense="zeker" word="zeker"/>
+          <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="414" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="414" sense="414" special="hoofd" word="414"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="dode" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="dode" sense="dode" word="doden"/>
+        </node>
+        <node begin="0" cat="ti" end="8" id="9" rel="vc">
+          <node begin="6" end="7" frame="complementizer(te)" his="normal" his_1="normal" id="10" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="8" id="11" rel="body">
+            <node begin="0" end="1" frame="er_vp_adverb" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="12" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="Er"/>
+            <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+            <node begin="3" end="6" id="14" index="1" rel="obj1"/>
+            <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="betreuren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="betreur" sc="transitive" sense="betreur" word="betreuren" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="15" id="16" rel="dp">
+        <node begin="9" cat="np" end="13" id="17" rel="su">
+          <node begin="9" cat="detp" end="12" id="18" rel="det">
+            <node begin="9" cat="mwu" end="11" his="normal" his_1="normal" id="19" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+              <node begin="9" buiging="zonder" end="10" frame="pre_num_adv(both)" graad="comp" id="20" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+              <node begin="10" conjtype="onder" end="11" frame="pre_num_adv(both)" id="21" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+            </node>
+            <node begin="11" end="12" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="22" infl="pl_num" lcat="detp" lemma="6.500" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="6.500" sense="6.500" special="hoofd" word="6.500"/>
+          </node>
+          <node begin="12" end="13" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+        </node>
+        <node begin="13" end="14" frame="verb(unacc,past(pl),nonp_copula)" his="normal" his_1="normal" id="24" infl="pl" lcat="smain" lemma="raken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="raak" sc="nonp_copula" sense="raak" stype="declarative" tense="past" word="raakten" wvorm="pv"/>
+        <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(ge_no_e(padv))" graad="basis" his="normal" his_1="normal" id="25" infl="no_e" lcat="ppart" lemma="gewond" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="gewond" sense="gewond" vform="psp" word="gewond"/>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Er vielen al zeker 414 doden te betreuren , meer dan 6.500 mensen raakten gewond .</sentence>
+  <comments>
+    <comment>Q#4|Er vielen al zeker 414 doden te betreuren , meer dan 6.500 mensen raakten gewond .|1|1|-12.054742984660002</comment>
+  </comments>
+</alpino_ds>

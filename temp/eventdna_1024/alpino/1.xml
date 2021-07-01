@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="np" end="4" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name_gen" his_1="begin" id="2" mwu_root="Kris Wouters" mwu_sense="Kris Wouters" rel="det">
+        <node begin="0" end="1" frame="name_determiner(pron,'PER')" id="3" infl="pron" lcat="detp" lemma="Kris" neclass="PER" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Kris" sense="Kris" special="name" spectype="deeleigen" word="Kris"/>
+        <node begin="1" end="2" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="4" infl="pron" lcat="detp" lemma="Wouters" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Wouters" sense="Wouters" special="name" word="Wouters"/>
+      </node>
+      <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+      <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="6" lcat="np" lemma="gemeente_directeur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gemeente_directeur" sense="gemeente_directeur" word="gemeentedirecteur"/>
+    </node>
+  </node>
+  <sentence sentid="1">Kris Wouters nieuwe gemeentedirecteur</sentence>
+  <comments>
+    <comment>Q#1|Kris Wouters nieuwe gemeentedirecteur|1|1|-0.8510821091499998</comment>
+  </comments>
+</alpino_ds>

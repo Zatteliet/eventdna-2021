@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Piloot EgyptAir" mwu_sense="Piloot EgyptAir" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'ORG')" id="3" lcat="np" lemma="Piloot" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Piloot" sense="Piloot" spectype="deeleigen" word="Piloot"/>
+        <node begin="1" end="2" frame="proper_name(both,'ORG')" id="4" lcat="np" lemma="EgyptAir" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="EgyptAir" sense="EgyptAir" spectype="deeleigen" word="EgyptAir"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="begrijpen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="begrijp" sc="transitive" sense="begrijp" stype="declarative" tense="past" word="begreep" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="instructie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="instructie" sense="instructie" word="instructies"/>
+      <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="7" infl="no_e" lcat="ap" lemma="verkeerd" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="verkeerd" sense="verkeerd" vform="adj" word="verkeerd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Piloot EgyptAir begreep instructies verkeerd</sentence>
+  <comments>
+    <comment>Q#1|Piloot EgyptAir begreep instructies verkeerd|1|1|0.06970035293999943</comment>
+  </comments>
+</alpino_ds>

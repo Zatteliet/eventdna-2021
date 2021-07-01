@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="whq" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="whd">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(welk,rwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="welk" lcat="detp" lemma="welk" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="welk" sense="welk" vwtype="vb" wh="rwh" word="Welk"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="lot" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="lot" sense="lot" word="lot"/>
+      </node>
+      <node begin="0" cat="sv1" end="10" id="5" rel="body">
+        <node begin="0" end="2" id="6" index="1" rel="obj1"/>
+        <node begin="2" end="3" frame="verb(hebben,sg,transitive)" his="normal" his_1="normal" id="7" infl="sg" lcat="sv1" lemma="wachten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wacht" sc="transitive" sense="wacht" stype="whquestion" tense="present" word="wacht" wvorm="pv"/>
+        <node begin="3" cat="np" end="10" id="8" rel="su">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="steen_rijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="steen_rijk" sense="steen_rijk" vform="adj" word="steenrijke"/>
+          <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="Saoedisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Saoedisch" sense="Saoedisch" vform="adj" word="Saudische"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="prins" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="prins" sense="prins" word="prins"/>
+          <node begin="7" cat="mwu" end="10" his="name" his_1="not_begin" id="13" mwu_root="Alwaleed bin Talal" mwu_sense="Alwaleed bin Talal" rel="app">
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Alwaleed" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Alwaleed" sense="Alwaleed" spectype="deeleigen" word="Alwaleed"/>
+            <node begin="8" end="9" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="bin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="bin" sense="bin" spectype="deeleigen" word="bin"/>
+            <node begin="9" end="10" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Talal" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Talal" sense="Talal" spectype="deeleigen" word="Talal"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(vraag)" his="normal" his_1="normal" id="17" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="2">Welk lot wacht de steenrijke Saudische prins Alwaleed bin Talal ?</sentence>
+  <comments>
+    <comment>Q#2|Welk lot wacht de steenrijke Saudische prins Alwaleed bin Talal ?|1|1|-3.053591120960001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="ppart" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="obj1">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Frans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans" sense="Frans" vform="adj" word="Franse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="overheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overheid" sense="overheid" word="overheid"/>
+      </node>
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="5" infl="psp" lcat="ppart" lemma="veroordelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroordeel" sc="transitive" sense="veroordeel" word="veroordeeld" wvorm="vd"/>
+      <node begin="3" cat="pp" end="8" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(wegens,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="wegens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="wegens" sense="wegens" vztype="init" word="wegens"/>
+        <node begin="4" cat="np" end="8" id="8" rel="obj1">
+          <node begin="4" end="5" frame="adverb" his="normal" his_1="normal" id="9" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="5" buiging="zonder" end="6" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="part-V" id="10" lcat="np" lemma="aan_pakken" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="pak_aan" sc="intransitive" sense="pak_aan" special="v_noun" word="aanpakken" wvorm="inf"/>
+          <node begin="6" cat="pp" end="8" id="11" rel="mod">
+            <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="13" lcat="np" lemma="licht_vervuiling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="licht_vervuiling" sense="licht_vervuiling" word="lichtvervuiling"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Franse overheid veroordeeld wegens niet aanpakken van lichtvervuiling</sentence>
+  <comments>
+    <comment>Q#1|Franse overheid veroordeeld wegens niet aanpakken van lichtvervuiling|1|1|1.9083100104999988</comment>
+  </comments>
+</alpino_ds>

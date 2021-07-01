@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="17" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="17" id="4" rel="nucl">
+        <node begin="1" cat="pp" end="5" id="5" rel="ld">
+          <node begin="1" end="2" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="6" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+          <node begin="2" cat="conj" end="5" id="7" rel="obj1">
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="droom" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="droom" sense="droom" word="droom"/>
+            <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="9" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="daad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="daad" sense="daad" word="daad"/>
+          </node>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="11" infl="pl" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sta" sc="ld_pp" sense="sta" stype="declarative" tense="present" word="staan" wvorm="pv"/>
+        <node begin="6" cat="np" end="8" id="12" rel="su">
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="practisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="practisch" sense="practisch" vform="adj" word="praktische"/>
+          <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="bezwaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bezwaar" sense="bezwaar" word="bezwaren"/>
+        </node>
+        <node begin="9" cat="whrel" end="17" id="15" rel="mod">
+          <node begin="9" end="10" frame="waar_adverb(door)" his="normal" his_1="normal" id="16" index="1" lcat="pp" lemma="waardoor" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waardoor" sense="waardoor" special="waar" word="waardoor"/>
+          <node begin="9" cat="ssub" end="17" id="17" rel="body">
+            <node begin="9" end="10" id="18" index="1" rel="mod"/>
+            <node begin="10" cat="np" end="12" id="19" rel="su">
+              <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="21" lcat="np" lemma="eind_factuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eind_factuur" sense="eind_factuur" word="eindfactuur"/>
+            </node>
+            <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="22" infl="no_e" lcat="ap" lemma="vaak" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vaak" sense="vaak" vform="adj" word="vaak"/>
+            <node begin="13" cat="pp" end="16" id="23" rel="ld">
+              <node begin="13" end="14" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="24" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+              <node begin="14" cat="np" end="16" id="25" rel="obj1">
+                <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="27" lcat="np" lemma="eind_consument" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eind_consument" sense="eind_consument" word="eindconsument"/>
+              </node>
+            </node>
+            <node begin="16" end="17" frame="verb(zijn,sg3,ninv(ld_pp,part_ld_pp(terecht)))" his="normal" his_1="part-V" id="28" infl="sg3" lcat="ssub" lemma="terecht_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_terecht" sc="part_ld_pp(terecht)" sense="kom_terecht" tense="present" word="terechtkomt" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Maar tussen droom en daad staan praktische bezwaren , waardoor de eindfactuur vaak bij de eindconsument terechtkomt .</sentence>
+  <comments>
+    <comment>Q#3|Maar tussen droom en daad staan praktische bezwaren , waardoor de eindfactuur vaak bij de eindconsument terechtkomt .|1|1|-9.341843369109995</comment>
+  </comments>
+</alpino_ds>

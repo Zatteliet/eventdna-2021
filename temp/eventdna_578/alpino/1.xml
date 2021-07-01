@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(dubb_punt)" his="normal" his_1="normal" id="2" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="conj" end="10" id="4" rel="su">
+        <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="5" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="np" end="10" id="6" rel="cnj">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="7" infl="e" lcat="ap" lemma="handig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="handig" sense="handig" vform="adj" word="Handige"/>
+          <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="8" lcat="np" lemma="mand" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="mand_DIM" sense="mand_DIM" word="mandjes"/>
+          <node begin="9" end="10" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" index="1" lcat="np" lemma="Ikea" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Ikea" sense="Ikea" word="Ikea"/>
+        </node>
+        <node begin="3" cat="np" end="10" id="10" rel="cnj">
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="schattig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="schattig" sense="schattig" vform="adj" word="schattige"/>
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="bak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bak" sense="bak" word="bakken"/>
+          <node begin="9" end="10" id="13" index="1" rel="app"/>
+        </node>
+        <node begin="6" cat="np" end="10" id="14" rel="cnj">
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="pluizig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="pluizig" sense="pluizig" vform="adj" word="pluizige"/>
+          <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="deken" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="deken" sense="deken" word="dekens"/>
+          <node begin="9" end="10" id="17" index="1" rel="app"/>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="18" infl="sg3" lcat="smain" lemma="lanceren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lanceer" sc="transitive" sense="lanceer" stype="declarative" tense="present" word="lanceert" wvorm="pv"/>
+      <node begin="11" end="12" frame="tmp_adverb" his="normal" his_1="normal" id="19" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+      <node begin="12" end="13" frame="sentence_adverb" his="normal" his_1="normal" id="20" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+      <node begin="13" cat="pp" end="15" id="21" rel="mod">
+        <node begin="13" end="14" frame="preposition(in,[])" his="normal" his_1="normal" id="22" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="23" lcat="np" lemma="België" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="België" sense="België" word="België"/>
+      </node>
+      <node begin="15" cat="np" end="18" id="24" rel="obj1">
+        <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="collectie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="collectie" sense="collectie" word="collectie"/>
+        <node begin="16" cat="pp" end="18" id="26" rel="mod">
+          <node begin="16" end="17" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="27" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="17" end="18" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="huisdier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="huisdier" sense="huisdier" word="huisdieren"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Handige mandjes , schattige bakken en pluizige dekens : Ikea lanceert nu ook in België collectie voor huisdieren</sentence>
+  <comments>
+    <comment>Q#1|Handige mandjes , schattige bakken en pluizige dekens : Ikea lanceert nu ook in België collectie voor huisdieren|1|1|3.603144597689998</comment>
+  </comments>
+</alpino_ds>

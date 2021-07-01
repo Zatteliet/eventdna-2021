@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" cat="smain" end="23" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="detp" lemma="dat" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dat" sense="dat" vwtype="aanw" wh="nwh" word="Dat"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),aux(inf))" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zou" wvorm="pv"/>
+      <node begin="0" cat="inf" end="23" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,aux_psp_hebben)" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" word="hebben" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="23" id="9" rel="vc">
+          <node begin="0" end="2" id="10" index="1" rel="su"/>
+          <node begin="3" cat="np" end="9" id="11" rel="obj1">
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="12" infl="e" lcat="ap" lemma="persoonlijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="persoonlijk" sense="persoonlijk" vform="adj" word="persoonlijke"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="informatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="informatie" sense="informatie" word="informatie"/>
+            <node begin="5" cat="pp" end="9" id="14" rel="mod">
+              <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="6" cat="np" end="9" id="16" rel="obj1">
+                <node begin="6" end="7" frame="noun(het,count,pl,measure)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="tientallen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tientallen" sc="measure" sense="tientallen" word="tientallen"/>
+                <node begin="7" cat="np" end="9" id="18" rel="mod">
+                  <node begin="7" end="8" frame="meas_mod_noun(both,count,pl,measure)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="miljoen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoenen"/>
+                  <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="20" lcat="np" lemma="Facebook_gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="Facebook_gebruiker" sense="Facebook_gebruiker" word="Facebookgebruikers"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="21" infl="psp" lcat="ppart" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" sc="transitive" sense="gebruik" word="gebruikt" wvorm="vd"/>
+          <node begin="11" cat="oti" end="23" id="22" rel="mod">
+            <node begin="11" end="12" frame="complementizer(om)" his="normal" his_1="normal" id="23" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+            <node begin="12" cat="ti" end="23" id="24" rel="body">
+              <node begin="15" end="16" frame="complementizer(te)" his="normal" his_1="normal" id="25" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="12" cat="inf" end="23" id="26" rel="body">
+                <node begin="12" end="13" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="27" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+                <node begin="13" end="14" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="28" lcat="np" lemma="kiezer_profiel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="kiezer_profiel" sense="kiezer_profiel" word="kiezersprofielen"/>
+                <node begin="14" end="15" frame="particle(mee)" his="normal" his_1="normal" id="29" lcat="part" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" sense="mee" vztype="fin" word="mee"/>
+                <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,part_transitive(mee))" his="normal" his_1="normal" id="30" infl="inf" lcat="inf" lemma="mee_maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak_mee" sc="part_transitive(mee)" sense="maak_mee" word="maken" wvorm="inf"/>
+                <node begin="17" cat="pp" end="23" id="31" rel="mod">
+                  <node begin="17" end="18" frame="preposition(tijdens,[])" his="normal" his_1="normal" id="32" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+                  <node begin="18" cat="np" end="23" id="33" rel="obj1">
+                    <node begin="18" end="19" frame="determiner(de)" his="normal" his_1="normal" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="campagne" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="campagne" sense="campagne" word="campagne"/>
+                    <node begin="20" cat="pp" end="23" id="36" rel="mod">
+                      <node begin="20" end="21" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="37" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                      <node begin="21" cat="mwu" end="23" his="normal" his_1="names_dictionary" id="38" mwu_root="Donald Trump" mwu_sense="Donald Trump" rel="obj1">
+                        <node begin="21" end="22" frame="proper_name(sg,'PER')" id="39" lcat="np" lemma="Donald" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Donald" sense="Donald" spectype="deeleigen" word="Donald"/>
+                        <node begin="22" end="23" frame="proper_name(sg,'PER')" id="40" lcat="np" lemma="Trump" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Trump" sense="Trump" spectype="deeleigen" word="Trump"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat bedrijf zou persoonlijke informatie van tientallen miljoenen Facebookgebruikers hebben gebruikt om er kiezersprofielen mee te maken tijdens de campagne van Donald Trump .</sentence>
+  <comments>
+    <comment>Q#3|Dat bedrijf zou persoonlijke informatie van tientallen miljoenen Facebookgebruikers hebben gebruikt om er kiezersprofielen mee te maken tijdens de campagne van Donald Trump .|1|1|-15.81789249458</comment>
+  </comments>
+</alpino_ds>

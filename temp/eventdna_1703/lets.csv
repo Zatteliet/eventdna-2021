@@ -1,0 +1,43 @@
+Francken	franck	N(soort,mv,basis)	B-NP	O
+:	:	LET()	O	O
+verhaal	verhaal	N(soort,ev,basis,onz,stan)	B-NP	O
+'	'	LET()	O	O
+kroongetuige	kroongetuig	ADJ(prenom,basis,met-e,stan)	B-AP	O
+'	'	LET()	O	O
+klopt	kloppen	WW(pv,tgw,met-t)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+				
+Staatssecretaris	staatssecretaris	N(soort,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+Migratie	Migratie	SPEC(deeleigen)	B-NP	B-ORG
+Theo	Theo	SPEC(deeleigen)	I-NP	I-ORG
+Francken	Francken	SPEC(deeleigen)	I-NP	I-ORG
+(	(	LET()	O	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+)	)	LET()	O	O
+ontkent	ontkennen	WW(pv,tgw,met-t)	B-VP	O
+dat	dat	VG(onder)	O	O
+het	het	LID(bep)	B-NP	O
+verhaal	verhaal	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+kroongetuige	kroongetuig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+onterecht	onterecht	N(soort,ev,basis,zijd,stan)	I-NP	O
+uit	uit	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Soedanrapport	Soedanrapport	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+gehouden	houden	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+hem	hem	VNW(pers,pron,3,ev,masc)	B-NP	O
+klopte	kloppen	WW(pv,verl,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+verhaal	verhaal	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+niet	niet	BW()	B-ADVP	O
+.	.	LET()	O	O
+				

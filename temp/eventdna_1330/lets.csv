@@ -1,0 +1,73 @@
+Werkgevers	werkgever	N(soort,mv,basis)	B-NP	O
+schudden	schudden	WW(pv,tgw,mv)	B-VP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	B-NP	O
+wakker	wakker	ADJ(vrij,basis,zonder)	B-AP	O
+				
+Voka	Voka	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+:	:	LET()	O	O
+Politici	politicus	N(soort,mv,basis)	B-NP	O
+mogen	mogen	WW(pv,tgw,mv)	B-VP	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+niet	niet	BW()	B-ADVP	O
+in	in	VZ(init)	B-PP	O
+slaap	slaap	N(soort,ev,basis,zijd,stan)	B-NP	O
+laten	laten	WW(inf,vrij,zonder)	B-VP	O
+wiegen	wiegen	WW(inf,vrij,zonder)	I-VP	O
+door	door	VZ(init)	B-PP	O
+verkiezingen	verkiezing	N(soort,mv,basis)	B-NP	O
+				
+Geen	geen	VNW(onbep,det)	B-NP	O
+dash	dash	N(soort,ev,basis,zijd,stan)	I-NP	O
+meer	veel	VNW(onbep,grad,comp)	B-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+federale	federaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+omdat	omdat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+verkiezingen	verkiezing	N(soort,mv,basis)	I-NP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+aankomen	aankomen	WW(inf,vrij,zonder)	B-VP	O
+?	?	LET()	O	O
+				
+Daar	daar	VNW(aanw,adv-pron,3o,getal)	B-NP	O
+moeten	moeten	WW(pv,tgw,mv)	B-VP	O
+de	de	LID(bep)	B-NP	O
+politici	politicus	N(soort,mv,basis)	I-NP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Vlaamse	Vlaams	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+werkgevers	werkgever	N(soort,mv,basis)	I-NP	O
+niet	niet	BW()	B-ADVP	O
+mee	mee	VZ(fin)	O	O
+afkomen	afkomen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+gewoon	gewoon	ADJ(vrij,basis,zonder)	B-AP	O
+tot	tot	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+allerlaatste	allerlaat	ADJ(prenom,sup,met-e,stan)	I-NP	O
+dag	dag	N(soort,ev,basis,zijd,stan)	I-NP	O
+regeren	regeren	WW(inf,vrij,zonder)	B-VP	O
+,	,	LET()	O	O
+klinkt	klinken	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+beslist	beslissen	WW(pv,tgw,met-t)	B-VP	O
+.	.	LET()	O	O
+				
+Anderhalf	anderhalf	ADJ(prenom,basis,zonder)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+niks	niks	VNW(onbep,pron,3o,ev)	B-NP	O
+doen	doen	WW(inf,vrij,zonder)	B-VP	O
+:	:	LET()	O	O
+daar	daar	VNW(aanw,adv-pron,3o,getal)	B-NP	O
+kan	kunnen	WW(pv,tgw,ev)	B-VP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+sprake	sprake	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	O	O
+zijn	zijn	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

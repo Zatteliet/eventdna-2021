@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="2" end="3" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="du" end="10" id="3" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="4" lcat="np" lemma="Trump" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="tag" rnum="sg" root="Trump" sense="Trump" word="Trump"/>
+      <node begin="3" cat="smain" end="10" id="5" rel="nucl">
+        <node begin="3" cat="np" end="5" id="6" rel="su">
+          <node begin="3" end="4" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="7" lcat="np" lemma="handel_beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="handel_beleid" sense="handel_beleid" word="Handelsbeleid"/>
+          <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="8" lcat="np" lemma="EU" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="EU" sense="EU" word="EU"/>
+        </node>
+        <node begin="5" end="6" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="9" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="6" cat="ap" end="10" id="10" rel="predc">
+          <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="11" infl="no_e" lcat="ap" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="erg" sense="erg" vform="adj" word="erg"/>
+          <node begin="6" cat="advp" end="10" id="12" rel="mod">
+            <node begin="6" comparative="als" end="7" frame="comp_adverb(als)" his="normal" his_1="normal" id="13" lcat="advp" lemma="even" pos="adv" postag="BW()" pt="bw" rel="hd" root="even" sense="even" special="comp" word="even"/>
+            <node begin="8" cat="cp" end="10" id="14" rel="obcomp">
+              <node begin="8" conjtype="onder" end="9" frame="comparative(als)" his="normal" his_1="normal" id="15" lcat="comparative" lemma="als" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="als" sense="als" word="als"/>
+              <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="16" lcat="np" lemma="China" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="body" rnum="sg" root="China" sense="China" word="China"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="17" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">Trump : &apos; Handelsbeleid EU is even erg als China &apos;</sentence>
+  <comments>
+    <comment>Q#1|Trump : &apos; Handelsbeleid EU is even erg als China &apos;|1|1|-3.1364608852999996</comment>
+  </comments>
+</alpino_ds>

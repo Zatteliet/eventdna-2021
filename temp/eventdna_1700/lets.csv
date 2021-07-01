@@ -1,0 +1,38 @@
+Di	Di	SPEC(deeleigen)	B-NP	B-PER
+Maio	Maio	SPEC(deeleigen)	I-NP	I-PER
+en	en	VG(neven)	O	O
+Salvini	Salvini	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+sluiten	sluiten	WW(pv,tgw,mv)	B-VP	O
+akkoord	akkoord	ADJ(vrij,basis,zonder)	B-AP	O
+over	over	VZ(init)	B-PP	O
+vorming	vorming	N(soort,ev,basis,zijd,stan)	B-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Italiaanse	Italiaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+politiek	politiek	N(soort,ev,basis,zijd,stan)	I-NP	O
+kent	kennen	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+zoveelste	zoveel	TW(rang,prenom,stan)	I-NP	O
+plotwending	plotwending	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Giuseppe	Giuseppe	SPEC(deeleigen)	B-NP	B-PER
+Conte	Conte	SPEC(deeleigen)	I-NP	I-PER
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+dan	dan	BW()	B-ADVP	O
+toch	toch	BW()	I-ADVP	O
+de	de	LID(bep)	B-NP	O
+premier	premier	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Lega	Lega	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+en	en	VG(neven)	O	O
+de	de	LID(bep)	B-NP	O
+Vijfsterrenbeweging	vijfsterrenbeweging	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+.	.	LET()	O	O
+				

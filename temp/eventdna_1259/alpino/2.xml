@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="6" end="7" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="6" id="4" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="Vlaams" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaams"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="minister_president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister_president" sense="minister_president" word="minister-president"/>
+        <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="7" mwu_root="Geert Bourgeois" mwu_sense="Geert Bourgeois" rel="app">
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Geert" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Geert" sense="Geert" spectype="deeleigen" word="Geert"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Bourgeois" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bourgeois" sense="Bourgeois" spectype="deeleigen" word="Bourgeois"/>
+        </node>
+        <node begin="5" end="6" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,sg,part_transitive(af))" his="normal" his_1="normal" id="11" infl="sg" lcat="smain" lemma="af_sluiten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="sluit_af" sc="part_transitive(af)" sense="sluit_af" stype="declarative" tense="present" word="sluit" wvorm="pv"/>
+      <node begin="8" cat="pp" end="11" id="12" rel="mod">
+        <node begin="8" end="9" frame="preposition(na,[])" his="normal" his_1="normal" id="13" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="9" cat="np" end="11" id="14" rel="obj1">
+          <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="16" lcat="np" lemma="super_minister_raad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="super_minister_raad" sense="super_minister_raad" word="superministerraad"/>
+        </node>
+      </node>
+      <node begin="11" cat="np" end="13" id="17" rel="obj1">
+        <node begin="11" end="12" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node begin="12" end="13" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+      </node>
+      <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(both(padv))" graad="basis" his="normal" his_1="normal" id="20" infl="both" lcat="ap" lemma="tevreden" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predm" root="tevreden" sense="tevreden" vform="adj" word="tevreden"/>
+      <node begin="14" end="15" frame="particle(af)" his="normal" his_1="normal" id="21" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="22" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Vlaams minister-president Geert Bourgeois ( N-VA ) sluit na de superministerraad het jaar tevreden af .</sentence>
+  <comments>
+    <comment>Q#2|Vlaams minister-president Geert Bourgeois ( N-VA ) sluit na de superministerraad het jaar tevreden af .|1|1|-6.398494699879999</comment>
+  </comments>
+</alpino_ds>

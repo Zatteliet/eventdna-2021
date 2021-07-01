@@ -1,0 +1,66 @@
+Schaatser	schaatser	N(soort,ev,basis,zijd,stan)	B-NP	O
+(	(	LET()	O	O
+74	74	TW(hoofd,vrij)	B-NP	O
+)	)	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+door	door	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ijs	ijs	N(soort,ev,basis,onz,stan)	I-NP	O
+zakte	zakken	WW(pv,verl,ev)	B-VP	O
+overleden	overlijden	WW(vd,vrij,zonder)	I-VP	O
+				
+De	de	LID(bep)	B-NP	O
+74-jarige	74-jarig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+vorige	vorig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Assebroekse	assebroeks	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Meersen	Meers	N(eigen,mv,basis)	I-NP	I-LOC
+door	door	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ijs	ijs	N(soort,ev,basis,onz,stan)	I-NP	O
+zakte	zakken	WW(pv,verl,ev)	B-VP	O
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ziekenhuis	ziekenhuis	N(soort,ev,basis,onz,stan)	I-NP	O
+overleden	overlijden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+viel	vallen	WW(pv,verl,ev)	B-VP	O
+met	met	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+hoofd	hoofd	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ijs	ijs	N(soort,ev,basis,onz,stan)	I-NP	O
+en	en	VG(neven)	O	O
+gleed	glijden	WW(pv,verl,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ijskoude	ijskoud	ADJ(prenom,basis,met-e,stan)	I-NP	O
+water	water	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Enkele	enkel	VNW(onbep,det)	B-NP	O
+omstanders	omstander	N(soort,mv,basis)	I-NP	O
+kregen	krijgen	WW(pv,verl,mv)	B-VP	O
+hem	hem	VNW(pers,pron,3,ev,masc)	B-NP	O
+op	op	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+droge	droog	ADJ(nom,basis,met-e,zonder-n,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+kritieke	kritiek	ADJ(prenom,basis,met-e,stan)	B-NP	O
+toestand	toestand	N(soort,ev,basis,zijd,stan)	I-NP	O
+afgevoerd	afvoeren	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

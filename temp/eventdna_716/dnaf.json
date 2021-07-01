@@ -1,0 +1,612 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_7",
+                        "entity_3"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_4",
+                        "entity_2"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_2",
+                        "event_5"
+                    ],
+                    "coref_bucket_4": [
+                        "event_4",
+                        "event_3"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Inbrekers",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Inbrekers",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "Volvo-garage",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            4
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Volvo-garage",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    11
+                                ]
+                            },
+                            "string": "Inbrekers",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            11
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Inbrekers",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "Vermant",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Vermant",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    19
+                                ]
+                            },
+                            "string": "Antwerpsesteenweg",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            19
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Antwerpsesteenweg",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    21
+                                ]
+                            },
+                            "string": "Mechelen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            21
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Mechelen",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "Ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            23
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Ze",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Inbrekers"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Inbrekers forceren toegangspoort van Volvo-garage"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        7,
+                                        8,
+                                        9,
+                                        10
+                                    ]
+                                },
+                                "string": "60 autobanden en velgen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Inbrekers"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Beneficiary",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Inbrekers"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Present",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Inbrekers"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        11
+                                    ]
+                                },
+                                "string": "Inbrekers"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Destination",
+                                    "span": [
+                                        18,
+                                        19,
+                                        20,
+                                        21
+                                    ]
+                                },
+                                "string": "de Antwerpsesteenweg in Mechelen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Agent",
+                                    "span": [
+                                        11
+                                    ]
+                                },
+                                "string": "Inbrekers"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21
+                        ],
+                        "subtype": "TransportPerson",
+                        "tense": "Past",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Inbrekers hebben toegeslagen bij Volvo-garage Vermant aan de Antwerpsesteenweg in Mechelen"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Agent",
+                                    "span": [
+                                        23
+                                    ]
+                                },
+                                "string": "Ze"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Destination",
+                                    "span": [
+                                        27,
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32,
+                                        33,
+                                        34,
+                                        35
+                                    ]
+                                },
+                                "string": "de containers waarin de velgen en autobanden worden bewaard"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        23
+                                    ]
+                                },
+                                "string": "Ze"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35
+                        ],
+                        "subtype": "TransportPerson",
+                        "tense": "Past",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Ze drongen binnen in de containers waarin de velgen en autobanden worden bewaard"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        38,
+                                        39
+                                    ]
+                                },
+                                "string": "vijftien sets"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        23
+                                    ]
+                                },
+                                "string": "Ze"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Beneficiary",
+                                    "span": [
+                                        23
+                                    ]
+                                },
+                                "string": "Ze"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            23
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Past",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Ze"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000104",
+                            "theft"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57
+        ],
+        "token_string": "Inbrekers forceren toegangspoort van Volvo-garage en stelen 60 autobanden en velgen Inbrekers hebben toegeslagen bij Volvo-garage Vermant aan de Antwerpsesteenweg in Mechelen . Ze drongen binnen in de containers waarin de velgen en autobanden worden bewaard en konden vijftien sets stelen . Goed voor zestig autobanden en velgen . De waarde ervan loopt in de tienduizenden euro's ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_716"
+    }
+}

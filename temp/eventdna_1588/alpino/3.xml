@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="pp" end="5" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(onder,[door,vandaan])" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="Onder"/>
+        <node begin="1" cat="np" end="5" id="4" rel="obj1">
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="druk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="druk" sense="druk" word="druk"/>
+          <node begin="2" cat="pp" end="5" id="6" rel="mod">
+            <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="3" cat="np" end="5" id="8" rel="obj1">
+              <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="9" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="4" end="5" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="bedrijfsleven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijfsleven" sense="bedrijfsleven" word="bedrijfsleven"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="11" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="12" lcat="np" lemma="Londen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Londen" sense="Londen" word="Londen"/>
+      <node begin="7" end="8" frame="tmp_adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" sense="dan" special="tmp" word="dan"/>
+      <node begin="8" end="9" frame="adverb" his="normal" his_1="normal" id="14" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" sense="toch" word="toch"/>
+      <node begin="9" cat="ppart" end="19" id="15" rel="predc">
+        <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(ge_no_e(padv),object_vp)" graad="basis" his="normal" his_1="normal" id="16" infl="no_e" lcat="ppart" lemma="bereid" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="bereid" sc="object_vp" sense="bereid" vform="psp" word="bereid"/>
+        <node begin="10" cat="ti" end="19" id="17" rel="vc">
+          <node begin="17" end="18" frame="complementizer(te)" his="normal" his_1="normal" id="18" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="10" cat="inf" end="19" id="19" rel="body">
+            <node begin="10" cat="np" end="17" id="20" rel="obj1">
+              <node begin="10" end="11" frame="determiner(een)" his="normal" his_1="normal" id="21" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="22" lcat="np" lemma="Brexit_rekening" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Brexit_rekening" sense="Brexit_rekening" word="Brexit-rekening"/>
+              <node begin="12" cat="pp" end="17" id="23" rel="mod">
+                <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="24" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="13" cat="np" end="17" id="25" rel="obj1">
+                  <node begin="13" end="14" frame="modal_adverb(adv_noun_prep)" his="normal" his_1="normal" id="26" lcat="advp" lemma="zowat" pos="adv" postag="BW()" pt="bw" rel="mod" root="zowat" sc="adv_noun_prep" sense="zowat" word="zowat"/>
+                  <node begin="14" end="15" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="27" infl="pl_num" lcat="detp" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" sense="50" special="hoofd" word="50"/>
+                  <node begin="15" end="16" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="miljard" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljard" sc="measure" sense="miljard" special="meas_mod" word="miljard"/>
+                  <node begin="16" end="17" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="euro" sense="euro" special="meas_mod" word="euro"/>
+                </node>
+              </node>
+            </node>
+            <node begin="18" buiging="zonder" end="19" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="30" infl="inf" lcat="inf" lemma="betalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="betaal" sc="transitive" sense="betaal" word="betalen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Onder druk van het bedrijfsleven is Londen dan toch bereid een Brexit-rekening van zowat 50 miljard euro te betalen .</sentence>
+  <comments>
+    <comment>Q#3|Onder druk van het bedrijfsleven is Londen dan toch bereid een Brexit-rekening van zowat 50 miljard euro te betalen .|1|1|-8.294467626660005</comment>
+  </comments>
+</alpino_ds>

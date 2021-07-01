@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="0" cat="smain" end="26" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="Minister"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="6" mwu_root="Buitenlandse Zaken" mwu_sense="Buitenlandse Zaken" rel="obj1">
+            <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="Buitenlandse" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Buitenlandse" sense="Buitenlandse" spectype="deeleigen" word="Buitenlandse"/>
+            <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="8" lcat="np" lemma="Zaken" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zaken" sense="Zaken" spectype="deeleigen" word="Zaken"/>
+          </node>
+        </node>
+        <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="9" mwu_root="Didier Reynders" mwu_sense="Didier Reynders" rel="app">
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="Didier" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Didier" sense="Didier" spectype="deeleigen" word="Didier"/>
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Reynders" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Reynders" sense="Reynders" spectype="deeleigen" word="Reynders"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="12" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="26" id="13" rel="vc">
+        <node begin="0" end="6" id="14" index="1" rel="su"/>
+        <node begin="7" cat="np" end="10" id="15" index="2" rel="obj2">
+          <node begin="7" buiging="zonder" end="8" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="16" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="Iraaks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Iraaks" sense="Iraaks" vform="adj" word="Iraakse"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="collega" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="collega" sense="collega" word="collega"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,np_vp_obj)" his="normal" his_1="normal" id="19" infl="psp" lcat="ppart" lemma="vragen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vraag" sc="np_vp_obj" sense="vraag" word="gevraagd" wvorm="vd"/>
+        <node begin="7" cat="oti" end="26" id="20" rel="vc">
+          <node begin="11" end="12" frame="complementizer(om)" his="normal" his_1="normal" id="21" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="7" cat="ti" end="26" id="22" rel="body">
+            <node begin="21" end="22" frame="complementizer(te)" his="normal" his_1="normal" id="23" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="7" cat="inf" end="26" id="24" rel="body">
+              <node begin="7" end="10" id="25" index="2" rel="su"/>
+              <node begin="12" cat="np" end="20" id="26" rel="obj1">
+                <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="dood_straf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dood_straf" sense="dood_straf" word="doodstraf"/>
+                <node begin="14" cat="pp" end="20" id="29" rel="mod">
+                  <node begin="14" end="15" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="30" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                  <node begin="15" cat="np" end="20" id="31" rel="obj1">
+                    <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="32" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="33" infl="e" lcat="ap" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" sense="Belgisch" vform="adj" word="Belgische"/>
+                    <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="34" lcat="np" lemma="IS_strijder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="IS_strijder" sense="IS_strijder" word="IS-strijder"/>
+                    <node begin="18" cat="mwu" end="20" his="name" his_1="not_begin" id="35" mwu_root="Tarik Jadaoun" mwu_sense="Tarik Jadaoun" rel="app">
+                      <node begin="18" end="19" frame="proper_name(sg,'PER')" id="36" lcat="np" lemma="Tarik" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tarik" sense="Tarik" spectype="deeleigen" word="Tarik"/>
+                      <node begin="19" end="20" frame="proper_name(sg,'PER')" id="37" lcat="np" lemma="Jadaoun" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jadaoun" sense="Jadaoun" spectype="deeleigen" word="Jadaoun"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node begin="20" end="21" frame="particle(om)" his="normal" his_1="normal" id="38" lcat="part" lemma="om" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="om" sense="om" vztype="fin" word="om"/>
+              <node begin="22" buiging="zonder" end="23" frame="verb(hebben,inf,part_np_pc_pp(om,in))" his="normal" his_1="normal" id="39" infl="inf" lcat="inf" lemma="om_zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet_om" sc="part_np_pc_pp(om,in)" sense="zet_om-in" word="zetten" wvorm="inf"/>
+              <node begin="23" cat="pp" end="26" id="40" rel="pc">
+                <node begin="23" end="24" frame="preposition(in,[])" his="normal" his_1="normal" id="41" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="24" cat="np" end="26" id="42" rel="obj1">
+                  <node begin="24" end="25" frame="determiner(een)" his="normal" his_1="normal" id="43" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="25" end="26" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="44" lcat="np" lemma="gevangenis_straf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gevangenis_straf" sense="gevangenis_straf" word="gevangenisstraf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" frame="punct(punt)" his="normal" his_1="normal" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Minister van Buitenlandse Zaken Didier Reynders heeft zijn Iraakse collega gevraagd om de doodstraf voor de Belgische IS-strijder Tarik Jadaoun om te zetten in een gevangenisstraf .</sentence>
+  <comments>
+    <comment>Q#2|Minister van Buitenlandse Zaken Didier Reynders heeft zijn Iraakse collega gevraagd om de doodstraf voor de Belgische IS-strijder Tarik Jadaoun om te zetten in een gevangenisstraf .|1|1|-20.18527623828</comment>
+  </comments>
+</alpino_ds>

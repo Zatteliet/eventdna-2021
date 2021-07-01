@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="11" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="cnj">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ende(padv))" his="normal" his_1="decap" his_1_1="V-de" his_1_1_1="normal" id="5" infl="e" lcat="ppres" lemma="spelen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="speel" sense="speel" vform="gerund" word="Spelende" wvorm="od"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="6" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="kind_DIM" sense="kind_DIM" word="kindjes"/>
+      </node>
+      <node begin="3" cat="np" end="8" id="7" rel="cnj">
+        <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="8" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="rustig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rustig" sense="rustig" vform="adj" word="rustige"/>
+        <node begin="5" end="6" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" his="normal" his_1="normal" id="10" lcat="np" lemma="leven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="leven_DIM" sense="leven_DIM" special="tmp" word="leventje"/>
+        <node begin="6" cat="pp" end="8" id="11" rel="mod">
+          <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="7" end="8" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="13" lcat="np" lemma="Raqqa" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Raqqa" sense="Raqqa" word="Raqqa"/>
+        </node>
+      </node>
+      <node begin="9" cat="np" end="11" id="14" rel="cnj">
+        <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="15" infl="e" lcat="ppres" lemma="juichen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="juich" sense="juich" vform="gerund" word="juichende" wvorm="od"/>
+        <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="militant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="militant" sense="militant" word="militanten"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(hellip)" his="normal" his_1="normal" id="17" lcat="punct" lemma="…" pos="punct" postag="LET()" pt="let" rel="--" root="…" sense="…" special="hellip" word="…"/>
+  </node>
+  <sentence sentid="2">Spelende kindjes , het rustige leventje in Raqqa , juichende militanten …</sentence>
+  <comments>
+    <comment>Q#2|Spelende kindjes , het rustige leventje in Raqqa , juichende militanten …|1|1|1.553663197699997</comment>
+  </comments>
+</alpino_ds>

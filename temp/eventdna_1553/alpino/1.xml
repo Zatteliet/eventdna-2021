@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Boris Johnson" mwu_sense="Boris Johnson" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Boris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Boris" sense="Boris" spectype="deeleigen" word="Boris"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Johnson" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Johnson" sense="Johnson" spectype="deeleigen" word="Johnson"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem" sc="transitive" sense="neem" stype="declarative" tense="present" word="neemt" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="6" rel="obj1">
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="ontslag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ontslag" sense="ontslag" word="ontslag"/>
+        <node begin="4" cat="pp" end="7" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="9" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="5" cat="np" end="7" id="10" rel="obj1">
+            <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="left_headed_compound" id="12" lcat="np" lemma="regering_May" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering_May" sense="regering_May" word="regering-May"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Boris Johnson neemt ontslag uit de regering-May</sentence>
+  <comments>
+    <comment>Q#1|Boris Johnson neemt ontslag uit de regering-May|1|1|-1.7695238645600007</comment>
+  </comments>
+</alpino_ds>

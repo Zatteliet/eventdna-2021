@@ -1,0 +1,44 @@
+Dievenbende	dievenbende	N(soort,ev,basis,zijd,stan)	B-NP	O
+rooft	roven	WW(pv,tgw,met-t)	B-VP	O
+nieuwbouwproject	nieuwbouwproject	N(soort,ev,basis,onz,stan)	B-NP	O
+leeg	leeg	ADJ(vrij,basis,zonder)	B-AP	O
+				
+Verwarmingsketels	verwarmingsketel	N(soort,mv,basis)	B-NP	O
+,	,	LET()	O	O
+toestellen	toestel	N(soort,mv,basis)	B-NP	O
+en	en	VG(neven)	O	O
+kranen	kraan	N(soort,mv,basis)	B-NP	O
+gestolen	stelen	WW(vd,vrij,zonder)	B-VP	O
+				
+Dieven	dief	N(soort,mv,basis)	B-NP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+verschillende	verschillend	ADJ(prenom,basis,met-e,stan)	B-NP	O
+verwarmingsketels	verwarmingsketel	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+keukentoestellen	keukentoestel	N(soort,mv,basis)	B-NP	O
+,	,	LET()	O	O
+douchekoppen	douchekop	N(soort,mv,basis)	B-NP	O
+en	en	VG(neven)	O	O
+kranen	kraan	N(soort,mv,basis)	B-NP	O
+gestolen	stelen	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+nieuwbouwproject	nieuwbouwproject	N(soort,ev,basis,onz,stan)	I-NP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Oudebaan	Oudebaan	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+in	in	VZ(init)	B-PP	O
+Ekeren	Ekeren	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				
+Ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+gingen	gaan	WW(pv,verl,mv)	B-VP	O
+heel	heel	ADJ(vrij,basis,zonder)	B-AP	O
+professioneel	professioneel	ADJ(vrij,basis,zonder)	I-AP	O
+te	te	VZ(init)	B-PP	O
+werk	werk	N(soort,ev,basis,onz,stan)	B-NP	O
+,	,	LET()	O	O
+klinkt	klinken	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+.	.	LET()	O	O
+				

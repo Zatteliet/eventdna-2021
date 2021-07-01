@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="proper_name(both,'ORG')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="VN" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="VN" sense="VN" word="VN"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,vp_no_control)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="vragen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vraag" sc="vp_no_control" sense="vraag" stype="declarative" tense="present" word="vragen" wvorm="pv"/>
+      <node begin="3" cat="oti" end="11" id="6" rel="vc">
+        <node begin="3" end="4" frame="complementizer(om)" his="normal" his_1="normal" id="7" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="4" cat="ti" end="11" id="8" rel="body">
+          <node begin="9" end="10" frame="complementizer(te)" his="normal" his_1="normal" id="9" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="4" cat="inf" end="11" id="10" rel="body">
+            <node begin="4" cat="np" end="9" id="11" rel="obj1">
+              <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="name_adj" his_1="not_begin" id="12" infl="e" lcat="ap" lemma="Myanmarese" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Myanmarese" sense="Myanmarese" vform="adj" word="Myanmarese"/>
+              <node begin="5" end="6" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="13" lcat="np" lemma="top­generaals" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top­generaals" sense="top­generaals" word="top­generaals"/>
+              <node begin="6" cat="pp" end="9" id="14" rel="mod">
+                <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                <node begin="7" cat="np" end="9" id="16" rel="obj1">
+                  <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="8" end="9" frame="proper_name(sg,'ORG')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="Strafhof" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Strafhof" sense="Strafhof" word="Strafhof"/>
+                </node>
+              </node>
+            </node>
+            <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="19" infl="inf" lcat="inf" lemma="brengen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breng" sc="transitive" sense="breng" word="brengen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De VN vragen om Myanmarese top­generaals voor het Strafhof te brengen .</sentence>
+  <comments>
+    <comment>Q#2|De VN vragen om Myanmarese top­generaals voor het Strafhof te brengen .|1|1|-3.2957034856100016</comment>
+  </comments>
+</alpino_ds>

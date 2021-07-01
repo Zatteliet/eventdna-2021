@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="0" cat="cp" end="14" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" sense="nadat" word="Nadat"/>
+        <node begin="1" cat="ssub" end="14" id="5" rel="body">
+          <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Gaza" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Gaza" sense="Gaza" word="Gaza"/>
+          <node begin="2" end="3" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="maandag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="maandag" sense="maandag" special="tmp" word="maandag"/>
+          <node begin="3" cat="pp" end="8" id="8" rel="mod">
+            <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="4" cat="np" end="8" id="10" rel="obj1">
+              <node begin="4" cat="detp" end="7" id="11" rel="det">
+                <node begin="4" cat="mwu" end="6" his="normal" his_1="normal" id="12" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+                  <node begin="4" buiging="zonder" end="5" frame="pre_num_adv(both)" graad="comp" id="13" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+                  <node begin="5" conjtype="onder" end="6" frame="pre_num_adv(both)" id="14" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+                </node>
+                <node begin="6" end="7" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="15" infl="pl_num" lcat="detp" lemma="vijftig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="vijftig" sense="vijftig" special="hoofd" word="vijftig"/>
+              </node>
+              <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="dode" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="dode" sense="dode" word="doden"/>
+            </node>
+          </node>
+          <node begin="8" cat="np" end="11" id="17" rel="obj1">
+            <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="super" begin="9" buiging="met-e" end="10" frame="adjective(ste)" graad="sup" his="normal" his_1="normal" id="19" infl="e" lcat="ap" lemma="bloedig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="bloedig" sense="bloedig" vform="adj" word="bloedigste"/>
+            <node begin="10" end="11" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+          </node>
+          <node begin="11" end="12" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="21" infl="sg" lcat="ssub" lemma="beleven" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="beleef" sc="transitive" sense="beleef" tense="past" word="beleefde" wvorm="pv"/>
+          <node begin="12" cat="pp" end="14" id="22" rel="mod">
+            <node begin="12" end="13" frame="preposition(sinds,[])" his="normal" his_1="normal" id="23" lcat="pp" lemma="sinds" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="sinds" sense="sinds" vztype="init" word="sinds"/>
+            <node begin="13" end="14" frame="np(year)" his="normal" his_1="normal" id="24" lcat="np" lemma="2014" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="2014" sense="2014" word="2014"/>
+          </node>
+        </node>
+      </node>
+      <node begin="15" end="16" frame="verb(unacc,sg3,copula)" his="normal" his_1="normal" id="25" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="copula" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+      <node begin="16" end="17" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="26" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+      <node begin="17" end="18" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="dinsdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dinsdag" sense="dinsdag" special="tmp" word="dinsdag"/>
+      <node begin="18" cat="ap" end="21" id="28" rel="predc">
+        <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="29" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijk"/>
+        <node begin="19" end="20" frame="adverb" his="normal" his_1="normal" id="30" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+        <node aform="compar" begin="20" buiging="zonder" end="21" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="31" infl="no_e" lcat="ap" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="erg" sense="erg" vform="adj" word="erger"/>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Nadat Gaza maandag met meer dan vijftig doden de bloedigste dag beleefde sinds 2014 , wordt het dinsdag mogelijk nog erger .</sentence>
+  <comments>
+    <comment>Q#2|Nadat Gaza maandag met meer dan vijftig doden de bloedigste dag beleefde sinds 2014 , wordt het dinsdag mogelijk nog erger .|1|1|0.030898976760004637</comment>
+  </comments>
+</alpino_ds>

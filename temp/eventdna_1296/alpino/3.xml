@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="melden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="meld" sc="transitive" sense="meld" stype="declarative" tense="past" word="meldde" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="4" rel="su">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="krant" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="krant" sense="krant" word="krant"/>
+        <node begin="5" cat="mwu" end="7" his="normal" his_1="names_dictionary" id="8" mwu_root="The Telegraph" mwu_sense="The Telegraph" rel="app">
+          <node begin="5" end="6" frame="proper_name(sg,'ORG')" id="9" lcat="np" lemma="The" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="The" sense="The" spectype="deeleigen" word="The"/>
+          <node begin="6" end="7" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Telegraph" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Telegraph" sense="Telegraph" spectype="deeleigen" word="Telegraph"/>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="tmp_adverb" his="normal" his_1="normal" id="11" lcat="advp" lemma="gisteravond" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteravond" sense="gisteravond" special="tmp" word="gisteravond"/>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" his="normal" his_1="normal" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat meldde de Britse krant The Telegraph gisteravond .</sentence>
+  <comments>
+    <comment>Q#3|Dat meldde de Britse krant The Telegraph gisteravond .|1|1|-7.947591266660002</comment>
+  </comments>
+</alpino_ds>

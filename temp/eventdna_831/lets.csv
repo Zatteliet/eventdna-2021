@@ -1,0 +1,28 @@
+Betoging	betoging	N(soort,ev,basis,zijd,stan)	B-NP	O
+deert	deren	WW(pv,tgw,met-t)	B-VP	O
+Poetin	Poetin	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+niet	niet	BW()	B-ADVP	O
+				
+President	president	N(soort,ev,basis,zijd,stan)	B-NP	O
+Poetin	Poetin	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+liet	laten	WW(pv,verl,ev)	B-VP	O
+gisteren	gisteren	BW()	B-ADVP	O
+eens	eens	BW()	B-ADVP	O
+te	te	BW()	B-NP	O
+meer	veel	VNW(onbep,grad,comp)	I-NP	O
+oppositieleider	oppositieleider	N(soort,ev,basis,zijd,stan)	I-NP	O
+Navalni	Navalni	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+oppakken	oppakken	WW(inf,vrij,zonder)	B-VP	O
+				
+.	.	LET()	O	O
+				
+Tegenover	tegenover	VZ(init)	B-PP	O
+demonstranten	demonstrant	N(soort,mv,basis)	B-NP	O
+toonde	tonen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+politie	politie	N(soort,ev,basis,zijd,stan)	I-NP	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+ditmaal	ditmaal	BW()	B-AP	O
+mild	mild	ADJ(vrij,basis,zonder)	I-AP	O
+.	.	LET()	O	O
+				

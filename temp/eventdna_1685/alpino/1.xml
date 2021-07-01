@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="2" mwu_root="De Block" mwu_sense="De Block" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Block" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Block" sense="Block" spectype="deeleigen" word="Block"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,part_np_np(terug))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="terug_betalen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="betaal_terug" sc="part_np_np(terug)" sense="betaal_terug" stype="declarative" tense="present" word="betaalt" wvorm="pv"/>
+      <node begin="3" buiging="zonder" end="4" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="part-V" id="6" lcat="np" lemma="in_vriezen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj2" rnum="sg" root="vries_in" sc="intransitive" sense="vries_in" special="v_noun" word="invriezen" wvorm="inf"/>
+      <node begin="4" cat="np" end="8" id="7" rel="obj1">
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="kind_wens" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kind_wens" sense="kind_wens" word="kinderwens"/>
+        <node begin="5" cat="pp" end="8" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="6" cat="np" end="8" id="11" rel="obj1">
+            <node aform="compar" begin="6" buiging="zonder" end="7" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="12" infl="meer" lcat="ap" lemma="meer" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="kanker_patiënt" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kanker_patiënt" sense="kanker_patiënt" word="kankerpatiënten"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="particle(terug)" his="normal" his_1="normal" id="14" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
+    </node>
+  </node>
+  <sentence sentid="1">De Block betaalt invriezen kinderwens voor meer kankerpatiënten terug</sentence>
+  <comments>
+    <comment>Q#1|De Block betaalt invriezen kinderwens voor meer kankerpatiënten terug|1|1|2.3500316451399983</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="dp">
+        <node begin="0" cat="np" end="3" id="4" rel="su">
+          <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="np" lemma="bond" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bond" sense="bond" word="Bonden"/>
+          <node begin="1" cat="mwu" end="3" his="normal" his_1="names_dictionary" id="6" mwu_root="Brussels Airlines" mwu_sense="Brussels Airlines" rel="app">
+            <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="Brussels" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Brussels" sense="Brussels" spectype="deeleigen" word="Brussels"/>
+            <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="8" lcat="np" lemma="Airlines" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Airlines" sense="Airlines" spectype="deeleigen" word="Airlines"/>
+          </node>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,pl,pc_pp(met))" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="dreigen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="dreig" sc="pc_pp(met)" sense="dreig-met" stype="declarative" tense="present" word="dreigen" wvorm="pv"/>
+        <node begin="4" cat="pp" end="6" id="10" rel="pc">
+          <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="staking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="staking" sense="staking" word="staking"/>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="15" id="13" rel="dp">
+        <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="werknemer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="werknemer" sense="werknemer" word="werknemers"/>
+        <node begin="8" end="9" frame="verb(hebben,pl,part_transitive(uit))" his="normal" his_1="normal" id="15" infl="pl" lcat="smain" lemma="uit_spreken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="spreek_uit" sc="part_transitive(uit)" sense="spreek_uit" stype="declarative" tense="present" word="spreken" wvorm="pv"/>
+        <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="steun" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="steun" sense="steun" word="steun"/>
+        <node begin="10" end="11" frame="particle(uit)" his="normal" his_1="normal" id="17" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+        <node begin="11" cat="pp" end="15" id="18" rel="mod">
+          <node begin="11" end="12" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="12" cat="np" end="15" id="20" rel="obj1">
+            <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="CEO" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="CEO" sense="CEO" word="CEO"/>
+            <node begin="13" cat="mwu" end="15" his="name" his_1="not_begin" id="22" mwu_root="Bernard Gustin" mwu_sense="Bernard Gustin" rel="app">
+              <node begin="13" end="14" frame="proper_name(sg,'PER')" id="23" lcat="np" lemma="Bernard" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bernard" sense="Bernard" spectype="deeleigen" word="Bernard"/>
+              <node begin="14" end="15" frame="proper_name(sg,'PER')" id="24" lcat="np" lemma="Gustin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gustin" sense="Gustin" spectype="deeleigen" word="Gustin"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Bonden Brussels Airlines dreigen met staking , werknemers spreken steun uit voor CEO Bernard Gustin</sentence>
+  <comments>
+    <comment>Q#2|Bonden Brussels Airlines dreigen met staking , werknemers spreken steun uit voor CEO Bernard Gustin|1|1|-2.5878406169999955</comment>
+  </comments>
+</alpino_ds>

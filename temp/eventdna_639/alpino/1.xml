@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="nucl">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="nominalized_adjective" getal-n="mv-n" his="normal" his_1="decap" his_1_1="normal" id="4" index="1" lcat="np" lemma="betrokken" num="pl" personalized="true" pos="adj" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="su" rnum="pl" root="betrokken" sense="betrokken" special="a_noun" word="Betrokkenen" wvorm="vd"/>
+        <node begin="1" end="2" frame="verb(unacc,pl,aux(inf))" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="blijven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="blijf" sc="aux(inf)" sense="blijf" stype="declarative" tense="present" word="blijven" wvorm="pv"/>
+        <node begin="0" cat="inf" end="6" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="2" buiging="zonder" end="3" frame="verb(hebben,inf,pc_pp(in))" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="geloven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="geloof" sc="pc_pp(in)" sense="geloof-in" word="geloven" wvorm="inf"/>
+          <node begin="3" cat="pp" end="6" id="9" rel="pc">
+            <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="4" cat="np" end="6" id="11" rel="obj1">
+              <node begin="4" end="5" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="12" lcat="np" lemma="Unesco_erkenning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Unesco_erkenning" sense="Unesco_erkenning" word="Unesco-erkenning"/>
+              <node begin="5" end="6" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="Koloniën" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Koloniën" sense="Koloniën" word="Koloniën"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="14" id="14" rel="sat">
+        <node begin="7" case="nom" def="def" end="8" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" his="normal" his_1="decap" his_1_1="normal" id="15" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="We"/>
+        <node begin="8" end="9" frame="verb(hebben,past(pl),np_ld_pp)" his="normal" his_1="normal" id="16" infl="pl" lcat="smain" lemma="zetten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zet" sc="np_ld_pp" sense="zet" stype="declarative" tense="past" word="zetten" wvorm="pv"/>
+        <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="hak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="hak" sense="hak" word="hakken"/>
+        <node begin="10" cat="pp" end="14" id="18" rel="ld">
+          <node begin="10" end="11" frame="preposition(in,[])" his="normal" his_1="normal" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="11" cat="np" end="14" id="20" rel="obj1">
+            <node begin="11" end="12" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="21" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" his="name_adj" his_1="not_begin" id="22" infl="e" lcat="ap" lemma="Kempense" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Kempense" sense="Kempense" vform="adj" word="Kempense"/>
+            <node begin="13" end="14" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="zand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="zand" sense="zand" word="zand"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Betrokkenen blijven geloven in Unesco-erkenning Koloniën : We zetten hakken in het Kempense zand</sentence>
+  <comments>
+    <comment>Q#1|Betrokkenen blijven geloven in Unesco-erkenning Koloniën : We zetten hakken in het Kempense zand|1|1|-3.096354186310001</comment>
+  </comments>
+</alpino_ds>

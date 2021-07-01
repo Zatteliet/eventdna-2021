@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="smain" end="19" id="4" rel="nucl">
+        <node begin="11" end="12" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+        <node begin="12" cat="np" end="16" id="6" index="1" rel="su">
+          <node begin="12" buiging="zonder" end="13" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="7" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="13" end="14" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="status" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="status" sense="status" word="status"/>
+          <node begin="14" cat="pp" end="16" id="9" rel="mod">
+            <node begin="14" end="15" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="11" lcat="np" lemma="oorlog_held" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="oorlog_held" sense="oorlog_held" word="oorlogsheld"/>
+          </node>
+        </node>
+        <node begin="1" cat="ppart" end="19" id="12" rel="vc">
+          <node begin="1" cat="pp" end="10" id="13" rel="mod">
+            <node begin="1" buiging="zonder" end="2" frame="modal_adverb" graad="basis" his="normal" his_1="normal" id="14" lcat="advp" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" sc="modal" sense="zeker" word="zeker"/>
+            <node begin="2" end="3" frame="preposition(tijdens,[])" his="normal" his_1="normal" id="15" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+            <node begin="3" cat="np" end="10" id="16" rel="obj1">
+              <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="18" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+              <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="19" infl="e" lcat="ap" lemma="bikkelhard" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bikkelhard" sense="bikkelhard" vform="adj" word="bikkelharde"/>
+              <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="20" lcat="np" lemma="president_campagne" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="president_campagne" sense="president_campagne" word="presidentscampagnes"/>
+              <node begin="7" cat="rel" end="10" id="21" rel="mod">
+                <node begin="7" end="8" frame="waar_adverb(aan)" his="normal" his_1="normal" id="22" index="2" lcat="pp" lemma="waaraan" pos="pp" postag="BW()" pt="bw" rel="rhd" root="waaraan" sense="waaraan" special="waar" word="waaraan"/>
+                <node begin="7" cat="ssub" end="10" id="23" rel="body">
+                  <node begin="7" end="8" id="24" index="2" rel="pc"/>
+                  <node begin="8" end="9" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="25" lcat="np" lemma="McCain" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="McCain" sense="McCain" word="McCain"/>
+                  <node begin="9" end="10" frame="verb(hebben,past(sg),ninv(pc_pp(aan),part_pc_pp(deel,aan)))" his="normal" his_1="part-V" id="26" infl="sg" lcat="ssub" lemma="deel_nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem_deel" sc="part_pc_pp(deel,aan)" sense="neem_deel-aan" tense="past" word="deelnam" wvorm="pv"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="12" end="16" id="27" index="1" rel="obj1"/>
+          <node begin="16" end="17" frame="adverb" his="normal" his_1="normal" id="28" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="17" end="18" frame="sentence_adverb" his="normal" his_1="normal" id="29" lcat="advp" lemma="altijd" pos="adv" postag="BW()" pt="bw" rel="mod" root="altijd" sense="altijd" special="sentence" word="altijd"/>
+          <node begin="18" buiging="zonder" end="19" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="30" infl="psp" lcat="ppart" lemma="respecteren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="respecteer" sc="transitive" sense="respecteer" word="gerespecteerd" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Maar zeker tijdens de twee bikkelharde presidentscampagnes waaraan McCain deelnam , werd zijn status van oorlogsheld niet altijd gerespecteerd .</sentence>
+  <comments>
+    <comment>Q#3|Maar zeker tijdens de twee bikkelharde presidentscampagnes waaraan McCain deelnam , werd zijn status van oorlogsheld niet altijd gerespecteerd .|1|1|-13.124016053550001</comment>
+  </comments>
+</alpino_ds>

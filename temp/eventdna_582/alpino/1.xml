@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="1" cat="smain" end="8" id="2" rel="--">
+      <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="smokkelaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="smokkelaar" sense="smokkelaar" word="Smokkelaars"/>
+      <node begin="2" end="3" frame="verb(hebben,pl,pc_pp(voor))" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="strijden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="strijd" sc="pc_pp(voor)" sense="strijd-voor" stype="declarative" tense="present" word="strijden" wvorm="pv"/>
+      <node begin="3" end="4" frame="er_loc_adverb" getal="getal" his="normal" his_1="normal" id="5" lcat="advp" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" sense="hier" special="er_loc" status="vol" vwtype="aanw" word="hier"/>
+      <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(ge_no_e(both))" his="normal" his_1="normal" id="6" infl="no_e" lcat="ppart" lemma="gewapend" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gewapend" sense="gewapend" vform="psp" word="gewapend" wvorm="vd"/>
+      <node begin="5" cat="pp" end="8" id="7" rel="pc">
+        <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="6" cat="np" end="8" id="9" rel="obj1">
+          <node begin="6" buiging="zonder" end="7" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="10" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="terrein" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="terrein" sense="terrein" word="terrein"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="12" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">&apos; Smokkelaars strijden hier gewapend voor hun terrein &apos;</sentence>
+  <comments>
+    <comment>Q#1|&apos; Smokkelaars strijden hier gewapend voor hun terrein &apos;|1|1|1.1968628253600007</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,39 @@
+Alt-right	alt-right	N(soort,ev,basis,onz,stan)	B-NP	O
+doet	doen	WW(pv,tgw,met-t)	B-VP	O
+extreemrechtse	extreemrechts	ADJ(prenom,basis,met-e,stan)	B-NP	O
+jeugd	jeugd	N(soort,ev,basis,zijd,stan)	I-NP	O
+dromen	dromen	WW(inf,vrij,zonder)	B-VP	O
+				
+Reportage	reportage	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+Getooid	tooien	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+nette	net	ADJ(prenom,basis,met-e,stan)	B-NP	O
+blazers	blazer	N(soort,mv,basis)	I-NP	O
+en	en	VG(neven)	O	O
+met	met	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+schouders	schouder	N(soort,mv,basis)	I-NP	O
+gerecht	rechten	WW(vd,vrij,zonder)	B-VP	O
+geloven	geloven	WW(pv,tgw,mv)	I-VP	O
+de	de	LID(bep)	B-NP	O
+jongeren	jong	ADJ(nom,comp,met-e,mv-n)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Vlaams	Vlaams	ADJ(prenom,basis,zonder)	B-NP	B-ORG
+Belang	belang	N(soort,ev,basis,onz,stan)	I-NP	I-ORG
+de	de	LID(bep)	B-NP	O
+harten	hart	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Generatie	generatie	N(soort,ev,basis,zijd,stan)	B-NP	O
+Z	Z	SPEC(symb)	I-NP	O
+te	te	VZ(init)	B-VP	O
+veroveren	veroveren	WW(inf,vrij,zonder)	I-VP	O
+				
+.	.	LET()	O	O
+				
+Met	met	VZ(init)	B-PP	O
+dank	dank	N(soort,ev,basis,zijd,stan)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+alt-right	alt-right	N(soort,ev,basis,onz,stan)	B-NP	O
+.	.	LET()	O	O
+				

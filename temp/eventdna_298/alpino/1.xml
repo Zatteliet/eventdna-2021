@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal-n="mv-n" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="honderdduizenden" num="pl" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="su" rnum="pl" root="honderdduizenden" sense="honderdduizenden" word="Honderdduizenden"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,pc_pp(tegen))" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="protesteren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="protesteer" sc="pc_pp(tegen)" sense="protesteer-tegen" stype="declarative" tense="present" word="protesteren" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Barcelona" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Barcelona" sense="Barcelona" word="Barcelona"/>
+      </node>
+      <node begin="4" cat="pp" end="7" id="7" rel="pc">
+        <node begin="4" end="5" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="8" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+        <node begin="5" cat="np" end="7" id="9" rel="obj1">
+          <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="centraal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="centraal" sense="centraal" vform="adj" word="centrale"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Honderdduizenden protesteren in Barcelona tegen centrale regering</sentence>
+  <comments>
+    <comment>Q#1|Honderdduizenden protesteren in Barcelona tegen centrale regering|1|1|-3.533979008539999</comment>
+  </comments>
+</alpino_ds>

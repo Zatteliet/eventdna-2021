@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" cat="detp" end="3" id="3" rel="det">
+          <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="4" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+            <node begin="0" buiging="zonder" end="1" frame="pre_num_adv(both)" graad="comp" id="5" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="Meer"/>
+            <node begin="1" conjtype="onder" end="2" frame="pre_num_adv(both)" id="6" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+          </node>
+          <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="92" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="92" sense="92" special="hoofd" word="92"/>
+        </node>
+        <node begin="3" end="4" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="procent" sc="measure" sense="procent" special="meas_mod" word="procent"/>
+        <node begin="4" cat="np" end="6" id="9" rel="mod">
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="Iraaks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Iraaks" sense="Iraaks" vform="adj" word="Iraakse"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="Koerd" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Koerd" sense="Koerd" word="Koerden"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,past(sg),pc_pp(voor))" his="normal" his_1="normal" id="12" infl="sg" lcat="smain" lemma="stemmen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stem" sc="pc_pp(voor)" sense="stem-voor" stype="declarative" tense="past" word="stemde" wvorm="pv"/>
+      <node begin="7" cat="pp" end="9" id="13" rel="pc">
+        <node begin="7" end="8" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="8" end="9" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="onafhankelijkheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="onafhankelijkheid" sense="onafhankelijkheid" word="onafhankelijkheid"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Meer dan 92 procent Iraakse Koerden stemde voor onafhankelijkheid</sentence>
+  <comments>
+    <comment>Q#1|Meer dan 92 procent Iraakse Koerden stemde voor onafhankelijkheid|1|1|-4.4949008615800015</comment>
+  </comments>
+</alpino_ds>

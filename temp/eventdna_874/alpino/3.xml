@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="conj" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" cat="np" end="2" id="3" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="actie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="actie" sense="actie" word="actie"/>
+        </node>
+        <node begin="2" end="3" frame="verb(zijn,past(sg),intransitive)" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="beginnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="begin" sc="intransitive" sense="begin" tense="past" word="begon" wvorm="pv"/>
+        <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+        <node begin="4" cat="pp" end="7" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(om,[heen])" his="normal" his_1="normal" id="9" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+          <node begin="5" cat="mwu" end="7" his="normal" his_1="normal" id="10" mwu_root="6.45 uur" mwu_sense="6.45 uur" rel="obj1">
+            <node begin="5" end="6" frame="tmp_np" id="11" lcat="np" lemma="6.45" pos="noun" postag="SPEC(symb)" pt="spec" rel="mwp" rnum="sg" root="6.45" sense="6.45" special="tmp" spectype="symb" word="6.45"/>
+            <node begin="6" end="7" frame="tmp_np" genus="onz" getal="ev" graad="basis" id="12" lcat="np" lemma="uur" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" rnum="sg" root="uur" sense="uur" special="tmp" word="uur"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="13" id="14" rel="cnj">
+        <node begin="0" end="2" id="15" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(hebben,past(sg),pc_pp(tot))" his="normal" his_1="normal" id="16" infl="sg" lcat="smain" lemma="duren" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="duur" sc="pc_pp(tot)" sense="duur-tot" tense="past" word="duurde" wvorm="pv"/>
+        <node begin="9" cat="pp" end="13" id="17" rel="pc">
+          <node begin="9" end="10" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="10" cat="np" end="13" id="19" rel="obj1">
+            <node begin="10" end="11" frame="modal_adverb(noun_prep)" his="normal" his_1="normal" id="20" lcat="advp" lemma="ongeveer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer" word="ongeveer"/>
+            <node begin="11" end="12" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="21" infl="pl_num" lcat="detp" lemma="9" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="9" sense="9" special="hoofd" word="9"/>
+            <node begin="12" end="13" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="uur" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="uur" sense="uur" special="tmp" word="uur"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" his="normal" his_1="normal" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">De actie begon al om 6.45 uur en duurde tot ongeveer 9 uur .</sentence>
+  <comments>
+    <comment>Q#3|De actie begon al om 6.45 uur en duurde tot ongeveer 9 uur .|1|1|-1.9094747796199902</comment>
+  </comments>
+</alpino_ds>

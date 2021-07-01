@@ -1,0 +1,45 @@
+Bourgeois	Bourgeois	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+laat	laten	WW(pv,tgw,ev)	B-VP	O
+Energiepact	Energiepact	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+niet	niet	BW()	B-AP	O
+los	los	ADJ(vrij,basis,zonder)	I-AP	O
+				
+'	'	LET()	O	O
+Het	het	LID(bep)	B-NP	O
+regeerakkoord	regeerakkoord	N(soort,ev,basis,onz,stan)	I-NP	O
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+ervan	ervan	BW()	B-ADVP	O
+uit	uit	VZ(fin)	O	O
+dat	dat	VG(onder)	O	O
+we	we	VNW(pers,pron,1,mv)	B-NP	O
+een	een	LID(onbep)	B-NP	O
+Energiepact	energiepact	N(soort,ev,basis,onz,stan)	I-NP	B-MISC
+sluiten	sluiten	WW(inf,vrij,zonder)	B-VP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+dan	dan	BW()	B-ADVP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+een	een	LID(onbep)	B-NP	O
+echt	echt	ADJ(prenom,basis,zonder)	I-NP	O
+pact	pact	N(soort,ev,basis,onz,stan)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+.	.	LET()	O	O
+'	'	LET()	O	O
+				
+Voor	voor	VZ(init)	B-PP	O
+minister-president	minister-president	N(soort,ev,basis,zijd,stan)	B-NP	O
+Geert	Geert	SPEC(deeleigen)	I-NP	B-PER
+Bourgeois	Bourgeois	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+)	)	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+Energiepact	energiepact	N(soort,ev,basis,onz,stan)	I-NP	B-MISC
+niet	niet	BW()	B-AP	O
+dood	dood	ADJ(vrij,basis,zonder)	I-AP	O
+en	en	VG(neven)	O	O
+begraven	begraven	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

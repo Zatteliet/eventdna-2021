@@ -1,0 +1,29 @@
+Merkel	Merkel	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+opnieuw	opnieuw	BW()	B-NP	O
+machtigste	machtig	ADJ(prenom,sup,met-e,stan)	I-NP	O
+vrouw	vrouw	N(soort,ev,basis,zijd,stan)	I-NP	O
+ter	te	VZ(versm)	B-NP	O
+wereld	wereld	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Forbes	Forbes	N(eigen,ev,basis,onz,stan)	B-NP	B-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Duitse	Duits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+bondskanselier	bondskanselier	N(soort,ev,basis,zijd,stan)	I-NP	O
+Angela	Angela	SPEC(deeleigen)	I-NP	B-PER
+Merkel	Merkel	SPEC(deeleigen)	I-NP	I-PER
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+zevende	zeven	TW(rang,prenom,stan)	I-NP	O
+keer	keer	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+rij	rij	N(soort,ev,basis,zijd,stan)	B-NP	O
+uitgeroepen	uitroepen	WW(vd,vrij,zonder)	B-VP	O
+tot	tot	VZ(init)	B-PP	O
+machtigste	machtig	ADJ(prenom,sup,met-e,stan)	B-NP	O
+vrouw	vrouw	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+wereld	wereld	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

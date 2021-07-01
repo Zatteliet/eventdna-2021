@@ -1,0 +1,41 @@
+Twee	twee	TW(hoofd,prenom,stan)	B-NP	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+toeristen	toerist	N(soort,mv,basis)	I-NP	O
+overleden	overlijden	WW(vd,vrij,zonder)	B-VP	O
+bij	bij	VZ(init)	B-PP	O
+zwaar	zwaar	ADJ(prenom,basis,zonder)	B-NP	O
+verkeersongeval	verkeersongeval	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Portugal	Portugal	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Bij	bij	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+zwaar	zwaar	ADJ(prenom,basis,zonder)	I-NP	O
+verkeersongeval	verkeersongeval	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+zuiden	zuiden	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Portugal	Portugal	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+vrijdagnamiddag	vrijdagnamiddag	N(soort,ev,basis,zijd,stan)	I-NP	O
+twee	twee	TW(hoofd,prenom,stan)	I-NP	O
+Belgen	Belg	N(eigen,mv,basis)	I-NP	B-LOC
+om	om	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+leven	leven	N(soort,ev,basis,onz,stan)	I-NP	O
+gekomen	komen	WW(vd,vrij,zonder)	B-VP	O
+,	,	LET()	O	O
+twee	twee	TW(hoofd,prenom,stan)	B-NP	O
+andere	ander	ADJ(prenom,basis,met-e,stan)	I-NP	O
+mensen	mens	N(soort,mv,basis)	I-NP	O
+raakten	raken	WW(pv,verl,mv)	B-VP	O
+lichtgewond	lichtgewond	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+melden	melden	WW(pv,tgw,mv)	B-VP	O
+Portugese	Portugees	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+media	media	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				

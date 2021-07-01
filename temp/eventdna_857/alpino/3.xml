@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="22" end="23" frame="punct(haak_open)" his="normal" his_1="normal" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="24" end="25" frame="punct(haak_sluit)" his="normal" his_1="normal" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="33" id="4" rel="--">
+      <node begin="0" cat="pp" end="2" id="5" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" his="normal" his_1="decap" his_1_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="Bagdad" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Bagdad" sense="Bagdad" word="Bagdad"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),transitive_ndev)" his="normal" his_1="normal" id="8" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="transitive_ndev" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node begin="3" case="nom" def="def" end="4" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="9" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+      <node begin="4" cat="conj" end="33" id="10" rel="obj1">
+        <node begin="4" cat="np" end="24" id="11" rel="cnj">
+          <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="ontmoeting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ontmoeting" sense="ontmoeting" word="ontmoeting"/>
+          <node begin="6" cat="pp" end="10" id="14" rel="mod">
+            <node begin="6" end="7" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="7" cat="np" end="10" id="16" rel="obj1">
+              <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+              <node begin="8" cat="mwu" end="10" his="name" his_1="not_begin" id="18" mwu_root="Haider al-Abadi" mwu_sense="Haider al-Abadi" rel="app">
+                <node begin="8" end="9" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Haider" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Haider" sense="Haider" spectype="deeleigen" word="Haider"/>
+                <node begin="9" end="10" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="al-Abadi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="al-Abadi" sense="al-Abadi" spectype="deeleigen" word="al-Abadi"/>
+              </node>
+            </node>
+          </node>
+          <node begin="11" cat="rel" end="24" id="21" rel="mod">
+            <node begin="11" cat="pp" end="13" id="22" rel="rhd">
+              <node begin="11" end="12" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="23" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="12" case="obl" end="13" frame="rel_pronoun(both,obl)" gen="both" getal="getal" his="normal" his_1="normal" id="24" lcat="np" lemma="wie" naamval="stan" pdtype="pron" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="obj1" rnum="sg" root="wie" sense="wie" status="vol" vwtype="vb" wh="rel" word="wie"/>
+            </node>
+            <node begin="13" cat="du" end="24" id="25" rel="body">
+              <node begin="13" cat="smain" end="22" id="26" rel="nucl">
+                <node begin="13" case="nom" def="def" end="14" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="27" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+                <node begin="14" end="15" frame="verb(hebben,past(sg),np_pc_pp(over))" his="normal" his_1="normal" id="28" infl="sg" lcat="smain" lemma="spreken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="spreek" sc="np_pc_pp(over)" sense="spreek-over" stype="declarative" tense="past" word="sprak" wvorm="pv"/>
+                <node begin="15" cat="pp" end="20" id="29" rel="pc">
+                  <node begin="15" end="16" frame="preposition(over,[heen])" his="normal" his_1="normal" id="30" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+                  <node begin="16" cat="np" end="20" id="31" rel="obj1">
+                    <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="32" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="33" lcat="np" lemma="strijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="strijd" sense="strijd" word="strijd"/>
+                    <node begin="18" cat="pp" end="20" id="34" rel="mod">
+                      <node begin="18" end="19" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="35" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+                      <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="36" lcat="np" lemma="terreur_groep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="terreur_groep" sense="terreur_groep" word="terreurgroep"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="20" cat="np" end="22" id="37" rel="obj1">
+                  <node aform="base" begin="20" buiging="met-e" end="21" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="38" infl="e" lcat="ap" lemma="islamitisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="islamitisch" sense="islamitisch" vform="adj" word="Islamitische"/>
+                  <node begin="21" end="22" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="39" lcat="np" lemma="Staat" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Staat" sense="Staat" word="Staat"/>
+                </node>
+              </node>
+              <node begin="23" end="24" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="40" lcat="np" lemma="IS" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="sat" rnum="sg" root="IS" sense="IS" word="IS"/>
+            </node>
+          </node>
+        </node>
+        <node begin="25" conjtype="neven" end="26" frame="conj(en)" his="normal" his_1="normal" id="41" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="26" cat="np" end="33" id="42" rel="cnj">
+          <node begin="26" end="27" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="43" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="27" end="28" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="44" lcat="np" lemma="conflict" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="conflict" sense="conflict" word="conflict"/>
+          <node begin="28" cat="pp" end="33" id="45" rel="mod">
+            <node begin="28" end="29" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="46" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="29" cat="np" end="33" id="47" rel="obj1">
+              <node begin="29" end="30" frame="determiner(de)" his="normal" his_1="normal" id="48" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="30" buiging="met-e" end="31" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="49" infl="e" lcat="ap" lemma="Koerdisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Koerdisch" sense="Koerdisch" vform="adj" word="Koerdische"/>
+              <node aform="base" begin="31" buiging="met-e" end="32" frame="adjective(e)" graad="basis" his="decap" his_1="not_begin" id="50" infl="e" lcat="ap" lemma="autonoom" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="autonoom" sense="autonoom" vform="adj" word="Autonome"/>
+              <node begin="32" end="33" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="decap" his_1="not_begin" id="51" lcat="np" lemma="regio" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regio" sense="regio" word="Regio"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" frame="punct(punt)" his="normal" his_1="normal" id="52" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">In Bagdad had hij een ontmoeting met premier Haider al-Abadi , met wie hij sprak over de strijd tegen terreurgroep Islamitische Staat ( IS ) en het conflict met de Koerdische Autonome Regio .</sentence>
+  <comments>
+    <comment>Q#3|In Bagdad had hij een ontmoeting met premier Haider al-Abadi , met wie hij sprak over de strijd tegen terreurgroep Islamitische Staat ( IS ) en het conflict met de Koerdische Autonome Regio .|1|1|-2.5885775947599927</comment>
+  </comments>
+</alpino_ds>

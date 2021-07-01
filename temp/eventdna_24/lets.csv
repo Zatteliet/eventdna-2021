@@ -1,0 +1,37 @@
+Megalomaan	Megalomaan	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+museum	museum	N(soort,ev,basis,onz,stan)	I-NP	O
+opent	openen	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+Abu	Abu	SPEC(deeleigen)	B-NP	B-LOC
+Dhabi	Dhabi	SPEC(deeleigen)	I-NP	I-LOC
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+kost	kosten	WW(pv,tgw,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+paar	paar	N(soort,ev,basis,genus,stan)	I-NP	O
+honderd	honderd	TW(hoofd,prenom,stan)	I-NP	O
+miljoen	miljoen	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+voor	voor	VZ(init)	B-PP	O
+die	die	VNW(aanw,det)	B-NP	O
+prijs	prijs	N(soort,ev,basis,zijd,stan)	I-NP	O
+krijgt	krijgen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Perzische	Perzisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Golf	Golf	N(eigen,ev,basis,zijd,stan)	I-NP	I-LOC
+een	een	LID(onbep)	B-NP	O
+bijhuis	bijhuis	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Louvre	Louvre	N(eigen,ev,basis,onz,stan)	I-NP	B-ORG
+.	.	LET()	O	O
+				
+Op	op	VZ(init)	B-PP	O
+11	11	TW(hoofd,vrij)	B-NP	O
+november	november	N(eigen,ev,basis,zijd,stan)	I-NP	O
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-AP	O
+open	open	ADJ(vrij,basis,zonder)	I-AP	O
+.	.	LET()	O	O
+				

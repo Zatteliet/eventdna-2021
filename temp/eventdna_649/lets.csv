@@ -1,0 +1,35 @@
+Italië	Italië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+Ceta-verdrag	ceta-verdrag	N(soort,ev,basis,onz,stan)	B-NP	O
+dumpen	dumpen	WW(inf,vrij,zonder)	B-VP	O
+				
+De	de	LID(bep)	B-NP	O
+kans	kans	N(soort,ev,basis,zijd,stan)	I-NP	O
+dat	dat	VG(onder)	O	O
+Italië	Italië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+het	het	LID(bep)	B-NP	O
+Ceta-handelsverdrag	ceta-handelsverdrag	N(soort,ev,basis,onz,stan)	I-NP	O
+tussen	tussen	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+EU	EU	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+en	en	VG(neven)	O	O
+Canada	Canada	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+ratificeert	ratificeren	WW(pv,tgw,met-t)	B-VP	O
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+klein	klein	ADJ(vrij,basis,zonder)	B-AP	O
+geworden	worden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+nationale	nationaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+parlement	parlement	N(soort,ev,basis,onz,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+van	van	VZ(init)	B-PP	O
+plan	plan	N(soort,ev,basis,onz,stan)	B-NP	O
+de	de	LID(bep)	B-NP	O
+overeenkomst	overeenkomst	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+verwerpen	verwerpen	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

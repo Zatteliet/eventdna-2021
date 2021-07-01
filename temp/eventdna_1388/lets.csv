@@ -1,0 +1,39 @@
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+ontkent	ontkennen	WW(pv,tgw,met-t)	B-VP	O
+'	'	LET()	O	O
+ongevoelige	ongevoelig	ADJ(prenom,basis,met-e,stan)	B-AP	O
+'	'	LET()	O	O
+uitspraak	uitspraak	N(soort,ev,basis,zijd,stan)	B-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+weduwe	weduwe	N(soort,ev,basis,zijd,stan)	B-NP	O
+gesneuvelde	sneuvelen	WW(vd,prenom,met-e)	I-NP	O
+soldaat	soldaat	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+'	'	LET()	O	O
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+wist	weten	WW(pv,verl,ev)	B-VP	O
+waaraan	waaraan	BW()	B-ADVP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+begon	beginnen	WW(pv,verl,ev)	B-VP	O
+'	'	LET()	O	O
+,	,	LET()	O	O
+zou	zullen	WW(pv,verl,ev)	B-VP	O
+Donald	Donald	SPEC(deeleigen)	B-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+weduwe	weduwe	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+gesneuvelde	sneuvelen	WW(vd,prenom,met-e)	I-NP	O
+soldaat	soldaat	N(soort,ev,basis,zijd,stan)	I-NP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+gezegd	zeggen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+ontkent	ontkennen	WW(pv,tgw,met-t)	B-VP	O
+.	.	LET()	O	O
+				

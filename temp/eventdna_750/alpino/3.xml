@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="smain" end="18" id="1" rel="--">
+      <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" infl="no_e" lcat="ap" lemma="toevallig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="toevallig" sense="toevallig" vform="adj" word="Toevallig"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),part_intransitive(plaats))" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="plaats_vinden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="vind_plaats" sc="part_intransitive(plaats)" sense="vind_plaats" stype="declarative" tense="past" word="vond" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="su">
+        <node begin="2" buiging="zonder" end="3" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="5" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="lezing" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="lezing" sense="lezing" word="lezing"/>
+      </node>
+      <node begin="4" end="5" frame="particle(plaats)" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="part" lemma="plaats" naamval="stan" ntype="soort" pos="part" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="plaats" sense="plaats" word="plaats"/>
+      <node begin="5" cat="pp" end="18" id="8" rel="mod">
+        <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="18" id="10" rel="obj1">
+          <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="zaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zaal" sense="zaal" word="zaal"/>
+          <node begin="8" cat="pp" end="11" id="13" rel="mod">
+            <node begin="8" end="9" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="14" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="9" cat="np" end="11" id="15" rel="obj1">
+              <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="stadhuis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="stadhuis" sense="stadhuis" word="stadhuis"/>
+            </node>
+          </node>
+          <node begin="11" cat="rel" end="18" id="18" rel="mod">
+            <node begin="11" case="no_obl" end="12" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="19" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="11" cat="ssub" end="18" id="20" rel="body">
+              <node begin="11" end="12" id="21" index="1" rel="su"/>
+              <node begin="13" end="14" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="22" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+              <node begin="11" cat="ppart" end="18" id="23" rel="vc">
+                <node begin="11" end="12" id="24" index="1" rel="obj1"/>
+                <node begin="12" end="13" frame="sentence_adverb" his="normal" his_1="normal" id="25" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+                <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="26" infl="psp" lcat="ppart" lemma="verhuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verhuur" sc="transitive" sense="verhuur" word="verhuurd" wvorm="vd"/>
+                <node begin="15" cat="pp" end="18" id="27" rel="mod">
+                  <node begin="15" end="16" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                  <node begin="16" cat="np" end="18" id="29" rel="obj1">
+                    <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" his="form_of_suffix" his_1="le" id="30" infl="e" lcat="ap" lemma="socioculturel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="socioculturel" sense="socioculturel" vform="adj" word="socioculturele"/>
+                    <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="activiteit" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="activiteit" sense="activiteit" word="activiteiten"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Toevallig vond hun lezing plaats in een zaal op het stadhuis die ook wordt verhuurd voor socioculturele activiteiten .</sentence>
+  <comments>
+    <comment>Q#3|Toevallig vond hun lezing plaats in een zaal op het stadhuis die ook wordt verhuurd voor socioculturele activiteiten .|1|1|-10.962177144210001</comment>
+  </comments>
+</alpino_ds>

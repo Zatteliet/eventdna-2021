@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="cp" end="9" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" sense="toen" word="Toen"/>
+        <node begin="1" cat="ssub" end="9" id="5" rel="body">
+          <node begin="1" cat="np" end="3" id="6" index="1" rel="su">
+            <node begin="1" buiging="met-e" end="2" frame="adj_number(enkele)" his="normal" his_1="normal" id="7" infl="enkele" lcat="detp" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" sense="enkel" special="adj_number" vwtype="onbep" word="enkele"/>
+            <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="politicus" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="politicus" sense="politicus" word="politici"/>
+          </node>
+          <node begin="7" end="8" frame="verb(hebben,past(pl),modifier(aux(inf)))" his="normal" his_1="normal" id="9" infl="pl" lcat="ssub" lemma="willen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="past" word="wilden" wvorm="pv"/>
+          <node begin="1" cat="inf" end="9" id="10" rel="vc">
+            <node begin="1" end="3" id="11" index="1" rel="su"/>
+            <node begin="3" case="dat_acc" def="def" end="4" frame="pronoun(nwh,thi,both,de,dat_acc,def,wkpro)" gen="de" getal="getal" his="normal" his_1="normal" id="12" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zich" sense="zich" special="wkpro" status="red" vwtype="refl" wh="nwh" word="zich"/>
+            <node begin="4" cat="pp" end="7" id="13" rel="pc">
+              <node begin="4" end="5" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="14" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+              <node begin="5" cat="np" end="7" id="15" rel="obj1">
+                <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="protest" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="protest" sense="protest" word="protest"/>
+              </node>
+            </node>
+            <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,ninv(np_pc_pp(bij),part_np_pc_pp(aan,bij)))" his="normal" his_1="part-V" id="18" infl="inf" lcat="inf" lemma="aan_sluiten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sluit_aan" sc="part_np_pc_pp(aan,bij)" sense="sluit_aan-bij" word="aansluiten" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(unacc,past(sg),nonp_copula)" his="normal" his_1="normal" id="19" infl="sg" lcat="smain" lemma="raken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="raak" sc="nonp_copula" sense="raak" stype="declarative" tense="past" word="raakte" wvorm="pv"/>
+      <node begin="11" cat="np" end="13" id="20" rel="su">
+        <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="sfeer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sfeer" sense="sfeer" word="sfeer"/>
+      </node>
+      <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="23" infl="both" lcat="ppart" lemma="gespannen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="gespannen" sense="gespannen" vform="psp" word="gespannen" wvorm="vd"/>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Toen enkele politici zich bij het protest wilden aansluiten , raakte de sfeer gespannen .</sentence>
+  <comments>
+    <comment>Q#3|Toen enkele politici zich bij het protest wilden aansluiten , raakte de sfeer gespannen .|1|1|-13.33264210181</comment>
+  </comments>
+</alpino_ds>

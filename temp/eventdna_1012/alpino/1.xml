@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="13" id="2" rel="--">
+      <node begin="0" cat="smain" end="4" id="3" rel="cnj">
+        <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Landbouw" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Landbouw" sense="Landbouw" word="Landbouw"/>
+        <node begin="1" end="2" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="kreunen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kreun" sc="intransitive" sense="kreun" stype="declarative" tense="present" word="kreunt" wvorm="pv"/>
+        <node begin="2" cat="pp" end="4" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="7" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+          <node begin="3" end="4" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="droogte" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="droogte" sense="droogte" word="droogte"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" frame="conj(maar)" his="normal" his_1="normal" id="9" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="6" cat="smain" end="13" id="10" rel="cnj">
+        <node begin="6" cat="np" end="9" id="11" rel="su">
+          <node begin="6" end="7" frame="meas_mod_noun(both,count,pl,measure)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="miljoen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoenen"/>
+          <node begin="7" cat="np" end="9" id="13" rel="mod">
+            <node begin="7" end="8" frame="meas_mod_noun(de,count,pl,measure)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="liter" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="liter" sc="measure" sense="liter" special="meas_mod" word="liters"/>
+            <node begin="8" end="9" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="water" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mod" rnum="sg" root="water" sense="water" word="water"/>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="verb(zijn,pl,part_ld_transitive(in))" his="normal" his_1="normal" id="16" infl="pl" lcat="smain" lemma="in_gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga_in" sc="part_ld_transitive(in)" sense="ga_in" stype="declarative" tense="present" word="gaan" wvorm="pv"/>
+        <node begin="10" cat="np" end="12" id="17" rel="ld">
+          <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="11" end="12" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="riool" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="riool" sense="riool" word="riool"/>
+        </node>
+        <node begin="12" end="13" frame="particle(in)" his="normal" his_1="normal" id="20" lcat="part" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" sense="in" vztype="fin" word="in"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Landbouw kreunt onder droogte , maar miljoenen liters water gaan de riool in</sentence>
+  <comments>
+    <comment>Q#1|Landbouw kreunt onder droogte , maar miljoenen liters water gaan de riool in|1|1|0.381050339550005</comment>
+  </comments>
+</alpino_ds>

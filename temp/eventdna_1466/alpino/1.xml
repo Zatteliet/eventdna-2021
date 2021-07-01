@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" his="name_gen" his_1="begin" id="3" infl="pron" lcat="detp" lemma="Trumps" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="Trumps" sense="Trumps" special="name" word="Trumps"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="kandidate" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kandidate" sense="kandidate" word="kandidate"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="7" lcat="np" lemma="CIA_directeur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="CIA_directeur" sense="CIA_directeur" word="CIA-directeur"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,past(sg),modifier(aux(inf)))" his="normal" his_1="normal" id="8" infl="sg" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="past" word="wilde" wvorm="pv"/>
+      <node begin="0" cat="inf" end="6" id="9" rel="vc">
+        <node begin="0" end="4" id="10" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf,ninv(intransitive,part_intransitive(af)))" his="normal" his_1="part-V" id="11" infl="inf" lcat="inf" lemma="af_haken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="haak_af" sc="part_intransitive(af)" sense="haak_af" word="afhaken" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Trumps kandidate voor CIA-directeur wilde afhaken</sentence>
+  <comments>
+    <comment>Q#1|Trumps kandidate voor CIA-directeur wilde afhaken|1|1|-1.07564775576</comment>
+  </comments>
+</alpino_ds>

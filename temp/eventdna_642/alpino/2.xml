@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="smain" end="17" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Russisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj" word="Russische"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+        <node begin="3" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="6" mwu_root="Vladimir Poetin" mwu_sense="Vladimir Poetin" rel="app">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Vladimir" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vladimir" sense="Vladimir" spectype="deeleigen" word="Vladimir"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Poetin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Poetin" sense="Poetin" spectype="deeleigen" word="Poetin"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg3,pc_pp(op))" his="normal" his_1="normal" id="9" infl="sg3" lcat="smain" lemma="hopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoop" sc="pc_pp(op)" sense="hoop-op" stype="declarative" tense="present" word="hoopt" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="10" rel="mod">
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(end(both))" his="normal" his_1="V-d" his_1_1="normal" id="11" infl="no_e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgend" wvorm="od"/>
+        <node begin="7" end="8" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+      </node>
+      <node begin="8" cat="pp" end="17" id="13" rel="pc">
+        <node begin="8" end="9" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="14" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="9" cat="np" end="17" id="15" rel="obj1">
+          <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="16" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="compar" begin="10" buiging="met-e" end="11" frame="adjective(ere)" graad="comp" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="betere"/>
+          <node begin="11" end="12" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="samenwerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="samenwerking" sense="samenwerking" word="samenwerking"/>
+          <node begin="12" cat="pp" end="17" id="19" rel="mod">
+            <node begin="12" end="13" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="13" cat="np" end="17" id="21" rel="obj1">
+              <node begin="13" buiging="zonder" end="14" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="22" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+              <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="23" lcat="np" lemma="VS_collega" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VS_collega" sense="VS_collega" word="VS-collega"/>
+              <node begin="15" cat="mwu" end="17" his="normal" his_1="names_dictionary" id="24" mwu_root="Donald Trump" mwu_sense="Donald Trump" rel="app">
+                <node begin="15" end="16" frame="proper_name(sg,'PER')" id="25" lcat="np" lemma="Donald" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Donald" sense="Donald" spectype="deeleigen" word="Donald"/>
+                <node begin="16" end="17" frame="proper_name(sg,'PER')" id="26" lcat="np" lemma="Trump" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Trump" sense="Trump" spectype="deeleigen" word="Trump"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De Russische president Vladimir Poetin hoopt volgend jaar op een betere samenwerking met zijn VS-collega Donald Trump .</sentence>
+  <comments>
+    <comment>Q#2|De Russische president Vladimir Poetin hoopt volgend jaar op een betere samenwerking met zijn VS-collega Donald Trump .|1|1|-8.306834982820003</comment>
+  </comments>
+</alpino_ds>

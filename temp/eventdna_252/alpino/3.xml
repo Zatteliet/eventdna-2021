@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="23" id="3" rel="--">
+      <node begin="0" cat="smain" end="8" id="4" rel="nucl">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="5" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+        <node begin="1" end="2" frame="verb(zijn,past(sg),fixed([[van,een,leien,dakje]],no_passive))" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="lopen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="loop" sc="fixed([[van,een,leien,dakje]],no_passive)" sense="van-een-leien-dakje-loop" stype="declarative" tense="past" word="liep" wvorm="pv"/>
+        <node begin="2" end="3" frame="sentence_adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" sense="echter" special="sentence" word="echter"/>
+        <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="4" cat="mwu" end="8" his="normal" his_1="normal" id="9" mwu_root="van een leien dakje" mwu_sense="van een leien dakje" rel="svp">
+          <node begin="4" end="5" frame="fixed_part([van,een,leien,dakje])" id="10" lcat="fixed" lemma="van" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" end="6" frame="fixed_part([van,een,leien,dakje])" id="11" lcat="fixed" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="fixed" postag="LID(onbep,stan,agr)" pt="lid" rel="mwp" root="een" sense="een" word="een"/>
+          <node begin="6" buiging="zonder" end="7" frame="fixed_part([van,een,leien,dakje])" graad="basis" id="12" lcat="fixed" lemma="leien" pos="fixed" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mwp" root="leien" sense="leien" word="leien"/>
+          <node begin="7" end="8" frame="fixed_part([van,een,leien,dakje])" genus="onz" getal="ev" graad="basis" id="13" lcat="fixed" lemma="dakje" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="dakje" sense="dakje" word="dakje"/>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="23" id="14" rel="sat">
+        <node begin="9" cat="np" end="17" id="15" rel="su">
+          <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="link" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="link" sense="link" word="link"/>
+          <node begin="11" cat="rel" end="17" id="18" rel="mod">
+            <node begin="11" case="no_obl" end="12" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="19" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="11" cat="ssub" end="17" id="20" rel="body">
+              <node begin="11" end="12" id="21" index="1" rel="obj1"/>
+              <node begin="12" cat="np" end="15" id="22" rel="su">
+                <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="24" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+                <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+              </node>
+              <node aform="base" begin="15" buiging="zonder" end="16" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="26" infl="no_e" lcat="ap" lemma="aanvankelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="aanvankelijk" sense="aanvankelijk" vform="adj" word="aanvankelijk"/>
+              <node begin="16" end="17" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="27" infl="sg" lcat="ssub" lemma="tweeten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="tweet" sc="transitive" sense="tweet" tense="past" word="tweette" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="18" end="19" frame="verb(hebben,past(sg),pc_pp(tot))" his="normal" his_1="normal" id="28" infl="sg" lcat="smain" lemma="leiden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" stype="declarative" tense="past" word="leidde" wvorm="pv"/>
+        <node begin="19" cat="pp" end="23" id="29" rel="pc">
+          <node begin="19" end="20" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="30" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+          <node begin="20" cat="np" end="23" id="31" rel="obj1">
+            <node begin="20" end="21" frame="determiner(een)" his="normal" his_1="normal" id="32" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="21" buiging="met-e" end="22" frame="adjective(ende(padv))" his="compound" his_1="hyphen" id="33" infl="e" lcat="ppres" lemma="niet_bestaan" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="niet_besta" sense="niet_besta" vform="gerund" word="niet-bestaande" wvorm="od"/>
+            <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="web_pagina" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="web_pagina" sense="web_pagina" word="webpagina"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat liep echter niet van een leien dakje : de link die de Amerikaanse president aanvankelijk tweette , leidde tot een niet-bestaande webpagina .</sentence>
+  <comments>
+    <comment>Q#3|Dat liep echter niet van een leien dakje : de link die de Amerikaanse president aanvankelijk tweette , leidde tot een niet-bestaande webpagina .|1|1|-11.489950017099998</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="Spanje" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Spanje" sense="Spanje" word="Spanje"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,part_np_pc_pp(over,van))" his="normal" his_1="normal" id="4" infl="sg3" lcat="smain" lemma="over_nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem_over" sc="part_np_pc_pp(over,van)" sense="neem_over-van" stype="declarative" tense="present" word="neemt" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="5" rel="obj1">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="controle" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="controle" sense="controle" word="controle"/>
+      </node>
+      <node begin="4" cat="pp" end="6" id="8" rel="pc">
+        <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="Catalonië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Catalonië" sense="Catalonië" word="Catalonië"/>
+      </node>
+      <node begin="6" end="7" frame="particle(over)" his="normal" his_1="normal" id="11" lcat="part" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" sense="over" vztype="fin" word="over"/>
+      <node begin="8" cat="cp" end="15" id="12" rel="mod">
+        <node begin="8" conjtype="onder" end="9" frame="complementizer" his="normal" his_1="normal" id="13" lcat="cp" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" sense="nadat" word="nadat"/>
+        <node begin="9" cat="ssub" end="15" id="14" rel="body">
+          <node begin="9" cat="np" end="11" id="15" index="1" rel="su">
+            <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="10" end="11" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="Senaat" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Senaat" sense="Senaat" word="Senaat"/>
+          </node>
+          <node begin="13" end="14" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="18" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+          <node begin="9" cat="ppart" end="15" id="19" rel="vc">
+            <node begin="9" end="11" id="20" index="1" rel="su"/>
+            <node begin="11" cat="np" end="13" id="21" rel="obj1">
+              <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="artikel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="artikel" sense="artikel" word="artikel"/>
+              <node begin="12" end="13" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="23" infl="pl_num" lcat="detp" lemma="155" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="app" root="155" sense="155" special="hoofd" word="155"/>
+            </node>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,ninv(transitive,part_transitive(goed)))" his="normal" his_1="part-V" id="24" infl="psp" lcat="ppart" lemma="goed_keuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="keur_goed" sc="part_transitive(goed)" sense="keur_goed" word="goedgekeurd" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Spanje neemt de controle van Catalonië over , nadat de Senaat artikel 155 heeft goedgekeurd .</sentence>
+  <comments>
+    <comment>Q#3|Spanje neemt de controle van Catalonië over , nadat de Senaat artikel 155 heeft goedgekeurd .|1|1|-11.76524214022</comment>
+  </comments>
+</alpino_ds>

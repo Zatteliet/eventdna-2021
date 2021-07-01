@@ -1,0 +1,60 @@
+18	18	TW(hoofd,prenom,stan)	B-NP	O
+doden	dood	ADJ(nom,basis,met-e,mv-n)	I-NP	O
+bij	bij	VZ(init)	B-PP	O
+treincrash	treincrash	N(soort,ev,basis,zijd,stan)	B-NP	O
+Zuid-Afrika	Zuid-Afrika	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+				
+In	in	VZ(init)	B-PP	O
+Zuid-Afrika	Zuid-Afrika	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+zeker	zeker	ADJ(vrij,basis,zonder)	B-NP	O
+18	18	TW(hoofd,prenom,stan)	I-NP	O
+mensen	mens	N(soort,mv,basis)	I-NP	O
+omgekomen	omkomen	WW(vd,vrij,zonder)	B-VP	O
+bij	bij	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+treinongeluk	treinongeluk	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+ook	ook	BW()	B-ADVP	O
+honderden	honderd	TW(hoofd,nom,mv-n,basis)	B-NP	O
+gewonden	gewond	ADJ(nom,basis,met-e,mv-n)	B-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+trein	trein	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+ontspoord	ontsporen	WW(vd,vrij,zonder)	I-VP	O
+na	na	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+botsing	botsing	N(soort,ev,basis,zijd,stan)	I-NP	O
+met	met	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+vrachtwagen	vrachtwagen	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+gesloten	sluiten	WW(vd,prenom,zonder)	I-NP	O
+overweg	overweg	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Zeker	zeker	ADJ(vrij,basis,zonder)	B-NP	O
+zeven	zeven	TW(hoofd,prenom,stan)	I-NP	O
+wagons	wagon	N(soort,mv,basis)	I-NP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+vuur	vuur	N(soort,ev,basis,onz,stan)	B-NP	O
+gevat	vatten	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+meeste	veel	VNW(onbep,grad,sup)	I-NP	O
+slachtoffers	slachtoffer	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+niet	niet	BW()	B-AP	O
+tijdig	tijdig	ADJ(vrij,basis,zonder)	I-AP	O
+naar	naar	VZ(init)	O	O
+buiten	buiten	VZ(fin)	O	O
+geraakt	raken	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

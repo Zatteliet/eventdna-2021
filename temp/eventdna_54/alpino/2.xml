@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="Grote"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="meerderheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="meerderheid" sense="meerderheid" word="meerderheid"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,part_transitive(goed))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="goed_keuren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="keur_goed" sc="part_transitive(goed)" sense="keur_goed" stype="declarative" tense="present" word="keurt" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="kandidaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="kandidaat" sense="kandidaat" word="kandidaten"/>
+      <node begin="4" buiging="zonder" end="5" frame="particle(goed)" graad="basis" his="normal" his_1="normal" id="7" lcat="part" lemma="goed" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="goed" sense="goed" word="goed"/>
+    </node>
+  </node>
+  <sentence sentid="2">Grote meerderheid keurt kandidaten goed</sentence>
+  <comments>
+    <comment>Q#2|Grote meerderheid keurt kandidaten goed|1|1|-5.15537551209</comment>
+  </comments>
+</alpino_ds>

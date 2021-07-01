@@ -1,0 +1,50 @@
+Canada	Canada	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+roept	roepen	WW(pv,tgw,met-t)	B-VP	O
+families	familie	N(soort,mv,basis)	B-NP	O
+diplomaten	diplomaat	N(soort,mv,basis)	I-NP	O
+terug	terug	BW()	B-ADVP	O
+uit	uit	VZ(init)	B-PP	O
+Cuba	Cuba	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Canada	Canada	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+roept	roepen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+families	familie	N(soort,mv,basis)	I-NP	O
+terug	terug	BW()	B-ADVP	O
+van	van	VZ(init)	B-PP	O
+diplomaten	diplomaat	N(soort,mv,basis)	B-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Havana	Havana	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+op	op	VZ(init)	B-PP	O
+post	post	N(soort,ev,basis,zijd,stan)	B-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+zegt	zeggen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+maandag	maandag	N(eigen,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+door	door	VZ(fin)	O	O
+met	met	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+onderzoek	onderzoek	N(soort,ev,basis,onz,stan)	I-NP	O
+naar	naar	VZ(init)	O	O
+de	de	LID(bep)	O	O
+'	'	LET()	O	O
+ongewone	ongewoon	ADJ(prenom,basis,met-e,stan)	B-NP	O
+gezondheidsklachten	gezondheidsklacht	N(soort,mv,basis)	I-NP	O
+'	'	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+werknemers	werknemer	N(soort,mv,basis)	I-NP	O
+vorig	vorig	ADJ(prenom,basis,zonder)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+meldden	melden	WW(pv,verl,mv)	B-VP	O
+.	.	LET()	O	O
+				

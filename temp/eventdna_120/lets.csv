@@ -1,0 +1,40 @@
+Venezuela	Venezuela	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+nu	nu	BW()	B-ADVP	O
+echt	echt	ADJ(vrij,basis,zonder)	B-AP	O
+failliet	failliet	ADJ(vrij,basis,zonder)	I-AP	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+zat	zitten	WW(pv,verl,ev)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+al	al	BW()	B-AP	O
+lang	lang	ADJ(vrij,basis,zonder)	I-AP	O
+aan	aan	VZ(fin)	O	O
+te	te	VZ(init)	B-VP	O
+komen	komen	WW(inf,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+nu	nu	BW()	B-ADVP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+zover	zover	BW()	B-ADVP	O
+:	:	LET()	O	O
+Venezuela	Venezuela	N(eigen,ev,basis,onz,stan)	B-NP	B-PER
+komt	komen	WW(pv,tgw,met-t)	B-VP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+verplichtingen	verplichting	N(soort,mv,basis)	I-NP	O
+aan	aan	VZ(init)	B-PP	O
+obligatiehouders	obligatiehouder	N(soort,mv,basis)	B-NP	O
+niet	niet	BW()	B-AP	O
+langer	lang	ADJ(vrij,comp,zonder)	I-AP	O
+na	na	VZ(fin)	O	O
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+land	land	N(soort,ev,basis,onz,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+officieel	officieel	ADJ(vrij,basis,zonder)	B-AP	O
+failliet	failliet	ADJ(vrij,basis,zonder)	I-AP	O
+verklaard	verklaren	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

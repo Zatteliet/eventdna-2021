@@ -1,0 +1,46 @@
+'	'	LET()	O	O
+Kleine	klein	ADJ(prenom,basis,met-e,stan)	B-NP	O
+belasting	belasting	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+groot	groot	ADJ(prenom,basis,zonder)	B-NP	O
+effect	effect	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+­ongelijkheid	­ongelijkheid	N(soort,ev,basis,zijd,stan)	B-NP	O
+'	'	LET()	O	O
+				
+Politici	politicus	N(soort,mv,basis)	B-NP	O
+en	en	VG(neven)	O	O
+burgers	burger	N(soort,mv,basis)	B-NP	O
+lijken	lijken	WW(pv,tgw,mv)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+eens	eens	ADJ(vrij,basis,zonder)	B-AP	O
+te	te	VZ(init)	B-VP	O
+zijn	zijn	WW(inf,vrij,zonder)	I-VP	O
+:	:	LET()	O	O
+de	de	LID(bep)	B-NP	O
+erfbelasting	erfbelasting	N(soort,ev,basis,zijd,stan)	I-NP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+zo	zo	BW()	B-AP	O
+laag	laag	ADJ(vrij,basis,zonder)	I-AP	O
+mogelijk	mogelijk	ADJ(vrij,basis,zonder)	I-AP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+op	op	VZ(init)	B-PP	O
+lange	lang	ADJ(prenom,basis,met-e,stan)	B-NP	O
+termijn	termijn	N(soort,ev,basis,zijd,stan)	I-NP	O
+kan	kunnen	WW(pv,tgw,ev)	B-VP	O
+ze	ze	VNW(pers,pron,3,ev,fem)	B-NP	O
+de	de	LID(bep)	B-NP	O
+ongelijkheid	ongelijkheid	N(soort,ev,basis,zijd,stan)	I-NP	O
+gevoelig	gevoelig	ADJ(vrij,basis,zonder)	B-AP	O
+verminderen	verminderen	WW(inf,vrij,zonder)	B-VP	O
+,	,	LET()	O	O
+blijkt	blijken	WW(pv,tgw,met-t)	B-VP	O
+uit	uit	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+studie	studie	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

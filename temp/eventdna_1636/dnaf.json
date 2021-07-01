@@ -1,0 +1,468 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {},
+                "events": {
+                    "coref_bucket_1": [
+                        "event_4",
+                        "event_3"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    28,
+                                    29
+                                ]
+                            },
+                            "string": "Setsuko Thurlow",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            28,
+                            29
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Setsuko Thurlow",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    32
+                                ]
+                            },
+                            "string": "Japanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            32
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Japanse",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    38
+                                ]
+                            },
+                            "string": "Hiroshima",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            38
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Hiroshima",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    43,
+                                    44
+                                ]
+                            },
+                            "string": "Beatrice Fihn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            43,
+                            44
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Beatrice Fihn",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "een nucleaire ramp"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Internationale Campagne tegen Kernwapens ( ICAN ) heeft de Nobelprijs voor de Vrede gewonnen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13,
+                            14
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Unspecified",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "De Internationale Campagne tegen Kernwapens"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            16
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Unspecified",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "ICAN"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        38
+                                    ]
+                                },
+                                "string": "Hiroshima"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            35,
+                            36,
+                            37,
+                            38
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de atoombomaanval op Hiroshima"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000142",
+                            "nuclear accident and incident"
+                        ],
+                        [
+                            "medtop:20000141",
+                            "industrial accident and incident"
+                        ],
+                        [
+                            "medtop:20000139",
+                            "accident and emergency incident"
+                        ],
+                        [
+                            "medtop:03000000",
+                            "disaster, accident and emergency incident"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000498",
+                            "award and prize"
+                        ],
+                        [
+                            "medtop:20000497",
+                            "accomplishment"
+                        ],
+                        [
+                            "medtop:08000000",
+                            "human interest"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000055",
+                            "bombings"
+                        ],
+                        [
+                            "medtop:20000053",
+                            "act of terror"
+                        ],
+                        [
+                            "medtop:16000000",
+                            "conflict, war and peace"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+        ],
+        "token_string": "We zijn slechts \u00e9\u00e9n driftbui verwijderd van een nucleaire ramp De Internationale Campagne tegen Kernwapens ( ICAN ) heeft de Nobelprijs voor de Vrede gewonnen . Het waren Setsuko Thurlow , een Japanse vrouw die de atoombomaanval op Hiroshima heeft overleefd , en Beatrice Fihn , het gezicht van de campagne , die de prijs in ontvangst namen . We hebben de keuze : het einde van kernwapens , of het einde van ons , klonk het in klare taal ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_1636"
+    }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="ppres" end="7" id="3" rel="tag">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(end(both))" his="normal" his_1="decap" his_1_1="V-d" his_1_1_1="normal" id="4" infl="no_e" lcat="ppres" lemma="feesten" pos="adj" positie="vrij" postag="WW(od,vrij,zonder)" pt="ww" rel="hd" root="feest" sense="feest" vform="gerund" word="Feestend" wvorm="od"/>
+        <node begin="1" cat="pp" end="7" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(door,[heen])" his="normal" his_1="normal" id="6" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="2" cat="np" end="7" id="7" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="stad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stad" sense="stad" word="stad"/>
+            <node begin="4" cat="pp" end="7" id="10" rel="mod">
+              <node begin="4" end="5" frame="preposition(na,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+              <node begin="5" cat="np" end="7" id="12" rel="obj1">
+                <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="6" end="7" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="match" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="match" sense="match" special="tmp" word="match"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="smain" end="15" id="15" rel="nucl">
+        <node begin="8" cat="np" end="10" id="16" rel="su">
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="Antwerps" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Antwerps" sense="Antwerps" vform="adj" word="Antwerpse"/>
+          <node begin="9" end="10" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+        </node>
+        <node begin="10" end="11" frame="verb(hebben,sg3,part_nonp_pred_refl(op))" his="normal" his_1="normal" id="19" infl="sg3" lcat="smain" lemma="op_stellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stel_op" sc="part_nonp_pred_refl(op)" sense="zich-stel_op" stype="declarative" tense="present" word="stelt" wvorm="pv"/>
+        <node begin="11" end="12" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="20" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+        <node begin="12" end="13" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="dinsdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dinsdag" sense="dinsdag" special="tmp" word="dinsdag"/>
+        <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(no_e(both))" graad="basis" his="compound" his_1="2" id="22" infl="no_e" lcat="ap" lemma="begrip_vol" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="begrip_vol" sense="begrip_vol" vform="adj" word="begripvol"/>
+        <node begin="14" end="15" frame="particle(op)" his="normal" his_1="normal" id="23" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Feestend door de stad na de match : Antwerpse politie stelt zich dinsdag begripvol op</sentence>
+  <comments>
+    <comment>Q#1|Feestend door de stad na de match : Antwerpse politie stelt zich dinsdag begripvol op|1|1|-1.6246266191099978</comment>
+  </comments>
+</alpino_ds>

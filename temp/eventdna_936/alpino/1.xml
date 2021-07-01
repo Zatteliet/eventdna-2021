@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="3" lcat="np" lemma="Gehersenspoelde" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="Gehersenspoelde" sense="Gehersenspoelde" word="Gehersenspoelde"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+        <node begin="2" cat="rel" end="6" id="5" rel="mod">
+          <node begin="2" case="no_obl" end="3" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="6" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="2" cat="ssub" end="6" id="7" rel="body">
+            <node begin="2" end="3" id="8" index="1" rel="su"/>
+            <node begin="3" end="4" frame="verb(zijn,pl,ninv(ld_pp,part_ld_pp(terug)))" his="normal" his_1="part-V" id="9" infl="pl" lcat="ssub" lemma="terug_keren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="keer_terug" sc="part_ld_pp(terug)" sense="keer_terug" tense="present" word="terugkeren" wvorm="pv"/>
+            <node begin="4" cat="pp" end="6" id="10" rel="ld">
+              <node begin="4" end="5" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="11" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+              <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="12" lcat="np" lemma="IS_gebied" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="IS_gebied" sense="IS_gebied" word="IS-gebied"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(unacc,pl,copula)" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="7" cat="ap" end="9" id="14" rel="predc">
+        <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="15" infl="no_e" lcat="ap" lemma="erg" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="erg" sense="erg" vform="adj" word="erg"/>
+        <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="16" infl="no_e" lcat="ap" lemma="gevaarlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="gevaarlijk" sense="gevaarlijk" vform="adj" word="gevaarlijk"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Gehersenspoelde kinderen die terugkeren uit IS-gebied zijn erg gevaarlijk</sentence>
+  <comments>
+    <comment>Q#1|Gehersenspoelde kinderen die terugkeren uit IS-gebied zijn erg gevaarlijk|1|1|-5.470513240060001</comment>
+  </comments>
+</alpino_ds>

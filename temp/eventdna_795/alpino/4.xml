@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="4" index="1" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="Hij"/>
+        <node begin="1" end="2" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werd" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="8" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="obj1"/>
+          <node begin="2" end="3" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="dinsdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dinsdag" sense="dinsdag" special="tmp" word="dinsdag"/>
+          <node begin="3" cat="pp" end="7" id="9" rel="mod">
+            <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="4" cat="np" end="7" id="11" rel="obj1">
+              <node begin="4" end="5" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="duidelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="duidelijk" sense="duidelijk" vform="adj" word="duidelijke"/>
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="meerderheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="meerderheid" sense="meerderheid" word="meerderheid"/>
+            </node>
+          </node>
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,transitive)" his="verbal_compound" his_1="normal" id="15" infl="psp" lcat="ppart" lemma="her_verkiezen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="her_verkies" sc="transitive" sense="her_verkies" word="herverkozen" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="15" id="16" rel="tag">
+        <node begin="9" end="10" frame="dip_sbar_adverb" his="normal" his_1="normal" id="17" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="su" root="zo" sc="dip_sbar" sense="zo" word="zo"/>
+        <node begin="10" end="11" frame="verb(unacc,sg3,pp_sbar_subj_no_het(uit))" his="normal" his_1="normal" id="18" infl="sg3" lcat="smain" lemma="blijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijk" sc="pp_sbar_subj_no_het(uit)" sense="blijk-uit" tense="present" word="blijkt" wvorm="pv"/>
+        <node begin="11" cat="pp" end="15" id="19" rel="pc">
+          <node begin="11" end="12" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="20" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="12" cat="np" end="15" id="21" rel="obj1">
+            <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="voorlopig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voorlopig" sense="voorlopig" vform="adj" word="voorlopige"/>
+            <node begin="14" end="15" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="resultaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="resultaat" sense="resultaat" word="resultaten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Hij werd dinsdag met een duidelijke meerderheid herverkozen , zo blijkt uit de voorlopige resultaten .</sentence>
+  <comments>
+    <comment>Q#4|Hij werd dinsdag met een duidelijke meerderheid herverkozen , zo blijkt uit de voorlopige resultaten .|1|1|-8.698165610370001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" rel="su">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="3" mwu_root="Vlaams Parlement" mwu_sense="Vlaams Parlement" rel="cnj">
+          <node begin="0" end="1" frame="proper_name(sg,'ORG')" id="4" lcat="np" lemma="Vlaams" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vlaams" sense="Vlaams" spectype="deeleigen" word="Vlaams"/>
+          <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="5" lcat="np" lemma="Parlement" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parlement" sense="Parlement" spectype="deeleigen" word="Parlement"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" frame="conj(en)" his="normal" his_1="normal" id="6" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="3" cat="np" end="5" id="7" rel="cnj">
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaamse"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="10" infl="pl" lcat="smain" lemma="kiezen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kies" sc="transitive" sense="kies" stype="declarative" tense="present" word="kiezen" wvorm="pv"/>
+      <node begin="6" cat="np" end="9" id="11" rel="obj1">
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="kant" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kant" sense="kant" word="kant"/>
+        <node begin="7" cat="pp" end="9" id="13" rel="mod">
+          <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="Catalaan" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="obj1" rnum="pl" root="Catalaan" sense="Catalaan" word="Catalanen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Vlaams Parlement en Vlaamse regering kiezen kant van Catalanen</sentence>
+  <comments>
+    <comment>Q#1|Vlaams Parlement en Vlaamse regering kiezen kant van Catalanen|1|1|-0.5384765036199997</comment>
+  </comments>
+</alpino_ds>

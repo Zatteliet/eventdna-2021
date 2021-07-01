@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="16" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="voorzitter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voorzitter" sense="voorzitter" word="voorzitter"/>
+        <node begin="2" cat="pp" end="6" id="7" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="mwu" end="6" his="name" his_1="not_begin" id="9" mwu_root="Amnesty International Turkije" mwu_sense="Amnesty International Turkije" rel="obj1">
+            <node begin="3" end="4" frame="proper_name(both,'ORG')" id="10" lcat="np" lemma="Amnesty" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Amnesty" sense="Amnesty" spectype="deeleigen" word="Amnesty"/>
+            <node begin="4" end="5" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="International" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="International" sense="International" spectype="deeleigen" word="International"/>
+            <node begin="5" end="6" frame="proper_name(both,'ORG')" id="12" lcat="np" lemma="Turkije" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Turkije" sense="Turkije" spectype="deeleigen" word="Turkije"/>
+          </node>
+        </node>
+        <node begin="7" cat="mwu" end="9" his="name" his_1="not_begin" id="13" mwu_root="Taner Kiliç" mwu_sense="Taner Kiliç" rel="app">
+          <node begin="7" end="8" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Taner" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Taner" sense="Taner" spectype="deeleigen" word="Taner"/>
+          <node begin="8" end="9" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Kiliç" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kiliç" sense="Kiliç" spectype="deeleigen" word="Kiliç"/>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" his="normal" his_1="normal" id="16" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+      <node begin="0" cat="inf" end="16" id="17" rel="vc">
+        <node begin="0" end="9" id="18" index="1" rel="su"/>
+        <node begin="11" end="12" frame="sentence_adverb" his="normal" his_1="normal" id="19" lcat="advp" lemma="echter" pos="adv" postag="BW()" pt="bw" rel="mod" root="echter" sense="echter" special="sentence" word="echter"/>
+        <node begin="12" cat="pp" end="15" id="20" rel="ld">
+          <node begin="12" end="13" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="13" cat="np" end="15" id="22" rel="obj1">
+            <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="cel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="cel" sense="cel" word="cel"/>
+          </node>
+        </node>
+        <node begin="15" buiging="zonder" end="16" frame="verb(unacc,inf,ld_pp)" his="normal" his_1="normal" id="25" infl="inf" lcat="inf" lemma="blijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="blijf" sc="ld_pp" sense="blijf" word="blijven" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">De voorzitter van Amnesty International Turkije , Taner Kiliç , moet echter in de cel blijven .</sentence>
+  <comments>
+    <comment>Q#4|De voorzitter van Amnesty International Turkije , Taner Kiliç , moet echter in de cel blijven .|1|1|-6.357689592260003</comment>
+  </comments>
+</alpino_ds>

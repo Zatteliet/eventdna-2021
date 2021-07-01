@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="tmp_adverb" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="advp" lemma="vanavond" pos="adv" postag="BW()" pt="bw" rel="mod" root="vanavond" sense="vanavond" special="tmp" word="Vanavond"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,part_intransitive(plaats))" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="plaats_vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind_plaats" sc="part_intransitive(plaats)" sense="vind_plaats" stype="declarative" tense="present" word="vindt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="5" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="6" mwu_root="New York" mwu_sense="New York" rel="obj1">
+          <node begin="3" end="4" frame="proper_name(sg,'LOC')" id="7" lcat="np" lemma="New" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="New" sense="New" spectype="deeleigen" word="New"/>
+          <node begin="4" end="5" frame="proper_name(sg,'LOC')" id="8" lcat="np" lemma="York" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="York" sense="York" spectype="deeleigen" word="York"/>
+        </node>
+      </node>
+      <node begin="5" cat="np" end="10" id="9" rel="su">
+        <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="11" lcat="np" lemma="spoed_vergadering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="spoed_vergadering" sense="spoed_vergadering" word="spoedvergadering"/>
+        <node begin="7" cat="pp" end="10" id="12" rel="mod">
+          <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="8" cat="np" end="10" id="14" rel="obj1">
+            <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="9" end="10" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="16" lcat="np" lemma="VN-Veiligheidsraad" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VN-Veiligheidsraad" sense="VN-Veiligheidsraad" word="VN-Veiligheidsraad"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="particle(plaats)" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="part" lemma="plaats" naamval="stan" ntype="soort" pos="part" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="plaats" sense="plaats" word="plaats"/>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="10">Vanavond vindt in New York een spoedvergadering van de VN-Veiligheidsraad plaats .</sentence>
+  <comments>
+    <comment>Q#10|Vanavond vindt in New York een spoedvergadering van de VN-Veiligheidsraad plaats .|1|1|-8.73505782814</comment>
+  </comments>
+</alpino_ds>

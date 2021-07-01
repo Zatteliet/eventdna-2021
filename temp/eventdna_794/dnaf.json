@@ -1,0 +1,1189 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_5",
+                        "entity_7"
+                    ],
+                    "coref_bucket_10": [
+                        "entity_22",
+                        "entity_18"
+                    ],
+                    "coref_bucket_11": [
+                        "entity_21",
+                        "entity_19"
+                    ],
+                    "coref_bucket_12": [
+                        "entity_25",
+                        "entity_23"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_6",
+                        "entity_2"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_3",
+                        "entity_8",
+                        "entity_14"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_9",
+                        "entity_16",
+                        "entity_4"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_10",
+                        "entity_1",
+                        "entity_5",
+                        "entity_7"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_10",
+                        "entity_5",
+                        "entity_20",
+                        "entity_7"
+                    ],
+                    "coref_bucket_7": [
+                        "entity_9",
+                        "entity_16",
+                        "entity_4",
+                        "entity_26"
+                    ],
+                    "coref_bucket_8": [
+                        "entity_10",
+                        "entity_20",
+                        "entity_7"
+                    ],
+                    "coref_bucket_9": [
+                        "entity_9",
+                        "entity_16",
+                        "entity_26"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_13": [
+                        "event_4",
+                        "event_2",
+                        "event_1"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Guatemala",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Guatemala",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    20
+                                ]
+                            },
+                            "string": "land",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            18,
+                            19,
+                            20
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Het Centraal-Amerikaanse land",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    19
+                                ]
+                            },
+                            "string": "Centraal-Amerikaanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            19
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Centraal-Amerikaanse",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    30,
+                                    31
+                                ]
+                            },
+                            "string": "Verenigde Staten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            30,
+                            31
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Verenigde Staten",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    34
+                                ]
+                            },
+                            "string": "ambassade",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de ambassade in Isra\u00ebl",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    36
+                                ]
+                            },
+                            "string": "Isra\u00ebl",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            36
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Isra\u00ebl",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    40,
+                                    41
+                                ]
+                            },
+                            "string": "Tel Aviv",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            40,
+                            41
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Tel Aviv",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    43
+                                ]
+                            },
+                            "string": "Jeruzalem",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            43
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Jeruzalem",
+                    "type": "entity"
+                },
+                "entity_17": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    55
+                                ]
+                            },
+                            "string": "burgers",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            54,
+                            55
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "onze burgers",
+                    "type": "entity"
+                },
+                "entity_18": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    59
+                                ]
+                            },
+                            "string": "Guatemalaanse",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            59
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Guatemalaanse",
+                    "type": "entity"
+                },
+                "entity_19": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    61,
+                                    62
+                                ]
+                            },
+                            "string": "Jimmy Morales",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            61,
+                            62
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Jimmy Morales",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "ambassade",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            2,
+                            3,
+                            4
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "ambassade in Isra\u00ebl",
+                    "type": "entity"
+                },
+                "entity_20": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    67
+                                ]
+                            },
+                            "string": "Guatemala",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            67
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Guatemala",
+                    "type": "entity"
+                },
+                "entity_21": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    75
+                                ]
+                            },
+                            "string": "Morales",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            75
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Morales",
+                    "type": "entity"
+                },
+                "entity_22": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    79
+                                ]
+                            },
+                            "string": "Guatemala",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            79
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Guatemala",
+                    "type": "entity"
+                },
+                "entity_23": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    86
+                                ]
+                            },
+                            "string": "Paraguay",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            86
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Paraguay",
+                    "type": "entity"
+                },
+                "entity_24": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    92
+                                ]
+                            },
+                            "string": "ambassade",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            91,
+                            92
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "zijn ambassade",
+                    "type": "entity"
+                },
+                "entity_25": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    91
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            91
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_26": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    94
+                                ]
+                            },
+                            "string": "Jeruzalem",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            94
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Jeruzalem",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "Isra\u00ebl",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            4
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Isra\u00ebl",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6
+                                ]
+                            },
+                            "string": "Jeruzalem",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Jeruzalem",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    7
+                                ]
+                            },
+                            "string": "Guatemala",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            7
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Guatemala",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    11
+                                ]
+                            },
+                            "string": "ambassade",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            9,
+                            10,
+                            11,
+                            12,
+                            13
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zijn nieuwe ambassade in Isra\u00ebl",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    9
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            9
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    13
+                                ]
+                            },
+                            "string": "Isra\u00ebl",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            13
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Isra\u00ebl",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "Jeruzalem",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Jeruzalem",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Guatemala"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        2,
+                                        3,
+                                        4
+                                    ]
+                                },
+                                "string": "ambassade in Isra\u00ebl"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        6
+                                    ]
+                                },
+                                "string": "Jeruzalem"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Guatemala verhuist ambassade in Isra\u00ebl naar Jeruzalem"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        7
+                                    ]
+                                },
+                                "string": "Guatemala"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        9,
+                                        10,
+                                        11,
+                                        12,
+                                        13
+                                    ]
+                                },
+                                "string": "zijn nieuwe ambassade in Isra\u00ebl"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        16
+                                    ]
+                                },
+                                "string": "Jeruzalem"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Guatemala heeft zijn nieuwe ambassade in Isra\u00ebl ingehuldigd in Jeruzalem"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        33,
+                                        34,
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "de ambassade in Isra\u00ebl"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        30,
+                                        31
+                                    ]
+                                },
+                                "string": "Verenigde Staten"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        40,
+                                        41
+                                    ]
+                                },
+                                "string": "Tel Aviv"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        43
+                                    ]
+                                },
+                                "string": "Jeruzalem"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "het controversi\u00eble voorbeeld van de Verenigde Staten om de ambassade in Isra\u00ebl te verhuizen van Tel Aviv naar Jeruzalem"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            64,
+                            65
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Unspecified",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "de openingsceremonie"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        94
+                                    ]
+                                },
+                                "string": "Jeruzalem"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        86
+                                    ]
+                                },
+                                "string": "Paraguay"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        91,
+                                        92
+                                    ]
+                                },
+                                "string": "zijn ambassade"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            85,
+                            86,
+                            87,
+                            88,
+                            89,
+                            90,
+                            91,
+                            92,
+                            93,
+                            94
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Future",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Ook Paraguay verhuist later deze maand zijn ambassade naar Jeruzalem"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000639",
+                            "diplomacy"
+                        ],
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+        ],
+        "token_string": "Guatemala verhuist ambassade in Isra\u00ebl naar Jeruzalem Guatemala heeft zijn nieuwe ambassade in Isra\u00ebl ingehuldigd in Jeruzalem . Het Centraal-Amerikaanse land volgt zo als eerste het controversi\u00eble voorbeeld van de Verenigde Staten om de ambassade in Isra\u00ebl te verhuizen van Tel Aviv naar Jeruzalem . Dit is een belangrijk moment voor de toekomst van onze burgers , zei de Guatemalaanse president Jimmy Morales tijdens de openingsceremonie . Guatemala heeft een moedige beslissing genomen , aldus Morales , die in Guatemala verdacht wordt van corruptie . Ook Paraguay verhuist later deze maand zijn ambassade naar Jeruzalem ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_794"
+    }
+}

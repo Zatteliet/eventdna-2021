@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="pp" end="4" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(op,[af,na])" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+        <node begin="1" cat="mwu" end="4" his="normal" his_1="date_expression" id="4" mwu_root="14 mei 1943" mwu_sense="14 mei 1943" rel="obj1">
+          <node begin="1" end="2" frame="tmp_np" id="5" lcat="np" lemma="14" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="14" sense="14" special="tmp" word="14"/>
+          <node begin="2" end="3" frame="tmp_np" genus="zijd" getal="ev" graad="basis" id="6" lcat="np" lemma="mei" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="mei" sense="mei" special="tmp" word="mei"/>
+          <node begin="3" end="4" frame="tmp_np" id="7" lcat="np" lemma="1943" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="1943" sense="1943" special="tmp" word="1943"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(zijn,past(sg),part_ld_pp(neer))" his="normal" his_1="normal" id="8" infl="sg" lcat="smain" lemma="neer_storten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="stort_neer" sc="part_ld_pp(neer)" sense="stort_neer" stype="declarative" tense="past" word="stortte" wvorm="pv"/>
+      <node begin="5" cat="np" end="8" id="9" rel="su">
+        <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="10" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="bommenwerper" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bommenwerper" sense="bommenwerper" word="bommenwerper"/>
+      </node>
+      <node begin="8" end="9" frame="particle(neer)" his="normal" his_1="normal" id="13" lcat="part" lemma="neer" pos="part" postag="BW()" pt="bw" rel="svp" root="neer" sense="neer" word="neer"/>
+      <node begin="9" cat="pp" end="11" id="14" rel="ld">
+        <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="16" lcat="np" lemma="Haasrode" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Haasrode" sense="Haasrode" word="Haasrode"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Op 14 mei 1943 stortte een Britse bommenwerper neer in Haasrode .</sentence>
+  <comments>
+    <comment>Q#3|Op 14 mei 1943 stortte een Britse bommenwerper neer in Haasrode .|1|1|-6.449672358920001</comment>
+  </comments>
+</alpino_ds>

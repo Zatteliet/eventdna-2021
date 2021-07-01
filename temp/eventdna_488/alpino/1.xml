@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="conj" end="9" id="1" rel="--">
+      <node begin="0" cat="smain" end="5" id="2" rel="cnj">
+        <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="3" index="1" mwu_root="Nitto Genk" mwu_sense="Nitto Genk" rel="su">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Nitto" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nitto" sense="Nitto" spectype="deeleigen" word="Nitto"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Genk" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Genk" sense="Genk" spectype="deeleigen" word="Genk"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="investeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="investeer" sc="transitive" sense="investeer" tense="present" word="investeert" wvorm="pv"/>
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="8" infl="pl_num" lcat="detp" lemma="12" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="12" sense="12" special="hoofd" word="12"/>
+          <node begin="4" end="5" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sense="miljoen" special="meas_mod" word="miljoen"/>
+        </node>
+      </node>
+      <node begin="5" conjtype="neven" end="6" frame="conj(maar)" his="normal" his_1="normal" id="10" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="0" cat="smain" end="9" id="11" rel="cnj">
+        <node begin="0" end="2" id="12" index="1" rel="su"/>
+        <node begin="6" end="7" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="13" infl="sg3" lcat="smain" lemma="schrappen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schrap" sc="transitive" sense="schrap" tense="present" word="schrapt" wvorm="pv"/>
+        <node begin="7" cat="np" end="9" id="14" rel="obj1">
+          <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="15" infl="pl_num" lcat="detp" lemma="25" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="25" sense="25" special="hoofd" word="25"/>
+          <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="job" sense="job" word="jobs"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Nitto Genk investeert 12 miljoen maar schrapt 25 jobs</sentence>
+  <comments>
+    <comment>Q#1|Nitto Genk investeert 12 miljoen maar schrapt 25 jobs|1|1|-3.461848547090001</comment>
+  </comments>
+</alpino_ds>

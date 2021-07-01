@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="ppart" end="9" id="1" rel="--">
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="2" infl="psp" lcat="ppart" lemma="op_pakken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="pak_op" sc="part_transitive(op)" sense="pak_op" word="opgepakt" wvorm="vd"/>
+      <node begin="0" cat="np" end="9" id="3" rel="obj1">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="e" lcat="ap" lemma="vermoedelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vermoedelijk" sense="vermoedelijk" vform="adj" word="Vermoedelijke"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="bestuurder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bestuurder" sense="bestuurder" word="bestuurder"/>
+        <node begin="3" cat="rel" end="9" id="6" rel="mod">
+          <node begin="3" case="no_obl" end="4" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="7" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="3" cat="ssub" end="9" id="8" rel="body">
+            <node begin="3" end="4" id="9" index="1" rel="su"/>
+            <node begin="4" end="5" frame="verb(zijn,past(sg),ninv(pc_pp(op),part_pc_pp(in,op)))" his="normal" his_1="part-V" id="10" infl="sg" lcat="ssub" lemma="in_rijden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="rijd_in" sc="part_pc_pp(in,op)" sense="rijd_in-op" tense="past" word="inreed" wvorm="pv"/>
+            <node begin="5" cat="pp" end="9" id="11" rel="pc">
+              <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="6" cat="np" end="9" id="13" rel="obj1">
+                <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="militair" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="militair" sense="militair" word="militairen"/>
+                <node begin="7" cat="pp" end="9" id="15" rel="mod">
+                  <node begin="7" end="8" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="8" end="9" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="Frankrijk" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Frankrijk" sense="Frankrijk" word="Frankrijk"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Vermoedelijke bestuurder opgepakt die inreed op militairen in Frankrijk</sentence>
+  <comments>
+    <comment>Q#1|Vermoedelijke bestuurder opgepakt die inreed op militairen in Frankrijk|1|1|-1.9716617564200016</comment>
+  </comments>
+</alpino_ds>

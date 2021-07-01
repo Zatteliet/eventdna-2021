@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="14" end="15" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="19" end="20" frame="punct(haak_open)" his="normal" his_1="normal" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="0" cat="smain" end="21" id="4" rel="--">
+      <node begin="1" end="2" frame="verb(hebben,pl,subj_control(pass_te))" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="subj_control(pass_te)" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+      <node begin="2" case="nom" def="def" end="3" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="6" index="1" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="we"/>
+      <node begin="0" cat="ti" end="21" id="7" rel="vc">
+        <node begin="3" end="4" frame="complementizer(te)" his="normal" his_1="normal" id="8" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="21" id="9" rel="body">
+          <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="10" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+          <node begin="2" end="3" id="11" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,np_pc_pp(aan))" his="normal" his_1="normal" id="12" infl="inf" lcat="inf" lemma="danken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dank" sc="np_pc_pp(aan)" sense="dank-aan" word="danken" wvorm="inf"/>
+          <node begin="5" cat="pp" end="21" id="13" rel="pc">
+            <node begin="5" end="6" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="14" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+            <node begin="6" cat="conj" end="21" id="15" rel="obj1">
+              <node begin="15" conjtype="neven" end="16" frame="conj(en)" his="normal" his_1="normal" id="16" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="6" cat="np" end="21" id="17" rel="cnj">
+                <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="18" index="2" infl="no_e" lcat="ap" lemma="Vlaams" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaams"/>
+                <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+                <node begin="8" cat="pp" end="12" id="20" rel="mod">
+                  <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="9" cat="mwu" end="12" his="name" his_1="not_begin" id="22" mwu_root="Mobiliteit Ben Weyts" mwu_sense="Mobiliteit Ben Weyts" rel="obj1">
+                    <node begin="9" end="10" frame="proper_name(both,'ORG')" id="23" lcat="np" lemma="Mobiliteit" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mobiliteit" sense="Mobiliteit" spectype="deeleigen" word="Mobiliteit"/>
+                    <node begin="10" end="11" frame="proper_name(both,'ORG')" id="24" lcat="np" lemma="Ben" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ben" sense="Ben" spectype="deeleigen" word="Ben"/>
+                    <node begin="11" end="12" frame="proper_name(both,'ORG')" id="25" lcat="np" lemma="Weyts" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Weyts" sense="Weyts" spectype="deeleigen" word="Weyts"/>
+                  </node>
+                </node>
+                <node begin="13" end="14" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="26" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+                <node begin="17" cat="mwu" end="19" his="normal" his_1="names_dictionary" id="27" index="3" mwu_root="Geert Bourgeois" mwu_sense="Geert Bourgeois" rel="app">
+                  <node begin="17" end="18" frame="proper_name(sg,'PER')" id="28" lcat="np" lemma="Geert" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Geert" sense="Geert" spectype="deeleigen" word="Geert"/>
+                  <node begin="18" end="19" frame="proper_name(sg,'PER')" id="29" lcat="np" lemma="Bourgeois" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bourgeois" sense="Bourgeois" spectype="deeleigen" word="Bourgeois"/>
+                </node>
+                <node begin="20" end="21" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="30" index="4" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+              </node>
+              <node begin="6" cat="np" end="21" id="31" rel="cnj">
+                <node begin="6" end="7" id="32" index="2" rel="mod"/>
+                <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="33" lcat="np" lemma="minister_president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister_president" sense="minister_president" word="minister-president"/>
+                <node begin="17" end="19" id="34" index="3" rel="app"/>
+                <node begin="20" end="21" id="35" index="4" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(haak_sluit)" his="normal" his_1="normal" id="36" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="37" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Dat hebben we te danken aan Vlaams minister van Mobiliteit Ben Weyts ( N-VA ) en minister-president Geert Bourgeois ( N-VA ) .</sentence>
+  <comments>
+    <comment>Q#6|Dat hebben we te danken aan Vlaams minister van Mobiliteit Ben Weyts ( N-VA ) en minister-president Geert Bourgeois ( N-VA ) .|1|1|-10.43409870436</comment>
+  </comments>
+</alpino_ds>

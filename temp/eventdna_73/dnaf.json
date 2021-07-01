@@ -1,0 +1,1628 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_3",
+                        "entity_6",
+                        "entity_1"
+                    ],
+                    "coref_bucket_10": [
+                        "entity_18",
+                        "entity_13",
+                        "entity_16",
+                        "entity_11"
+                    ],
+                    "coref_bucket_11": [
+                        "entity_18",
+                        "entity_13",
+                        "entity_16",
+                        "entity_20"
+                    ],
+                    "coref_bucket_12": [
+                        "entity_18",
+                        "entity_24",
+                        "entity_16",
+                        "entity_20"
+                    ],
+                    "coref_bucket_13": [
+                        "entity_19",
+                        "entity_22",
+                        "entity_15"
+                    ],
+                    "coref_bucket_14": [
+                        "entity_18",
+                        "entity_24",
+                        "entity_20"
+                    ],
+                    "coref_bucket_15": [
+                        "entity_23",
+                        "entity_21"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_8",
+                        "entity_3",
+                        "entity_6",
+                        "entity_1"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_12",
+                        "entity_2",
+                        "entity_7"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_12",
+                        "entity_2",
+                        "entity_7",
+                        "entity_15"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_8",
+                        "entity_3",
+                        "entity_6",
+                        "entity_11"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_8",
+                        "entity_13",
+                        "entity_11",
+                        "entity_6"
+                    ],
+                    "coref_bucket_7": [
+                        "entity_8",
+                        "entity_13",
+                        "entity_16",
+                        "entity_11"
+                    ],
+                    "coref_bucket_8": [
+                        "entity_12",
+                        "entity_7",
+                        "entity_15",
+                        "entity_19"
+                    ],
+                    "coref_bucket_9": [
+                        "entity_19",
+                        "entity_12",
+                        "entity_22",
+                        "entity_15"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_16": [
+                        "event_2",
+                        "event_5"
+                    ],
+                    "coref_bucket_17": [
+                        "event_1",
+                        "event_3"
+                    ],
+                    "coref_bucket_18": [
+                        "event_11",
+                        "event_4"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "man die ex-vriendin stalkte",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    37
+                                ]
+                            },
+                            "string": "hun",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            37
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "hun",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    42
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            42
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    43
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            43
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    53
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            53
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    55
+                                ]
+                            },
+                            "string": "woning",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            54,
+                            55
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "haar woning",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    54
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            54
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    59
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            59
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_17": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    70
+                                ]
+                            },
+                            "string": "kinderen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            69,
+                            70
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "de kinderen",
+                    "type": "entity"
+                },
+                "entity_18": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    76
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            76
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_19": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    85
+                                ]
+                            },
+                            "string": "ex.",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            84,
+                            85
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "zijn ex.",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "ex-vriendin",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            4
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "ex-vriendin",
+                    "type": "entity"
+                },
+                "entity_20": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    84
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            84
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_21": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    87
+                                ]
+                            },
+                            "string": "vriendin",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            86,
+                            87,
+                            88,
+                            89,
+                            90,
+                            91
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Een vriendin die naast haar zat",
+                    "type": "entity"
+                },
+                "entity_22": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    90
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            90
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_23": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    97
+                                ]
+                            },
+                            "string": "haar",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            97
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "haar",
+                    "type": "entity"
+                },
+                "entity_24": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    101
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            100,
+                            101
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "De man",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    6,
+                                    7
+                                ]
+                            },
+                            "string": "Sven S.",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            6,
+                            7
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Sven S.",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    12
+                                ]
+                            },
+                            "string": "Balen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            12
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Balen",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16
+                                ]
+                            },
+                            "string": "rechter",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            15,
+                            16
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "de rechter",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    24
+                                ]
+                            },
+                            "string": "man",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            23,
+                            24
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De man",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    32
+                                ]
+                            },
+                            "string": "ex-vriendin",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            31,
+                            32
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "zijn ex-vriendin",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    31
+                                ]
+                            },
+                            "string": "zijn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            31
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "zijn",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    34
+                                ]
+                            },
+                            "string": "Meerhout",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            34
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Meerhout",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "InvestigationTarget",
+                                    "span": [
+                                        2,
+                                        3,
+                                        4,
+                                        5
+                                    ]
+                                },
+                                "string": "man die ex-vriendin stalkte"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "subtype": "Investigation",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Onderzoek naar man die ex-vriendin stalkte"
+                },
+                "event_10": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        86,
+                                        87,
+                                        88,
+                                        89,
+                                        90,
+                                        91
+                                    ]
+                                },
+                                "string": "Een vriendin die naast haar zat"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        94,
+                                        95
+                                    ]
+                                },
+                                "string": "de steen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            86,
+                            87,
+                            88,
+                            89,
+                            90,
+                            91,
+                            92,
+                            93,
+                            94,
+                            95,
+                            96,
+                            97,
+                            98
+                        ],
+                        "subtype": "Injure",
+                        "tense": "Past",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Een vriendin die naast haar zat , kreeg de steen op haar benen"
+                },
+                "event_11": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "crime",
+                                    "argument_role": "Crime",
+                                    "span": [
+                                        108,
+                                        109,
+                                        110,
+                                        111,
+                                        112,
+                                        113,
+                                        114,
+                                        115
+                                    ]
+                                },
+                                "string": "de diefstal van bakken bier en een tractor"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        100,
+                                        101
+                                    ]
+                                },
+                                "string": "De man"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            100,
+                            101,
+                            102,
+                            103,
+                            104,
+                            105,
+                            106,
+                            107,
+                            108,
+                            109,
+                            110,
+                            111,
+                            112,
+                            113,
+                            114,
+                            115
+                        ],
+                        "subtype": "ChargeIndict",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "De man stond daarnaast ook nog terecht voor de diefstal van bakken bier en een tractor"
+                },
+                "event_12": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        114,
+                                        115
+                                    ]
+                                },
+                                "string": "een tractor"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        111,
+                                        112
+                                    ]
+                                },
+                                "string": "bakken bier"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            108,
+                            109,
+                            110,
+                            111,
+                            112,
+                            113,
+                            114,
+                            115
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Unspecified",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "de diefstal van bakken bier en een tractor"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        2,
+                                        3,
+                                        4,
+                                        5
+                                    ]
+                                },
+                                "string": "man die ex-vriendin stalkte"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            2,
+                            3,
+                            4,
+                            5
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "man die ex-vriendin stalkte"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "InvestigationTarget",
+                                    "span": [
+                                        6,
+                                        7
+                                    ]
+                                },
+                                "string": "Sven S."
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            6,
+                            7,
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21
+                        ],
+                        "subtype": "Investigation",
+                        "tense": "Present",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Sven S. ( 35 ) uit Balen moet van de rechter een maatschappelijk onderzoek laten uitvoeren"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "crime",
+                                    "argument_role": "Crime",
+                                    "span": [
+                                        28,
+                                        29,
+                                        30,
+                                        31,
+                                        32
+                                    ]
+                                },
+                                "string": "zware belaging van zijn ex-vriendin"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        23,
+                                        24
+                                    ]
+                                },
+                                "string": "De man"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        34
+                                    ]
+                                },
+                                "string": "Meerhout"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34
+                        ],
+                        "subtype": "ChargeIndict",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "De man stond terecht voor zware belaging van zijn ex-vriendin in Meerhout"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        31,
+                                        32
+                                    ]
+                                },
+                                "string": "zijn ex-vriendin"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            28,
+                            29,
+                            30,
+                            31,
+                            32
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "zware belaging van zijn ex-vriendin"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        36,
+                                        37,
+                                        38,
+                                        39,
+                                        40
+                                    ]
+                                },
+                                "string": "Na hun relatiebreuk in 2015"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        42
+                                    ]
+                                },
+                                "string": "hij"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45,
+                            46,
+                            47
+                        ],
+                        "subtype": "Correspondence",
+                        "tense": "Past",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Na hun relatiebreuk in 2015 zou hij haar 4.000 sms'jes hebben gestuurd"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        54,
+                                        55
+                                    ]
+                                },
+                                "string": "haar woning"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        53
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        50,
+                                        51
+                                    ]
+                                },
+                                "string": "juli 2015"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55,
+                            56
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Past",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "In juli 2015 drong hij haar woning binnen"
+                },
+                "event_8": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Beneficiary",
+                                    "span": [
+                                        59
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Recipient",
+                                    "span": [
+                                        59
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "money",
+                                    "argument_role": "Money",
+                                    "span": [
+                                        62,
+                                        63
+                                    ]
+                                },
+                                "string": "925 euro"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            58,
+                            59,
+                            60,
+                            61,
+                            62,
+                            63,
+                            64,
+                            65,
+                            66,
+                            67,
+                            68,
+                            69,
+                            70
+                        ],
+                        "subtype": "TransferMoney",
+                        "tense": "Past",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "nam hij onder meer 925 euro mee , het spaargeld van de kinderen"
+                },
+                "event_9": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        76
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        72,
+                                        73,
+                                        74
+                                    ]
+                                },
+                                "string": "Eind juli 2015"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        77,
+                                        78
+                                    ]
+                                },
+                                "string": "een steen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        84,
+                                        85
+                                    ]
+                                },
+                                "string": "zijn ex."
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            72,
+                            73,
+                            74,
+                            75,
+                            76,
+                            77,
+                            78,
+                            79,
+                            80,
+                            81,
+                            82,
+                            83,
+                            84,
+                            85
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Eind juli 2015 gooide hij een steen door de rijdende auto van zijn ex."
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000803",
+                            "abusive behaviour"
+                        ],
+                        [
+                            "medtop:20000802",
+                            "social problem"
+                        ],
+                        [
+                            "medtop:14000000",
+                            "society"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000104",
+                            "theft"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000084",
+                            "assault"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000111",
+                            "trial (court)"
+                        ],
+                        [
+                            "medtop:20000107",
+                            "court"
+                        ],
+                        [
+                            "medtop:20000106",
+                            "judiciary"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000125",
+                            "criminal law"
+                        ],
+                        [
+                            "medtop:20000121",
+                            "law"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99
+                ]
+            },
+            "sentence_7": {
+                "token_ids": [
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116
+        ],
+        "token_string": "Onderzoek naar man die ex-vriendin stalkte Sven S. ( 35 ) uit Balen moet van de rechter een maatschappelijk onderzoek laten uitvoeren . De man stond terecht voor zware belaging van zijn ex-vriendin in Meerhout . Na hun relatiebreuk in 2015 zou hij haar 4.000 sms'jes hebben gestuurd . In juli 2015 drong hij haar woning binnen en nam hij onder meer 925 euro mee , het spaargeld van de kinderen . Eind juli 2015 gooide hij een steen door de rijdende auto van zijn ex. Een vriendin die naast haar zat , kreeg de steen op haar benen . De man stond daarnaast ook nog terecht voor de diefstal van bakken bier en een tractor ."
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_73"
+    }
+}

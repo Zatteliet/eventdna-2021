@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="tag">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="Vlaming" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Vlaming" sense="Vlaming" word="Vlaming"/>
+        <node begin="1" cat="pp" end="3" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="Mexico" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Mexico" sense="Mexico" word="Mexico"/>
+        </node>
+      </node>
+      <node begin="4" cat="sv1" end="9" id="8" rel="nucl">
+        <node begin="4" end="5" frame="verb(hebben,past(sg),tr_sbar)" his="normal" his_1="decap" his_1_1="normal" id="9" infl="sg" lcat="sv1" lemma="denken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="denk" sc="tr_sbar" sense="denk" stype="topic_drop" tense="past" word="Dacht" wvorm="pv"/>
+        <node begin="5" cat="cp" end="9" id="10" rel="vc">
+          <node begin="5" conjtype="onder" end="6" frame="complementizer(dat)" his="normal" his_1="normal" id="11" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="6" cat="ssub" end="9" id="12" rel="body">
+            <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" his="normal" his_1="normal" id="13" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+            <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="duizelig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="duizelig" sense="duizelig" vform="adj" word="duizelig"/>
+            <node begin="8" end="9" frame="verb(unacc,past(sg),copula)" his="normal" his_1="normal" id="15" infl="sg" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="copula" sense="word" tense="past" word="werd" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Vlaming in Mexico : Dacht dat ik duizelig werd</sentence>
+  <comments>
+    <comment>Q#1|Vlaming in Mexico : Dacht dat ik duizelig werd|1|1|-0.8207657215200019</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="ppart" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="regel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="regel" sense="regel" word="Regels"/>
+      <node begin="1" cat="pp" end="4" id="3" rel="mod">
+        <node begin="1" end="2" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="4" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+        <node begin="2" cat="np" end="4" id="5" rel="obj1">
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="sociaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sociaal" sense="sociaal" vform="adj" word="sociale"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="dumping" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dumping" sense="dumping" word="dumping"/>
+        </node>
+      </node>
+      <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,ninv(transitive,part_transitive(aan)))" his="normal" his_1="part-V" id="8" infl="psp" lcat="ppart" lemma="aan_scherpen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="scherp_aan" sc="part_transitive(aan)" sense="scherp_aan" word="aangescherpt" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Regels tegen sociale dumping aangescherpt</sentence>
+  <comments>
+    <comment>Q#1|Regels tegen sociale dumping aangescherpt|1|1|-1.228279434180001</comment>
+  </comments>
+</alpino_ds>

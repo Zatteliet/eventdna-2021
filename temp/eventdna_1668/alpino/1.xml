@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="1" cat="smain" end="7" id="2" rel="--">
+      <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" index="1" lcat="np" lemma="EU" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="EU" sense="EU" word="EU"/>
+      <node begin="2" end="3" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" his="normal" his_1="normal" id="4" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+      <node begin="1" cat="inf" end="7" id="5" rel="vc">
+        <node begin="1" end="2" id="6" index="1" rel="su"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf,modifier(aux(inf)))" his="normal" his_1="normal" id="7" infl="inf" lcat="inf" lemma="willen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" word="willen" wvorm="inf"/>
+        <node begin="1" cat="inf" end="7" id="8" rel="vc">
+          <node begin="1" end="2" id="9" index="1" rel="su"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="democratie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="democratie" sense="democratie" word="democratie"/>
+          <node begin="4" end="5" frame="adverb" his="normal" his_1="normal" id="11" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="12" infl="inf" lcat="inf" lemma="op_leggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leg_op" sc="part_transitive(op)" sense="leg_op" word="opleggen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="13" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">&apos; EU moet democratie niet willen opleggen &apos;</sentence>
+  <comments>
+    <comment>Q#1|&apos; EU moet democratie niet willen opleggen &apos;|1|1|-7.288929506279999</comment>
+  </comments>
+</alpino_ds>

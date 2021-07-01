@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" cat="np" end="11" id="3" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="Nieuwe"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="wending" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wending" sense="wending" word="wending"/>
+        <node begin="2" cat="pp" end="11" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="3" cat="np" end="11" id="8" rel="obj1">
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="affaire" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="affaire" sense="affaire" word="affaire"/>
+            <node begin="4" cat="pp" end="11" id="10" rel="mod">
+              <node begin="4" end="5" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="11" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+              <node begin="5" cat="conj" end="11" id="12" rel="obj1">
+                <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="13" lcat="np" lemma="Trump" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Trump" sense="Trump" word="Trump"/>
+                <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="7" cat="np" end="11" id="15" rel="cnj">
+                  <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="16" lcat="np" lemma="porno_ster" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="porno_ster" sense="porno_ster" word="pornoster"/>
+                  <node begin="9" cat="mwu" end="11" his="name" his_1="begin" id="17" mwu_root="Stormy Daniels" mwu_sense="Stormy Daniels" rel="app">
+                    <node begin="9" end="10" frame="proper_name(both,'PER')" id="18" lcat="np" lemma="Stormy" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Stormy" sense="Stormy" spectype="deeleigen" word="Stormy"/>
+                    <node begin="10" end="11" frame="proper_name(both,'PER')" id="19" lcat="np" lemma="Daniels" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Daniels" sense="Daniels" spectype="deeleigen" word="Daniels"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="20" infl="sg3" lcat="smain" lemma="reageren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="reageer" sc="intransitive" sense="reageer" stype="declarative" tense="present" word="reageert" wvorm="pv"/>
+      <node begin="12" cat="mwu" end="15" his="normal" his_1="normal" id="21" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+        <node aform="base" begin="12" end="13" frame="adjective(pred(adv))" id="22" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="voor"/>
+        <node aform="base" begin="13" end="14" frame="adjective(pred(adv))" id="23" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+        <node aform="base" begin="14" end="15" frame="adjective(pred(adv))" getal-n="zonder-n" id="24" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+      </node>
+      <node begin="15" end="16" frame="predm_adverb" his="normal" his_1="normal" id="25" lcat="advp" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="predm" root="zelf" sense="zelf" special="predm" word="zelf"/>
+    </node>
+  </node>
+  <sentence sentid="1">Nieuwe wending in affaire tussen Trump en pornoster : Stormy Daniels reageert voor het eerst zelf</sentence>
+  <comments>
+    <comment>Q#1|Nieuwe wending in affaire tussen Trump en pornoster : Stormy Daniels reageert voor het eerst zelf|1|1|1.4105378896099994</comment>
+  </comments>
+</alpino_ds>

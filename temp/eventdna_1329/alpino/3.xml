@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" his="name" his_1="begin" id="2" index="1" mwu_root="Beklaagde Fadil B." mwu_sense="Beklaagde Fadil B." rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Beklaagde" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Beklaagde" sense="Beklaagde" spectype="deeleigen" word="Beklaagde"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Fadil" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Fadil" sense="Fadil" spectype="deeleigen" word="Fadil"/>
+        <node begin="2" end="3" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="B." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="B." sense="B." spectype="deeleigen" word="B."/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),aux_psp_hebben)" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="14" id="7" rel="vc">
+        <node begin="0" end="3" id="8" index="1" rel="su"/>
+        <node begin="4" end="5" frame="er_adverb(na)" his="normal" his_1="normal" id="9" lcat="pp" lemma="daarna" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarna" sense="daarna" special="er" word="daarna"/>
+        <node begin="5" cat="np" end="7" id="10" index="2" rel="obj1">
+          <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="auto_bestuurder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="auto_bestuurder" sense="auto_bestuurder" word="autobestuurder"/>
+        </node>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,np_vp_obj1)" his="normal" his_1="normal" id="13" infl="psp" lcat="ppart" lemma="dwingen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dwing" sc="np_vp_obj1" sense="dwing" word="gedwongen" wvorm="vd"/>
+        <node begin="5" cat="oti" end="14" id="14" rel="vc">
+          <node begin="8" end="9" frame="complementizer(om)" his="normal" his_1="normal" id="15" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="5" cat="ti" end="14" id="16" rel="body">
+            <node begin="12" end="13" frame="complementizer(te)" his="normal" his_1="normal" id="17" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="5" cat="inf" end="14" id="18" rel="body">
+              <node begin="5" end="7" id="19" index="2" rel="su"/>
+              <node begin="9" case="dat_acc" def="def" end="10" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="20" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+              <node begin="10" cat="pp" end="12" id="21" rel="ld">
+                <node begin="10" end="11" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="22" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+                <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="23" lcat="np" lemma="Berchem" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Berchem" sense="Berchem" word="Berchem"/>
+              </node>
+              <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,np_ld_pp)" his="normal" his_1="normal" id="24" infl="inf" lcat="inf" lemma="rijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="rijd" sc="np_ld_pp" sense="rijd" word="rijden" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Beklaagde Fadil B. had daarna een autobestuurder gedwongen om hem naar Berchem te rijden .</sentence>
+  <comments>
+    <comment>Q#3|Beklaagde Fadil B. had daarna een autobestuurder gedwongen om hem naar Berchem te rijden .|1|1|-10.96667032264</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="Minister"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="4" lcat="np" lemma="Ducarme" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Ducarme" sense="Ducarme" word="Ducarme"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,part_np_np(op))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="op_leggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leg_op" sc="part_np_np(op)" sense="leg_op" stype="declarative" tense="present" word="legt" wvorm="pv"/>
+      <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="cap" id="6" lcat="np" lemma="Voedselagentschap" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj2" rnum="sg" root="Voedselagentschap" sense="Voedselagentschap" word="voedselagentschap"/>
+      <node begin="4" cat="np" end="6" id="7" rel="obj1">
+        <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="part-V" id="8" infl="e" lcat="ppres" lemma="bij_komen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="kom_bij" sense="kom_bij" vform="gerund" word="bijkomende" wvorm="od"/>
+        <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="controle" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="controle" sense="controle" word="controles"/>
+      </node>
+      <node begin="6" end="7" frame="particle(op)" his="normal" his_1="normal" id="10" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="7" cat="pp" end="9" id="11" rel="mod">
+        <node begin="7" end="8" frame="preposition(na,[])" his="normal" his_1="normal" id="12" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="13" lcat="np" lemma="slachthuis_fraude" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="slachthuis_fraude" sense="slachthuis_fraude" word="slachthuisfraude"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Minister Ducarme legt voedselagentschap bijkomende controles op na slachthuisfraude</sentence>
+  <comments>
+    <comment>Q#1|Minister Ducarme legt voedselagentschap bijkomende controles op na slachthuisfraude|1|1|-2.2934775654100035</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="dp">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Saoedisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Saoedisch" sense="Saoedisch" vform="adj" word="Saudische"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="prins" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="prins" sense="prins" word="prins"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg,ld_pp)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" sc="ld_pp" sense="zit" stype="declarative" tense="present" word="zit" wvorm="pv"/>
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="8" infl="both" lcat="ppart" lemma="gevangen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gevangen" sense="gevangen" vform="psp" word="gevangen" wvorm="vd"/>
+        <node begin="4" cat="pp" end="6" id="9" rel="ld">
+          <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="hotel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="hotel" sense="hotel" word="hotel"/>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="13" id="12" rel="dp">
+        <node begin="7" cat="np" end="10" id="13" index="1" rel="su">
+          <node begin="7" end="8" frame="modal_adverb" his="normal" his_1="normal" id="14" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mod" root="alleen" sc="modal" sense="alleen" word="alleen"/>
+          <node begin="8" cat="mwu" end="10" his="normal" his_1="names_dictionary" id="15" mwu_root="Bill Gates" mwu_sense="Bill Gates" rel="hd">
+            <node begin="8" end="9" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Bill" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bill" sense="Bill" spectype="deeleigen" word="Bill"/>
+            <node begin="9" end="10" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Gates" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gates" sense="Gates" spectype="deeleigen" word="Gates"/>
+          </node>
+        </node>
+        <node begin="10" end="11" frame="verb(hebben,sg3,subj_control(te_inf))" his="normal" his_1="normal" id="18" infl="sg3" lcat="smain" lemma="durven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="durf" sc="subj_control(te_inf)" sense="durf" stype="declarative" tense="present" word="durft" wvorm="pv"/>
+        <node begin="7" cat="inf" end="13" id="19" rel="vc">
+          <node begin="7" end="10" id="20" index="1" rel="su"/>
+          <node begin="11" case="dat_acc" def="def" end="12" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="21" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+          <node begin="12" buiging="zonder" end="13" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="22" infl="inf" lcat="inf" lemma="steunen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="steun" sc="transitive" sense="steun" word="steunen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Saudische prins zit gevangen in hotel , alleen Bill Gates durft hem steunen</sentence>
+  <comments>
+    <comment>Q#1|Saudische prins zit gevangen in hotel , alleen Bill Gates durft hem steunen|1|1|-1.3954969272199982</comment>
+  </comments>
+</alpino_ds>

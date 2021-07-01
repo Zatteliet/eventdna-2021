@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="0" cat="smain" end="25" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Frans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans" sense="Frans" vform="adj" word="Franse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+        <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="6" mwu_root="Emmanuel Macron" mwu_sense="Emmanuel Macron" rel="app">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Emmanuel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Emmanuel" sense="Emmanuel" spectype="deeleigen" word="Emmanuel"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Macron" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Macron" sense="Macron" spectype="deeleigen" word="Macron"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="9" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="25" id="10" rel="vc">
+        <node begin="0" end="5" id="11" index="1" rel="su"/>
+        <node begin="6" end="7" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="zondag_avond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zondag_avond" sense="zondag_avond" special="tmp" word="zondagavond"/>
+        <node begin="7" cat="np" end="12" id="13" rel="obj1">
+          <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="bondskanselier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bondskanselier" sense="bondskanselier" word="bondskanselier"/>
+          <node begin="10" cat="mwu" end="12" his="normal" his_1="names_dictionary" id="17" mwu_root="Angela Merkel" mwu_sense="Angela Merkel" rel="app">
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Angela" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Angela" sense="Angela" spectype="deeleigen" word="Angela"/>
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Merkel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Merkel" sense="Merkel" spectype="deeleigen" word="Merkel"/>
+          </node>
+        </node>
+        <node begin="12" buiging="zonder" end="13" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="20" infl="psp" lcat="ppart" lemma="feliciteren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="feliciteer" sc="transitive" sense="feliciteer" word="gefeliciteerd" wvorm="vd"/>
+        <node begin="13" cat="pp" end="25" id="21" rel="mod">
+          <node begin="13" end="14" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="22" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="14" cat="np" end="25" id="23" rel="obj1">
+            <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="overwinning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overwinning" sense="overwinning" word="overwinning"/>
+            <node begin="16" cat="pp" end="21" id="26" rel="mod">
+              <node begin="16" end="17" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="27" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="17" cat="np" end="21" id="28" rel="obj1">
+                <node begin="17" end="18" frame="determiner(de)" his="normal" his_1="normal" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="18" cat="mwu" end="21" his="normal" his_1="names_dictionary" id="30" mwu_root="CDU / CSU" mwu_sense="CDU / CSU" rel="hd">
+                  <node begin="18" end="19" frame="proper_name(sg,'ORG')" id="31" lcat="np" lemma="CDU" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CDU" sense="CDU" spectype="deeleigen" word="CDU"/>
+                  <node begin="19" end="20" frame="proper_name(sg,'ORG')" id="32" lcat="np" lemma="/" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="/" sense="/" spectype="deeleigen" word="/"/>
+                  <node begin="20" end="21" frame="proper_name(sg,'ORG')" id="33" lcat="np" lemma="CSU" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CSU" sense="CSU" spectype="deeleigen" word="CSU"/>
+                </node>
+              </node>
+            </node>
+            <node begin="21" cat="pp" end="25" id="34" rel="mod">
+              <node begin="21" end="22" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="35" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+              <node begin="22" cat="np" end="25" id="36" rel="obj1">
+                <node begin="22" end="23" frame="determiner(de)" his="normal" his_1="normal" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="23" buiging="met-e" end="24" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="38" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+                <node begin="24" end="25" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="parlement_verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="parlement_verkiezing" sense="parlement_verkiezing" special="tmp" word="parlementsverkiezingen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De Franse president Emmanuel Macron heeft zondagavond de Duitse bondskanselier Angela Merkel gefeliciteerd voor de overwinning van de CDU / CSU bij de Duitse parlementsverkiezingen .</sentence>
+  <comments>
+    <comment>Q#2|De Franse president Emmanuel Macron heeft zondagavond de Duitse bondskanselier Angela Merkel gefeliciteerd voor de overwinning van de CDU / CSU bij de Duitse parlementsverkiezingen .|1|1|-7.384851268749999</comment>
+  </comments>
+</alpino_ds>

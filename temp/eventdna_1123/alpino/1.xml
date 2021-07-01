@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="np" end="6" id="3" rel="tag">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="e" lcat="ap" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="Internationale"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="bende" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bende" sense="bende" word="bende"/>
+        <node begin="2" cat="ppart" end="6" id="6" rel="mod">
+          <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(ge_no_e(padv),pp(aan))" his="normal" his_1="normal" id="7" infl="no_e" lcat="ppart" lemma="gelinkt" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gelinkt" sc="pp(aan)" sense="gelinkt-aan" vform="psp" word="gelinkt" wvorm="vd"/>
+          <node begin="3" cat="pp" end="6" id="8" rel="pc">
+            <node begin="3" end="4" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="9" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+            <node begin="4" cat="np" end="6" id="10" rel="obj1">
+              <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="11" infl="pl_num" lcat="detp" lemma="107" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="107" sense="107" special="hoofd" word="107"/>
+              <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="auto_diefstal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="auto_diefstal" sense="auto_diefstal" word="autodiefstallen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="ppart" end="11" id="13" rel="nucl">
+        <node begin="7" cat="np" end="9" id="14" rel="mod">
+          <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="15" infl="pl_num" lcat="detp" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" sense="vijf" special="hoofd" word="vijf"/>
+          <node begin="8" end="9" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+        </node>
+        <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="cel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="cel" sense="cel" word="cel"/>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="18" infl="psp" lcat="ppart" lemma="vorderen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vorder" sc="transitive" sense="vorder" word="gevorderd" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Internationale bende gelinkt aan 107 autodiefstallen : vijf jaar cel gevorderd</sentence>
+  <comments>
+    <comment>Q#1|Internationale bende gelinkt aan 107 autodiefstallen : vijf jaar cel gevorderd|1|1|2.0562455114400033</comment>
+  </comments>
+</alpino_ds>

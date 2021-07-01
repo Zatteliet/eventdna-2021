@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="23" id="2" rel="--">
+      <node begin="0" cat="smain" end="17" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="mod">
+          <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" infl="no_e" lcat="ap" lemma="vorig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vorig" sense="vorig" vform="adj" word="Vorig"/>
+          <node begin="1" end="2" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" sc="transitive" sense="krijg" stype="declarative" tense="past" word="kreeg" wvorm="pv"/>
+        <node begin="3" cat="np" end="8" id="8" rel="su">
+          <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="9" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="4" cat="mwu" end="8" his="normal" his_1="names_dictionary" id="10" mwu_root="Ministerie van Buitenlandse Zaken" mwu_sense="Ministerie van Buitenlandse Zaken" rel="hd">
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="Ministerie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ministerie" sense="Ministerie" spectype="deeleigen" word="Ministerie"/>
+            <node begin="5" end="6" frame="proper_name(sg,'ORG')" id="12" lcat="np" lemma="van" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="van" sense="van" spectype="deeleigen" word="van"/>
+            <node begin="6" end="7" frame="proper_name(sg,'ORG')" id="13" lcat="np" lemma="Buitenlandse" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Buitenlandse" sense="Buitenlandse" spectype="deeleigen" word="Buitenlandse"/>
+            <node begin="7" end="8" frame="proper_name(sg,'ORG')" id="14" lcat="np" lemma="Zaken" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zaken" sense="Zaken" spectype="deeleigen" word="Zaken"/>
+          </node>
+        </node>
+        <node begin="8" cat="np" end="17" id="15" rel="obj1">
+          <node begin="8" end="9" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="16" infl="pl_num" lcat="detp" lemma="617" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="617" sense="617" special="hoofd" word="617"/>
+          <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="melding" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="melding" sense="melding" word="meldingen"/>
+          <node begin="10" cat="pp" end="17" id="18" rel="mod">
+            <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="11" cat="np" end="17" id="20" rel="obj1">
+              <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="land_genoot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="land_genoot" sense="land_genoot" word="landgenoten"/>
+              <node begin="12" cat="rel" end="17" id="22" rel="mod">
+                <node begin="12" case="no_obl" end="13" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="23" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="12" cat="ssub" end="17" id="24" rel="body">
+                  <node begin="12" end="13" id="25" index="1" rel="su"/>
+                  <node begin="13" end="14" frame="verb(unacc,past(pl),intransitive)" his="normal" his_1="normal" id="26" infl="pl" lcat="ssub" lemma="sterven" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="sterf" sc="intransitive" sense="sterf" tense="past" word="stierven" wvorm="pv"/>
+                  <node begin="14" cat="pp" end="17" id="27" rel="mod">
+                    <node begin="14" end="15" frame="preposition(in,[])" his="normal" his_1="normal" id="28" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="15" cat="np" end="17" id="29" rel="obj1">
+                      <node begin="15" end="16" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="30" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node begin="16" end="17" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="buitenland" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="buitenland" sense="buitenland" word="buitenland"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" cat="np" end="23" id="32" rel="sat">
+        <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="33" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node aform="super" begin="19" buiging="met-e" end="20" frame="adjective(ste)" graad="sup" his="normal" his_1="normal" id="34" infl="e" lcat="ap" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="hoog" sense="hoog" vform="adj" word="hoogste"/>
+        <node begin="20" end="21" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="cijfer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="cijfer" sense="cijfer" word="cijfer"/>
+        <node begin="21" cat="pp" end="23" id="36" rel="mod">
+          <node begin="21" end="22" frame="preposition(in,[])" his="normal" his_1="normal" id="37" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="22" end="23" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="jaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaren"/>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Vorig jaar kreeg het Ministerie van Buitenlandse Zaken 617 meldingen van landgenoten die stierven in het buitenland , het hoogste cijfer in jaren .</sentence>
+  <comments>
+    <comment>Q#3|Vorig jaar kreeg het Ministerie van Buitenlandse Zaken 617 meldingen van landgenoten die stierven in het buitenland , het hoogste cijfer in jaren .|1|1|-4.427567794529997</comment>
+  </comments>
+</alpino_ds>

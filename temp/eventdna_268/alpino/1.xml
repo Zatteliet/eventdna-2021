@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="Met"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" end="2" frame="name_determiner(pron,'LOC')" getal="ev" graad="basis" his="normal" his_1="gen" his_1_1="names_dictionary" id="5" infl="pron" lcat="detp" lemma="China" naamval="gen" neclass="LOC" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="det" root="China" sense="China" special="name" word="China&apos;s"/>
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="steun" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="steun" sense="steun" word="steun"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,transitive_ndev)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" sc="transitive_ndev" sense="doe" stype="declarative" tense="present" word="doet" wvorm="pv"/>
+      <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="8" lcat="np" lemma="Burundi" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Burundi" sense="Burundi" word="Burundi"/>
+      <node begin="5" cat="whrel" end="8" id="9" rel="obj1">
+        <node begin="5" case="both" def="indef" end="6" frame="pronoun(ywh,thi,sg,het,both,indef,nparg)" gen="het" getal="ev" his="normal" his_1="normal" id="10" index="1" lcat="np" lemma="wat" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" rnum="sg" root="wat" sense="wat" special="nparg" status="vol" vwtype="vb" wh="ywh" word="wat"/>
+        <node begin="5" cat="ssub" end="8" id="11" rel="body">
+          <node begin="5" end="6" id="12" index="1" rel="obj1"/>
+          <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="13" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+          <node begin="7" end="8" frame="verb(hebben,modal_not_u,transitive_ndev_ndev)" his="normal" his_1="normal" id="14" infl="modal_not_u" lcat="ssub" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="transitive_ndev_ndev" sense="wil" tense="present" word="wil" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Met China&apos;s steun doet Burundi wat het wil</sentence>
+  <comments>
+    <comment>Q#1|Met China&apos;s steun doet Burundi wat het wil|1|1|-0.7126962378099947</comment>
+  </comments>
+</alpino_ds>

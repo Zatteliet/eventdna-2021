@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="3" lcat="np" lemma="Nobel_prijs_winnaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Nobel_prijs_winnaar" sense="Nobel_prijs_winnaar" word="Nobelprijswinnaar"/>
+        <node begin="1" cat="mwu" end="3" his="name" his_1="not_begin" id="4" mwu_root="Malala Yousafzai" mwu_sense="Malala Yousafzai" rel="app">
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Malala" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Malala" sense="Malala" spectype="deeleigen" word="Malala"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Yousafzai" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Yousafzai" sense="Yousafzai" spectype="deeleigen" word="Yousafzai"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="bezoeken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bezoek" sc="transitive" sense="bezoek" stype="declarative" tense="present" word="bezoekt" wvorm="pv"/>
+      <node begin="4" end="5" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="geboortedorp" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="geboortedorp" sense="geboortedorp" word="geboortedorp"/>
+      <node begin="5" cat="pp" end="8" id="9" rel="mod">
+        <node begin="5" end="6" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="10" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+        <node begin="6" cat="np" end="8" id="11" rel="obj1">
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="12" infl="e" lcat="ap" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" sense="militair" vform="adj" word="militaire"/>
+          <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="bewaking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bewaking" sense="bewaking" word="bewaking"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Nobelprijswinnaar Malala Yousafzai bezoekt geboortedorp onder militaire bewaking</sentence>
+  <comments>
+    <comment>Q#1|Nobelprijswinnaar Malala Yousafzai bezoekt geboortedorp onder militaire bewaking|1|1|1.5873531083399999</comment>
+  </comments>
+</alpino_ds>

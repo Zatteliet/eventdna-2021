@@ -1,0 +1,533 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_4",
+                        "entity_2"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_5",
+                        "entity_3"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_3": [
+                        "event_3",
+                        "event_4"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    1
+                                ]
+                            },
+                            "string": "Soedanezen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            0,
+                            1
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Teruggestuurde Soedanezen",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    1
+                                ]
+                            },
+                            "string": "Soedanezen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            1
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Soedanezen",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    4
+                                ]
+                            },
+                            "string": "Michel",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            4
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Michel",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    18
+                                ]
+                            },
+                            "string": "Soedan",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            18
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Soedan",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    35,
+                                    36
+                                ]
+                            },
+                            "string": "Charles Michel",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            35,
+                            36
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Charles Michel",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    40,
+                                    41,
+                                    42,
+                                    43,
+                                    44
+                                ]
+                            },
+                            "string": "' A Votre Avis '",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            40,
+                            41,
+                            42,
+                            43,
+                            44
+                        ],
+                        "type": "MISC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "' A Votre Avis '",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "string": "Teruggestuurde Soedanezen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2
+                        ],
+                        "subtype": "Injure",
+                        "tense": "Past",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Teruggestuurde Soedanezen gefolterd"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Participant",
+                                    "span": [
+                                        4
+                                    ]
+                                },
+                                "string": "Michel"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            4,
+                            5,
+                            6,
+                            7
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Michel schort repatri\u00ebringen op"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Negative",
+                        "prominence": "Main",
+                        "span": [
+                            6
+                        ],
+                        "subtype": "TransportPerson",
+                        "tense": "Unspecified",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "repatri\u00ebringen"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        8,
+                                        9,
+                                        10,
+                                        11
+                                    ]
+                                },
+                                "string": "Tot eind januari 2018"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Origin",
+                                    "span": [
+                                        18
+                                    ]
+                                },
+                                "string": "Soedan"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Negative",
+                        "prominence": "Main",
+                        "span": [
+                            8,
+                            9,
+                            10,
+                            11,
+                            12,
+                            13,
+                            14,
+                            15,
+                            16,
+                            17,
+                            18
+                        ],
+                        "subtype": "TransportPerson",
+                        "tense": "Present",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Tot eind januari 2018 zullen geen repatri\u00ebringen meer plaatsvinden naar Soedan"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Future",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "het einde van het onderzoek naar mogelijke folteringen"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            26,
+                            27,
+                            28,
+                            29,
+                            30
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Present",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "het onderzoek naar mogelijke folteringen"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Sender",
+                                    "span": [
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "Charles Michel"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            32,
+                            33,
+                            34,
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44
+                        ],
+                        "subtype": "Broadcast",
+                        "tense": "Past",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Dat zei premier Charles Michel in het RTBF-programma ' A Votre Avis '"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000634",
+                            "migration of people"
+                        ],
+                        [
+                            "medtop:20000621",
+                            "government policy"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000645",
+                            "refugees and internally displaced people"
+                        ],
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+        ],
+        "token_string": "Teruggestuurde Soedanezen gefolterd : Michel schort repatri\u00ebringen op Tot eind januari 2018 zullen geen repatri\u00ebringen meer plaatsvinden naar Soedan , in afwachting van het einde van het onderzoek naar mogelijke folteringen . Dat zei premier Charles Michel in het RTBF-programma ' A Votre Avis ' ."
+    },
+    "meta": {
+        "author": "eventdna_anno_4",
+        "id": "eventdna_322"
+    }
+}

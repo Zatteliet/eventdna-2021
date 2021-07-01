@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" cat="cp" end="7" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="toen" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="toen" sense="toen" word="Toen"/>
+        <node begin="1" cat="ssub" end="7" id="5" rel="body">
+          <node begin="1" cat="np" end="4" id="6" index="1" rel="su">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="archeologisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="archeologisch" sense="archeologisch" vform="adj" word="archeologische"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="dienst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dienst" sense="dienst" word="dienst"/>
+          </node>
+          <node begin="5" end="6" frame="verb(zijn,past(sg),aux(inf))" his="normal" his_1="normal" id="10" infl="sg" lcat="ssub" lemma="gaan" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="past" word="ging" wvorm="pv"/>
+          <node begin="1" cat="inf" end="7" id="11" rel="vc">
+            <node begin="1" end="4" id="12" index="1" rel="su"/>
+            <node aform="compar" begin="4" buiging="zonder" end="5" frame="adjective(er(locadv))" graad="comp" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="ver" sense="ver" vform="adj" word="verder"/>
+            <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="14" infl="inf" lcat="inf" lemma="graven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="graaf" sc="intransitive" sense="graaf" word="graven" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(hebben,past(pl),transitive_ndev_ndev)" his="normal" his_1="normal" id="15" infl="pl" lcat="smain" lemma="vinden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" stype="declarative" tense="past" word="vonden" wvorm="pv"/>
+      <node begin="9" case="both" def="def" end="10" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="16" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+      <node begin="10" cat="np" end="15" id="17" rel="obj1">
+        <node begin="10" end="11" frame="determiner(een)" his="normal" his_1="normal" id="18" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="19" infl="e" lcat="ap" lemma="heel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="heel" sense="heel" vform="adj" word="hele"/>
+        <node begin="12" end="13" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="verzameling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verzameling" sc="measure" sense="verzameling" word="verzameling"/>
+        <node begin="13" cat="np" end="15" id="21" rel="mod">
+          <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(stof)" graad="basis" his="normal" his_1="normal" id="22" infl="stof" lcat="ap" lemma="zilveren" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="zilveren" sense="zilveren" vform="adj" word="zilveren"/>
+          <node begin="14" end="15" frame="meas_mod_noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="stuk" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="stuk" sense="stuk" special="meas_mod" word="stukken"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Toen de archeologische dienst verder ging graven , vonden ze een hele verzameling zilveren stukken .</sentence>
+  <comments>
+    <comment>Q#4|Toen de archeologische dienst verder ging graven , vonden ze een hele verzameling zilveren stukken .|1|1|-6.376403022920002</comment>
+  </comments>
+</alpino_ds>

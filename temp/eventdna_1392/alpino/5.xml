@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="13" end="14" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="18" end="19" frame="punct(komma)" his="normal" his_1="normal" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="22" end="23" frame="punct(ligg_streep)" his="skip" id="5" lcat="--" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="24" end="25" frame="punct(komma)" his="normal" his_1="normal" id="6" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="28" id="7" rel="--">
+      <node begin="0" cat="smain" end="11" id="8" rel="nucl">
+        <node begin="0" cat="np" end="7" id="9" rel="predc">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" cat="ppres" end="3" id="11" rel="mod">
+            <node aform="super" begin="1" buiging="zonder" end="2" frame="adjective(st(adv))" graad="sup" his="normal" his_1="normal" id="12" infl="no_e" lcat="ap" lemma="meest" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,sup)" pt="vnw" rel="mod" root="meest" sense="meest" vform="adj" vwtype="onbep" word="meest"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="13" infl="e" lcat="ppres" lemma="voorkomen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="hd" root="voorkom" sense="voorkom" vform="gerund" word="voorkomende" wvorm="od"/>
+          </node>
+          <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="misdrijf" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="misdrijf" sense="misdrijf" word="misdrijven"/>
+          <node begin="4" cat="pp" end="7" id="15" rel="mod">
+            <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="5" cat="np" end="7" id="17" rel="obj1">
+              <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="project" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="project" sense="project" word="project"/>
+              <node begin="6" end="7" frame="proper_name(both)" genus="genus" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="M" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" root="M" sense="M" word="M"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(unacc,pl,copula)" his="normal" his_1="normal" id="20" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+        <node begin="8" cat="conj" end="11" id="21" rel="su">
+          <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="diefstal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="diefstal" sense="diefstal" word="diefstallen"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="vernieling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="vernieling" sense="vernieling" word="vernielingen"/>
+        </node>
+      </node>
+      <node begin="12" cat="conj" end="28" id="24" rel="sat">
+        <node begin="12" buiging="zonder" end="13" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="normal" id="25" lcat="np" lemma="slagen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="cnj" rnum="sg" root="slaag" sc="intransitive" sense="slaag" special="v_noun" word="slagen" wvorm="inf"/>
+        <node begin="14" cat="np" end="18" id="26" rel="cnj">
+          <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="inbreuk" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="inbreuk" sense="inbreuk" word="inbreuken"/>
+          <node begin="15" cat="pp" end="18" id="28" rel="mod">
+            <node begin="15" end="16" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="29" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="16" cat="np" end="18" id="30" rel="obj1">
+              <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="31" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="32" lcat="np" lemma="wapen_wet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wapen_wet" sense="wapen_wet" word="wapenwet"/>
+            </node>
+          </node>
+        </node>
+        <node begin="19" cat="conj" end="24" id="33" rel="cnj">
+          <node begin="19" cat="np" end="21" id="34" rel="cnj">
+            <node aform="base" begin="19" buiging="met-e" end="20" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="35" index="1" infl="e" lcat="ap" lemma="lokaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="lokaal" sense="lokaal" vform="adj" word="lokale"/>
+            <node begin="20" end="21" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="36" lcat="np" lemma="drug_gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="drug_gebruiker" sense="drug_gebruiker" word="druggebruikers"/>
+          </node>
+          <node begin="21" conjtype="neven" end="22" frame="conj(en)" his="normal" his_1="normal" id="37" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="19" cat="np" end="24" id="38" rel="cnj">
+            <node begin="19" end="20" id="39" index="1" rel="mod"/>
+            <node begin="23" end="24" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="40" lcat="np" lemma="dealer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="dealer" sense="dealer" word="dealers"/>
+          </node>
+        </node>
+        <node begin="25" end="26" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="41" lcat="np" lemma="belaging" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="belaging" sense="belaging" word="belaging"/>
+        <node begin="26" conjtype="neven" end="27" frame="conj(en)" his="normal" his_1="normal" id="42" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="27" end="28" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="43" lcat="np" lemma="bedreiging" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="bedreiging" sense="bedreiging" word="bedreigingen"/>
+      </node>
+    </node>
+    <node begin="28" end="29" frame="punct(punt)" his="normal" his_1="normal" id="44" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">De meest voorkomende misdrijven in project M zijn diefstallen , vernielingen , slagen , inbreuken tegen de wapenwet , lokale druggebruikers en - dealers , belaging en bedreigingen .</sentence>
+  <comments>
+    <comment>Q#5|De meest voorkomende misdrijven in project M zijn diefstallen , vernielingen , slagen , inbreuken tegen de wapenwet , lokale druggebruikers en - dealers , belaging en bedreigingen .|1|1|-0.5353992622900023</comment>
+  </comments>
+</alpino_ds>

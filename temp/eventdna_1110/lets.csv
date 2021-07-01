@@ -1,0 +1,55 @@
+Vrouw	Vrouw	SPEC(deeleigen)	B-NP	O
+(	(	LET()	O	O
+69	69	TW(hoofd,vrij)	B-NP	O
+)	)	LET()	O	O
+verdrinkt	verdrinken	WW(pv,tgw,met-t)	B-VP	O
+nadat	nadat	VG(onder)	O	O
+ze	ze	VNW(pers,pron,3,mv)	O	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+met	met	VZ(init)	B-PP	O
+auto	auto	N(soort,ev,basis,zijd,stan)	B-NP	O
+vastrijdt	vastrijden	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+moerasgebied	moerasgebied	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Bij	bij	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+tragisch	tragisch	ADJ(prenom,basis,zonder)	I-NP	O
+ongeval	ongeval	N(soort,ev,basis,onz,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+zondagochtend	zondagochtend	ADJ(vrij,basis,zonder)	B-AP	O
+een	een	LID(onbep)	B-NP	O
+69-jarige	69-jarig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+vrouw	vrouw	N(soort,ev,basis,zijd,stan)	I-NP	O
+om	om	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+leven	leven	N(soort,ev,basis,onz,stan)	I-NP	O
+gekomen	komen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Ze	ze	VNW(pers,pron,3,ev,fem)	B-NP	O
+kwam	komen	WW(pv,verl,ev)	B-VP	O
+met	met	VZ(init)	B-PP	O
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+wagen	wagen	N(soort,ev,basis,zijd,stan)	I-NP	O
+vast	vast	ADJ(vrij,basis,zonder)	B-AP	O
+te	te	VZ(init)	B-VP	O
+zitten	zitten	WW(inf,vrij,zonder)	I-VP	O
+in	in	VZ(init)	B-PP	O
+moerassig	moerassig	ADJ(prenom,basis,zonder)	B-NP	O
+gebied	gebied	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Vlaams-Brabantse	Vlaams-Brabants	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Affligem	Affligem	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+en	en	VG(neven)	O	O
+verdronk	verdrinken	WW(pv,verl,ev)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+meldt	melden	WW(pv,tgw,met-t)	B-VP	O
+het	het	LID(bep)	B-NP	O
+parket	parket	N(soort,ev,basis,onz,stan)	I-NP	O
+Halle-Vilvoorde	Halle-Vilvoorde	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				

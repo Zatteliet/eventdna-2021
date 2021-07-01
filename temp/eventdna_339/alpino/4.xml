@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="nucl">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv),subject_sbar_no_het)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="no_e" lcat="ap" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="duidelijk" sc="subject_sbar_no_het" sense="duidelijk" vform="adj" word="Duidelijk"/>
+        <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula_sbar)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="2" cat="cp" end="8" id="6" rel="su">
+          <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" his="normal" his_1="normal" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="3" cat="ssub" end="8" id="8" rel="body">
+            <node begin="3" case="nom" def="def" end="4" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" his="normal" his_1="normal" id="9" index="1" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+            <node begin="6" end="7" frame="verb(hebben,modal_not_u,aux(inf))" his="normal" his_1="normal" id="10" infl="modal_not_u" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zal" wvorm="pv"/>
+            <node begin="3" cat="inf" end="8" id="11" rel="vc">
+              <node begin="3" end="4" id="12" index="1" rel="su"/>
+              <node begin="4" cat="np" end="6" id="13" rel="obj1">
+                <node begin="4" buiging="zonder" end="5" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+                <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="stap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stap" sense="stap" word="stap"/>
+              </node>
+              <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="16" infl="inf" lcat="inf" lemma="zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet" sc="transitive" sense="zet" word="zetten" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="sv1" end="11" id="17" rel="tag">
+        <node begin="9" end="10" frame="verb(hebben,past(sg),sbar)" his="normal" his_1="normal" id="18" infl="sg" lcat="sv1" lemma="luiden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="luid" sc="sbar" sense="luid" tense="past" word="luidde" wvorm="pv"/>
+        <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="19" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Duidelijk is dat ik die stap zal zetten , luidde het .</sentence>
+  <comments>
+    <comment>Q#4|Duidelijk is dat ik die stap zal zetten , luidde het .|1|1|-13.893364304350003</comment>
+  </comments>
+</alpino_ds>

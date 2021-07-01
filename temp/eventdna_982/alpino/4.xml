@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="whq" end="13" id="1" rel="--">
+      <node begin="0" case="both" def="indef" end="1" frame="pronoun(ywh,thi,sg,het,both,indef,nparg)" gen="het" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="wat" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="whd" rnum="sg" root="wat" sense="wat" special="nparg" status="vol" vwtype="vb" wh="ywh" word="Wat"/>
+      <node begin="0" cat="sv1" end="13" id="3" rel="body">
+        <node begin="0" end="1" id="4" index="1" rel="obj1"/>
+        <node begin="1" end="2" frame="verb(hebben,pl,np_pc_pp(over))" his="normal" his_1="normal" id="5" infl="pl" lcat="sv1" lemma="weten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="weet" sc="np_pc_pp(over)" sense="weet-over" stype="whquestion" tense="present" word="weten" wvorm="pv"/>
+        <node begin="2" case="nom" def="def" end="3" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="6" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="we"/>
+        <node begin="3" cat="pp" end="6" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(tot,[toe],tmp_adv)" his="normal" his_1="normal" id="8" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sc="tmp_adv" sense="tot" vztype="init" word="tot"/>
+          <node begin="4" end="5" frame="tmp_adverb" his="normal" his_1="normal" id="9" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="obj1" root="nu" sense="nu" special="tmp" word="nu"/>
+          <node begin="5" end="6" frame="particle(toe)" his="normal" his_1="normal" id="10" lcat="part" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="hdf" root="toe" sense="toe" vztype="fin" word="toe"/>
+        </node>
+        <node begin="6" cat="conj" end="13" id="11" rel="pc">
+          <node begin="6" cat="pp" end="9" id="12" rel="cnj">
+            <node begin="6" end="7" frame="preposition(over,[heen])" his="normal" his_1="normal" id="13" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="7" cat="np" end="9" id="14" rel="obj1">
+              <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="15" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="8" end="9" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="bezoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bezoek" sense="bezoek" special="tmp" word="bezoek"/>
+            </node>
+          </node>
+          <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="10" cat="pp" end="13" id="18" rel="cnj">
+            <node begin="10" end="11" frame="preposition(over,[heen])" his="normal" his_1="normal" id="19" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="11" cat="np" end="13" id="20" rel="obj1">
+              <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="Navo_top" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Navo_top" sense="Navo_top" word="Navo-top"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(vraag)" his="normal" his_1="normal" id="23" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="4">Wat weten we tot nu toe over het bezoek en over de Navo-top ?</sentence>
+  <comments>
+    <comment>Q#4|Wat weten we tot nu toe over het bezoek en over de Navo-top ?|1|1|-4.770595635889998</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(both(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="both" lcat="ap" lemma="open" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="open" sense="open" vform="adj" word="Open"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="4" lcat="np" lemma="VLD_lijsttrekker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VLD_lijsttrekker" sense="VLD_lijsttrekker" word="VLD-lijsttrekker"/>
+        <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="5" mwu_root="Rik Daems" mwu_sense="Rik Daems" rel="app">
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Rik" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rik" sense="Rik" spectype="deeleigen" word="Rik"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Daems" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Daems" sense="Daems" spectype="deeleigen" word="Daems"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg3,part_pc_pp(uit,naar))" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="uit_halen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="haal_uit" sc="part_pc_pp(uit,naar)" sense="haal_uit-naar" stype="declarative" tense="present" word="haalt" wvorm="pv"/>
+      <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="zwaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zwaar" sense="zwaar" vform="adj" word="zwaar"/>
+      <node begin="6" end="7" frame="particle(uit)" his="normal" his_1="normal" id="10" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+      <node begin="7" cat="pp" end="10" id="11" rel="pc">
+        <node begin="7" end="8" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="12" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="8" cat="np" end="10" id="13" rel="obj1">
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="oppositie_partij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oppositie_partij" sense="oppositie_partij" word="oppositiepartij"/>
+          <node begin="9" end="10" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="15" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+        </node>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(punt)" his="normal" his_1="normal" id="16" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Open VLD-lijsttrekker Rik Daems haalt zwaar uit naar oppositiepartij N-VA .</sentence>
+  <comments>
+    <comment>Q#2|Open VLD-lijsttrekker Rik Daems haalt zwaar uit naar oppositiepartij N-VA .|1|1|-6.78629410195</comment>
+  </comments>
+</alpino_ds>

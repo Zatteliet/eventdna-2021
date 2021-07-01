@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="Lek" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Lek" sense="Lek" word="Lek"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="6" lcat="np" lemma="Arco_dossier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Arco_dossier" sense="Arco_dossier" word="Arco-dossier"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg,nonp_pred_np)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="zetten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zet" sc="nonp_pred_np" sense="zet" stype="declarative" tense="present" word="zet" wvorm="pv"/>
+      <node begin="4" cat="np" end="11" id="8" rel="obj1">
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="spanning" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="spanning" sense="spanning" word="spanningen"/>
+        <node begin="5" cat="pp" end="11" id="10" rel="mod">
+          <node begin="5" end="6" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="11" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+          <node begin="6" cat="conj" end="11" id="12" rel="obj1">
+            <node begin="6" cat="mwu" end="9" his="name" his_1="not_begin" id="13" mwu_root="CD &amp; V" mwu_sense="CD &amp; V" rel="cnj">
+              <node begin="6" end="7" frame="proper_name(both,'ORG')" id="14" lcat="np" lemma="CD" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CD" sense="CD" spectype="deeleigen" word="CD"/>
+              <node begin="7" end="8" frame="proper_name(both,'ORG')" id="15" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+              <node begin="8" end="9" frame="proper_name(both,'ORG')" id="16" lcat="np" lemma="V" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="V" sense="V" spectype="deeleigen" word="V"/>
+            </node>
+            <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="10" end="11" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" frame="adverb" his="normal" his_1="normal" id="19" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sense="weer" word="weer"/>
+      <node begin="12" cat="mwu" end="14" his="normal" his_1="normal" id="20" mwu_root="op scherp" mwu_sense="op scherp" rel="predc">
+        <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(pred(nonadv))" graad="basis" id="21" infl="pred" lcat="ap" lemma="op" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="op" sense="op" vform="adj" word="op"/>
+        <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(pred(nonadv))" graad="basis" id="22" infl="pred" lcat="ap" lemma="scherp" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="scherp" sense="scherp" vform="adj" word="scherp"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Lek in Arco-dossier zet spanningen tussen CD &amp; V en N-VA weer op scherp</sentence>
+  <comments>
+    <comment>Q#1|Lek in Arco-dossier zet spanningen tussen CD &amp; V en N-VA weer op scherp|1|1|-5.265254583649996</comment>
+  </comments>
+</alpino_ds>

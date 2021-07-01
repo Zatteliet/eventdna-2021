@@ -1,0 +1,44 @@
+Burgemeester	burgemeester	N(soort,ev,basis,zijd,stan)	B-NP	O
+:	:	LET()	O	O
+'	'	LET()	O	O
+Dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+mislukte	mislukken	WW(vd,prenom,met-e)	I-NP	O
+terroristische	terroristisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	I-NP	O
+'	'	LET()	O	O
+				
+Bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+explosie	explosie	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+maandag	maandag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+aan	aan	VZ(init)	O	O
+het	het	LID(bep)	O	O
+busstation	busstation	SPEC(vreemd)	O	O
+Port	port	SPEC(vreemd)	O	B-LOC
+Authority	authority	SPEC(vreemd)	O	I-LOC
+in	in	VZ(init)	B-PP	O
+Manhattan	Manhattan	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+vier	vier	TW(hoofd,prenom,stan)	B-NP	O
+gewonden	gewond	ADJ(nom,basis,met-e,mv-n)	I-NP	O
+gevallen	vallen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+burgemeester	burgemeester	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+New	New	SPEC(deeleigen)	B-NP	B-LOC
+York	York	SPEC(deeleigen)	I-NP	I-LOC
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+om	om	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+terroristische	terroristisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

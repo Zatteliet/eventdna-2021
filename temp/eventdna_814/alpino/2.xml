@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="whq" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="whd">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(welke,rwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="welke" lcat="detp" lemma="welk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(vb,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="welk" sense="welk" vwtype="vb" wh="rwh" word="Welke"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="alternatief" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="alternatief" sense="alternatief" word="alternatieven"/>
+      </node>
+      <node begin="0" cat="sv1" end="9" id="5" rel="body">
+        <node begin="0" end="2" id="6" index="1" rel="su"/>
+        <node begin="2" end="3" frame="verb(unacc,pl,ld_pp)" his="normal" his_1="normal" id="7" infl="pl" lcat="sv1" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="ld_pp" sense="ben" stype="whquestion" tense="present" word="zijn" wvorm="pv"/>
+        <node begin="3" end="4" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="8" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="4" cat="pp" end="7" id="9" rel="mod">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" cat="np" end="7" id="11" rel="obj1">
+            <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="12" infl="both" lcat="ap" lemma="plastic" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="plastic" sense="plastic" vform="adj" word="plastic"/>
+            <node begin="6" end="7" frame="noun(het,count,pl)" gen="het" getal="mv" graad="dim" his="normal" his_1="normal" id="13" lcat="np" lemma="zak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,dim)" pt="n" rel="hd" rnum="pl" root="zak_DIM" sense="zak_DIM" word="zakjes"/>
+          </node>
+        </node>
+        <node begin="7" cat="pp" end="9" id="14" rel="ld">
+          <node begin="7" end="8" frame="preposition(in,[])" his="normal" his_1="normal" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="winkel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="winkel" sense="winkel" word="winkels"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" frame="punct(vraag)" his="normal" his_1="normal" id="17" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="2">Welke alternatieven zijn er voor plastic zakjes in winkels ?</sentence>
+  <comments>
+    <comment>Q#2|Welke alternatieven zijn er voor plastic zakjes in winkels ?|1|1|-0.1040616608099939</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="38" id="0" rel="top">
+    <node begin="22" end="23" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="33" end="34" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="37" id="3" rel="--">
+      <node begin="0" cat="np" end="4" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+        <node begin="2" cat="pp" end="4" id="7" rel="mod">
+          <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Riyad" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Riyad" sense="Riyad" word="Riyad"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,past(sg),np_np_ld_pp)" his="normal" his_1="normal" id="10" infl="sg" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="neem" sc="np_np_ld_pp" sense="neem" stype="declarative" tense="past" word="nam" wvorm="pv"/>
+      <node begin="5" end="6" frame="determiner(de,nwh,nmod,pro,nparg)" getal="getal" his="normal" his_1="normal" id="11" infl="de" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="die" sense="die" status="vol" vwtype="aanw" wh="nwh" word="die"/>
+      <node begin="6" cat="np" end="14" id="12" rel="obj2">
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="beslissing" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="beslissing" sense="beslissing" word="beslissing"/>
+        <node begin="7" cat="pp" end="14" id="14" rel="mod">
+          <node begin="7" end="8" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="15" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="8" cat="np" end="14" id="16" rel="obj1">
+            <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="ongenoegen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ongenoegen" sense="ongenoegen" word="ongenoegen"/>
+            <node begin="9" cat="pp" end="12" id="18" rel="mod">
+              <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="10" cat="np" end="12" id="20" rel="obj1">
+                <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="21" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="standpunt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="standpunt" sense="standpunt" word="standpunt"/>
+              </node>
+            </node>
+            <node begin="12" cat="pp" end="14" id="23" rel="mod">
+              <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="24" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="13" end="14" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="25" lcat="np" lemma="Canada" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Canada" sense="Canada" word="Canada"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="pp" end="17" id="26" rel="mod">
+        <node begin="14" end="15" frame="preposition(na,[])" his="normal" his_1="normal" id="27" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="15" cat="np" end="17" id="28" rel="obj1">
+          <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="29" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="arrestatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="arrestatie" sense="arrestatie" word="arrestatie"/>
+        </node>
+      </node>
+      <node begin="17" cat="pp" end="33" id="31" rel="ld">
+        <node begin="17" end="18" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="32" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="18" cat="np" end="33" id="33" rel="obj1">
+          <node begin="18" end="19" frame="determiner(de)" his="normal" his_1="normal" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="19" end="20" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="35" lcat="np" lemma="vrouwenrechtenactiviste" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouwenrechtenactiviste" sense="vrouwenrechtenactiviste" word="vrouwenrechtenactiviste"/>
+          <node begin="20" cat="mwu" end="22" his="name" his_1="not_begin" id="36" mwu_root="Samar Badawi" mwu_sense="Samar Badawi" rel="app">
+            <node begin="20" end="21" frame="proper_name(sg,'PER')" id="37" lcat="np" lemma="Samar" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Samar" sense="Samar" spectype="deeleigen" word="Samar"/>
+            <node begin="21" end="22" frame="proper_name(sg,'PER')" id="38" lcat="np" lemma="Badawi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Badawi" sense="Badawi" spectype="deeleigen" word="Badawi"/>
+          </node>
+          <node begin="23" cat="np" end="33" id="39" rel="app">
+            <node begin="23" end="24" frame="determiner(de)" his="normal" his_1="normal" id="40" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="41" lcat="np" lemma="zus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zus" sense="zus" word="zus"/>
+            <node begin="25" cat="pp" end="33" id="42" rel="mod">
+              <node begin="25" end="26" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="43" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="26" cat="conj" end="33" id="44" rel="obj1">
+                <node begin="29" conjtype="neven" end="30" frame="conj(en)" his="normal" his_1="normal" id="45" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="26" cat="np" end="33" id="46" rel="cnj">
+                  <node begin="26" cat="ppart" end="28" id="47" index="1" rel="mod">
+                    <node begin="26" end="27" frame="adverb" his="normal" his_1="normal" id="48" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+                    <node aform="base" begin="27" buiging="zonder" end="28" frame="adjective(ge_both(padv))" his="normal" his_1="normal" id="49" infl="both" lcat="ppart" lemma="gevangengenomen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="gevangengenomen" sense="gevangengenomen" vform="psp" word="gevangengenomen" wvorm="vd"/>
+                  </node>
+                  <node begin="28" end="29" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="50" lcat="np" lemma="activist" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="activist" sense="activist" word="activist"/>
+                  <node begin="31" cat="mwu" end="33" his="name" his_1="not_begin" id="51" index="2" mwu_root="Raif Badawi" mwu_sense="Raif Badawi" rel="app">
+                    <node begin="31" end="32" frame="proper_name(sg,'PER')" id="52" lcat="np" lemma="Raif" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Raif" sense="Raif" spectype="deeleigen" word="Raif"/>
+                    <node begin="32" end="33" frame="proper_name(sg,'PER')" id="53" lcat="np" lemma="Badawi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Badawi" sense="Badawi" spectype="deeleigen" word="Badawi"/>
+                  </node>
+                </node>
+                <node begin="26" cat="np" end="33" id="54" rel="cnj">
+                  <node begin="26" end="28" id="55" index="1" rel="mod"/>
+                  <node begin="30" end="31" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="56" lcat="np" lemma="schrijver" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="schrijver" sense="schrijver" word="schrijver"/>
+                  <node begin="31" end="33" id="57" index="2" rel="app"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="34" cat="pp" end="37" id="58" rel="mod">
+        <node begin="34" end="35" frame="preposition(in,[])" his="normal" his_1="normal" id="59" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="35" cat="np" end="37" id="60" rel="obj1">
+          <node begin="35" end="36" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="61" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="36" end="37" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="62" lcat="np" lemma="koninkrijk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="koninkrijk" sense="koninkrijk" word="koninkrijk"/>
+        </node>
+      </node>
+    </node>
+    <node begin="37" end="38" frame="punct(punt)" his="normal" his_1="normal" id="63" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">De regering in Riyad nam die beslissing uit ongenoegen met het standpunt van Canada na de arrestatie van de vrouwenrechtenactiviste Samar Badawi , de zus van al gevangengenomen activist en schrijver Raif Badawi , in het koninkrijk .</sentence>
+  <comments>
+    <comment>Q#3|De regering in Riyad nam die beslissing uit ongenoegen met het standpunt van Canada na de arrestatie van de vrouwenrechtenactiviste Samar Badawi , de zus van al gevangengenomen activist en schrijver Raif Badawi , in het koninkrijk .|1|1|12.578455384510008</comment>
+  </comments>
+</alpino_ds>

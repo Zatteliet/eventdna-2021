@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="cp" end="9" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="aangezien" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="aangezien" sense="aangezien" word="Aangezien"/>
+        <node begin="1" cat="ssub" end="9" id="5" rel="body">
+          <node begin="1" cat="np" end="3" id="6" rel="su">
+            <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="voorstel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="voorstel" sense="voorstel" word="voorstel"/>
+          </node>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="steun" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="steun" sense="steun" word="steun"/>
+          <node begin="4" end="5" frame="verb(hebben,sg,transitive)" his="normal" his_1="normal" id="10" infl="sg" lcat="ssub" lemma="genieten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="geniet" sc="transitive" sense="geniet" tense="present" word="geniet" wvorm="pv"/>
+          <node begin="5" cat="pp" end="9" id="11" rel="mod">
+            <node begin="5" end="6" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="12" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+            <node begin="6" cat="conj" end="9" id="13" rel="obj1">
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="meerderheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="meerderheid" sense="meerderheid" word="meerderheid"/>
+              <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="oppositie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="oppositie" sense="oppositie" word="oppositie"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(hebben,sg3,fixed([acc(twijfel),sbar_subj],no_passive))" his="normal" his_1="normal" id="17" infl="sg3" lcat="smain" lemma="lijden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lijd" sc="fixed([acc(twijfel),sbar_subj],no_passive)" sense="twijfel-lijd" stype="declarative" tense="present" word="lijdt" wvorm="pv"/>
+      <node begin="11" end="12" frame="het_noun" genus="onz" getal="ev" his="normal" his_1="normal" id="18" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" rnum="sg" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+      <node begin="12" cat="np" end="14" id="19" rel="obj1">
+        <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(odet_adv))" graad="basis" his="normal" his_1="normal" id="20" infl="no_e" lcat="ap" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" sense="weinig" vform="adj" vwtype="onbep" word="weinig"/>
+        <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="twijfel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="twijfel" sense="twijfel" word="twijfel"/>
+      </node>
+      <node begin="14" cat="cp" end="18" id="22" rel="su">
+        <node begin="14" conjtype="onder" end="15" frame="complementizer(dat)" his="normal" his_1="normal" id="23" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="15" cat="ssub" end="18" id="24" rel="body">
+          <node begin="15" end="16" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="25" index="1" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+          <node begin="16" end="17" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="26" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+          <node begin="15" cat="ppart" end="18" id="27" rel="vc">
+            <node begin="15" end="16" id="28" index="1" rel="obj1"/>
+            <node begin="17" buiging="zonder" end="18" frame="verb(hebben,psp,ninv(transitive,part_transitive(goed)))" his="normal" his_1="part-V" id="29" infl="psp" lcat="ppart" lemma="goed_keuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="keur_goed" sc="part_transitive(goed)" sense="keur_goed" word="goedgekeurd" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="normal" his_1="normal" id="30" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Aangezien het voorstel steun geniet bij meerderheid en oppositie , lijdt het weinig twijfel dat het wordt goedgekeurd .</sentence>
+  <comments>
+    <comment>Q#3|Aangezien het voorstel steun geniet bij meerderheid en oppositie , lijdt het weinig twijfel dat het wordt goedgekeurd .|1|1|-8.005929742000001</comment>
+  </comments>
+</alpino_ds>

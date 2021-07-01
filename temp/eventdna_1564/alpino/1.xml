@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="du" end="5" id="3" rel="dp">
+        <node begin="0" end="1" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="slachtoffer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="dp" rnum="pl" root="slachtoffer" sense="slachtoffer" word="Slachtoffers"/>
+        <node begin="1" cat="np" end="5" id="5" rel="dp">
+          <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="grootschalig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="grootschalig" sense="grootschalig" vform="adj" word="grootschalig"/>
+          <node begin="2" end="3" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="misbruik" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="misbruik" sense="misbruik" word="misbruik"/>
+          <node begin="3" cat="pp" end="5" id="8" rel="mod">
+            <node begin="3" end="4" frame="preposition(door,[heen])" his="normal" his_1="normal" id="9" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="priester" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="priester" sense="priester" word="priesters"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="14" id="11" rel="dp">
+        <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="12" index="1" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="Ik"/>
+        <node begin="7" end="8" frame="verb('hebben/zijn',past(sg),aux(inf))" his="normal" his_1="normal" id="13" infl="sg" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" sc="aux(inf)" sense="kan" stype="declarative" tense="past" word="kon" wvorm="pv"/>
+        <node begin="6" cat="inf" end="14" id="14" rel="vc">
+          <node begin="6" end="7" id="15" index="1" rel="su"/>
+          <node begin="8" cat="np" end="11" id="16" rel="obj1">
+            <node begin="8" buiging="zonder" end="9" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="17" infl="pron" lcat="detp" lemma="mijn" naamval="stan" npagr="agr" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="mijn" sense="mijn" status="vol" vwtype="bez" word="mijn"/>
+            <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="18" infl="both" lcat="ap" lemma="eigen" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="eigen" sense="eigen" vform="adj" word="eigen"/>
+            <node begin="10" end="11" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+          </node>
+          <node begin="11" end="12" frame="adverb" his="normal" his_1="normal" id="20" lcat="advp" lemma="zelfs" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelfs" sense="zelfs" word="zelfs"/>
+          <node begin="12" end="13" frame="adverb" his="normal" his_1="normal" id="21" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="22" infl="inf" lcat="inf" lemma="knuffelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="knuffel" sc="transitive" sense="knuffel" word="knuffelen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Slachtoffers grootschalig misbruik door priesters : Ik kon mijn eigen kinderen zelfs niet knuffelen</sentence>
+  <comments>
+    <comment>Q#1|Slachtoffers grootschalig misbruik door priesters : Ik kon mijn eigen kinderen zelfs niet knuffelen|1|1|-5.057277877680005</comment>
+  </comments>
+</alpino_ds>

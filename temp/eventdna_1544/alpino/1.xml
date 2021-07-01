@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="pp" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="Tot"/>
+      <node begin="1" cat="np" end="11" id="3" rel="obj1">
+        <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="4" infl="pl_num" lcat="detp" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" sense="vijf" special="hoofd" word="vijf"/>
+        <node begin="2" end="3" frame="tmp_noun(het,count,bare_meas,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sc="measure" sense="jaar" special="tmp" word="jaar"/>
+        <node begin="3" cat="np" end="11" id="6" rel="mod">
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="cel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="cel" sense="cel" word="cel"/>
+          <node begin="4" cat="pp" end="11" id="8" rel="mod">
+            <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="5" cat="np" end="11" id="10" rel="obj1">
+              <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(ge_e)" his="normal" his_1="normal" id="11" infl="e" lcat="ppart" lemma="gewapend" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gewapend" sense="gewapend" vform="psp" word="gewapende" wvorm="vd"/>
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="overval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overval" sense="overval" word="overval"/>
+              <node begin="7" cat="pp" end="11" id="13" rel="mod">
+                <node begin="7" end="8" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="14" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                <node begin="8" cat="np" end="11" id="15" rel="obj1">
+                  <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="16" lcat="np" lemma="catering_bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="catering_bedrijf" sense="catering_bedrijf" word="cateringbedrijf"/>
+                  <node begin="9" cat="pp" end="11" id="17" rel="mod">
+                    <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="19" lcat="np" lemma="Aartselaar" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Aartselaar" sense="Aartselaar" word="Aartselaar"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Tot vijf jaar cel voor gewapende overval op cateringbedrijf in Aartselaar</sentence>
+  <comments>
+    <comment>Q#1|Tot vijf jaar cel voor gewapende overval op cateringbedrijf in Aartselaar|1|1|-0.4249406086499903</comment>
+  </comments>
+</alpino_ds>

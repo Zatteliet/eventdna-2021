@@ -1,0 +1,45 @@
+Imams	imams	ADJ(vrij,basis,zonder)	B-AP	O
+leren	leren	WW(inf,vrij,zonder)	B-VP	O
+hoe	hoe	BW()	B-ADVP	O
+ze	ze	VNW(pers,pron,3,mv)	I-ADVP	O
+tot	tot	VZ(init)	B-PP	O
+jihad	jihad	N(soort,ev,basis,zijd,stan)	B-NP	O
+moeten	moeten	WW(inf,vrij,zonder)	B-VP	O
+oproepen	oproepen	WW(inf,vrij,zonder)	I-VP	O
+				
+Sommige	sommig	VNW(onbep,det)	B-NP	O
+Saudische	saudisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+handboeken	handboek	N(soort,mv,basis)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Grote	groot	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Moskee	moskee	N(soort,ev,basis,zijd,stan)	I-NP	I-LOC
+gebruikt	gebruiken	WW(vd,vrij,zonder)	B-VP	O
+worden	worden	WW(pv,tgw,mv)	I-VP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+opleiding	opleiding	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+imams	imam	N(soort,mv,basis)	B-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+antisemitisch	antisemitisch	ADJ(vrij,basis,zonder)	B-AP	O
+en	en	VG(neven)	O	O
+roepen	roepen	WW(pv,tgw,mv)	B-VP	O
+op	op	VZ(fin)	O	O
+tot	tot	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+jihad	jihad	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+staat	staan	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+vertrouwelijk	vertrouwelijk	ADJ(prenom,basis,zonder)	I-NP	O
+rapport	rapport	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Ocad	Ocad	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				

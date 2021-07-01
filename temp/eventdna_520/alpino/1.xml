@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="skip" id="1" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="2" end="3" frame="punct(aanhaal_both)" his="skip" id="2" lcat="--" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="1" cat="du" end="7" id="3" rel="--">
+      <node begin="1" end="2" frame="tag" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="advp" lemma="nee" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="nee" sense="nee" word="Nee"/>
+      <node begin="3" cat="inf" end="7" id="5" rel="nucl">
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,subj_control(te_inf))" his="normal" his_1="normal" id="6" infl="inf" lcat="inf" lemma="leren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="leer" sc="subj_control(te_inf)" sense="leer" word="leren" wvorm="inf"/>
+        <node begin="4" cat="inf" end="7" id="7" rel="vc">
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="zeggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zeg" sc="intransitive" sense="zeg" word="zeggen" wvorm="inf"/>
+          <node begin="5" cat="pp" end="7" id="9" rel="mod">
+            <node begin="5" end="6" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="10" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="11" lcat="np" lemma="Orban" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Orban" sense="Orban" word="Orban"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">&apos; Nee &apos; leren zeggen tegen Orban</sentence>
+  <comments>
+    <comment>Q#1|&apos; Nee &apos; leren zeggen tegen Orban|1|1|-1.1087821146300003</comment>
+  </comments>
+</alpino_ds>

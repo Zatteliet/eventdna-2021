@@ -1,0 +1,57 @@
+Vlaamse	Vlaams	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+superministerraad	superministerraad	N(soort,ev,basis,zijd,stan)	I-NP	O
+:	:	LET()	O	O
+veel	veel	VNW(onbep,grad,basis)	B-NP	O
+plannen	plan	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+weinig	weinig	VNW(onbep,grad,basis)	B-NP	O
+beslissingen	beslissing	N(soort,mv,basis)	I-NP	O
+				
+Aan	aan	VZ(init)	B-PP	O
+intenties	intentie	N(soort,mv,basis)	B-NP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+gebrek	gebrek	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+Een	een	LID(onbep)	B-NP	O
+akkoord	akkoord	N(soort,ev,basis,onz,stan)	I-NP	O
+om	om	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+duurzame	duurzaam	ADJ(prenom,basis,met-e,stan)	I-NP	O
+toekomst	toekomst	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Vlaanderen	Vlaanderen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+definitief	definitief	ADJ(vrij,basis,zonder)	B-AP	O
+te	te	VZ(init)	B-VP	O
+verankeren	verankeren	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Zo	zo	BW()	B-ADVP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+resultaat	resultaat	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Vlaamse	Vlaams	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+superministerraad	superministerraad	N(soort,ev,basis,zijd,stan)	I-NP	O
+voorgesteld	voorstellen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+de	de	LID(bep)	B-NP	O
+kans	kans	N(soort,ev,basis,zijd,stan)	I-NP	O
+dat	dat	VG(onder)	O	O
+al	al	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+goede	goed	ADJ(prenom,basis,met-e,stan)	I-NP	O
+voornemens	voornemen	N(soort,mv,basis)	I-NP	O
+nog	nog	BW()	B-ADVP	O
+in	in	VZ(init)	B-PP	O
+deze	deze	VNW(aanw,det)	B-NP	O
+regeerperiode	regeerperiode	N(soort,ev,basis,zijd,stan)	I-NP	O
+worden	worden	WW(pv,tgw,mv)	B-VP	O
+uitgevoerd	uitvoeren	WW(vd,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+nihil	nihil	SPEC(vreemd)	B-NP	O
+.	.	LET()	O	O
+				

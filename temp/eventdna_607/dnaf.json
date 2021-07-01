@@ -1,0 +1,1785 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_2",
+                        "entity_6"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_8",
+                        "entity_25",
+                        "entity_1"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_10",
+                        "entity_3",
+                        "entity_12"
+                    ],
+                    "coref_bucket_4": [
+                        "entity_10",
+                        "entity_3",
+                        "entity_18",
+                        "entity_12"
+                    ],
+                    "coref_bucket_5": [
+                        "entity_10",
+                        "entity_18",
+                        "entity_12",
+                        "entity_27"
+                    ],
+                    "coref_bucket_6": [
+                        "entity_18",
+                        "entity_12",
+                        "entity_27"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_10": [
+                        "event_8",
+                        "event_9",
+                        "event_6"
+                    ],
+                    "coref_bucket_11": [
+                        "event_4",
+                        "event_12"
+                    ],
+                    "coref_bucket_7": [
+                        "event_5",
+                        "event_3"
+                    ],
+                    "coref_bucket_8": [
+                        "event_2",
+                        "event_8",
+                        "event_6"
+                    ],
+                    "coref_bucket_9": [
+                        "event_2",
+                        "event_8",
+                        "event_6",
+                        "event_9"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0
+                                ]
+                            },
+                            "string": "Trump",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Trump",
+                    "type": "entity"
+                },
+                "entity_10": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    60
+                                ]
+                            },
+                            "string": "Syri\u00eb",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            60
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Syri\u00eb",
+                    "type": "entity"
+                },
+                "entity_11": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    74
+                                ]
+                            },
+                            "string": "luchtmacht",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            72,
+                            73,
+                            74
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "de Syrische luchtmacht",
+                    "type": "entity"
+                },
+                "entity_12": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    73
+                                ]
+                            },
+                            "string": "Syrische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            73
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "Syrische",
+                    "type": "entity"
+                },
+                "entity_13": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    82
+                                ]
+                            },
+                            "string": "Douma",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            82
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "Douma",
+                    "type": "entity"
+                },
+                "entity_14": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    87
+                                ]
+                            },
+                            "string": "Oost-Ghouta",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            87
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "Oost-Ghouta",
+                    "type": "entity"
+                },
+                "entity_15": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    92
+                                ]
+                            },
+                            "string": "Damascus",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            92
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "Damascus",
+                    "type": "entity"
+                },
+                "entity_16": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    102
+                                ]
+                            },
+                            "string": "mensen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            99,
+                            100,
+                            101,
+                            102
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_8",
+                    "string": "11 tot 150 mensen",
+                    "type": "entity"
+                },
+                "entity_17": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    109
+                                ]
+                            },
+                            "string": "leger",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            107,
+                            108,
+                            109
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_9",
+                    "string": "Het Syrische leger",
+                    "type": "entity"
+                },
+                "entity_18": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    108
+                                ]
+                            },
+                            "string": "Syrische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            108
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_9",
+                    "string": "Syrische",
+                    "type": "entity"
+                },
+                "entity_19": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    120
+                                ]
+                            },
+                            "string": "Westen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            119,
+                            120
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_9",
+                    "string": "het Westen",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    2
+                                ]
+                            },
+                            "string": "Assad",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            2
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Assad",
+                    "type": "entity"
+                },
+                "entity_20": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    123
+                                ]
+                            },
+                            "string": "VS",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            122,
+                            123
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_9",
+                    "string": "de VS",
+                    "type": "entity"
+                },
+                "entity_21": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    132,
+                                    133
+                                ]
+                            },
+                            "string": "New York",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            132,
+                            133
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_10",
+                    "string": "New York",
+                    "type": "entity"
+                },
+                "entity_22": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    138
+                                ]
+                            },
+                            "string": "VN-Veiligheidsraad",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            137,
+                            138
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_10",
+                    "string": "de VN-Veiligheidsraad",
+                    "type": "entity"
+                },
+                "entity_23": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    149,
+                                    150
+                                ]
+                            },
+                            "string": "Khan Sjeikhoen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            149,
+                            150
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "Khan Sjeikhoen",
+                    "type": "entity"
+                },
+                "entity_24": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    152
+                                ]
+                            },
+                            "string": "Idlib",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            152
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "Idlib",
+                    "type": "entity"
+                },
+                "entity_25": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    161
+                                ]
+                            },
+                            "string": "Trump",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            161
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "Trump",
+                    "type": "entity"
+                },
+                "entity_26": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    171
+                                ]
+                            },
+                            "string": "regeringsdoelwitten",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            170,
+                            171
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "Syrische regeringsdoelwitten",
+                    "type": "entity"
+                },
+                "entity_27": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    170
+                                ]
+                            },
+                            "string": "Syrische",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            170
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "Syrische",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    11
+                                ]
+                            },
+                            "string": "Syri\u00eb",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            11
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Syri\u00eb",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    21
+                                ]
+                            },
+                            "string": "vrouwen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            21
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "vrouwen",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    23
+                                ]
+                            },
+                            "string": "kinderen",
+                            "type": "entityHead"
+                        },
+                        "individuality": "GROUP",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            23
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "kinderen",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    32,
+                                    33
+                                ]
+                            },
+                            "string": "Bashar al-Assad",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            32,
+                            33
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Bashar al-Assad",
+                    "type": "entity"
+                },
+                "entity_7": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    46
+                                ]
+                            },
+                            "string": "Amerikaans",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            46
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Amerikaans",
+                    "type": "entity"
+                },
+                "entity_8": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    48,
+                                    49
+                                ]
+                            },
+                            "string": "Donald Trump",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            48,
+                            49
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Donald Trump",
+                    "type": "entity"
+                },
+                "entity_9": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    52
+                                ]
+                            },
+                            "string": "Twitter",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            52
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Twitter",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        0
+                                    ]
+                                },
+                                "string": "Trump"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        2
+                                    ]
+                                },
+                                "string": "Assad"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "subtype": "Conflict",
+                        "tense": "Present",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Trump dreigt Assad af"
+                },
+                "event_10": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        99,
+                                        100,
+                                        101,
+                                        102
+                                    ]
+                                },
+                                "string": "11 tot 150 mensen"
+                            }
+                        ],
+                        "modality": "Other",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            98,
+                            99,
+                            100,
+                            101,
+                            102,
+                            103,
+                            104,
+                            105
+                        ],
+                        "subtype": "Die",
+                        "tense": "Past",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_8",
+                    "string": "kwamen 11 tot 150 mensen om het leven"
+                },
+                "event_11": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        107,
+                                        108,
+                                        109
+                                    ]
+                                },
+                                "string": "Het Syrische leger"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        111
+                                    ]
+                                },
+                                "string": "gistermiddag"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            107,
+                            108,
+                            109,
+                            110,
+                            111,
+                            112,
+                            113,
+                            114,
+                            115,
+                            116
+                        ],
+                        "subtype": "Contact",
+                        "tense": "Past",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_9",
+                    "string": "Het Syrische leger ontkende gistermiddag chemische wapens te hebben ingezet"
+                },
+                "event_12": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Entity",
+                                    "span": [
+                                        137,
+                                        138
+                                    ]
+                                },
+                                "string": "de VN-Veiligheidsraad"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        129
+                                    ]
+                                },
+                                "string": "Vanavond"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        132,
+                                        133
+                                    ]
+                                },
+                                "string": "New York"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            129,
+                            130,
+                            131,
+                            132,
+                            133,
+                            134,
+                            135,
+                            136,
+                            137,
+                            138,
+                            139
+                        ],
+                        "subtype": "Meet",
+                        "tense": "Future",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_10",
+                    "string": "Vanavond vindt in New York een spoedvergadering van de VN-Veiligheidsraad plaats"
+                },
+                "event_13": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        149,
+                                        150
+                                    ]
+                                },
+                                "string": "Khan Sjeikhoen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        145,
+                                        146,
+                                        147
+                                    ]
+                                },
+                                "string": "4 april 2017"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        155
+                                    ]
+                                },
+                                "string": "gifgas"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            142,
+                            143,
+                            144,
+                            145,
+                            146,
+                            147,
+                            148,
+                            149,
+                            150,
+                            151,
+                            152,
+                            153,
+                            154,
+                            155,
+                            156,
+                            157,
+                            158
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "de aanval op 4 april 2017 in Khan Sjeikhoen bij Idlib , waar gifgas 87 burgers doodde"
+                },
+                "event_14": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        161
+                                    ]
+                                },
+                                "string": "Trump"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        168
+                                    ]
+                                },
+                                "string": "raketaanval"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        170,
+                                        171
+                                    ]
+                                },
+                                "string": "Syrische regeringsdoelwitten"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            160,
+                            161,
+                            162,
+                            163,
+                            164,
+                            165,
+                            166,
+                            167,
+                            168,
+                            169,
+                            170,
+                            171
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_11",
+                    "string": "gaf Trump al eens het bevel voor een raketaanval op Syrische regeringsdoelwitten"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            5,
+                            6
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "nieuwe gifgasaanval"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        11
+                                    ]
+                                },
+                                "string": "Syri\u00eb"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            7,
+                            8,
+                            9,
+                            10,
+                            11
+                        ],
+                        "subtype": "Die",
+                        "tense": "Present",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Weer tientallen doden in Syri\u00eb"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        13
+                                    ]
+                                },
+                                "string": "vanavond"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            13,
+                            14
+                        ],
+                        "subtype": "Meet",
+                        "tense": "Future",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "vanavond VN-spoedoverleg"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        28,
+                                        29
+                                    ]
+                                },
+                                "string": "chemische aanval"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        23
+                                    ]
+                                },
+                                "string": "kinderen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Victim",
+                                    "span": [
+                                        21
+                                    ]
+                                },
+                                "string": "vrouwen"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26,
+                            27,
+                            28,
+                            29
+                        ],
+                        "subtype": "Die",
+                        "tense": "Present",
+                        "type": "Life"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "Veel doden , ook vrouwen en kinderen , in een onzinnige chemische aanval"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            26,
+                            27,
+                            28,
+                            29,
+                            30
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_4",
+                    "string": "een onzinnige chemische aanval ."
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Sender",
+                                    "span": [
+                                        48,
+                                        49
+                                    ]
+                                },
+                                "string": "Donald Trump"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            48,
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60
+                        ],
+                        "subtype": "Broadcast",
+                        "tense": "Past",
+                        "type": "Contact"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "Donald Trump gisteren via Twitter gereageerd op de nieuwe chemische aanval in Syri\u00eb"
+                },
+                "event_8": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        60
+                                    ]
+                                },
+                                "string": "Syri\u00eb"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Unspecified",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_6",
+                    "string": "de nieuwe chemische aanval in Syri\u00eb"
+                },
+                "event_9": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "weapon",
+                                    "argument_role": "Instrument",
+                                    "span": [
+                                        76,
+                                        77,
+                                        78,
+                                        79
+                                    ]
+                                },
+                                "string": "vatenbommen vol chemische stoffen"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "target",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        82
+                                    ]
+                                },
+                                "string": "Douma"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Target",
+                                    "span": [
+                                        82
+                                    ]
+                                },
+                                "string": "Douma"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Attacker",
+                                    "span": [
+                                        72,
+                                        73,
+                                        74
+                                    ]
+                                },
+                                "string": "de Syrische luchtmacht"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        75
+                                    ]
+                                },
+                                "string": "zaterdag"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            68,
+                            69,
+                            70,
+                            71,
+                            72,
+                            73,
+                            74,
+                            75,
+                            76,
+                            77,
+                            78,
+                            79,
+                            80,
+                            81,
+                            82
+                        ],
+                        "subtype": "Attack",
+                        "tense": "Past",
+                        "type": "Conflict"
+                    },
+                    "home_sentence": "sentence_7",
+                    "string": "liet een helikopter van de Syrische luchtmacht zaterdag vatenbommen vol chemische stoffen los op Douma"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000638",
+                            "international relations"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000105",
+                            "war crime"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:16000000",
+                            "conflict, war and peace"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000055",
+                            "bombings"
+                        ],
+                        [
+                            "medtop:20000053",
+                            "act of terror"
+                        ],
+                        [
+                            "medtop:16000000",
+                            "conflict, war and peace"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            },
+            "sentence_10": {
+                "token_ids": [
+                    129,
+                    130,
+                    131,
+                    132,
+                    133,
+                    134,
+                    135,
+                    136,
+                    137,
+                    138,
+                    139,
+                    140
+                ]
+            },
+            "sentence_11": {
+                "token_ids": [
+                    141,
+                    142,
+                    143,
+                    144,
+                    145,
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153,
+                    154,
+                    155,
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162,
+                    163,
+                    164,
+                    165,
+                    166,
+                    167,
+                    168,
+                    169,
+                    170,
+                    171,
+                    172
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    15,
+                    16
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41
+                ]
+            },
+            "sentence_6": {
+                "token_ids": [
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61
+                ]
+            },
+            "sentence_7": {
+                "token_ids": [
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93
+                ]
+            },
+            "sentence_8": {
+                "token_ids": [
+                    94,
+                    95,
+                    96,
+                    97,
+                    98,
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106
+                ]
+            },
+            "sentence_9": {
+                "token_ids": [
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113,
+                    114,
+                    115,
+                    116,
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172
+        ],
+        "token_string": "Trump dreigt Assad af na nieuwe gifgasaanval Weer tientallen doden in Syri\u00eb , vanavond VN-spoedoverleg Ziekelijk ! Veel doden , ook vrouwen en kinderen , in een onzinnige chemische aanval . President Bashar al-Assad zal hier een zware prijs voor betalen . Met die woorden heeft Amerikaans president Donald Trump gisteren via Twitter gereageerd op de nieuwe chemische aanval in Syri\u00eb . Volgens de oppositie en verschillende ngo's liet een helikopter van de Syrische luchtmacht zaterdag vatenbommen vol chemische stoffen los op Douma , een stad in Oost-Ghouta , ten oosten van Damascus . Afhankelijk van de bron kwamen 11 tot 150 mensen om het leven . Het Syrische leger ontkende gistermiddag chemische wapens te hebben ingezet , maar het Westen en de VS denken daar anders over . Vanavond vindt in New York een spoedvergadering van de VN-Veiligheidsraad plaats . Na de aanval op 4 april 2017 in Khan Sjeikhoen bij Idlib , waar gifgas 87 burgers doodde , gaf Trump al eens het bevel voor een raketaanval op Syrische regeringsdoelwitten ."
+    },
+    "meta": {
+        "author": "eventdna_anno_4",
+        "id": "eventdna_607"
+    }
+}

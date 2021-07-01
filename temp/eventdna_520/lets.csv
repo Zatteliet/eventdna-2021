@@ -1,0 +1,39 @@
+'	'	LET()	O	O
+Nee	nee	TSW()	O	O
+'	'	LET()	O	O
+leren	leren	WW(inf,vrij,zonder)	B-VP	O
+zeggen	zeggen	WW(inf,vrij,zonder)	I-VP	O
+tegen	tegen	VZ(init)	B-PP	O
+Orban	Orban	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Polen	Polen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+Hongarije	Hongarije	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+spelen	spelen	WW(pv,tgw,mv)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+gevaarlijk	gevaarlijk	ADJ(prenom,basis,zonder)	I-NP	O
+spel	spel	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Als	als	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+EU	EU	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+geloofwaardig	geloofwaardig	ADJ(vrij,basis,zonder)	B-AP	O
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+waarden	waarde	N(soort,mv,basis)	I-NP	O
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+verdedigen	verdedigen	WW(inf,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+vechten	vechten	WW(inf,vrij,zonder)	B-VP	O
+tegen	tegen	VZ(init)	B-PP	O
+autoritarisme	autoritarisme	N(soort,ev,basis,onz,stan)	B-NP	O
+,	,	LET()	O	O
+schrijft	schrijven	WW(pv,tgw,met-t)	B-VP	O
+Timothy	Timothy	SPEC(deeleigen)	B-NP	B-PER
+Garton	Garton	SPEC(deeleigen)	I-NP	I-PER
+Ash	Ash	SPEC(deeleigen)	I-NP	I-PER
+				
+.	.	LET()	O	O
+				

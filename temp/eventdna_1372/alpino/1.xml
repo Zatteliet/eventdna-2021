@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="smain" end="4" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="2" lcat="np" lemma="Seehofer" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Seehofer" sense="Seehofer" word="Seehofer"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,pc_pp(van))" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="verliezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verlies" sc="pc_pp(van)" sense="verlies-van" stype="declarative" tense="present" word="verliest" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="pc">
+        <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Merkel" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Merkel" sense="Merkel" word="Merkel"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Seehofer verliest van Merkel</sentence>
+  <comments>
+    <comment>Q#1|Seehofer verliest van Merkel|1|1|0.0654410414900004</comment>
+  </comments>
+</alpino_ds>

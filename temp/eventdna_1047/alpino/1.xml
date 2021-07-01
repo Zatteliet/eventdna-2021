@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="prefix_name" id="2" lcat="np" lemma="EU_Commissie" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="EU_Commissie" sense="EU_Commissie" word="EU-Commissie"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,obj1_passive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="zien" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zie" sc="obj1_passive" sense="zie" stype="declarative" tense="present" word="ziet" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(na,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="3" end="4" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="6" lcat="np" lemma="brexit" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="brexit" sense="brexit" word="brexit"/>
+      </node>
+      <node begin="4" cat="np" end="6" id="7" index="1" rel="obj1">
+        <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="bijzonder" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="bijzonder" sense="bijzonder" vform="adj" word="bijzondere"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="rol" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rol" sense="rol" word="rol"/>
+      </node>
+      <node begin="4" cat="ppart" end="11" id="10" rel="vc">
+        <node begin="4" end="6" id="11" index="1" rel="obj1"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,ninv(np_pc_pp(voor),part_np_pc_pp(weg,voor)))" his="normal" his_1="part-V" id="12" infl="psp" lcat="ppart" lemma="weg_leggen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="leg_weg" sc="part_np_pc_pp(weg,voor)" sense="leg_weg-voor" word="weggelegd" wvorm="vd"/>
+        <node begin="7" cat="pp" end="11" id="13" rel="pc">
+          <node begin="7" end="8" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="8" cat="np" end="11" id="15" rel="obj1">
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="haven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="haven" sense="haven" word="haven"/>
+            <node begin="9" cat="pp" end="11" id="17" rel="mod">
+              <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="19" lcat="np" lemma="Antwerpen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Antwerpen" sense="Antwerpen" word="Antwerpen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">EU-Commissie ziet na brexit bijzondere rol weggelegd voor haven van Antwerpen</sentence>
+  <comments>
+    <comment>Q#1|EU-Commissie ziet na brexit bijzondere rol weggelegd voor haven van Antwerpen|1|1|-5.2140397825600004</comment>
+  </comments>
+</alpino_ds>

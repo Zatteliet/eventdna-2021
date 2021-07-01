@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" cat="smain" end="22" id="1" rel="--">
+      <node begin="2" end="3" frame="verb(unacc,past(pl),passive)" his="normal" his_1="normal" id="2" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werden" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="4" infl="pl_num" lcat="np" lemma="zes" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="pl" root="zes" sense="zes" special="hoofd" word="zes"/>
+        <node begin="4" cat="pp" end="7" id="5" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="np" end="7" id="7" rel="obj1">
+            <node begin="5" buiging="zonder" end="6" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="8" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="pony" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="pony" sense="pony" word="pony&apos;s"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="22" id="10" rel="vc">
+        <node begin="0" cat="np" end="2" id="11" rel="mod">
+          <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="12" infl="no_e" lcat="ap" lemma="vorig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vorig" sense="vorig" vform="adj" word="Vorig"/>
+          <node begin="1" end="2" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+        </node>
+        <node begin="3" end="7" id="14" index="1" rel="obj1"/>
+        <node begin="7" end="8" frame="adverb" his="normal" his_1="normal" id="15" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+        <node begin="8" cat="pp" end="13" id="16" rel="ld">
+          <node begin="8" end="9" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="17" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="9" cat="np" end="13" id="18" rel="obj1">
+            <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="opvang_centrum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="opvang_centrum" sense="opvang_centrum" word="opvangcentrum"/>
+            <node begin="11" cat="pp" end="13" id="21" rel="mod">
+              <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="22" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="12" end="13" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="23" lcat="np" lemma="Ninove" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Ninove" sense="Ninove" word="Ninove"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" buiging="zonder" end="14" frame="verb(hebben,psp,np_ld_pp)" his="normal" his_1="normal" id="24" infl="psp" lcat="ppart" lemma="sturen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stuur" sc="np_ld_pp" sense="stuur" word="gestuurd" wvorm="vd"/>
+        <node begin="14" cat="cp" end="22" id="25" rel="mod">
+          <node begin="14" conjtype="onder" end="15" frame="complementizer" his="normal" his_1="normal" id="26" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+          <node begin="15" cat="ssub" end="22" id="27" rel="body">
+            <node begin="15" case="both" def="def" end="16" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="28" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+            <node begin="17" cat="ap" end="19" id="29" rel="predc">
+              <node begin="17" end="18" frame="adverb" his="normal" his_1="normal" id="30" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sense="zo" word="zo"/>
+              <node aform="base" begin="18" buiging="zonder" end="19" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="31" infl="no_e" lcat="ap" lemma="slecht" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="slecht" sense="slecht" vform="adj" word="slecht"/>
+            </node>
+            <node begin="16" cat="pp" end="20" id="32" rel="pc">
+              <node begin="16" end="17" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="33" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="19" end="20" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="34" lcat="pp" lemma="aan" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="aan" sense="aan" vztype="fin" word="aan"/>
+            </node>
+            <node begin="20" end="21" frame="particle(toe)" his="normal" his_1="normal" id="35" lcat="part" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="toe" sense="toe" vztype="fin" word="toe"/>
+            <node begin="21" end="22" frame="verb(unacc,past(pl),part_fixed(toe,[er_pp(aan),ap_pred],no_passive))" his="normal" his_1="normal" id="36" infl="pl" lcat="ssub" lemma="toe_zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben_toe" sc="part_fixed(toe,[er_pp(aan),ap_pred],no_passive)" sense="ben_toe-aan" tense="past" word="waren" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="37" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Vorig jaar werden zes van zijn pony&apos;s al naar een opvangcentrum in Ninove gestuurd omdat ze er zo slecht aan toe waren .</sentence>
+  <comments>
+    <comment>Q#5|Vorig jaar werden zes van zijn pony&apos;s al naar een opvangcentrum in Ninove gestuurd omdat ze er zo slecht aan toe waren .|1|1|-17.371304906859997</comment>
+  </comments>
+</alpino_ds>

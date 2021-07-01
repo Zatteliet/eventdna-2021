@@ -1,0 +1,47 @@
+Israël	Israël	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+pakt	pakken	WW(pv,tgw,met-t)	B-VP	O
+hooggeplaatste	hooggeplaatst	ADJ(prenom,basis,met-e,stan)	B-NP	O
+Hamas-leider	hamas-leider	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+op	op	VZ(init)	O	O
+				
+Israël	Israël	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+nacht	nacht	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+dinsdag	dinsdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+op	op	VZ(init)	B-PP	O
+woensdag	woensdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+een	een	LID(onbep)	B-NP	O
+hooggeplaatste	hooggeplaatst	ADJ(prenom,basis,met-e,stan)	I-NP	O
+leider	leider	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+radicaalislamitische	radicaalislamitisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Palestijnse	Palestijns	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+beweging	beweging	N(soort,ev,basis,zijd,stan)	I-NP	O
+Hamas	Hamas	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+opgepakt	oppakken	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Hassan	Hassan	SPEC(deeleigen)	B-NP	B-PER
+Yousef	Yousef	SPEC(deeleigen)	I-NP	I-PER
+werd	worden	WW(pv,verl,ev)	B-VP	O
+gearresteerd	arresteren	WW(vd,vrij,zonder)	I-VP	O
+tijdens	tijdens	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+huiszoeking	huiszoeking	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+woning	woning	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Ramallah	Ramallah	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+aldus	aldus	BW()	B-ADVP	O
+het	het	LID(bep)	B-NP	O
+Israëlische	Israëlisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+leger	leger	N(soort,ev,basis,onz,stan)	I-NP	O
+woensdag	woensdag	N(eigen,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,31 @@
+Britten	Brit	N(soort,mv,basis)	B-NP	O
+krijgen	krijgen	WW(pv,tgw,mv)	B-VP	O
+rugdekking	rugdekking	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+VN	VN	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+				
+De	de	LID(bep)	B-NP	O
+VN-organisatie	VN-organisatie	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+toeziet	toezien	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+naleving	naleving	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+verbod	verbod	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+chemische	chemisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+wapens	wapen	N(soort,mv,basis)	I-NP	O
+steunt	steunen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Britse	Brits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+lezing	lezing	N(soort,ev,basis,zijd,stan)	I-NP	O
+aangaande	aangaande	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+vergiftiging	vergiftiging	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Skripals	Skripals	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				

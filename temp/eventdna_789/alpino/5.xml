@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" index="1" rel="su">
+        <node begin="0" cat="detp" end="3" id="3" rel="det">
+          <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="4" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+            <node begin="0" buiging="zonder" end="1" frame="pre_num_adv(both)" graad="comp" id="5" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="Meer"/>
+            <node begin="1" conjtype="onder" end="2" frame="pre_num_adv(both)" id="6" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+          </node>
+          <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="200" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="200" sense="200" special="hoofd" word="200"/>
+        </node>
+        <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="Palestijn" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Palestijn" sense="Palestijn" word="Palestijnen"/>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,past(pl),aux(inf))" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zouden" wvorm="pv"/>
+      <node begin="0" cat="inf" end="8" id="10" rel="vc">
+        <node begin="0" end="4" id="11" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(unacc,inf,aux_psp_zijn)" his="normal" his_1="normal" id="12" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" word="zijn" wvorm="inf"/>
+        <node begin="0" cat="ppart" end="8" id="13" rel="vc">
+          <node begin="0" end="4" id="14" index="1" rel="su"/>
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(ge_no_e(padv))" graad="basis" his="normal" his_1="normal" id="15" infl="no_e" lcat="ppart" lemma="gewond" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="gewond" sense="gewond" vform="psp" word="gewond"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(unacc,psp,nonp_copula)" his="normal" his_1="normal" id="16" infl="psp" lcat="ppart" lemma="raken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="raak" sc="nonp_copula" sense="raak" word="geraakt" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" his="normal" his_1="normal" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Meer dan 200 Palestijnen zouden gewond zijn geraakt .</sentence>
+  <comments>
+    <comment>Q#5|Meer dan 200 Palestijnen zouden gewond zijn geraakt .|1|1|-14.41706896773</comment>
+  </comments>
+</alpino_ds>

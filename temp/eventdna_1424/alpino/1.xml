@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="noun(de,count,pl)" gen="de" getal-n="mv-n" graad="comp" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="jongere" num="pl" pos="noun" positie="nom" postag="ADJ(nom,comp,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="jongere" sense="jongere" word="Jongeren"/>
+        <node begin="1" cat="rel" end="6" id="4" rel="mod">
+          <node begin="1" case="no_obl" end="2" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="5" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="1" cat="ssub" end="6" id="6" rel="body">
+            <node begin="1" end="2" id="7" index="1" rel="su"/>
+            <node begin="2" end="3" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="nacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="nacht" sense="nacht" special="tmp" word="nacht"/>
+            <node begin="3" cat="pp" end="5" id="9" rel="ld">
+              <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="cel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="cel" sense="cel" word="cel"/>
+            </node>
+            <node begin="5" end="6" frame="verb(hebben,past(pl),ninv(np_ld_pp,part_np_ld_pp(door)))" his="normal" his_1="part-V" id="12" infl="pl" lcat="ssub" lemma="door_brengen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="breng_door" sc="part_np_ld_pp(door)" sense="breng_door" tense="past" word="doorbrachten" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="schilderen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="schilder" sc="transitive" sense="schilder" stype="declarative" tense="present" word="schilderen" wvorm="pv"/>
+      <node begin="7" cat="np" end="11" id="14" rel="obj1">
+        <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="cel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="cel" sense="cel" word="cellen"/>
+        <node begin="8" cat="pp" end="11" id="16" rel="mod">
+          <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="9" cat="np" end="11" id="18" rel="obj1">
+            <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="19" infl="e" lcat="ap" lemma="Antwerps" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Antwerps" sense="Antwerps" vform="adj" word="Antwerpse"/>
+            <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="20" lcat="np" lemma="jeugd_rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jeugd_rechtbank" sense="jeugd_rechtbank" word="jeugdrechtbank"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Jongeren die nacht in cel doorbrachten schilderen cellen van Antwerpse jeugdrechtbank</sentence>
+  <comments>
+    <comment>Q#1|Jongeren die nacht in cel doorbrachten schilderen cellen van Antwerpse jeugdrechtbank|1|1|-2.9340084868399967</comment>
+  </comments>
+</alpino_ds>

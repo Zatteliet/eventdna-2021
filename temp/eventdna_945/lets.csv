@@ -1,0 +1,44 @@
+Veroordeelde	veroordelen	WW(vd,prenom,met-e)	B-NP	O
+oud-generaal	oud-generaal	N(soort,ev,basis,zijd,stan)	I-NP	O
+Praljak	Praljak	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+slikte	slikken	WW(pv,verl,ev)	B-VP	O
+vermoedelijk	vermoedelijk	ADJ(vrij,basis,zonder)	B-NP	O
+giftige	giftig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+kaliumcyanide	kaliumcyanide	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+In	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+lichaam	lichaam	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Kroatische	kroatisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+oud-generaal	oud-generaal	N(soort,ev,basis,zijd,stan)	I-NP	O
+Slobodan	Slobodan	SPEC(deeleigen)	I-NP	B-PER
+Praljak	Praljak	SPEC(deeleigen)	I-NP	I-PER
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+concentratie	concentratie	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+kaliumcyanide	kaliumcyanide	N(soort,ev,basis,zijd,stan)	B-NP	O
+gevonden	vinden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+blijkt	blijken	WW(pv,tgw,met-t)	B-VP	O
+uit	uit	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+eerste	een	TW(rang,prenom,stan)	I-NP	O
+voorlopige	voorlopig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+resultaten	resultaat	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+toxicologisch	toxicologisch	ADJ(prenom,basis,zonder)	I-NP	O
+onderzoek	onderzoek	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+lichaam	lichaam	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

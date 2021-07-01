@@ -1,0 +1,67 @@
+Mysterieus	Mysterieus	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+wit	wit	ADJ(prenom,basis,zonder)	B-NP	O
+poeder	poeder	N(soort,ev,basis,onz,stan)	I-NP	O
+zaait	zaaien	WW(pv,tgw,met-t)	B-VP	O
+onrust	onrust	N(soort,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Genk-Zuid	Genk-Zuid	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+In	in	VZ(init)	B-PP	O
+Genk-Zuid	Genk-Zuid	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+buurtbewoners	buurtbewoner	N(soort,mv,basis)	B-NP	O
+dezer	deze	VNW(aanw,det)	B-NP	O
+dagen	dag	N(soort,mv,basis)	I-NP	O
+last	last	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+neerdwarrelend	neerdwarrelen	WW(od,prenom,zonder)	I-NP	O
+wit	wit	ADJ(prenom,basis,zonder)	I-NP	O
+poeder	poeder	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Waar	waar	VNW(vb,adv-pron,3o,getal)	O	O
+het	het	VNW(pers,pron,3,ev,onz)	O	O
+vandaan	vandaan	VZ(fin)	O	O
+komt	komen	WW(pv,tgw,met-t)	B-VP	O
+,	,	LET()	O	O
+staat	staan	WW(pv,tgw,met-t)	B-VP	O
+nog	nog	BW()	B-AP	O
+niet	niet	BW()	I-AP	O
+vast	vast	ADJ(vrij,basis,zonder)	I-AP	O
+.	.	LET()	O	O
+				
+Al	al	BW()	B-ADVP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+enkele	enkel	VNW(onbep,det)	B-NP	O
+bewoners	bewoner	N(soort,mv,basis)	I-NP	O
+wel	wel	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+vermoeden	vermoeden	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Als	als	VG(onder)	O	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+regent	regenen	WW(pv,tgw,met-t)	B-VP	O
+,	,	LET()	O	O
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+het	het	LID(bep)	B-NP	O
+poeder	poeder	N(soort,ev,basis,onz,stan)	I-NP	O
+een	een	LID(onbep)	B-NP	O
+kleverig	kleverig	ADJ(prenom,basis,zonder)	I-NP	O
+papje	papje	N(soort,ev,dim,onz,stan)	I-NP	O
+dat	dat	VNW(betr,pron,3,ev)	B-AP	O
+moeilijk	moeilijk	ADJ(vrij,basis,zonder)	I-AP	O
+te	te	VZ(init)	B-VP	O
+verwijderen	verwijderen	WW(inf,vrij,zonder)	I-VP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+stad	stad	N(soort,ev,basis,zijd,stan)	I-NP	O
+Genk	Genk	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+start	starten	WW(pv,tgw,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+onderzoek	onderzoek	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="15" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="nucl">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="4" mwu_root="Disneyland Parijs" mwu_sense="Disneyland Parijs" rel="su">
+          <node begin="0" end="1" frame="proper_name(sg,'ORG')" id="5" lcat="np" lemma="Disneyland" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Disneyland" sense="Disneyland" spectype="deeleigen" word="Disneyland"/>
+          <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="6" lcat="np" lemma="Parijs" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parijs" sense="Parijs" spectype="deeleigen" word="Parijs"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,np_ld_pp)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="pompen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="pomp" sc="np_ld_pp" sense="pomp" stype="declarative" tense="present" word="pompt" wvorm="pv"/>
+        <node begin="3" cat="np" end="6" id="8" rel="obj1">
+          <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="9" infl="pl_num" lcat="detp" lemma="2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2" sense="2" special="hoofd" word="2"/>
+          <node begin="4" end="5" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="miljard" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljard" sc="measure" sense="miljard" special="meas_mod" word="miljard"/>
+          <node begin="5" end="6" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="euro" sense="euro" special="meas_mod" word="euro"/>
+        </node>
+        <node begin="6" cat="pp" end="8" id="12" rel="ld">
+          <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="uitbreiding" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="uitbreiding" sense="uitbreiding" word="uitbreidingen"/>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="15" id="15" rel="sat">
+        <node begin="9" end="10" frame="cleft_het_noun" genus="onz" getal="ev" his="normal" his_1="normal" id="16" lcat="np" lemma="dit" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="pl" root="dit" sense="dit" special="cleft_het" status="red" vwtype="pers" word="dit"/>
+        <node begin="10" end="11" frame="verb(unacc,pl,cleft)" his="normal" his_1="normal" id="17" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="word" sc="cleft" sense="word" stype="declarative" tense="present" word="worden" wvorm="pv"/>
+        <node begin="11" cat="np" end="15" id="18" rel="predc">
+          <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="12" end="13" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="20" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" sense="drie" special="hoofd" word="drie"/>
+          <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="21" infl="e" lcat="ap" lemma="gloednieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gloednieuw" sense="gloednieuw" vform="adj" word="gloednieuwe"/>
+          <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="zone" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="zone" sense="zone" word="zones"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Disneyland Parijs pompt 2 miljard euro in uitbreidingen : dit worden de drie gloednieuwe zones</sentence>
+  <comments>
+    <comment>Q#1|Disneyland Parijs pompt 2 miljard euro in uitbreidingen : dit worden de drie gloednieuwe zones|1|1|-0.8315066242599976</comment>
+  </comments>
+</alpino_ds>

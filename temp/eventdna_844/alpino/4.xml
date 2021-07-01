@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="19" end="20" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="22" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="du" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" sc="root" sense="want" word="Want"/>
+      <node begin="1" cat="du" end="22" id="4" rel="nucl">
+        <node begin="1" cat="smain" end="19" id="5" rel="nucl">
+          <node begin="1" cat="conj" end="11" id="6" rel="su">
+            <node begin="1" cat="np" end="8" id="7" rel="cnj">
+              <node begin="1" end="2" frame="modal_adverb" his="normal" his_1="normal" id="8" index="1" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="ook"/>
+              <node begin="2" cat="mwu" end="5" his="double_compound" id="9" mwu_root="CD &amp; V_schepen" mwu_sense="CD &amp; V_schepen" rel="hd">
+                <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="10" lcat="np" lemma="CD" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="CD" sense="CD" word="CD"/>
+                <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="11" lcat="np" lemma="&amp;" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="&amp;" sense="&amp;" word="&amp;"/>
+                <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" id="12" lcat="np" lemma="V_schepen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="V_schepen" sense="V_schepen" word="V-schepenen"/>
+              </node>
+              <node begin="5" cat="mwu" end="8" his="normal" his_1="names_dictionary" id="13" mwu_root="Marc Van Peel" mwu_sense="Marc Van Peel" rel="app">
+                <node begin="5" end="6" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Marc" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Marc" sense="Marc" spectype="deeleigen" word="Marc"/>
+                <node begin="6" end="7" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Van" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Van" sense="Van" spectype="deeleigen" word="Van"/>
+                <node begin="7" end="8" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Peel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Peel" sense="Peel" spectype="deeleigen" word="Peel"/>
+              </node>
+            </node>
+            <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="17" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="1" cat="np" end="11" id="18" rel="cnj">
+              <node begin="1" end="2" id="19" index="1" rel="mod"/>
+              <node begin="9" cat="mwu" end="11" his="name" his_1="not_begin" id="20" mwu_root="Caroline Bastiaens" mwu_sense="Caroline Bastiaens" rel="hd">
+                <node begin="9" end="10" frame="proper_name(both,'PER')" id="21" lcat="np" lemma="Caroline" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Caroline" sense="Caroline" spectype="deeleigen" word="Caroline"/>
+                <node begin="10" end="11" frame="proper_name(both,'PER')" id="22" lcat="np" lemma="Bastiaens" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bastiaens" sense="Bastiaens" spectype="deeleigen" word="Bastiaens"/>
+              </node>
+            </node>
+          </node>
+          <node begin="11" end="12" frame="verb(unacc,past(pl),copula)" his="normal" his_1="normal" id="23" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="waren" wvorm="pv"/>
+          <node begin="12" cat="ap" end="19" id="24" rel="predc">
+            <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="25" infl="no_e" lcat="ap" lemma="aanwezig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="aanwezig" sense="aanwezig" vform="adj" word="aanwezig"/>
+            <node begin="13" cat="pp" end="19" id="26" rel="mod">
+              <node begin="13" end="14" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="27" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="14" cat="np" end="19" id="28" rel="obj1">
+                <node begin="14" end="15" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="29" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="dim" his="normal" his_1="normal" id="30" lcat="np" lemma="feest" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,dim,onz,stan)" pt="n" rel="hd" rnum="sg" root="feest_DIM" sense="feest_DIM" word="feestje"/>
+                <node begin="16" cat="pp" end="19" id="31" rel="mod">
+                  <node begin="16" end="17" frame="preposition(in,[])" his="normal" his_1="normal" id="32" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="17" cat="np" end="19" id="33" rel="obj1">
+                    <node begin="17" end="18" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="abbreviation" his_1_1="normal" id="34" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="&apos;t"/>
+                    <node begin="18" end="19" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="35" lcat="np" lemma="Fornuis" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Fornuis" sense="Fornuis" word="Fornuis"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="20" cat="sv1" end="22" id="36" rel="tag">
+          <node begin="20" end="21" frame="verb(hebben,sg3,tr_sbar)" his="normal" his_1="normal" id="37" infl="sg3" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present" word="zegt" wvorm="pv"/>
+          <node begin="21" end="22" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="38" lcat="np" lemma="Sinardet" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Sinardet" sense="Sinardet" word="Sinardet"/>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Want ook CD &amp; V-schepenen Marc Van Peel en Caroline Bastiaens waren aanwezig op het feestje in &apos;t Fornuis , zegt Sinardet .</sentence>
+  <comments>
+    <comment>Q#4|Want ook CD &amp; V-schepenen Marc Van Peel en Caroline Bastiaens waren aanwezig op het feestje in &apos;t Fornuis , zegt Sinardet .|1|1|-1.8090441049999997</comment>
+  </comments>
+</alpino_ds>

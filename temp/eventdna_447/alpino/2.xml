@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="3" end="4" frame="verb(hebben,pl,aux(te_inf))" his="normal" his_1="normal" id="2" infl="pl" lcat="smain" lemma="hoeven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="hoef" sc="aux(te_inf)" sense="hoef" stype="declarative" tense="present" word="hoeven" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="5" buiging="met-e" end="6" frame="nominalized_adjective" getal-n="mv-n" graad="basis" his="compound" his_1="hyphen" id="5" lcat="np" lemma="Arco_gedupeerd" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="Arco_gedupeerd" sense="Arco_gedupeerd" special="a_noun" word="Arco-gedupeerden"/>
+      </node>
+      <node begin="0" cat="ti" end="9" id="6" rel="vc">
+        <node begin="7" end="8" frame="complementizer(te)" his="normal" his_1="normal" id="7" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="9" id="8" rel="body">
+          <node begin="0" cat="pp" end="3" id="9" rel="mod">
+            <node begin="0" end="1" frame="preposition(volgens,[])" his="normal" his_1="decap" his_1_1="normal" id="10" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="Volgens"/>
+            <node begin="1" cat="mwu" end="3" his="normal" his_1="names_dictionary" id="11" mwu_root="Kris Peeters" mwu_sense="Kris Peeters" rel="obj1">
+              <node begin="1" end="2" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Kris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kris" sense="Kris" spectype="deeleigen" word="Kris"/>
+              <node begin="2" end="3" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Peeters" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Peeters" sense="Peeters" spectype="deeleigen" word="Peeters"/>
+            </node>
+          </node>
+          <node begin="4" end="6" id="14" index="1" rel="su"/>
+          <node begin="6" end="7" frame="adverb" his="normal" his_1="normal" id="15" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="16" infl="inf" lcat="inf" lemma="wanhopen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wanhoop" sc="intransitive" sense="wanhoop" word="wanhopen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" frame="punct(punt)" his="normal" his_1="normal" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Volgens Kris Peeters hoeven de Arco-gedupeerden niet te wanhopen .</sentence>
+  <comments>
+    <comment>Q#2|Volgens Kris Peeters hoeven de Arco-gedupeerden niet te wanhopen .|1|1|-5.077167518120003</comment>
+  </comments>
+</alpino_ds>

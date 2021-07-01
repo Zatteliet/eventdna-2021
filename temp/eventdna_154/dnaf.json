@@ -1,0 +1,335 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {},
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    79,
+                                    80
+                                ]
+                            },
+                            "string": "Guido Cloostermans",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            79,
+                            80
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_5",
+                    "string": "Guido Cloostermans",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Thing",
+                                    "span": [
+                                        13,
+                                        14,
+                                        15
+                                    ]
+                                },
+                                "string": "een elektrische auto"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ],
+                        "subtype": "TransferOwnership",
+                        "tense": "Unspecified",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "een elektrische auto te kopen"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            13,
+                            14,
+                            15,
+                            16,
+                            17
+                        ],
+                        "subtype": "TransferMoney",
+                        "tense": "Unspecified",
+                        "type": "Transaction"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "een elektrische auto te kopen"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            47,
+                            48,
+                            49,
+                            50,
+                            51,
+                            52,
+                            53,
+                            54,
+                            55,
+                            56,
+                            57,
+                            58,
+                            59,
+                            60,
+                            61,
+                            62
+                        ],
+                        "subtype": "Unknown",
+                        "tense": "Future",
+                        "type": "Unknown"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de keuze aan relatief betaalbare en voor een groot publiek toegankelijke elektrische auto's wordt nog groter"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000566",
+                            "automobile enthusiasm"
+                        ],
+                        [
+                            "medtop:20000565",
+                            "lifestyle"
+                        ],
+                        [
+                            "medtop:10000000",
+                            "lifestyle and leisure"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49,
+                    50,
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63
+                ]
+            },
+            "sentence_4": {
+                "token_ids": [
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71,
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78
+                ]
+            },
+            "sentence_5": {
+                "token_ids": [
+                    79,
+                    80
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80
+        ],
+        "token_string": "Klaar voor elektrisch offensief : is het nu al een goed moment om een elektrische auto te kopen ? De elektrische auto geraakt eindelijk in een stroomversnelling . Er zijn vandaag al verschillende elektrische auto's die elke dag bruikbaar zijn en een aanvaardbare actieradius hebben , maar de keuze aan relatief betaalbare en voor een groot publiek toegankelijke elektrische auto's wordt nog groter . Een greep uit wat er ons de komende maanden en jaren te wachten staat . Guido Cloostermans"
+    },
+    "meta": {
+        "author": "eventdna_anno_2",
+        "id": "eventdna_154"
+    }
+}

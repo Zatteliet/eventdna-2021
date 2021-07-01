@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="np" end="8" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="jongen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="jong" sc="intransitive" sense="jong" special="v_noun" word="Jongen" wvorm="inf"/>
+      <node begin="1" cat="pp" end="8" id="4" rel="mod">
+        <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="2" cat="np" end="8" id="6" rel="obj1">
+          <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="np" lemma="elf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" rnum="pl" root="elf" sense="elf" special="hoofd" word="elf"/>
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="8" infl="no_e" lcat="ppart" lemma="gedood" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gedood" sense="gedood" vform="psp" word="gedood" wvorm="vd"/>
+          <node begin="5" cat="np" end="8" id="9" rel="app">
+            <node begin="5" end="6" frame="modal_adverb(adv_noun_prep)" his="normal" his_1="normal" id="10" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna" word="bijna"/>
+            <node begin="6" end="7" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="11" infl="pl_num" lcat="detp" lemma="duizend" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="duizend" sense="duizend" special="hoofd" word="duizend"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="arrestatie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="arrestatie" sense="arrestatie" word="arrestaties"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Jongen van elf gedood , bijna duizend arrestaties</sentence>
+  <comments>
+    <comment>Q#1|Jongen van elf gedood , bijna duizend arrestaties|1|1|6.580929525250003</comment>
+  </comments>
+</alpino_ds>

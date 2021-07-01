@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" his="robust_skip" id="1" lcat="--" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="6" id="2" rel="--">
+      <node begin="0" cat="ppart" end="2" id="3" rel="dp">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" getal-n="zonder-n" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="e" lcat="np" lemma="achttien_jarig" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="obj1" rnum="sg" root="achttien_jarig" sense="achttien_jarig" vform="adj" word="Achttienjarige"/>
+        <node begin="1" buiging="zonder" end="2" frame="verb(hebben,psp,ninv(transitive,part_transitive(neer)))" his="normal" his_1="part-V" id="5" infl="psp" lcat="ppart" lemma="neer_steken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="steek_neer" sc="part_transitive(neer)" sense="steek_neer" word="neergestoken" wvorm="vd"/>
+      </node>
+      <node begin="3" cat="inf" end="6" id="6" rel="dp">
+        <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="dader" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="dader" sense="dader" word="daders"/>
+        <node begin="4" buiging="zonder" end="5" frame="verb(zijn,inf(no_e),transitive_ndev_ndev)" his="normal" his_1="normal" id="8" infl="inf(no_e)" lcat="inf" lemma="gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga" sc="transitive_ndev_ndev" sense="ga" word="gaan" wvorm="inf"/>
+        <node begin="5" end="6" frame="er_adverb(vandoor)" his="normal" his_1="normal" id="9" lcat="pp" lemma="ervandoor" pos="pp" postag="BW()" pt="bw" rel="mod" root="ervandoor" sense="ervandoor" special="er" word="ervandoor"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Achttienjarige neergestoken , daders gaan ervandoor</sentence>
+  <comments>
+    <comment>Q#2|Achttienjarige neergestoken , daders gaan ervandoor|1|2|5.25067256164</comment>
+  </comments>
+</alpino_ds>

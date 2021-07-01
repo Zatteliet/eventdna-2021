@@ -1,0 +1,57 @@
+Minister	minister	N(soort,ev,basis,zijd,stan)	B-NP	O
+stapt	stappen	WW(pv,tgw,met-t)	B-VP	O
+zonder	zonder	VZ(init)	B-PP	O
+aankondiging	aankondiging	N(soort,ev,basis,zijd,stan)	B-NP	O
+op	op	VZ(fin)	O	O
+uit	uit	VZ(init)	B-PP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+:	:	LET()	O	O
+Wilde	willen	WW(pv,verl,ev)	B-VP	O
+mezelf	mezelf	VNW(pr,pron,1,ev)	O	O
+niet	niet	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+beliegen	beliegen	WW(inf,vrij,zonder)	B-VP	O
+				
+De	de	LID(bep)	B-NP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+minister	minister	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Ecologische	ecologisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-MISC
+Transitie	transitie	N(soort,ev,basis,zijd,stan)	I-NP	I-MISC
+Nicolas	Nicolas	SPEC(deeleigen)	I-NP	B-PER
+Hulot	Hulot	SPEC(deeleigen)	I-NP	I-PER
+stapt	stappen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(fin)	O	O
+uit	uit	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+dinsdagmorgen	dinsdagmorg	N(soort,mv,basis)	I-NP	O
+aangekondigd	aankondigen	WW(vd,vrij,zonder)	B-VP	O
+op	op	VZ(init)	B-PP	O
+radio	radio	N(soort,ev,basis,zijd,stan)	B-NP	O
+France	France	SPEC(deeleigen)	I-NP	B-PER
+inter	int	ADJ(vrij,comp,zonder)	I-NP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+Hulot	Hulot	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+voelde	voelen	WW(pv,verl,ev)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	O	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+binnen	binnen	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+eenzaam	eenzaam	ADJ(vrij,basis,zonder)	B-AP	O
+als	als	VG(onder)	O	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+op	op	VZ(init)	B-PP	O
+milieuvraagstukken	milieuvraagstuk	N(soort,mv,basis)	B-NP	O
+aankwam	aankomen	WW(pv,verl,ev)	B-VP	O
+.	.	LET()	O	O
+				

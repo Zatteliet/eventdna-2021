@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="geld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="geld" sense="geld" word="Geld"/>
+      <node begin="1" end="2" frame="verb(zijn,sg3,ld_pp)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="ld_pp" sense="ga" stype="declarative" tense="present" word="gaat" wvorm="pv"/>
+      <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="4" lcat="advp" lemma="voornamelijk" pos="adv" postag="BW()" pt="bw" rel="mod" root="voornamelijk" sense="voornamelijk" word="voornamelijk"/>
+      <node begin="3" cat="pp" end="9" id="5" rel="ld">
+        <node begin="3" end="4" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="6" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="4" cat="conj" end="9" id="7" rel="obj1">
+          <node begin="4" cat="mwu" end="6" his="normal" his_1="english_compound" id="8" mwu_root="her_aanleg_perron" mwu_sense="her_aanleg_perron" rel="cnj">
+            <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="9" lcat="np" lemma="heraanleg" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="heraanleg" sense="heraanleg" word="heraanleg"/>
+            <node begin="5" end="6" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="10" lcat="np" lemma="perrons" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="perrons" sense="perrons" word="perrons"/>
+          </node>
+          <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="7" cat="np" end="9" id="12" rel="cnj">
+            <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="rol_trap" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="rol_trap" sense="rol_trap" word="roltrappen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Geld gaat voornamelijk naar heraanleg perrons en nieuwe roltrappen</sentence>
+  <comments>
+    <comment>Q#2|Geld gaat voornamelijk naar heraanleg perrons en nieuwe roltrappen|1|1|-0.16413557166999926</comment>
+  </comments>
+</alpino_ds>

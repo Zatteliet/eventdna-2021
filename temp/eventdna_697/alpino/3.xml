@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="7" end="8" frame="verb(unacc,pl,aux_psp_zijn)" his="normal" his_1="normal" id="2" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="3" index="1" lcat="np" lemma="rel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="rel" sense="rel" word="rellen"/>
+      <node begin="0" cat="ppart" end="11" id="4" rel="vc">
+        <node begin="0" cat="conj" end="7" id="5" rel="mod">
+          <node begin="0" cat="pp" end="4" id="6" rel="cnj">
+            <node begin="0" end="1" frame="preposition(op,[af,na])" his="normal" his_1="decap" his_1_1="normal" id="7" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="Op"/>
+            <node begin="1" cat="np" end="4" id="8" rel="obj1">
+              <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="10" mwu_root="Westelijke Jordaanoever" mwu_sense="Westelijke Jordaanoever" rel="hd">
+                <node begin="2" end="3" frame="proper_name(sg,'LOC')" id="11" lcat="np" lemma="Westelijke" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Westelijke" sense="Westelijke" spectype="deeleigen" word="Westelijke"/>
+                <node begin="3" end="4" frame="proper_name(sg,'LOC')" id="12" lcat="np" lemma="Jordaanoever" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jordaanoever" sense="Jordaanoever" spectype="deeleigen" word="Jordaanoever"/>
+              </node>
+            </node>
+          </node>
+          <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="5" cat="pp" end="7" id="14" rel="cnj">
+            <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="16" lcat="np" lemma="Jeruzalem" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Jeruzalem" sense="Jeruzalem" word="Jeruzalem"/>
+          </node>
+        </node>
+        <node begin="8" end="9" frame="sentence_adverb" his="normal" his_1="normal" id="17" lcat="advp" lemma="intussen" pos="adv" postag="BW()" pt="bw" rel="mod" root="intussen" sense="intussen" special="sentence" word="intussen"/>
+        <node begin="9" end="10" id="18" index="1" rel="su"/>
+        <node begin="10" buiging="zonder" end="11" frame="verb(zijn,psp,ninv(intransitive,part_intransitive(uit)))" his="normal" his_1="part-V" id="19" infl="psp" lcat="ppart" lemma="uit_breken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breek_uit" sc="part_intransitive(uit)" sense="breek_uit" word="uitgebroken" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Op de Westelijke Jordaanoever en in Jeruzalem zijn intussen rellen uitgebroken .</sentence>
+  <comments>
+    <comment>Q#3|Op de Westelijke Jordaanoever en in Jeruzalem zijn intussen rellen uitgebroken .|1|1|-6.749455778580002</comment>
+  </comments>
+</alpino_ds>

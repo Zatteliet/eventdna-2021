@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="premier" sense="premier" word="Premier"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,subj_control(te))" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="proberen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="probeer" sc="subj_control(te)" sense="probeer" stype="declarative" tense="present" word="probeert" wvorm="pv"/>
+      <node begin="0" cat="ti" end="11" id="4" rel="vc">
+        <node begin="3" end="4" frame="complementizer(te)" his="normal" his_1="normal" id="5" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="11" id="6" rel="body">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="sluiten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sluit" sc="transitive" sense="sluit" word="sluiten" wvorm="inf"/>
+          <node begin="2" cat="np" end="11" id="9" rel="obj1">
+            <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="accoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="accoord" sense="accoord" word="akkoord"/>
+            <node begin="5" cat="pp" end="11" id="11" rel="mod">
+              <node begin="5" end="6" frame="preposition(over,[heen])" his="normal" his_1="normal" id="12" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="6" cat="conj" end="11" id="13" rel="obj1">
+                <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="6" cat="np" end="11" id="15" rel="cnj">
+                  <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="16" lcat="np" lemma="arbeid_deal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="arbeid_deal" sense="arbeid_deal" word="arbeidsdeal"/>
+                  <node begin="9" cat="pp" end="11" id="17" index="2" rel="mod">
+                    <node begin="9" end="10" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                    <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="spaarder" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="spaarder" sense="spaarder" word="spaarders"/>
+                  </node>
+                </node>
+                <node begin="8" cat="np" end="11" id="20" rel="cnj">
+                  <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="vergoeding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vergoeding" sense="vergoeding" word="vergoeding"/>
+                  <node begin="9" end="11" id="22" index="2" rel="mod"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Premier probeert akkoord te sluiten over arbeidsdeal en vergoeding voor spaarders</sentence>
+  <comments>
+    <comment>Q#2|Premier probeert akkoord te sluiten over arbeidsdeal en vergoeding voor spaarders|1|1|-0.7159666260299906</comment>
+  </comments>
+</alpino_ds>

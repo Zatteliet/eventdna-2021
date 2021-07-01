@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="17" id="2" rel="--">
+      <node begin="0" cat="cp" end="7" id="3" rel="sat">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(als)" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="Als"/>
+        <node begin="1" cat="ssub" end="7" id="5" rel="body">
+          <node begin="1" cat="mwu" end="3" his="normal" his_1="names_dictionary" id="6" mwu_root="Brussels Airlines" mwu_sense="Brussels Airlines" rel="su">
+            <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="Brussels" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Brussels" sense="Brussels" spectype="deeleigen" word="Brussels"/>
+            <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="8" lcat="np" lemma="Airlines" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Airlines" sense="Airlines" spectype="deeleigen" word="Airlines"/>
+          </node>
+          <node begin="3" cat="np" end="6" id="9" rel="obj1">
+            <node begin="3" buiging="zonder" end="4" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="10" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+            <node aform="compar" begin="4" buiging="met-e" end="5" frame="adjective(ere)" graad="comp" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="betere"/>
+            <node begin="5" end="6" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="resultaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="resultaat" sense="resultaat" word="resultaten"/>
+          </node>
+          <node begin="6" end="7" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="13" infl="sg3" lcat="ssub" lemma="behalen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="behaal" sc="transitive" sense="behaal" tense="present" word="behaalt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="8" cat="smain" end="17" id="14" rel="nucl">
+        <node begin="9" end="10" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" his="normal" his_1="normal" id="15" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+        <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="16" index="1" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+        <node begin="8" cat="inf" end="17" id="17" rel="vc">
+          <node begin="8" end="9" frame="tmp_adverb" his="normal" his_1="normal" id="18" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" sense="dan" special="tmp" word="dan"/>
+          <node begin="10" end="11" id="19" index="1" rel="su"/>
+          <node begin="11" cat="pp" end="14" id="20" rel="pc">
+            <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="21" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="12" cat="np" end="14" id="22" rel="obj1">
+              <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="24" lcat="np" lemma="Lufthansa_groep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Lufthansa_groep" sense="Lufthansa_groep" word="Lufthansa-groep"/>
+            </node>
+          </node>
+          <node begin="14" cat="np" end="16" id="25" rel="obj1">
+            <node begin="14" buiging="zonder" end="15" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="26" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+            <node begin="15" end="16" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="cadeau" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="cadeau" sense="cadeau" word="cadeaus"/>
+          </node>
+          <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,np_pc_pp(van))" his="normal" his_1="normal" id="28" infl="inf" lcat="inf" lemma="verwachten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verwacht" sc="np_pc_pp(van)" sense="verwacht-van" word="verwachten" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Als Brussels Airlines geen betere resultaten behaalt , dan moet het van de Lufthansa-groep geen cadeaus verwachten .</sentence>
+  <comments>
+    <comment>Q#2|Als Brussels Airlines geen betere resultaten behaalt , dan moet het van de Lufthansa-groep geen cadeaus verwachten .|1|1|-2.902644024830001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="2" lcat="np" lemma="Niet_Belg" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="Niet_Belg" sense="Niet_Belg" word="Niet-Belgen"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="tonen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="toon" sc="transitive" sense="toon" stype="declarative" tense="present" word="tonen" wvorm="pv"/>
+      <node begin="2" cat="np" end="6" id="4" rel="obj1">
+        <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(odet_adv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="weinig" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="det" root="weinig" sense="weinig" vform="adj" vwtype="onbep" word="weinig"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="interesse" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="interesse" sense="interesse" word="interesse"/>
+        <node begin="4" cat="pp" end="6" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" end="6" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="gemeente_raad_verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="gemeente_raad_verkiezing" sense="gemeente_raad_verkiezing" special="tmp" word="gemeenteraadsverkiezingen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Niet-Belgen tonen weinig interesse voor gemeenteraadsverkiezingen</sentence>
+  <comments>
+    <comment>Q#1|Niet-Belgen tonen weinig interesse voor gemeenteraadsverkiezingen|1|1|-2.7762195290500005</comment>
+  </comments>
+</alpino_ds>

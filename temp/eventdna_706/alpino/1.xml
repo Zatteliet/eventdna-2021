@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="ppart" end="7" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="2" mwu_root="Alain Hubert" mwu_sense="Alain Hubert" rel="obj1">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Alain" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Alain" sense="Alain" spectype="deeleigen" word="Alain"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Hubert" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Hubert" sense="Hubert" spectype="deeleigen" word="Hubert"/>
+      </node>
+      <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,np_ld_pp)" his="normal" his_1="normal" id="5" infl="psp" lcat="ppart" lemma="stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel" sc="np_ld_pp" sense="stel" word="gesteld" wvorm="vd"/>
+      <node begin="2" cat="pp" end="7" id="6" rel="ld">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="7" id="8" rel="obj1">
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="verdenking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verdenking" sense="verdenking" word="verdenking"/>
+          <node begin="5" cat="pp" end="7" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="12" lcat="np" lemma="belang_vermenging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="belang_vermenging" sense="belang_vermenging" word="belangenvermenging"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Alain Hubert in verdenking gesteld van belangenvermenging</sentence>
+  <comments>
+    <comment>Q#1|Alain Hubert in verdenking gesteld van belangenvermenging|1|1|4.036736059540006</comment>
+  </comments>
+</alpino_ds>

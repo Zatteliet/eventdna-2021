@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="20" end="21" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(pron)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="4" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="Zijn"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="voormalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="voormalige"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="veiligheid_adviseur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="veiligheid_adviseur" sense="veiligheid_adviseur" word="veiligheidsadviseur"/>
+        <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="7" mwu_root="Michael Flynn" mwu_sense="Michael Flynn" rel="app">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Michael" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Michael" sense="Michael" spectype="deeleigen" word="Michael"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Flynn" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Flynn" sense="Flynn" spectype="deeleigen" word="Flynn"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,sg_heeft,passive)" his="normal" his_1="normal" id="10" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="23" id="11" rel="vc">
+        <node begin="0" end="5" id="12" index="1" rel="obj1"/>
+        <node begin="6" cat="pp" end="11" id="13" rel="mod">
+          <node begin="6" end="7" frame="preposition(door,[heen])" his="normal" his_1="normal" id="14" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+          <node begin="7" cat="np" end="11" id="15" rel="obj1">
+            <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="16" infl="no_e" lcat="ap" lemma="speciaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="speciaal" sense="speciaal" vform="adj" word="speciaal"/>
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="aanklager" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanklager" sense="aanklager" word="aanklager"/>
+            <node begin="9" cat="mwu" end="11" his="normal" his_1="names_dictionary" id="18" mwu_root="Robert Mueller" mwu_sense="Robert Mueller" rel="app">
+              <node begin="9" end="10" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Robert" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Robert" sense="Robert" spectype="deeleigen" word="Robert"/>
+              <node begin="10" end="11" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Mueller" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mueller" sense="Mueller" spectype="deeleigen" word="Mueller"/>
+            </node>
+          </node>
+        </node>
+        <node begin="11" cat="ap" end="15" id="21" rel="predc">
+          <node begin="11" cat="mwu" end="13" his="normal" his_1="normal" id="22" mwu_root="in staat" mwu_sense="in staat-van" rel="hd">
+            <node aform="base" begin="11" end="12" frame="adjective(pred(padv),pp(van))" id="23" infl="pred" lcat="ap" lemma="in" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="in" sc="pp(van)" sense="in-van" vform="adj" vztype="init" word="in"/>
+            <node aform="base" begin="12" end="13" frame="adjective(pred(padv),pp(van))" genus="zijd" getal="ev" graad="basis" id="24" infl="pred" lcat="ap" lemma="staat" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="staat" sc="pp(van)" sense="staat-van" vform="adj" word="staat"/>
+          </node>
+          <node begin="13" cat="pp" end="15" id="25" rel="pc">
+            <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="26" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="beschuldiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="beschuldiging" sense="beschuldiging" word="beschuldiging"/>
+          </node>
+        </node>
+        <node begin="15" buiging="zonder" end="16" frame="verb(hebben,psp,pred_np)" his="normal" his_1="normal" id="28" infl="psp" lcat="ppart" lemma="stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel" sc="pred_np" sense="stel" word="gesteld" wvorm="vd"/>
+        <node begin="16" cat="pp" end="23" id="29" rel="mod">
+          <node begin="16" cat="mwu" end="19" his="normal" his_1="normal" id="30" mwu_root="in verband met" mwu_sense="in verband met" rel="hd">
+            <node begin="16" end="17" frame="preposition([in,verband,met],[])" id="31" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="17" end="18" frame="preposition([in,verband,met],[])" genus="onz" getal="ev" graad="basis" id="32" lcat="pp" lemma="verband" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="verband" sense="verband" word="verband"/>
+            <node begin="18" end="19" frame="preposition([in,verband,met],[])" id="33" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" sense="met" vztype="init" word="met"/>
+          </node>
+          <node begin="19" cat="np" end="23" id="34" rel="obj1">
+            <node begin="19" end="20" frame="determiner(de)" his="normal" his_1="normal" id="35" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="21" buiging="met-e" end="22" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="36" infl="e" lcat="ap" lemma="Russisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj" word="Russische"/>
+            <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="affaire" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="affaire" sense="affaire" word="affaire"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="38" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Zijn voormalige veiligheidsadviseur Michael Flynn is door speciaal aanklager Robert Mueller in staat van beschuldiging gesteld in verband met de &apos; Russische affaire &apos; .</sentence>
+  <comments>
+    <comment>Q#4|Zijn voormalige veiligheidsadviseur Michael Flynn is door speciaal aanklager Robert Mueller in staat van beschuldiging gesteld in verband met de &apos; Russische affaire &apos; .|1|1|-11.061216527949998</comment>
+  </comments>
+</alpino_ds>

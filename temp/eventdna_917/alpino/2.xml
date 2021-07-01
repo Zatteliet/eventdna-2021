@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="np" end="12" id="3" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="decap" his_1_1="part-V" id="4" lcat="np" lemma="af_tellen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="hd" rnum="sg" root="tel_af" sc="intransitive" sense="tel_af" special="v_noun" word="Aftellen" wvorm="inf"/>
+        <node begin="1" cat="pp" end="9" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="6" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="2" cat="np" end="9" id="7" rel="obj1">
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="cruciaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="cruciaal" sense="cruciaal" vform="adj" word="cruciale"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="top" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top" sense="top" word="top"/>
+            <node begin="4" cat="pp" end="6" id="10" rel="mod">
+              <node begin="4" end="5" frame="preposition(over,[heen])" his="normal" his_1="normal" id="11" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="migratie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="migratie" sense="migratie" word="migratie"/>
+            </node>
+            <node begin="6" cat="advp" end="9" id="13" rel="mod">
+              <node begin="6" end="7" frame="tmp_app_noun" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="advp" lemma="eind" naamval="stan" ntype="soort" pos="adv" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" root="eind" sense="eind" special="tmp_app" word="eind"/>
+              <node begin="7" cat="np" end="9" id="15" rel="mod">
+                <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="16" infl="e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgende" wvorm="od"/>
+                <node begin="8" end="9" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="week" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="week" sense="week" special="tmp" word="week"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="10" cat="np" end="12" id="18" rel="app">
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="nota" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nota" sense="nota" word="nota"/>
+          <node begin="11" end="12" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="20" lcat="np" lemma="Tusk" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Tusk" sense="Tusk" word="Tusk"/>
+        </node>
+      </node>
+      <node begin="12" end="13" frame="verb(unacc,sg3,part_intransitive(uit))" his="normal" his_1="normal" id="21" infl="sg3" lcat="smain" lemma="uit_lekken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lek_uit" sc="part_intransitive(uit)" sense="lek_uit" stype="declarative" tense="present" word="lekt" wvorm="pv"/>
+      <node begin="13" end="14" frame="particle(uit)" his="normal" his_1="normal" id="22" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+    </node>
+  </node>
+  <sentence sentid="2">Aftellen naar cruciale top over migratie eind volgende week : nota Tusk lekt uit</sentence>
+  <comments>
+    <comment>Q#2|Aftellen naar cruciale top over migratie eind volgende week : nota Tusk lekt uit|1|1|-0.9467814518099988</comment>
+  </comments>
+</alpino_ds>

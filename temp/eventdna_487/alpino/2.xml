@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="3" lcat="np" lemma="Rookgaszuivering" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Rookgaszuivering" sense="Rookgaszuivering" word="Rookgaszuivering"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" cat="np" end="5" id="5" rel="cnj">
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="sluiting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sluiting" sense="sluiting" word="sluiting"/>
+          <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="7" mwu_root="kolencentrale Langerlo" mwu_sense="kolencentrale Langerlo" rel="app">
+            <node begin="3" end="4" frame="proper_name(both)" id="8" lcat="np" lemma="kolencentrale" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="kolencentrale" sense="kolencentrale" spectype="deeleigen" word="kolencentrale"/>
+            <node begin="4" end="5" frame="proper_name(both)" id="9" lcat="np" lemma="Langerlo" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Langerlo" sense="Langerlo" spectype="deeleigen" word="Langerlo"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,pl,pred_np)" his="normal" his_1="normal" id="10" infl="pl" lcat="smain" lemma="maken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="maak" sc="pred_np" sense="maak" stype="declarative" tense="present" word="maken" wvorm="pv"/>
+      <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="lucht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="lucht" sense="lucht" word="lucht"/>
+      <node aform="compar" begin="7" buiging="zonder" end="8" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="12" infl="no_e" lcat="ap" lemma="schoon" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="predc" root="schoon" sense="schoon" vform="adj" word="schoner"/>
+    </node>
+  </node>
+  <sentence sentid="2">Rookgaszuivering en sluiting kolencentrale Langerlo maken lucht schoner</sentence>
+  <comments>
+    <comment>Q#2|Rookgaszuivering en sluiting kolencentrale Langerlo maken lucht schoner|1|1|2.8412409095899998</comment>
+  </comments>
+</alpino_ds>

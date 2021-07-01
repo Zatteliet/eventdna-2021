@@ -1,0 +1,67 @@
+Opgepast	Opgepast	SPEC(deeleigen)	B-NP	B-PER
+Elon	Elon	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+hier	hier	VNW(aanw,adv-pron,3o,getal)	B-NP	O
+komt	komen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+e-tron	e-tron	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Audi	Audi	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+bouwt	bouwen	WW(pv,tgw,met-t)	B-VP	O
+antwoord	antwoord	N(soort,ev,basis,onz,stan)	B-NP	O
+op	op	VZ(init)	B-PP	O
+Tesla	Tesla	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+in	in	VZ(init)	B-PP	O
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+In	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Audi-fabriek	audi-fabriek	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+in	in	VZ(init)	B-PP	O
+Vorst	Vorst	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+gisteren	gisteren	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+productie	productie	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Audi	Audi	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+e-tron	e-tron	N(soort,ev,basis,zijd,stan)	I-NP	O
+gestart	starten	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+wagen	wagen	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+eerste	een	TW(rang,prenom,stan)	I-NP	O
+Duitse	Duits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+antwoord	antwoord	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+Tesla	Tesla	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+kan	kunnen	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+doorbraak	doorbraak	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+elektrische	elektrisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+auto	auto	N(soort,ev,basis,zijd,stan)	I-NP	O
+betekenen	betekenen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+dan	dan	BW()	B-ADVP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+wel	wel	BW()	B-ADVP	O
+het	het	LID(bep)	B-NP	O
+tekort	tekort	N(soort,ev,basis,onz,stan)	I-NP	O
+aan	aan	VZ(init)	B-PP	O
+snelladers	snellader	N(soort,mv,basis)	B-NP	O
+in	in	VZ(init)	B-PP	O
+ons	ons	VNW(bez,det,1,mv)	B-NP	O
+land	land	N(soort,ev,basis,onz,stan)	I-NP	O
+overwinnen	overwinnen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

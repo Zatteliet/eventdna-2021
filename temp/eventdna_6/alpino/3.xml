@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="5" end="6" frame="verb(unacc,sg_heeft,aux_psp_zijn)" his="normal" his_1="normal" id="2" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="7" cat="np" end="13" id="3" index="1" rel="su">
+        <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="productie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="productie" sense="productie" word="productie"/>
+        <node begin="9" cat="pp" end="13" id="6" rel="mod">
+          <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="10" cat="np" end="13" id="8" rel="obj1">
+            <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="11" cat="mwu" end="13" his="name" his_1="not_begin" id="10" mwu_root="Audi e-tron" mwu_sense="Audi e-tron" rel="hd">
+              <node begin="11" end="12" frame="proper_name(both)" id="11" lcat="np" lemma="Audi" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Audi" sense="Audi" spectype="deeleigen" word="Audi"/>
+              <node begin="12" end="13" frame="proper_name(both)" id="12" lcat="np" lemma="e-tron" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="e-tron" sense="e-tron" spectype="deeleigen" word="e-tron"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="14" id="13" rel="vc">
+        <node begin="0" cat="pp" end="5" id="14" rel="mod">
+          <node begin="0" end="1" frame="preposition(in,[])" his="normal" his_1="decap" his_1_1="normal" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="5" id="16" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" end="3" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="18" lcat="np" lemma="Audi_fabriek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Audi_fabriek" sense="Audi_fabriek" word="Audi-fabriek"/>
+            <node begin="3" cat="pp" end="5" id="19" rel="mod">
+              <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="20" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="Vorst" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Vorst" sense="Vorst" word="Vorst"/>
+            </node>
+          </node>
+        </node>
+        <node begin="6" end="7" frame="tmp_adverb" his="normal" his_1="normal" id="22" lcat="advp" lemma="gisteren" pos="adv" postag="BW()" pt="bw" rel="mod" root="gisteren" sense="gisteren" special="tmp" word="gisteren"/>
+        <node begin="7" end="13" id="23" index="1" rel="su"/>
+        <node begin="13" buiging="zonder" end="14" frame="verb(zijn,psp,intransitive)" his="normal" his_1="normal" id="24" infl="psp" lcat="ppart" lemma="starten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="start" sc="intransitive" sense="start" word="gestart" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">In de Audi-fabriek in Vorst is gisteren de productie van de Audi e-tron gestart .</sentence>
+  <comments>
+    <comment>Q#3|In de Audi-fabriek in Vorst is gisteren de productie van de Audi e-tron gestart .|1|1|-7.017470485229998</comment>
+  </comments>
+</alpino_ds>

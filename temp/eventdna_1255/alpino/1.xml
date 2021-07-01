@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="np" end="5" id="1" rel="--">
+      <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" infl="e" lcat="ap" lemma="berucht" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="berucht" sense="berucht" vform="adj" word="Beruchte"/>
+      <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="3" lcat="np" lemma="sekte_leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="sekte_leider" sense="sekte_leider" word="sekteleider"/>
+      <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="4" mwu_root="Charles Manson" mwu_sense="Charles Manson" rel="app">
+        <node begin="2" end="3" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Charles" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Charles" sense="Charles" spectype="deeleigen" word="Charles"/>
+        <node begin="3" end="4" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Manson" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Manson" sense="Manson" spectype="deeleigen" word="Manson"/>
+      </node>
+      <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="7" infl="both" lcat="ppart" lemma="overleden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="overleden" sense="overleden" vform="psp" word="overleden" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Beruchte sekteleider Charles Manson overleden</sentence>
+  <comments>
+    <comment>Q#1|Beruchte sekteleider Charles Manson overleden|1|1|0.1708833414199989</comment>
+  </comments>
+</alpino_ds>

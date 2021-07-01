@@ -1,0 +1,66 @@
+Bewakers	bewaker	N(soort,mv,basis)	B-NP	O
+Abdeslam	Abdeslam	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+overwerkt	overwerken	WW(vd,vrij,zonder)	B-VP	O
+en	en	VG(neven)	O	O
+onderbemand	onderbemand	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Het	het	LID(bep)	B-NP	O
+politieteam	politieteam	N(soort,ev,basis,onz,stan)	I-NP	O
+dat	dat	VNW(betr,pron,3,ev)	B-NP	O
+deze	deze	VNW(aanw,det)	I-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+topterrorist	topterrorist	N(soort,ev,basis,zijd,stan)	I-NP	O
+Salah	Salah	SPEC(deeleigen)	I-NP	B-PER
+Abdeslam	Abdeslam	SPEC(deeleigen)	I-NP	I-PER
+en	en	VG(neven)	O	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+kompaan	kompaan	N(soort,ev,basis,zijd,stan)	I-NP	O
+urenlang	urenlang	ADJ(vrij,basis,zonder)	B-AP	O
+bewaakte	bewaken	WW(pv,verl,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+rechtszaal	rechtszaal	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+zit	zitten	WW(pv,tgw,ev)	B-VP	O
+op	op	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+tandvlees	tandvlees	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+politiemensen	politiemens	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+overwerkt	overwerken	WW(vd,vrij,zonder)	I-VP	O
+en	en	VG(neven)	O	O
+onderbemand	onderbemand	N(soort,ev,basis,onz,stan)	B-NP	O
+,	,	LET()	O	O
+bleek	blijken	WW(pv,verl,ev)	B-VP	O
+deze	deze	VNW(aanw,det)	B-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Hoog	hoog	ADJ(prenom,basis,zonder)	I-NP	B-ORG
+Overlegcomité	overlegcomité	N(soort,ev,basis,onz,stan)	I-NP	I-ORG
+.	.	LET()	O	O
+				
+Van	van	VZ(init)	B-PP	O
+Abdeslam	Abdeslam	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+zelf	zelf	BW()	B-ADVP	O
+moeten	moeten	WW(pv,tgw,mv)	B-VP	O
+ze	ze	VNW(pers,pron,3,mv)	O	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+vandaag	vandaag	BW()	B-ADVP	O
+al	al	BW()	I-ADVP	O
+niet	niet	BW()	I-ADVP	O
+veel	veel	VNW(onbep,grad,basis)	I-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+aantrekken	aantrekken	WW(inf,vrij,zonder)	B-VP	O
+:	:	LET()	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+komt	komen	WW(pv,tgw,met-t)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+.	.	LET()	O	O
+				

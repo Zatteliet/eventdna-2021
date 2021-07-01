@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="begin" id="2" lcat="np" lemma="Alt-right" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Alt-right" sense="Alt-right" word="Alt-right"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,aci_no_obj)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" sc="aci_no_obj" sense="doe" stype="declarative" tense="present" word="doet" wvorm="pv"/>
+      <node begin="2" cat="inf" end="5" id="4" rel="vc">
+        <node begin="2" cat="np" end="4" id="5" rel="mod">
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="extreem_rechts" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="extreem_rechts" sense="extreem_rechts" vform="adj" word="extreemrechtse"/>
+          <node begin="3" end="4" frame="tmp_noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="jeugd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jeugd" sense="jeugd" special="tmp" word="jeugd"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="dromen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="droom" sc="intransitive" sense="droom" word="dromen" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Alt-right doet extreemrechtse jeugd dromen</sentence>
+  <comments>
+    <comment>Q#1|Alt-right doet extreemrechtse jeugd dromen|1|1|1.6532119137199994</comment>
+  </comments>
+</alpino_ds>

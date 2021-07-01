@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="5" id="2" rel="dp">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="Nieuwe"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="onthulling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="onthulling" sense="onthulling" word="onthullingen"/>
+        <node begin="2" cat="cp" end="5" id="5" rel="mod">
+          <node begin="2" conjtype="onder" end="3" frame="complementizer(zoals)" his="normal" his_1="normal" id="6" lcat="cp" lemma="zoals" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zoals" sc="zoals" sense="zoals" word="zoals"/>
+          <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="7" mwu_root="Panama Papers" mwu_sense="Panama Papers" rel="body">
+            <node begin="3" end="4" frame="proper_name(both,'PER')" id="8" lcat="np" lemma="Panama" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Panama" sense="Panama" spectype="deeleigen" word="Panama"/>
+            <node begin="4" end="5" frame="proper_name(both,'PER')" id="9" lcat="np" lemma="Papers" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Papers" sense="Papers" spectype="deeleigen" word="Papers"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" cat="mwu" end="7" his="normal" his_1="normal" id="10" mwu_root="op komst" mwu_sense="op komst" rel="dp">
+        <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(pred(nonadv))" graad="basis" id="11" infl="pred" lcat="ap" lemma="op" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="op" sense="op" vform="adj" word="op"/>
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(pred(nonadv))" graad="basis" id="12" infl="pred" lcat="ap" lemma="komst" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="komst" sense="komst" vform="adj" word="komst"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Nieuwe onthullingen zoals Panama Papers op komst</sentence>
+  <comments>
+    <comment>Q#1|Nieuwe onthullingen zoals Panama Papers op komst|1|1|1.2414086114400007</comment>
+  </comments>
+</alpino_ds>

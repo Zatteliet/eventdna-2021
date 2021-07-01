@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="datum_lek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="datum_lek" sense="datum_lek" word="datalek"/>
+        <node begin="2" cat="pp" end="4" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" end="4" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="Facebook" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" rnum="sg" root="Facebook" sense="Facebook" word="Facebook"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="treffen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="tref" sc="transitive" sense="tref" stype="declarative" tense="present" word="treft" wvorm="pv"/>
+      <node begin="5" cat="np" end="14" id="9" rel="obj1">
+        <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gebruiker" sense="gebruiker" word="gebruikers"/>
+        <node begin="5" cat="ap" end="14" id="11" rel="det">
+          <node begin="5" cat="ap" end="7" id="12" rel="mod">
+            <node begin="5" end="6" frame="sentence_adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sense="bijna" special="sentence" word="bijna"/>
+            <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="dubbel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="dubbel" sense="dubbel" vform="adj" word="dubbel"/>
+          </node>
+          <node aform="base" begin="7" end="8" frame="als_adjective(no_e(odet_adv))" his="normal" his_1="normal" id="15" infl="no_e" lcat="ap" lemma="zoveel" naamval="stan" numtype="hoofd" pos="adj" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="zoveel" sc="als" sense="zoveel" vform="adj" word="zoveel"/>
+          <node begin="9" cat="cp" end="14" id="16" rel="obcomp">
+            <node begin="9" conjtype="onder" end="10" frame="comparative(als)" his="normal" his_1="normal" id="17" lcat="comparative" lemma="als" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="als" sense="als" word="als"/>
+            <node begin="10" cat="ssub" end="14" id="18" rel="body">
+              <node begin="10" cat="np" end="12" id="19" rel="su">
+                <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="20" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="bedrijf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bedrijf" sense="bedrijf" word="bedrijf"/>
+              </node>
+              <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="22" infl="no_e" lcat="ap" lemma="oorspronkelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="oorspronkelijk" sense="oorspronkelijk" vform="adj" word="oorspronkelijk"/>
+              <node begin="13" end="14" frame="verb(hebben,past(sg),tr_sbar)" his="normal" his_1="normal" id="23" infl="sg" lcat="ssub" lemma="denken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="denk" sc="tr_sbar" sense="denk" tense="past" word="dacht" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Het datalek van Facebook treft bijna dubbel zoveel gebruikers als het bedrijf oorspronkelijk dacht .</sentence>
+  <comments>
+    <comment>Q#3|Het datalek van Facebook treft bijna dubbel zoveel gebruikers als het bedrijf oorspronkelijk dacht .|1|1|-2.4161878401500028</comment>
+  </comments>
+</alpino_ds>

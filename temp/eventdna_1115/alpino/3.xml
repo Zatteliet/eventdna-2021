@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="35" id="0" rel="top">
+    <node begin="22" end="23" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="29" end="30" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="34" id="3" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Ankara" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Ankara" sense="Ankara" word="Ankara"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,fixed([vc(spreek,pass_te,intransitive),er_pp(over,A),extra_sbar(A)],no_passive))" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="fixed([vc(spreek,pass_te,intransitive),er_pp(over,A),extra_sbar(A)],no_passive)" sense="ben-over-spreek" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="6" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+      <node begin="5" cat="ti" end="7" id="7" rel="svp">
+        <node begin="5" end="6" frame="complementizer(te)" his="normal" his_1="normal" id="8" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="9" infl="inf" lcat="inf" lemma="spreken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="spreek" sc="intransitive" sense="spreek" word="spreken" wvorm="inf"/>
+      </node>
+      <node begin="2" cat="pp" end="34" id="10" rel="pc">
+        <node begin="2" end="3" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="11" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="4" end="5" frame="preposition(over,[heen])" his="normal" his_1="normal" id="12" lcat="pp" lemma="over" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="over" sense="over" vztype="fin" word="over"/>
+        <node begin="7" cat="cp" end="34" id="13" rel="vc">
+          <node begin="7" conjtype="onder" end="8" frame="complementizer(dat)" his="normal" his_1="normal" id="14" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="8" cat="ssub" end="34" id="15" rel="body">
+            <node begin="8" cat="np" end="12" id="16" index="1" rel="su">
+              <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="18" infl="e" lcat="ap" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj" word="Nederlandse"/>
+              <node begin="10" cat="mwu" end="12" his="normal" his_1="names_dictionary" id="19" mwu_root="Tweede Kamer" mwu_sense="Tweede Kamer" rel="hd">
+                <node begin="10" end="11" frame="proper_name(sg,'ORG')" id="20" lcat="np" lemma="Tweede" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tweede" sense="Tweede" spectype="deeleigen" word="Tweede"/>
+                <node begin="11" end="12" frame="proper_name(sg,'ORG')" id="21" lcat="np" lemma="Kamer" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kamer" sense="Kamer" spectype="deeleigen" word="Kamer"/>
+              </node>
+            </node>
+            <node begin="12" end="13" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="donderdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="donderdag" sense="donderdag" special="tmp" word="donderdag"/>
+            <node begin="13" end="14" frame="verb(hebben,past(sg),vp)" his="normal" his_1="normal" id="23" infl="sg" lcat="ssub" lemma="besluiten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="besluit" sc="vp" sense="besluit" tense="past" word="besloot" wvorm="pv"/>
+            <node begin="8" cat="oti" end="34" id="24" rel="vc">
+              <node begin="14" end="15" frame="complementizer(om)" his="normal" his_1="normal" id="25" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="8" cat="ti" end="34" id="26" rel="body">
+                <node begin="30" end="31" frame="complementizer(te)" his="normal" his_1="normal" id="27" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="8" cat="inf" end="34" id="28" rel="body">
+                  <node begin="8" end="12" id="29" index="1" rel="su"/>
+                  <node begin="15" cat="np" end="22" id="30" rel="obj1">
+                    <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="31" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="massa_moord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="massa_moord" sense="massa_moord" word="massamoord"/>
+                    <node begin="17" cat="pp" end="22" id="33" rel="mod">
+                      <node begin="17" end="18" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="34" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                      <node begin="18" cat="np" end="22" id="35" rel="obj1">
+                        <node begin="18" end="19" frame="noun(de,count,pl,measure)" gen="de" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="36" lcat="np" lemma="honderdduizenden" num="pl" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" rnum="pl" root="honderdduizenden" sc="measure" sense="honderdduizenden" word="honderdduizenden"/>
+                        <node begin="19" cat="np" end="22" id="37" rel="mod">
+                          <node begin="19" end="20" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="Armeniër" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Armeniër" sense="Armeniër" word="Armeniërs"/>
+                          <node begin="20" cat="pp" end="22" id="39" rel="mod">
+                            <node begin="20" end="21" frame="preposition(in,[])" his="normal" his_1="normal" id="40" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                            <node begin="21" end="22" frame="np(year)" his="normal" his_1="normal" id="41" lcat="np" lemma="1915" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="1915" sense="1915" word="1915"/>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="23" cat="pp" end="29" id="42" rel="mod">
+                    <node begin="23" cat="mwu" end="26" his="normal" his_1="normal" id="43" mwu_root="ten tijde van" mwu_sense="ten tijde van" rel="hd">
+                      <node begin="23" end="24" frame="preposition([ten,tijde,van],[])" id="44" lcat="pp" lemma="ten" pos="prep" postag="VZ(versm)" pt="vz" rel="mwp" root="ten" sense="ten" vztype="versm" word="ten"/>
+                      <node begin="24" end="25" frame="preposition([ten,tijde,van],[])" getal="ev" graad="basis" id="45" lcat="pp" lemma="tijde" naamval="dat" ntype="soort" pos="prep" postag="N(soort,ev,basis,dat)" pt="n" rel="mwp" root="tijde" sense="tijde" word="tijde"/>
+                      <node begin="25" end="26" frame="preposition([ten,tijde,van],[])" id="46" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+                    </node>
+                    <node begin="26" cat="np" end="29" id="47" rel="obj1">
+                      <node begin="26" end="27" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="48" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node begin="27" cat="mwu" end="29" his="normal" his_1="names_dictionary" id="49" mwu_root="Ottomaanse Rijk" mwu_sense="Ottomaanse Rijk" rel="hd">
+                        <node begin="27" end="28" frame="proper_name(sg,'ORG')" id="50" lcat="np" lemma="Ottomaanse" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ottomaanse" sense="Ottomaanse" spectype="deeleigen" word="Ottomaanse"/>
+                        <node begin="28" end="29" frame="proper_name(sg,'ORG')" id="51" lcat="np" lemma="Rijk" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rijk" sense="Rijk" spectype="deeleigen" word="Rijk"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="31" buiging="zonder" end="32" frame="verb(hebben,inf,als_pred_np)" his="normal" his_1="normal" id="52" infl="inf" lcat="inf" lemma="bestempelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bestempel" sc="als_pred_np" sense="bestempel" word="bestempelen" wvorm="inf"/>
+                  <node begin="32" cat="cp" end="34" id="53" rel="predc">
+                    <node begin="32" end="33" frame="complementizer(als)" his="normal" his_1="normal" id="54" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+                    <node begin="33" end="34" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="55" lcat="np" lemma="genocide" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" rnum="sg" root="genocide" sense="genocide" word="genocide"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="34" end="35" frame="punct(punt)" his="normal" his_1="normal" id="56" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Ankara is er niet over te spreken dat de Nederlandse Tweede Kamer donderdag besloot om de massamoord op honderdduizenden Armeniërs in 1915 , ten tijde van het Ottomaanse Rijk , te bestempelen als genocide .</sentence>
+  <comments>
+    <comment>Q#3|Ankara is er niet over te spreken dat de Nederlandse Tweede Kamer donderdag besloot om de massamoord op honderdduizenden Armeniërs in 1915 , ten tijde van het Ottomaanse Rijk , te bestempelen als genocide .|1|1|-11.310283375509995</comment>
+  </comments>
+</alpino_ds>

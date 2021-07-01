@@ -1,0 +1,53 @@
+Zware	zwaar	ADJ(prenom,basis,met-e,stan)	B-NP	O
+kritiek	kritiek	N(soort,ev,basis,zijd,stan)	I-NP	O
+na	na	VZ(init)	B-PP	O
+verkeerschaos	verkeerschaos	N(soort,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Renovatie	renovatie	N(soort,ev,basis,zijd,stan)	B-NP	O
+Reyerscomplex	Reyerscomplex	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+leidt	leiden	WW(pv,tgw,met-t)	B-VP	O
+tot	tot	VZ(init)	B-PP	O
+gigantische	gigantisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+files	file	N(soort,mv,basis)	I-NP	O
+				
+Hallucinant	hallucinant	ADJ(prenom,basis,zonder)	B-NP	O
+Brussels	Brussels	ADJ(prenom,basis,zonder)	I-NP	B-LOC
+wanbeleid	wanbeleid	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+noemde	noemen	WW(pv,verl,ev)	B-VP	O
+Theo	Theo	SPEC(deeleigen)	B-NP	B-PER
+Francken	Francken	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+)	)	LET()	O	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+automobilistenbond	automobilistenbond	N(soort,ev,basis,zijd,stan)	B-NP	O
+VAB	VAB	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+ziet	zien	WW(pv,tgw,met-t)	B-VP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+problemen	probleem	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+communicatie	communicatie	N(soort,ev,basis,zijd,stan)	I-NP	O
+rond	rond	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+werken	werk	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Bestuurders	bestuurder	N(soort,mv,basis)	B-NP	O
+zoeken	zoeken	WW(pv,tgw,mv)	B-VP	O
+pas	pas	BW()	B-NP	O
+alternatieven	alternatief	N(soort,mv,basis)	I-NP	O
+als	als	VG(onder)	O	O
+ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+de	de	LID(bep)	B-NP	O
+miserie	miserie	N(soort,ev,basis,zijd,stan)	I-NP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+ondervonden	ondervinden	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="conj" end="11" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" index="1" lcat="np" lemma="Erdogan" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Erdogan" sense="Erdogan" word="Erdogan"/>
+        <node begin="1" end="2" frame="verb(hebben,sg3,part_transitive(af))" his="normal" his_1="normal" id="4" infl="sg3" lcat="smain" lemma="af_leggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leg_af" sc="part_transitive(af)" sense="leg_af" tense="present" word="legt" wvorm="pv"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="eed" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="eed" sense="eed" word="eed"/>
+        <node begin="3" end="4" frame="particle(af)" his="normal" his_1="normal" id="6" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+        <node begin="4" cat="cp" end="7" id="7" rel="predm">
+          <node begin="4" end="5" frame="complementizer(als)" his="normal" his_1="normal" id="8" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+          <node begin="5" cat="np" end="7" id="9" rel="body">
+            <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="10" infl="no_e" lcat="ap" lemma="Turks" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Turks" sense="Turks" vform="adj" word="Turks"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="11" id="13" rel="cnj">
+        <node begin="0" end="1" id="14" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(hebben,sg_heeft,transitive_ndev)" his="normal" his_1="normal" id="15" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="9" end="10" frame="tmp_adverb" his="normal" his_1="normal" id="16" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+        <node begin="10" end="11" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="almacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="almacht" sense="almacht" word="almacht"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Erdogan legt eed af als Turks president en heeft nu almacht</sentence>
+  <comments>
+    <comment>Q#1|Erdogan legt eed af als Turks president en heeft nu almacht|1|1|-1.2640938011199965</comment>
+  </comments>
+</alpino_ds>

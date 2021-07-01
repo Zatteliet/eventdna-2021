@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="ppart" end="4" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="decap_and_compound" his_1="2" id="2" lcat="np" lemma="patiënt_gegeven" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="patiënt_gegeven" sense="patiënt_gegeven" word="Patiëntengegevens"/>
+      <node begin="1" buiging="zonder" end="2" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="3" infl="psp" lcat="ppart" lemma="stelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="steel" sc="transitive" sense="steel" word="gestolen" wvorm="vd"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="5" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="ziekenhuis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="ziekenhuis" sense="ziekenhuis" word="ziekenhuis"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Patiëntengegevens gestolen bij ziekenhuis</sentence>
+  <comments>
+    <comment>Q#1|Patiëntengegevens gestolen bij ziekenhuis|1|1|2.4068740197599983</comment>
+  </comments>
+</alpino_ds>

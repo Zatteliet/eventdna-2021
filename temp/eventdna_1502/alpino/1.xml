@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" rel="su">
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="3" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="np" end="5" id="4" rel="cnj">
+          <node begin="0" end="1" frame="within_word_conjunct" his="within_word_conjunct" id="5" lcat="np" lemma="Seks" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="hd" root="Seks" sense="Seks" spectype="afgebr" word="Seks-"/>
+          <node begin="3" cat="pp" end="5" id="6" index="1" rel="mod">
+            <node begin="3" end="4" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="7" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="duikboot" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="duikboot" sense="duikboot" word="duikboot"/>
+          </node>
+        </node>
+        <node begin="2" cat="np" end="5" id="9" rel="cnj">
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="10" lcat="np" lemma="drug_schandaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="drug_schandaal" sense="drug_schandaal" word="drugsschandaal"/>
+          <node begin="3" end="5" id="11" index="1" rel="mod"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg,np_ld_pp)" his="normal" his_1="normal" id="12" infl="sg" lcat="smain" lemma="zetten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zet" sc="np_ld_pp" sense="zet" stype="declarative" tense="present" word="zet" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="13" rel="obj1">
+        <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="14" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="marine" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="marine" sense="marine" word="marine"/>
+      </node>
+      <node begin="8" cat="pp" end="11" id="16" rel="ld">
+        <node begin="8" end="9" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="17" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="9" cat="np" end="11" id="18" rel="obj1">
+          <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="19" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="kop" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kop" sense="kop" word="kop"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Seks- en drugsschandaal op duikboot zet Britse marine op zijn kop</sentence>
+  <comments>
+    <comment>Q#1|Seks- en drugsschandaal op duikboot zet Britse marine op zijn kop|1|1|0.35812813222999473</comment>
+  </comments>
+</alpino_ds>

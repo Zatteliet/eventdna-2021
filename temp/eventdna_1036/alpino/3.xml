@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="17" id="3" rel="--">
+      <node begin="0" cat="smain" end="6" id="4" rel="nucl">
+        <node begin="0" cat="np" end="3" id="5" rel="su">
+          <node begin="0" buiging="zonder" end="1" frame="modal_adverb" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="6" lcat="advp" lemma="zeker" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="zeker" sc="modal" sense="zeker" word="Zeker"/>
+          <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" sense="drie" special="hoofd" word="drie"/>
+          <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="generaal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="generaal" sense="generaal" word="generaals"/>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,past(pl),copula)" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="past" word="waren" wvorm="pv"/>
+        <node begin="4" cat="ppart" end="6" id="10" rel="predc">
+          <node begin="4" end="5" frame="er_adverb(bij)" his="normal" his_1="normal" id="11" lcat="pp" lemma="hierbij" pos="pp" postag="BW()" pt="bw" rel="pc" root="hierbij" sense="hierbij" special="er" word="hierbij"/>
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(ge_both(adv),pp(bij))" his="normal" his_1="normal" id="12" infl="both" lcat="ppart" lemma="betrokken" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="betrokken" sc="pp(bij)" sense="betrokken-bij" vform="psp" word="betrokken" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="7" cat="sv1" end="17" id="13" rel="tag">
+        <node begin="7" end="8" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="14" infl="sg3" lcat="sv1" lemma="melden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="meld" sc="sbar" sense="meld" tense="present" word="meldt" wvorm="pv"/>
+        <node begin="8" cat="np" end="17" id="15" rel="su">
+          <node begin="8" cat="mwu" end="10" his="name" his_1="not_begin" id="16" mwu_root="VRT NWS" mwu_sense="VRT NWS" rel="hd">
+            <node begin="8" end="9" frame="proper_name(both)" id="17" lcat="np" lemma="VRT" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="VRT" sense="VRT" spectype="deeleigen" word="VRT"/>
+            <node begin="9" end="10" frame="proper_name(both)" id="18" lcat="np" lemma="NWS" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="NWS" sense="NWS" spectype="deeleigen" word="NWS"/>
+          </node>
+          <node begin="11" cat="rel" end="17" id="19" rel="mod">
+            <node begin="11" case="no_obl" end="12" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" his="normal" his_1="normal" id="20" index="1" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+            <node begin="11" cat="ssub" end="17" id="21" rel="body">
+              <node begin="11" end="12" id="22" index="1" rel="su"/>
+              <node begin="15" end="16" frame="verb('hebben/zijn',past(sg),aux(inf))" his="normal" his_1="normal" id="23" infl="sg" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past" word="kon" wvorm="pv"/>
+              <node begin="11" cat="inf" end="17" id="24" rel="vc">
+                <node begin="11" end="12" id="25" index="1" rel="su"/>
+                <node begin="12" cat="conj" end="15" id="26" rel="obj1">
+                  <node begin="12" end="13" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="mail" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="mail" sense="mail" word="mails"/>
+                  <node begin="13" conjtype="neven" end="14" frame="conj(en)" his="normal" his_1="normal" id="28" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="14" end="15" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="document" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="document" sense="document" word="documenten"/>
+                </node>
+                <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,ninv(transitive,part_transitive(in)))" his="normal" his_1="part-V" id="30" infl="inf" lcat="inf" lemma="in_kijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kijk_in" sc="part_transitive(in)" sense="kijk_in" word="inkijken" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Zeker drie generaals waren hierbij betrokken , meldt VRT NWS , dat mails en documenten kon inkijken .</sentence>
+  <comments>
+    <comment>Q#3|Zeker drie generaals waren hierbij betrokken , meldt VRT NWS , dat mails en documenten kon inkijken .|1|1|-9.806167842109993</comment>
+  </comments>
+</alpino_ds>

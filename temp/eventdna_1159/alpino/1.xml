@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="np" end="12" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="tiener" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tiener" sense="tiener" word="Tiener"/>
+      <node begin="1" cat="pp" end="12" id="3" rel="mod">
+        <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="4" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="2" cat="np" end="12" id="5" rel="obj1">
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="kritiek" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="kritiek" sense="kritiek" vform="adj" word="kritieke"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="toestand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="toestand" sense="toestand" word="toestand"/>
+          <node begin="4" cat="pp" end="12" id="8" rel="mod">
+            <node begin="4" end="5" frame="preposition(na,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+            <node begin="5" cat="np" end="12" id="10" rel="obj1">
+              <node begin="5" cat="ap" end="8" id="11" rel="mod">
+                <node begin="5" cat="np" end="7" id="12" rel="me">
+                  <node begin="5" end="6" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="13" infl="pl_num" lcat="detp" lemma="10" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="10" sense="10" special="hoofd" word="10"/>
+                  <node begin="6" end="7" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="meter" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="meter" sense="meter" special="meas_mod" word="meter"/>
+                </node>
+                <node aform="base" begin="7" buiging="met-e" end="8" frame="np_me_adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="hoog" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="hoog" sc="np_me" sense="hoog" vform="adj" word="hoge"/>
+              </node>
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="val" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="val" sense="val" word="val"/>
+              <node begin="9" cat="pp" end="12" id="17" rel="mod">
+                <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="10" cat="mwu" end="12" his="name" his_1="not_begin" id="19" mwu_root="Citadel Namen" mwu_sense="Citadel Namen" rel="obj1">
+                  <node begin="10" end="11" frame="proper_name(both,'PER')" id="20" lcat="np" lemma="Citadel" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Citadel" sense="Citadel" spectype="deeleigen" word="Citadel"/>
+                  <node begin="11" end="12" frame="proper_name(both,'PER')" id="21" lcat="np" lemma="Namen" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Namen" sense="Namen" spectype="deeleigen" word="Namen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Tiener in kritieke toestand na 10 meter hoge val van Citadel Namen</sentence>
+  <comments>
+    <comment>Q#1|Tiener in kritieke toestand na 10 meter hoge val van Citadel Namen|1|1|-0.12189854190000379</comment>
+  </comments>
+</alpino_ds>

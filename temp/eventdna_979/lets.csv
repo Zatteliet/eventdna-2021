@@ -1,0 +1,44 @@
+'	'	LET()	O	O
+Flipflopperij	flipflopperij	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+in	in	VZ(init)	B-PP	O
+energiedossier	energiedossier	N(soort,ev,basis,onz,stan)	B-NP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+stoppen	stoppen	WW(inf,vrij,zonder)	I-VP	O
+'	'	LET()	O	O
+				
+Nauwelijks	nauwelijks	BW()	B-NP	O
+anderhalve	anderhalve	ADJ(prenom,basis,met-e,stan)	I-NP	O
+maand	maand	N(soort,ev,basis,zijd,stan)	I-NP	O
+nadat	nadat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+het	het	LID(bep)	B-NP	O
+veelbesproken	veelbesproken	ADJ(prenom,basis,zonder)	I-NP	O
+Energiepact	energiepact	N(soort,ev,basis,onz,stan)	I-NP	B-MISC
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+ondertekend	ondertekenen	WW(vd,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+trekt	trekken	WW(pv,tgw,met-t)	B-VP	O
+voorzitter	voorzitter	N(soort,ev,basis,zijd,stan)	B-NP	O
+Bart	Bart	SPEC(deeleigen)	I-NP	B-PER
+De	De	SPEC(deeleigen)	I-NP	I-PER
+Wever	Wever	SPEC(deeleigen)	I-NP	I-PER
+de	de	LID(bep)	B-NP	O
+geplande	plannen	WW(vd,prenom,met-e)	I-NP	O
+kernuitstap	kernuitstap	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+twijfel	twijfel	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				
+CD	CD	N(soort,ev,basis,zijd,stan)	B-NP	O
+&	&	SPEC(symb)	I-NP	O
+V	V	SPEC(symb)	I-NP	O
+en	en	VG(neven)	O	O
+Open	Open	SPEC(deeleigen)	B-NP	B-PER
+VLD	VLD	SPEC(deeleigen)	I-NP	I-PER
+reageren	reageren	WW(pv,tgw,mv)	B-VP	O
+verontwaardigd	verontwaardigen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

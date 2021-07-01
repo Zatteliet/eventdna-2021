@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="ppart" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="cel_straf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="cel_straf" sense="cel_straf" word="Celstraf"/>
+      <node begin="1" buiging="zonder" end="2" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="3" infl="psp" lcat="ppart" lemma="eisen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="eis" sc="transitive" sense="eis" word="geëist" wvorm="vd"/>
+      <node begin="2" cat="pp" end="11" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="np" end="11" id="6" rel="obj1">
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanval" sense="aanval" word="aanval"/>
+          <node begin="4" cat="pp" end="11" id="8" rel="mod">
+            <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="5" cat="np" end="11" id="10" rel="obj1">
+              <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="11" lcat="np" lemma="slager_mes" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="slager_mes" sense="slager_mes" word="slagersmes"/>
+              <node begin="6" cat="pp" end="11" id="12" rel="mod">
+                <node begin="6" buiging="zonder" end="7" frame="modal_adverb(comp_prep)" graad="basis" his="normal" his_1="normal" id="13" lcat="advp" lemma="vlak" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="vlak" sc="comp_prep" sense="vlak" word="vlak"/>
+                <node begin="7" end="8" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                <node begin="8" cat="np" end="11" id="15" rel="obj1">
+                  <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="oog" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="oog" sense="oog" word="ogen"/>
+                  <node begin="9" cat="pp" end="11" id="17" rel="mod">
+                    <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="19" lcat="np" lemma="politie_patrouille" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="politie_patrouille" sense="politie_patrouille" word="politiepatrouille"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Celstraf geëist voor aanval met slagersmes vlak voor ogen van politiepatrouille</sentence>
+  <comments>
+    <comment>Q#1|Celstraf geëist voor aanval met slagersmes vlak voor ogen van politiepatrouille|1|1|5.448172397970013</comment>
+  </comments>
+</alpino_ds>

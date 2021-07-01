@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" cat="smain" end="20" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="studie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="studie" sense="studie" word="studie"/>
+        <node begin="2" cat="pp" end="6" id="5" rel="mod">
+          <node begin="2" end="3" frame="preposition(rond,[heen])" his="normal" his_1="normal" id="6" lcat="pp" lemma="rond" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="rond" sense="rond" vztype="init" word="rond"/>
+          <node begin="3" cat="np" end="6" id="7" rel="obj1">
+            <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(both))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuw"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="10" lcat="np" lemma="woon_zorg_centrum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="woon_zorg_centrum" sense="woon_zorg_centrum" word="woon-zorgcentrum"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg3,aci)" his="normal" his_1="normal" id="11" infl="sg3" lcat="smain" lemma="doen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="doe" sc="aci" sense="doe" stype="declarative" tense="present" word="doet" wvorm="pv"/>
+      <node begin="7" cat="np" end="15" id="12" index="1" rel="obj1">
+        <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="temperatuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="temperatuur" sense="temperatuur" word="temperatuur"/>
+        <node begin="9" cat="pp" end="15" id="15" rel="mod">
+          <node begin="9" end="10" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="16" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+          <node begin="10" cat="conj" end="15" id="17" rel="obj1">
+            <node begin="10" cat="np" end="13" id="18" rel="cnj">
+              <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="coalitie_partij" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="coalitie_partij" sense="coalitie_partij" word="coalitiepartijen"/>
+              <node begin="11" cat="mwu" end="13" his="normal" his_1="names_dictionary" id="20" mwu_root="Open VLD" mwu_sense="Open VLD" rel="app">
+                <node begin="11" end="12" frame="proper_name(sg,'ORG')" id="21" lcat="np" lemma="Open" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Open" sense="Open" spectype="deeleigen" word="Open"/>
+                <node begin="12" end="13" frame="proper_name(sg,'ORG')" id="22" lcat="np" lemma="VLD" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="VLD" sense="VLD" spectype="deeleigen" word="VLD"/>
+              </node>
+            </node>
+            <node begin="13" conjtype="neven" end="14" frame="conj(en)" his="normal" his_1="normal" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="14" end="15" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="24" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="inf" end="20" id="25" rel="vc">
+        <node begin="7" end="15" id="26" index="1" rel="su"/>
+        <node begin="15" end="16" frame="adverb" his="normal" his_1="normal" id="27" lcat="advp" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" sense="opnieuw" word="opnieuw"/>
+        <node begin="16" cat="pp" end="19" id="28" rel="ld">
+          <node begin="16" end="17" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="29" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="17" cat="np" end="19" id="30" rel="obj1">
+            <node begin="17" end="18" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="31" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="18" end="19" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="vriespunt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vriespunt" sense="vriespunt" word="vriespunt"/>
+          </node>
+        </node>
+        <node begin="19" buiging="zonder" end="20" frame="verb(zijn,inf,ld_pp)" his="normal" his_1="normal" id="33" infl="inf" lcat="inf" lemma="zakken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zak" sc="ld_pp" sense="zak" word="zakken" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Een studie rond een nieuw woon-zorgcentrum doet de temperatuur tussen coalitiepartijen Open VLD en N-VA opnieuw naar het vriespunt zakken .</sentence>
+  <comments>
+    <comment>Q#2|Een studie rond een nieuw woon-zorgcentrum doet de temperatuur tussen coalitiepartijen Open VLD en N-VA opnieuw naar het vriespunt zakken .|1|1|-11.792903794049998</comment>
+  </comments>
+</alpino_ds>

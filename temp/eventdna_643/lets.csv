@@ -1,0 +1,56 @@
+Europese	Europees	ADJ(prenom,basis,met-e,stan)	B-NP	B-ORG
+Ombudsman	ombudsman	N(soort,ev,basis,zijd,stan)	I-NP	I-ORG
+kritisch	kritisch	ADJ(vrij,basis,zonder)	B-AP	O
+voor	voor	VZ(init)	B-PP	O
+benoeming	benoeming	N(soort,ev,basis,zijd,stan)	B-NP	O
+kabinetschef	kabinetschef	N(soort,ev,basis,zijd,stan)	I-NP	O
+Juncker	Juncker	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+tot	tot	VZ(init)	B-PP	O
+EU-topambtenaar	EU-topambtenaar	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+				
+De	de	LID(bep)	B-NP	O
+Europese	Europees	ADJ(prenom,basis,met-e,stan)	I-NP	B-ORG
+Commissie	commissie	N(soort,ev,basis,zijd,stan)	I-NP	I-ORG
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+fouten	fout	N(soort,mv,basis)	B-NP	O
+gemaakt	maken	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+benoeming	benoeming	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Europese	Europees	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+topambtenaar	topambtenaar	N(soort,ev,basis,zijd,stan)	I-NP	O
+Martin	Martin	SPEC(deeleigen)	I-NP	B-PER
+Selmayr	Selmayr	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+besluit	besluiten	WW(pv,tgw,ev)	B-VP	O
+EU-ombudsman	EU-ombudsman	SPEC(deeleigen)	B-NP	B-MISC
+Emily	Emily	SPEC(deeleigen)	I-NP	B-PER
+O'Reilly	O'Reilly	SPEC(deeleigen)	I-NP	I-PER
+in	in	VZ(init)	B-PP	O
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+eindrapport	eindrapport	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+'	'	LET()	O	O
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+uitzonderlijk	uitzonderlijk	ADJ(vrij,basis,zonder)	B-AP	O
+vreemd	vreemd	ADJ(vrij,basis,zonder)	I-AP	O
+dat	dat	VG(onder)	O	O
+geen	geen	VNW(onbep,det)	B-NP	O
+enkele	enkel	VNW(onbep,det)	I-NP	O
+Commissaris	commissaris	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+de	de	LID(bep)	B-NP	O
+procedure	procedure	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+vraag	vraag	N(soort,ev,basis,zijd,stan)	B-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+gesteld	stellen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+'	'	LET()	O	O
+				

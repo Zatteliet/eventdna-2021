@@ -1,0 +1,52 @@
+Regeringspartij	regeringspartij	N(soort,ev,basis,zijd,stan)	B-NP	O
+wint	winnen	WW(pv,tgw,met-t)	B-VP	O
+gouverneursverkiezingen	gouverneursverkiezing	N(soort,mv,basis)	B-NP	O
+Venezuela	Venezuela	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+				
+De	de	LID(bep)	B-NP	O
+Venezolaanse	Venezolaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Nicolas	Nicolas	SPEC(deeleigen)	I-NP	B-PER
+Maduro	Maduro	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+zondag	zondag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+slag	slag	N(soort,ev,basis,zijd,stan)	I-NP	O
+thuisgehaald	thuishalen	WW(vd,vrij,zonder)	B-VP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+regionale	regionaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+verkiezingen	verkiezing	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+partij	partij	N(soort,ev,basis,zijd,stan)	I-NP	O
+sleepte	slepen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+gouverneurszetel	gouverneurszetel	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+wacht	wacht	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+17	17	TW(hoofd,vrij)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+23	23	TW(hoofd,prenom,stan)	I-NP	O
+deelstaten	deelstaat	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+zo	zo	BW()	B-ADVP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+nationale	nationaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+kiescommissie	kiescommissie	N(soort,ev,basis,zijd,stan)	I-NP	O
+CNE	CNE	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+bekendgemaakt	bekendmaken	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+oppositie	oppositie	N(soort,ev,basis,zijd,stan)	I-NP	O
+klaagt	klagen	WW(pv,tgw,met-t)	B-VP	O
+onregelmatigheden	onregelmatigheid	N(soort,mv,basis)	B-NP	O
+aan	aan	VZ(fin)	O	O
+.	.	LET()	O	O
+				

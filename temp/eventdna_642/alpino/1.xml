@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="Poetin" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Poetin" sense="Poetin" word="Poetin"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,pc_pp(op))" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="hopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoop" sc="pc_pp(op)" sense="hoop-op" stype="declarative" tense="present" word="hoopt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="6" lcat="np" lemma="nieuwjaar_brief" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="nieuwjaar_brief" sense="nieuwjaar_brief" word="nieuwjaarsbrief"/>
+      </node>
+      <node begin="4" cat="pp" end="9" id="7" rel="pc">
+        <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="8" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="5" cat="np" end="9" id="9" rel="obj1">
+          <node aform="compar" begin="5" buiging="met-e" end="6" frame="adjective(ere)" graad="comp" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="betere"/>
+          <node begin="6" end="7" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="samenwerking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="samenwerking" sense="samenwerking" word="samenwerking"/>
+          <node begin="7" cat="pp" end="9" id="12" rel="mod">
+            <node begin="7" end="8" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="8" end="9" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="obj1" rnum="sg" root="VS" sense="VS" word="VS"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Poetin hoopt in nieuwjaarsbrief op betere samenwerking met VS</sentence>
+  <comments>
+    <comment>Q#1|Poetin hoopt in nieuwjaarsbrief op betere samenwerking met VS|1|1|-0.8748910064200013</comment>
+  </comments>
+</alpino_ds>

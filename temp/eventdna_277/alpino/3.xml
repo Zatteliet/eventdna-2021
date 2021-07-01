@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="42" id="0" rel="top">
+    <node begin="0" cat="smain" end="41" id="1" rel="--">
+      <node begin="0" cat="np" end="8" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+        <node begin="3" cat="pp" end="6" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="8" mwu_root="Buitenlandse Zaken" mwu_sense="Buitenlandse Zaken" rel="obj1">
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="9" lcat="np" lemma="Buitenlandse" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Buitenlandse" sense="Buitenlandse" spectype="deeleigen" word="Buitenlandse"/>
+            <node begin="5" end="6" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Zaken" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zaken" sense="Zaken" spectype="deeleigen" word="Zaken"/>
+          </node>
+        </node>
+        <node begin="6" cat="mwu" end="8" his="name" his_1="not_begin" id="11" mwu_root="Boris Johnson" mwu_sense="Boris Johnson" rel="app">
+          <node begin="6" end="7" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Boris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Boris" sense="Boris" spectype="deeleigen" word="Boris"/>
+          <node begin="7" end="8" frame="proper_name(sg,'PER')" id="13" lcat="np" lemma="Johnson" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Johnson" sense="Johnson" spectype="deeleigen" word="Johnson"/>
+        </node>
+      </node>
+      <node begin="8" end="9" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="14" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="41" id="15" rel="vc">
+        <node begin="0" end="8" id="16" index="1" rel="su"/>
+        <node begin="9" buiging="zonder" end="10" frame="verb(hebben,psp,sbar)" his="normal" his_1="normal" id="17" infl="psp" lcat="ppart" lemma="waarschuwen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="waarschuw" sc="sbar" sense="waarschuw" word="gewaarschuwd" wvorm="vd"/>
+        <node begin="10" cat="cp" end="41" id="18" rel="vc">
+          <node begin="10" conjtype="onder" end="11" frame="complementizer(dat)" his="normal" his_1="normal" id="19" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="11" cat="ssub" end="41" id="20" rel="body">
+            <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" index="2" lcat="np" lemma="Groot-Brittannië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Groot-Brittannië" sense="Groot-Brittannië" word="Groot-Brittannië"/>
+            <node begin="13" end="14" frame="verb(hebben,modal_not_u,aux(inf))" his="normal" his_1="normal" id="22" infl="modal_not_u" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zal" wvorm="pv"/>
+            <node begin="11" cat="inf" end="41" id="23" rel="vc">
+              <node begin="11" end="12" id="24" index="2" rel="su"/>
+              <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="25" infl="no_e" lcat="ap" lemma="krachtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="krachtig" sense="krachtig" vform="adj" word="krachtig"/>
+              <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,fixed([als_pred],no_passive))" his="normal" his_1="normal" id="26" infl="inf" lcat="inf" lemma="reageren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="reageer" sc="fixed([als_pred],no_passive)" sense="reageer" word="reageren" wvorm="inf"/>
+              <node begin="15" cat="cp" end="41" id="27" rel="predc">
+                <node begin="15" end="16" frame="complementizer(als)" his="normal" his_1="normal" id="28" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+                <node begin="16" cat="sv1" end="41" id="29" rel="body">
+                  <node begin="16" end="17" frame="verb(unacc,sg3,dip_sbar_subj_no_het)" his="normal" his_1="normal" id="30" infl="sg3" lcat="sv1" lemma="blijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijk" sc="dip_sbar_subj_no_het" sense="blijk" tense="present" word="blijkt" wvorm="pv"/>
+                  <node begin="17" cat="cp" end="41" id="31" rel="su">
+                    <node begin="17" conjtype="onder" end="18" frame="complementizer(dat)" his="normal" his_1="normal" id="32" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+                    <node begin="18" cat="ssub" end="41" id="33" rel="body">
+                      <node begin="18" end="19" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="34" lcat="np" lemma="Rusland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Rusland" sense="Rusland" word="Rusland"/>
+                      <node begin="19" end="20" frame="meas_mod_noun(het,mass,sg)" gen="het" getal="ev" his="normal" his_1="normal" id="35" lcat="np" lemma="iets" naamval="stan" num="sg" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="mod" rnum="sg" root="iets" sense="iets" special="meas_mod" status="vol" vwtype="onbep" word="iets"/>
+                      <node begin="20" cat="ti" end="22" id="36" rel="svp">
+                        <node begin="20" end="21" frame="complementizer(te)" his="normal" his_1="normal" id="37" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                        <node begin="21" buiging="zonder" end="22" frame="verb(hebben,inf,fixed_dep(intransitive))" his="normal" his_1="normal" id="38" infl="inf" lcat="inf" lemma="maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="body" root="maak" sc="fixed_dep(intransitive)" sense="maak" word="maken" wvorm="inf"/>
+                      </node>
+                      <node begin="22" end="23" frame="verb(hebben,sg_heeft,fixed([vc(maak,pass_te,intransitive),pc(met)],no_passive))" his="normal" his_1="normal" id="39" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="fixed([vc(maak,pass_te,intransitive),pc(met)],no_passive)" sense="heb-met-maak" tense="present" word="heeft" wvorm="pv"/>
+                      <node begin="23" cat="pp" end="39" id="40" rel="pc">
+                        <node begin="23" end="24" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="41" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                        <node begin="24" cat="conj" end="39" id="42" rel="obj1">
+                          <node begin="24" cat="np" end="32" id="43" rel="cnj">
+                            <node begin="24" end="25" frame="determiner(de)" his="normal" his_1="normal" id="44" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                            <node aform="base" begin="25" buiging="met-e" end="26" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="45" infl="e" lcat="ap" lemma="vermoedelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vermoedelijk" sense="vermoedelijk" vform="adj" word="vermoedelijke"/>
+                            <node begin="26" end="27" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="46" lcat="np" lemma="vergiftiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vergiftiging" sense="vergiftiging" word="vergiftiging"/>
+                            <node begin="27" cat="pp" end="32" id="47" rel="mod">
+                              <node begin="27" end="28" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="48" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                              <node begin="28" cat="np" end="32" id="49" rel="obj1">
+                                <node begin="28" end="29" frame="determiner(een)" his="normal" his_1="normal" id="50" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                                <node aform="base" begin="29" buiging="zonder" end="30" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="51" infl="both" lcat="ppart" lemma="gewezen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gewezen" sense="gewezen" vform="psp" word="gewezen" wvorm="vd"/>
+                                <node aform="base" begin="30" buiging="met-e" end="31" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="52" infl="e" lcat="ap" lemma="Russisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj" word="Russische"/>
+                                <node begin="31" end="32" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="53" lcat="np" lemma="spion" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="spion" sense="spion" word="spion"/>
+                              </node>
+                            </node>
+                          </node>
+                          <node begin="32" conjtype="neven" end="33" frame="conj(en)" his="normal" his_1="normal" id="54" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                          <node begin="33" cat="np" end="39" id="55" rel="cnj">
+                            <node begin="33" buiging="zonder" end="34" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="56" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                            <node begin="34" end="35" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="57" lcat="np" lemma="dochter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dochter" sense="dochter" word="dochter"/>
+                            <node begin="35" cat="pp" end="39" id="58" rel="mod">
+                              <node begin="35" end="36" frame="preposition(in,[])" his="normal" his_1="normal" id="59" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                              <node begin="36" cat="np" end="39" id="60" rel="obj1">
+                                <node begin="36" end="37" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="61" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                                <node begin="37" cat="mwu" end="39" his="name" his_1="not_begin" id="62" mwu_root="Britse Salisbury" mwu_sense="Britse Salisbury" rel="hd">
+                                  <node begin="37" end="38" frame="proper_name(both,'LOC')" id="63" lcat="np" lemma="Britse" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Britse" sense="Britse" spectype="deeleigen" word="Britse"/>
+                                  <node begin="38" end="39" frame="proper_name(both,'LOC')" id="64" lcat="np" lemma="Salisbury" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Salisbury" sense="Salisbury" spectype="deeleigen" word="Salisbury"/>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node begin="39" cat="np" end="41" id="65" rel="mod">
+                        <node begin="39" buiging="zonder" end="40" frame="determiner(het,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="66" infl="het" lcat="detp" lemma="dit" naamval="stan" npagr="evon" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,evon)" pt="vnw" rel="det" root="dit" sense="dit" vwtype="aanw" wh="nwh" word="dit"/>
+                        <node begin="40" end="41" frame="tmp_noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="67" lcat="np" lemma="weekend" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="weekend" sense="weekend" special="tmp" word="weekend"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="41" end="42" frame="punct(punt)" his="normal" his_1="normal" id="68" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">De Britse minister van Buitenlandse Zaken Boris Johnson heeft gewaarschuwd dat Groot-Brittannië krachtig zal reageren als blijkt dat Rusland iets te maken heeft met de vermoedelijke vergiftiging van een gewezen Russische spion en zijn dochter in het Britse Salisbury dit weekend .</sentence>
+  <comments>
+    <comment>Q#3|De Britse minister van Buitenlandse Zaken Boris Johnson heeft gewaarschuwd dat Groot-Brittannië krachtig zal reageren als blijkt dat Rusland iets te maken heeft met de vermoedelijke vergiftiging van een gewezen Russische spion en zijn dochter in het Britse Salisbury dit weekend .|1|1|-11.63636020442997</comment>
+  </comments>
+</alpino_ds>

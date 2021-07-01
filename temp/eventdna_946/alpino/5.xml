@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="18" id="3" rel="--">
+      <node begin="0" cat="np" end="12" id="4" rel="su">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="5" mwu_root="De Raad" mwu_sense="De Raad" rel="hd">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Raad" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Raad" sense="Raad" spectype="deeleigen" word="Raad"/>
+        </node>
+        <node begin="2" cat="pp" end="6" id="8" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="6" id="10" rel="obj1">
+            <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="4" cat="mwu" end="6" his="name" his_1="not_begin" id="12" mwu_root="Keizerlijke Hofhouding" mwu_sense="Keizerlijke Hofhouding" rel="hd">
+              <node begin="4" end="5" frame="proper_name(both,'ORG')" id="13" lcat="np" lemma="Keizerlijke" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Keizerlijke" sense="Keizerlijke" spectype="deeleigen" word="Keizerlijke"/>
+              <node begin="5" end="6" frame="proper_name(both,'ORG')" id="14" lcat="np" lemma="Hofhouding" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Hofhouding" sense="Hofhouding" spectype="deeleigen" word="Hofhouding"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" cat="ppart" end="12" id="15" rel="mod">
+          <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(ge_no_e(padv))" his="normal" his_1="normal" id="16" infl="no_e" lcat="ppart" lemma="geleid" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geleid" sense="geleid" vform="psp" word="geleid" wvorm="vd"/>
+          <node begin="8" cat="pp" end="12" id="17" rel="mod">
+            <node begin="8" end="9" frame="preposition(door,[heen])" his="normal" his_1="normal" id="18" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="9" cat="np" end="12" id="19" rel="obj1">
+              <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+              <node begin="10" cat="mwu" end="12" his="name" his_1="not_begin" id="21" mwu_root="Shinzo Abe" mwu_sense="Shinzo Abe" rel="app">
+                <node begin="10" end="11" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Shinzo" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Shinzo" sense="Shinzo" spectype="deeleigen" word="Shinzo"/>
+                <node begin="11" end="12" frame="proper_name(sg,'PER')" id="23" lcat="np" lemma="Abe" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Abe" sense="Abe" spectype="deeleigen" word="Abe"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" end="14" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="24" infl="sg" lcat="smain" lemma="bereiken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bereik" sc="transitive" sense="bereik" stype="declarative" tense="past" word="bereikte" wvorm="pv"/>
+      <node begin="14" end="15" frame="er_adverb(over)" his="normal" his_1="normal" id="25" lcat="pp" lemma="hierover" pos="pp" postag="BW()" pt="bw" rel="mod" root="hierover" sense="hierover" special="er" word="hierover"/>
+      <node begin="15" end="16" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="vrijdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="vrijdag" sense="vrijdag" special="tmp" word="vrijdag"/>
+      <node begin="16" cat="np" end="18" id="27" rel="obj1">
+        <node begin="16" end="17" frame="determiner(een)" his="normal" his_1="normal" id="28" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="17" end="18" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="accoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="accoord" sense="accoord" word="akkoord"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="5">De Raad van de Keizerlijke Hofhouding , geleid door premier Shinzo Abe , bereikte hierover vrijdag een akkoord</sentence>
+  <comments>
+    <comment>Q#5|De Raad van de Keizerlijke Hofhouding , geleid door premier Shinzo Abe , bereikte hierover vrijdag een akkoord|1|1|-5.84382220564</comment>
+  </comments>
+</alpino_ds>

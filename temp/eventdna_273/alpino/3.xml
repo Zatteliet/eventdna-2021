@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="15" id="2" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zeg" sc="transitive" sense="zeg" stype="declarative" tense="present" word="zeggen" wvorm="pv"/>
+      <node begin="2" cat="np" end="15" id="5" rel="su">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="Democratisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Democratisch" sense="Democratisch" vform="adj" word="Democratische"/>
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="leider" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="leider" sense="leider" word="leiders"/>
+        <node begin="5" cat="pp" end="9" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="6" cat="conj" end="9" id="11" rel="obj1">
+            <node begin="6" end="7" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="12" lcat="np" lemma="Huis" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Huis" sense="Huis" word="Huis"/>
+            <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="8" end="9" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="Senaat" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Senaat" sense="Senaat" word="Senaat"/>
+          </node>
+        </node>
+        <node begin="10" cat="conj" end="15" id="15" rel="app">
+          <node begin="10" cat="mwu" end="12" his="name" his_1="not_begin" id="16" mwu_root="Nancy Pelosi" mwu_sense="Nancy Pelosi" rel="cnj">
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Nancy" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nancy" sense="Nancy" spectype="deeleigen" word="Nancy"/>
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Pelosi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Pelosi" sense="Pelosi" spectype="deeleigen" word="Pelosi"/>
+          </node>
+          <node begin="12" conjtype="neven" end="13" frame="conj(en)" his="normal" his_1="normal" id="19" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="13" cat="mwu" end="15" his="name" his_1="not_begin" id="20" mwu_root="Chuck Schumer" mwu_sense="Chuck Schumer" rel="cnj">
+            <node begin="13" end="14" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Chuck" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Chuck" sense="Chuck" spectype="deeleigen" word="Chuck"/>
+            <node begin="14" end="15" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Schumer" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Schumer" sense="Schumer" spectype="deeleigen" word="Schumer"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat zeggen de Democratische leiders in Huis en Senaat , Nancy Pelosi en Chuck Schumer .</sentence>
+  <comments>
+    <comment>Q#3|Dat zeggen de Democratische leiders in Huis en Senaat , Nancy Pelosi en Chuck Schumer .|1|1|-0.9703110570699969</comment>
+  </comments>
+</alpino_ds>

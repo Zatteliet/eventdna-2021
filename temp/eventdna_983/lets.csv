@@ -1,0 +1,54 @@
+Man	Man	N(eigen,ev,basis,onz,stan)	B-NP	O
+schiet	schieten	WW(pv,tgw,ev)	B-VP	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	B-AP	O
+dood	dood	ADJ(vrij,basis,zonder)	I-AP	O
+bij	bij	VZ(init)	B-PP	O
+Witte	Witte	SPEC(deeleigen)	B-NP	B-LOC
+Huis	Huis	SPEC(deeleigen)	I-NP	I-LOC
+				
+Het	het	LID(bep)	B-NP	O
+Witte	Witte	SPEC(deeleigen)	I-NP	B-LOC
+Huis	Huis	SPEC(deeleigen)	I-NP	I-LOC
+werd	worden	WW(pv,verl,ev)	B-VP	O
+zaterdag	zaterdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+even	even	BW()	B-ADVP	O
+afgesloten	afsluiten	WW(vd,vrij,zonder)	B-VP	O
+omdat	omdat	VG(onder)	O	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+schoten	schot	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+gelost	lossen	WW(vd,vrij,zonder)	I-VP	O
+nabij	nabij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+woning	woning	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+presidentiële	presidentieel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+residentie	residentie	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Secret	Secret	SPEC(deeleigen)	I-NP	B-PER
+Service	Service	SPEC(deeleigen)	I-NP	I-PER
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+om	om	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	O	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	O	O
+verwondde	verwonden	WW(pv,verl,ev)	B-VP	O
+met	met	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+vuurwapen	vuurwapen	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+inmiddels	inmiddels	BW()	B-ADVP	O
+overleden	overlijden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

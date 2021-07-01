@@ -1,0 +1,37 @@
+CD	CD	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+&	&	SPEC(symb)	I-NP	I-MISC
+V	V	SPEC(deeleigen)	I-NP	I-MISC
+Asse	Asse	SPEC(deeleigen)	I-NP	I-MISC
+kiest	kiest	SPEC(deeleigen)	I-NP	O
+Koen	Koen	SPEC(deeleigen)	I-NP	B-PER
+Van	Van	SPEC(deeleigen)	I-NP	I-PER
+Elsen	Elsen	SPEC(deeleigen)	I-NP	I-PER
+opnieuw	opnieuw	BW()	B-ADVP	O
+als	als	VZ(init)	B-PP	O
+lijsttrekker	lijsttrekker	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+Tijdens	tijdens	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+nieuwjaarsreceptie	nieuwjaarsreceptie	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+CD	CD	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+&	&	SPEC(symb)	I-NP	O
+V	V	SPEC(deeleigen)	I-NP	B-PER
+Asse	Asse	SPEC(deeleigen)	I-NP	I-PER
+werd	worden	WW(pv,verl,ev)	B-VP	O
+huidig	huidig	ADJ(prenom,basis,zonder)	B-NP	O
+burgemeester	burgemeester	N(soort,ev,basis,zijd,stan)	I-NP	O
+Koen	Koen	SPEC(deeleigen)	I-NP	B-PER
+Van	Van	SPEC(deeleigen)	I-NP	I-PER
+Elsen	Elsen	SPEC(deeleigen)	I-NP	I-PER
+opnieuw	opnieuw	BW()	B-ADVP	O
+naar	naar	VZ(init)	O	O
+voor	voor	VZ(fin)	O	O
+geschoven	schuiven	WW(vd,vrij,zonder)	B-VP	O
+als	als	VZ(init)	B-PP	O
+lijsttrekker	lijsttrekker	N(soort,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+gemeenteraadsverkiezingen	gemeenteraadsverkiezing	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				

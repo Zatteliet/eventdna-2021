@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="5" end="6" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="2" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="11" cat="np" end="15" id="3" index="1" rel="su">
+        <node begin="11" end="12" frame="noun(het,count,pl,measure)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="tientallen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tientallen" sc="measure" sense="tientallen" word="tientallen"/>
+        <node begin="12" cat="np" end="15" id="5" rel="mod">
+          <node begin="12" end="13" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="geval" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="geval" sense="geval" word="gevallen"/>
+          <node begin="13" cat="pp" end="15" id="7" rel="mod">
+            <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="14" end="15" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="9" lcat="np" lemma="verstikking" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="verstikking" sense="verstikking" word="verstikking"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="16" id="10" rel="vc">
+        <node begin="0" cat="pp" end="5" id="11" rel="mod">
+          <node begin="0" end="1" frame="preposition(in,[])" his="normal" his_1="decap" his_1_1="normal" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" cat="np" end="5" id="13" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="Syrisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Syrisch" sense="Syrisch" vform="adj" word="Syrische"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="16" lcat="np" lemma="rebel_enclave" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rebel_enclave" sense="rebel_enclave" word="rebellenenclave"/>
+            <node begin="4" end="5" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="17" lcat="np" lemma="Oost-Ghouta" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" root="Oost-Ghouta" sense="Oost-Ghouta" word="Oost-Ghouta"/>
+          </node>
+        </node>
+        <node begin="6" cat="pp" end="11" id="18" rel="mod">
+          <node begin="6" end="7" frame="preposition(na,[])" his="normal" his_1="normal" id="19" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+          <node begin="7" cat="np" end="11" id="20" rel="obj1">
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="luchtaanval" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="luchtaanval" sense="luchtaanval" word="luchtaanvallen"/>
+            <node begin="8" cat="pp" end="11" id="22" rel="mod">
+              <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="9" cat="np" end="11" id="24" rel="obj1">
+                <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="25" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="regime" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="regime" sense="regime" word="regime"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="15" id="27" index="1" rel="obj1"/>
+        <node begin="15" buiging="zonder" end="16" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="28" infl="psp" lcat="ppart" lemma="melden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="meld" sc="transitive" sense="meld" word="gemeld" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">In de Syrische rebellenenclave Oost-Ghouta zijn na luchtaanvallen van het regime tientallen gevallen van verstikking gemeld .</sentence>
+  <comments>
+    <comment>Q#2|In de Syrische rebellenenclave Oost-Ghouta zijn na luchtaanvallen van het regime tientallen gevallen van verstikking gemeld .|1|1|-0.190686335110003</comment>
+  </comments>
+</alpino_ds>

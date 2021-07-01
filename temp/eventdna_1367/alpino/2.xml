@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="3" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(ligg_streep)" his="skip" id="1" lcat="--" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" buiging="zonder" end="1" frame="v_noun(intransitive)" getal-n="zonder-n" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="wonen" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="dp" rnum="sg" root="woon" sc="intransitive" sense="woon" special="v_noun" word="Wonen" wvorm="inf"/>
+      <node begin="2" cat="inf" end="7" id="4" rel="dp">
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="5" infl="inf" lcat="inf" lemma="beperken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="beperk" sc="transitive" sense="beperk" word="beperken" wvorm="inf"/>
+        <node begin="2" cat="conj" end="7" id="6" rel="obj1">
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="7" lcat="np" lemma="Leef_ruimte" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Leef_ruimte" sense="Leef_ruimte" word="Leefruimte"/>
+          <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="8" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="5" cat="np" end="7" id="9" rel="cnj">
+            <node aform="base" begin="5" end="6" frame="adjective(pred(adv))" his="normal" his_1="normal" id="10" infl="pred" lcat="ap" lemma="tegelijk" pos="adj" postag="BW()" pt="bw" rel="mod" root="tegelijk" sense="tegelijk" vform="adj" word="tegelijk"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="leven_kwaliteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leven_kwaliteit" sense="leven_kwaliteit" word="levenskwaliteit"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="14" id="12" rel="dp">
+        <node begin="8" end="9" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="13" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+        <node begin="7" cat="ppart" end="14" id="14" rel="vc">
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="15" infl="psp" lcat="ppart" lemma="behouden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="behoud" sc="transitive" sense="behoud" word="behouden" wvorm="vd"/>
+          <node begin="9" cat="np" end="14" id="16" index="1" rel="obj1">
+            <node begin="9" end="10" frame="determiner(de)" his="w_dia" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="dé"/>
+            <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="uitdaging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uitdaging" sense="uitdaging" word="uitdaging"/>
+            <node begin="11" cat="pp" end="14" id="19" rel="mod">
+              <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="12" cat="np" end="14" id="21" rel="obj1">
+                <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="13" end="14" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="toekomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="toekomst" sense="toekomst" word="toekomst"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="14" id="24" index="1" rel="su"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Wonen - Leefruimte beperken en tegelijk levenskwaliteit behouden wordt dé uitdaging van de toekomst</sentence>
+  <comments>
+    <comment>Q#2|Wonen - Leefruimte beperken en tegelijk levenskwaliteit behouden wordt dé uitdaging van de toekomst|1|3|8.265662903589996</comment>
+  </comments>
+</alpino_ds>

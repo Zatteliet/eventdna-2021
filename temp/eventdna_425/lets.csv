@@ -1,0 +1,30 @@
+Evacuaties	evacuatie	N(soort,mv,basis)	B-NP	O
+uit	uit	VZ(init)	B-PP	O
+Libië	Libië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+'	'	LET()	O	O
+on	on	SPEC(vreemd)	O	O
+hold	hold	SPEC(vreemd)	O	O
+'	'	LET()	O	O
+				
+Zolang	zolang	VG(onder)	O	O
+Europa	Europa	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+niet	niet	BW()	B-NP	O
+meer	veel	VNW(onbep,grad,comp)	I-NP	O
+vluchtelingen	vluchteling	N(soort,mv,basis)	I-NP	O
+uit	uit	VZ(init)	B-PP	O
+Niger	Niger	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+hervestigt	hervestigen	WW(pv,tgw,met-t)	B-VP	O
+,	,	LET()	O	O
+moeten	moeten	WW(pv,tgw,mv)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Verenigde	verenigen	WW(vd,prenom,met-e)	I-NP	B-ORG
+Naties	natie	N(soort,mv,basis)	I-NP	I-ORG
+de	de	LID(bep)	B-NP	O
+eva­cuaties	eva­cuatie	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+vluchtelingen	vluchteling	N(soort,mv,basis)	B-NP	O
+uit	uit	VZ(init)	B-PP	O
+Libië	Libië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+opschorten	opschoren	WW(pv,verl,mv)	B-VP	O
+.	.	LET()	O	O
+				

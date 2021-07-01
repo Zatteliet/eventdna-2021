@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="3" lcat="np" lemma="Francken" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="tag" rnum="sg" root="Francken" sense="Francken" word="Francken"/>
+      <node begin="2" cat="sv1" end="11" id="4" rel="nucl">
+        <node begin="2" end="3" frame="verb(hebben,sg,part_sbar(uit))" his="normal" his_1="decap" his_1_1="normal" id="5" infl="sg" lcat="sv1" lemma="uit_sluiten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="sluit_uit" sc="part_sbar(uit)" sense="sluit_uit" stype="topic_drop" tense="present" word="Sluit" wvorm="pv"/>
+        <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="6" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="4" end="5" frame="particle(uit)" his="normal" his_1="normal" id="7" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+        <node begin="5" cat="cp" end="11" id="8" rel="vc">
+          <node begin="5" conjtype="onder" end="6" frame="complementizer(dat)" his="normal" his_1="normal" id="9" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="6" cat="ssub" end="11" id="10" rel="body">
+            <node begin="6" end="7" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="11" lcat="np" lemma="Puigdemont" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Puigdemont" sense="Puigdemont" word="Puigdemont"/>
+            <node begin="8" end="9" frame="verb(hebben,sg3,ninv(transitive,part_transitive(aan)))" his="normal" his_1="part-V" id="12" infl="sg3" lcat="ssub" lemma="aan_vragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vraag_aan" sc="part_transitive(aan)" sense="vraag_aan" tense="present" word="aanvraagt" wvorm="pv"/>
+            <node begin="7" cat="np" end="11" id="13" rel="obj1">
+              <node begin="7" end="8" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="asiel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="asiel" sense="asiel" word="asiel"/>
+              <node begin="9" cat="pp" end="11" id="15" rel="mod">
+                <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="België" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="België" sense="België" word="België"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Francken : Sluit niet uit dat Puigdemont asiel aanvraagt in België</sentence>
+  <comments>
+    <comment>Q#1|Francken : Sluit niet uit dat Puigdemont asiel aanvraagt in België|1|1|-2.771333673930001</comment>
+  </comments>
+</alpino_ds>

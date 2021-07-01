@@ -1,0 +1,32 @@
+Proces	proces	N(soort,ev,basis,onz,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+Jacques	Jacques	SPEC(deeleigen)	B-NP	B-PER
+Monsieur	Monsieur	SPEC(deeleigen)	I-NP	I-PER
+start	starten	WW(pv,tgw,ev)	B-VP	O
+op	op	VZ(init)	B-PP	O
+donderdag	donderdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+proces	proces	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Jacques	Jacques	SPEC(deeleigen)	B-NP	B-PER
+Monsieur	Monsieur	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+verdacht	verdenken	WW(vd,vrij,zonder)	B-VP	O
+wordt	worden	WW(pv,tgw,met-t)	I-VP	O
+van	van	VZ(init)	B-PP	O
+internationale	internationaal	ADJ(prenom,basis,met-e,stan)	B-NP	O
+wapentrafiek	wapentrafiek	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+start	starten	WW(pv,tgw,ev)	B-VP	O
+donderdag	donderdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+hof	hof	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+beroep	beroep	N(soort,ev,basis,onz,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="27" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="8" end="9" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="conj" end="26" id="3" rel="--">
+      <node begin="0" cat="smain" end="12" id="4" rel="cnj">
+        <node begin="0" cat="np" end="8" id="5" index="1" rel="su">
+          <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="Vlaams" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaams"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+          <node begin="2" cat="pp" end="6" id="8" rel="mod">
+            <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="3" cat="mwu" end="6" his="name" his_1="not_begin" id="10" mwu_root="Dierenwelzijn Ben Weyts" mwu_sense="Dierenwelzijn Ben Weyts" rel="obj1">
+              <node begin="3" end="4" frame="proper_name(both)" id="11" lcat="np" lemma="Dierenwelzijn" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Dierenwelzijn" sense="Dierenwelzijn" spectype="deeleigen" word="Dierenwelzijn"/>
+              <node begin="4" end="5" frame="proper_name(both)" id="12" lcat="np" lemma="Ben" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ben" sense="Ben" spectype="deeleigen" word="Ben"/>
+              <node begin="5" end="6" frame="proper_name(both)" id="13" lcat="np" lemma="Weyts" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Weyts" sense="Weyts" spectype="deeleigen" word="Weyts"/>
+            </node>
+          </node>
+          <node begin="7" end="8" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+        </node>
+        <node begin="9" end="10" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="normal" id="15" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present" word="wil" wvorm="pv"/>
+        <node begin="0" cat="inf" end="12" id="16" rel="vc">
+          <node begin="0" end="8" id="17" index="1" rel="su"/>
+          <node begin="10" end="11" frame="adverb" his="normal" his_1="normal" id="18" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="11" buiging="zonder" end="12" frame="verb(zijn,inf,intransitive)" his="normal" his_1="normal" id="19" infl="inf" lcat="inf" lemma="wijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wijk" sc="intransitive" sense="wijk" word="wijken" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="12" conjtype="neven" end="13" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="26" id="21" rel="cnj">
+        <node begin="0" end="8" id="22" index="1" rel="su"/>
+        <node begin="13" end="14" frame="verb(hebben,sg3,vp)" his="normal" his_1="normal" id="23" infl="sg3" lcat="smain" lemma="hopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hoop" sc="vp" sense="hoop" tense="present" word="hoopt" wvorm="pv"/>
+        <node begin="0" cat="ti" end="26" id="24" rel="vc">
+          <node begin="23" end="24" frame="complementizer(te)" his="normal" his_1="normal" id="25" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="0" cat="inf" end="26" id="26" rel="body">
+            <node begin="0" end="8" id="27" index="1" rel="su"/>
+            <node begin="24" buiging="zonder" end="25" frame="verb('hebben/zijn',inf,aux(inf))" his="normal" his_1="normal" id="28" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+            <node begin="0" cat="inf" end="26" id="29" rel="vc">
+              <node begin="0" end="8" id="30" index="1" rel="su"/>
+              <node begin="14" cat="np" end="23" id="31" rel="obj1">
+                <node begin="14" end="15" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="32" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="33" lcat="np" lemma="verbod" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verbod" sense="verbod" word="verbod"/>
+                <node begin="16" cat="pp" end="23" id="34" rel="mod">
+                  <node begin="16" cat="np" end="18" id="35" rel="mod">
+                    <node aform="base" begin="16" buiging="zonder" end="17" frame="adjective(end(both))" his="normal" his_1="V-d" his_1_1="normal" id="36" infl="no_e" lcat="ppres" lemma="volgen" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="volg" sense="volg" vform="gerund" word="volgend" wvorm="od"/>
+                    <node begin="17" end="18" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+                  </node>
+                  <node begin="18" end="19" frame="modal_adverb" his="normal" his_1="normal" id="38" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sc="modal" sense="ook" word="ook"/>
+                  <node begin="19" end="20" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="39" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                  <node begin="20" cat="conj" end="23" id="40" rel="obj1">
+                    <node begin="20" end="21" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="41" lcat="np" lemma="kalf" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="kalf" sense="kalf" word="kalveren"/>
+                    <node begin="21" conjtype="neven" end="22" frame="conj(en)" his="normal" his_1="normal" id="42" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                    <node begin="22" end="23" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="43" lcat="np" lemma="rund" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="rund" sense="rund" word="runderen"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="25" buiging="zonder" end="26" frame="verb(hebben,inf,ninv(transitive,part_transitive(in)))" his="normal" his_1="part-V" id="44" infl="inf" lcat="inf" lemma="in_voeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voer_in" sc="part_transitive(in)" sense="voer_in" word="invoeren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="26" end="27" frame="punct(punt)" his="normal" his_1="normal" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Vlaams minister voor Dierenwelzijn Ben Weyts ( N-VA ) wil niet wijken en hoopt het verbod volgend jaar ook voor kalveren en runderen te kunnen invoeren .</sentence>
+  <comments>
+    <comment>Q#3|Vlaams minister voor Dierenwelzijn Ben Weyts ( N-VA ) wil niet wijken en hoopt het verbod volgend jaar ook voor kalveren en runderen te kunnen invoeren .|1|1|-9.299590284129996</comment>
+  </comments>
+</alpino_ds>

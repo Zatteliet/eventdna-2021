@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="21" end="22" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="24" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="du" end="24" id="4" rel="nucl">
+        <node begin="1" cat="smain" end="21" id="5" rel="nucl">
+          <node begin="1" cat="np" end="17" id="6" rel="su">
+            <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="2" end="3" frame="noun(both,count,sg,vp)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="idee" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="idee" sc="vp" sense="idee" word="idee"/>
+            <node begin="3" cat="oti" end="17" id="9" rel="vc">
+              <node begin="3" end="4" frame="complementizer(om)" his="normal" his_1="normal" id="10" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="4" cat="ti" end="17" id="11" rel="body">
+                <node begin="8" end="9" frame="complementizer(te)" his="normal" his_1="normal" id="12" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="4" cat="inf" end="17" id="13" rel="body">
+                  <node begin="4" end="5" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="14" lcat="np" lemma="Samusocial" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj2" rnum="sg" root="Samusocial" sense="Samusocial" word="Samusocial"/>
+                  <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,np_np)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="geven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="geef" sc="np_np" sense="geef" word="geven" wvorm="inf"/>
+                  <node begin="5" cat="np" end="17" id="16" rel="obj1">
+                    <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="17" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                    <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="18" infl="e" lcat="ppres" lemma="coördineren" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="coördineer" sense="coördineer" vform="gerund" word="coördinerende" wvorm="od"/>
+                    <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="rol" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rol" sense="rol" word="rol"/>
+                    <node begin="10" cat="pp" end="17" id="20" rel="mod">
+                      <node begin="10" end="11" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                      <node begin="11" cat="np" end="17" id="22" rel="obj1">
+                        <node begin="11" end="12" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="23" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                        <node begin="12" end="13" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="24" lcat="np" lemma="dakloze_beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="dakloze_beleid" sense="dakloze_beleid" word="daklozenbeleid"/>
+                        <node begin="13" cat="pp" end="17" id="25" rel="mod">
+                          <node begin="13" end="14" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="26" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                          <node begin="14" cat="np" end="17" id="27" rel="obj1">
+                            <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                            <node begin="15" cat="mwu" end="17" his="normal" his_1="names_dictionary" id="29" mwu_root="Gemeenschappelijke Gemeenschapscommissie" mwu_sense="Gemeenschappelijke Gemeenschapscommissie" rel="hd">
+                              <node begin="15" end="16" frame="proper_name(sg,'ORG')" id="30" lcat="np" lemma="Gemeenschappelijke" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gemeenschappelijke" sense="Gemeenschappelijke" spectype="deeleigen" word="Gemeenschappelijke"/>
+                              <node begin="16" end="17" frame="proper_name(sg,'ORG')" id="31" lcat="np" lemma="Gemeenschapscommissie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gemeenschapscommissie" sense="Gemeenschapscommissie" spectype="deeleigen" word="Gemeenschapscommissie"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="17" end="18" frame="verb(zijn,sg3,ld_pp)" his="normal" his_1="normal" id="32" infl="sg3" lcat="smain" lemma="komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom" sc="ld_pp" sense="kom" stype="declarative" tense="present" word="komt" wvorm="pv"/>
+          <node begin="18" end="19" frame="adverb" his="normal" his_1="normal" id="33" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="19" cat="pp" end="21" id="34" rel="ld">
+            <node begin="19" end="20" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="35" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="20" case="dat_acc" def="def" end="21" frame="pronoun(nwh,fir,sg,de,dat_acc,def)" gen="de" getal="ev" his="normal" his_1="normal" id="36" lcat="np" lemma="mij" naamval="obl" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,ev)" pt="vnw" rel="obj1" rnum="sg" root="mij" sense="mij" status="vol" vwtype="pr" wh="nwh" word="mij"/>
+          </node>
+        </node>
+        <node begin="22" cat="sv1" end="24" id="37" rel="tag">
+          <node begin="22" end="23" frame="verb(hebben,past(sg),sbar)" his="normal" his_1="normal" id="38" infl="sg" lcat="sv1" lemma="benadrukken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="benadruk" sc="sbar" sense="benadruk" tense="past" word="benadrukte" wvorm="pv"/>
+          <node begin="23" case="both" def="def" end="24" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" genus="fem" getal="ev" his="normal" his_1="normal" id="39" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" rnum="sg" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Maar het idee om Samusocial een coördinerende rol te geven in het daklozenbeleid van de Gemeenschappelijke Gemeenschapscommissie komt niet van mij , benadrukte ze .</sentence>
+  <comments>
+    <comment>Q#4|Maar het idee om Samusocial een coördinerende rol te geven in het daklozenbeleid van de Gemeenschappelijke Gemeenschapscommissie komt niet van mij , benadrukte ze .|1|1|-3.991292453219997</comment>
+  </comments>
+</alpino_ds>

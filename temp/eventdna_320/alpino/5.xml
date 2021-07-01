@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="1" end="2" frame="verb(hebben,past(sg),aux_psp_hebben)" his="normal" his_1="normal" id="2" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node begin="2" cat="np" end="6" id="3" index="1" rel="su">
+        <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="4" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Nederlands" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Nederlands" sense="Nederlands" vform="adj" word="Nederlandse"/>
+        <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="6" mwu_root="RTL Nieuws" mwu_sense="RTL Nieuws" rel="hd">
+          <node begin="4" end="5" frame="proper_name(sg)" id="7" lcat="np" lemma="RTL" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="RTL" sense="RTL" spectype="deeleigen" word="RTL"/>
+          <node begin="5" end="6" frame="proper_name(sg)" id="8" lcat="np" lemma="Nieuws" neclass="MISC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nieuws" sense="Nieuws" spectype="deeleigen" word="Nieuws"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="8" id="9" rel="vc">
+        <node aform="compar" begin="0" buiging="zonder" end="1" frame="adjective(er(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="10" infl="no_e" lcat="ap" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eerder" sense="eerder" vform="adj" word="Eerder"/>
+        <node begin="2" end="6" id="11" index="1" rel="su"/>
+        <node begin="6" end="7" frame="er_adverb(over)" his="normal" his_1="normal" id="12" lcat="pp" lemma="daarover" pos="pp" postag="BW()" pt="bw" rel="pc" root="daarover" sense="daarover" special="er" word="daarover"/>
+        <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,pc_pp(over))" his="normal" his_1="normal" id="13" infl="psp" lcat="ppart" lemma="berichten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bericht" sc="pc_pp(over)" sense="bericht-over" word="bericht" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(punt)" his="normal" his_1="normal" id="14" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Eerder had het Nederlandse RTL Nieuws daarover bericht .</sentence>
+  <comments>
+    <comment>Q#5|Eerder had het Nederlandse RTL Nieuws daarover bericht .|1|1|-8.11552640024</comment>
+  </comments>
+</alpino_ds>

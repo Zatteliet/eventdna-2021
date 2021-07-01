@@ -1,0 +1,81 @@
+Poeslief	poeslief	ADJ(vrij,basis,zonder)	B-AP	O
+voor	voor	VZ(init)	B-PP	O
+Poetin	Poetin	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+				
+Alleen	alleen	BW()	B-ADVP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+NAVO-bondgenoten	NAVO-bondgenoot	N(soort,mv,basis)	I-NP	B-MISC
+durft	durven	WW(pv,tgw,met-t)	B-VP	O
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+te	te	VZ(init)	B-VP	O
+schofferen	schofferen	WW(inf,vrij,zonder)	I-VP	O
+				
+Voor	voor	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+NAVO-bondgenoten	NAVO-bondgenoot	N(soort,mv,basis)	I-NP	B-MISC
+was	zijn	WW(pv,verl,ev)	B-VP	O
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+superstreng	superstreng	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+voor	voor	VZ(init)	B-PP	O
+Vladimir	Vladimir	SPEC(deeleigen)	B-NP	B-PER
+Poetin	Poetin	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+president	president	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+historische	historisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+vijand	vijand	N(soort,ev,basis,zijd,stan)	I-NP	O
+Rusland	Rusland	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+,	,	LET()	O	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+gisteren	gisteren	BW()	B-AP	O
+poeslief	poeslief	ADJ(vrij,basis,zonder)	I-AP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Koude	koud	ADJ(prenom,basis,met-e,stan)	I-NP	B-EVE
+Oorlog	oorlog	N(soort,ev,basis,zijd,stan)	I-NP	I-EVE
+behoort	behoren	WW(pv,tgw,met-t)	B-VP	O
+tot	tot	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+verleden	verleden	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+in	in	VZ(init)	B-PP	O
+eigen	eigen	ADJ(prenom,basis,zonder)	B-NP	O
+land	land	N(soort,ev,basis,onz,stan)	I-NP	O
+spreken	spreken	WW(pv,tgw,mv)	B-VP	O
+zowel	zowel	BW()	B-NP	O
+politici	politicus	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Democratische	democratisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-MISC
+partij	partij	N(soort,ev,basis,zijd,stan)	I-NP	O
+als	als	VZ(init)	B-PP	O
+Trumps	Trumps	SPEC(deeleigen)	B-NP	B-PER
+eigen	eigen	ADJ(prenom,basis,zonder)	I-NP	O
+Republikeinse	republikeins	ADJ(prenom,basis,met-e,stan)	I-NP	B-MISC
+partij	partij	N(soort,ev,basis,zijd,stan)	I-NP	O
+schande	schannen	WW(pv,verl,ev)	B-VP	O
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+ontmoeting	ontmoeting	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+schaamteloos	schaamteloos	ADJ(vrij,basis,zonder)	B-AP	O
+,	,	LET()	O	O
+aldus	aldus	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+Republikeinse	republikeins	ADJ(prenom,basis,met-e,stan)	I-NP	B-MISC
+senator	senator	N(soort,ev,basis,zijd,stan)	I-NP	O
+Jeff	Jeff	SPEC(deeleigen)	I-NP	B-PER
+Flake	Flake	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				

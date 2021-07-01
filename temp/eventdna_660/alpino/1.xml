@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="conj" end="5" id="2" index="1" rel="su">
+        <node begin="1" end="2" frame="conj(tot)" his="normal" his_1="normal" id="3" lcat="vg" lemma="tot" pos="vg" postag="VZ(init)" pt="vz" rel="crd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="0" cat="np" end="5" id="4" rel="cnj">
+          <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="decap_and_compound" his_1="2" id="5" lcat="np" lemma="politie_actie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="politie_actie" sense="politie_actie" word="Politieacties"/>
+          <node begin="3" cat="pp" end="5" id="6" index="2" rel="mod">
+            <node begin="3" end="4" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="4" end="5" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="8" lcat="np" lemma="transmigranten" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="transmigranten" sense="transmigranten" word="transmigranten"/>
+          </node>
+        </node>
+        <node begin="2" cat="np" end="5" id="9" rel="cnj">
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="probleem" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="probleem" sense="probleem" word="probleem"/>
+          <node begin="3" end="5" id="11" index="2" rel="mod"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,sg_heeft,passive)" his="normal" his_1="normal" id="12" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="7" id="13" rel="vc">
+        <node begin="0" end="5" id="14" index="1" rel="obj1"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="15" infl="psp" lcat="ppart" lemma="op_lossen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="los_op" sc="part_transitive(op)" sense="los_op" word="opgelost" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Politieacties tot probleem met transmigranten is opgelost</sentence>
+  <comments>
+    <comment>Q#1|Politieacties tot probleem met transmigranten is opgelost|1|1|-3.0267888712799995</comment>
+  </comments>
+</alpino_ds>

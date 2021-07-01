@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="ppart" end="15" id="3" rel="--">
+      <node begin="0" cat="np" end="14" id="4" rel="obj1">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" infl="e" lcat="ap" lemma="groot" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groot" sense="groot" vform="adj" word="Grote"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="compound" his_1="hyphen" id="6" infl="e" lcat="ap" lemma="Belgisch_Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch_Brits" sense="Belgisch_Brits" vform="adj" word="Belgisch-Britse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="actie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="actie" sense="actie" word="actie"/>
+        <node begin="3" cat="pp" end="14" id="8" rel="mod">
+          <node begin="3" end="4" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="9" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+          <node begin="4" cat="conj" end="14" id="10" rel="obj1">
+            <node begin="4" end="5" frame="within_word_conjunct" his="within_word_conjunct" id="11" lcat="np" lemma="drugs" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="drugs" sense="drugs" spectype="afgebr" word="drugs-"/>
+            <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="6" cat="np" end="14" id="13" rel="cnj">
+              <node begin="6" end="7" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="mens_smokkel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="mens_smokkel" sense="mens_smokkel" word="mensensmokkel"/>
+              <node begin="8" cat="np" end="11" id="15" rel="app">
+                <node begin="8" end="9" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="16" infl="pl_num" lcat="detp" lemma="26" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="26" sense="26" special="hoofd" word="26"/>
+                <node begin="9" buiging="met-e" end="10" frame="noun(de,count,pl)" gen="de" getal-n="mv-n" his="normal" his_1="normal" id="17" lcat="np" lemma="verdachte" num="pl" pos="noun" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="hd" rnum="pl" root="verdachte" sense="verdachte" word="verdachten" wvorm="vd"/>
+                <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="18" infl="no_e" lcat="ppart" lemma="opgepakt" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="opgepakt" sense="opgepakt" vform="psp" word="opgepakt" wvorm="vd"/>
+              </node>
+              <node begin="12" cat="np" end="14" id="19" rel="app">
+                <node begin="12" end="13" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="20" infl="pl_num" lcat="detp" lemma="36" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="36" sense="36" special="hoofd" word="36"/>
+                <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="migrant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="migrant" sense="migrant" word="migranten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="22" infl="psp" lcat="ppart" lemma="redden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="red" sc="transitive" sense="red" word="gered" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Grote Belgisch-Britse actie tegen drugs- en mensensmokkel : 26 verdachten opgepakt , 36 migranten gered</sentence>
+  <comments>
+    <comment>Q#1|Grote Belgisch-Britse actie tegen drugs- en mensensmokkel : 26 verdachten opgepakt , 36 migranten gered|1|1|0.6641001864599985</comment>
+  </comments>
+</alpino_ds>

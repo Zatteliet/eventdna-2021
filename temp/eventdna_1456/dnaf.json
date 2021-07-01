@@ -1,0 +1,662 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_2",
+                        "entity_3",
+                        "entity_1"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_5",
+                        "entity_2",
+                        "entity_3",
+                        "entity_1"
+                    ],
+                    "coref_bucket_3": [
+                        "entity_5",
+                        "entity_2",
+                        "entity_3"
+                    ]
+                },
+                "events": {
+                    "coref_bucket_4": [
+                        "event_5",
+                        "event_1"
+                    ],
+                    "coref_bucket_5": [
+                        "event_2",
+                        "event_7"
+                    ]
+                }
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    3
+                                ]
+                            },
+                            "string": "dertiger",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "dertiger die kilo cannabis uit auto gooit",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    25
+                                ]
+                            },
+                            "string": "dertiger",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            24,
+                            25
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "een dertiger",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    28
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            28
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    31
+                                ]
+                            },
+                            "string": "politie",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            30,
+                            31
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "de politie",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    35
+                                ]
+                            },
+                            "string": "hij",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            35
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "hij",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    41
+                                ]
+                            },
+                            "string": "Gentsesteenweg",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            41
+                        ],
+                        "type": "LOC"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "Gentsesteenweg",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        3,
+                                        4,
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        9
+                                    ]
+                                },
+                                "string": "dertiger die kilo cannabis uit auto gooit"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "crime",
+                                    "argument_role": "Crime",
+                                    "span": [
+                                        5,
+                                        6,
+                                        7,
+                                        8,
+                                        9
+                                    ]
+                                },
+                                "string": "kilo cannabis uit auto gooit"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "Convict",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Jaar cel voor dertiger die kilo cannabis uit auto gooit"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Agent",
+                                    "span": [
+                                        3
+                                    ]
+                                },
+                                "string": "dertiger"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Origin",
+                                    "span": [
+                                        8
+                                    ]
+                                },
+                                "string": "auto"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        5,
+                                        6
+                                    ]
+                                },
+                                "string": "kilo cannabis"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            3,
+                            4,
+                            5,
+                            6,
+                            7,
+                            8,
+                            9
+                        ],
+                        "subtype": "TransportArtifact",
+                        "tense": "Present",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "dertiger die kilo cannabis uit auto gooit"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            10,
+                            11,
+                            12,
+                            13
+                        ],
+                        "subtype": "ArrestJail",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Een jaar effectieve celstraf"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "money",
+                                    "argument_role": "Money",
+                                    "span": [
+                                        15,
+                                        16
+                                    ]
+                                },
+                                "string": "8000 euro"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            15,
+                            16,
+                            17
+                        ],
+                        "subtype": "Fine",
+                        "tense": "Unspecified",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "8000 euro boete"
+                },
+                "event_5": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Defendant",
+                                    "span": [
+                                        24,
+                                        25
+                                    ]
+                                },
+                                "string": "een dertiger"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            21,
+                            22,
+                            23,
+                            24,
+                            25,
+                            26
+                        ],
+                        "subtype": "Convict",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "het verdict dat een dertiger kreeg"
+                },
+                "event_6": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "InvestigationTarget",
+                                    "span": [
+                                        28
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "Investigator",
+                                    "span": [
+                                        30,
+                                        31
+                                    ]
+                                },
+                                "string": "de politie"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Background",
+                        "span": [
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33
+                        ],
+                        "subtype": "Investigation",
+                        "tense": "Past",
+                        "type": "Justice"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "hij door de politie werd gecontroleerd"
+                },
+                "event_7": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Agent",
+                                    "span": [
+                                        35
+                                    ]
+                                },
+                                "string": "hij"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "commodity",
+                                    "argument_role": "Artifact",
+                                    "span": [
+                                        36,
+                                        37,
+                                        38
+                                    ]
+                                },
+                                "string": "een zak cannabis"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "vehicle",
+                                    "argument_role": "Origin",
+                                    "span": [
+                                        43,
+                                        44
+                                    ]
+                                },
+                                "string": "de auto"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "LOC",
+                                    "argument_role": "Place",
+                                    "span": [
+                                        41
+                                    ]
+                                },
+                                "string": "Gentsesteenweg"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            35,
+                            36,
+                            37,
+                            38,
+                            39,
+                            40,
+                            41,
+                            42,
+                            43,
+                            44,
+                            45
+                        ],
+                        "subtype": "TransportArtifact",
+                        "tense": "Past",
+                        "type": "Movement"
+                    },
+                    "home_sentence": "sentence_3",
+                    "string": "hij een zak cannabis op de Gentsesteenweg uit de auto gooide"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000095",
+                            "drug related crimes"
+                        ],
+                        [
+                            "medtop:20000082",
+                            "crime"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000136",
+                            "fine (penalty)"
+                        ],
+                        [
+                            "medtop:20000134",
+                            "punishment (criminal)"
+                        ],
+                        [
+                            "medtop:20000129",
+                            "law enforcement"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ],
+                    [
+                        [
+                            "medtop:20000137",
+                            "prison"
+                        ],
+                        [
+                            "medtop:20000134",
+                            "punishment (criminal)"
+                        ],
+                        [
+                            "medtop:20000129",
+                            "law enforcement"
+                        ],
+                        [
+                            "medtop:02000000",
+                            "crime, law and justice"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                ]
+            },
+            "sentence_3": {
+                "token_ids": [
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "token_string": "Jaar cel voor dertiger die kilo cannabis uit auto gooit Een jaar effectieve celstraf en 8000 euro boete . Dat is het verdict dat een dertiger kreeg nadat hij door de politie werd gecontroleerd toen hij een zak cannabis op de Gentsesteenweg uit de auto gooide ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_1456"
+    }
+}

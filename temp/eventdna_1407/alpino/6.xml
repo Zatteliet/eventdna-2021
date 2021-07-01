@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="whq" end="8" id="3" rel="nucl">
+        <node begin="1" case="both" def="indef" end="2" frame="pronoun(ywh,thi,sg,het,both,indef,nparg)" gen="het" getal="ev" his="normal" his_1="normal" id="4" index="1" lcat="np" lemma="wat" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="whd" rnum="sg" root="wat" sense="wat" special="nparg" status="vol" vwtype="vb" wh="ywh" word="wat"/>
+        <node begin="1" cat="sv1" end="8" id="5" rel="body">
+          <node begin="1" end="2" id="6" index="1" rel="predc"/>
+          <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="7" infl="sg_heeft" lcat="sv1" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="whquestion" tense="present" word="is" wvorm="pv"/>
+          <node begin="3" cat="np" end="6" id="8" rel="su">
+            <node begin="3" buiging="zonder" end="4" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="zo&apos;n" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="zo&apos;n" sense="zo&apos;n" vwtype="aanw" word="zo&apos;n"/>
+            <node begin="4" cat="mwu" end="6" his="name" his_1="not_begin" id="10" mwu_root="government shutdown" mwu_sense="government shutdown" rel="hd">
+              <node begin="4" end="5" frame="proper_name(both)" id="11" lcat="np" lemma="government" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="government" sense="government" spectype="deeleigen" word="government"/>
+              <node begin="5" end="6" frame="proper_name(both)" id="12" lcat="np" lemma="shutdown" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="shutdown" sense="shutdown" spectype="deeleigen" word="shutdown"/>
+            </node>
+          </node>
+          <node begin="6" end="7" frame="tmp_adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+          <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(sentadv))" graad="basis" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="eigenlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eigenlijk" sense="eigenlijk" vform="adj" word="eigenlijk"/>
+        </node>
+      </node>
+    </node>
+    <node begin="8" end="9" frame="punct(vraag)" his="normal" his_1="normal" id="15" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="6">Maar wat is zo&apos;n government shutdown nu eigenlijk ?</sentence>
+  <comments>
+    <comment>Q#6|Maar wat is zo&apos;n government shutdown nu eigenlijk ?|1|1|-2.86401314795</comment>
+  </comments>
+</alpino_ds>

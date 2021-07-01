@@ -1,0 +1,65 @@
+Experts	expert	N(soort,mv,basis)	B-NP	O
+waarschuwen	waarschuwen	WW(pv,tgw,mv)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+vals	vals	ADJ(prenom,basis,zonder)	B-NP	O
+veiligheidsgevoel	veiligheidsgevoel	N(soort,ev,basis,onz,stan)	I-NP	O
+:	:	LET()	O	O
+Verbied	verbieden	WW(pv,tgw,ev)	B-VP	O
+verklikkers	verklikker	N(soort,mv,basis)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+wiegendood	wiegendood	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+ademhalingsmonitor	ademhalingsmonitor	N(soort,ev,basis,zijd,stan)	I-NP	O
+of	of	VG(neven)	O	O
+hartslagmeter	hartslagmeter	N(soort,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+baby	baby	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Ouders	ouder	N(soort,mv,basis)	B-NP	O
+zetten	zetten	WW(pv,tgw,mv)	B-VP	O
+ze	ze	VNW(pers,pron,3,mv)	B-AP	O
+­tegenwoordig	­tegenwoordig	ADJ(vrij,basis,zonder)	I-AP	O
+haast	haast	BW()	B-AP	O
+standaard	standaard	ADJ(vrij,basis,zonder)	I-AP	O
+op	op	VZ(init)	B-PP	O
+hun	hun	VNW(bez,det,3,mv)	B-NP	O
+geboortelijst	geboortelijst	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+uit	uit	VZ(init)	B-PP	O
+vrees	vrees	N(soort,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+mogelijke	mogelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+wiegendood	wiegendood	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+die	die	VNW(aanw,det)	B-NP	O
+technologie	technologie	N(soort,ev,basis,zijd,stan)	I-NP	O
+creëert	creëren	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+vals	vals	ADJ(prenom,basis,zonder)	I-NP	O
+gevoel	gevoel	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+veiligheid	veiligheid	N(soort,ev,basis,zijd,stan)	B-NP	O
+,	,	LET()	O	O
+waarschuwen	waarschuwen	WW(pv,tgw,mv)	B-VP	O
+experten	expert	N(soort,mv,basis)	B-NP	O
+.	.	LET()	O	O
+				
+Daarom	daarom	BW()	B-ADVP	O
+pleiten	pleiten	WW(pv,tgw,mv)	B-VP	O
+ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+verbod	verbod	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+commerciële	commercieel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+verkoop	verkoop	N(soort,ev,basis,zijd,stan)	I-NP	O
+ervan	ervan	BW()	B-ADVP	O
+.	.	LET()	O	O
+				

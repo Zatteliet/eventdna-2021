@@ -1,0 +1,72 @@
+Vrachtwagen	vrachtwaag	N(soort,mv,basis)	B-NP	O
+rijdt	rijden	WW(pv,tgw,met-t)	B-VP	O
+fietsster	fietsster	N(soort,ev,basis,zijd,stan)	B-NP	O
+aan	aan	VZ(fin)	O	O
+en	en	VG(neven)	O	O
+pleegt	plegen	WW(pv,tgw,met-t)	B-VP	O
+vluchtmisdrijf	vluchtmisdrijf	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Slachtoffer	Slachtoffer	SPEC(deeleigen)	B-NP	B-PER
+Anita	Anita	SPEC(deeleigen)	I-NP	I-PER
+Janssens	Janssens	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+42	42	TW(hoofd,vrij)	B-NP	O
+)	)	LET()	O	O
+hoopt	hopen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	B-PP	O
+getuigen	getuige	N(soort,mv,basis)	B-NP	O
+				
+Een	een	LID(onbep)	B-NP	O
+vrachtwagenchauffeur	vrachtwagenchauffeur	N(soort,ev,basis,zijd,stan)	I-NP	O
+reed	rijden	WW(pv,verl,ev)	B-VP	O
+maandag	maandag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Kessel-Dorp	Kessel-Dorp	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+de	de	LID(bep)	B-NP	O
+fietsende	fietsen	WW(od,prenom,met-e)	I-NP	O
+Anita	Anita	SPEC(deeleigen)	I-NP	B-PER
+Janssens	Janssens	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+42	42	TW(hoofd,vrij)	B-NP	O
+)	)	LET()	O	O
+uit	uit	VZ(init)	B-PP	O
+Nijlen	Nijlen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+aan	aan	VZ(fin)	O	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+fietssuggestiestrook	fietssuggestiestrook	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Ze	ze	VNW(pers,pron,3,ev,fem)	B-NP	O
+liep	lopen	WW(pv,verl,ev)	B-VP	O
+hierbij	hierbij	BW()	B-ADVP	O
+onder	onder	VZ(init)	B-PP	O
+meer	veel	VNW(onbep,grad,comp)	B-NP	O
+een	een	LID(onbep)	B-NP	O
+ernstige	ernstig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+elleboogbreuk	elleboogbreuk	N(soort,ev,basis,zijd,stan)	I-NP	O
+op	op	VZ(fin)	O	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+plaats	plaats	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	O	O
+te	te	VZ(init)	B-VP	O
+stoppen	stoppen	WW(inf,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+reed	rijden	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+vrachtwagen	vrachtwaag	N(soort,mv,basis)	I-NP	O
+gewoon	gewoon	ADJ(vrij,basis,zonder)	B-AP	O
+door	door	VZ(fin)	O	O
+.	.	LET()	O	O
+				
+Anita	Anita	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+doet	doen	WW(pv,tgw,met-t)	B-VP	O
+nu	nu	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+oproep	oproep	N(soort,ev,basis,zijd,stan)	I-NP	O
+voor	voor	VZ(init)	B-PP	O
+getuigen	getuige	N(soort,mv,basis)	B-NP	O
+.	.	LET()	O	O
+				

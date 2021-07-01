@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="smain" end="4" id="3" rel="nucl">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="4" lcat="np" lemma="Erfpachthouder" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Erfpachthouder" sense="Erfpachthouder" word="Erfpachthouder"/>
+        <node begin="1" end="2" frame="verb(hebben,sg3,part_transitive(aan))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="aan_vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val_aan" sc="part_transitive(aan)" sense="val_aan" stype="declarative" tense="present" word="valt" wvorm="pv"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="stad_bestuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="stad_bestuur" sense="stad_bestuur" word="stadsbestuur"/>
+        <node begin="3" end="4" frame="particle(aan)" his="normal" his_1="normal" id="7" lcat="part" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" sense="aan" vztype="fin" word="aan"/>
+      </node>
+      <node begin="5" cat="ppart" end="9" id="8" rel="sat">
+        <node begin="5" end="6" frame="noun(both,mass,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="asbest" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="asbest" sense="asbest" word="asbest"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,transitive_ndev_ndev)" his="normal" his_1="normal" id="10" infl="psp" lcat="ppart" lemma="vinden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" word="gevonden" wvorm="vd"/>
+        <node begin="7" cat="pp" end="9" id="11" rel="mod">
+          <node begin="7" end="8" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="8" end="9" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="13" lcat="np" lemma="Stadsboerderij" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Stadsboerderij" sense="Stadsboerderij" word="Stadsboerderij"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Erfpachthouder valt stadsbestuur aan : asbest gevonden op Stadsboerderij</sentence>
+  <comments>
+    <comment>Q#1|Erfpachthouder valt stadsbestuur aan : asbest gevonden op Stadsboerderij|1|1|7.190114306879996</comment>
+  </comments>
+</alpino_ds>

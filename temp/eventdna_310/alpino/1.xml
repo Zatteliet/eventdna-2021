@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="sv1" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="verb(unacc,sg3,intransitive)" his="normal" his_1="decap" his_1_1="normal" id="2" infl="sg3" lcat="sv1" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" sc="intransitive" sense="val" stype="ynquestion" tense="present" word="Valt" wvorm="pv"/>
+      <node begin="1" end="2" frame="tmp_adverb" his="normal" his_1="normal" id="3" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="vandaag"/>
+      <node begin="2" cat="np" end="5" id="4" rel="su">
+        <node begin="2" end="3" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="doek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="doek" sense="doek" word="doek"/>
+        <node begin="3" cat="pp" end="5" id="6" rel="mod">
+          <node begin="3" end="4" frame="preposition(over,[heen])" his="normal" his_1="normal" id="7" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+          <node begin="4" end="5" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="8" lcat="np" lemma="proces-Kasteelmoord" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="proces-Kasteelmoord" sense="proces-Kasteelmoord" word="proces-Kasteelmoord"/>
+        </node>
+      </node>
+    </node>
+    <node begin="5" end="6" frame="punct(vraag)" his="normal" his_1="normal" id="9" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="1">Valt vandaag doek over proces-Kasteelmoord ?</sentence>
+  <comments>
+    <comment>Q#1|Valt vandaag doek over proces-Kasteelmoord ?|1|1|-0.5290859346300018</comment>
+  </comments>
+</alpino_ds>

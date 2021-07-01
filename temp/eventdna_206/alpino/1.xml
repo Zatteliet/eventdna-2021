@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="ppart" end="11" id="2" rel="--">
+      <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" getal-n="zonder-n" graad="basis" his="form_of_suffix" his_1="le" id="3" infl="e" lcat="np" lemma="crown-bael" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="obj1" rnum="sg" root="crown-bael" sense="crown-bael" vform="adj" word="Crown-Baele"/>
+      <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="failliet" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="failliet" sense="failliet" vform="adj" word="failliet"/>
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,pred_np)" his="normal" his_1="normal" id="5" infl="psp" lcat="ppart" lemma="verklaren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verklaar" sc="pred_np" sense="verklaar" word="verklaard" wvorm="vd"/>
+      <node begin="3" cat="pp" end="11" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(door,[heen])" his="normal" his_1="normal" id="7" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+        <node begin="4" cat="np" end="11" id="8" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rechtbank" sense="rechtbank" word="rechtbank"/>
+          <node begin="6" cat="np" end="11" id="10" rel="app">
+            <node begin="6" end="7" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="11" infl="pl_num" lcat="detp" lemma="vijftig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijftig" sense="vijftig" special="hoofd" word="vijftig"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="job" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="job" sense="job" word="jobs"/>
+            <node begin="8" cat="pp" end="11" id="13" rel="mod">
+              <node begin="8" end="9" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="14" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="9" cat="np" end="11" id="15" rel="obj1">
+                <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="helling" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="helling" sense="helling" word="helling"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Crown-Baele failliet verklaard door rechtbank : vijftig jobs op de helling</sentence>
+  <comments>
+    <comment>Q#1|Crown-Baele failliet verklaard door rechtbank : vijftig jobs op de helling|1|1|1.4115082097600096</comment>
+  </comments>
+</alpino_ds>

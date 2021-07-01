@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="0" cat="smain" end="29" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="Het"/>
+      <node begin="1" end="2" frame="verb(hebben,sg,fixed([svp_er_pp(op),[bovenarms]],no_passive))" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="zitten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zit" sc="fixed([svp_er_pp(op),[bovenarms]],no_passive)" sense="bovenarms-zit-op" stype="declarative" tense="present" word="zit" wvorm="pv"/>
+      <node begin="3" end="4" frame="fixed_part([bovenarms])" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="fixed" lemma="bovenarms" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="svp" root="bovenarms" sense="bovenarms" word="bovenarms"/>
+      <node begin="2" cat="pp" end="5" id="5" rel="svp">
+        <node begin="2" end="3" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="6" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="obj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="7" lcat="pp" lemma="op" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="op" sense="op" vztype="fin" word="op"/>
+      </node>
+      <node begin="5" cat="pp" end="9" id="8" rel="mod">
+        <node begin="5" end="6" frame="preposition(binnen,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="binnen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="binnen" sense="binnen" vztype="init" word="binnen"/>
+        <node begin="6" cat="mwu" end="9" his="name" his_1="not_begin" id="10" mwu_root="CD &amp; V" mwu_sense="CD &amp; V" rel="obj1">
+          <node begin="6" end="7" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="CD" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CD" sense="CD" spectype="deeleigen" word="CD"/>
+          <node begin="7" end="8" frame="proper_name(both,'ORG')" id="12" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+          <node begin="8" end="9" frame="proper_name(both,'ORG')" id="13" lcat="np" lemma="V" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="V" sense="V" spectype="deeleigen" word="V"/>
+        </node>
+      </node>
+      <node begin="9" cat="cp" end="29" id="14" rel="mod">
+        <node begin="9" conjtype="onder" end="10" frame="complementizer" his="normal" his_1="normal" id="15" lcat="cp" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" sense="nadat" word="nadat"/>
+        <node begin="10" cat="ssub" end="29" id="16" rel="body">
+          <node begin="10" cat="mwu" end="12" his="normal" his_1="names_dictionary" id="17" index="1" mwu_root="Kris Peeters" mwu_sense="Kris Peeters" rel="su">
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Kris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kris" sense="Kris" spectype="deeleigen" word="Kris"/>
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Peeters" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Peeters" sense="Peeters" spectype="deeleigen" word="Peeters"/>
+          </node>
+          <node begin="27" end="28" frame="verb(hebben,past(sg),aux_psp_hebben)" his="normal" his_1="normal" id="20" infl="sg" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="had" wvorm="pv"/>
+          <node begin="10" cat="ppart" end="29" id="21" rel="vc">
+            <node begin="10" end="12" id="22" index="1" rel="su"/>
+            <node begin="12" cat="np" end="17" id="23" rel="obj2">
+              <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="form_of_suffix" his_1="ische" id="25" infl="e" lcat="ap" lemma="chassidisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="chassidisch" sense="chassidisch" vform="adj" word="chassidische"/>
+              <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="jood" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jood" sense="jood" word="jood"/>
+              <node begin="15" cat="mwu" end="17" his="name" his_1="not_begin" id="27" mwu_root="Aron Berger" mwu_sense="Aron Berger" rel="app">
+                <node begin="15" end="16" frame="proper_name(sg,'PER')" id="28" lcat="np" lemma="Aron" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Aron" sense="Aron" spectype="deeleigen" word="Aron"/>
+                <node begin="16" end="17" frame="proper_name(sg,'PER')" id="29" lcat="np" lemma="Berger" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Berger" sense="Berger" spectype="deeleigen" word="Berger"/>
+              </node>
+            </node>
+            <node begin="17" cat="np" end="27" id="30" rel="obj1">
+              <node begin="17" end="18" frame="determiner(een)" his="normal" his_1="normal" id="31" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="18" end="19" frame="meas_mod_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="plaats" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="plaats" sense="plaats" special="meas_mod" word="plaats"/>
+              <node begin="19" cat="pp" end="27" id="33" rel="mod">
+                <node begin="19" end="20" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="34" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                <node begin="20" cat="np" end="27" id="35" rel="obj1">
+                  <node begin="20" end="21" frame="determiner(de)" his="normal" his_1="normal" id="36" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="lijst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="lijst" sense="lijst" word="lijst"/>
+                  <node begin="22" cat="pp" end="27" id="38" rel="mod">
+                    <node begin="22" end="23" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="39" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                    <node begin="23" cat="np" end="27" id="40" rel="obj1">
+                      <node begin="23" end="24" frame="determiner(de)" his="normal" his_1="normal" id="41" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="24" end="25" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="42" lcat="np" lemma="gemeente_raad_verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gemeente_raad_verkiezing" sense="gemeente_raad_verkiezing" special="tmp" word="gemeenteraadsverkiezingen"/>
+                      <node begin="25" cat="pp" end="27" id="43" rel="mod">
+                        <node begin="25" end="26" frame="preposition(in,[])" his="normal" his_1="normal" id="44" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="26" end="27" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="45" lcat="np" lemma="Antwerpen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Antwerpen" sense="Antwerpen" word="Antwerpen"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="28" buiging="zonder" end="29" frame="verb(hebben,psp,np_np)" his="normal" his_1="normal" id="46" infl="psp" lcat="ppart" lemma="geven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geef" sc="np_np" sense="geef" word="gegeven" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" his="normal" his_1="normal" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Het zit er bovenarms op binnen CD &amp; V nadat Kris Peeters de chassidische jood Aron Berger een plaats op de lijst voor de gemeenteraadsverkiezingen in Antwerpen had gegeven .</sentence>
+  <comments>
+    <comment>Q#3|Het zit er bovenarms op binnen CD &amp; V nadat Kris Peeters de chassidische jood Aron Berger een plaats op de lijst voor de gemeenteraadsverkiezingen in Antwerpen had gegeven .|1|1|-9.577330148339994</comment>
+  </comments>
+</alpino_ds>

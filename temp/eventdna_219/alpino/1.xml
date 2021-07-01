@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="VS" sense="VS" word="VS"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,part_ld_pp(terug))" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="terug_willen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wil_terug" sc="part_ld_pp(terug)" sense="wil_terug" stype="declarative" tense="present" word="willen" wvorm="pv"/>
+      <node begin="2" end="3" frame="particle(terug)" his="normal" his_1="normal" id="4" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
+      <node begin="3" cat="pp" end="6" id="5" rel="ld">
+        <node begin="3" end="4" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="6" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="4" cat="np" end="6" id="7" rel="obj1">
+          <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="maan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="maan" sense="maan" word="maan"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">VS willen terug naar de maan</sentence>
+  <comments>
+    <comment>Q#1|VS willen terug naar de maan|1|1|-5.28390584618</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="8" end="9" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="9" end="10" frame="punct(dubb_punt)" his="normal" his_1="normal" id="3" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="18" id="4" rel="--">
+      <node begin="0" cat="smain" end="8" id="5" rel="nucl">
+        <node begin="0" cat="np" end="3" id="6" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="7" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="Nieuwe"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Pakistan" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Pakistan" sense="Pakistan" word="Pakistan"/>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="10" infl="sg3" lcat="smain" lemma="geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef" sc="transitive" sense="geef" stype="declarative" tense="present" word="geeft" wvorm="pv"/>
+        <node begin="4" cat="np" end="8" id="11" rel="obj1">
+          <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="goed" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="goed" sense="goed" vform="adj" word="goede"/>
+          <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="voorbeeld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="voorbeeld" sense="voorbeeld" word="voorbeeld"/>
+        </node>
+      </node>
+      <node begin="10" cat="conj" end="18" id="15" rel="sat">
+        <node begin="10" cat="smain" end="14" id="16" rel="cnj">
+          <node begin="10" case="nom" def="def" end="11" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="17" index="1" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+          <node begin="11" end="12" frame="verb(zijn,sg3,aux(inf))" his="normal" his_1="normal" id="18" infl="sg3" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" tense="present" word="gaat" wvorm="pv"/>
+          <node begin="10" cat="inf" end="14" id="19" rel="vc">
+            <node begin="10" end="11" id="20" index="1" rel="su"/>
+            <node aform="compar" begin="12" buiging="zonder" end="13" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="21" infl="no_e" lcat="ap" lemma="klein" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="klein" sense="klein" vform="adj" word="kleiner"/>
+            <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="22" infl="inf" lcat="inf" lemma="wonen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="woon" sc="intransitive" sense="woon" word="wonen" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="14" conjtype="neven" end="15" frame="conj(en)" his="normal" his_1="normal" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="10" cat="smain" end="18" id="24" rel="cnj">
+          <node begin="10" end="11" id="25" index="1" rel="su"/>
+          <node begin="15" end="16" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="26" infl="sg3" lcat="smain" lemma="verkopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verkoop" sc="transitive" sense="verkoop" tense="present" word="verkoopt" wvorm="pv"/>
+          <node begin="16" cat="np" end="18" id="27" rel="obj1">
+            <node begin="16" buiging="zonder" end="17" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="28" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="17" end="18" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="wagen_park" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="wagen_park" sense="wagen_park" word="wagenpark"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Nieuwe premier Pakistan geeft het &apos; goede voorbeeld &apos; : hij gaat kleiner wonen en verkoopt zijn wagenpark</sentence>
+  <comments>
+    <comment>Q#1|Nieuwe premier Pakistan geeft het &apos; goede voorbeeld &apos; : hij gaat kleiner wonen en verkoopt zijn wagenpark|1|1|-6.1157115813999985</comment>
+  </comments>
+</alpino_ds>

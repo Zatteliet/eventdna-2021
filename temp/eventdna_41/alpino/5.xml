@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="DSM" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="DSM" sense="DSM" word="DSM"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),pc_pp(aan))" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="bouwen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="bouw" sc="pc_pp(aan)" sense="bouw-aan" stype="declarative" tense="past" word="bouwde" wvorm="pv"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Rwanda" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Rwanda" sense="Rwanda" word="Rwanda"/>
+      </node>
+      <node begin="4" end="5" frame="loc_adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="mee" pos="adv" postag="BW()" pt="bw" rel="mod" root="mee" sense="mee" special="loc" word="mee"/>
+      <node begin="5" cat="pp" end="12" id="8" rel="pc">
+        <node begin="5" end="6" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="9" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+        <node begin="6" cat="np" end="12" id="10" rel="obj1">
+          <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="11" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="7" end="8" frame="noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="fabriek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fabriek" sense="fabriek" word="fabriek"/>
+          <node begin="8" cat="pp" end="12" id="13" rel="mod">
+            <node begin="8" end="9" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="9" cat="np" end="12" id="15" rel="obj1">
+              <node begin="9" cat="mwu" end="11" his="normal" his_1="normal" id="16" mwu_root="onder meer" mwu_sense="onder meer" rel="mod">
+                <node begin="9" end="10" frame="modal_adverb" id="17" lcat="advp" lemma="onder" pos="adv" postag="VZ(init)" pt="vz" rel="mwp" root="onder" sc="modal" sense="onder" vztype="init" word="onder"/>
+                <node begin="10" buiging="zonder" end="11" frame="modal_adverb" graad="comp" id="18" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sc="modal" sense="meer" vwtype="onbep" word="meer"/>
+              </node>
+              <node begin="11" end="12" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="baby_voeding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="baby_voeding" sense="baby_voeding" word="babyvoeding"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">DSM bouwde in Rwanda mee aan een fabriek voor onder meer babyvoeding .</sentence>
+  <comments>
+    <comment>Q#5|DSM bouwde in Rwanda mee aan een fabriek voor onder meer babyvoeding .|1|1|2.0236073138100026</comment>
+  </comments>
+</alpino_ds>

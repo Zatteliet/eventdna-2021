@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" his="name" his_1="not_begin" id="4" mwu_root="Franse Raffale" mwu_sense="Franse Raffale" rel="hd">
+          <node begin="1" end="2" frame="proper_name(both,'LOC')" id="5" lcat="np" lemma="Franse" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Franse" sense="Franse" spectype="deeleigen" word="Franse"/>
+          <node begin="2" end="3" frame="proper_name(both,'LOC')" id="6" lcat="np" lemma="Raffale" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Raffale" sense="Raffale" spectype="deeleigen" word="Raffale"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="7" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="4" cat="advp" end="6" his="normal" his_1="normal" id="8" rel="mod">
+        <node begin="4" end="5" frame="adverb" id="9" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="hd" root="niet" sense="niet" word="niet"/>
+        <node aform="compar" begin="5" buiging="zonder" end="6" frame="adjective(er(tmpadv))" graad="comp" id="10" infl="no_e" lcat="ap" lemma="langer" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="langer" sense="langer" vform="adj" word="langer"/>
+      </node>
+      <node begin="6" cat="np" end="14" id="11" rel="predc">
+        <node begin="6" end="7" frame="noun(de,count,sg,vp)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="kandidaat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kandidaat" sc="vp" sense="kandidaat" word="kandidaat"/>
+        <node begin="7" cat="oti" end="14" id="13" rel="vc">
+          <node begin="7" end="8" frame="complementizer(om)" his="normal" his_1="normal" id="14" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="8" cat="ti" end="14" id="15" rel="body">
+            <node begin="12" end="13" frame="complementizer(te)" his="normal" his_1="normal" id="16" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="8" cat="inf" end="14" id="17" rel="body">
+              <node begin="8" cat="np" end="11" id="18" rel="obj1">
+                <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="9" cat="mwu" end="11" his="normal" his_1="normal" id="20" mwu_root="F 16" mwu_sense="F 16" rel="hd">
+                  <node begin="9" end="10" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="21" lcat="np" lemma="F" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="F" sense="F" special="amount_meas_mod" word="F"/>
+                  <node begin="10" end="11" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="22" lcat="np" lemma="16" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="16" sense="16" special="amount_meas_mod" word="16"/>
+                </node>
+              </node>
+              <node begin="11" end="12" frame="particle(op)" his="normal" his_1="normal" id="23" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+              <node begin="13" buiging="zonder" end="14" frame="verb('hebben/zijn',inf,part_transitive(op))" his="normal" his_1="normal" id="24" infl="inf" lcat="inf" lemma="op_volgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="volg_op" sc="part_transitive(op)" sense="volg_op" word="volgen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">De Franse Raffale is niet langer kandidaat om de F 16 op te volgen .</sentence>
+  <comments>
+    <comment>Q#3|De Franse Raffale is niet langer kandidaat om de F 16 op te volgen .|1|1|-4.717994803979998</comment>
+  </comments>
+</alpino_ds>

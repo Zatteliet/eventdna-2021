@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="5" end="6" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="11" id="4" rel="--">
+      <node begin="0" cat="smain" end="4" id="5" rel="nucl">
+        <node begin="0" cat="np" end="2" id="6" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="Brussels" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brussels" sense="Brussels" vform="adj" word="Brusselse"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="9" infl="sg3" lcat="smain" lemma="krijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="krijg" sc="transitive" sense="krijg" stype="declarative" tense="present" word="krijgt" wvorm="pv"/>
+        <node begin="3" end="4" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="vertrouwen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="vertrouwen" sense="vertrouwen" word="vertrouwen"/>
+      </node>
+      <node begin="6" cat="conj" end="11" id="11" rel="sat">
+        <node begin="6" cat="np" end="8" id="12" rel="cnj">
+          <node begin="6" buiging="zonder" end="7" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="decap" his_1_1="normal" id="13" index="1" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="Geen"/>
+          <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="stem" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="stem" sense="stem" word="stemmen"/>
+        </node>
+        <node begin="9" conjtype="neven" end="10" frame="conj(maar)" his="normal" his_1="normal" id="15" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+        <node begin="6" cat="np" end="11" id="16" rel="cnj">
+          <node begin="6" end="7" id="17" index="1" rel="det"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="daad" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="daad" sense="daad" word="daden"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="19" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">Brusselse regering krijgt vertrouwen : &apos; Geen stemmen , maar daden &apos;</sentence>
+  <comments>
+    <comment>Q#1|Brusselse regering krijgt vertrouwen : &apos; Geen stemmen , maar daden &apos;|1|1|-0.2523347528399971</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="15" id="3" rel="--">
+      <node begin="0" cat="smain" end="11" id="4" rel="dp">
+        <node begin="0" cat="np" end="7" id="5" index="1" rel="su">
+          <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="6" lcat="np" lemma="Jam_bon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Jam_bon" sense="Jam_bon" word="Jambon"/>
+          <node begin="1" cat="pp" end="5" id="7" rel="mod">
+            <node begin="1" end="2" frame="preposition(over,[heen])" his="normal" his_1="normal" id="8" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="2" cat="np" end="5" id="9" rel="obj1">
+              <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="Catalaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Catalaans" sense="Catalaans" vform="adj" word="Catalaanse"/>
+              <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="kwestie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kwestie" sense="kwestie" word="kwestie"/>
+            </node>
+          </node>
+          <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="Madrid" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Madrid" sense="Madrid" word="Madrid"/>
+        </node>
+        <node begin="7" end="8" frame="verb(unacc,sg_heeft,aux_psp_zijn)" his="normal" his_1="normal" id="14" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="11" id="15" rel="vc">
+          <node begin="0" end="7" id="16" index="1" rel="su"/>
+          <node begin="8" cat="mwu" end="10" his="normal" his_1="normal" id="17" mwu_root="te ver" mwu_sense="te ver" rel="svp">
+            <node begin="8" end="9" frame="fixed_part([te,ver])" id="18" lcat="fixed" lemma="te" pos="fixed" postag="BW()" pt="bw" rel="mwp" root="te" sense="te" word="te"/>
+            <node begin="9" buiging="zonder" end="10" frame="fixed_part([te,ver])" graad="basis" id="19" lcat="fixed" lemma="ver" pos="fixed" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mwp" root="ver" sense="ver" word="ver"/>
+          </node>
+          <node begin="10" buiging="zonder" end="11" frame="verb(zijn,psp,fixed([[te,ver]],no_passive))" his="normal" his_1="normal" id="20" infl="psp" lcat="ppart" lemma="gaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ga" sc="fixed([[te,ver]],no_passive)" sense="te-ver-ga" word="gegaan" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="12" cat="whq" end="15" id="21" rel="dp">
+        <node begin="12" end="13" frame="er_wh_loc_adverb" getal="getal" his="normal" his_1="normal" id="22" index="2" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="whd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+        <node begin="12" cat="sv1" end="15" id="23" rel="body">
+          <node begin="12" end="13" id="24" index="2" rel="mod"/>
+          <node begin="13" end="14" frame="verb(unacc,sg3,intransitive)" his="normal" his_1="normal" id="25" infl="sg3" lcat="sv1" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" sc="intransitive" sense="blijf" stype="whquestion" tense="present" word="blijft" wvorm="pv"/>
+          <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="26" lcat="np" lemma="Europa" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Europa" sense="Europa" word="Europa"/>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(vraag)" his="normal" his_1="normal" id="27" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="1">Jambon over de Catalaanse kwestie : Madrid is te ver gegaan , waar blijft Europa ?</sentence>
+  <comments>
+    <comment>Q#1|Jambon over de Catalaanse kwestie : Madrid is te ver gegaan , waar blijft Europa ?|1|1|-4.764569096520003</comment>
+  </comments>
+</alpino_ds>

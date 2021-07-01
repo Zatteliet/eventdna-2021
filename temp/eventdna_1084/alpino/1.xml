@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="Kruishoutem" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Kruishoutem" sense="Kruishoutem" word="Kruishoutem"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Zingem" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Zingem" sense="Zingem" word="Zingem"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,intransitive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="versmelten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="versmelt" sc="intransitive" sense="versmelt" stype="declarative" tense="present" word="versmelten" wvorm="pv"/>
+      <node begin="4" cat="pp" end="6" id="7" rel="mod">
+        <node begin="4" end="5" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="5" end="6" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="9" lcat="np" lemma="Kruisem" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Kruisem" sense="Kruisem" word="Kruisem"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Kruishoutem en Zingem versmelten tot Kruisem</sentence>
+  <comments>
+    <comment>Q#1|Kruishoutem en Zingem versmelten tot Kruisem|1|1|-3.15158314186</comment>
+  </comments>
+</alpino_ds>

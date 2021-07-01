@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="18" id="2" rel="--">
+      <node begin="0" end="1" frame="tag" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="advp" lemma="ja" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="ja" sense="ja" word="Ja"/>
+      <node begin="2" cat="smain" end="18" id="4" rel="nucl">
+        <node begin="2" cat="conj" end="9" id="5" index="1" rel="su">
+          <node begin="2" cat="np" end="5" id="6" rel="cnj">
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="premier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="premier" sense="premier" word="premier"/>
+            <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="8" mwu_root="Theresa May" mwu_sense="Theresa May" rel="app">
+              <node begin="3" end="4" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Theresa" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theresa" sense="Theresa" spectype="deeleigen" word="Theresa"/>
+              <node begin="4" end="5" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="May" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="May" sense="May" spectype="deeleigen" word="May"/>
+            </node>
+          </node>
+          <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="6" cat="np" end="9" id="12" rel="cnj">
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="13" lcat="np" lemma="commissie_voorzitter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="commissie_voorzitter" sense="commissie_voorzitter" word="Commissievoorzitter"/>
+            <node begin="7" cat="mwu" end="9" his="normal" his_1="names_dictionary" id="14" mwu_root="Jean-Claude Juncker" mwu_sense="Jean-Claude Juncker" rel="app">
+              <node begin="7" end="8" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Jean-Claude" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jean-Claude" sense="Jean-Claude" spectype="deeleigen" word="Jean-Claude"/>
+              <node begin="8" end="9" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Juncker" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Juncker" sense="Juncker" spectype="deeleigen" word="Juncker"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="verb(hebben,pl,aux_psp_hebben)" his="normal" his_1="normal" id="17" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+        <node begin="2" cat="ppart" end="18" id="18" rel="vc">
+          <node begin="2" end="9" id="19" index="1" rel="su"/>
+          <node begin="10" cat="np" end="12" id="20" rel="mod">
+            <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="21" infl="e" lcat="ap" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" sense="vorig" vform="adj" word="vorige"/>
+            <node begin="11" end="12" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="vrijdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrijdag" sense="vrijdag" special="tmp" word="vrijdag"/>
+          </node>
+          <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive_ndev_ndev)" his="normal" his_1="normal" id="23" infl="psp" lcat="ppart" lemma="vinden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" word="gevonden" wvorm="vd"/>
+          <node begin="12" cat="np" end="18" id="24" rel="obj1">
+            <node begin="12" end="13" frame="determiner(een)" his="normal" his_1="normal" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="13" end="14" frame="noun(het,count,both)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="compromis" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="compromis" sense="compromis" word="compromis"/>
+            <node begin="15" cat="pp" end="18" id="27" rel="mod">
+              <node begin="15" end="16" frame="preposition(over,[heen])" his="normal" his_1="normal" id="28" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="16" cat="np" end="18" id="29" rel="obj1">
+                <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="17" end="18" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="31" lcat="np" lemma="Brexit" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Brexit" sense="Brexit" word="Brexit"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Ja , premier Theresa May en Commissievoorzitter Jean-Claude Juncker hebben vorige vrijdag een compromis gevonden over de Brexit .</sentence>
+  <comments>
+    <comment>Q#2|Ja , premier Theresa May en Commissievoorzitter Jean-Claude Juncker hebben vorige vrijdag een compromis gevonden over de Brexit .|1|1|-8.689590194760004</comment>
+  </comments>
+</alpino_ds>

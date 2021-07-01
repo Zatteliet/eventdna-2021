@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="smain" end="3" id="3" rel="nucl">
+        <node begin="0" end="1" frame="proper_name(both,'ORG')" getal="mv" graad="basis" his="name" his_1="begin" id="4" lcat="np" lemma="Legervakbonden" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="Legervakbonden" sense="Legervakbonden" word="Legervakbonden"/>
+        <node begin="1" end="2" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="slaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="sla" sc="transitive" sense="sla" stype="declarative" tense="present" word="slaan" wvorm="pv"/>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="alarm" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="alarm" sense="alarm" word="alarm"/>
+      </node>
+      <node begin="4" cat="smain" end="12" id="7" rel="sat">
+        <node begin="4" cat="np" end="6" id="8" index="1" rel="su">
+          <node begin="4" buiging="met-e" end="5" frame="determiner(onze)" getal="mv" his="normal" his_1="normal" id="9" infl="onze" lcat="detp" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="onze"/>
+          <node begin="5" end="6" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="strijdmacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="strijdmacht" sense="strijdmacht" word="strijdmacht"/>
+        </node>
+        <node begin="6" end="7" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="11" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+        <node begin="4" cat="ppart" end="12" id="12" rel="vc">
+          <node begin="4" end="6" id="13" index="1" rel="obj1"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="14" infl="psp" lcat="ppart" lemma="bedreigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bedreig" sc="transitive" sense="bedreig" word="bedreigd" wvorm="vd"/>
+          <node begin="8" cat="pp" end="12" id="15" rel="mod">
+            <node begin="8" end="9" frame="preposition(door,[heen])" his="normal" his_1="normal" id="16" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="9" cat="np" end="12" id="17" rel="obj1">
+              <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="18" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="19" infl="e" lcat="ap" lemma="gigantisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gigantisch" sense="gigantisch" vform="adj" word="gigantische"/>
+              <node begin="11" end="12" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="leegloop" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leegloop" sense="leegloop" word="leegloop"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Legervakbonden slaan alarm : onze strijdmacht wordt bedreigd door een gigantische leegloop</sentence>
+  <comments>
+    <comment>Q#1|Legervakbonden slaan alarm : onze strijdmacht wordt bedreigd door een gigantische leegloop|1|1|-5.870365674580004</comment>
+  </comments>
+</alpino_ds>

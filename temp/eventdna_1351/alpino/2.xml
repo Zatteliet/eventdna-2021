@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="du" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="dp">
+        <node begin="0" cat="detp" end="2" id="3" rel="det">
+          <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="Mogelijk"/>
+          <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="5" infl="pl_num" lcat="detp" lemma="22" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="22" sense="22" special="hoofd" word="22"/>
+        </node>
+        <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="huis" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="huis" sense="huis" word="huizen"/>
+      </node>
+      <node begin="3" cat="np" end="9" id="7" rel="dp">
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="8" infl="no_e" lcat="ppart" lemma="onteigend" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="onteigend" sense="onteigend" vform="psp" word="onteigend" wvorm="vd"/>
+        <node begin="4" end="5" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="9" lcat="np" lemma="Geluidsbuffer" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Geluidsbuffer" sense="Geluidsbuffer" word="Geluidsbuffer"/>
+        <node begin="5" cat="pp" end="9" id="10" rel="mod">
+          <node begin="5" end="6" frame="preposition(van,[],me_adj)" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sc="me_adj" sense="van" vztype="init" word="van"/>
+          <node begin="6" cat="ap" end="9" id="12" rel="obj1">
+            <node begin="6" cat="np" end="8" id="13" rel="me">
+              <node begin="6" end="7" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="14" infl="pl_num" lcat="detp" lemma="18" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="18" sense="18" special="hoofd" word="18"/>
+              <node begin="7" end="8" frame="meas_mod_noun(de,count,meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="meter" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="meter" sense="meter" special="meas_mod" word="meter"/>
+            </node>
+            <node aform="base" begin="8" buiging="zonder" end="9" frame="np_me_adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="16" infl="no_e" lcat="ap" lemma="hoog" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="hoog" sc="np_me" sense="hoog" vform="adj" word="hoog"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Mogelijk 22 huizen onteigend Geluidsbuffer van 18 meter hoog</sentence>
+  <comments>
+    <comment>Q#2|Mogelijk 22 huizen onteigend Geluidsbuffer van 18 meter hoog|1|1|3.958378573220002</comment>
+  </comments>
+</alpino_ds>

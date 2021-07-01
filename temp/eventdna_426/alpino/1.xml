@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="3" infl="no_e" lcat="ap" lemma="Amerikaans" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaans"/>
+        <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Congres" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Congres" sense="Congres" word="Congres"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg,aci)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="laten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="laat" sc="aci" sense="laat" stype="declarative" tense="present" word="laat" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" index="1" rel="obj1">
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="deadline" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="deadline" sense="deadline" word="deadline"/>
+        <node begin="4" cat="pp" end="6" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="10" lcat="np" lemma="Dreamers_programma" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Dreamers_programma" sense="Dreamers_programma" word="Dreamers-programma"/>
+        </node>
+      </node>
+      <node begin="3" cat="inf" end="7" id="11" rel="vc">
+        <node begin="3" end="6" id="12" index="1" rel="su"/>
+        <node begin="6" buiging="zonder" end="7" frame="verb(unacc,inf,intransitive)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="verstrijken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verstrijk" sc="intransitive" sense="verstrijk" word="verstrijken" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Amerikaans Congres laat deadline voor Dreamers-programma verstrijken</sentence>
+  <comments>
+    <comment>Q#1|Amerikaans Congres laat deadline voor Dreamers-programma verstrijken|1|1|-1.1769604298299998</comment>
+  </comments>
+</alpino_ds>

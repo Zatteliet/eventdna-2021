@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="tag">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(both))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="no_e" lcat="ap" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="Nieuw"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="5" lcat="np" lemma="vluchteling_drama" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vluchteling_drama" sense="vluchteling_drama" word="vluchtelingendrama"/>
+      </node>
+      <node begin="3" cat="smain" end="11" id="6" rel="nucl">
+        <node begin="3" cat="np" end="5" id="7" rel="su">
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="tragisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="tragisch" sense="tragisch" vform="adj" word="tragische"/>
+          <node begin="4" end="5" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="beeld" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="beeld" sense="beeld" word="beelden"/>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="10" infl="pl" lcat="smain" lemma="tonen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="toon" sc="transitive" sense="toon" stype="declarative" tense="present" word="tonen" wvorm="pv"/>
+        <node begin="6" cat="np" end="11" id="11" rel="obj1">
+          <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="12" infl="both" lcat="ppart" lemma="verdronken" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="verdronken" sense="verdronken" vform="psp" word="verdronken" wvorm="vd"/>
+          <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="baby" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="baby" sense="baby" word="baby&apos;s"/>
+          <node begin="8" cat="pp" end="11" id="14" rel="mod">
+            <node begin="8" end="9" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="9" cat="np" end="11" id="16" rel="obj1">
+              <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="Libisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Libisch" sense="Libisch" vform="adj" word="Libische"/>
+              <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="kust" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kust" sense="kust" word="kust"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Nieuw vluchtelingendrama : tragische beelden tonen verdronken baby&apos;s voor Libische kust</sentence>
+  <comments>
+    <comment>Q#1|Nieuw vluchtelingendrama : tragische beelden tonen verdronken baby&apos;s voor Libische kust|1|1|3.871062210240001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,70 @@
+Ondanks	ondanks	VZ(init)	B-PP	O
+campagne	campagne	N(soort,ev,basis,zijd,stan)	B-NP	O
+:	:	LET()	O	O
+meer	veel	VNW(onbep,grad,comp)	B-NP	O
+zware	zwaar	ADJ(prenom,basis,met-e,stan)	I-NP	O
+pijnstillers	pijnstiller	N(soort,mv,basis)	I-NP	O
+verkocht	verkopen	WW(vd,vrij,zonder)	B-VP	O
+				
+1	1	TW(hoofd,vrij)	B-NP	O
+op	op	VZ(init)	B-PP	O
+10	10	TW(hoofd,prenom,stan)	B-NP	O
+Belgen	Belg	N(eigen,mv,basis)	I-NP	B-LOC
+nam	nemen	WW(pv,verl,ev)	B-VP	O
+vorig	vorig	ADJ(prenom,basis,zonder)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+opioïden	opioïden	WW(inf,vrij,zonder)	B-VP	O
+				
+Fentanyl	Fentanyl	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+,	,	LET()	O	O
+tramadol	tramadol	N(soort,ev,basis,zijd,stan)	B-NP	O
+,	,	LET()	O	O
+oxyocodon	oxyocodon	N(soort,ev,basis,onz,stan)	B-NP	O
+.	.	LET()	O	O
+				
+Die	die	VNW(aanw,det)	B-NP	O
+zware	zwaar	ADJ(prenom,basis,met-e,stan)	I-NP	O
+pijnstillers	pijnstiller	N(soort,mv,basis)	I-NP	O
+worden	worden	WW(pv,tgw,mv)	B-VP	O
+steeds	steeds	BW()	B-AP	O
+vlotter	vlot	ADJ(vrij,comp,zonder)	I-AP	O
+voorgeschreven	voorschrijven	WW(vd,vrij,zonder)	B-VP	O
+en	en	VG(neven)	O	O
+verkocht	verkopen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Sinds	sinds	VZ(init)	B-PP	O
+2010	2010	TW(hoofd,vrij)	B-NP	O
+steeg	stijgen	WW(pv,verl,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+aantal	aantal	N(soort,ev,basis,onz,stan)	I-NP	O
+gebruikers	gebruiker	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+ons	ons	VNW(bez,det,1,mv)	B-NP	O
+land	land	N(soort,ev,basis,onz,stan)	I-NP	O
+al	al	BW()	B-ADVP	O
+met	met	VZ(init)	O	O
+ruim	ruim	ADJ(vrij,basis,zonder)	B-AP	O
+een	een	LID(onbep)	B-NP	O
+derde	drie	TW(rang,nom,zonder-n)	I-NP	O
+.	.	LET()	O	O
+				
+Experts	expert	N(soort,mv,basis)	B-NP	O
+waarschuwen	waarschuwen	WW(pv,tgw,mv)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+risico's	risico	N(soort,mv,basis)	I-NP	O
+:	:	LET()	O	O
+artsen	arts	N(soort,mv,basis)	B-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+dergelijke	dergelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+zware	zwaar	ADJ(prenom,basis,met-e,stan)	I-NP	O
+medi­cijnen	medi­cijn	N(soort,mv,basis)	I-NP	O
+voorschrijven	voorschrijven	WW(inf,vrij,zonder)	B-VP	O
+,	,	LET()	O	O
+denken	denken	WW(pv,tgw,mv)	B-VP	O
+beter	goed	ADJ(vrij,comp,zonder)	B-AP	O
+tweemaal	tweemaal	BW()	B-ADVP	O
+na	na	VZ(fin)	O	O
+.	.	LET()	O	O
+				

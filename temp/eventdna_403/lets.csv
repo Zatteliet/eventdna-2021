@@ -1,0 +1,46 @@
+Waarom	waarom	BW()	B-ADVP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+zoveel	zoveel	TW(hoofd,prenom,stan)	I-NP	O
+overstromingen	overstroming	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+in	in	VZ(init)	B-PP	O
+Zuid-Frankrijk	Zuid-Frankrijk	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Stortregens	stortregen	N(soort,mv,basis)	B-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Zuid-Franse	Zuid-Frans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+departement	departement	N(soort,ev,basis,onz,stan)	I-NP	O
+Gard	Gard	SPEC(deeleigen)	I-NP	B-PER
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+gisteren	gisteren	BW()	B-NP	O
+drie	drie	TW(hoofd,prenom,stan)	I-NP	O
+campings	camping	N(soort,mv,basis)	I-NP	O
+onder	onder	VZ(init)	B-PP	O
+water	water	N(soort,ev,basis,onz,stan)	B-NP	O
+gezet	zetten	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Zo'n	zo'n	VNW(aanw,det)	B-NP	O
+750	750	TW(hoofd,prenom,stan)	I-NP	O
+mensen	mens	N(soort,mv,basis)	I-NP	O
+moesten	moeten	WW(pv,verl,mv)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+geëvacueerd	evacueren	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Elk	elk	VNW(onbep,det)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+teisteren	teisteren	WW(pv,tgw,mv)	B-VP	O
+overstromingen	overstroming	N(soort,mv,basis)	B-NP	O
+de	de	LID(bep)	B-NP	O
+regio	regio	N(soort,ev,basis,zijd,stan)	I-NP	O
+door	door	VZ(init)	O	O
+de	de	LID(bep)	B-AP	O
+zogenaamde	zogenaamd	ADJ(prenom,basis,met-e,stan)	I-AP	O
+'	'	LET()	O	O
+épisodes	épisode	N(soort,mv,basis)	B-NP	O
+méditerranéens	méditerranéen	N(soort,mv,basis)	I-NP	O
+'	'	LET()	O	O
+.	.	LET()	O	O
+				

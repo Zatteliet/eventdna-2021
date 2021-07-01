@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="conj" end="5" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="3" lcat="np" lemma="Macron" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Macron" sense="Macron" word="Macron"/>
+      <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="2" cat="np" end="5" id="5" rel="cnj">
+        <node begin="2" buiging="zonder" end="3" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="6" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node begin="4" end="5" frame="proper_name(both)" genus="zijd" getal="ev" graad="basis" his="quoted_name" his_1="&apos;" his_2="&apos;" id="7" lcat="np" lemma="rijkenregering" naamval="stan" neclass="MISC" ntype="soort" num="both" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rijkenregering" sense="rijkenregering" word="rijkenregering"/>
+      </node>
+    </node>
+    <node begin="5" end="6" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="8" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+  </node>
+  <sentence sentid="1">Macron en zijn &apos; rijkenregering &apos;</sentence>
+  <comments>
+    <comment>Q#1|Macron en zijn &apos; rijkenregering &apos;|1|1|2.05189887485</comment>
+  </comments>
+</alpino_ds>

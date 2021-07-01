@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="3" mwu_root="Theo Francken" mwu_sense="Theo Francken" rel="tag">
+        <node begin="0" end="1" frame="proper_name(both,'PER')" id="4" lcat="np" lemma="Theo" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theo" sense="Theo" spectype="deeleigen" word="Theo"/>
+        <node begin="1" end="2" frame="proper_name(both,'PER')" id="5" lcat="np" lemma="Francken" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Francken" sense="Francken" spectype="deeleigen" word="Francken"/>
+      </node>
+      <node begin="3" cat="smain" end="11" id="6" rel="nucl">
+        <node begin="3" cat="np" end="5" id="7" rel="obj1">
+          <node begin="3" buiging="met-e" end="4" frame="determiner(zulke,nwh,nmod,pro,yparg)" his="normal" his_1="decap" his_1_1="normal" id="8" infl="zulke" lcat="detp" lemma="zulk" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="zulk" sense="zulk" vwtype="aanw" wh="nwh" word="Zulke"/>
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="maatregel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maatregel" sense="maatregel" word="maatregelen"/>
+        </node>
+        <node begin="5" end="6" frame="verb(hebben,sg1,transitive)" his="normal" his_1="normal" id="10" infl="sg1" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="neem" sc="transitive" sense="neem" stype="declarative" tense="present" word="neem" wvorm="pv"/>
+        <node begin="6" case="nom" def="def" end="7" frame="pronoun(nwh,fir,sg,de,nom,def)" gen="de" getal="ev" his="normal" his_1="normal" id="11" lcat="np" lemma="ik" naamval="nomin" num="sg" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,ev)" pt="vnw" rel="su" rnum="sg" root="ik" sense="ik" status="vol" vwtype="pers" wh="nwh" word="ik"/>
+        <node begin="7" end="8" frame="adverb" his="normal" his_1="normal" id="12" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+        <node begin="8" cat="pp" end="11" id="13" rel="mod">
+          <node begin="8" end="9" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="9" cat="np" end="11" id="15" rel="obj1">
+            <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="16" infl="pron" lcat="detp" lemma="mijn" naamval="stan" npagr="agr" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="mijn" sense="mijn" status="vol" vwtype="bez" word="mijn"/>
+            <node begin="10" end="11" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="plezier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="plezier" sense="plezier" word="plezier"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Theo Francken : Zulke maatregelen neem ik niet voor mijn plezier</sentence>
+  <comments>
+    <comment>Q#1|Theo Francken : Zulke maatregelen neem ik niet voor mijn plezier|1|1|0.8081983501100005</comment>
+  </comments>
+</alpino_ds>

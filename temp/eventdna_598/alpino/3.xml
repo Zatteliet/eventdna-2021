@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="12" end="13" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="13" end="14" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="0" end="1" frame="er_vp_adverb" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="Er"/>
+      <node begin="1" end="2" frame="verb(unacc,pl,intransitive)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="intransitive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="detail" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="detail" sense="detail" word="details"/>
+      <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="8" infl="both" lcat="ppart" lemma="vrijgegeven" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="vrijgegeven" sense="vrijgegeven" vform="psp" word="vrijgegeven" wvorm="vd"/>
+      <node begin="4" cat="pp" end="25" id="9" rel="mod">
+        <node begin="4" end="5" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="10" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="5" cat="np" end="25" id="11" rel="obj1">
+          <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="verhoor" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verhoor" sense="verhoor" word="verhoor"/>
+          <node begin="7" cat="pp" end="23" id="14" rel="mod">
+            <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="8" cat="np" end="23" id="16" rel="obj1">
+              <node begin="8" cat="mwu" end="10" his="name" his_1="not_begin" id="17" mwu_root="Tarik Jadaoun" mwu_sense="Tarik Jadaoun" rel="hd">
+                <node begin="8" end="9" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Tarik" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Tarik" sense="Tarik" spectype="deeleigen" word="Tarik"/>
+                <node begin="9" end="10" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Jadaoun" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jadaoun" sense="Jadaoun" spectype="deeleigen" word="Jadaoun"/>
+              </node>
+              <node begin="11" end="12" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="20" infl="pl_num" lcat="np" lemma="29" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="pl" root="29" sense="29" special="hoofd" word="29"/>
+              <node begin="14" cat="np" end="23" id="21" rel="app">
+                <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="15" buiging="met-e" end="16" frame="adjective(e)" graad="basis" his="compound" his_1="hyphen" id="23" infl="e" lcat="ap" lemma="Marokkaans_Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Marokkaans_Belgisch" sense="Marokkaans_Belgisch" vform="adj" word="Marokkaans-Belgische"/>
+                <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="24" lcat="np" lemma="top_terrorist" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top_terrorist" sense="top_terrorist" word="topterrorist"/>
+                <node begin="17" cat="rel" end="23" id="25" rel="mod">
+                  <node begin="17" case="no_obl" end="18" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="26" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                  <node begin="17" cat="ssub" end="23" id="27" rel="body">
+                    <node begin="17" end="18" id="28" index="1" rel="su"/>
+                    <node begin="21" end="22" frame="verb(unacc,sg_heeft,passive)" his="normal" his_1="normal" id="29" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="is" wvorm="pv"/>
+                    <node begin="17" cat="ppart" end="23" id="30" rel="vc">
+                      <node begin="17" end="18" id="31" index="1" rel="obj1"/>
+                      <node begin="18" cat="pp" end="20" id="32" rel="mod">
+                        <node begin="18" end="19" frame="preposition(in,[])" his="normal" his_1="normal" id="33" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="19" end="20" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="juli" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="juli" sense="juli" special="tmp" word="juli"/>
+                      </node>
+                      <node aform="base" begin="20" buiging="zonder" end="21" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="35" infl="both" lcat="ap" lemma="krijgsgevangen" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="krijgsgevangen" sense="krijgsgevangen" vform="adj" word="krijgsgevangen"/>
+                      <node begin="22" buiging="zonder" end="23" frame="verb(hebben,psp,nonp_pred_np)" his="normal" his_1="normal" id="36" infl="psp" lcat="ppart" lemma="nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem" sc="nonp_pred_np" sense="neem" word="genomen" wvorm="vd"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="23" cat="pp" end="25" id="37" rel="mod">
+            <node begin="23" end="24" frame="preposition(in,[])" his="normal" his_1="normal" id="38" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="24" end="25" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="39" lcat="np" lemma="Irak" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Irak" sense="Irak" word="Irak"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Er zijn details vrijgegeven uit het verhoor van Tarik Jadaoun ( 29 ) , de Marokkaans-Belgische topterrorist die in juli krijgsgevangen is genomen in Irak .</sentence>
+  <comments>
+    <comment>Q#3|Er zijn details vrijgegeven uit het verhoor van Tarik Jadaoun ( 29 ) , de Marokkaans-Belgische topterrorist die in juli krijgsgevangen is genomen in Irak .|1|1|-5.4909387669799905</comment>
+  </comments>
+</alpino_ds>

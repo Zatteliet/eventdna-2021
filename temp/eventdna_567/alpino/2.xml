@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="45" id="0" rel="top">
+    <node begin="26" end="27" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="44" id="2" rel="--">
+      <node begin="0" cat="smain" end="19" id="3" rel="cnj">
+        <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" index="1" lcat="np" lemma="onderzoeker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="onderzoeker" sense="onderzoeker" word="Onderzoekers"/>
+        <node begin="1" end="2" frame="verb(hebben,pl,aux_psp_hebben)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+        <node begin="0" cat="inf" end="19" id="6" rel="vc">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb('hebben/zijn',inf,aux(inf))" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+          <node begin="0" cat="inf" end="19" id="9" rel="vc">
+            <node begin="0" end="1" id="10" index="1" rel="su"/>
+            <node begin="2" cat="mwu" end="5" his="normal" his_1="normal" id="11" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+              <node aform="base" begin="2" end="3" frame="adjective(pred(adv))" id="12" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="voor"/>
+              <node aform="base" begin="3" end="4" frame="adjective(pred(adv))" id="13" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+              <node aform="base" begin="4" end="5" frame="adjective(pred(adv))" getal-n="zonder-n" id="14" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+            </node>
+            <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,ninv(transitive,part_transitive(aan)))" his="normal" his_1="part-V" id="15" infl="inf" lcat="inf" lemma="aan_tonen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="toon_aan" sc="part_transitive(aan)" sense="toon_aan" word="aantonen" wvorm="inf"/>
+            <node begin="5" cat="np" end="14" id="16" rel="obj1">
+              <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="17" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="verband" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verband" sense="verband" word="verband"/>
+              <node begin="9" cat="pp" end="14" id="19" rel="mod">
+                <node begin="9" end="10" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="20" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+                <node begin="10" cat="np" end="14" id="21" rel="obj1">
+                  <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="11" end="12" frame="noun(de,count,sg,measure)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="voorraad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voorraad" sc="measure" sense="voorraad" word="voorraad"/>
+                  <node begin="12" cat="np" end="14" id="24" rel="mod">
+                    <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="25" infl="e" lcat="ap" lemma="chemisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="chemisch" sense="chemisch" vform="adj" word="chemische"/>
+                    <node begin="13" end="14" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="wapen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="wapen" sense="wapen" word="wapens"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="14" cat="pp" end="19" id="27" rel="mod">
+              <node begin="14" end="15" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="15" cat="np" end="19" id="29" rel="obj1">
+                <node aform="base" begin="15" buiging="zonder" end="16" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="30" infl="no_e" lcat="ap" lemma="Syrisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Syrisch" sense="Syrisch" vform="adj" word="Syrisch"/>
+                <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="leider" sense="leider" word="leider"/>
+                <node begin="17" cat="mwu" end="19" his="normal" his_1="names_dictionary" id="32" mwu_root="Bashar al-Assad" mwu_sense="Bashar al-Assad" rel="app">
+                  <node begin="17" end="18" frame="proper_name(sg,'PER')" id="33" lcat="np" lemma="Bashar" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bashar" sense="Bashar" spectype="deeleigen" word="Bashar"/>
+                  <node begin="18" end="19" frame="proper_name(sg,'PER')" id="34" lcat="np" lemma="al-Assad" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="al-Assad" sense="al-Assad" spectype="deeleigen" word="al-Assad"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="19" conjtype="neven" end="20" frame="conj(en)" his="normal" his_1="normal" id="35" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="20" cat="du" end="44" id="36" rel="cnj">
+        <node begin="20" cat="conj" end="43" id="37" rel="dp">
+          <node begin="20" cat="np" end="26" id="38" rel="cnj">
+            <node begin="20" end="21" frame="determiner(de)" his="normal" his_1="normal" id="39" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="40" lcat="np" lemma="gif_gas_aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gif_gas_aanval" sense="gif_gas_aanval" word="gifgasaanval"/>
+            <node begin="22" cat="pp" end="24" id="41" rel="mod">
+              <node begin="22" end="23" frame="preposition(in,[])" his="normal" his_1="normal" id="42" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="23" end="24" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="43" lcat="np" lemma="Ghouta" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Ghouta" sense="Ghouta" word="Ghouta"/>
+            </node>
+            <node begin="24" cat="pp" end="26" id="44" rel="mod">
+              <node begin="24" end="25" frame="preposition(in,[])" his="normal" his_1="normal" id="45" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="25" end="26" frame="np(year)" his="normal" his_1="normal" id="46" lcat="np" lemma="2013" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="2013" sense="2013" word="2013"/>
+            </node>
+          </node>
+          <node begin="27" cat="np" end="37" id="47" rel="cnj">
+            <node begin="27" end="28" frame="determiner(de)" his="normal" his_1="normal" id="48" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="super" begin="28" buiging="met-e" end="29" frame="adjective(ste)" graad="sup" his="normal" his_1="normal" id="49" infl="e" lcat="ap" lemma="dodelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="dodelijk" sense="dodelijk" vform="adj" word="dodelijkste"/>
+            <node begin="29" end="30" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="50" lcat="np" lemma="gif_gas_aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gif_gas_aanval" sense="gif_gas_aanval" word="gifgasaanval"/>
+            <node begin="30" cat="pp" end="33" id="51" rel="mod">
+              <node begin="30" end="31" frame="preposition(tot,[toe],tmp_adv)" his="normal" his_1="normal" id="52" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sc="tmp_adv" sense="tot" vztype="init" word="tot"/>
+              <node begin="31" end="32" frame="tmp_adverb" his="normal" his_1="normal" id="53" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="obj1" root="nu" sense="nu" special="tmp" word="nu"/>
+              <node begin="32" end="33" frame="particle(toe)" his="normal" his_1="normal" id="54" lcat="part" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="hdf" root="toe" sense="toe" vztype="fin" word="toe"/>
+            </node>
+            <node begin="33" cat="pp" end="37" id="55" rel="mod">
+              <node begin="33" end="34" frame="preposition(in,[])" his="normal" his_1="normal" id="56" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="34" cat="np" end="37" id="57" rel="obj1">
+                <node begin="34" end="35" frame="determiner(de)" his="normal" his_1="normal" id="58" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="35" buiging="met-e" end="36" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="59" infl="e" lcat="ap" lemma="Syrisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Syrisch" sense="Syrisch" vform="adj" word="Syrische"/>
+                <node begin="36" end="37" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="60" lcat="np" lemma="burger_oorlog" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="burger_oorlog" sense="burger_oorlog" word="burgeroorlog"/>
+              </node>
+            </node>
+          </node>
+          <node begin="37" conjtype="neven" end="38" frame="conj(en)" his="normal" his_1="normal" id="61" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="38" cat="np" end="43" id="62" rel="cnj">
+            <node begin="38" case="both" def="indef" end="39" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="63" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="een"/>
+            <node begin="39" cat="pp" end="43" id="64" rel="mod">
+              <node begin="39" end="40" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="65" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="40" cat="np" end="43" id="66" rel="obj1">
+                <node begin="40" end="41" frame="determiner(de)" his="normal" his_1="normal" id="67" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="super" begin="41" buiging="met-e" end="42" frame="adjective(ste)" graad="sup" his="normal" his_1="normal" id="68" infl="e" lcat="ap" lemma="erg" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="erg" sense="erg" vform="adj" word="ergste"/>
+                <node begin="42" end="43" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="69" lcat="np" lemma="gif_gas_aanval" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gif_gas_aanval" sense="gif_gas_aanval" word="gifgasaanvallen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="43" end="44" frame="tmp_adverb" his="normal" his_1="normal" id="70" lcat="advp" lemma="ooit" pos="adv" postag="BW()" pt="bw" rel="dp" root="ooit" sense="ooit" special="tmp" word="ooit"/>
+      </node>
+    </node>
+    <node begin="44" end="45" frame="punct(punt)" his="normal" his_1="normal" id="71" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Onderzoekers hebben voor het eerst een verband kunnen aantonen tussen de voorraad chemische wapens van Syrisch leider Bashar al-Assad en de gifgasaanval in Ghouta in 2013 , de dodelijkste gifgasaanval tot nu toe in de Syrische burgeroorlog en een van de ergste gifgasaanvallen ooit .</sentence>
+  <comments>
+    <comment>Q#2|Onderzoekers hebben voor het eerst een verband kunnen aantonen tussen de voorraad chemische wapens van Syrisch leider Bashar al-Assad en de gifgasaanval in Ghouta in 2013 , de dodelijkste gifgasaanval tot nu toe in de Syrische burgeroorlog en een van de ergste gifgasaanvallen ooit .|1|1|-3.2154884361099523</comment>
+  </comments>
+</alpino_ds>

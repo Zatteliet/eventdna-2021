@@ -1,0 +1,34 @@
+Straf	straf	N(soort,ev,basis,zijd,stan)	B-NP	O
+met	met	VZ(init)	B-PP	O
+uitstel	uitstel	N(soort,ev,basis,onz,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+steekpartij	steekpartij	N(soort,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+flat	flat	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+Donat	Donat	SPEC(deeleigen)	B-NP	B-PER
+K.	K.	SPEC(deeleigen)	I-NP	I-PER
+uit	uit	VZ(init)	B-PP	O
+Waasmunster	Waasmunster	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+veroordeeld	veroordelen	WW(vd,vrij,zonder)	I-VP	O
+tot	tot	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+voorwaardelijke	voorwaardelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+celstraf	celstraf	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+had	hebben	WW(pv,verl,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+zwaar	zwaar	ADJ(vrij,basis,zonder)	B-AP	O
+toegetakeld	toetakelen	WW(vd,vrij,zonder)	B-VP	O
+na	na	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+mislukte	mislukken	WW(vd,prenom,met-e)	I-NP	O
+drugsdeal	drugsdeal	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Sint-Niklaas	Sint-Niklaas	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="22" id="2" rel="--">
+      <node begin="0" cat="smain" end="12" id="3" rel="dp">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="7" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="12" id="8" rel="vc">
+          <node begin="0" end="2" id="9" index="1" rel="su"/>
+          <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="traan_gas" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="traan_gas" sense="traan_gas" word="traangas"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,ninv(transitive,part_transitive(in)))" his="normal" his_1="part-V" id="11" infl="psp" lcat="ppart" lemma="in_zetten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zet_in" sc="part_transitive(in)" sense="zet_in" word="ingezet" wvorm="vd"/>
+          <node begin="5" cat="oti" end="12" id="12" rel="mod">
+            <node begin="5" end="6" frame="complementizer(om)" his="normal" his_1="normal" id="13" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+            <node begin="6" cat="ti" end="12" id="14" rel="body">
+              <node begin="10" end="11" frame="complementizer(te)" his="normal" his_1="normal" id="15" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="6" cat="inf" end="12" id="16" rel="body">
+                <node begin="6" cat="np" end="8" id="17" rel="obj1">
+                  <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="manifestant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="manifestant" sense="manifestant" word="manifestanten"/>
+                </node>
+                <node begin="8" cat="pp" end="10" id="20" rel="ld">
+                  <node begin="8" end="9" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="21" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                  <node begin="9" case="dat_acc" def="def" end="10" frame="pronoun(nwh,thi,pl,de,dat_acc,def)" gen="de" getal="mv" his="normal" his_1="normal" id="22" lcat="np" lemma="elkaar" naamval="obl" num="pl" pdtype="pron" per="thi" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" rnum="pl" root="elkaar" sense="elkaar" status="vol" vwtype="recip" wh="nwh" word="elkaar"/>
+                </node>
+                <node begin="11" buiging="zonder" end="12" frame="verb(hebben,inf,np_ld_pp)" his="normal" his_1="normal" id="23" infl="inf" lcat="inf" lemma="drijven" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="drijf" sc="np_ld_pp" sense="drijf" word="drijven" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="smain" end="22" id="24" rel="dp">
+        <node begin="13" cat="np" end="15" id="25" rel="su">
+          <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="manifestant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="manifestant" sense="manifestant" word="manifestanten"/>
+        </node>
+        <node begin="15" end="16" frame="verb(hebben,past(pl),transitive)" his="normal" his_1="normal" id="28" infl="pl" lcat="smain" lemma="bekogelen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="bekogel" sc="transitive" sense="bekogel" stype="declarative" tense="past" word="bekogelden" wvorm="pv"/>
+        <node begin="16" cat="np" end="18" id="29" rel="obj1">
+          <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="agent" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="agent" sense="agent" word="agenten"/>
+        </node>
+        <node begin="18" cat="pp" end="22" id="32" rel="mod">
+          <node begin="18" end="19" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="33" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="19" cat="conj" end="22" id="34" rel="obj1">
+            <node begin="19" end="20" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="steen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="steen" sense="steen" word="stenen"/>
+            <node begin="20" conjtype="neven" end="21" frame="conj(en)" his="normal" his_1="normal" id="36" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="21" end="22" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="fles" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="fles" sense="fles" word="flessen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="38" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">De politie heeft traangas ingezet om de manifestanten uit elkaar te drijven , de manifestanten bekogelden de agenten met stenen en flessen .</sentence>
+  <comments>
+    <comment>Q#5|De politie heeft traangas ingezet om de manifestanten uit elkaar te drijven , de manifestanten bekogelden de agenten met stenen en flessen .|1|1|-13.83037718435</comment>
+  </comments>
+</alpino_ds>

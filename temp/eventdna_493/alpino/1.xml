@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="np" lemma="18_jarig" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="18_jarig" sense="18_jarig" vform="adj" word="18-jarige"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="5" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="6" lcat="np" lemma="SP.A_nest" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="SP.A_nest" sense="SP.A_nest" word="SP.A-nest"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(zijn,sg3,part_pc_pp(op,voor))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="op_komen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kom_op" sc="part_pc_pp(op,voor)" sense="kom_op-voor" stype="declarative" tense="present" word="komt" wvorm="pv"/>
+      <node begin="4" end="5" frame="particle(op)" his="normal" his_1="normal" id="8" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="5" cat="pp" end="7" id="9" rel="pc">
+        <node begin="5" end="6" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="6" end="7" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="11" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">18-jarige uit SP.A-nest komt op voor N-VA</sentence>
+  <comments>
+    <comment>Q#1|18-jarige uit SP.A-nest komt op voor N-VA|1|1|1.033995493440002</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,496 @@
+{
+    "doc": {
+        "annotations": {
+            "coreference": {
+                "entities": {
+                    "coref_bucket_1": [
+                        "entity_1",
+                        "entity_5",
+                        "entity_3"
+                    ],
+                    "coref_bucket_2": [
+                        "entity_2",
+                        "entity_6"
+                    ]
+                },
+                "events": {}
+            },
+            "entities": {
+                "entity_1": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    0,
+                                    1
+                                ]
+                            },
+                            "string": "Marijke Ostyn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            0,
+                            1
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Marijke Ostyn",
+                    "type": "entity"
+                },
+                "entity_2": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    3
+                                ]
+                            },
+                            "string": "N-VA",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            3
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "N-VA",
+                    "type": "entity"
+                },
+                "entity_3": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    16,
+                                    17
+                                ]
+                            },
+                            "string": "Marijke Ostyn",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            16,
+                            17
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Marijke Ostyn",
+                    "type": "entity"
+                },
+                "entity_4": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    33
+                                ]
+                            },
+                            "string": "bestuur",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NOM",
+                        "span": [
+                            32,
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "het bestuur van bedrijvencentrum Beha",
+                    "type": "entity"
+                },
+                "entity_5": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    43
+                                ]
+                            },
+                            "string": "ze",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "PRON",
+                        "span": [
+                            43
+                        ],
+                        "type": "PER"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "ze",
+                    "type": "entity"
+                },
+                "entity_6": {
+                    "features": {
+                        "head": {
+                            "features": {
+                                "span": [
+                                    45
+                                ]
+                            },
+                            "string": "N-VA",
+                            "type": "entityHead"
+                        },
+                        "individuality": "INDIV",
+                        "mention_level_type": "NAM",
+                        "span": [
+                            45
+                        ],
+                        "type": "ORG"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "N-VA",
+                    "type": "entity"
+                }
+            },
+            "events": {
+                "event_1": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "PersonnelEntity",
+                                    "span": [
+                                        3
+                                    ]
+                                },
+                                "string": "N-VA"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        0,
+                                        1
+                                    ]
+                                },
+                                "string": "Marijke Ostyn"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            0,
+                            1,
+                            2,
+                            3
+                        ],
+                        "subtype": "EndPosition",
+                        "tense": "Present",
+                        "type": "Personnel"
+                    },
+                    "home_sentence": "sentence_1",
+                    "string": "Marijke Ostyn verlaat N-VA"
+                },
+                "event_2": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "title",
+                                    "argument_role": "Position",
+                                    "span": [
+                                        22
+                                    ]
+                                },
+                                "string": "schepenambt"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        16,
+                                        17
+                                    ]
+                                },
+                                "string": "Marijke Ostyn"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Negative",
+                        "prominence": "Background",
+                        "span": [
+                            16,
+                            17,
+                            18,
+                            19,
+                            20,
+                            21,
+                            22,
+                            23
+                        ],
+                        "subtype": "StartPosition",
+                        "tense": "Past",
+                        "type": "Personnel"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "Marijke Ostyn ( 62 ) geen schepenambt kreeg"
+                },
+                "event_3": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "title",
+                                    "argument_role": "Position",
+                                    "span": [
+                                        33,
+                                        34,
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "bestuur van bedrijvencentrum Beha"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "time",
+                                    "argument_role": "Time",
+                                    "span": [
+                                        26
+                                    ]
+                                },
+                                "string": "2014"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "PersonnelEntity",
+                                    "span": [
+                                        35,
+                                        36
+                                    ]
+                                },
+                                "string": "bedrijvencentrum Beha"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        16,
+                                        17
+                                    ]
+                                },
+                                "string": "Marijke Ostyn"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Negative",
+                        "prominence": "Background",
+                        "span": [
+                            25,
+                            26,
+                            27,
+                            28,
+                            29,
+                            30,
+                            31,
+                            32,
+                            33,
+                            34,
+                            35,
+                            36
+                        ],
+                        "subtype": "StartPosition",
+                        "tense": "Past",
+                        "type": "Personnel"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "in 2014 geen plekje kon bemachtigen in het bestuur van bedrijvencentrum Beha"
+                },
+                "event_4": {
+                    "annotation_type": "event",
+                    "features": {
+                        "arguments": [
+                            {
+                                "features": {
+                                    "argument_entity_type": "PER",
+                                    "argument_role": "Person",
+                                    "span": [
+                                        43
+                                    ]
+                                },
+                                "string": "ze"
+                            },
+                            {
+                                "features": {
+                                    "argument_entity_type": "ORG",
+                                    "argument_role": "PersonnelEntity",
+                                    "span": [
+                                        45
+                                    ]
+                                },
+                                "string": "N-VA"
+                            }
+                        ],
+                        "modality": "Asserted",
+                        "pos_neg": "Positive",
+                        "prominence": "Main",
+                        "span": [
+                            43,
+                            44,
+                            45
+                        ],
+                        "subtype": "EndPosition",
+                        "tense": "Present",
+                        "type": "Personnel"
+                    },
+                    "home_sentence": "sentence_2",
+                    "string": "ze verlaat N-VA"
+                }
+            },
+            "iptc_codes": {
+                "certain": [
+                    [
+                        [
+                            "medtop:20000612",
+                            "local government and authority"
+                        ],
+                        [
+                            "medtop:20000593",
+                            "government"
+                        ],
+                        [
+                            "medtop:11000000",
+                            "politics"
+                        ]
+                    ]
+                ],
+                "uncertain": []
+            }
+        },
+        "sentences": {
+            "sentence_1": {
+                "token_ids": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            "sentence_2": {
+                "token_ids": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46
+                ]
+            }
+        },
+        "token_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+        ],
+        "token_string": "Marijke Ostyn verlaat N-VA Wat al verwacht werd aan het begin van de bestuursperiode , toen Marijke Ostyn ( 62 ) geen schepenambt kreeg en in 2014 geen plekje kon bemachtigen in het bestuur van bedrijvencentrum Beha , is nu toch gebeurd : ze verlaat N-VA ."
+    },
+    "meta": {
+        "author": "eventdna_anno_1",
+        "id": "eventdna_168"
+    }
+}

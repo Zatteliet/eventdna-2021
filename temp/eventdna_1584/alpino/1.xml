@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="democratie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="democratie" sense="democratie" word="democratie"/>
+        <node begin="2" end="3" frame="postnp_adverb" his="normal" his_1="normal" id="5" lcat="advp" lemma="zelf" pos="adv" postag="BW()" pt="bw" rel="mod" root="zelf" sense="zelf" special="postnp" word="zelf"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,fixed([[op,het,spel]],no_passive))" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="fixed([[op,het,spel]],no_passive)" sense="op-het-spel-sta" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+      <node begin="4" cat="mwu" end="7" his="normal" his_1="normal" id="7" mwu_root="op het spel" mwu_sense="op het spel" rel="svp">
+        <node begin="4" end="5" frame="fixed_part([op,het,spel])" id="8" lcat="fixed" lemma="op" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="5" end="6" frame="fixed_part([op,het,spel])" id="9" lcat="fixed" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" word="het"/>
+        <node begin="6" end="7" frame="fixed_part([op,het,spel])" genus="onz" getal="ev" graad="basis" id="10" lcat="fixed" lemma="spel" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="spel" sense="spel" word="spel"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">De democratie zelf staat op het spel</sentence>
+  <comments>
+    <comment>Q#1|De democratie zelf staat op het spel|1|1|-2.3839726978900004</comment>
+  </comments>
+</alpino_ds>

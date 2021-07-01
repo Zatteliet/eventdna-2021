@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(haak_open)" his="normal" his_1="normal" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="16" end="17" frame="punct(haak_sluit)" his="normal" his_1="normal" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="25" id="5" rel="--">
+      <node begin="0" cat="np" end="2" id="6" index="1" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="decap_and_compound" his_1="3" id="7" lcat="np" lemma="spoor_infrastructuur_beheerder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="spoor_infrastructuur_beheerder" sense="spoor_infrastructuur_beheerder" word="Spoorinfrastructuurbeheerder"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="8" lcat="np" lemma="Infrabel" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Infrabel" sense="Infrabel" word="Infrabel"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="9" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="25" id="10" rel="vc">
+        <node begin="0" end="2" id="11" index="1" rel="su"/>
+        <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="dinsdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dinsdag" sense="dinsdag" special="tmp" word="dinsdag"/>
+        <node begin="4" cat="np" end="16" id="13" rel="obj1">
+          <node begin="4" cat="mwu" end="6" his="name" his_1="not_begin" id="14" mwu_root="Michel Abdissi" mwu_sense="Michel Abdissi" rel="hd">
+            <node begin="4" end="5" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Michel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Michel" sense="Michel" spectype="deeleigen" word="Michel"/>
+            <node begin="5" end="6" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Abdissi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Abdissi" sense="Abdissi" spectype="deeleigen" word="Abdissi"/>
+          </node>
+          <node begin="7" cat="np" end="16" id="17" rel="app">
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="voorzitter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="voorzitter" sense="voorzitter" word="voorzitter"/>
+            <node begin="8" cat="pp" end="16" id="19" rel="mod">
+              <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="9" cat="np" end="16" id="21" rel="obj1">
+                <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="Frans_talig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Frans_talig" sense="Frans_talig" vform="adj" word="Franstalige"/>
+                <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="24" infl="e" lcat="ap" lemma="socialistisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="socialistisch" sense="socialistisch" vform="adj" word="socialistische"/>
+                <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="vakbond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vakbond" sense="vakbond" word="vakbond"/>
+                <node begin="13" end="14" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="26" lcat="np" lemma="CGSP" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="CGSP" sense="CGSP" word="CGSP"/>
+                <node begin="15" end="16" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="27" lcat="np" lemma="ACOD" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="ACOD" sense="ACOD" word="ACOD"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" cat="pp" end="24" id="28" rel="pc">
+          <node begin="18" end="19" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="29" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="19" cat="np" end="24" id="30" rel="obj1">
+            <node begin="19" end="20" frame="determiner(de)" his="normal" his_1="normal" id="31" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rechtbank" sense="rechtbank" word="rechtbank"/>
+            <node begin="21" cat="pp" end="24" id="33" rel="mod">
+              <node begin="21" end="22" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="34" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="22" cat="np" end="24" id="35" rel="obj1">
+                <node begin="22" end="23" frame="number(rang)" his="normal" his_1="normal" id="36" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+                <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="aanleg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanleg" sense="aanleg" word="aanleg"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="24" buiging="zonder" end="25" frame="verb(hebben,psp,np_pc_pp(voor))" his="normal" his_1="normal" id="38" infl="psp" lcat="ppart" lemma="dagen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="daag" sc="np_pc_pp(voor)" sense="daag-voor" word="gedaagd" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Spoorinfrastructuurbeheerder Infrabel heeft dinsdag Michel Abdissi , voorzitter van de Franstalige socialistische vakbond CGSP ( ACOD ) , voor de rechtbank van eerste aanleg gedaagd .</sentence>
+  <comments>
+    <comment>Q#2|Spoorinfrastructuurbeheerder Infrabel heeft dinsdag Michel Abdissi , voorzitter van de Franstalige socialistische vakbond CGSP ( ACOD ) , voor de rechtbank van eerste aanleg gedaagd .|1|1|-16.25630374857</comment>
+  </comments>
+</alpino_ds>

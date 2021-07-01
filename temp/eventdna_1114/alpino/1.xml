@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="np" end="7" id="3" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="4" lcat="np" lemma="Rechtzoekenden" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Rechtzoekenden" sense="Rechtzoekenden" word="Rechtzoekenden"/>
+        <node begin="1" cat="pp" end="4" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" cat="np" end="4" id="7" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="kou" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kou" sense="kou" word="kou"/>
+          </node>
+        </node>
+        <node begin="5" cat="np" end="7" id="10" rel="app">
+          <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="name_adj" his_1="begin" id="11" infl="e" lcat="ap" lemma="Genkse" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Genkse" sense="Genkse" vform="adj" word="Genkse"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="12" lcat="np" lemma="politie_rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie_rechtbank" sense="politie_rechtbank" word="politierechtbank"/>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,sg,intransitive)" his="normal" his_1="normal" id="13" infl="sg" lcat="smain" lemma="dichten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="dicht" sc="intransitive" sense="dicht" stype="declarative" tense="present" word="dicht" wvorm="pv"/>
+      <node begin="8" cat="cp" end="12" id="14" rel="mod">
+        <node begin="8" conjtype="onder" end="9" frame="complementizer" his="normal" his_1="normal" id="15" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+        <node begin="9" cat="ssub" end="12" id="16" rel="body">
+          <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="verwarming" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="verwarming" sense="verwarming" word="verwarming"/>
+          <node begin="10" end="11" frame="adverb" his="normal" his_1="normal" id="18" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="11" end="12" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="19" infl="sg3" lcat="ssub" lemma="werken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="werk" sc="intransitive" sense="werk" tense="present" word="werkt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Rechtzoekenden in de kou : Genkse politierechtbank dicht omdat verwarming niet werkt</sentence>
+  <comments>
+    <comment>Q#1|Rechtzoekenden in de kou : Genkse politierechtbank dicht omdat verwarming niet werkt|1|1|2.9971622932900006</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ap" lemma="jaarlijks" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="jaarlijks" sense="jaarlijks" vform="adj" word="Jaarlijkse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="maaien_beurt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="maai_beurt" sense="maai_beurt" word="maaibeurt"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="voorkomen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="voorkom" sc="sbar" sense="voorkom" stype="declarative" tense="present" word="voorkomt" wvorm="pv"/>
+      <node begin="3" cat="cp" end="8" id="6" rel="vc">
+        <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" his="normal" his_1="normal" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="8" id="8" rel="body">
+          <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="huis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="huis" sense="huis" word="huis"/>
+          <node begin="5" cat="mwu" end="7" his="normal" his_1="normal" id="10" mwu_root="in vlammen" mwu_sense="in vlammen" rel="svp">
+            <node begin="5" end="6" frame="fixed_part([in,vlammen])" id="11" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" buiging="zonder" end="7" frame="fixed_part([in,vlammen])" getal-n="zonder-n" id="12" lcat="fixed" lemma="vlammen" pos="fixed" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="mwp" root="vlammen" sense="vlammen" word="vlammen" wvorm="inf"/>
+          </node>
+          <node begin="7" end="8" frame="verb(zijn,sg3,ninv(fixed([[in,vlammen]],no_passive),part_fixed(op,[[in,vlammen]],no_passive)))" his="normal" his_1="part-V" id="13" infl="sg3" lcat="ssub" lemma="op_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_op" sc="part_fixed(op,[[in,vlammen]],no_passive)" sense="in-vlammen-ga_op" tense="present" word="opgaat" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Jaarlijkse maaibeurt voorkomt dat huis in vlammen opgaat</sentence>
+  <comments>
+    <comment>Q#2|Jaarlijkse maaibeurt voorkomt dat huis in vlammen opgaat|1|1|-4.7677585891500005</comment>
+  </comments>
+</alpino_ds>

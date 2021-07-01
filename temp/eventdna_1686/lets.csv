@@ -1,0 +1,36 @@
+Unizo	Unizo	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+overhandigt	overhandigen	WW(pv,tgw,met-t)	B-VP	O
+ondernemersprioriteiten	ondernemersprioriteit	N(soort,mv,basis)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+politieke	politiek	ADJ(prenom,basis,met-e,stan)	B-NP	O
+partijen	partij	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Naar	naar	VZ(init)	B-PP	O
+aanleiding	aanleiding	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+gemeenteraadsverkiezingen	gemeenteraadsverkiezing	N(soort,mv,basis)	I-NP	O
+op	op	VZ(init)	B-PP	O
+14	14	TW(hoofd,vrij)	B-NP	O
+oktober	oktober	N(eigen,ev,basis,zijd,stan)	I-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+Unizo	Unizo	SPEC(deeleigen)	B-NP	B-PER
+Riemst	Riemst	SPEC(deeleigen)	I-NP	I-PER
+op	op	VZ(init)	B-PP	O
+dinsdag	dinsdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+20	20	TW(hoofd,vrij)	I-NP	O
+maart	maart	N(eigen,ev,basis,zijd,stan)	I-NP	O
+alvast	alvast	BW()	B-ADVP	O
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+dossier	dossier	N(soort,ev,basis,onz,stan)	I-NP	O
+met	met	VZ(init)	B-PP	O
+ondernemersprioriteiten	ondernemersprioriteit	N(soort,mv,basis)	B-NP	O
+overhandigd	overhandigen	WW(vd,vrij,zonder)	B-VP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+lokale	lokaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+politieke	politiek	ADJ(prenom,basis,met-e,stan)	I-NP	O
+partijen	partij	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				

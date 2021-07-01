@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="31" id="0" rel="top">
+    <node begin="14" end="15" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="18" end="19" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="30" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="noodtoestand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="noodtoestand" sense="noodtoestand" word="noodtoestand"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,np_np)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="geven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geef" sc="np_np" sense="geef" stype="declarative" tense="present" word="geeft" wvorm="pv"/>
+      <node begin="3" cat="conj" end="8" id="8" rel="obj2">
+        <node begin="3" cat="np" end="5" id="9" rel="cnj">
+          <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="veiligheid_dienst" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="veiligheid_dienst" sense="veiligheid_dienst" word="veiligheidsdiensten"/>
+        </node>
+        <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="6" cat="np" end="8" id="13" rel="cnj">
+          <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+        </node>
+      </node>
+      <node begin="8" cat="np" end="30" id="16" rel="obj1">
+        <node aform="compar" begin="8" buiging="zonder" end="9" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="17" infl="meer" lcat="ap" lemma="meer" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+        <node begin="9" end="10" frame="noun(de,count,sg,vp)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="macht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="macht" sc="vp" sense="macht" word="macht"/>
+        <node begin="10" cat="oti" end="30" id="19" rel="vc">
+          <node begin="10" end="11" frame="complementizer(om)" his="normal" his_1="normal" id="20" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="11" cat="conj" end="30" id="21" rel="body">
+            <node begin="11" cat="ti" end="14" id="22" rel="cnj">
+              <node begin="12" end="13" frame="complementizer(te)" his="normal" his_1="normal" id="23" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="11" cat="inf" end="14" id="24" rel="body">
+                <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="25" index="1" lcat="np" lemma="persoon" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="persoon" sense="persoon" word="personen"/>
+                <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="26" infl="inf" lcat="inf" lemma="arresteren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="arresteer" sc="transitive" sense="arresteer" word="arresteren" wvorm="inf"/>
+              </node>
+            </node>
+            <node begin="11" cat="ti" end="18" id="27" rel="cnj">
+              <node begin="16" end="17" frame="complementizer(te)" his="normal" his_1="normal" id="28" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="11" cat="inf" end="18" id="29" rel="body">
+                <node begin="11" end="12" id="30" index="1" rel="obj1"/>
+                <node begin="15" end="16" frame="particle(op)" his="normal" his_1="normal" id="31" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+                <node begin="17" buiging="zonder" end="18" frame="verb(hebben,inf,part_transitive(op))" his="normal" his_1="normal" id="32" infl="inf" lcat="inf" lemma="op_sluiten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sluit_op" sc="part_transitive(op)" sense="sluit_op" word="sluiten" wvorm="inf"/>
+              </node>
+            </node>
+            <node begin="19" conjtype="neven" end="20" frame="conj(en)" his="normal" his_1="normal" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="11" cat="ti" end="30" id="34" rel="cnj">
+              <node begin="28" end="29" frame="complementizer(te)" his="normal" his_1="normal" id="35" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="11" cat="inf" end="30" id="36" rel="body">
+                <node begin="11" end="12" id="37" index="1" rel="obj1"/>
+                <node begin="20" cat="pp" end="25" id="38" rel="mod">
+                  <node begin="20" end="21" frame="preposition(om,[heen])" his="normal" his_1="normal" id="39" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+                  <node begin="21" cat="np" end="25" id="40" rel="obj1">
+                    <node begin="21" end="22" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="41" lcat="np" lemma="protest_campagne" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="protest_campagne" sense="protest_campagne" word="protestcampagnes"/>
+                    <node begin="22" cat="pp" end="25" id="42" rel="mod">
+                      <node begin="22" end="23" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="43" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                      <node begin="23" cat="np" end="25" id="44" rel="obj1">
+                        <node begin="23" end="24" frame="determiner(de)" his="normal" his_1="normal" id="45" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                        <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="46" lcat="np" lemma="oppositie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oppositie" sense="oppositie" word="oppositie"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node begin="25" cat="mwu" end="28" his="normal" his_1="normal" id="47" mwu_root="in de kiem" mwu_sense="in de kiem" rel="svp">
+                  <node begin="25" end="26" frame="fixed_part([in,de,kiem])" id="48" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="26" end="27" frame="fixed_part([in,de,kiem])" id="49" lcat="fixed" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="fixed" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" sense="de" word="de"/>
+                  <node begin="27" end="28" frame="fixed_part([in,de,kiem])" genus="zijd" getal="ev" graad="basis" id="50" lcat="fixed" lemma="kiem" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="kiem" sense="kiem" word="kiem"/>
+                </node>
+                <node begin="29" buiging="zonder" end="30" frame="verb(hebben,inf,fixed([[in,de,kiem],acc],norm_passive))" his="normal" his_1="normal" id="51" infl="inf" lcat="inf" lemma="smoren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="smoor" sc="fixed([[in,de,kiem],acc],norm_passive)" sense="in-de-kiem-smoor" word="smoren" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="30" end="31" frame="punct(punt)" his="normal" his_1="normal" id="52" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">De noodtoestand geeft de veiligheidsdiensten en de politie meer macht om personen te arresteren , op te sluiten , en om protestcampagnes van de oppositie in de kiem te smoren .</sentence>
+  <comments>
+    <comment>Q#4|De noodtoestand geeft de veiligheidsdiensten en de politie meer macht om personen te arresteren , op te sluiten , en om protestcampagnes van de oppositie in de kiem te smoren .|1|1|-7.6321377694499954</comment>
+  </comments>
+</alpino_ds>

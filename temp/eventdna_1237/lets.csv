@@ -1,0 +1,40 @@
+Trump	trump	N(soort,ev,basis,zijd,stan)	B-NP	O
+dreigt	dreigen	WW(pv,tgw,met-t)	B-VP	O
+opnieuw	opnieuw	BW()	B-ADVP	O
+:	:	LET()	O	O
+'	'	LET()	O	O
+Kim	Kim	SPEC(deeleigen)	B-NP	B-PER
+Jong-un	Jong-un	SPEC(deeleigen)	I-NP	I-PER
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+duidelijk	duidelijk	ADJ(vrij,basis,zonder)	B-AP	O
+een	een	LID(onbep)	B-NP	O
+gek	gek	N(soort,ev,basis,zijd,stan)	I-NP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Donald	Donald	SPEC(deeleigen)	I-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+gereageerd	reageren	WW(vd,vrij,zonder)	I-VP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+beledigingen	belediging	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Noord-Koreaanse	Noord-Koreaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+leider	leider	N(soort,ev,basis,zijd,stan)	I-NP	O
+Kim	Kim	SPEC(deeleigen)	I-NP	B-PER
+Jong-un	Jong-un	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+opbod	opbod	N(soort,ev,basis,onz,stan)	I-NP	O
+tussen	tussen	VZ(init)	B-PP	O
+beide	beide	VNW(onbep,grad,basis)	B-NP	O
+kernmachten	kernmacht	N(soort,mv,basis)	I-NP	O
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+voort	voort	BW()	B-ADVP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="24" id="2" rel="--">
+      <node begin="14" end="15" frame="verb(unacc,sg_heeft,aux_psp_zijn)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="15" cat="np" end="19" id="4" index="1" rel="su">
+        <node begin="15" end="16" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Rusland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Rusland" sense="Rusland" word="Rusland"/>
+        <node begin="16" cat="pp" end="19" id="6" rel="mod">
+          <node begin="16" end="17" frame="preposition(in,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="17" cat="np" end="19" id="8" rel="obj1">
+            <node begin="17" end="18" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="18" end="19" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="VN-Veiligheidsraad" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VN-Veiligheidsraad" sense="VN-Veiligheidsraad" word="VN-Veiligheidsraad"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="24" id="11" rel="vc">
+        <node begin="0" cat="pp" end="14" id="12" rel="mod">
+          <node begin="0" end="1" frame="preposition(na,[])" his="normal" his_1="decap" his_1_1="normal" id="13" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="Na"/>
+          <node begin="1" cat="np" end="14" id="14" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="16" infl="e" lcat="ap" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" sense="militair" vform="adj" word="militaire"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanval" sense="aanval" word="aanval"/>
+            <node begin="4" cat="pp" end="14" id="18" rel="mod">
+              <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="5" cat="conj" end="14" id="20" rel="obj1">
+                <node begin="5" cat="np" end="8" id="21" rel="cnj">
+                  <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="22" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="6" cat="mwu" end="8" his="normal" his_1="names_dictionary" id="23" mwu_root="Verenigde Staten" mwu_sense="Verenigde Staten" rel="hd">
+                    <node begin="6" end="7" frame="proper_name(both,'LOC')" id="24" lcat="np" lemma="Verenigde" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Verenigde" sense="Verenigde" spectype="deeleigen" word="Verenigde"/>
+                    <node begin="7" end="8" frame="proper_name(both,'LOC')" id="25" lcat="np" lemma="Staten" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Staten" sense="Staten" spectype="deeleigen" word="Staten"/>
+                  </node>
+                </node>
+                <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="26" lcat="np" lemma="Frankrijk" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Frankrijk" sense="Frankrijk" word="Frankrijk"/>
+                <node begin="10" conjtype="neven" end="11" frame="conj(en)" his="normal" his_1="normal" id="27" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="11" cat="np" end="14" id="28" rel="cnj">
+                  <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="29" lcat="np" lemma="Groot-Brittannië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Groot-Brittannië" sense="Groot-Brittannië" word="Groot-Brittannië"/>
+                  <node begin="12" cat="pp" end="14" id="30" rel="mod">
+                    <node begin="12" end="13" frame="preposition(in,[])" his="normal" his_1="normal" id="31" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="13" end="14" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="32" lcat="np" lemma="Syrië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Syrië" sense="Syrië" word="Syrië"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="15" end="19" id="33" index="1" rel="su"/>
+        <node aform="base" begin="19" buiging="zonder" end="20" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="34" infl="no_e" lcat="ap" lemma="scherp" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="scherp" sense="scherp" vform="adj" word="scherp"/>
+        <node begin="20" buiging="zonder" end="21" frame="verb(unacc,psp,ninv(ap_copula,part_ap_copula(uit)))" his="normal" his_1="part-V" id="35" infl="psp" lcat="ppart" lemma="uit_vallen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="val_uit" sc="part_ap_copula(uit)" sense="val_uit" word="uitgevallen" wvorm="vd"/>
+        <node begin="21" cat="pp" end="24" id="36" rel="mod">
+          <node begin="21" end="22" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="37" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="22" cat="np" end="24" id="38" rel="obj1">
+            <node begin="22" end="23" frame="determiner(de)" his="normal" his_1="normal" id="39" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="23" end="24" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="40" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="sg" root="VS" sense="VS" word="VS"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Na de militaire aanval van de Verenigde Staten , Frankrijk en Groot-Brittannië in Syrië is Rusland in de VN-Veiligheidsraad scherp uitgevallen naar de VS .</sentence>
+  <comments>
+    <comment>Q#2|Na de militaire aanval van de Verenigde Staten , Frankrijk en Groot-Brittannië in Syrië is Rusland in de VN-Veiligheidsraad scherp uitgevallen naar de VS .|1|1|-10.837484163810002</comment>
+  </comments>
+</alpino_ds>

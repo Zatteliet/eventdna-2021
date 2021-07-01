@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="8" id="2" rel="--">
+      <node begin="0" cat="np" end="3" id="3" rel="tag">
+        <node begin="0" end="1" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="extreem_rechts" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="extreem_rechts" sense="extreem_rechts" word="Extreemrechts"/>
+        <node begin="1" cat="pp" end="3" id="5" rel="mod">
+          <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="2" end="3" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="obj1" rnum="sg" root="VS" sense="VS" word="VS"/>
+        </node>
+      </node>
+      <node begin="4" cat="smain" end="8" id="8" rel="nucl">
+        <node begin="4" end="5" frame="tmp_adverb" his="normal" his_1="decap" his_1_1="normal" id="9" lcat="advp" lemma="vandaag" pos="adv" postag="BW()" pt="bw" rel="mod" root="vandaag" sense="vandaag" special="tmp" word="Vandaag"/>
+        <node begin="5" end="6" frame="verb(zijn,sg,intransitive)" his="normal" his_1="normal" id="10" infl="sg" lcat="smain" lemma="starten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="start" sc="intransitive" sense="start" stype="declarative" tense="present" word="start" wvorm="pv"/>
+        <node begin="6" cat="np" end="8" id="11" rel="su">
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="12" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="7" end="8" frame="noun(de,both,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="burger_oorlog" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="burger_oorlog" sense="burger_oorlog" word="burgeroorlog"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Extreemrechts in VS : Vandaag start nieuwe burgeroorlog</sentence>
+  <comments>
+    <comment>Q#1|Extreemrechts in VS : Vandaag start nieuwe burgeroorlog|1|1|1.8284844531900017</comment>
+  </comments>
+</alpino_ds>

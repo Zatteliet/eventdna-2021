@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="0" cat="du" end="18" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="dp">
+        <node begin="1" end="2" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="2" end="3" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" index="1" lcat="np" lemma="SP.A" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="SP.A" sense="SP.A" word="SP.A"/>
+        <node begin="0" cat="inf" end="8" id="5" rel="vc">
+          <node begin="2" end="3" id="6" index="1" rel="su"/>
+          <node begin="6" buiging="zonder" end="7" frame="verb('hebben/zijn',inf,aux(inf))" his="normal" his_1="normal" id="7" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+          <node begin="0" cat="inf" end="8" id="8" rel="vc">
+            <node begin="0" end="1" frame="adverb" his="normal" his_1="decap" his_1_1="normal" id="9" lcat="advp" lemma="alweer" pos="adv" postag="BW()" pt="bw" rel="mod" root="alweer" sense="alweer" word="Alweer"/>
+            <node begin="2" end="3" id="10" index="1" rel="su"/>
+            <node begin="3" cat="np" end="6" id="11" rel="obj1">
+              <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="vertrouwelijk" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="vertrouwelijk" sense="vertrouwelijk" vform="adj" word="vertrouwelijk"/>
+              <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="document" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="document" sense="document" word="document"/>
+            </node>
+            <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="bemachtigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bemachtig" sc="transitive" sense="bemachtig" word="bemachtigen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="cp" end="18" id="16" rel="dp">
+        <node begin="8" conjtype="onder" end="9" frame="complementizer(dat)" his="normal" his_1="normal" id="17" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="9" cat="ssub" end="18" id="18" rel="body">
+          <node begin="9" cat="np" end="14" id="19" index="2" rel="su">
+            <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="positie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="positie" sense="positie" word="positie"/>
+            <node begin="11" cat="pp" end="14" id="22" rel="mod">
+              <node begin="11" end="12" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="12" cat="np" end="14" id="24" rel="obj1">
+                <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="form_of_suffix" his_1="&apos;er" id="26" lcat="np" lemma="n-va&apos;er" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="n-va&apos;er" sense="n-va&apos;er" word="N-VA&apos;er"/>
+              </node>
+            </node>
+          </node>
+          <node begin="16" end="17" frame="verb('hebben/zijn',modal_not_u,aux(inf))" his="normal" his_1="normal" id="27" infl="modal_not_u" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kan" wvorm="pv"/>
+          <node begin="9" cat="inf" end="18" id="28" rel="vc">
+            <node begin="9" end="14" id="29" index="2" rel="su"/>
+            <node begin="14" cat="pp" end="16" id="30" rel="ld">
+              <node begin="14" end="15" frame="preposition(onder,[door,vandaan])" his="normal" his_1="normal" id="31" lcat="pp" lemma="onder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="onder" sense="onder" vztype="init" word="onder"/>
+              <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="druk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="druk" sense="druk" word="druk"/>
+            </node>
+            <node begin="17" buiging="zonder" end="18" frame="verb(hebben,inf,ld_pp)" his="normal" his_1="normal" id="33" infl="inf" lcat="inf" lemma="zetten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="zet" sc="ld_pp" sense="zet" word="zetten" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="robust_skip" id="34" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Alweer heeft SP.A een vertrouwelijk document kunnen bemachtigen dat de positie van de N-VA&apos;er onder druk kan zetten .</sentence>
+  <comments>
+    <comment>Q#4|Alweer heeft SP.A een vertrouwelijk document kunnen bemachtigen dat de positie van de N-VA&apos;er onder druk kan zetten .|1|2|-7.471620104179997</comment>
+  </comments>
+</alpino_ds>

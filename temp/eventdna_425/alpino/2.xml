@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node begin="9" end="10" frame="verb('hebben/zijn',pl,modifier(aux(inf)))" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moeten" wvorm="pv"/>
+      <node begin="10" cat="np" end="13" id="4" index="1" rel="su">
+        <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="11" cat="mwu" end="13" his="normal" his_1="names_dictionary" id="6" mwu_root="Verenigde Naties" mwu_sense="Verenigde Naties" rel="hd">
+          <node begin="11" end="12" frame="proper_name(both,'ORG')" id="7" lcat="np" lemma="Verenigde" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Verenigde" sense="Verenigde" spectype="deeleigen" word="Verenigde"/>
+          <node begin="12" end="13" frame="proper_name(both,'ORG')" id="8" lcat="np" lemma="Naties" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Naties" sense="Naties" spectype="deeleigen" word="Naties"/>
+        </node>
+      </node>
+      <node begin="0" cat="inf" end="20" id="9" rel="vc">
+        <node begin="0" cat="cp" end="8" id="10" rel="mod">
+          <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="11" lcat="cp" lemma="zolang" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zolang" sense="zolang" word="Zolang"/>
+          <node begin="1" cat="ssub" end="8" id="12" rel="body">
+            <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="Europa" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Europa" sense="Europa" word="Europa"/>
+            <node begin="2" cat="np" end="7" id="14" rel="obj1">
+              <node begin="2" cat="ap" end="4" id="15" rel="det">
+                <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="16" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                <node aform="compar" begin="3" buiging="zonder" end="4" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="17" infl="meer" lcat="ap" lemma="meer" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="hd" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+              </node>
+              <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="vluchteling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vluchteling" sense="vluchteling" word="vluchtelingen"/>
+              <node begin="5" cat="pp" end="7" id="19" rel="mod">
+                <node begin="5" end="6" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="20" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="Niger" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Niger" sense="Niger" word="Niger"/>
+              </node>
+            </node>
+            <node begin="7" end="8" frame="verb(hebben,sg3,transitive)" his="verbal_compound" his_1="normal" id="22" infl="sg3" lcat="ssub" lemma="her_vestigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="her_vestig" sc="transitive" sense="her_vestig" tense="present" word="hervestigt" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="10" end="13" id="23" index="1" rel="su"/>
+        <node begin="13" cat="np" end="19" id="24" rel="obj1">
+          <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="14" end="15" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="26" lcat="np" lemma="eva­cuaties" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="eva­cuaties" sense="eva­cuaties" word="eva­cuaties"/>
+          <node begin="15" cat="pp" end="19" id="27" rel="mod">
+            <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="16" cat="np" end="19" id="29" rel="obj1">
+              <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="vluchteling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vluchteling" sense="vluchteling" word="vluchtelingen"/>
+              <node begin="17" cat="pp" end="19" id="31" rel="mod">
+                <node begin="17" end="18" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="32" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                <node begin="18" end="19" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="33" lcat="np" lemma="Libië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Libië" sense="Libië" word="Libië"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="34" infl="inf" lcat="inf" lemma="op_schorten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="schort_op" sc="part_transitive(op)" sense="schort_op" word="opschorten" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" his="normal" his_1="normal" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Zolang Europa niet meer vluchtelingen uit Niger hervestigt , moeten de Verenigde Naties de eva­cuaties van vluchtelingen uit Libië opschorten .</sentence>
+  <comments>
+    <comment>Q#2|Zolang Europa niet meer vluchtelingen uit Niger hervestigt , moeten de Verenigde Naties de eva­cuaties van vluchtelingen uit Libië opschorten .|1|1|-8.870703055839995</comment>
+  </comments>
+</alpino_ds>

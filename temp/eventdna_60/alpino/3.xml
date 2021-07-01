@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="23" end="24" frame="punct(haak_open)" his="normal" his_1="normal" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="25" end="26" frame="punct(haak_sluit)" his="normal" his_1="normal" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="27" id="4" rel="--">
+      <node begin="0" cat="np" end="7" id="5" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="gemeente" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gemeente" sense="gemeente" word="gemeenten"/>
+        <node begin="2" cat="conj" end="7" id="8" rel="app">
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Edegem" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Edegem" sense="Edegem" word="Edegem"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="Hove" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Hove" sense="Hove" word="Hove"/>
+          <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="11" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="12" lcat="np" lemma="Kontich" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Kontich" sense="Kontich" word="Kontich"/>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,pl,aux_psp_hebben)" his="normal" his_1="normal" id="13" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+      <node begin="8" cat="ap" end="13" id="14" rel="predm">
+        <node aform="base" begin="8" end="9" frame="adjective(postn_pred(padv),pp(met))" his="normal" his_1="normal" id="15" infl="pred" lcat="ap" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="hd" root="samen" sc="pp(met)" sense="samen-met" vform="adj" word="samen"/>
+        <node begin="9" cat="pp" end="13" id="16" rel="pc">
+          <node begin="9" end="10" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="10" cat="np" end="13" id="18" rel="obj1">
+            <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="politie_zone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie_zone" sense="politie_zone" word="politiezone"/>
+            <node begin="12" end="13" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="21" lcat="np" lemma="HEKLA" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" root="HEKLA" sense="HEKLA" word="HEKLA"/>
+          </node>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="27" id="22" rel="vc">
+        <node begin="0" end="7" id="23" index="1" rel="su"/>
+        <node begin="13" cat="np" end="25" id="24" rel="obj1">
+          <node begin="13" end="14" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="25" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="14" end="15" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="26" lcat="np" lemma="SAVE_charter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="SAVE_charter" sense="SAVE_charter" word="SAVE-charter"/>
+          <node begin="15" cat="mwu" end="18" his="name" his_1="not_begin" id="27" mwu_root="Steden &amp; Gemeenten" mwu_sense="Steden &amp; Gemeenten" rel="app">
+            <node begin="15" end="16" frame="proper_name(both,'ORG')" id="28" lcat="np" lemma="Steden" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Steden" sense="Steden" spectype="deeleigen" word="Steden"/>
+            <node begin="16" end="17" frame="proper_name(both,'ORG')" id="29" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+            <node begin="17" end="18" frame="proper_name(both,'ORG')" id="30" lcat="np" lemma="Gemeenten" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Gemeenten" sense="Gemeenten" spectype="deeleigen" word="Gemeenten"/>
+          </node>
+          <node begin="18" cat="pp" end="25" id="31" rel="mod">
+            <node begin="18" end="19" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="32" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="19" cat="np" end="25" id="33" rel="obj1">
+              <node begin="19" cat="mwu" end="23" his="name" his_1="not_begin" id="34" mwu_root="Ouders van Verongelukte Kinderen" mwu_sense="Ouders van Verongelukte Kinderen" rel="hd">
+                <node begin="19" end="20" frame="proper_name(both,'ORG')" id="35" lcat="np" lemma="Ouders" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Ouders" sense="Ouders" spectype="deeleigen" word="Ouders"/>
+                <node begin="20" end="21" frame="proper_name(both,'ORG')" id="36" lcat="np" lemma="van" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="van" sense="van" spectype="deeleigen" word="van"/>
+                <node begin="21" end="22" frame="proper_name(both,'ORG')" id="37" lcat="np" lemma="Verongelukte" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Verongelukte" sense="Verongelukte" spectype="deeleigen" word="Verongelukte"/>
+                <node begin="22" end="23" frame="proper_name(both,'ORG')" id="38" lcat="np" lemma="Kinderen" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kinderen" sense="Kinderen" spectype="deeleigen" word="Kinderen"/>
+              </node>
+              <node begin="24" end="25" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="39" lcat="np" lemma="OVK" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="OVK" sense="OVK" word="OVK"/>
+            </node>
+          </node>
+        </node>
+        <node begin="26" buiging="zonder" end="27" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="40" infl="psp" lcat="ppart" lemma="ondertekenen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="onderteken" sc="transitive" sense="onderteken" word="ondertekend" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" his="normal" his_1="normal" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">De gemeenten Edegem , Hove en Kontich hebben samen met de politiezone HEKLA het SAVE-charter Steden &amp; Gemeenten van Ouders van Verongelukte Kinderen ( OVK ) ondertekend .</sentence>
+  <comments>
+    <comment>Q#3|De gemeenten Edegem , Hove en Kontich hebben samen met de politiezone HEKLA het SAVE-charter Steden &amp; Gemeenten van Ouders van Verongelukte Kinderen ( OVK ) ondertekend .|1|1|-13.067177713669993</comment>
+  </comments>
+</alpino_ds>

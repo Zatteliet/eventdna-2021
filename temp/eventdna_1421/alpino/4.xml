@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="15" end="16" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="24" id="4" rel="--">
+      <node begin="0" cat="np" end="11" id="5" rel="su">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="6" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+          <node begin="0" buiging="zonder" end="1" frame="pre_num_adv(both)" graad="comp" id="7" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="Meer"/>
+          <node begin="1" conjtype="onder" end="2" frame="pre_num_adv(both)" id="8" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+        </node>
+        <node begin="2" end="3" frame="number(hoofd(both))" his="normal" his_1="normal" id="9" infl="both" lcat="np" lemma="driekwart" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" rnum="sg" root="driekwart" sense="driekwart" special="hoofd" word="driekwart"/>
+        <node begin="3" cat="pp" end="6" id="10" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="12" rel="obj1">
+            <node begin="4" buiging="met-e" end="5" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="deze"/>
+            <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="baby" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="baby" sense="baby" word="baby&apos;s"/>
+          </node>
+        </node>
+        <node begin="7" cat="np" end="11" id="15" rel="app">
+          <node begin="7" cat="detp" end="10" id="16" rel="det">
+            <node begin="7" cat="mwu" end="9" his="normal" his_1="normal" id="17" mwu_root="rond de" mwu_sense="rond de" rel="mod">
+              <node begin="7" end="8" frame="pre_num_adv(pl_indef)" id="18" infl="pl_indef" lcat="advp" lemma="rond" pos="det" postag="VZ(init)" pt="vz" rel="mwp" root="rond" sense="rond" special="pre_num_adv" vztype="init" word="rond"/>
+              <node begin="8" end="9" frame="pre_num_adv(pl_indef)" id="19" infl="pl_indef" lcat="advp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="de" sense="de" special="pre_num_adv" word="de"/>
+            </node>
+            <node begin="9" end="10" frame="number(hoofd(both))" his="normal" his_1="normal" id="20" infl="both" lcat="detp" lemma="12,2" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="12,2" sense="12,2" special="hoofd" word="12,2"/>
+          </node>
+          <node begin="10" end="11" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sense="miljoen" special="meas_mod" word="miljoen"/>
+        </node>
+      </node>
+      <node begin="12" end="13" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="22" infl="pl" lcat="smain" lemma="leven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="leef" sc="ld_pp" sense="leef" stype="declarative" tense="present" word="leven" wvorm="pv"/>
+      <node begin="13" cat="pp" end="24" id="23" rel="ld">
+        <node begin="13" end="14" frame="preposition(in,[])" his="normal" his_1="normal" id="24" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="14" cat="conj" end="24" id="25" rel="obj1">
+          <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="26" lcat="np" lemma="Zuidoost-Azië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Zuidoost-Azië" sense="Zuidoost-Azië" word="Zuidoost-Azië"/>
+          <node begin="16" cat="np" end="20" id="27" rel="cnj">
+            <node begin="16" end="17" frame="number(hoofd(both))" his="normal" his_1="normal" id="28" infl="both" lcat="detp" lemma="4,3" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="4,3" sense="4,3" special="hoofd" word="4,3"/>
+            <node begin="17" end="18" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="miljoen" sense="miljoen" special="meas_mod" word="miljoen"/>
+            <node begin="18" cat="pp" end="20" id="30" rel="mod">
+              <node begin="18" end="19" frame="preposition(in,[])" his="normal" his_1="normal" id="31" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="19" end="20" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="32" lcat="np" lemma="Oost-Azië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Oost-Azië" sense="Oost-Azië" word="Oost-Azië"/>
+            </node>
+          </node>
+          <node begin="20" conjtype="neven" end="21" frame="conj(en)" his="normal" his_1="normal" id="33" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="21" cat="np" end="24" id="34" rel="cnj">
+            <node begin="21" end="22" frame="determiner(de)" his="normal" his_1="normal" id="35" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="22" cat="mwu" end="24" his="name" his_1="not_begin" id="36" mwu_root="Pacific Rim" mwu_sense="Pacific Rim" rel="hd">
+              <node begin="22" end="23" frame="proper_name(both,'LOC')" id="37" lcat="np" lemma="Pacific" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Pacific" sense="Pacific" spectype="deeleigen" word="Pacific"/>
+              <node begin="23" end="24" frame="proper_name(both,'LOC')" id="38" lcat="np" lemma="Rim" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rim" sense="Rim" spectype="deeleigen" word="Rim"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Meer dan driekwart van deze baby&apos;s , rond de 12,2 miljoen , leven in Zuidoost-Azië , 4,3 miljoen in Oost-Azië en de Pacific Rim .</sentence>
+  <comments>
+    <comment>Q#4|Meer dan driekwart van deze baby&apos;s , rond de 12,2 miljoen , leven in Zuidoost-Azië , 4,3 miljoen in Oost-Azië en de Pacific Rim .|1|1|-2.6822507248000016</comment>
+  </comments>
+</alpino_ds>

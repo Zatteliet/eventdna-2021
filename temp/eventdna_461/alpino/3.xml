@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" his="normal" his_1="decap" his_1_1="normal" id="2" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+        <node aform="base" begin="0" end="1" frame="adjective(pred(adv))" id="3" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="Voor"/>
+        <node aform="base" begin="1" end="2" frame="adjective(pred(adv))" id="4" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+        <node aform="base" begin="2" end="3" frame="adjective(pred(adv))" getal-n="zonder-n" id="5" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(pl),refl_ld_pp)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="scharen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="schaar" sc="refl_ld_pp" sense="zich-schaar" stype="declarative" tense="past" word="schaarden" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="7" rel="su">
+        <node begin="4" buiging="zonder" end="5" frame="determiner(wat,nwh,mod,pro,yparg)" graad="basis" his="normal" his_1="normal" id="8" infl="wat" lcat="detp" lemma="voldoende" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="voldoende" sense="voldoende" wh="nwh" word="voldoende"/>
+        <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="lidstaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="lidstaat" sense="lidstaat" word="lidstaten"/>
+      </node>
+      <node begin="6" end="7" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="10" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="7" cat="pp" end="15" id="11" rel="ld">
+        <node begin="7" end="8" frame="preposition(achter,[aan,door,langs,om,uit,vandaan])" his="normal" his_1="normal" id="12" lcat="pp" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" sense="achter" vztype="init" word="achter"/>
+        <node begin="8" cat="np" end="15" id="13" rel="obj1">
+          <node begin="8" end="9" frame="determiner(een)" his="normal" his_1="normal" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="toelating" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="toelating" sense="toelating" word="toelating"/>
+          <node begin="11" cat="pp" end="15" id="17" rel="mod">
+            <node begin="11" end="12" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="12" cat="np" end="15" id="19" rel="obj1">
+              <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="20" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="normal" id="21" infl="both" lcat="ap" lemma="veelbesproken" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="veelbesproken" sense="veelbesproken" vform="adj" word="veelbesproken"/>
+              <node begin="14" end="15" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="22" lcat="np" lemma="onkruid_bestrijding_middel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onkruid_bestrijding_middel" sense="onkruid_bestrijding_middel" word="onkruidbestrijdingsmiddel"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="15" end="16" frame="punct(punt)" his="normal" his_1="normal" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Voor het eerst schaarden voldoende lidstaten zich achter een nieuwe toelating voor het veelbesproken onkruidbestrijdingsmiddel .</sentence>
+  <comments>
+    <comment>Q#3|Voor het eerst schaarden voldoende lidstaten zich achter een nieuwe toelating voor het veelbesproken onkruidbestrijdingsmiddel .|1|1|-2.345678483840004</comment>
+  </comments>
+</alpino_ds>

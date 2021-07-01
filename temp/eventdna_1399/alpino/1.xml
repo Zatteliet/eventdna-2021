@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="9" end="10" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="13" end="14" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="15" id="4" rel="--">
+      <node begin="0" cat="np" end="5" id="5" rel="su">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="6" mwu_root="Rik Daems" mwu_sense="Rik Daems" rel="mod">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Rik" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rik" sense="Rik" spectype="deeleigen" word="Rik"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Daems" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Daems" sense="Daems" spectype="deeleigen" word="Daems"/>
+        </node>
+        <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="kwaad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kwaad" sense="kwaad" word="kwaad"/>
+        <node begin="4" end="5" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg3,part_pred_np(af))" his="normal" his_1="normal" id="11" infl="sg3" lcat="smain" lemma="af_schilderen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schilder_af" sc="part_pred_np(af)" sense="schilder_af" stype="declarative" tense="present" word="schildert" wvorm="pv"/>
+      <node begin="6" cat="np" end="8" id="12" rel="obj1">
+        <node begin="6" buiging="met-e" end="7" frame="determiner(onze)" getal="mv" his="normal" his_1="normal" id="13" infl="onze" lcat="detp" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="onze"/>
+        <node begin="7" end="8" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="idee" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="idee" sense="idee" word="ideeën"/>
+      </node>
+      <node begin="8" cat="cp" end="13" id="15" rel="predc">
+        <node begin="8" end="9" frame="complementizer(als)" his="normal" his_1="normal" id="16" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="10" cat="np" end="13" id="17" rel="body">
+          <node begin="10" buiging="zonder" end="11" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="18" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+          <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="19" infl="e" lcat="ppres" lemma="vernieuwen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="vernieuw" sense="vernieuw" vform="gerund" word="vernieuwende" wvorm="od"/>
+          <node begin="12" end="13" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="idee" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="idee" sense="idee" word="ideeën"/>
+        </node>
+      </node>
+      <node begin="14" end="15" frame="particle(af)" his="normal" his_1="normal" id="21" lcat="part" lemma="af" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="af" sense="af" vztype="fin" word="af"/>
+    </node>
+  </node>
+  <sentence sentid="1">Rik Daems kwaad : N-VA schildert onze ideeën als &apos; hun vernieuwende ideeën &apos; af</sentence>
+  <comments>
+    <comment>Q#1|Rik Daems kwaad : N-VA schildert onze ideeën als &apos; hun vernieuwende ideeën &apos; af|1|1|-0.6544635677999955</comment>
+  </comments>
+</alpino_ds>

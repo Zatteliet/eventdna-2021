@@ -1,0 +1,45 @@
+Dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+laatste	laat	ADJ(prenom,sup,met-e,stan)	I-NP	O
+foto	foto	N(soort,ev,basis,zijd,stan)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+Cassini	Cassini	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+nam	nemen	WW(pv,verl,ev)	B-VP	O
+van	van	VZ(init)	B-PP	O
+planeet	planeet	N(soort,ev,basis,zijd,stan)	B-NP	O
+Saturnus	Saturnus	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+sonde	sonde	N(soort,ev,basis,zijd,stan)	I-NP	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	O	O
+vernietigde	vernietigen	WW(pv,verl,ev)	B-VP	O
+				
+NASA	NASA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+laatste	laat	ADJ(prenom,sup,met-e,stan)	I-NP	O
+foto	foto	N(soort,ev,basis,zijd,stan)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+ruimtesonde	ruimteson	WW(od,prenom,met-e)	I-NP	O
+Cassini	Cassini	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+maakte	maken	WW(pv,verl,ev)	B-VP	O
+van	van	VZ(init)	B-PP	O
+planeet	planeet	N(soort,ev,basis,zijd,stan)	B-NP	O
+Saturnus	Saturnus	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+vrijgegeven	vrijgeven	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Cassini	Cassini	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+cirkelde	cirkelen	WW(pv,verl,ev)	B-VP	O
+13	13	TW(hoofd,prenom,stan)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+lang	lang	ADJ(vrij,basis,zonder)	B-AP	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+baan	baan	N(soort,ev,basis,zijd,stan)	I-NP	O
+rond	rond	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+planeet	planeet	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

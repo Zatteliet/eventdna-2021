@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="inf" end="4" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="obj1">
+          <node begin="0" buiging="zonder" end="1" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="Geen"/>
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="zorg" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="zorg" sense="zorg" word="zorgen"/>
+        </node>
+        <node begin="2" end="3" frame="particle(over)" his="normal" his_1="normal" id="7" lcat="part" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" sense="over" vztype="fin" word="over"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,part_transitive(over))" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="over_maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak_over" sc="part_transitive(over)" sense="maak_over" word="maken" wvorm="inf"/>
+      </node>
+      <node begin="5" cat="conj" end="13" id="9" rel="sat">
+        <node begin="5" cat="smain" end="8" id="10" rel="cnj">
+          <node begin="5" case="nom" def="def" end="6" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="11" index="1" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+          <node begin="6" end="7" frame="verb(hebben,sg_heeft,transitive_ndev)" his="normal" his_1="normal" id="12" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="transitive_ndev" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+          <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="kanker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="kanker" sense="kanker" word="kanker"/>
+        </node>
+        <node begin="8" conjtype="neven" end="9" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="5" cat="smain" end="13" id="15" rel="cnj">
+          <node begin="5" end="6" id="16" index="1" rel="su"/>
+          <node begin="9" end="10" frame="verb(hebben,modal_not_u,aux(inf))" his="normal" his_1="normal" id="17" infl="modal_not_u" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zal" wvorm="pv"/>
+          <node begin="5" cat="inf" end="13" id="18" rel="vc">
+            <node begin="5" end="6" id="19" index="1" rel="su"/>
+            <node begin="10" cat="ap" end="12" id="20" rel="predc">
+              <node aform="base" begin="10" buiging="zonder" end="11" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="21" infl="no_e" lcat="ap" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="snel" sense="snel" vform="adj" word="snel"/>
+              <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="22" infl="no_e" lcat="ap" lemma="dood" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="dood" sense="dood" vform="adj" word="dood"/>
+            </node>
+            <node begin="12" buiging="zonder" end="13" frame="verb(unacc,inf,copula)" his="normal" his_1="normal" id="23" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Geen zorgen over maken : hij heeft kanker en zal snel dood zijn</sentence>
+  <comments>
+    <comment>Q#2|Geen zorgen over maken : hij heeft kanker en zal snel dood zijn|1|1|-7.48019689364</comment>
+  </comments>
+</alpino_ds>

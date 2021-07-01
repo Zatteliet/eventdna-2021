@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="20" id="2" rel="--">
+      <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv),subject_sbar)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="no_e" lcat="ap" lemma="opvallend" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="opvallend" sc="subject_sbar" sense="opvallend" vform="adj" word="Opvallend"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula_sbar)" his="normal" his_1="normal" id="4" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="2" cat="cp" end="20" id="5" rel="su">
+        <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" his="normal" his_1="normal" id="6" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="20" id="7" rel="body">
+          <node begin="3" cat="np" end="5" id="8" index="1" rel="su">
+            <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="maatregel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="maatregel" sense="maatregel" word="maatregel"/>
+          </node>
+          <node begin="6" end="7" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="11" infl="sg" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werd" wvorm="pv"/>
+          <node begin="3" cat="ppart" end="20" id="12" rel="vc">
+            <node begin="3" end="5" id="13" index="1" rel="obj1"/>
+            <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(transitive,part_transitive(in)))" his="normal" his_1="part-V" id="14" infl="psp" lcat="ppart" lemma="in_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_in" sc="part_transitive(in)" sense="stel_in" word="ingesteld" wvorm="vd"/>
+            <node begin="7" cat="pp" end="12" id="15" rel="mod">
+              <node begin="7" end="8" frame="preposition(door,[heen])" his="normal" his_1="normal" id="16" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+              <node begin="8" cat="np" end="12" id="17" rel="obj1">
+                <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="18" infl="e" lcat="ap" lemma="sterk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="sterk" sense="sterk" vform="adj" word="sterke"/>
+                <node begin="9" end="10" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+                <node begin="10" cat="mwu" end="12" his="normal" his_1="names_dictionary" id="20" mwu_root="Deng Xiaoping" mwu_sense="Deng Xiaoping" rel="app">
+                  <node begin="10" end="11" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Deng" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Deng" sense="Deng" spectype="deeleigen" word="Deng"/>
+                  <node begin="11" end="12" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Xiaoping" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Xiaoping" sense="Xiaoping" spectype="deeleigen" word="Xiaoping"/>
+                </node>
+              </node>
+            </node>
+            <node begin="13" cat="oti" end="20" id="23" rel="mod">
+              <node begin="13" end="14" frame="modal_adverb" his="normal" his_1="normal" id="24" lcat="advp" lemma="net" pos="adv" postag="BW()" pt="bw" rel="mod" root="net" sc="modal" sense="net" word="net"/>
+              <node begin="14" end="15" frame="complementizer(om)" his="normal" his_1="normal" id="25" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="15" cat="ti" end="20" id="26" rel="body">
+                <node begin="18" end="19" frame="complementizer(te)" his="normal" his_1="normal" id="27" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="15" cat="inf" end="20" id="28" rel="body">
+                  <node begin="15" cat="np" end="18" id="29" rel="obj1">
+                    <node begin="15" end="16" frame="determiner(een)" his="normal" his_1="normal" id="30" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                    <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="31" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+                    <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="dictatuur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dictatuur" sense="dictatuur" word="dictatuur"/>
+                  </node>
+                  <node begin="19" buiging="zonder" end="20" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="33" infl="inf" lcat="inf" lemma="vermijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vermijd" sc="transitive" sense="vermijd" word="vermijden" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Opvallend is dat de maatregel ingesteld werd door sterke man Deng Xiaoping , net om een nieuwe dictatuur te vermijden .</sentence>
+  <comments>
+    <comment>Q#5|Opvallend is dat de maatregel ingesteld werd door sterke man Deng Xiaoping , net om een nieuwe dictatuur te vermijden .|1|1|-14.237939009940005</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,42 @@
+'	'	LET()	O	O
+Akkoord	akkoord	N(soort,ev,basis,onz,stan)	B-NP	O
+over	over	VZ(init)	B-PP	O
+effectentaks	effectentak	N(soort,mv,basis)	B-NP	O
+moet	moeten	WW(pv,tgw,ev)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+uitgevoerd	uitvoeren	WW(vd,vrij,zonder)	I-VP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+onenigheid	onenigheid	N(soort,ev,basis,zijd,stan)	I-NP	O
+binnen	binnen	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+invoering	invoering	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+effectentaks	effectentak	N(soort,mv,basis)	I-NP	O
+blijft	blijven	WW(pv,tgw,met-t)	B-VP	O
+duren	duren	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Bevoegd	bevoegen	WW(vd,prenom,zonder)	B-NP	O
+minister	minister	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Financiën	financiën	N(soort,mv,basis)	B-NP	B-MISC
+Johan	Johan	SPEC(deeleigen)	I-NP	B-PER
+Van	Van	SPEC(deeleigen)	I-NP	I-PER
+Overtveldt	Overtveldt	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+)	)	LET()	O	O
+staat	staan	WW(pv,tgw,met-t)	B-VP	O
+zelf	zelf	BW()	B-ADVP	O
+opnieuw	opnieuw	BW()	I-ADVP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+rem	rem	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

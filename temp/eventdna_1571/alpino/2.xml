@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" cat="mwu" end="3" his="normal" his_1="names_dictionary" id="4" mwu_root="Europese Commissie" mwu_sense="Europese Commissie" rel="hd">
+          <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="5" lcat="np" lemma="Europese" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europese" sense="Europese" spectype="deeleigen" word="Europese"/>
+          <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="6" lcat="np" lemma="Commissie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Commissie" sense="Commissie" spectype="deeleigen" word="Commissie"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="normal" id="7" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="10" id="8" rel="vc">
+        <node begin="0" end="3" id="9" index="1" rel="su"/>
+        <node begin="4" cat="np" end="8" id="10" rel="obj1">
+          <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="maker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maker" sense="maker" word="makers"/>
+          <node begin="6" cat="pp" end="8" id="13" rel="mod">
+            <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="15" lcat="np" lemma="namaak_artikel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="namaak_artikel" sense="namaak_artikel" word="namaakartikelen"/>
+          </node>
+        </node>
+        <node aform="compar" begin="8" buiging="zonder" end="9" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="16" infl="no_e" lcat="ap" lemma="hard" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="mod" root="hard" sense="hard" vform="adj" word="harder"/>
+        <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,ninv(transitive,part_transitive(aan)))" his="normal" his_1="part-V" id="17" infl="inf" lcat="inf" lemma="aan_pakken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="pak_aan" sc="part_transitive(aan)" sense="pak_aan" word="aanpakken" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(punt)" his="normal" his_1="normal" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De Europese Commissie wil de makers van namaakartikelen harder aanpakken .</sentence>
+  <comments>
+    <comment>Q#2|De Europese Commissie wil de makers van namaakartikelen harder aanpakken .|1|1|-3.9158519362100015</comment>
+  </comments>
+</alpino_ds>

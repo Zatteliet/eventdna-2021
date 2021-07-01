@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="sv1" end="3" id="1" rel="--">
+      <node begin="0" end="1" frame="verb(zijn,sg3,aux(inf))" his="normal" his_1="decap" his_1_1="normal" id="2" infl="sg3" lcat="sv1" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" stype="ynquestion" tense="present" word="Gaat" wvorm="pv"/>
+      <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" index="1" lcat="np" lemma="België" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="België" sense="België" word="België"/>
+      <node begin="1" cat="inf" end="3" id="4" rel="vc">
+        <node begin="1" end="2" id="5" index="1" rel="su"/>
+        <node begin="2" buiging="zonder" end="3" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="6" infl="inf" lcat="inf" lemma="splitsen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="splits" sc="intransitive" sense="splits" word="splitsen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="3" end="4" frame="punct(vraag)" his="normal" his_1="normal" id="7" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="1">Gaat België splitsen ?</sentence>
+  <comments>
+    <comment>Q#1|Gaat België splitsen ?|1|1|-2.1951692026</comment>
+  </comments>
+</alpino_ds>

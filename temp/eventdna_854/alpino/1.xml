@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="8" id="2" rel="dp">
+        <node begin="0" cat="mwu" end="4" his="name" his_1="begin" id="3" index="1" mwu_root="Arrestaties Puigdemont en co." mwu_sense="Arrestaties Puigdemont en co." rel="su">
+          <node begin="0" end="1" frame="proper_name(both)" id="4" lcat="np" lemma="Arrestaties" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Arrestaties" sense="Arrestaties" spectype="deeleigen" word="Arrestaties"/>
+          <node begin="1" end="2" frame="proper_name(both)" id="5" lcat="np" lemma="Puigdemont" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Puigdemont" sense="Puigdemont" spectype="deeleigen" word="Puigdemont"/>
+          <node begin="2" end="3" frame="proper_name(both)" id="6" lcat="np" lemma="en" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="en" sense="en" spectype="deeleigen" word="en"/>
+          <node begin="3" end="4" frame="proper_name(both)" id="7" lcat="np" lemma="co." neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="co." sense="co." spectype="deeleigen" word="co."/>
+        </node>
+        <node begin="4" end="5" frame="verb(hebben,pl,aux(inf))" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zullen" wvorm="pv"/>
+        <node begin="0" cat="inf" end="8" id="9" rel="vc">
+          <node begin="0" end="4" id="10" index="1" rel="su"/>
+          <node begin="5" cat="np" end="7" id="11" rel="mod">
+            <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="12" infl="e" lcat="ppres" lemma="komen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="kom" sense="kom" vform="gerund" word="komende" wvorm="od"/>
+            <node begin="6" end="7" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="uur" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="uur" sense="uur" special="tmp" word="uren"/>
+          </node>
+          <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,ninv(intransitive,part_intransitive(plaats)))" his="normal" his_1="part-V" id="14" infl="inf" lcat="inf" lemma="plaats_vinden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vind_plaats" sc="part_intransitive(plaats)" sense="vind_plaats" word="plaatsvinden" wvorm="inf"/>
+        </node>
+      </node>
+      <node begin="8" cat="sv1" end="13" id="15" rel="dp">
+        <node begin="8" end="9" frame="verb('hebben/zijn',sg1,transitive)" his="decap" his_1="not_begin" id="16" infl="sg1" lcat="sv1" lemma="volgen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="volg" sc="transitive" sense="volg" stype="topic_drop" tense="present" word="Volg" wvorm="pv"/>
+        <node begin="9" cat="np" end="11" id="17" rel="obj1">
+          <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="18" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="10" end="11" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="19" lcat="np" lemma="personferentie" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="personferentie" sense="personferentie" word="personferentie"/>
+        </node>
+        <node begin="11" end="12" frame="er_loc_adverb" getal="getal" his="normal" his_1="normal" id="20" lcat="advp" lemma="hier" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="mod" root="hier" sense="hier" special="er_loc" status="vol" vwtype="aanw" word="hier"/>
+        <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(both(adv))" graad="basis" his="special" his_1="decap" his_1_1="normal" id="21" infl="both" lcat="ap" lemma="live" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="live" sense="live" vform="adj" word="LIVE"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Arrestaties Puigdemont en co. zullen komende uren plaatsvinden Volg de personferentie hier LIVE</sentence>
+  <comments>
+    <comment>Q#1|Arrestaties Puigdemont en co. zullen komende uren plaatsvinden Volg de personferentie hier LIVE|1|2|0.6381628181599984</comment>
+  </comments>
+</alpino_ds>

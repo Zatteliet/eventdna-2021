@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="9" end="10" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="whq" end="14" id="3" rel="--">
+      <node begin="0" end="1" frame="waar_adverb(om)" his="normal" his_1="decap" his_1_1="normal" id="4" index="1" lcat="pp" lemma="waarom" pos="pp" postag="BW()" pt="bw" rel="whd" root="waarom" sense="waarom" special="waar" word="Waarom"/>
+      <node begin="0" cat="sv1" end="14" id="5" rel="body">
+        <node begin="1" end="2" frame="verb('hebben/zijn',pl,modifier(aux(inf)))" his="normal" his_1="normal" id="6" infl="pl" lcat="sv1" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="whquestion" tense="present" word="moeten" wvorm="pv"/>
+        <node begin="2" cat="np" end="11" id="7" index="2" rel="su">
+          <node begin="2" cat="detp" end="4" id="8" rel="det">
+            <node begin="2" buiging="zonder" end="3" frame="pre_det_quant(al)" his="normal" his_1="normal" id="9" infl="al" lcat="detp" lemma="al" naamval="stan" pdtype="det" pos="det" positie="vrij" postag="VNW(onbep,det,stan,vrij,zonder)" pt="vnw" rel="mod" root="al" sense="al" special="pre_det_quant" vwtype="onbep" word="al"/>
+            <node begin="3" buiging="zonder" end="4" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="hd" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+          </node>
+          <node begin="4" end="5" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+          <node begin="5" cat="pp" end="11" id="12" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="11" id="14" rel="obj1">
+              <node begin="6" buiging="zonder" end="7" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+              <node aform="base" begin="8" buiging="met-e" end="9" frame="adjective(e)" graad="basis" his="form_of_suffix" his_1="le" id="16" infl="e" lcat="ap" lemma="shithol" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="shithol" sense="shithol" vform="adj" word="shithole"/>
+              <node begin="10" end="11" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="land" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="land" sense="land" word="landen"/>
+            </node>
+          </node>
+        </node>
+        <node begin="0" cat="inf" end="14" id="18" rel="vc">
+          <node begin="0" end="1" id="19" index="1" rel="mod"/>
+          <node begin="2" end="11" id="20" index="2" rel="su"/>
+          <node begin="11" end="12" frame="adverb" his="normal" his_1="normal" id="21" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" sense="toch" word="toch"/>
+          <node begin="12" end="13" frame="er_adverb(naar)" his="normal" his_1="normal" id="22" lcat="pp" lemma="hierheen" pos="pp" postag="BW()" pt="bw" rel="ld" root="hierheen" sense="hierheen" special="er" word="hierheen"/>
+          <node begin="13" buiging="zonder" end="14" frame="verb(zijn,inf,ld_pp)" his="normal" his_1="normal" id="23" infl="inf" lcat="inf" lemma="komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom" sc="ld_pp" sense="kom" word="komen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(vraag)" his="normal" his_1="normal" id="24" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="3">Waarom moeten al die mensen van die &apos; shithole &apos; landen toch hierheen komen ?</sentence>
+  <comments>
+    <comment>Q#3|Waarom moeten al die mensen van die &apos; shithole &apos; landen toch hierheen komen ?|1|1|-12.01138265905</comment>
+  </comments>
+</alpino_ds>

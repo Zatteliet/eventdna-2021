@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="gemeente" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gemeente" sense="gemeente" word="gemeente"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,part_np_vp_obj1(uit))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="uit_nodigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="nodig_uit" sc="part_np_vp_obj1(uit)" sense="nodig_uit" stype="declarative" tense="present" word="nodigt" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" index="1" lcat="np" lemma="burger" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="burger" sense="burger" word="burgers"/>
+      <node begin="4" cat="np" end="8" id="7" rel="mod">
+        <node begin="4" end="5" frame="modal_adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sc="modal" sense="nog" word="nog"/>
+        <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="9" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="super" begin="6" buiging="met-e" end="7" frame="adjective(ste)" graad="sup" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="laat" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="laat" sense="laat" vform="adj" word="laatste"/>
+        <node begin="7" end="8" frame="tmp_noun(de,count,meas)" gen="de" genus="genus" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="keer" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" rnum="sg" root="keer" sense="keer" special="tmp" word="keer"/>
+      </node>
+      <node begin="8" end="9" frame="particle(uit)" his="normal" his_1="normal" id="12" lcat="part" lemma="uit" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="uit" sense="uit" vztype="fin" word="uit"/>
+      <node begin="3" cat="oti" end="13" id="13" rel="vc">
+        <node begin="9" end="10" frame="complementizer(om)" his="normal" his_1="normal" id="14" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="3" cat="ti" end="13" id="15" rel="body">
+          <node begin="11" end="12" frame="complementizer(te)" his="normal" his_1="normal" id="16" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="3" cat="inf" end="13" id="17" rel="body">
+            <node begin="3" end="4" id="18" index="1" rel="su"/>
+            <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="opmerking" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="opmerking" sense="opmerking" word="opmerkingen"/>
+            <node begin="12" buiging="zonder" end="13" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="20" infl="inf" lcat="inf" lemma="formuleren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="formuleer" sc="transitive" sense="formuleer" word="formuleren" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" his="normal" his_1="normal" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">De gemeente nodigt burgers nog een laatste keer uit om opmerkingen te formuleren .</sentence>
+  <comments>
+    <comment>Q#4|De gemeente nodigt burgers nog een laatste keer uit om opmerkingen te formuleren .|1|1|-10.651142187539998</comment>
+  </comments>
+</alpino_ds>

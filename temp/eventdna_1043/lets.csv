@@ -1,0 +1,44 @@
+Benelux-premiers	benelux-premier	N(soort,mv,basis)	B-NP	O
+hopen	hopen	WW(pv,tgw,mv)	B-VP	O
+Macron	Macron	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+naar	naar	VZ(init)	B-PP	O
+Europese	Europees	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+liberale	liberaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+fractie	fractie	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+lokken	lokken	WW(inf,vrij,zonder)	I-VP	O
+				
+brussel	brussel	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Emmanuel	Emmanuel	SPEC(deeleigen)	I-NP	B-PER
+Macron	Macron	SPEC(deeleigen)	I-NP	I-PER
+houdt	houden	WW(pv,tgw,met-t)	B-VP	O
+vandaag	vandaag	BW()	B-NP	O
+overleg	overleg	N(soort,ev,basis,onz,stan)	I-NP	O
+met	met	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+drie	drie	TW(hoofd,prenom,stan)	I-NP	O
+Benelux-premiers	benelux-premier	N(soort,mv,basis)	I-NP	B-MISC
+in	in	VZ(init)	B-PP	O
+Luxemburg	Luxemburg	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+liberale	liberaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+premiers	premier	N(soort,mv,basis)	I-NP	O
+hengelen	hengelen	WW(inf,vrij,zonder)	B-VP	O
+naar	naar	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+fusie	fusie	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Macrons	Macron	N(eigen,ev,basis,gen)	B-NP	B-PER
+beweging	beweging	N(soort,ev,basis,zijd,stan)	I-NP	O
+met	met	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Europese	Europees	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+liberalen	liberaal	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				

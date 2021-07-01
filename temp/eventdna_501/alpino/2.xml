@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="7" end="8" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="11" id="3" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="begin" id="4" lcat="np" lemma="Tusk" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Tusk" sense="Tusk" word="Tusk"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,part_np_ld_transitive(in))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="in_boren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="boor_in" sc="part_np_ld_transitive(in)" sense="boor_in" stype="declarative" tense="present" word="boort" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="6" rel="obj1">
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="3" end="4" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="8" lcat="np" lemma="Brexit_hoop" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Brexit_hoop" sense="Brexit_hoop" word="Brexit-hoop"/>
+        <node begin="5" cat="mwu" end="7" his="normal" his_1="normal" id="9" mwu_root="nog eens" mwu_sense="nog eens" rel="mod">
+          <node begin="5" end="6" frame="adverb" id="10" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mwp" root="nog" sense="nog" word="nog"/>
+          <node begin="6" end="7" frame="adverb" id="11" lcat="advp" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mwp" root="eens" sense="eens" word="eens"/>
+        </node>
+      </node>
+      <node begin="8" cat="np" end="10" id="12" rel="ld">
+        <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="13" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="grond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="grond" sense="grond" word="grond"/>
+      </node>
+      <node begin="10" end="11" frame="particle(in)" his="normal" his_1="normal" id="15" lcat="part" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" sense="in" vztype="fin" word="in"/>
+    </node>
+  </node>
+  <sentence sentid="2">Tusk boort Britse Brexit-hoop ( nog eens ) de grond in</sentence>
+  <comments>
+    <comment>Q#2|Tusk boort Britse Brexit-hoop ( nog eens ) de grond in|1|1|-4.2592393927100005</comment>
+  </comments>
+</alpino_ds>

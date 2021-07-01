@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="17" id="2" rel="--">
+      <node begin="0" cat="smain" end="10" id="3" rel="cnj">
+        <node begin="1" end="2" frame="verb(hebben,past(sg),aux(inf))" his="normal" his_1="normal" id="4" infl="sg" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="past" word="zou" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="5" index="1" rel="su">
+          <node begin="2" end="3" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="6" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="3" end="4" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="verkeer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verkeer" sense="verkeer" word="verkeer"/>
+        </node>
+        <node begin="0" cat="inf" end="10" id="8" rel="vc">
+          <node begin="2" end="4" id="9" index="1" rel="su"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb('hebben/zijn',inf,aux(inf))" his="normal" his_1="normal" id="10" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+          <node begin="0" cat="inf" end="10" id="11" rel="vc">
+            <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="12" infl="no_e" lcat="ap" lemma="normaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="normaal" sense="normaal" vform="adj" word="Normaal"/>
+            <node begin="2" end="4" id="13" index="1" rel="su"/>
+            <node begin="4" end="5" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="14" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="6" buiging="zonder" end="7" frame="verb('hebben/zijn',inf,ninv(intransitive,part_intransitive(om)))" his="normal" his_1="part-V" id="15" infl="inf" lcat="inf" lemma="om_rijden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="rijd_om" sc="part_intransitive(om)" sense="rijd_om" word="omrijden" wvorm="inf"/>
+            <node begin="7" cat="pp" end="10" id="16" rel="mod">
+              <node begin="7" end="8" frame="preposition(via,[])" his="normal" his_1="normal" id="17" lcat="pp" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" sense="via" vztype="init" word="via"/>
+              <node begin="8" cat="np" end="10" id="18" rel="obj1">
+                <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="9" end="10" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="20" lcat="np" lemma="Rupelbrug" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Rupelbrug" sense="Rupelbrug" word="Rupelbrug"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" conjtype="neven" end="12" frame="conj(maar)" his="normal" his_1="normal" id="21" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="12" cat="smain" end="17" id="22" rel="cnj">
+        <node begin="12" end="13" frame="determiner(de,nwh,nmod,pro,nparg)" getal="getal" his="normal" his_1="normal" id="23" index="2" infl="de" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" rnum="sg" root="die" sense="die" status="vol" vwtype="aanw" wh="nwh" word="die"/>
+        <node begin="13" end="14" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="24" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+        <node begin="12" cat="ppart" end="17" id="25" rel="vc">
+          <node begin="12" end="13" id="26" index="2" rel="obj1"/>
+          <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,ninv(transitive,part_transitive(af)))" his="normal" his_1="part-V" id="27" infl="psp" lcat="ppart" lemma="af_sluiten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="sluit_af" sc="part_transitive(af)" sense="sluit_af" word="afgesloten" wvorm="vd"/>
+          <node begin="15" cat="pp" end="17" id="28" rel="mod">
+            <node begin="15" end="16" frame="preposition(door,[heen])" his="normal" his_1="normal" id="29" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="16" end="17" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="weg_werk" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="weg_werk" sense="weg_werk" word="wegenwerken"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Normaal zou het verkeer er kunnen omrijden via de Rupelbrug , maar die was afgesloten door wegenwerken .</sentence>
+  <comments>
+    <comment>Q#4|Normaal zou het verkeer er kunnen omrijden via de Rupelbrug , maar die was afgesloten door wegenwerken .|1|1|-16.830016645290005</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="np" end="4" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" frame="determiner(wat,nwh,mod,pro,yparg)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" infl="wat" lcat="detp" lemma="onvoldoende" pos="det" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="det" root="onvoldoende" sense="onvoldoende" wh="nwh" word="Onvoldoende"/>
+      <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="3" lcat="np" lemma="agent" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="agent" sense="agent" word="agenten"/>
+      <node begin="2" cat="pp" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="Navo_top" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Navo_top" sense="Navo_top" word="Navo-top"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Onvoldoende agenten voor Navo-top</sentence>
+  <comments>
+    <comment>Q#1|Onvoldoende agenten voor Navo-top|1|1|2.1425622775799997</comment>
+  </comments>
+</alpino_ds>

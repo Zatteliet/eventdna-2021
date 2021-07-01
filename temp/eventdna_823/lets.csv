@@ -1,0 +1,77 @@
+Motorrijder	motorrijder	N(soort,ev,basis,zijd,stan)	B-NP	O
+voorkomt	voorkomen	WW(pv,tgw,met-t)	B-VP	O
+gewonden	gewond	ADJ(nom,basis,met-e,mv-n)	B-NP	O
+bij	bij	VZ(fin)	O	O
+op	op	VZ(init)	B-PP	O
+hol	hol	ADJ(vrij,basis,zonder)	B-NP	O
+geslagen	slaan	WW(vd,prenom,zonder)	I-NP	O
+aanhangwagen	aanhangwaag	N(soort,mv,basis)	I-NP	O
+				
+Na	na	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+spectaculair	spectaculair	ADJ(prenom,basis,zonder)	I-NP	O
+ongeval	ongeval	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Bellegam	Bellegam	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+bleek	blijken	WW(pv,verl,ev)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+enkel	enkel	BW()	B-NP	O
+schade	schade	N(soort,ev,basis,zijd,stan)	I-NP	O
+aan	aan	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+gevel	gevel	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+zijn	zijn	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Toch	toch	BW()	B-ADVP	O
+had	hebben	WW(pv,verl,ev)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-AP	O
+veel	veel	VNW(onbep,grad,basis)	I-AP	O
+erger	erg	ADJ(vrij,comp,zonder)	I-AP	O
+kunnen	kunnen	WW(inf,vrij,zonder)	B-VP	O
+aflopen	aflopen	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+tractor	tractor	N(soort,ev,basis,zijd,stan)	I-NP	O
+verloor	verliezen	WW(pv,verl,ev)	B-VP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+aanhangwagen	aanhangwaag	N(soort,mv,basis)	I-NP	O
+op	op	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+hellend	hellen	WW(od,prenom,zonder)	I-NP	O
+vlak	vlak	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+waardoor	waardoor	BW()	B-ADVP	O
+die	die	VNW(aanw,pron,3,getal)	B-NP	O
+zo'n	zo'n	VNW(aanw,det)	I-NP	O
+honderd	honderd	TW(hoofd,prenom,stan)	I-NP	O
+meter	meter	N(soort,ev,basis,zijd,stan)	I-NP	O
+naar	naar	VZ(init)	O	O
+beneden	beneden	VZ(fin)	O	O
+bolde	bollen	WW(pv,verl,ev)	B-VP	O
+.	.	LET()	O	O
+				
+Gelukkig	gelukkig	ADJ(vrij,basis,zonder)	B-AP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+Giorgio	Giorgio	SPEC(deeleigen)	B-NP	B-PER
+Derycke	Derycke	SPEC(deeleigen)	I-NP	I-PER
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+buurt	buurt	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+motorrijder	motorrijder	N(soort,ev,basis,zijd,stan)	I-NP	O
+zorgde	zorgen	WW(pv,verl,ev)	B-VP	O
+ervoor	ervoor	BW()	B-ADVP	O
+dat	dat	VG(onder)	O	O
+niemand	niemand	VNW(onbep,pron,3p,ev)	B-AP	O
+gewond	gewond	ADJ(vrij,basis,zonder)	I-AP	O
+geraakte	geraken	WW(pv,verl,ev)	B-VP	O
+bij	bij	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+incident	incident	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

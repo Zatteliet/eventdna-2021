@@ -1,0 +1,54 @@
+Migranten	migrant	N(soort,mv,basis)	B-NP	O
+met	met	VZ(init)	B-PP	O
+kinderen	kind	N(soort,mv,basis)	B-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+de	de	LID(bep)	B-NP	O
+grens	grens	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+VS	VS	N(eigen,mv,basis)	B-NP	B-LOC
+oversteken	oversteken	WW(inf,vrij,zonder)	B-VP	O
+zullen	zullen	WW(pv,tgw,mv)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+vervolgd	vervolgen	WW(vd,vrij,zonder)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+grensbewaking	grensbewaking	N(soort,ev,basis,zijd,stan)	I-NP	O
+(	(	LET()	O	O
+US	US	SPEC(deeleigen)	B-NP	B-LOC
+.	.	LET()	O	O
+				
+Border	Border	SPEC(deeleigen)	B-NP	B-PER
+Patrol	Patrol	SPEC(deeleigen)	I-NP	I-PER
+)	)	LET()	O	O
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+volwassenen	volwassen	ADJ(nom,basis,met-e,mv-n)	B-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+samen	samen	BW()	B-ADVP	O
+met	met	VZ(init)	B-PP	O
+kinderen	kind	N(soort,mv,basis)	B-NP	O
+op	op	VZ(init)	B-PP	O
+illegale	illegaal	ADJ(prenom,basis,met-e,stan)	B-NP	O
+wijze	wijze	N(soort,ev,basis,zijd,stan)	I-NP	O
+de	de	LID(bep)	B-NP	O
+Amerikaans-Mexicaanse	Amerikaans-Mexicaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+oversteken	oversteek	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+niet	niet	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+doorverwijzen	doorverwijzen	WW(inf,vrij,zonder)	B-VP	O
+naar	naar	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+federale	federaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+rechtbank	rechtbank	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+meldt	melden	WW(pv,tgw,met-t)	B-VP	O
+The	The	SPEC(deeleigen)	B-NP	B-PRO
+Washington	Washington	SPEC(deeleigen)	I-NP	I-PRO
+Post	Post	SPEC(deeleigen)	I-NP	I-PRO
+.	.	LET()	O	O
+				

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="analist" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="analist" sense="analist" word="Analisten"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,sbar)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="vrezen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="vrees" sc="sbar" sense="vrees" stype="declarative" tense="present" word="vrezen" wvorm="pv"/>
+      <node begin="2" cat="cp" end="14" id="4" rel="vc">
+        <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" his="normal" his_1="normal" id="5" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="3" cat="ssub" end="14" id="6" rel="body">
+          <node begin="3" cat="np" end="6" id="7" index="1" rel="su">
+            <node begin="3" end="4" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="8" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="Italiaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Italiaans" sense="Italiaans" vform="adj" word="Italiaanse"/>
+            <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="begrotingstekort" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="begrotingstekort" sense="begrotingstekort" word="begrotingstekort"/>
+          </node>
+          <node begin="12" end="13" frame="verb(hebben,modal_not_u,aux(inf))" his="normal" his_1="normal" id="11" infl="modal_not_u" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zal" wvorm="pv"/>
+          <node begin="3" cat="inf" end="14" id="12" rel="vc">
+            <node begin="3" end="6" id="13" index="1" rel="su"/>
+            <node begin="6" cat="pp" end="8" id="14" rel="mod">
+              <node begin="6" end="7" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="15" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="16" infl="pl_num" lcat="np" lemma="108" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="108" sense="108" special="hoofd" word="108"/>
+            </node>
+            <node begin="8" cat="pp" end="12" id="17" rel="ld">
+              <node begin="8" end="9" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+              <node begin="9" cat="np" end="12" id="19" rel="obj1">
+                <node begin="9" end="10" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="20" infl="pl_num" lcat="detp" lemma="126" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="126" sense="126" special="hoofd" word="126"/>
+                <node begin="10" end="11" frame="meas_mod_noun(both,count,meas,measure)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="miljard" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljard" sc="measure" sense="miljard" special="meas_mod" word="miljard"/>
+                <node begin="11" end="12" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="euro" sense="euro" special="meas_mod" word="euro"/>
+              </node>
+            </node>
+            <node begin="13" buiging="zonder" end="14" frame="verb(zijn,inf,ld_pp)" his="normal" his_1="normal" id="23" infl="inf" lcat="inf" lemma="stijgen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stijg" sc="ld_pp" sense="stijg" word="stijgen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="24" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Analisten vrezen dat het Italiaanse begrotingstekort met 108 tot 126 miljard euro zal stijgen .</sentence>
+  <comments>
+    <comment>Q#4|Analisten vrezen dat het Italiaanse begrotingstekort met 108 tot 126 miljard euro zal stijgen .|1|1|-13.683908980670006</comment>
+  </comments>
+</alpino_ds>

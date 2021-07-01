@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" rel="nucl">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" infl="e" lcat="ap" lemma="best" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="best" sense="best" vform="adj" word="Beste"/>
+        <node begin="1" end="2" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+        <node begin="2" cat="rel" end="5" id="6" rel="mod">
+          <node begin="2" case="no_obl" end="3" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="7" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="2" cat="ssub" end="5" id="8" rel="body">
+            <node begin="2" end="3" id="9" index="1" rel="su"/>
+            <node aform="base" begin="3" end="4" frame="adjective(both(osentadv))" his="normal" his_1="normal" id="10" infl="both" lcat="ap" lemma="graag" pos="adj" postag="BW()" pt="bw" rel="mod" root="graag" sense="graag" vform="adj" word="graag"/>
+            <node begin="4" end="5" frame="verb(hebben,pl,intransitive)" his="normal" his_1="normal" id="11" infl="pl" lcat="ssub" lemma="ademen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="adem" sc="intransitive" sense="adem" tense="present" word="ademen" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="6" cat="smain" end="18" id="12" rel="tag">
+        <node begin="6" end="7" frame="dip_sbar_adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sc="dip_sbar" sense="zo" word="zo"/>
+        <node begin="7" end="8" frame="verb(zijn,sg3,transitive)" his="normal" his_1="normal" id="14" infl="sg3" lcat="smain" lemma="beginnen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="begin" sc="transitive" sense="begin" tense="present" word="begint" wvorm="pv"/>
+        <node begin="8" cat="np" end="13" id="15" rel="su">
+          <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="Antwerps" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Antwerps" sense="Antwerps" vform="adj" word="Antwerpse"/>
+          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="schrijver" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="schrijver" sense="schrijver" word="schrijver"/>
+          <node begin="11" cat="mwu" end="13" his="normal" his_1="names_dictionary" id="19" mwu_root="Jeroen Olyslaegers" mwu_sense="Jeroen Olyslaegers" rel="app">
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Jeroen" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jeroen" sense="Jeroen" spectype="deeleigen" word="Jeroen"/>
+            <node begin="12" end="13" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Olyslaegers" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Olyslaegers" sense="Olyslaegers" spectype="deeleigen" word="Olyslaegers"/>
+          </node>
+        </node>
+        <node begin="13" cat="np" end="18" id="22" rel="obj1">
+          <node begin="13" end="14" frame="determiner(een)" his="normal" his_1="normal" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(both(adv))" graad="basis" his="normal" his_1="normal" id="24" infl="both" lcat="ap" lemma="open" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="open" sense="open" vform="adj" word="open"/>
+          <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="brief" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="brief" sense="brief" word="brief"/>
+          <node begin="16" cat="pp" end="18" id="26" rel="mod">
+            <node begin="16" end="17" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="27" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="17" end="18" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="28" lcat="np" lemma="Facebook" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" rnum="sg" root="Facebook" sense="Facebook" word="Facebook"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="normal" his_1="normal" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Beste mensen die graag ademen , zo begint de Antwerpse schrijver Jeroen Olyslaegers een open brief op Facebook .</sentence>
+  <comments>
+    <comment>Q#2|Beste mensen die graag ademen , zo begint de Antwerpse schrijver Jeroen Olyslaegers een open brief op Facebook .|1|1|-1.8554715583299968</comment>
+  </comments>
+</alpino_ds>

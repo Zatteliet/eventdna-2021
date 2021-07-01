@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="su" rnum="pl" root="VS" sense="VS" word="VS"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,part_np_ld_pp(terug))" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="terug_trekken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="trek_terug" sc="part_np_ld_pp(terug)" sense="trek_terug" stype="declarative" tense="present" word="trekken" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="4" rel="mod">
+        <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="5" infl="pl_num" lcat="detp" lemma="60" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="60" sense="60" special="hoofd" word="60"/>
+        <node begin="3" end="4" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" word="procent"/>
+      </node>
+      <node begin="4" end="5" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="7" lcat="np" lemma="ambassade_personeel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="ambassade_personeel" sense="ambassade_personeel" word="ambassadepersoneel"/>
+      <node begin="5" end="6" frame="particle(terug)" his="normal" his_1="normal" id="8" lcat="part" lemma="terug" pos="part" postag="BW()" pt="bw" rel="svp" root="terug" sense="terug" word="terug"/>
+      <node begin="6" cat="pp" end="8" id="9" rel="ld">
+        <node begin="6" end="7" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="10" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="7" end="8" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="11" lcat="np" lemma="Cuba" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Cuba" sense="Cuba" word="Cuba"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">VS trekken 60 procent ambassadepersoneel terug uit Cuba</sentence>
+  <comments>
+    <comment>Q#1|VS trekken 60 procent ambassadepersoneel terug uit Cuba|1|1|-5.946642021820001</comment>
+  </comments>
+</alpino_ds>

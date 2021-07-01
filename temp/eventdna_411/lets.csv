@@ -1,0 +1,64 @@
+Moeder	moeder	N(soort,ev,basis,zijd,stan)	B-NP	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+Syriëstrijder	syriëstrijder	N(soort,ev,basis,zijd,stan)	I-NP	O
+getuigt	getuigen	WW(pv,tgw,met-t)	B-VP	O
+:	:	LET()	O	O
+'	'	LET()	O	O
+Er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+waren	zijn	WW(pv,verl,mv)	B-VP	O
+kleine	klein	ADJ(prenom,basis,met-e,stan)	B-NP	O
+signalen	signaal	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+niets	niets	VNW(onbep,pron,3o,ev)	B-NP	O
+alarmerend	alarmeren	WW(od,vrij,zonder)	B-VP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+zoon	zoon	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Fatima	Fatima	SPEC(deeleigen)	B-NP	B-PER
+Ezzarhouni	Ezzarhouni	SPEC(deeleigen)	I-NP	I-PER
+vertrok	vertrekken	WW(pv,verl,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+2013	2013	TW(hoofd,vrij)	B-NP	O
+richting	richting	N(soort,ev,basis,zijd,stan)	I-NP	O
+Syrië	Syrië	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				
+Nadien	nadien	BW()	B-ADVP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+ze	ze	VNW(pers,pron,3,ev,fem)	O	O
+hem	hem	VNW(pers,pron,3,ev,masc)	O	O
+nooit	nooit	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+gezien	zien	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+De	de	LID(bep)	B-NP	O
+zevende	zeven	TW(rang,prenom,stan)	I-NP	O
+dag	dag	N(soort,ev,basis,zijd,stan)	I-NP	O
+deed	doen	WW(pv,verl,ev)	B-VP	O
+doet	doen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+moeder	moeder	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+een	een	TW(hoofd,vrij)	B-NP	O
+van	van	VZ(init)	B-PP	O
+eerste	een	TW(rang,prenom,stan)	B-NP	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Syriëstrijders	syriëstrijder	N(soort,mv,basis)	I-NP	B-MISC
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+verhaal	verhaal	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+'	'	LET()	O	O
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+sprak	spreken	WW(pv,verl,ev)	B-VP	O
+nauwelijks	nauwelijks	BW()	B-ADVP	O
+over	over	VZ(init)	B-PP	O
+Syrië	Syrië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+'	'	LET()	O	O
+				

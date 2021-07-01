@@ -1,0 +1,56 @@
+Lombok	Lombok	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+opnieuw	opnieuw	BW()	B-ADVP	O
+getroffen	treffen	WW(vd,vrij,zonder)	B-VP	O
+door	door	VZ(init)	B-PP	O
+krachtige	krachtig	ADJ(prenom,basis,met-e,stan)	B-NP	O
+aardbeving	aardbeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+Indonesische	Indonesisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+eiland	eiland	N(soort,ev,basis,onz,stan)	I-NP	O
+Lombok	Lombok	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+opnieuw	opnieuw	BW()	B-ADVP	O
+getroffen	treffen	WW(vd,vrij,zonder)	B-VP	O
+door	door	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+aardbeving	aardbeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Indonesische	Indonesisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+seismologische	seismologisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+agentschap	agentschap	N(soort,ev,basis,onz,stan)	I-NP	O
+ging	gaan	WW(pv,verl,ev)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+om	om	VZ(init)	B-PP	O
+magnitude	magnitud	ADJ(prenom,basis,met-e,stan)	B-NP	O
+6,2	6,2	TW(hoofd,vrij)	I-NP	O
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+geofysische	geofysisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+instituut	instituut	N(soort,ev,basis,onz,stan)	I-NP	O
+USGS	USGS	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+spreekt	spreken	WW(pv,tgw,met-t)	B-VP	O
+van	van	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+magnitude	magnitude	N(soort,ev,basis,zijd,stan)	I-NP	O
+5,9	5,9	TW(hoofd,vrij)	I-NP	O
+.	.	LET()	O	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+al	al	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+derde	drie	TW(rang,prenom,stan)	I-NP	O
+stevige	stevig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+aardbeving	aardbeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+tijd	tijd	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

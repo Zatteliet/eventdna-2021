@@ -1,0 +1,38 @@
+Extreemrechts	extreemrechts	ADJ(vrij,basis,zonder)	B-AP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+nood	nood	N(soort,ev,basis,zijd,stan)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+groot	groot	ADJ(prenom,basis,zonder)	B-NP	O
+onderhoud	onderhoud	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+Van	Van	SPEC(deeleigen)	B-NP	B-PER
+Ukip	Ukip	SPEC(deeleigen)	I-NP	I-PER
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Nederlandse	Nederlands	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+PVV	PVV	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+tot	tot	VZ(init)	O	O
+het	het	LID(bep)	B-AP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	I-AP	B-LOC
+FN	FN	SPEC(afk)	I-AP	O
+:	:	LET()	O	O
+overal	overal	VNW(onbep,adv-pron,3o,getal)	B-NP	O
+in	in	VZ(init)	B-PP	O
+West-Europa	West-Europa	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+kampen	kampen	WW(pv,tgw,mv)	B-VP	O
+de	de	LID(bep)	B-NP	O
+traditionele	traditioneel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+extreemrechtse	extreemrechts	ADJ(prenom,basis,met-e,stan)	I-NP	O
+partijen	partij	N(soort,mv,basis)	I-NP	O
+met	met	VZ(init)	B-PP	O
+slijtageproblemen	slijtageprobleem	N(soort,mv,basis)	B-NP	O
+.	.	LET()	O	O
+				
+Wat	wat	VNW(vb,pron,3o,ev)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+hand	hand	N(soort,ev,basis,zijd,stan)	I-NP	O
+?	?	LET()	O	O
+				

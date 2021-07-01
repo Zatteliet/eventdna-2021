@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="3" infl="no_e" lcat="ap" lemma="Indiaas" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Indiaas" sense="Indiaas" vform="adj" word="Indiaas"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="parlement_lid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="parlement_lid" sense="parlement_lid" word="parlementslid"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,als_pred_np)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="verkleden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verkleed" sc="als_pred_np" sense="verkleed" stype="declarative" tense="present" word="verkleedt" wvorm="pv"/>
+      <node begin="3" case="dat_acc" def="def" end="4" frame="pronoun(nwh,thi,both,de,dat_acc,def,wkpro)" gen="de" getal="getal" his="normal" his_1="normal" id="6" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zich" sense="zich" special="wkpro" status="red" vwtype="refl" wh="nwh" word="zich"/>
+      <node begin="4" cat="cp" end="6" id="7" rel="predc">
+        <node begin="4" end="5" frame="complementizer(als)" his="normal" his_1="normal" id="8" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+        <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Hitler" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="body" rnum="sg" root="Hitler" sense="Hitler" word="Hitler"/>
+      </node>
+      <node begin="6" cat="oti" end="11" id="10" rel="mod">
+        <node begin="6" end="7" frame="complementizer(om)" his="normal" his_1="normal" id="11" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+        <node begin="7" cat="ti" end="11" id="12" rel="body">
+          <node begin="9" end="10" frame="complementizer(te)" his="normal" his_1="normal" id="13" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="7" cat="inf" end="11" id="14" rel="body">
+            <node begin="7" cat="np" end="9" id="15" rel="obj1">
+              <node aform="compar" begin="7" buiging="zonder" end="8" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="16" infl="meer" lcat="ap" lemma="meer" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+              <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="geld" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="geld" sense="geld" word="geld"/>
+            </node>
+            <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="18" infl="inf" lcat="inf" lemma="vragen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vraag" sc="transitive" sense="vraag" word="vragen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Indiaas parlementslid verkleedt zich als Hitler om meer geld te vragen</sentence>
+  <comments>
+    <comment>Q#1|Indiaas parlementslid verkleedt zich als Hitler om meer geld te vragen|1|1|-2.850622303620001</comment>
+  </comments>
+</alpino_ds>

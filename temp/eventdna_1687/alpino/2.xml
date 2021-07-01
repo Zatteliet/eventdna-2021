@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="3" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(schuin_streep)" his="normal" his_1="normal" id="1" lcat="punct" lemma="/" pos="punct" postag="LET()" pt="let" rel="--" root="/" sense="/" special="schuin_streep" word="/"/>
+    <node begin="0" cat="du" end="3" id="2" rel="--">
+      <node begin="0" end="1" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="3" lcat="np" lemma="ankara" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="ankara" sense="ankara" word="ankara"/>
+      <node begin="2" end="3" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="4" lcat="np" lemma="aleppo" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="aleppo" sense="aleppo" word="aleppo"/>
+    </node>
+  </node>
+  <sentence sentid="2">ankara / aleppo</sentence>
+  <comments>
+    <comment>Q#2|ankara / aleppo|1|1|1.06798334424</comment>
+  </comments>
+</alpino_ds>

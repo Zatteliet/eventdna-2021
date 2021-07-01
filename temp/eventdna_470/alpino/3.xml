@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="9" end="10" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="22" id="3" rel="--">
+      <node begin="0" end="1" frame="dip_sbar_adverb" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sc="dip_sbar" sense="zo" word="Zo"/>
+      <node begin="1" end="2" frame="verb(unacc,sg3,er_pp_vp(in))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="slagen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="slaag" sc="er_pp_vp(in)" sense="slaag-in" tense="present" word="slaagt" wvorm="pv"/>
+      <node begin="2" cat="np" end="9" id="6" index="1" rel="su">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="Antwerps" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Antwerps" sense="Antwerps" vform="adj" word="Antwerpse"/>
+        <node begin="4" end="5" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="9" lcat="np" lemma="meesteroplichtster" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="meesteroplichtster" sense="meesteroplichtster" word="meesteroplichtster"/>
+        <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="10" mwu_root="Gina Heirman" mwu_sense="Gina Heirman" rel="app">
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Gina" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gina" sense="Gina" spectype="deeleigen" word="Gina"/>
+          <node begin="6" end="7" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Heirman" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Heirman" sense="Heirman" spectype="deeleigen" word="Heirman"/>
+        </node>
+        <node begin="8" end="9" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="13" infl="pl_num" lcat="np" lemma="62" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="pl" root="62" sense="62" special="hoofd" word="62"/>
+      </node>
+      <node begin="11" cat="np" end="15" id="14" rel="mod">
+        <node begin="11" end="12" frame="modal_adverb" his="normal" his_1="normal" id="15" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sc="modal" sense="al" word="al"/>
+        <node begin="12" end="13" frame="modal_adverb(adv_noun_prep)" his="normal" his_1="normal" id="16" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna" word="bijna"/>
+        <node begin="13" end="14" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="17" infl="pl_num" lcat="detp" lemma="veertig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="veertig" sense="veertig" special="hoofd" word="veertig"/>
+        <node begin="14" end="15" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+      </node>
+      <node begin="2" cat="pp" end="22" id="19" rel="pc">
+        <node begin="10" end="11" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="20" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+        <node begin="15" end="16" frame="preposition(in,[])" his="normal" his_1="normal" id="21" lcat="pp" lemma="in" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="in" sense="in" vztype="fin" word="in"/>
+        <node begin="2" cat="ti" end="22" id="22" rel="vc">
+          <node begin="20" end="21" frame="complementizer(te)" his="normal" his_1="normal" id="23" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="2" cat="inf" end="22" id="24" rel="body">
+            <node begin="2" end="9" id="25" index="1" rel="su"/>
+            <node begin="16" end="17" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="mens" sense="mens" word="mensen"/>
+            <node begin="17" cat="pp" end="20" id="27" rel="mod">
+              <node begin="17" end="18" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="18" cat="np" end="20" id="29" rel="obj1">
+                <node begin="18" end="19" frame="noun(de,count,pl,measure)" gen="de" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="honderdduizenden" num="pl" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" rnum="pl" root="honderdduizenden" sc="measure" sense="honderdduizenden" word="honderdduizenden"/>
+                <node begin="19" end="20" frame="meas_mod_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="euro" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="euro" sense="euro" special="meas_mod" word="euro&apos;s"/>
+              </node>
+            </node>
+            <node begin="21" buiging="zonder" end="22" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="32" infl="inf" lcat="inf" lemma="duperen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="dupeer" sc="transitive" sense="dupeer" word="duperen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Zo slaagt de Antwerpse meesteroplichtster Gina Heirman ( 62 ) er al bijna veertig jaar in mensen voor honderdduizenden euro&apos;s te duperen .</sentence>
+  <comments>
+    <comment>Q#3|Zo slaagt de Antwerpse meesteroplichtster Gina Heirman ( 62 ) er al bijna veertig jaar in mensen voor honderdduizenden euro&apos;s te duperen .|1|1|-6.019850131269999</comment>
+  </comments>
+</alpino_ds>

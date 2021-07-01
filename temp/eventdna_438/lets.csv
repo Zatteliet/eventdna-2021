@@ -1,0 +1,34 @@
+'	'	LET()	O	O
+Nederlandse	Nederlands	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+info	info	N(soort,ev,basis,zijd,stan)	I-NP	O
+over	over	VZ(init)	B-PP	O
+Russische	Russisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+hacks	hack	N(soort,mv,basis)	I-NP	O
+cruciaal	cruciaal	ADJ(vrij,basis,zonder)	B-AP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Nederlandse	Nederlands	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+inlichtingendienst	inlichtingendienst	N(soort,ev,basis,zijd,stan)	I-NP	O
+kon	kunnen	WW(pv,verl,ev)	B-VP	O
+inbreken	inbreken	WW(inf,vrij,zonder)	I-VP	O
+bij	bij	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+beruchte	berucht	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Russische	Russisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+groep	groep	N(soort,ev,basis,zijd,stan)	I-NP	O
+hackers	hacker	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+en	en	VG(neven)	O	O
+vaststellen	vaststellen	WW(inf,vrij,zonder)	B-VP	O
+hoe	hoe	BW()	B-ADVP	O
+die	die	VNW(betr,pron,persoon,getal)	I-ADVP	O
+onder	onder	VZ(init)	B-PP	O
+meer	veel	VNW(onbep,grad,comp)	B-NP	O
+binnendrong	binnendrong	N(soort,ev,basis,zijd,stan)	I-NP	O
+bij	bij	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Witte	wit	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Huis	huis	N(soort,ev,basis,onz,stan)	I-NP	I-LOC
+.	.	LET()	O	O
+				

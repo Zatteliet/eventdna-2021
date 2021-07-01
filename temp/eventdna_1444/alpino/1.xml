@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="du" end="7" id="1" rel="--">
+      <node begin="0" cat="ppart" end="3" id="2" rel="dp">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="names_dictionary" id="3" mwu_root="Sylvester Stallone" mwu_sense="Sylvester Stallone" rel="obj1">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Sylvester" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Sylvester" sense="Sylvester" spectype="deeleigen" word="Sylvester"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Stallone" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Stallone" sense="Stallone" spectype="deeleigen" word="Stallone"/>
+        </node>
+        <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="6" infl="psp" lcat="ppart" lemma="beschuldigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="beschuldig" sc="transitive" sense="beschuldig" word="beschuldigd" wvorm="vd"/>
+      </node>
+      <node begin="3" cat="du" end="7" id="7" rel="dp">
+        <node begin="3" cat="pp" end="6" id="8" rel="dp">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="np" end="6" id="10" rel="obj1">
+            <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="11" infl="no_e" lcat="ap" lemma="seksueel" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="seksueel" sense="seksueel" vform="adj" word="seksueel"/>
+            <node begin="5" end="6" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="misbruik" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="misbruik" sense="misbruik" word="misbruik"/>
+          </node>
+        </node>
+        <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="np" lemma="minderjarig" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="dp" rnum="sg" root="minderjarig" sense="minderjarig" vform="adj" word="minderjarige"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Sylvester Stallone beschuldigd van seksueel misbruik minderjarige</sentence>
+  <comments>
+    <comment>Q#1|Sylvester Stallone beschuldigd van seksueel misbruik minderjarige|1|2|4.581230553420003</comment>
+  </comments>
+</alpino_ds>

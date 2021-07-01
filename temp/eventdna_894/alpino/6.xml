@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="11" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="du" lemma="maar" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="maar" sc="root" sense="maar" word="Maar"/>
+      <node begin="1" cat="du" end="11" id="4" rel="nucl">
+        <node begin="1" cat="smain" end="7" id="5" rel="nucl">
+          <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="normal" id="6" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+          <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="7" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+          <node begin="3" cat="np" end="7" id="8" rel="predc">
+            <node begin="3" buiging="zonder" end="4" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="w_dia" id="9" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="géén"/>
+            <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="vergelijking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vergelijking" sense="vergelijking" word="vergelijking"/>
+            <node begin="5" cat="pp" end="7" id="11" rel="mod">
+              <node begin="5" end="6" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="Soedan" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Soedan" sense="Soedan" word="Soedan"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" cat="sv1" end="11" id="14" rel="tag">
+          <node begin="8" end="9" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="15" infl="sg3" lcat="sv1" lemma="benadrukken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="benadruk" sc="sbar" sense="benadruk" tense="present" word="benadrukt" wvorm="pv"/>
+          <node begin="9" cat="mwu" end="11" his="name" his_1="not_begin" id="16" mwu_root="Theo Francken" mwu_sense="Theo Francken" rel="su">
+            <node begin="9" end="10" frame="proper_name(both,'PER')" id="17" lcat="np" lemma="Theo" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theo" sense="Theo" spectype="deeleigen" word="Theo"/>
+            <node begin="10" end="11" frame="proper_name(both,'PER')" id="18" lcat="np" lemma="Francken" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Francken" sense="Francken" spectype="deeleigen" word="Francken"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Maar dat is géén vergelijking met Soedan , benadrukt Theo Francken .</sentence>
+  <comments>
+    <comment>Q#6|Maar dat is géén vergelijking met Soedan , benadrukt Theo Francken .|1|1|-3.1567586033900015</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="belegger" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="belegger" sense="belegger" word="Beleggers"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="dumpen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="dump" sc="transitive" sense="dump" stype="declarative" tense="present" word="dumpen" wvorm="pv"/>
+      <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="massaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="massaal" sense="massaal" vform="adj" word="massaal"/>
+      <node begin="3" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="5" mwu_root="Deutsche Bank" mwu_sense="Deutsche Bank" rel="obj1">
+        <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="6" lcat="np" lemma="Deutsche" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Deutsche" sense="Deutsche" spectype="deeleigen" word="Deutsche"/>
+        <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="Bank" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bank" sense="Bank" spectype="deeleigen" word="Bank"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Beleggers dumpen massaal Deutsche Bank</sentence>
+  <comments>
+    <comment>Q#1|Beleggers dumpen massaal Deutsche Bank|1|1|-2.04780025067</comment>
+  </comments>
+</alpino_ds>

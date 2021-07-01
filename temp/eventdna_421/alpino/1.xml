@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" index="1" lcat="np" lemma="Groen" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Groen" sense="Groen" word="Groen"/>
+      <node begin="1" end="2" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="normal" id="3" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="11" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" cat="np" end="8" id="6" rel="obj1">
+          <node begin="2" buiging="met-e" end="3" frame="determiner(alle,nwh,mod,pro,nparg)" his="normal" his_1="normal" id="7" infl="alle" lcat="detp" lemma="alle" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" sense="alle" vwtype="onbep" wh="nwh" word="alle"/>
+          <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="contact" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="contact" sense="contact" word="contacten"/>
+          <node begin="4" cat="pp" end="8" id="9" rel="mod">
+            <node begin="4" end="5" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="10" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+            <node begin="5" cat="conj" end="8" id="11" rel="obj1">
+              <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="politicus" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="politicus" sense="politicus" word="politici"/>
+              <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="14" lcat="np" lemma="wapen_lobbyist" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="wapen_lobbyist" sense="wapen_lobbyist" word="wapenlobbyisten"/>
+            </node>
+          </node>
+        </node>
+        <node begin="8" cat="mwu" end="10" his="normal" his_1="normal" id="15" mwu_root="in kaart" mwu_sense="in kaart" rel="svp">
+          <node begin="8" end="9" frame="fixed_part([in,kaart])" id="16" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="9" end="10" frame="fixed_part([in,kaart])" genus="zijd" getal="ev" graad="basis" id="17" lcat="fixed" lemma="kaart" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="kaart" sense="kaart" word="kaart"/>
+        </node>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,fixed([[in,kaart],acc],norm_passive))" his="normal" his_1="normal" id="18" infl="inf" lcat="inf" lemma="brengen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="breng" sc="fixed([[in,kaart],acc],norm_passive)" sense="in-kaart-breng" word="brengen" wvorm="inf"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Groen wil alle contacten tussen politici en wapenlobbyisten in kaart brengen</sentence>
+  <comments>
+    <comment>Q#1|Groen wil alle contacten tussen politici en wapenlobbyisten in kaart brengen|1|1|-12.037971562719994</comment>
+  </comments>
+</alpino_ds>

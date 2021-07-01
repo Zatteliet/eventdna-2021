@@ -1,0 +1,54 @@
+'	'	LET()	O	O
+Op	op	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+einde	einde	N(soort,ev,basis,onz,stan)	I-NP	O
+wint	winnen	WW(pv,tgw,met-t)	B-VP	O
+Goliath	Goliath	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+Israël	Israël	N(eigen,ev,basis,onz,stan)	I-NP	I-PER
+toch	toch	BW()	B-ADVP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Palestijnen	Palestijn	N(eigen,mv,basis)	I-NP	B-LOC
+doen	doen	WW(pv,tgw,mv)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-AP	O
+beter	goed	ADJ(vrij,comp,zonder)	I-AP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+rechtsgeldigheid	rechtsgeldigheid	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Jeruzalem	Jeruzalem	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+als	als	VZ(init)	B-PP	O
+Israëlische	Israëlisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+hoofdstad	hoofdstad	N(soort,ev,basis,zijd,stan)	I-NP	O
+aan	aan	VZ(fin)	O	O
+te	te	VZ(init)	B-VP	O
+vechten	vechten	WW(inf,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+dan	dan	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+volksopstand	volksopstand	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+starten	starten	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+zegt	zeggen	WW(pv,tgw,met-t)	B-VP	O
+filosoof	filosoof	N(soort,ev,basis,zijd,stan)	B-NP	O
+en	en	VG(neven)	O	O
+Midden-Oosten-expert	Midden-Oosten-expert	SPEC(deeleigen)	B-NP	B-MISC
+Ludo	Ludo	SPEC(deeleigen)	I-NP	B-PER
+Abicht	Abicht	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+'	'	LET()	O	O
+				
+Dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+zwaktebod	zwaktebod	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Hamas	Hamas	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+.	.	LET()	O	O
+'	'	LET()	O	O
+				

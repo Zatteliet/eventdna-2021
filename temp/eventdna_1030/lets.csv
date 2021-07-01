@@ -1,0 +1,48 @@
+Eén	eén	TW(hoofd,prenom,stan)	B-NP	O
+advies	advies	N(soort,ev,basis,onz,stan)	I-NP	O
+voor	voor	VZ(init)	B-PP	O
+pendelaars	pendelaar	N(soort,mv,basis)	B-NP	O
+naar	naar	VZ(init)	B-PP	O
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+:	:	LET()	O	O
+mijd	mijd	N(soort,ev,basis,zijd,stan)	B-NP	O
+de	de	LID(bep)	B-NP	O
+Reyerstunnel	Reyerstunnel	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+				
+Wie	wie	VNW(vb,pron,3p,getal)	B-NP	O
+via	via	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+tunnels	tunnel	N(soort,mv,basis)	I-NP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+E40	E40	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+naar	naar	VZ(init)	B-PP	O
+Brussel	Brussel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+,	,	LET()	O	O
+denkt	denken	WW(pv,tgw,met-t)	B-VP	O
+best	goed	ADJ(vrij,sup,zonder)	B-NP	O
+twee	twee	TW(hoofd,prenom,stan)	I-NP	O
+keer	keer	N(soort,ev,basis,genus,stan)	I-NP	O
+na	na	VZ(fin)	O	O
+.	.	LET()	O	O
+				
+Sinds	sinds	VZ(init)	B-PP	O
+dit	dit	VNW(aanw,det)	B-NP	O
+weekend	weekend	N(soort,ev,basis,onz,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Reyerstunnel	Reyerstunnel	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+richting	richting	N(soort,ev,basis,zijd,stan)	I-NP	O
+Meiser	Meiser	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+dicht	dicht	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				
+Later	laat	ADJ(vrij,comp,zonder)	B-AP	O
+volgen	volgen	WW(pv,tgw,mv)	B-VP	O
+de	de	LID(bep)	B-NP	O
+andere	ander	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Reyerstunnels	reyerstunnel	N(soort,mv,basis)	I-NP	B-MISC
+nog	nog	BW()	B-ADVP	O
+.	.	LET()	O	O
+				

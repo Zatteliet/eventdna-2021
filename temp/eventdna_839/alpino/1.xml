@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="ppart" end="5" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="obj1">
+        <node begin="0" cat="np" end="2" id="3" rel="cnj">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="name_adj" his_1="begin" id="4" infl="e" lcat="ap" lemma="Waarschuwingsfase" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Waarschuwingsfase" sense="Waarschuwingsfase" vform="adj" word="Waarschuwingsfase"/>
+          <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="hitte" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hitte" sense="hitte" word="hitte"/>
+        </node>
+        <node begin="2" conjtype="neven" end="3" frame="conj(en)" his="normal" his_1="normal" id="6" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="7" lcat="np" lemma="ozon_plan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="ozon_plan" sense="ozon_plan" word="ozonplan"/>
+      </node>
+      <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="8" infl="psp" lcat="ppart" lemma="activeren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="activeer" sc="transitive" sense="activeer" word="geactiveerd" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Waarschuwingsfase hitte en ozonplan geactiveerd</sentence>
+  <comments>
+    <comment>Q#1|Waarschuwingsfase hitte en ozonplan geactiveerd|1|1|4.69392670832</comment>
+  </comments>
+</alpino_ds>

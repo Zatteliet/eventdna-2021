@@ -1,0 +1,37 @@
+Democraten	democraat	N(soort,mv,basis)	B-NP	O
+starten	starten	WW(pv,tgw,mv)	B-VP	O
+afzettingsprocedure	afzettingsprocedure	N(soort,ev,basis,zijd,stan)	B-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+Donald	Donald	SPEC(deeleigen)	B-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+				
+Een	een	LID(onbep)	B-NP	O
+half	half	ADJ(prenom,basis,zonder)	I-NP	O
+dozijn	dozijn	N(soort,ev,basis,onz,stan)	I-NP	O
+Democratische	democratisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-MISC
+Congresleden	congreslid	N(soort,mv,basis)	I-NP	I-MISC
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+woensdag	woensdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Huis	huis	N(soort,ev,basis,onz,stan)	I-NP	B-ORG
+van	van	VZ(init)	B-PP	I-ORG
+Afgevaardigden	afvaardigen	WW(vd,nom,met-e,mv-n)	B-NP	I-ORG
+een	een	LID(onbep)	B-NP	O
+impeachment-procedure	impeachment-procedure	N(soort,ev,basis,zijd,stan)	I-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Republikeinse	republikeins	ADJ(prenom,basis,met-e,stan)	I-NP	B-MISC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Donald	Donald	SPEC(deeleigen)	I-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+ingeleid	inleiden	WW(vd,vrij,zonder)	B-VP	O
+,	,	LET()	O	O
+zo	zo	BW()	B-ADVP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+meerdere	meerdere	VNW(onbep,det)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+media	media	N(soort,mv,basis)	I-NP	O
+gemeld	melden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,56 @@
+Stemt	stemmen	WW(pv,tgw,met-t)	B-VP	O
+Alabama	Alabama	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+controversiële	controversieel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Republikein	republikein	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+of	of	VG(neven)	O	O
+toch	toch	BW()	B-ADVP	O
+verrassend	verrassen	WW(od,vrij,zonder)	B-VP	O
+Democratisch	democratisch	ADJ(vrij,basis,zonder)	B-AP	O
+?	?	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+zuidelijke	zuidelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+staat	staat	N(soort,ev,basis,zijd,stan)	I-NP	O
+Alabama	Alabama	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+stemt	stemmen	WW(pv,tgw,met-t)	B-VP	O
+vandaag	vandaag	BW()	B-ADVP	O
+voor	voor	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+senator	senator	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Republikeinse	republikeins	ADJ(prenom,basis,met-e,stan)	I-NP	B-MISC
+kandidaat	kandidaat	N(soort,ev,basis,zijd,stan)	I-NP	O
+Roy	Roy	SPEC(deeleigen)	I-NP	B-PER
+Moore	Moore	SPEC(deeleigen)	I-NP	I-PER
+neemt	nemen	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+op	op	VZ(fin)	O	O
+tegen	tegen	VZ(init)	B-PP	O
+Democraat	Democraat	SPEC(deeleigen)	B-NP	B-PER
+Doug	Doug	SPEC(deeleigen)	I-NP	I-PER
+Jones	Jones	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				
+Moore	Moore	N(soort,ev,basis,zijd,stan)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+christelijk	christelijk	ADJ(vrij,basis,zonder)	B-AP	O
+,	,	LET()	O	O
+conservatief	conservatief	ADJ(vrij,basis,zonder)	B-AP	O
+én	én	VG(neven)	O	O
+controversieel	controversieel	ADJ(vrij,basis,zonder)	B-AP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+de	de	LID(bep)	B-NP	O
+steun	steun	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+president	president	N(soort,ev,basis,zijd,stan)	B-NP	O
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+.	.	LET()	O	O
+				

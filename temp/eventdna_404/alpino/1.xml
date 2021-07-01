@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="conj" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="cnj" rnum="sg" root="VS" sense="VS" word="VS"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Mexico" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Mexico" sense="Mexico" word="Mexico"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(pl),part_transitive(open))" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="open_zetten" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zet_open" sc="part_transitive(open)" sense="zet_open" stype="declarative" tense="past" word="zetten" wvorm="pv"/>
+      <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="deur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="deur" sense="deur" word="deur"/>
+      <node begin="5" buiging="zonder" end="6" frame="particle(open)" graad="basis" his="normal" his_1="normal" id="8" lcat="part" lemma="open" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="open" sense="open" word="open"/>
+      <node begin="6" cat="pp" end="9" id="9" rel="mod">
+        <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="7" cat="np" end="9" id="11" rel="obj1">
+          <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(both))" graad="basis" his="normal" his_1="normal" id="12" infl="no_e" lcat="ap" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuw"/>
+          <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="13" lcat="np" lemma="Nafta_accoord" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Nafta_accoord" sense="Nafta_accoord" word="Nafta-akkoord"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">VS en Mexico zetten deur open voor nieuw Nafta-akkoord</sentence>
+  <comments>
+    <comment>Q#1|VS en Mexico zetten deur open voor nieuw Nafta-akkoord|1|1|-4.671069672859996</comment>
+  </comments>
+</alpino_ds>

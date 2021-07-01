@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Antonio Trillanes" mwu_sense="Antonio Trillanes" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'PER')" id="3" lcat="np" lemma="Antonio" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Antonio" sense="Antonio" spectype="deeleigen" word="Antonio"/>
+        <node begin="1" end="2" frame="proper_name(both,'PER')" id="4" lcat="np" lemma="Trillanes" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Trillanes" sense="Trillanes" spectype="deeleigen" word="Trillanes"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="3" cat="np" end="14" id="6" rel="predc">
+        <node begin="3" cat="detp" end="5" id="7" rel="det">
+          <node begin="3" buiging="zonder" end="4" frame="pre_det_quant(al)" his="normal" his_1="normal" id="8" infl="al" lcat="detp" lemma="al" naamval="stan" pdtype="det" pos="det" positie="vrij" postag="VNW(onbep,det,stan,vrij,zonder)" pt="vnw" rel="mod" root="al" sense="al" special="pre_det_quant" vwtype="onbep" word="al"/>
+          <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="hd" root="de" sense="de" word="de"/>
+        </node>
+        <node begin="5" end="6" frame="number(rang)" his="normal" his_1="normal" id="10" lcat="ap" lemma="tweede" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="tweede" sense="tweede" special="rang" word="tweede"/>
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="senator" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="senator" sense="senator" word="senator"/>
+        <node begin="7" cat="rel" end="14" id="12" rel="mod">
+          <node begin="7" case="no_obl" end="8" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="13" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+          <node begin="7" cat="ssub" end="14" id="14" rel="body">
+            <node begin="7" end="8" id="15" index="1" rel="su"/>
+            <node begin="8" end="9" frame="verb(hebben,sg3,vp)" his="normal" his_1="normal" id="16" infl="sg3" lcat="ssub" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" sc="vp" sense="dreig" tense="present" word="dreigt" wvorm="pv"/>
+            <node begin="7" cat="ti" end="14" id="17" rel="vc">
+              <node begin="12" end="13" frame="complementizer(te)" his="normal" his_1="normal" id="18" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+              <node begin="7" cat="inf" end="14" id="19" rel="body">
+                <node begin="7" end="8" id="20" index="1" rel="su"/>
+                <node begin="9" cat="pp" end="11" id="21" rel="ld">
+                  <node begin="9" end="10" frame="preposition(achter,[aan,door,langs,om,uit,vandaan])" his="normal" his_1="normal" id="22" lcat="pp" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" sense="achter" vztype="init" word="achter"/>
+                  <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="tralie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="tralie" sense="tralie" word="tralies"/>
+                </node>
+                <node begin="11" buiging="zonder" end="12" frame="particle(terecht)" graad="basis" his="normal" his_1="normal" id="24" lcat="part" lemma="terecht" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="terecht" sense="terecht" word="terecht"/>
+                <node begin="13" buiging="zonder" end="14" frame="verb(zijn,inf,part_ld_pp(terecht))" his="normal" his_1="normal" id="25" infl="inf" lcat="inf" lemma="terecht_komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom_terecht" sc="part_ld_pp(terecht)" sense="kom_terecht" word="komen" wvorm="inf"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Antonio Trillanes is al de tweede senator die dreigt achter tralies terecht te komen .</sentence>
+  <comments>
+    <comment>Q#3|Antonio Trillanes is al de tweede senator die dreigt achter tralies terecht te komen .|1|1|-5.872397397110001</comment>
+  </comments>
+</alpino_ds>

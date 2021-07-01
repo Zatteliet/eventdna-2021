@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(ligg_streep)" his="normal" his_1="normal" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="conj" end="11" id="2" rel="--">
+      <node begin="0" end="1" frame="tag" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="advp" lemma="hoera" pos="tag" postag="TSW()" pt="tsw" rel="cnj" root="hoera" sense="hoera" word="Hoera"/>
+      <node begin="2" conjtype="neven" end="3" frame="conj(en)" his="w_dia" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="én"/>
+      <node begin="3" cat="du" end="11" id="5" rel="cnj">
+        <node begin="3" end="4" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="boe_geroep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="dp" rnum="sg" root="boe_geroep" sense="boe_geroep" word="boegeroep"/>
+        <node begin="4" cat="pp" end="9" id="7" rel="dp">
+          <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="8" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="5" cat="np" end="9" id="9" rel="obj1">
+            <node begin="5" end="6" frame="number(rang)" his="normal" his_1="normal" id="10" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+            <node begin="6" end="7" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="verjaar_dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verjaar_dag" sense="verjaar_dag" special="tmp" word="verjaardag"/>
+            <node begin="7" cat="pp" end="9" id="12" rel="mod">
+              <node begin="7" end="8" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="14" lcat="np" lemma="circulatie_plan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="circulatie_plan" sense="circulatie_plan" word="circulatieplan"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" cat="pp" end="11" id="15" rel="dp">
+          <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="Gent" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Gent" sense="Gent" word="Gent"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Hoera - én boegeroep op eerste verjaardag van circulatieplan in Gent</sentence>
+  <comments>
+    <comment>Q#1|Hoera - én boegeroep op eerste verjaardag van circulatieplan in Gent|1|1|7.403994455670003</comment>
+  </comments>
+</alpino_ds>

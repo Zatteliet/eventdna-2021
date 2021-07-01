@@ -1,0 +1,29 @@
+Belangrijke	belangrijk	ADJ(prenom,basis,met-e,stan)	B-NP	O
+wegenwerken	wegenwerk	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+verschiet	verschiet	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+gemeentebestuur	gemeentebestuur	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Zemst	zemst	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+plant	plant	N(soort,ev,basis,zijd,stan)	I-NP	O
+riolerings-	riolerings-	SPEC(afgebr)	I-NP	O
+en	en	VG(neven)	O	O
+wegenwerken	wegenwerk	N(soort,mv,basis)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Elewijt	Elewijt	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+maakt	maken	WW(pv,tgw,met-t)	B-VP	O
+werk	werk	N(soort,ev,basis,onz,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+eenrichtingsverkeer	eenrichtingsverkeer	N(soort,ev,basis,onz,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Kreupelstraat	Kreupelstraat	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+Warandeweg	Warandeweg	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+in	in	VZ(init)	B-PP	O
+Eppegem	Eppegem	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				

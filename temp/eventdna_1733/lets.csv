@@ -1,0 +1,57 @@
+Waarom	waarom	BW()	B-ADVP	O
+staking	staking	N(soort,ev,basis,zijd,stan)	B-NP	O
+bij	bij	VZ(init)	B-PP	O
+gloednieuw	gloednieuw	ADJ(prenom,basis,zonder)	B-NP	O
+Lidl-filiaal	lidl-filiaal	N(soort,ev,basis,onz,stan)	I-NP	B-MISC
+niet	niet	BW()	B-ADVP	O
+uit	uit	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+lucht	lucht	N(soort,ev,basis,zijd,stan)	I-NP	O
+kwam	komen	WW(pv,verl,ev)	B-VP	O
+vallen	vallen	WW(inf,vrij,zonder)	I-VP	O
+:	:	LET()	O	O
+Personeel	personeel	N(soort,ev,basis,onz,stan)	B-NP	O
+ging	gaan	WW(pv,verl,ev)	B-VP	O
+soms	soms	BW()	B-ADVP	O
+huilend	huilen	WW(od,vrij,zonder)	B-VP	O
+naar	naar	VZ(init)	B-PP	O
+huis	huis	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Door	door	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+vakbondsactie	vakbondsactie	N(soort,ev,basis,zijd,stan)	I-NP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+gloednieuwe	gloednieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Lidl-vestiging	lidl-vestiging	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+in	in	VZ(init)	B-PP	O
+Oostkamp	Oostkamp	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+gistervoormiddag	gistervoormiddag	BW()	B-ADVP	O
+gesloten	sluiten	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+actievoerders	actievoerder	N(soort,mv,basis)	I-NP	O
+eisen	eisen	WW(pv,tgw,mv)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+humaner	humaan	ADJ(prenom,comp,zonder)	I-NP	O
+personeelsbeleid	personeelsbeleid	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Sommige	sommig	VNW(onbep,det)	B-NP	O
+werknemers	werknemer	N(soort,mv,basis)	I-NP	O
+gaan	gaan	WW(pv,tgw,mv)	B-VP	O
+'s	de	LID(bep)	B-NP	O
+avonds	avond	N(soort,ev,basis,gen)	I-NP	O
+huilend	huilen	WW(od,vrij,zonder)	B-VP	O
+naar	naar	VZ(init)	B-PP	O
+huis	huis	N(soort,ev,basis,onz,stan)	B-NP	O
+,	,	LET()	O	O
+klinkt	klinken	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+christelijke	christelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+vakbond	vakbond	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="du" end="13" id="1" rel="--">
+      <node begin="0" cat="smain" end="9" id="2" rel="dp">
+        <node begin="0" cat="pp" end="7" id="3" rel="mod">
+          <node begin="0" end="1" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="Met"/>
+          <node begin="1" cat="np" end="7" id="5" rel="obj1">
+            <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(both))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuw"/>
+            <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="onderzoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="onderzoek" sense="onderzoek" word="onderzoek"/>
+            <node begin="3" cat="pp" end="7" id="8" rel="mod">
+              <node begin="3" end="4" frame="preposition(door,[heen])" his="normal" his_1="normal" id="9" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+              <node begin="4" cat="np" end="7" id="10" rel="obj1">
+                <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="team" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="team" sense="team" word="team"/>
+                <node begin="5" cat="pp" end="7" id="12" rel="mod">
+                  <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                  <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="onderzoeksrechter" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="onderzoeksrechter" sense="onderzoeksrechter" word="onderzoeksrechters"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="15" infl="sg3" lcat="smain" lemma="raken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="raak" sc="intransitive" sense="raak" stype="declarative" tense="present" word="raakt" wvorm="pv"/>
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="zaak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="zaak" sense="zaak" word="zaak"/>
+      </node>
+      <node begin="9" cat="ppart" end="13" id="17" rel="dp">
+        <node begin="9" cat="mwu" end="12" his="normal" his_1="names_dictionary" id="18" mwu_root="Bende van Nijvel" mwu_sense="Bende van Nijvel" rel="obj1">
+          <node begin="9" end="10" frame="proper_name(sg,'ORG')" id="19" lcat="np" lemma="Bende" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bende" sense="Bende" spectype="deeleigen" word="Bende"/>
+          <node begin="10" end="11" frame="proper_name(sg,'ORG')" id="20" lcat="np" lemma="van" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="van" sense="van" spectype="deeleigen" word="van"/>
+          <node begin="11" end="12" frame="proper_name(sg,'ORG')" id="21" lcat="np" lemma="Nijvel" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nijvel" sense="Nijvel" spectype="deeleigen" word="Nijvel"/>
+        </node>
+        <node begin="12" buiging="zonder" end="13" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="22" infl="psp" lcat="ppart" lemma="op_lossen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="los_op" sc="part_transitive(op)" sense="los_op" word="opgelost" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Met nieuw onderzoek door team van onderzoeksrechters raakt zaak Bende van Nijvel opgelost</sentence>
+  <comments>
+    <comment>Q#1|Met nieuw onderzoek door team van onderzoeksrechters raakt zaak Bende van Nijvel opgelost|1|2|4.562386001150003</comment>
+  </comments>
+</alpino_ds>

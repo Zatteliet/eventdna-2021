@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Renovatie Reyerscomplex" mwu_sense="Renovatie Reyerscomplex" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Renovatie" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Renovatie" sense="Renovatie" spectype="deeleigen" word="Renovatie"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Reyerscomplex" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Reyerscomplex" sense="Reyerscomplex" spectype="deeleigen" word="Reyerscomplex"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(tot))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="leiden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" stype="declarative" tense="present" word="leidt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="gigantisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gigantisch" sense="gigantisch" vform="adj" word="gigantische"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="file" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="file" sense="file" word="files"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Renovatie Reyerscomplex leidt tot gigantische files</sentence>
+  <comments>
+    <comment>Q#2|Renovatie Reyerscomplex leidt tot gigantische files|1|1|-5.95487779936</comment>
+  </comments>
+</alpino_ds>

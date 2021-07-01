@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="decap_and_compound" his_1="2" id="3" lcat="np" lemma="dode_tol" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dode_tol" sense="dode_tol" word="Dodentol"/>
+        <node begin="1" cat="np" end="3" id="4" rel="app">
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="bosbrand" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bosbrand" sense="bosbrand" word="bosbranden"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Californië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Californië" sense="Californië" word="Californië"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(zijn,sg3,part_ld_pp(op))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="op_lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop_op" sc="part_ld_pp(op)" sense="loop_op" stype="declarative" tense="present" word="loopt" wvorm="pv"/>
+      <node begin="4" end="5" frame="particle(op)" his="normal" his_1="normal" id="8" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="5" cat="pp" end="7" id="9" rel="ld">
+        <node begin="5" end="6" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="6" end="7" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="11" infl="pl_num" lcat="np" lemma="31" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="31" sense="31" special="hoofd" word="31"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Dodentol bosbranden Californië loopt op tot 31</sentence>
+  <comments>
+    <comment>Q#1|Dodentol bosbranden Californië loopt op tot 31|1|1|-2.7314326687599975</comment>
+  </comments>
+</alpino_ds>

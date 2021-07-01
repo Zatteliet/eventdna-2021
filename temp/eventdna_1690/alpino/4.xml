@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="17" id="2" rel="--">
+      <node begin="0" cat="smain" end="4" id="3" rel="nucl">
+        <node begin="0" end="1" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="getuigenis" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="getuigenis" sense="getuigenis" word="Getuigenissen"/>
+        <node begin="1" end="2" frame="verb(unacc,pl,copula)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+        <node begin="2" cat="ap" end="4" id="6" rel="predc">
+          <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" sense="zeer" word="zeer"/>
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="twijfelachtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="twijfelachtig" sense="twijfelachtig" vform="adj" word="twijfelachtig"/>
+        </node>
+      </node>
+      <node begin="5" cat="sv1" end="17" id="9" rel="tag">
+        <node begin="5" end="6" frame="verb(hebben,sg3,dip_sbar_subj_no_het)" his="normal" his_1="normal" id="10" infl="sg3" lcat="sv1" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="dip_sbar_subj_no_het" sense="sta" tense="present" word="staat" wvorm="pv"/>
+        <node begin="6" cat="pp" end="17" id="11" rel="mod">
+          <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="7" cat="np" end="17" id="13" rel="obj1">
+            <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="14" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="rapport" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="rapport" sense="rapport" word="rapport"/>
+            <node begin="9" cat="pp" end="17" id="16" rel="mod">
+              <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="10" cat="conj" end="17" id="18" rel="obj1">
+                <node begin="10" cat="np" end="15" id="19" rel="cnj">
+                  <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="20" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="11" cat="mwu" end="15" his="name" his_1="not_begin" id="21" mwu_root="Commissariaat-Generaal voor de Vluchtelingen" mwu_sense="Commissariaat-Generaal voor de Vluchtelingen" rel="hd">
+                    <node begin="11" end="12" frame="proper_name(both)" id="22" lcat="np" lemma="Commissariaat-Generaal" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Commissariaat-Generaal" sense="Commissariaat-Generaal" spectype="deeleigen" word="Commissariaat-Generaal"/>
+                    <node begin="12" end="13" frame="proper_name(both)" id="23" lcat="np" lemma="voor" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="voor" sense="voor" spectype="deeleigen" word="voor"/>
+                    <node begin="13" end="14" frame="proper_name(both)" id="24" lcat="np" lemma="de" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="de" sense="de" spectype="deeleigen" word="de"/>
+                    <node begin="14" end="15" frame="proper_name(both)" id="25" lcat="np" lemma="Vluchtelingen" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vluchtelingen" sense="Vluchtelingen" spectype="deeleigen" word="Vluchtelingen"/>
+                  </node>
+                </node>
+                <node begin="15" conjtype="neven" end="16" frame="conj(en)" his="normal" his_1="normal" id="26" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="16" end="17" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="27" lcat="np" lemma="Staatlozen" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Staatlozen" sense="Staatlozen" word="Staatlozen"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Getuigenissen zijn zeer twijfelachtig , staat in het rapport van het Commissariaat-Generaal voor de Vluchtelingen en Staatlozen .</sentence>
+  <comments>
+    <comment>Q#4|Getuigenissen zijn zeer twijfelachtig , staat in het rapport van het Commissariaat-Generaal voor de Vluchtelingen en Staatlozen .|1|1|-0.837865195480002</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="0" cat="smain" end="16" id="1" rel="--">
+      <node begin="6" end="7" frame="verb(hebben,modal_not_u,aux(inf))" his="normal" his_1="normal" id="2" infl="modal_not_u" lcat="smain" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="declarative" tense="present" word="zal" wvorm="pv"/>
+      <node begin="7" cat="np" end="9" id="3" index="1" rel="su">
+        <node begin="7" end="8" frame="determiner(een)" his="normal" his_1="normal" id="4" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="coalitie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="coalitie" sense="coalitie" word="coalitie"/>
+      </node>
+      <node begin="0" cat="inf" end="16" id="6" rel="vc">
+        <node begin="0" cat="pp" end="6" id="7" rel="mod">
+          <node begin="0" end="1" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="decap" his_1_1="normal" id="8" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="Voor"/>
+          <node begin="1" cat="np" end="6" id="9" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="Tsjechisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Tsjechisch" sense="Tsjechisch" vform="adj" word="Tsjechische"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="miljardair" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="miljardair" sense="miljardair" word="miljardair"/>
+            <node begin="4" cat="mwu" end="6" his="name" his_1="not_begin" id="13" mwu_root="Andrej Babis" mwu_sense="Andrej Babis" rel="app">
+              <node begin="4" end="5" frame="proper_name(both,'PER')" id="14" lcat="np" lemma="Andrej" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Andrej" sense="Andrej" spectype="deeleigen" word="Andrej"/>
+              <node begin="5" end="6" frame="proper_name(both,'PER')" id="15" lcat="np" lemma="Babis" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Babis" sense="Babis" spectype="deeleigen" word="Babis"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="9" id="16" index="1" rel="su"/>
+        <node begin="11" buiging="zonder" end="12" frame="verb(unacc,inf,copula)" his="normal" his_1="normal" id="17" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="copula" sense="word" word="worden" wvorm="inf"/>
+        <node begin="9" cat="ap" end="16" id="18" rel="predc">
+          <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="vorm" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="me" rnum="pl" root="vorm" sense="vorm" word="vormen"/>
+          <node aform="compar" begin="10" buiging="zonder" end="11" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="20" infl="no_e" lcat="ap" lemma="moeilijk" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="moeilijk" sense="moeilijk" vform="adj" word="moeilijker"/>
+          <node begin="12" cat="cp" end="16" id="21" rel="obcomp">
+            <node begin="12" conjtype="onder" end="13" frame="comparative(dan)" his="normal" his_1="normal" id="22" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+            <node begin="13" cat="inf" end="16" id="23" rel="body">
+              <node begin="13" cat="np" end="15" id="24" rel="obj1">
+                <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verkiezing" sense="verkiezing" word="verkiezingen"/>
+              </node>
+              <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="27" infl="inf" lcat="inf" lemma="winnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="win" sc="transitive" sense="win" word="winnen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Voor de Tsjechische miljardair Andrej Babis zal een coalitie vormen moeilijker worden dan de verkiezingen winnen .</sentence>
+  <comments>
+    <comment>Q#2|Voor de Tsjechische miljardair Andrej Babis zal een coalitie vormen moeilijker worden dan de verkiezingen winnen .|1|1|-4.955284632700005</comment>
+  </comments>
+</alpino_ds>

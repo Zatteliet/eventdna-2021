@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="inf" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="obj1">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="no_e" lcat="ap" lemma="internationaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="Internationaal"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="top_talent" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="top_talent" sense="top_talent" word="toptalent"/>
+      </node>
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,inf,ninv(transitive,part_transitive(aan)))" his="normal" his_1="part-V" id="5" infl="inf" lcat="inf" lemma="aan_trekken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="trek_aan" sc="part_transitive(aan)" sense="trek_aan" word="aantrekken" wvorm="inf"/>
+      <node begin="3" cat="cp" end="9" id="6" rel="mod">
+        <node begin="3" end="4" frame="complementizer(inf)" his="normal" his_1="normal" id="7" lcat="cp" lemma="door" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="door" sc="inf" sense="door" vztype="init" word="door"/>
+        <node begin="4" cat="ti" end="9" id="8" rel="body">
+          <node begin="7" end="8" frame="complementizer(te)" his="normal" his_1="normal" id="9" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+          <node begin="4" cat="inf" end="9" id="10" rel="body">
+            <node begin="4" cat="conj" end="7" id="11" rel="obj1">
+              <node begin="4" end="5" frame="within_word_conjunct" his="within_word_conjunct" id="12" lcat="np" lemma="taal" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="taal" sense="taal" spectype="afgebr" word="taal-"/>
+              <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="13" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="14" lcat="np" lemma="migratie_regel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="migratie_regel" sense="migratie_regel" word="migratieregels"/>
+            </node>
+            <node begin="8" buiging="zonder" end="9" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="versoepelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="versoepel" sc="transitive" sense="versoepel" word="versoepelen" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Internationaal toptalent aantrekken door taal- en migratieregels te versoepelen</sentence>
+  <comments>
+    <comment>Q#1|Internationaal toptalent aantrekken door taal- en migratieregels te versoepelen|1|1|-5.227587303149998</comment>
+  </comments>
+</alpino_ds>

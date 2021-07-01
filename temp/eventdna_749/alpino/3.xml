@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="20" end="21" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="28" id="3" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="4" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="transitive" sense="zeg" stype="declarative" tense="present" word="zegt" wvorm="pv"/>
+      <node begin="2" cat="np" end="20" id="6" rel="su">
+        <node begin="2" cat="mwu" end="4" his="name" his_1="not_begin" id="7" mwu_root="Safet Rustemi" mwu_sense="Safet Rustemi" rel="hd">
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Safet" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Safet" sense="Safet" spectype="deeleigen" word="Safet"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Rustemi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rustemi" sense="Rustemi" spectype="deeleigen" word="Rustemi"/>
+        </node>
+        <node begin="5" cat="np" end="20" id="10" rel="app">
+          <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="12" infl="e" lcat="ap" lemma="Albanees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Albanees" sense="Albanees" vform="adj" word="Albanese"/>
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="top_crimineel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top_crimineel" sense="top_crimineel" word="topcrimineel"/>
+          <node begin="8" cat="rel" end="20" id="14" rel="mod">
+            <node begin="8" case="no_obl" end="9" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="15" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="8" cat="ssub" end="20" id="16" rel="body">
+              <node begin="8" end="9" id="17" index="1" rel="su"/>
+              <node begin="9" end="10" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="18" infl="sg" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werd" wvorm="pv"/>
+              <node begin="8" cat="ppart" end="20" id="19" rel="vc">
+                <node begin="8" end="9" id="20" index="1" rel="obj1"/>
+                <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,ninv(transitive,part_transitive(uit)))" his="normal" his_1="part-V" id="21" infl="psp" lcat="ppart" lemma="uit_zetten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zet_uit" sc="part_transitive(uit)" sense="zet_uit" word="uitgezet" wvorm="vd"/>
+                <node begin="11" cat="cp" end="20" id="22" rel="mod">
+                  <node begin="11" conjtype="onder" end="12" frame="complementizer" his="normal" his_1="normal" id="23" lcat="cp" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" sense="terwijl" word="terwijl"/>
+                  <node begin="12" cat="ssub" end="20" id="24" rel="body">
+                    <node begin="12" case="nom" def="def" end="13" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="25" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+                    <node begin="13" cat="pp" end="15" id="26" rel="mod">
+                      <node begin="13" end="14" frame="preposition(in,[])" his="normal" his_1="normal" id="27" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                      <node begin="14" end="15" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="28" lcat="np" lemma="België" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="België" sense="België" word="België"/>
+                    </node>
+                    <node begin="15" cat="pp" end="19" id="29" rel="ld">
+                      <node begin="15" end="16" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="30" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+                      <node begin="16" cat="np" end="19" id="31" rel="obj1">
+                        <node begin="16" end="17" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="32" infl="pl_num" lcat="detp" lemma="22" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="22" sense="22" special="hoofd" word="22"/>
+                        <node begin="17" end="18" frame="tmp_noun(het,count,bare_meas,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="33" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sc="measure" sense="jaar" special="tmp" word="jaar"/>
+                        <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="cel_straf" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="cel_straf" sense="cel_straf" word="celstraf"/>
+                      </node>
+                    </node>
+                    <node begin="19" end="20" frame="verb(hebben,past(sg),ninv(ld_pp,part_ld_pp(aan)))" his="normal" his_1="part-V" id="35" infl="sg" lcat="ssub" lemma="aan_kijken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kijk_aan" sc="part_ld_pp(aan)" sense="kijk_aan" tense="past" word="aankeek" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="21" cat="pp" end="28" id="36" rel="mod">
+        <node begin="21" end="22" frame="preposition(in,[])" his="normal" his_1="normal" id="37" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="22" cat="np" end="28" id="38" rel="obj1">
+          <node begin="22" end="23" frame="determiner(een)" his="normal" his_1="normal" id="39" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="23" end="24" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="40" lcat="np" lemma="interview" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="interview" sense="interview" word="interview"/>
+          <node begin="24" cat="pp" end="28" id="41" rel="mod">
+            <node begin="24" end="25" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="42" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="25" cat="mwu" end="28" his="normal" his_1="names_dictionary" id="43" mwu_root="La Dernière Heure" mwu_sense="La Dernière Heure" rel="obj1">
+              <node begin="25" end="26" frame="proper_name(sg,'ORG')" id="44" lcat="np" lemma="La" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="La" sense="La" spectype="deeleigen" word="La"/>
+              <node begin="26" end="27" frame="proper_name(sg,'ORG')" id="45" lcat="np" lemma="Dernière" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Dernière" sense="Dernière" spectype="deeleigen" word="Dernière"/>
+              <node begin="27" end="28" frame="proper_name(sg,'ORG')" id="46" lcat="np" lemma="Heure" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Heure" sense="Heure" spectype="deeleigen" word="Heure"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" frame="punct(punt)" his="normal" his_1="normal" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat zegt Safet Rustemi , de Albanese topcrimineel die werd uitgezet terwijl hij in België tegen 22 jaar celstraf aankeek , in een interview met La Dernière Heure .</sentence>
+  <comments>
+    <comment>Q#3|Dat zegt Safet Rustemi , de Albanese topcrimineel die werd uitgezet terwijl hij in België tegen 22 jaar celstraf aankeek , in een interview met La Dernière Heure .|1|1|-18.28037955203999</comment>
+  </comments>
+</alpino_ds>

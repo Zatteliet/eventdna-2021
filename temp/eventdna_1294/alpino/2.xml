@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="14" id="2" rel="--">
+      <node begin="0" cat="cp" end="9" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(als)" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="Als"/>
+        <node begin="1" cat="ssub" end="9" id="5" rel="body">
+          <node begin="1" cat="np" end="4" id="6" index="1" rel="su">
+            <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="7" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="2" end="3" frame="noun(het,count,sg,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="aantal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aantal" sc="measure" sense="aantal" word="aantal"/>
+            <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="politie_zone" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="politie_zone" sense="politie_zone" word="politiezones"/>
+          </node>
+          <node begin="6" end="7" frame="verb(hebben,past(sg),aux(inf))" his="normal" his_1="normal" id="10" infl="sg" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="past" word="zou" wvorm="pv"/>
+          <node begin="1" cat="inf" end="9" id="11" rel="vc">
+            <node begin="1" end="4" id="12" index="1" rel="su"/>
+            <node begin="7" buiging="zonder" end="8" frame="verb(unacc,inf,passive)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+            <node begin="1" cat="ppart" end="9" id="14" rel="vc">
+              <node begin="1" end="4" id="15" index="1" rel="obj1"/>
+              <node begin="4" cat="pp" end="6" id="16" rel="mod">
+                <node begin="4" end="5" frame="preposition(in,[])" his="normal" his_1="normal" id="17" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="Oost-Vlaanderen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Oost-Vlaanderen" sense="Oost-Vlaanderen" word="Oost-Vlaanderen"/>
+              </node>
+              <node begin="8" buiging="zonder" end="9" frame="verb(hebben,psp,ninv(transitive,part_transitive(terug)))" his="normal" his_1="part-V" id="19" infl="psp" lcat="ppart" lemma="terug_schroeven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schroef_terug" sc="part_transitive(terug)" sense="schroef_terug" word="teruggeschroefd" wvorm="vd"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(unacc,sg3,copula)" his="normal" his_1="normal" id="20" infl="sg3" lcat="smain" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" sc="copula" sense="blijf" stype="declarative" tense="present" word="blijft" wvorm="pv"/>
+      <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="Gent" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Gent" sense="Gent" word="Gent"/>
+      <node begin="12" cat="np" end="14" id="22" rel="predc">
+        <node begin="12" end="13" frame="number(hoofd(sg_num))" his="normal" his_1="normal" id="23" infl="sg_num" lcat="detp" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" sense="één" special="hoofd" word="één"/>
+        <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="politie_zone" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie_zone" sense="politie_zone" word="politiezone"/>
+      </node>
+    </node>
+    <node begin="14" end="15" frame="punct(punt)" his="normal" his_1="normal" id="25" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Als het aantal politiezones in Oost-Vlaanderen zou worden teruggeschroefd , blijft Gent één politiezone .</sentence>
+  <comments>
+    <comment>Q#2|Als het aantal politiezones in Oost-Vlaanderen zou worden teruggeschroefd , blijft Gent één politiezone .|1|1|-12.387591673169993</comment>
+  </comments>
+</alpino_ds>

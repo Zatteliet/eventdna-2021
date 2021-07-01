@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="ppart" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="obj1">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(ge_both(adv))" his="normal" his_1="decap" his_1_1="normal" id="3" infl="both" lcat="ppart" lemma="verdwenen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="verdwenen" sense="verdwenen" vform="psp" word="Verdwenen" wvorm="vd"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="tekening" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tekening" sense="tekening" word="tekening"/>
+        <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="5" mwu_root="Gustav Klimt" mwu_sense="Gustav Klimt" rel="app">
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Gustav" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gustav" sense="Gustav" spectype="deeleigen" word="Gustav"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Klimt" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Klimt" sense="Klimt" spectype="deeleigen" word="Klimt"/>
+        </node>
+      </node>
+      <node begin="4" cat="pp" end="7" id="8" rel="mod">
+        <node begin="4" end="5" frame="preposition(na,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="5" cat="np" end="7" id="10" rel="obj1">
+          <node begin="5" end="6" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="11" infl="pl_num" lcat="detp" lemma="40" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="40" sense="40" special="hoofd" word="40"/>
+          <node begin="6" end="7" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sense="weer" word="weer"/>
+      <node begin="8" buiging="zonder" end="9" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="14" infl="psp" lcat="ppart" lemma="op_duiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="duik_op" sc="part_transitive(op)" sense="duik_op" word="opgedoken" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Verdwenen tekening Gustav Klimt na 40 jaar weer opgedoken</sentence>
+  <comments>
+    <comment>Q#1|Verdwenen tekening Gustav Klimt na 40 jaar weer opgedoken|1|1|-0.7926459164400012</comment>
+  </comments>
+</alpino_ds>

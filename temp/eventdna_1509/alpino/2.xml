@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="26" end="27" frame="punct(haak_open)" his="normal" his_1="normal" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="30" end="31" frame="punct(haak_sluit)" his="normal" his_1="normal" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="32" id="4" rel="--">
+      <node begin="0" cat="cp" end="18" id="5" rel="su">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(dat)" his="normal" his_1="decap" his_1_1="normal" id="6" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="Dat"/>
+        <node begin="1" cat="ssub" end="18" id="7" rel="body">
+          <node begin="1" cat="np" end="9" id="8" rel="su">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="10" infl="both" lcat="ppart" lemma="gewezen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gewezen" sense="gewezen" vform="psp" word="gewezen" wvorm="vd"/>
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="topman" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="topman" sense="topman" word="topman"/>
+            <node begin="4" cat="pp" end="9" id="12" rel="mod">
+              <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="5" cat="np" end="9" id="14" rel="obj1">
+                <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="6" cat="mwu" end="9" his="name" his_1="not_begin" id="16" mwu_root="Kansspelcommissie Marc Callu" mwu_sense="Kansspelcommissie Marc Callu" rel="hd">
+                  <node begin="6" end="7" frame="proper_name(both,'ORG')" id="17" lcat="np" lemma="Kansspelcommissie" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kansspelcommissie" sense="Kansspelcommissie" spectype="deeleigen" word="Kansspelcommissie"/>
+                  <node begin="7" end="8" frame="proper_name(both,'ORG')" id="18" lcat="np" lemma="Marc" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Marc" sense="Marc" spectype="deeleigen" word="Marc"/>
+                  <node begin="8" end="9" frame="proper_name(both,'ORG')" id="19" lcat="np" lemma="Callu" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Callu" sense="Callu" spectype="deeleigen" word="Callu"/>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="9" end="10" frame="tmp_adverb" his="normal" his_1="normal" id="20" lcat="advp" lemma="nu" pos="adv" postag="BW()" pt="bw" rel="mod" root="nu" sense="nu" special="tmp" word="nu"/>
+          <node begin="10" cat="cp" end="17" id="21" rel="predm">
+            <node begin="10" end="11" frame="complementizer(als)" his="normal" his_1="normal" id="22" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+            <node begin="11" cat="np" end="17" id="23" rel="body">
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="consultant" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="consultant" sense="consultant" word="consultant"/>
+              <node begin="12" cat="pp" end="17" id="25" rel="mod">
+                <node begin="12" end="13" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="26" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                <node begin="13" cat="np" end="17" id="27" rel="obj1">
+                  <node begin="13" end="14" frame="determiner(een)" his="normal" his_1="normal" id="28" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="belang_groep" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="belang_groep" sense="belang_groep" word="belangengroep"/>
+                  <node begin="15" cat="pp" end="17" id="30" rel="mod">
+                    <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="31" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="16" buiging="zonder" end="17" frame="v_noun(intransitive)" getal-n="zonder-n" his="compound" his_1="2" id="32" lcat="np" lemma="gok_bedrijven" pos="verb" positie="nom" postag="WW(inf,nom,zonder,zonder-n)" pt="ww" rel="obj1" rnum="sg" root="gok_bedrijf" sc="intransitive" sense="gok_bedrijf" special="v_noun" word="gokbedrijven" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="17" end="18" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="33" infl="sg3" lcat="ssub" lemma="werken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="werk" sc="intransitive" sense="werk" tense="present" word="werkt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="19" end="20" frame="verb(hebben,modal_not_u,sbar_subj)" his="normal" his_1="normal" id="34" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="sbar_subj" sense="kan" stype="declarative" tense="present" word="kan" wvorm="pv"/>
+      <node begin="20" cat="pp" end="30" id="35" rel="mod">
+        <node begin="20" end="21" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="36" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="21" cat="np" end="30" id="37" rel="obj1">
+          <node begin="21" end="22" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+          <node begin="22" cat="pp" end="24" id="39" rel="mod">
+            <node begin="22" end="23" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="40" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="23" end="24" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="41" lcat="np" lemma="Justitie" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Justitie" sense="Justitie" word="Justitie"/>
+          </node>
+          <node begin="24" cat="mwu" end="26" his="name" his_1="not_begin" id="42" mwu_root="Koen Geens" mwu_sense="Koen Geens" rel="app">
+            <node begin="24" end="25" frame="proper_name(both,'PER')" id="43" lcat="np" lemma="Koen" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Koen" sense="Koen" spectype="deeleigen" word="Koen"/>
+            <node begin="25" end="26" frame="proper_name(both,'PER')" id="44" lcat="np" lemma="Geens" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Geens" sense="Geens" spectype="deeleigen" word="Geens"/>
+          </node>
+          <node begin="27" cat="mwu" end="30" his="name" his_1="not_begin" id="45" mwu_root="CD &amp; V" mwu_sense="CD &amp; V" rel="mod">
+            <node begin="27" end="28" frame="proper_name(both,'ORG')" id="46" lcat="np" lemma="CD" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CD" sense="CD" spectype="deeleigen" word="CD"/>
+            <node begin="28" end="29" frame="proper_name(both,'ORG')" id="47" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+            <node begin="29" end="30" frame="proper_name(both,'ORG')" id="48" lcat="np" lemma="V" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="V" sense="V" spectype="deeleigen" word="V"/>
+          </node>
+        </node>
+      </node>
+      <node begin="31" end="32" frame="adverb" his="normal" his_1="normal" id="49" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+    </node>
+    <node begin="32" end="33" frame="punct(punt)" his="normal" his_1="normal" id="50" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Dat de gewezen topman van de Kansspelcommissie Marc Callu nu als consultant voor een belangengroep van gokbedrijven werkt , kan voor minister van Justitie Koen Geens ( CD &amp; V ) niet .</sentence>
+  <comments>
+    <comment>Q#2|Dat de gewezen topman van de Kansspelcommissie Marc Callu nu als consultant voor een belangengroep van gokbedrijven werkt , kan voor minister van Justitie Koen Geens ( CD &amp; V ) niet .|1|1|-2.6953307978599823</comment>
+  </comments>
+</alpino_ds>

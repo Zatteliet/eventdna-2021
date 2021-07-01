@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(unacc,sg3,pc_pp(uit))" his="normal" his_1="normal" id="4" infl="sg3" lcat="smain" lemma="blijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijk" sc="pc_pp(uit)" sense="blijk-uit" stype="declarative" tense="present" word="blijkt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="17" id="5" rel="pc">
+        <node begin="2" end="3" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="6" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="3" cat="np" end="17" id="7" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="reportage" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="reportage" sense="reportage" word="reportage"/>
+          <node begin="5" cat="pp" end="17" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="17" id="12" rel="obj1">
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="13" lcat="np" lemma="VRT_journalist" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VRT_journalist" sense="VRT_journalist" word="VRT-journalist"/>
+              <node begin="7" cat="mwu" end="9" his="name" his_1="not_begin" id="14" mwu_root="Rudi Vranckx" mwu_sense="Rudi Vranckx" rel="app">
+                <node begin="7" end="8" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Rudi" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rudi" sense="Rudi" spectype="deeleigen" word="Rudi"/>
+                <node begin="8" end="9" frame="proper_name(sg,'PER')" id="16" lcat="np" lemma="Vranckx" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vranckx" sense="Vranckx" spectype="deeleigen" word="Vranckx"/>
+              </node>
+              <node begin="10" cat="rel" end="17" id="17" rel="mod">
+                <node begin="10" case="no_obl" end="11" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="18" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                <node begin="10" cat="ssub" end="17" id="19" rel="body">
+                  <node begin="10" end="11" id="20" index="1" rel="su"/>
+                  <node begin="11" cat="cp" end="13" id="21" rel="predm">
+                    <node begin="11" end="12" frame="complementizer(als)" his="normal" his_1="normal" id="22" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+                    <node begin="12" end="13" frame="number(rang)" getal-n="zonder-n" his="normal" his_1="normal" id="23" lcat="np" lemma="eerste" numtype="rang" pos="num" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="body" rnum="sg" root="eerste" sense="eerste" special="rang" word="eerste"/>
+                  </node>
+                  <node begin="15" end="16" frame="verb('hebben/zijn',past(sg),aux(inf))" his="normal" his_1="normal" id="24" infl="sg" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="past" word="kon" wvorm="pv"/>
+                  <node begin="10" cat="inf" end="17" id="25" rel="vc">
+                    <node begin="10" end="11" id="26" index="1" rel="su"/>
+                    <node begin="13" cat="pp" end="15" id="27" rel="mod">
+                      <node begin="13" end="14" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                      <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="29" lcat="np" lemma="ISIS_vrouw" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="ISIS_vrouw" sense="ISIS_vrouw" word="ISIS-vrouwen"/>
+                    </node>
+                    <node begin="16" buiging="zonder" end="17" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="30" infl="inf" lcat="inf" lemma="praten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="praat" sc="intransitive" sense="praat" word="praten" wvorm="inf"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Dat blijkt uit een reportage van VRT-journalist Rudi Vranckx , die als eerste met ISIS-vrouwen kon praten .</sentence>
+  <comments>
+    <comment>Q#4|Dat blijkt uit een reportage van VRT-journalist Rudi Vranckx , die als eerste met ISIS-vrouwen kon praten .|1|1|-9.320158012790003</comment>
+  </comments>
+</alpino_ds>

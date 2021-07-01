@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="15" end="16" frame="punct(haak_open)" his="normal" his_1="normal" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="17" end="18" frame="punct(haak_sluit)" his="normal" his_1="normal" id="4" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="du" end="19" id="5" rel="--">
+      <node begin="0" cat="smain" end="5" id="6" rel="nucl">
+        <node begin="0" cat="np" end="3" id="7" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="intrekking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="intrekking" sense="intrekking" word="intrekking"/>
+          <node begin="2" end="3" frame="er_adverb(van)" his="normal" his_1="normal" id="10" lcat="pp" lemma="daarvan" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarvan" sense="daarvan" special="er" word="daarvan"/>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="11" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="present" word="wordt" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="5" id="12" rel="vc">
+          <node begin="0" end="3" id="13" index="1" rel="obj1"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="14" infl="psp" lcat="ppart" lemma="op_starten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="start_op" sc="part_transitive(op)" sense="start_op" word="opgestart" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="7" cat="sv1" end="19" id="15" rel="tag">
+        <node begin="7" end="8" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="16" infl="sg3" lcat="sv1" lemma="melden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="meld" sc="sbar" sense="meld" tense="present" word="meldt" wvorm="pv"/>
+        <node begin="8" cat="np" end="17" id="17" rel="su">
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="staatssecretaris" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staatssecretaris" sense="staatssecretaris" word="staatssecretaris"/>
+          <node begin="9" cat="pp" end="17" id="19" rel="mod">
+            <node begin="9" end="10" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="20" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="10" cat="conj" end="17" id="21" rel="obj1">
+              <node begin="11" conjtype="neven" end="12" frame="conj(en)" his="normal" his_1="normal" id="22" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="10" cat="np" end="17" id="23" rel="cnj">
+                <node begin="10" end="11" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="24" lcat="np" lemma="Asiel" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Asiel" sense="Asiel" word="Asiel"/>
+                <node begin="16" end="17" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="25" index="2" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+              </node>
+              <node begin="12" cat="np" end="17" id="26" rel="cnj">
+                <node begin="12" cat="mwu" end="15" his="name" his_1="not_begin" id="27" mwu_root="Migratie Theo Francken" mwu_sense="Migratie Theo Francken" rel="hd">
+                  <node begin="12" end="13" frame="proper_name(both,'PER')" id="28" lcat="np" lemma="Migratie" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Migratie" sense="Migratie" spectype="deeleigen" word="Migratie"/>
+                  <node begin="13" end="14" frame="proper_name(both,'PER')" id="29" lcat="np" lemma="Theo" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theo" sense="Theo" spectype="deeleigen" word="Theo"/>
+                  <node begin="14" end="15" frame="proper_name(both,'PER')" id="30" lcat="np" lemma="Francken" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Francken" sense="Francken" spectype="deeleigen" word="Francken"/>
+                </node>
+                <node begin="16" end="17" id="31" index="2" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="18" end="19" frame="sentence_adverb" his="normal" his_1="normal" id="32" lcat="advp" lemma="ondertussen" pos="adv" postag="BW()" pt="bw" rel="mod" root="ondertussen" sense="ondertussen" special="sentence" word="ondertussen"/>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">De intrekking daarvan wordt opgestart &apos; , meldt staatssecretaris voor Asiel en Migratie Theo Francken ( N-VA ) ondertussen .</sentence>
+  <comments>
+    <comment>Q#4|De intrekking daarvan wordt opgestart &apos; , meldt staatssecretaris voor Asiel en Migratie Theo Francken ( N-VA ) ondertussen .|1|1|-5.6142082170700025</comment>
+  </comments>
+</alpino_ds>

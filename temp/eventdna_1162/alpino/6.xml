@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="Voor"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="2" end="3" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="omgeving" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="omgeving" sense="omgeving" word="omgeving"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,past(sg),intransitive)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="dreigen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="dreig" sc="intransitive" sense="dreig" stype="declarative" tense="past" word="dreigde" wvorm="pv"/>
+      <node begin="4" end="5" frame="sentence_adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="evenwel" pos="adv" postag="BW()" pt="bw" rel="mod" root="evenwel" sense="evenwel" special="sentence" word="evenwel"/>
+      <node begin="5" cat="np" end="7" id="9" rel="su">
+        <node begin="5" buiging="zonder" end="6" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="10" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+        <node begin="6" end="7" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="gevaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gevaar" sense="gevaar" word="gevaar"/>
+      </node>
+    </node>
+    <node begin="7" end="8" frame="punct(punt)" his="normal" his_1="normal" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Voor de omgeving dreigde evenwel geen gevaar .</sentence>
+  <comments>
+    <comment>Q#6|Voor de omgeving dreigde evenwel geen gevaar .|1|1|-3.046142686060001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(haak_sluit)" his="robust_skip" id="1" lcat="--" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="15" end="16" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="23" id="3" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="4" mwu_root="Border Patrol" mwu_sense="Border Patrol" rel="dp">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Border" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Border" sense="Border" spectype="deeleigen" word="Border"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Patrol" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Patrol" sense="Patrol" spectype="deeleigen" word="Patrol"/>
+      </node>
+      <node begin="3" cat="sv1" end="23" id="7" rel="dp">
+        <node begin="3" end="4" frame="verb(hebben,modal_not_u,aux(inf))" his="normal" his_1="normal" id="8" infl="modal_not_u" lcat="sv1" lemma="zullen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" stype="ynquestion" tense="present" word="zal" wvorm="pv"/>
+        <node begin="4" cat="conj" end="18" id="9" index="1" rel="su">
+          <node begin="4" cat="np" end="15" id="10" rel="cnj">
+            <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="volwassene" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="volwassene" sense="volwassene" word="volwassenen"/>
+            <node begin="5" cat="rel" end="15" id="12" rel="mod">
+              <node begin="5" case="no_obl" end="6" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="13" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="5" cat="ssub" end="15" id="14" rel="body">
+                <node begin="5" end="6" id="15" index="2" rel="su"/>
+                <node begin="6" cat="ap" end="9" id="16" rel="predm">
+                  <node aform="base" begin="6" end="7" frame="adjective(postn_pred(padv),pp(met))" his="normal" his_1="normal" id="17" infl="pred" lcat="ap" lemma="samen" pos="adj" postag="BW()" pt="bw" rel="hd" root="samen" sc="pp(met)" sense="samen-met" vform="adj" word="samen"/>
+                  <node begin="7" cat="pp" end="9" id="18" rel="pc">
+                    <node begin="7" end="8" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                    <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="kind" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="kind" sense="kind" word="kinderen"/>
+                  </node>
+                </node>
+                <node begin="9" cat="pp" end="12" id="21" rel="mod">
+                  <node begin="9" end="10" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="22" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                  <node begin="10" cat="np" end="12" id="23" rel="obj1">
+                    <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="24" infl="e" lcat="ap" lemma="illegaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="illegaal" sense="illegaal" vform="adj" word="illegale"/>
+                    <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="wijze" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wijze" sense="wijze" word="wijze"/>
+                  </node>
+                </node>
+                <node begin="12" cat="np" end="14" id="26" rel="obj1">
+                  <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" getal-n="zonder-n" graad="basis" his="compound" his_1="hyphen" id="28" infl="e" lcat="np" lemma="Amerikaans_Mexicaans" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="Amerikaans_Mexicaans" sense="Amerikaans_Mexicaans" vform="adj" word="Amerikaans-Mexicaanse"/>
+                </node>
+                <node begin="14" end="15" frame="verb(hebben,pl,ninv(transitive,part_transitive(over)))" his="normal" his_1="part-V" id="29" infl="pl" lcat="ssub" lemma="over_steken" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="steek_over" sc="part_transitive(over)" sense="steek_over" tense="present" word="oversteken" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+          <node begin="16" cat="np" end="18" id="30" rel="cnj">
+            <node begin="16" end="17" frame="adverb" his="normal" his_1="normal" id="31" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+            <node aform="compar" begin="17" buiging="zonder" end="18" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="32" infl="meer" lcat="np" lemma="meer" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" rnum="sg" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+          </node>
+        </node>
+        <node begin="4" cat="inf" end="23" id="33" rel="vc">
+          <node begin="4" end="18" id="34" index="1" rel="su"/>
+          <node begin="18" buiging="zonder" end="19" frame="verb(hebben,inf,ninv(pc_pp(naar),part_pc_pp(door,naar)))" his="normal" his_1="part-V" id="35" infl="inf" lcat="inf" lemma="door_verwijzen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verwijs_door" sc="part_pc_pp(door,naar)" sense="verwijs_door-naar" word="doorverwijzen" wvorm="inf"/>
+          <node begin="19" cat="pp" end="23" id="36" rel="pc">
+            <node begin="19" end="20" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="37" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="20" cat="np" end="23" id="38" rel="obj1">
+              <node begin="20" end="21" frame="determiner(een)" his="normal" his_1="normal" id="39" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="21" buiging="met-e" end="22" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="40" infl="e" lcat="ap" lemma="federaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="federaal" sense="federaal" vform="adj" word="federale"/>
+              <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="41" lcat="np" lemma="rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rechtbank" sense="rechtbank" word="rechtbank"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="robust_skip" id="42" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Border Patrol ) zal volwassenen die samen met kinderen op illegale wijze de Amerikaans-Mexicaanse oversteken , niet meer doorverwijzen naar een federale rechtbank .</sentence>
+  <comments>
+    <comment>Q#3|Border Patrol ) zal volwassenen die samen met kinderen op illegale wijze de Amerikaans-Mexicaanse oversteken , niet meer doorverwijzen naar een federale rechtbank .|1|2|6.438770620970018</comment>
+  </comments>
+</alpino_ds>

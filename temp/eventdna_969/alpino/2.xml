@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="0" cat="cp" end="10" id="3" rel="mod">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="cp" lemma="nu" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nu" sense="nu" word="Nu"/>
+        <node begin="1" cat="ssub" end="10" id="5" rel="body">
+          <node begin="1" cat="np" end="6" id="6" index="1" rel="su">
+            <node begin="1" end="2" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="IS" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="IS" sense="IS" word="IS"/>
+            <node begin="2" cat="pp" end="6" id="8" rel="mod">
+              <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="3" cat="conj" end="6" id="10" rel="obj1">
+                <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="11" lcat="np" lemma="Syrië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Syrië" sense="Syrië" word="Syrië"/>
+                <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="5" end="6" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="Irak" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Irak" sense="Irak" word="Irak"/>
+              </node>
+            </node>
+          </node>
+          <node begin="8" end="9" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="14" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+          <node begin="1" cat="ppart" end="10" id="15" rel="vc">
+            <node begin="1" end="6" id="16" index="1" rel="obj1"/>
+            <node begin="6" cat="advp" end="8" id="17" rel="mod">
+              <node begin="6" end="7" frame="adverb" his="normal" his_1="normal" id="18" lcat="advp" lemma="steeds" pos="adv" postag="BW()" pt="bw" rel="hd" root="steeds" sense="steeds" word="steeds"/>
+              <node begin="7" buiging="zonder" end="8" frame="postadv_adverb" graad="comp" his="normal" his_1="normal" id="19" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="adv" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" sense="meer" special="postadv" vwtype="onbep" word="meer"/>
+            </node>
+            <node begin="9" buiging="zonder" end="10" frame="verb(hebben,psp,ninv(transitive,part_transitive(weg)))" his="normal" his_1="part-V" id="20" infl="psp" lcat="ppart" lemma="weg_drukken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="druk_weg" sc="part_transitive(weg)" sense="druk_weg" word="weggedrukt" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="11" end="12" frame="verb(hebben,sg3,refl_ld_pp)" his="normal" his_1="normal" id="21" infl="sg3" lcat="smain" lemma="verplaatsen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verplaats" sc="refl_ld_pp" sense="zich-verplaats" stype="declarative" tense="present" word="verplaatst" wvorm="pv"/>
+      <node begin="12" cat="np" end="14" id="22" rel="su">
+        <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="23" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+        <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="gevaar" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gevaar" sense="gevaar" word="gevaar"/>
+      </node>
+      <node begin="14" end="15" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="25" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="15" cat="pp" end="17" id="26" rel="ld">
+        <node begin="15" end="16" frame="preposition(richting,[])" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="pp" lemma="richting" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" root="richting" sense="richting" word="richting"/>
+        <node begin="16" end="17" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="28" lcat="np" lemma="Noord-Afrika" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Noord-Afrika" sense="Noord-Afrika" word="Noord-Afrika"/>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Nu IS in Syrië en Irak steeds meer wordt weggedrukt , verplaatst het gevaar zich richting Noord-Afrika .</sentence>
+  <comments>
+    <comment>Q#2|Nu IS in Syrië en Irak steeds meer wordt weggedrukt , verplaatst het gevaar zich richting Noord-Afrika .|1|1|-6.970557206310003</comment>
+  </comments>
+</alpino_ds>

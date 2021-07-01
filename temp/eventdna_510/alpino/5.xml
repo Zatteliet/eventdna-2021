@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="39" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="10" end="11" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="20" end="21" frame="punct(haak_open)" his="normal" his_1="normal" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="23" end="24" frame="punct(haak_sluit)" his="normal" his_1="normal" id="4" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="28" end="29" frame="punct(haak_open)" his="normal" his_1="normal" id="5" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="31" end="32" frame="punct(haak_sluit)" his="normal" his_1="normal" id="6" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="32" end="33" frame="punct(komma)" his="normal" his_1="normal" id="7" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="38" id="8" rel="--">
+      <node begin="0" cat="smain" end="31" id="9" rel="nucl">
+        <node begin="0" cat="pp" end="3" id="10" rel="mod">
+          <node begin="0" buiging="zonder" end="1" frame="modal_adverb" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="11" lcat="advp" lemma="enkel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="enkel" sc="modal" sense="enkel" word="Enkel"/>
+          <node begin="1" end="2" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="13" lcat="np" lemma="Limburg" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Limburg" sense="Limburg" word="Limburg"/>
+        </node>
+        <node begin="3" end="4" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="14" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="15" rel="su">
+          <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="5" end="6" frame="noun(het,count,sg,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="aandeel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aandeel" sc="measure" sense="aandeel" word="aandeel"/>
+          <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="18" lcat="np" lemma="innovatie_steun" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="innovatie_steun" sense="innovatie_steun" word="innovatiesteun"/>
+        </node>
+        <node begin="8" cat="np" end="10" id="19" rel="mod">
+          <node begin="8" end="9" frame="number(hoofd(both))" his="normal" his_1="normal" id="20" infl="both" lcat="detp" lemma="7,5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="7,5" sense="7,5" special="hoofd" word="7,5"/>
+          <node begin="9" end="10" frame="meas_mod_noun(both,count,meas)" gen="both" his="normal" his_1="normal" id="21" lcat="np" lemma="procent" num="meas" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" rnum="sg" root="procent" sense="procent" special="meas_mod" spectype="symb" word="%"/>
+        </node>
+        <node begin="11" cat="ap" end="31" id="22" rel="predc">
+          <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="23" infl="no_e" lcat="ap" lemma="substantieel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="substantieel" sense="substantieel" vform="adj" word="substantieel"/>
+          <node aform="compar" begin="12" buiging="zonder" end="13" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="24" infl="no_e" lcat="ap" lemma="laag" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laag" sense="laag" vform="adj" word="lager"/>
+          <node begin="13" cat="cp" end="31" id="25" rel="obcomp">
+            <node begin="13" conjtype="onder" end="14" frame="comparative(dan)" his="normal" his_1="normal" id="26" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+            <node begin="14" cat="conj" end="31" id="27" rel="body">
+              <node begin="14" cat="np" end="23" id="28" rel="cnj">
+                <node begin="14" end="15" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="29" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="aandeel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aandeel" sense="aandeel" word="aandeel"/>
+                <node begin="16" cat="pp" end="20" id="31" rel="mod">
+                  <node begin="16" end="17" frame="preposition(in,[])" his="normal" his_1="normal" id="32" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="17" cat="np" end="20" id="33" rel="obj1">
+                    <node begin="17" end="18" frame="determiner(de)" his="normal" his_1="normal" id="34" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node aform="base" begin="18" buiging="met-e" end="19" frame="adjective(ge_e)" his="normal" his_1="normal" id="35" infl="e" lcat="ppart" lemma="toegevoegd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="toegevoegd" sense="toegevoegd" vform="psp" word="toegevoegde" wvorm="vd"/>
+                    <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="36" lcat="np" lemma="waarde" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="waarde" sense="waarde" word="waarde"/>
+                  </node>
+                </node>
+                <node begin="21" cat="np" end="23" id="37" rel="mod">
+                  <node begin="21" end="22" frame="number(hoofd(both))" his="normal" his_1="normal" id="38" infl="both" lcat="detp" lemma="10,5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="10,5" sense="10,5" special="hoofd" word="10,5"/>
+                  <node begin="22" end="23" frame="meas_mod_noun(both,count,meas)" gen="both" his="normal" his_1="normal" id="39" lcat="np" lemma="procent" num="meas" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" rnum="sg" root="procent" sense="procent" special="meas_mod" spectype="symb" word="%"/>
+                </node>
+              </node>
+              <node begin="24" conjtype="neven" end="25" frame="conj(en)" his="normal" his_1="normal" id="40" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="25" cat="np" end="31" id="41" rel="cnj">
+                <node begin="25" end="26" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="42" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="26" end="27" frame="noun(het,count,sg,measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="43" lcat="np" lemma="aantal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="aantal" sc="measure" sense="aantal" word="aantal"/>
+                <node aform="base" begin="27" buiging="met-e" end="28" frame="nominalized_adjective" getal-n="mv-n" graad="basis" his="normal" his_1="A-n" id="44" lcat="np" lemma="tewerk_gesteld" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="mod" root="tewerk_gesteld" sense="tewerk_gesteld" special="a_noun" word="tewerkgestelden"/>
+                <node begin="29" cat="np" end="31" id="45" rel="mod">
+                  <node begin="29" end="30" frame="number(hoofd(both))" his="normal" his_1="normal" id="46" infl="both" lcat="detp" lemma="12,3" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="12,3" sense="12,3" special="hoofd" word="12,3"/>
+                  <node begin="30" end="31" frame="meas_mod_noun(both,count,meas)" gen="both" his="normal" his_1="normal" id="47" lcat="np" lemma="procent" num="meas" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" rnum="sg" root="procent" sense="procent" special="meas_mod" spectype="symb" word="%"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="33" cat="sv1" end="38" id="48" rel="tag">
+        <node begin="33" end="34" frame="verb(hebben,sg3,tr_sbar)" his="normal" his_1="normal" id="49" infl="sg3" lcat="sv1" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="tr_sbar" sense="zeg" tense="present" word="zegt" wvorm="pv"/>
+        <node begin="34" cat="np" end="38" id="50" rel="su">
+          <node begin="34" cat="mwu" end="36" his="double_compound" id="51" mwu_root="Open Vld_senator" mwu_sense="Open Vld_senator" rel="hd">
+            <node begin="34" end="35" frame="noun(de,count,sg)" gen="de" id="52" lcat="np" lemma="Open" num="sg" pos="noun" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Open" sense="Open" spectype="deeleigen" word="Open"/>
+            <node begin="35" end="36" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" id="53" lcat="np" lemma="Vld_senator" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="Vld_senator" sense="Vld_senator" word="Vld-senator"/>
+          </node>
+          <node begin="36" cat="mwu" end="38" his="name" his_1="not_begin" id="54" mwu_root="Lode Vereeck" mwu_sense="Lode Vereeck" rel="app">
+            <node begin="36" end="37" frame="proper_name(sg,'PER')" id="55" lcat="np" lemma="Lode" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Lode" sense="Lode" spectype="deeleigen" word="Lode"/>
+            <node begin="37" end="38" frame="proper_name(sg,'PER')" id="56" lcat="np" lemma="Vereeck" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vereeck" sense="Vereeck" spectype="deeleigen" word="Vereeck"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="38" end="39" frame="punct(punt)" his="normal" his_1="normal" id="57" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Enkel voor Limburg is het aandeel innovatiesteun ( 7,5 % ) substantieel lager dan het aandeel in de toegevoegde waarde ( 10,5 % ) en het aantal tewerkgestelden ( 12,3 % ) , zegt Open Vld-senator Lode Vereeck .</sentence>
+  <comments>
+    <comment>Q#5|Enkel voor Limburg is het aandeel innovatiesteun ( 7,5 % ) substantieel lager dan het aandeel in de toegevoegde waarde ( 10,5 % ) en het aantal tewerkgestelden ( 12,3 % ) , zegt Open Vld-senator Lode Vereeck .|1|1|-17.35980107269</comment>
+  </comments>
+</alpino_ds>

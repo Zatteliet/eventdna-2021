@@ -1,0 +1,37 @@
+'	'	LET()	O	O
+Hoog	hoog	ADJ(prenom,basis,zonder)	B-NP	O
+tijd	tijd	N(soort,ev,basis,zijd,stan)	I-NP	O
+om	om	VZ(init)	B-PP	O
+commissie	commissie	N(soort,ev,basis,zijd,stan)	B-NP	O
+Metsu	Metsu	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+uit	uit	VZ(init)	B-PP	O
+winterslaap	winterslaap	N(soort,ev,basis,zijd,stan)	B-NP	O
+te	te	VZ(init)	B-VP	O
+halen	halen	WW(inf,vrij,zonder)	I-VP	O
+'	'	LET()	O	O
+				
+Hans	Hans	SPEC(deeleigen)	B-NP	B-PER
+Bonte	Bonte	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+SP.A	SP.A	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+)	)	LET()	O	O
+eist	eisen	WW(pv,tgw,met-t)	B-VP	O
+dat	dat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+commissie	commissie	N(soort,ev,basis,zijd,stan)	I-NP	O
+Terrorisme­bestrijding	terrorisme­bestrijding	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+heropstart	heropstarten	WW(vd,vrij,zonder)	B-VP	O
+om	om	VZ(init)	B-PP	O
+wantoestanden	wantoestand	N(soort,mv,basis)	B-NP	O
+met	met	VZ(init)	B-PP	O
+geradicaliseerde	radicaliseren	WW(vd,prenom,met-e)	B-NP	O
+gevangenen	vangen	WW(vd,nom,met-e,mv-n)	I-NP	O
+in	in	VZ(init)	O	O
+'	'	LET()	O	O
+structurele	structureel	ADJ(prenom,basis,met-e,stan)	B-NP	O
+maatregelen	maatregel	N(soort,mv,basis)	I-NP	O
+'	'	LET()	O	O
+te	te	VZ(init)	B-VP	O
+gieten	gieten	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

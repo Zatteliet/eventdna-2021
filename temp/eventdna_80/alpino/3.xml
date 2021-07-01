@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Panos A." mwu_sense="Panos A." rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Panos" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Panos" sense="Panos" spectype="deeleigen" word="Panos"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="A." neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="A." sense="A." spectype="deeleigen" word="A."/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),fixed([[op,het,oog],acc],no_passive))" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="fixed([[op,het,oog],acc],no_passive)" sense="op-het-oog-heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="6" lcat="advp" lemma="voornamelijk" pos="adv" postag="BW()" pt="bw" rel="mod" root="voornamelijk" sense="voornamelijk" word="voornamelijk"/>
+      <node begin="4" cat="np" end="9" id="7" rel="obj1">
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="mountainbike" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mountainbike" sense="mountainbike" word="mountainbikes"/>
+        <node begin="5" cat="pp" end="9" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="6" cat="np" end="9" id="11" rel="obj1">
+            <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="12" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="merk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="merk" sense="merk" word="merk"/>
+            <node begin="8" end="9" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="Cube" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="app" rnum="sg" root="Cube" sense="Cube" word="Cube"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="mwu" end="12" his="normal" his_1="normal" id="15" mwu_root="op het oog" mwu_sense="op het oog" rel="svp">
+        <node begin="9" end="10" frame="fixed_part([op,het,oog])" id="16" lcat="fixed" lemma="op" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="10" end="11" frame="fixed_part([op,het,oog])" id="17" lcat="fixed" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" word="het"/>
+        <node begin="11" end="12" frame="fixed_part([op,het,oog])" genus="onz" getal="ev" graad="basis" id="18" lcat="fixed" lemma="oog" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="oog" sense="oog" word="oog"/>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Panos A. had voornamelijk mountainbikes van het merk Cube op het oog .</sentence>
+  <comments>
+    <comment>Q#3|Panos A. had voornamelijk mountainbikes van het merk Cube op het oog .|1|1|-1.3057406362199981</comment>
+  </comments>
+</alpino_ds>

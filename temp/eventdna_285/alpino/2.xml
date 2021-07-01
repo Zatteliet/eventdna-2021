@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="30" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="10" end="11" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="29" id="3" rel="--">
+      <node begin="0" cat="np" end="10" id="4" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" cat="mwu" end="8" his="normal" his_1="names_dictionary" id="6" mwu_root="Organisatie voor het Verbod op Chemische Wapens" mwu_sense="Organisatie voor het Verbod op Chemische Wapens" rel="hd">
+          <node begin="1" end="2" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="Organisatie" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Organisatie" sense="Organisatie" spectype="deeleigen" word="Organisatie"/>
+          <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="8" lcat="np" lemma="voor" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="voor" sense="voor" spectype="deeleigen" word="voor"/>
+          <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="9" lcat="np" lemma="het" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="het" sense="het" spectype="deeleigen" word="het"/>
+          <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Verbod" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Verbod" sense="Verbod" spectype="deeleigen" word="Verbod"/>
+          <node begin="5" end="6" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="op" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="op" sense="op" spectype="deeleigen" word="op"/>
+          <node begin="6" end="7" frame="proper_name(sg,'ORG')" id="12" lcat="np" lemma="Chemische" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Chemische" sense="Chemische" spectype="deeleigen" word="Chemische"/>
+          <node begin="7" end="8" frame="proper_name(sg,'ORG')" id="13" lcat="np" lemma="Wapens" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wapens" sense="Wapens" spectype="deeleigen" word="Wapens"/>
+        </node>
+        <node begin="9" end="10" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="OPCW" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="OPCW" sense="OPCW" word="OPCW"/>
+      </node>
+      <node begin="11" end="12" frame="verb(hebben,sg3,refl_ld_pp)" his="normal" his_1="normal" id="15" infl="sg3" lcat="smain" lemma="scharen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schaar" sc="refl_ld_pp" sense="zich-schaar" stype="declarative" tense="present" word="schaart" wvorm="pv"/>
+      <node begin="12" end="13" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="16" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="13" cat="pp" end="29" id="17" rel="ld">
+        <node begin="13" end="14" frame="preposition(achter,[aan,door,langs,om,uit,vandaan])" his="normal" his_1="normal" id="18" lcat="pp" lemma="achter" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="achter" sense="achter" vztype="init" word="achter"/>
+        <node begin="14" cat="np" end="29" id="19" rel="obj1">
+          <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="15" buiging="met-e" end="16" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="21" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+          <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="bevinding" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="bevinding" sense="bevinding" word="bevindingen"/>
+          <node begin="17" cat="pp" end="29" id="23" rel="mod">
+            <node begin="17" end="18" frame="preposition(over,[heen])" his="normal" his_1="normal" id="24" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+            <node begin="18" cat="np" end="29" id="25" rel="obj1">
+              <node begin="18" end="19" frame="determiner(de)" his="normal" his_1="normal" id="26" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="vergiftiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vergiftiging" sense="vergiftiging" word="vergiftiging"/>
+              <node begin="20" cat="pp" end="29" id="28" rel="mod">
+                <node begin="20" end="21" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="29" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="21" cat="conj" end="29" id="30" rel="obj1">
+                  <node begin="21" cat="np" end="26" id="31" rel="cnj">
+                    <node begin="21" end="22" frame="determiner(de)" his="normal" his_1="normal" id="32" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="33" infl="e" lcat="ap" lemma="Russisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Russisch" sense="Russisch" vform="adj" word="Russische"/>
+                    <node begin="23" end="24" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="34" lcat="np" lemma="dubbel_spion" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dubbel_spion" sense="dubbel_spion" word="dubbelspion"/>
+                    <node begin="24" cat="mwu" end="26" his="name" his_1="not_begin" id="35" mwu_root="Sergej Skripal" mwu_sense="Sergej Skripal" rel="app">
+                      <node begin="24" end="25" frame="proper_name(sg,'PER')" id="36" lcat="np" lemma="Sergej" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Sergej" sense="Sergej" spectype="deeleigen" word="Sergej"/>
+                      <node begin="25" end="26" frame="proper_name(sg,'PER')" id="37" lcat="np" lemma="Skripal" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Skripal" sense="Skripal" spectype="deeleigen" word="Skripal"/>
+                    </node>
+                  </node>
+                  <node begin="26" conjtype="neven" end="27" frame="conj(en)" his="normal" his_1="normal" id="38" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="27" cat="np" end="29" id="39" rel="cnj">
+                    <node begin="27" buiging="zonder" end="28" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="40" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                    <node begin="28" end="29" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="41" lcat="np" lemma="dochter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dochter" sense="dochter" word="dochter"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="29" end="30" frame="punct(punt)" his="normal" his_1="normal" id="42" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De Organisatie voor het Verbod op Chemische Wapens ( OPCW ) schaart zich achter de Britse bevindingen over de vergiftiging van de Russische dubbelspion Sergej Skripal en zijn dochter .</sentence>
+  <comments>
+    <comment>Q#2|De Organisatie voor het Verbod op Chemische Wapens ( OPCW ) schaart zich achter de Britse bevindingen over de vergiftiging van de Russische dubbelspion Sergej Skripal en zijn dochter .|1|1|-6.265801257379998</comment>
+  </comments>
+</alpino_ds>

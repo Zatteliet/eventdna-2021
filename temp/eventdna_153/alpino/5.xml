@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="21" id="0" rel="top">
+    <node begin="0" end="1" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="13" end="14" frame="punct(komma)" his="normal" his_1="normal" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="1" cat="du" end="20" id="5" rel="--">
+      <node begin="1" cat="du" end="12" id="6" rel="nucl">
+        <node begin="1" cat="smain" end="6" id="7" rel="dp">
+          <node begin="1" case="nom" def="def" end="2" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" his="normal" his_1="decap" his_1_1="normal" id="8" index="1" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="We"/>
+          <node begin="2" end="3" frame="verb(zijn,pl,aux(inf))" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="gaan" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ga" sc="aux(inf)" sense="ga" stype="declarative" tense="present" word="gaan" wvorm="pv"/>
+          <node begin="1" cat="inf" end="6" id="10" rel="vc">
+            <node begin="1" end="2" id="11" index="1" rel="su"/>
+            <node begin="3" cat="ap" end="5" id="12" rel="mod">
+              <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="zeer" pos="adv" postag="BW()" pt="bw" rel="mod" root="zeer" sense="zeer" word="zeer"/>
+              <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="snel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="snel" sense="snel" vform="adj" word="snel"/>
+            </node>
+            <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="werken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="werk" sc="intransitive" sense="werk" word="werken" wvorm="inf"/>
+          </node>
+        </node>
+        <node begin="7" cat="smain" end="12" id="16" rel="dp">
+          <node begin="8" end="9" frame="verb(hebben,pl,aux_psp_hebben)" his="normal" his_1="normal" id="17" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+          <node begin="9" case="nom" def="def" end="10" frame="pronoun(nwh,fir,pl,de,nom,def,wkpro)" gen="de" getal="mv" his="normal" his_1="normal" id="18" index="2" lcat="np" lemma="we" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,red,1,mv)" pt="vnw" rel="su" rnum="pl" root="we" sense="we" special="wkpro" status="red" vwtype="pers" wh="nwh" word="we"/>
+          <node begin="7" cat="ppart" end="12" id="19" rel="vc">
+            <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="normal" id="20" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+            <node begin="9" end="10" id="21" index="2" rel="su"/>
+            <node begin="10" end="11" frame="reflexive(fir,pl)" getal="mv" his="normal" his_1="normal" id="22" lcat="np" lemma="ons" naamval="obl" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pr,pron,obl,vol,1,mv)" pt="vnw" refl="refl" rel="se" rnum="pl" root="ons" sense="ons" status="vol" vwtype="pr" word="ons"/>
+            <node begin="11" buiging="zonder" end="12" frame="verb(hebben,psp,ninv(refl_np,part_refl_np(voor)))" his="normal" his_1="part-V" id="23" infl="psp" lcat="ppart" lemma="voor_nemen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="neem_voor" sc="part_refl_np(voor)" sense="zich-neem_voor" word="voorgenomen" wvorm="vd"/>
+          </node>
+        </node>
+      </node>
+      <node begin="14" cat="pp" end="20" id="24" rel="tag">
+        <node begin="14" end="15" frame="preposition(aldus,[])" his="normal" his_1="normal" id="25" lcat="pp" lemma="aldus" pos="prep" postag="BW()" pt="bw" rel="hd" root="aldus" sense="aldus" word="aldus"/>
+        <node begin="15" cat="np" end="20" id="26" rel="obj1">
+          <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="bondskanselier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bondskanselier" sense="bondskanselier" word="bondskanselier"/>
+          <node begin="17" cat="pp" end="20" id="29" rel="mod">
+            <node begin="17" end="18" frame="preposition(volgens,[])" his="normal" his_1="normal" id="30" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="volgens"/>
+            <node begin="18" cat="np" end="20" id="31" rel="obj1">
+              <node begin="18" buiging="zonder" end="19" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="32" infl="pron" lcat="detp" lemma="haar" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="haar" sense="haar" status="vol" vwtype="bez" word="haar"/>
+              <node begin="19" end="20" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="33" lcat="np" lemma="partij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="partij" sense="partij" word="partij"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="20" end="21" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">&apos; We gaan zeer snel werken , dat hebben we ons voorgenomen &apos; , aldus de bondskanselier volgens haar partij .</sentence>
+  <comments>
+    <comment>Q#5|&apos; We gaan zeer snel werken , dat hebben we ons voorgenomen &apos; , aldus de bondskanselier volgens haar partij .|1|1|-12.451850517879999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="np" end="8" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Boris Johnson" mwu_sense="Boris Johnson" rel="hd">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Boris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Boris" sense="Boris" spectype="deeleigen" word="Boris"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Johnson" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Johnson" sense="Johnson" spectype="deeleigen" word="Johnson"/>
+      </node>
+      <node begin="2" cat="pp" end="8" id="5" rel="mod">
+        <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="6" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="3" cat="np" end="8" id="7" rel="obj1">
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="tucht_commissie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tucht_commissie" sense="tucht_commissie" word="tuchtcommissie"/>
+          <node begin="4" cat="pp" end="8" id="9" rel="mod">
+            <node begin="4" end="5" frame="preposition(wegens,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="wegens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="wegens" sense="wegens" vztype="init" word="wegens"/>
+            <node begin="5" cat="np" end="8" id="11" rel="obj1">
+              <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="uitspraak" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="uitspraak" sense="uitspraak" word="uitspraken"/>
+              <node begin="6" cat="pp" end="8" id="13" rel="mod">
+                <node begin="6" end="7" frame="preposition(over,[heen])" his="normal" his_1="normal" id="14" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+                <node begin="7" end="8" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="15" lcat="np" lemma="boerka" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="boerka" sense="boerka" word="boerka"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Boris Johnson voor tuchtcommissie wegens uitspraken over boerka</sentence>
+  <comments>
+    <comment>Q#1|Boris Johnson voor tuchtcommissie wegens uitspraken over boerka|1|1|4.081551642329995</comment>
+  </comments>
+</alpino_ds>

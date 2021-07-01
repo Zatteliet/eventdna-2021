@@ -1,0 +1,37 @@
+Trump	trump	N(soort,ev,basis,zijd,stan)	B-NP	O
+viseert	viseren	WW(pv,tgw,met-t)	B-VP	O
+autosector	autosector	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+Eerst	eerst	BW()	B-ADVP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+aluminium	aluminium	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+nu	nu	BW()	B-ADVP	O
+dreigt	dreigen	WW(pv,tgw,met-t)	B-VP	O
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+met	met	VZ(init)	B-PP	O
+verhoogde	verhogen	WW(vd,prenom,met-e)	B-NP	O
+importtaksen	importtaks	N(soort,mv,basis)	I-NP	O
+op	op	VZ(init)	B-PP	O
+auto's	auto	N(soort,mv,basis)	B-NP	O
+.	.	LET()	O	O
+				
+Er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+komt	komen	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+nationaal	nationaal	ADJ(prenom,basis,zonder)	I-NP	O
+veiligheids­onderzoek	veiligheids­onderzoek	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Europa	Europa	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+en	en	VG(neven)	O	O
+vooral	vooral	BW()	B-NP	O
+Duitsland	Duitsland	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+,	,	LET()	O	O
+voelt	voelen	WW(pv,tgw,met-t)	B-VP	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+geviseerd	viseren	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

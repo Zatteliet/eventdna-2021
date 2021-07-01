@@ -1,0 +1,45 @@
+Wat	wat	VNW(vb,pron,3o,ev)	B-NP	O
+als	als	VZ(init)	B-PP	O
+Catalonië	Catalonië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+de	de	LID(bep)	B-NP	O
+onafhankelijkheid	onafhankelijkheid	N(soort,ev,basis,zijd,stan)	I-NP	O
+uitroept	uitroepen	WW(pv,tgw,met-t)	B-VP	O
+?	?	LET()	O	O
+				
+Aan	aan	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+einde	einde	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+deze	deze	VNW(aanw,det)	B-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+of	of	VG(neven)	O	O
+begin	begin	N(soort,ev,basis,onz,stan)	B-NP	O
+volgende	volgen	WW(od,prenom,met-e)	I-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+Catalonië	Catalonië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+de	de	LID(bep)	B-NP	O
+onafhankelijkheid	onafhankelijkheid	N(soort,ev,basis,zijd,stan)	I-NP	O
+uitroepen	uitroepen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+logisch	logisch	ADJ(prenom,basis,zonder)	I-NP	O
+gevolg	gevolg	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+referendum	referendum	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Even	even	BW()	B-ADVP	O
+logisch	logisch	ADJ(vrij,basis,zonder)	B-AP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+dat	dat	VG(onder)	O	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+nog	nog	BW()	B-AP	O
+heel	heel	ADJ(vrij,basis,zonder)	I-AP	O
+veel	veel	VNW(onbep,grad,basis)	B-NP	O
+obstakels	obstakel	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+.	.	LET()	O	O
+				

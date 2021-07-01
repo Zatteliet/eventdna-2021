@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="19" id="2" rel="--">
+      <node begin="0" case="both" def="def" end="1" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" getal="mv" his="normal" his_1="decap" his_1_1="normal" id="3" index="1" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,mv)" pt="vnw" rel="su" rnum="pl" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="Ze"/>
+      <node begin="1" end="2" frame="verb('hebben/zijn',pl,modifier(aux(inf)))" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moeten" wvorm="pv"/>
+      <node begin="0" cat="inf" end="19" id="5" rel="vc">
+        <node begin="0" end="1" id="6" index="1" rel="su"/>
+        <node begin="2" cat="mwu" end="4" his="normal" his_1="normal" id="7" mwu_root="van kracht" mwu_sense="van kracht" rel="predc">
+          <node aform="base" begin="2" end="3" frame="adjective(pred(nonadv))" id="8" infl="pred" lcat="ap" lemma="van" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vform="adj" vztype="init" word="van"/>
+          <node aform="base" begin="3" end="4" frame="adjective(pred(nonadv))" genus="zijd" getal="ev" graad="basis" id="9" infl="pred" lcat="ap" lemma="kracht" naamval="stan" ntype="soort" pos="adj" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="kracht" sense="kracht" vform="adj" word="kracht"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" frame="verb(unacc,inf,copula)" his="normal" his_1="normal" id="10" infl="inf" lcat="inf" lemma="zijn" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ben" sc="copula" sense="ben" word="zijn" wvorm="inf"/>
+        <node begin="5" cat="pp" end="8" id="11" rel="mod">
+          <node begin="5" end="6" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="12" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+          <node begin="6" cat="np" end="8" id="13" rel="obj1">
+            <node begin="6" end="7" frame="tmp_noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="begin" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="begin" sense="begin" special="tmp" word="begin"/>
+            <node begin="7" end="8" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="augustus" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="augustus" sense="augustus" special="tmp" word="augustus"/>
+          </node>
+        </node>
+        <node begin="9" cat="cp" end="19" id="16" rel="mod">
+          <node begin="9" conjtype="onder" end="10" frame="complementizer" his="normal" his_1="normal" id="17" lcat="cp" lemma="wanneer" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="wanneer" sense="wanneer" word="wanneer"/>
+          <node begin="10" cat="ssub" end="19" id="18" rel="body">
+            <node begin="10" cat="np" end="13" id="19" index="2" rel="su">
+              <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="11" cat="mwu" end="13" his="normal" his_1="names_dictionary" id="21" mwu_root="Verenigde Staten" mwu_sense="Verenigde Staten" rel="hd">
+                <node begin="11" end="12" frame="proper_name(both,'LOC')" id="22" lcat="np" lemma="Verenigde" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Verenigde" sense="Verenigde" spectype="deeleigen" word="Verenigde"/>
+                <node begin="12" end="13" frame="proper_name(both,'LOC')" id="23" lcat="np" lemma="Staten" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Staten" sense="Staten" spectype="deeleigen" word="Staten"/>
+              </node>
+            </node>
+            <node begin="17" end="18" frame="verb(hebben,pl,modifier(aux(inf)))" his="normal" his_1="normal" id="24" infl="pl" lcat="ssub" lemma="willen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" tense="present" word="willen" wvorm="pv"/>
+            <node begin="10" cat="inf" end="19" id="25" rel="vc">
+              <node begin="10" end="13" id="26" index="2" rel="su"/>
+              <node begin="13" end="14" frame="adverb" his="normal" his_1="normal" id="27" lcat="advp" lemma="opnieuw" pos="adv" postag="BW()" pt="bw" rel="mod" root="opnieuw" sense="opnieuw" word="opnieuw"/>
+              <node begin="14" cat="np" end="17" id="28" rel="obj1">
+                <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="sanctie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="sanctie" sense="sanctie" word="sancties"/>
+                <node begin="15" cat="pp" end="17" id="30" rel="mod">
+                  <node begin="15" end="16" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="31" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+                  <node begin="16" end="17" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="32" lcat="np" lemma="Iran" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Iran" sense="Iran" word="Iran"/>
+                </node>
+              </node>
+              <node begin="18" buiging="zonder" end="19" frame="verb(hebben,inf,ninv(transitive,part_transitive(in)))" his="normal" his_1="part-V" id="33" infl="inf" lcat="inf" lemma="in_voeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="voer_in" sc="part_transitive(in)" sense="voer_in" word="invoeren" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Ze moeten van kracht zijn tegen begin augustus , wanneer de Verenigde Staten opnieuw sancties tegen Iran willen invoeren .</sentence>
+  <comments>
+    <comment>Q#3|Ze moeten van kracht zijn tegen begin augustus , wanneer de Verenigde Staten opnieuw sancties tegen Iran willen invoeren .|1|1|-17.32730096788</comment>
+  </comments>
+</alpino_ds>

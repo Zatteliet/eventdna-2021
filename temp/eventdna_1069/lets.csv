@@ -1,0 +1,53 @@
+Tropen-Trump	Tropen-Trump	N(soort,ev,basis,zijd,stan)	B-NP	O
+neergestoken	neersteken	WW(vd,vrij,zonder)	B-VP	O
+				
+Sao	Sao	SPEC(deeleigen)	B-NP	B-LOC
+Paulo	Paulo	SPEC(deeleigen)	I-NP	I-LOC
+				
+De	de	LID(bep)	B-NP	O
+extreemrechtse	extreemrechts	ADJ(prenom,basis,met-e,stan)	I-NP	O
+politicus	politicus	N(soort,ev,basis,zijd,stan)	I-NP	O
+Jair	Jair	SPEC(deeleigen)	I-NP	B-PER
+Bolsonaro	Bolsonaro	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+gedoodverfde	gedoodverfd	ADJ(prenom,basis,met-e,stan)	B-NP	O
+winnaar	winnaar	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+eerste	een	TW(rang,prenom,stan)	I-NP	O
+ronde	ronde	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Braziliaanse	Braziliaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+presidentsverkiezingen	presidentsverkiezing	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+oktober	oktober	N(eigen,ev,basis,zijd,stan)	B-NP	O
+,	,	LET()	O	O
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+waarschijnlijk	waarschijnlijk	ADJ(vrij,basis,zonder)	B-AP	O
+alleen	alleen	BW()	B-ADVP	O
+maar	maar	BW()	B-ADVP	O
+winst	winst	N(soort,ev,basis,zijd,stan)	B-NP	O
+boeken	boeken	WW(inf,vrij,zonder)	B-VP	O
+door	door	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	O	O
+hem	hem	VNW(pers,pron,3,ev,masc)	O	O
+bijna	bijna	BW()	B-ADVP	O
+het	het	LID(bep)	B-NP	O
+leven	leven	N(soort,ev,basis,onz,stan)	I-NP	O
+kostte	kosten	WW(pv,verl,ev)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+race	race	N(soort,ev,basis,zijd,stan)	I-NP	O
+zelf	zelf	BW()	B-ADVP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+meer	veel	VNW(onbep,grad,comp)	O	O
+dan	dan	VG(onder)	O	O
+ooit	ooit	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+chaos	chaos	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

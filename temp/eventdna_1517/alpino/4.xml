@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" buiging="met-e" end="1" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="Deze"/>
+        <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="4" infl="pl_num" lcat="detp" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" sense="vijf" special="hoofd" word="vijf"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="valstrik" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="valstrik" sense="valstrik" word="valstrikken"/>
+      </node>
+      <node begin="3" end="4" frame="verb(unacc,pl,copula)" his="normal" his_1="normal" id="6" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="4" cat="pp" end="8" id="7" rel="mod">
+        <node begin="4" end="5" frame="preposition(volgens,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="volgens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="volgens" sense="volgens" vztype="init" word="volgens"/>
+        <node begin="5" cat="np" end="8" id="9" rel="obj1">
+          <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="10" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="6" cat="mwu" end="8" his="name" his_1="not_begin" id="11" mwu_root="FOD Economie" mwu_sense="FOD Economie" rel="hd">
+            <node begin="6" end="7" frame="proper_name(both,'ORG')" id="12" lcat="np" lemma="FOD" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="FOD" sense="FOD" spectype="deeleigen" word="FOD"/>
+            <node begin="7" end="8" frame="proper_name(both,'ORG')" id="13" lcat="np" lemma="Economie" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Economie" sense="Economie" spectype="deeleigen" word="Economie"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="mwu" end="10" his="normal" his_1="het Asuper" his_1_1="normal" id="14" mwu_root="gevaarlijk" mwu_sense="gevaarlijk" rel="predc">
+        <node aform="super" begin="8" end="9" frame="adjective(het_st(adv))" id="15" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+        <node aform="super" begin="9" buiging="zonder" end="10" frame="adjective(het_st(adv))" graad="sup" id="16" infl="pred" lcat="ap" lemma="gevaarlijkst" pos="adj" positie="vrij" postag="ADJ(vrij,sup,zonder)" pt="adj" rel="mwp" root="gevaarlijkst" sense="gevaarlijkst" vform="adj" word="gevaarlijkst"/>
+      </node>
+    </node>
+    <node begin="10" end="11" frame="punct(punt)" his="normal" his_1="normal" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Deze vijf valstrikken zijn volgens de FOD Economie het gevaarlijkst .</sentence>
+  <comments>
+    <comment>Q#4|Deze vijf valstrikken zijn volgens de FOD Economie het gevaarlijkst .|1|1|-7.492738130950002</comment>
+  </comments>
+</alpino_ds>

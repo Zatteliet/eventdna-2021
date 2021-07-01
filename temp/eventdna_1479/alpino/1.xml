@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(ge_both(adv))" his="normal" his_1="decap" his_1_1="normal" id="3" infl="both" lcat="ppart" lemma="beschoten" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="beschoten" sense="beschoten" vform="psp" word="Beschoten" wvorm="vd"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="boer_dochter" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="boer_dochter" sense="boer_dochter" word="boerendochter"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="krijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="krijg" sc="transitive" sense="krijg" stype="declarative" tense="present" word="krijgt" wvorm="pv"/>
+      <node begin="3" cat="np" end="6" id="6" rel="obj1">
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="266.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="266.000" sense="266.000" special="hoofd" word="266.000"/>
+        <node begin="4" end="5" frame="meas_mod_noun(de,count,bare_meas,measure)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="euro" sc="measure" sense="euro" special="meas_mod" word="euro"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="schadevergoeding" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="schadevergoeding" sense="schadevergoeding" word="schadevergoeding"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Beschoten boerendochter krijgt 266.000 euro schadevergoeding</sentence>
+  <comments>
+    <comment>Q#1|Beschoten boerendochter krijgt 266.000 euro schadevergoeding|1|1|-1.3592202172300007</comment>
+  </comments>
+</alpino_ds>

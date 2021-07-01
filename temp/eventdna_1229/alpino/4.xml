@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="18" id="2" rel="--">
+      <node begin="0" cat="smain" end="9" id="3" rel="cnj">
+        <node begin="0" cat="np" end="4" id="4" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(een)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="Een"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="dvd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dvd" sense="dvd" word="dvd"/>
+          <node begin="2" cat="pp" end="4" id="7" rel="mod">
+            <node begin="2" end="3" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="9" lcat="np" lemma="telefoon_opname" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="telefoon_opname" sense="telefoon_opname" word="telefoonopnames"/>
+          </node>
+        </node>
+        <node begin="4" end="5" frame="verb(unacc,past(sg),aux_psp_zijn)" his="normal" his_1="normal" id="10" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="9" id="11" rel="vc">
+          <node begin="0" end="4" id="12" index="1" rel="su"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(zijn,psp,intransitive)" his="compound" his_1="2" id="13" infl="psp" lcat="ppart" lemma="stuk_gaan" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ga_stuk" sc="intransitive" sense="ga_stuk" word="stukgegaan" wvorm="vd"/>
+          <node begin="6" cat="pp" end="9" id="14" rel="mod">
+            <node begin="6" end="7" frame="preposition(tijdens,[])" his="normal" his_1="normal" id="15" lcat="pp" lemma="tijdens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tijdens" sense="tijdens" vztype="init" word="tijdens"/>
+            <node begin="7" cat="np" end="9" id="16" rel="obj1">
+              <node begin="7" end="8" frame="determiner(een)" his="normal" his_1="normal" id="17" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="verhuizing" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verhuizing" sense="verhuizing" word="verhuizing"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="10" conjtype="neven" end="11" frame="conj(en)" his="normal" his_1="normal" id="19" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="11" cat="smain" end="18" id="20" rel="cnj">
+        <node begin="12" end="13" frame="verb(unacc,past(sg),aux_psp_zijn)" his="normal" his_1="normal" id="21" infl="sg" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="past" word="was" wvorm="pv"/>
+        <node begin="13" cat="np" end="16" id="22" index="2" rel="su">
+          <node begin="13" end="14" frame="determiner(een)" his="normal" his_1="normal" id="23" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="24" infl="no_e" lcat="ap" lemma="cruciaal" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="cruciaal" sense="cruciaal" vform="adj" word="cruciaal"/>
+          <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="bewijsstuk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bewijsstuk" sense="bewijsstuk" word="bewijsstuk"/>
+        </node>
+        <node begin="11" cat="ppart" end="18" id="26" rel="vc">
+          <node begin="11" end="12" frame="er_adverb(met)" his="normal" his_1="normal" id="27" lcat="pp" lemma="daarmee" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarmee" sense="daarmee" special="er" word="daarmee"/>
+          <node begin="13" end="16" id="28" index="2" rel="su"/>
+          <node aform="base" begin="16" buiging="zonder" end="17" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="29" infl="no_e" lcat="ap" lemma="onbruikbaar" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="onbruikbaar" sense="onbruikbaar" vform="adj" word="onbruikbaar"/>
+          <node begin="17" buiging="zonder" end="18" frame="verb(unacc,psp,copula)" his="normal" his_1="normal" id="30" infl="psp" lcat="ppart" lemma="worden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="word" sc="copula" sense="word" word="geworden" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Een dvd met telefoonopnames was stukgegaan tijdens een verhuizing , en daarmee was een cruciaal bewijsstuk onbruikbaar geworden .</sentence>
+  <comments>
+    <comment>Q#4|Een dvd met telefoonopnames was stukgegaan tijdens een verhuizing , en daarmee was een cruciaal bewijsstuk onbruikbaar geworden .|1|1|-10.473900343699997</comment>
+  </comments>
+</alpino_ds>

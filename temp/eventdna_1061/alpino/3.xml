@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(de,nwh,nmod,pro,nparg)" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" infl="de" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(aanw,pron,stan,vol,3,getal)" pt="vnw" rel="su" rnum="sg" root="die" sense="die" status="vol" vwtype="aanw" wh="nwh" word="Die"/>
+      <node begin="1" end="2" frame="verb('hebben/zijn',sg,modifier(aux(inf)))" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="moeten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" stype="declarative" tense="present" word="moet" wvorm="pv"/>
+      <node begin="0" cat="inf" end="11" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" buiging="zonder" end="3" frame="verb(hebben,inf,sbar)" his="normal" his_1="normal" id="6" infl="inf" lcat="inf" lemma="oordelen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="oordeel" sc="sbar" sense="oordeel" word="oordelen" wvorm="inf"/>
+        <node begin="3" cat="conj" end="11" id="7" rel="vc">
+          <node begin="3" cat="cp" end="9" id="8" rel="cnj">
+            <node begin="3" conjtype="onder" end="4" frame="complementizer(of)" his="normal" his_1="normal" id="9" lcat="cp" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" sc="of" sense="of" word="of"/>
+            <node begin="4" cat="ssub" end="9" id="10" rel="body">
+              <node begin="4" end="5" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="11" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+              <node begin="5" cat="pp" end="8" id="12" rel="pc">
+                <node begin="5" end="6" frame="preposition(om,[heen])" his="normal" his_1="normal" id="13" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+                <node begin="6" cat="np" end="8" id="14" rel="obj1">
+                  <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="illegaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="illegaal" sense="illegaal" vform="adj" word="illegale"/>
+                  <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="staat_steun" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat_steun" sense="staat_steun" word="staatssteun"/>
+                </node>
+              </node>
+              <node begin="8" end="9" frame="verb(zijn,sg3,pc_pp(om))" his="normal" his_1="normal" id="17" infl="sg3" lcat="ssub" lemma="gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga" sc="pc_pp(om)" sense="ga-om" tense="present" word="gaat" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="9" conjtype="neven" end="10" frame="conj(of)" id="18" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+          <node begin="10" end="11" frame="adverb" id="19" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="cnj" root="niet" sense="niet" word="niet"/>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Die moet oordelen of het om illegale staatssteun gaat of niet .</sentence>
+  <comments>
+    <comment>Q#3|Die moet oordelen of het om illegale staatssteun gaat of niet .|1|1|-7.826598383519999</comment>
+  </comments>
+</alpino_ds>

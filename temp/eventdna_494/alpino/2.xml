@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="piloot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="piloot" sense="piloot" word="piloten"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,part_transitive(neer))" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="neer_leggen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="leg_neer" sc="part_transitive(neer)" sense="leg_neer" stype="declarative" tense="present" word="leggen" wvorm="pv"/>
+      <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="vrijdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="vrijdag" sense="vrijdag" special="tmp" word="vrijdag"/>
+      <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="werk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="werk" sense="werk" word="werk"/>
+      <node begin="5" end="6" frame="particle(neer)" his="normal" his_1="normal" id="8" lcat="part" lemma="neer" pos="part" postag="BW()" pt="bw" rel="svp" root="neer" sense="neer" word="neer"/>
+    </node>
+  </node>
+  <sentence sentid="2">Duitse piloten leggen vrijdag werk neer</sentence>
+  <comments>
+    <comment>Q#2|Duitse piloten leggen vrijdag werk neer|1|1|-4.949099251709997</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node aform="base" begin="0" end="1" frame="adjective(pred(adv))" his="normal" his_1="decap" his_1_1="normal" id="2" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="Wel"/>
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,copula_sbar)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv),subject_sbar_no_het)" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="duidelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="duidelijk" sc="subject_sbar_no_het" sense="duidelijk" vform="adj" word="duidelijk"/>
+      <node begin="3" cat="cp" end="19" id="5" rel="su">
+        <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" his="normal" his_1="normal" id="6" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="19" id="7" rel="body">
+          <node begin="10" end="11" frame="verb('hebben/zijn',past(sg),modifier(aux(inf)))" his="normal" his_1="normal" id="8" infl="sg" lcat="ssub" lemma="moeten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="moet" sc="modifier(aux(inf))" sense="moet" tense="past" word="moest" wvorm="pv"/>
+          <node begin="4" cat="inf" end="19" id="9" rel="vc">
+            <node begin="6" cat="np" end="9" id="10" rel="mod">
+              <node begin="6" end="7" frame="modal_adverb" his="normal" his_1="normal" id="11" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sc="modal" sense="al" word="al"/>
+              <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="12" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+              <node begin="8" end="9" frame="tmp_noun(de,count,meas)" gen="de" genus="genus" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="keer" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,genus,stan)" pt="n" rel="hd" rnum="pl" root="keer" sense="keer" special="tmp" word="keer"/>
+            </node>
+            <node aform="compar" begin="9" buiging="zonder" end="10" frame="adjective(er(adv))" graad="basis" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eerder" sense="eerder" vform="adj" word="eerder"/>
+            <node begin="11" buiging="zonder" end="12" frame="verb(zijn,inf,ninv(intransitive,part_intransitive(tussen)))" his="normal" his_1="part-V" id="15" infl="inf" lcat="inf" lemma="tussen_komen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kom_tussen" sc="part_intransitive(tussen)" sense="kom_tussen" word="tussenkomen" wvorm="inf"/>
+            <node begin="4" cat="np" end="19" id="16" index="1" rel="su">
+              <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="5" end="6" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+              <node begin="12" cat="oti" end="19" id="19" rel="mod">
+                <node begin="12" end="13" frame="complementizer(om)" his="normal" his_1="normal" id="20" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+                <node begin="13" cat="ti" end="19" id="21" rel="body">
+                  <node begin="14" end="15" frame="complementizer(te)" his="normal" his_1="normal" id="22" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                  <node begin="13" cat="inf" end="19" id="23" rel="body">
+                    <node begin="13" case="dat_acc" def="def" end="14" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="24" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+                    <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,np_pc_pp(tegen))" his="normal" his_1="normal" id="25" infl="inf" lcat="inf" lemma="beschermen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bescherm" sc="np_pc_pp(tegen)" sense="bescherm-tegen" word="beschermen" wvorm="inf"/>
+                    <node begin="16" cat="pp" end="19" id="26" rel="pc">
+                      <node begin="16" end="17" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="27" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+                      <node begin="17" cat="np" end="19" id="28" rel="obj1">
+                        <node begin="17" end="18" frame="determiner(een)" his="normal" his_1="normal" id="29" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                        <node begin="18" end="19" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="fan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fan" sense="fan" word="fan"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="4" end="19" id="31" index="1" rel="su"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="32" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Wel is duidelijk dat de politie al twee keer eerder moest tussenkomen om hem te beschermen tegen een fan .</sentence>
+  <comments>
+    <comment>Q#4|Wel is duidelijk dat de politie al twee keer eerder moest tussenkomen om hem te beschermen tegen een fan .|1|1|-21.24061748276001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,36 @@
+Puigdemont	puigdemont	N(soort,ev,basis,onz,stan)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+opnieuw	opnieuw	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+vrij	vrij	ADJ(prenom,basis,zonder)	I-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+,	,	LET()	O	O
+behalve	behalve	VG(onder)	O	O
+in	in	VZ(init)	B-PP	O
+Spanje	Spanje	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+De	de	LID(bep)	B-NP	O
+Spaanse	Spaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+justitie	justitie	N(soort,ev,basis,zijd,stan)	I-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+het	het	LID(bep)	B-NP	O
+Europees	Europees	ADJ(prenom,basis,zonder)	I-NP	B-LOC
+aanhoudingsmandaat	aanhoudingsmandaat	N(soort,ev,basis,onz,stan)	I-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+Carles	Carles	SPEC(deeleigen)	B-NP	B-PER
+Puigdemont	Puigdemont	SPEC(deeleigen)	I-NP	I-PER
+ingetrokken	intrekken	WW(vd,vrij,zonder)	B-VP	O
+				
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+Spanje	Spanje	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+zelf	zelf	BW()	B-ADVP	O
+kan	kunnen	WW(pv,tgw,ev)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+wel	wel	BW()	B-ADVP	O
+nog	nog	BW()	B-ADVP	O
+worden	worden	WW(inf,vrij,zonder)	B-VP	O
+opgepakt	oppakken	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

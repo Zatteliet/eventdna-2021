@@ -1,0 +1,47 @@
+Koreaanse	koreaans	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+leiders	leider	N(soort,mv,basis)	I-NP	O
+prikken	prikken	WW(pv,tgw,mv)	B-VP	O
+datum	datum	N(soort,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+ontmoeting	ontmoeting	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Zuid-Koreaanse	Zuid-Koreaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Moon	Moon	SPEC(deeleigen)	I-NP	B-PER
+Jae-in	Jae-in	SPEC(deeleigen)	I-NP	I-PER
+en	en	VG(neven)	O	O
+de	de	LID(bep)	B-NP	O
+Noord-Koreaanse	Noord-Koreaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+leider	leider	N(soort,ev,basis,zijd,stan)	I-NP	O
+Kim	Kim	SPEC(deeleigen)	I-NP	B-PER
+Jong-un	Jong-un	SPEC(deeleigen)	I-NP	I-PER
+ontmoeten	ontmoeten	WW(pv,tgw,mv)	B-VP	O
+elkaar	elkaar	VNW(recip,pron,persoon,mv)	O	O
+op	op	VZ(init)	B-PP	O
+27	27	TW(hoofd,vrij)	B-NP	O
+april	april	N(eigen,ev,basis,zijd,stan)	I-NP	O
+voor	voor	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+top	top	N(soort,ev,basis,zijd,stan)	I-NP	O
+tussen	tussen	VZ(init)	B-PP	O
+beide	beide	VNW(onbep,grad,basis)	B-NP	O
+landen	land	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+zou	zullen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+derde	drie	TW(rang,prenom,stan)	I-NP	O
+keer	keer	N(soort,ev,basis,zijd,stan)	I-NP	O
+ooit	ooit	BW()	B-ADVP	O
+zijn	zijn	WW(inf,vrij,zonder)	B-VP	O
+dat	dat	VG(onder)	O	O
+leiders	leider	N(soort,mv,basis)	B-NP	O
+van	van	VZ(init)	B-PP	O
+beide	beide	VNW(onbep,grad,basis)	B-NP	O
+Korea's	korea	N(soort,mv,basis)	I-NP	B-MISC
+elkaar	elkaar	VNW(recip,pron,persoon,mv)	O	O
+ontmoeten	ontmoeten	WW(pv,tgw,mv)	B-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="18" end="19" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="27" id="2" rel="--">
+      <node begin="19" end="20" frame="verb(hebben,pl,subj_control(te_inf))" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="durven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="durf" sc="subj_control(te_inf)" sense="durf" stype="declarative" tense="present" word="durven" wvorm="pv"/>
+      <node begin="20" cat="np" end="22" id="4" index="1" rel="su">
+        <node begin="20" end="21" frame="determiner(de)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="21" end="22" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="slachtoffer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="slachtoffer" sense="slachtoffer" word="slachtoffers"/>
+      </node>
+      <node begin="24" end="25" frame="adverb" his="normal" his_1="normal" id="7" lcat="advp" lemma="stilaan" pos="adv" postag="BW()" pt="bw" rel="mod" root="stilaan" sense="stilaan" word="stilaan"/>
+      <node aform="base" begin="25" buiging="zonder" end="26" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="openlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="openlijk" sense="openlijk" vform="adj" word="openlijk"/>
+      <node begin="0" cat="inf" end="27" id="9" rel="vc">
+        <node begin="0" cat="cp" end="18" id="10" rel="mod">
+          <node begin="0" conjtype="onder" end="1" frame="complementizer" his="normal" his_1="decap" his_1_1="normal" id="11" lcat="cp" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" sense="nadat" word="Nadat"/>
+          <node begin="1" cat="ssub" end="18" id="12" rel="body">
+            <node begin="1" end="2" frame="verb(unacc,past(sg),ninv(sbar_subj_no_het,part_sbar_subj_no_het(bekend)))" his="normal" his_1="part-V" id="13" infl="sg" lcat="ssub" lemma="bekend_raken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="raak_bekend" sc="part_sbar_subj_no_het(bekend)" sense="raak_bekend" tense="past" word="bekendraakte" wvorm="pv"/>
+            <node begin="2" cat="cp" end="18" id="14" rel="su">
+              <node begin="2" conjtype="onder" end="3" frame="complementizer(dat)" his="normal" his_1="normal" id="15" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+              <node begin="3" cat="ssub" end="18" id="16" rel="body">
+                <node begin="3" cat="np" end="5" id="17" index="2" rel="su">
+                  <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="18" infl="no_e" lcat="ap" lemma="grootschalig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="grootschalig" sense="grootschalig" vform="adj" word="grootschalig"/>
+                  <node begin="4" end="5" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="kind_misbruik" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="kind_misbruik" sense="kind_misbruik" word="kindermisbruik"/>
+                </node>
+                <node begin="13" end="14" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="20" infl="sg" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werd" wvorm="pv"/>
+                <node begin="3" cat="ppart" end="18" id="21" rel="vc">
+                  <node begin="3" end="5" id="22" index="2" rel="obj1"/>
+                  <node begin="5" cat="pp" end="12" id="23" rel="mod">
+                    <node begin="5" end="6" frame="preposition(door,[heen])" his="normal" his_1="normal" id="24" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                    <node begin="6" cat="np" end="12" id="25" rel="obj1">
+                      <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="priester" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="priester" sense="priester" word="priesters"/>
+                      <node begin="7" cat="pp" end="12" id="27" rel="mod">
+                        <node begin="7" end="8" frame="preposition(in,[])" his="normal" his_1="normal" id="28" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                        <node begin="8" cat="np" end="12" id="29" rel="obj1">
+                          <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="31" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+                          <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="staat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat" sense="staat" word="staat"/>
+                          <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="33" lcat="np" lemma="Pennsylvania" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Pennsylvania" sense="Pennsylvania" word="Pennsylvania"/>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(tmpadv))" graad="basis" his="normal" his_1="normal" id="34" infl="no_e" lcat="ap" lemma="jaar_lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="jaar_lang" sense="jaar_lang" vform="adj" word="jarenlang"/>
+                  <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,ninv(transitive,part_transitive(toe)))" his="normal" his_1="part-V" id="35" infl="psp" lcat="ppart" lemma="toe_dekken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dek_toe" sc="part_transitive(toe)" sense="dek_toe" word="toegedekt" wvorm="vd"/>
+                  <node begin="15" cat="pp" end="18" id="36" rel="mod">
+                    <node begin="15" end="16" frame="preposition(door,[heen])" his="normal" his_1="normal" id="37" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                    <node begin="16" cat="np" end="18" id="38" rel="obj1">
+                      <node aform="compar" begin="16" buiging="met-e" end="17" frame="adjective(ere)" graad="basis" his="normal" his_1="normal" id="39" infl="e" lcat="ap" lemma="ander" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="ander" sense="ander" vform="adj" word="andere"/>
+                      <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="40" lcat="np" lemma="kerk_leider" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kerk_leider" sense="kerk_leider" word="kerkleiders"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="20" end="22" id="41" index="1" rel="su"/>
+        <node begin="22" cat="np" end="24" id="42" rel="obj1">
+          <node begin="22" buiging="zonder" end="23" frame="determiner(pron)" getal="mv" his="normal" his_1="normal" id="43" infl="pron" lcat="detp" lemma="hun" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,mv,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="hun" sense="hun" status="vol" vwtype="bez" word="hun"/>
+          <node begin="23" end="24" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="44" lcat="np" lemma="verhaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verhaal" sense="verhaal" word="verhaal"/>
+        </node>
+        <node begin="26" buiging="zonder" end="27" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="45" infl="inf" lcat="inf" lemma="vertellen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vertel" sc="transitive" sense="vertel" word="vertellen" wvorm="inf"/>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" his="normal" his_1="normal" id="46" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Nadat bekendraakte dat grootschalig kindermisbruik door priesters in de Amerikaanse staat Pennsylvania jarenlang werd toegedekt door andere kerkleiders , durven de slachtoffers hun verhaal stilaan openlijk vertellen .</sentence>
+  <comments>
+    <comment>Q#2|Nadat bekendraakte dat grootschalig kindermisbruik door priesters in de Amerikaanse staat Pennsylvania jarenlang werd toegedekt door andere kerkleiders , durven de slachtoffers hun verhaal stilaan openlijk vertellen .|1|1|-17.890424199150008</comment>
+  </comments>
+</alpino_ds>

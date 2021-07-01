@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="np" end="2" id="3" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="orkaan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="orkaan" sense="orkaan" word="Orkaan"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Maria" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Maria" sense="Maria" word="Maria"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="eisen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="eis" sc="transitive" sense="eis" stype="declarative" tense="past" word="eiste" wvorm="pv"/>
+      <node begin="3" cat="np" end="12" id="7" rel="obj1">
+        <node begin="3" buiging="zonder" end="4" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="8" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+        <node begin="4" cat="conj" end="8" id="9" rel="det">
+          <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="10" infl="pl_num" lcat="detp" lemma="64" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="64" sense="64" special="hoofd" word="64"/>
+          <node begin="6" conjtype="neven" end="7" frame="conj(maar)" his="normal" his_1="normal" id="11" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+          <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="12" infl="pl_num" lcat="detp" lemma="4.600" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="cnj" root="4.600" sense="4.600" special="hoofd" word="4.600"/>
+        </node>
+        <node begin="8" end="9" frame="tmp_noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="leven" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="leven" sense="leven" special="tmp" word="levens"/>
+        <node begin="9" cat="pp" end="12" id="14" rel="mod">
+          <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="15" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="10" cat="mwu" end="12" his="normal" his_1="names_dictionary" id="16" mwu_root="Puerto Rico" mwu_sense="Puerto Rico" rel="obj1">
+            <node begin="10" end="11" frame="proper_name(sg,'LOC')" id="17" lcat="np" lemma="Puerto" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Puerto" sense="Puerto" spectype="deeleigen" word="Puerto"/>
+            <node begin="11" end="12" frame="proper_name(sg,'LOC')" id="18" lcat="np" lemma="Rico" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rico" sense="Rico" spectype="deeleigen" word="Rico"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Orkaan Maria eiste geen 64 , maar 4.600 levens in Puerto Rico</sentence>
+  <comments>
+    <comment>Q#1|Orkaan Maria eiste geen 64 , maar 4.600 levens in Puerto Rico|1|1|-4.094085820039998</comment>
+  </comments>
+</alpino_ds>

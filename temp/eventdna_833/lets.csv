@@ -1,0 +1,50 @@
+De	de	LID(bep)	B-NP	O
+Noord-Ierse	Noord-Iers	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+grens	grens	N(soort,ev,basis,zijd,stan)	I-NP	O
+?	?	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+probleem	probleem	N(soort,ev,basis,onz,stan)	I-NP	O
+voor	voor	VZ(init)	O	O
+later	laat	ADJ(vrij,comp,zonder)	B-AP	O
+				
+Britse	Brits	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+premier	premier	N(soort,ev,basis,zijd,stan)	I-NP	O
+Theresa	Theresa	SPEC(deeleigen)	I-NP	B-PER
+May	May	SPEC(deeleigen)	I-NP	I-PER
+en	en	VG(neven)	O	O
+voorzitter	voorzitter	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Europese	Europese	SPEC(deeleigen)	I-NP	B-ORG
+Commissie	Commissie	SPEC(deeleigen)	I-NP	I-ORG
+Jean-Claude	Jean-Claude	SPEC(deeleigen)	I-NP	I-ORG
+Juncker	Juncker	SPEC(deeleigen)	I-NP	I-ORG
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+voldoende	voldoende	ADJ(prenom,basis,zonder)	B-NP	O
+vooruitgang	vooruitgang	N(soort,ev,basis,zijd,stan)	I-NP	O
+geboekt	boeken	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Brexit-onderhandelingen	brexit-onderhandeling	N(soort,mv,basis)	I-NP	B-MISC
+om	om	VZ(init)	O	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+tweede	twee	TW(rang,prenom,stan)	I-NP	O
+fase	fase	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+beginnen	beginnen	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+het	het	LID(bep)	B-NP	O
+probleem	probleem	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Noord-Ierland	Noord-Ierland	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+wel	wel	BW()	B-ADVP	O
+ten	te	VZ(versm)	B-NP	O
+gronde	grond	N(soort,ev,basis,dat)	I-NP	O
+aangepakt	aanpakken	WW(vd,vrij,zonder)	B-VP	O
+?	?	LET()	O	O
+				

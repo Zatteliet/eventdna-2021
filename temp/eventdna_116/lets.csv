@@ -1,0 +1,40 @@
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+doodstraf	doodstraf	N(soort,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+grootste	groot	ADJ(prenom,sup,met-e,stan)	B-NP	O
+drugsmokkelaars	drugsmokkelaar	N(soort,mv,basis)	I-NP	O
+				
+Smokkelaars	smokkelaar	N(soort,mv,basis)	B-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+grote	groot	ADJ(prenom,basis,met-e,stan)	I-NP	O
+hoeveelheden	hoeveelheid	N(soort,mv,basis)	I-NP	O
+drugs	drug	N(soort,mv,basis)	I-NP	O
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+grens	grens	N(soort,ev,basis,zijd,stan)	I-NP	O
+brengen	brengen	WW(pv,tgw,mv)	B-VP	O
+,	,	LET()	O	O
+zullen	zullen	WW(pv,tgw,mv)	B-VP	O
+voortaan	voortaan	BW()	B-ADVP	O
+weer	weer	BW()	I-ADVP	O
+de	de	LID(bep)	B-NP	O
+doodstraf	doodstraf	N(soort,ev,basis,zijd,stan)	I-NP	O
+riskeren	riskeren	WW(pv,tgw,mv)	B-VP	O
+.	.	LET()	O	O
+				
+President	president	N(soort,ev,basis,zijd,stan)	B-NP	O
+Trump	Trump	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+hoopt	hopen	WW(pv,tgw,met-t)	B-VP	O
+zo	zo	BW()	B-ADVP	O
+het	het	LID(bep)	B-NP	O
+drugsprobleem	drugsprobleem	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+VS	VS	N(eigen,mv,basis)	I-NP	B-LOC
+in	in	VZ(fin)	O	O
+te	te	VZ(init)	B-VP	O
+dijken	dijken	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

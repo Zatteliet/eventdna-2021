@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,fir,pl,de,nom,def)" gen="de" getal="mv" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="wij" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="su" rnum="pl" root="wij" sense="wij" status="vol" vwtype="pers" wh="nwh" word="Wij"/>
+      <node begin="1" end="2" frame="verb(hebben,pl,nonp_pred_np)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="neem" sc="nonp_pred_np" sense="neem" stype="declarative" tense="present" word="nemen" wvorm="pv"/>
+      <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="4" lcat="np" lemma="Europa" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Europa" sense="Europa" word="Europa"/>
+      <node aform="base" begin="3" end="4" frame="adjective(pred(adv))" his="w_dia" id="5" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wél"/>
+      <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="serieus" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="serieus" sense="serieus" vform="adj" word="serieus"/>
+    </node>
+  </node>
+  <sentence sentid="1">Wij nemen Europa wél serieus</sentence>
+  <comments>
+    <comment>Q#1|Wij nemen Europa wél serieus|1|1|-6.234334720750002</comment>
+  </comments>
+</alpino_ds>

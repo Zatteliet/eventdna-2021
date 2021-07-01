@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="24" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+        <node begin="3" cat="pp" end="6" id="8" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="10" mwu_root="Buitenlandse Zaken" mwu_sense="Buitenlandse Zaken" rel="obj1">
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="Buitenlandse" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Buitenlandse" sense="Buitenlandse" spectype="deeleigen" word="Buitenlandse"/>
+            <node begin="5" end="6" frame="proper_name(sg,'ORG')" id="12" lcat="np" lemma="Zaken" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zaken" sense="Zaken" spectype="deeleigen" word="Zaken"/>
+          </node>
+        </node>
+        <node begin="7" cat="mwu" end="9" his="name" his_1="not_begin" id="13" mwu_root="Boris Johnson" mwu_sense="Boris Johnson" rel="app">
+          <node begin="7" end="8" frame="proper_name(sg,'PER')" id="14" lcat="np" lemma="Boris" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Boris" sense="Boris" spectype="deeleigen" word="Boris"/>
+          <node begin="8" end="9" frame="proper_name(sg,'PER')" id="15" lcat="np" lemma="Johnson" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Johnson" sense="Johnson" spectype="deeleigen" word="Johnson"/>
+        </node>
+      </node>
+      <node begin="10" end="11" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="16" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="24" id="17" rel="vc">
+        <node begin="0" end="9" id="18" index="1" rel="su"/>
+        <node begin="11" buiging="zonder" end="12" frame="verb(hebben,psp,ninv(vp_no_control,part_vp_no_control(voor)))" his="normal" his_1="part-V" id="19" infl="psp" lcat="ppart" lemma="voor_stellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="stel_voor" sc="part_vp_no_control(voor)" sense="stel_voor" word="voorgesteld" wvorm="vd"/>
+        <node begin="12" cat="oti" end="24" id="20" rel="vc">
+          <node begin="12" end="13" frame="complementizer(om)" his="normal" his_1="normal" id="21" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="13" cat="ti" end="24" id="22" rel="body">
+            <node begin="16" end="17" frame="complementizer(te)" his="normal" his_1="normal" id="23" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="13" cat="inf" end="24" id="24" rel="body">
+              <node begin="17" buiging="zonder" end="18" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="25" infl="inf" lcat="inf" lemma="bouwen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bouw" sc="transitive" sense="bouw" word="bouwen" wvorm="inf"/>
+              <node begin="13" cat="np" end="24" id="26" rel="obj1">
+                <node begin="13" end="14" frame="determiner(een)" his="normal" his_1="normal" id="27" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="28" infl="e" lcat="ap" lemma="gigantisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gigantisch" sense="gigantisch" vform="adj" word="gigantische"/>
+                <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="brug" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="brug" sense="brug" word="brug"/>
+                <node begin="18" cat="pp" end="24" id="30" rel="mod">
+                  <node begin="18" end="19" frame="preposition(tussen,[door,in,vandaan])" his="normal" his_1="normal" id="31" lcat="pp" lemma="tussen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tussen" sense="tussen" vztype="init" word="tussen"/>
+                  <node begin="19" cat="conj" end="24" id="32" rel="obj1">
+                    <node begin="19" end="20" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="33" lcat="np" lemma="Groot-Brittannië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Groot-Brittannië" sense="Groot-Brittannië" word="Groot-Brittannië"/>
+                    <node begin="20" conjtype="neven" end="21" frame="conj(en)" his="normal" his_1="normal" id="34" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                    <node begin="21" cat="np" end="24" id="35" rel="cnj">
+                      <node begin="21" end="22" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="36" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node aform="base" begin="22" buiging="met-e" end="23" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="37" infl="e" lcat="ap" lemma="Europees" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Europees" sense="Europees" vform="adj" word="Europese"/>
+                      <node begin="23" end="24" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="vasteland" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="vasteland" sense="vasteland" word="vasteland"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De Britse minister van Buitenlandse Zaken , Boris Johnson , heeft voorgesteld om een gigantische brug te bouwen tussen Groot-Brittannië en het Europese vasteland .</sentence>
+  <comments>
+    <comment>Q#2|De Britse minister van Buitenlandse Zaken , Boris Johnson , heeft voorgesteld om een gigantische brug te bouwen tussen Groot-Brittannië en het Europese vasteland .|1|1|-23.20153548848999</comment>
+  </comments>
+</alpino_ds>

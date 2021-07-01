@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="conj" end="12" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="cnj">
+        <node begin="0" end="1" frame="er_adverb(bij)" his="normal" his_1="decap" his_1_1="normal" id="3" index="1" lcat="pp" lemma="daarbij" pos="pp" postag="BW()" pt="bw" rel="mod" root="daarbij" sense="daarbij" special="er" word="Daarbij"/>
+        <node begin="1" end="2" frame="verb(zijn,past(pl),fixed([[om,het,leven]],no_passive))" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="komen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="kom" sc="fixed([[om,het,leven]],no_passive)" sense="om-het-leven-kom" tense="past" word="kwamen" wvorm="pv"/>
+        <node begin="2" cat="np" end="4" id="5" rel="su">
+          <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="6" infl="pl_num" lcat="detp" lemma="twee" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twee" sense="twee" special="hoofd" word="twee"/>
+          <node begin="3" end="4" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="slachtoffer" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="slachtoffer" sense="slachtoffer" word="slachtoffers"/>
+        </node>
+        <node begin="4" cat="mwu" end="7" his="normal" his_1="normal" id="8" mwu_root="om het leven" mwu_sense="om het leven" rel="svp">
+          <node begin="4" end="5" frame="fixed_part([om,het,leven])" id="9" lcat="fixed" lemma="om" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="om" sense="om" vztype="init" word="om"/>
+          <node begin="5" end="6" frame="fixed_part([om,het,leven])" id="10" lcat="fixed" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" word="het"/>
+          <node begin="6" end="7" frame="fixed_part([om,het,leven])" genus="onz" getal="ev" graad="basis" id="11" lcat="fixed" lemma="leven" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="leven" sense="leven" word="leven"/>
+        </node>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="12" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="12" id="13" rel="cnj">
+        <node begin="0" end="1" id="14" index="1" rel="mod"/>
+        <node begin="8" end="9" frame="verb(unacc,past(pl),nonp_copula)" his="normal" his_1="normal" id="15" infl="pl" lcat="smain" lemma="raken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="raak" sc="nonp_copula" sense="raak" tense="past" word="raakten" wvorm="pv"/>
+        <node begin="9" cat="np" end="11" id="16" rel="su">
+          <node begin="9" end="10" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="17" infl="pl_num" lcat="detp" lemma="twintig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="twintig" sense="twintig" special="hoofd" word="twintig"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="persoon" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="persoon" sense="persoon" word="personen"/>
+        </node>
+        <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(ge_no_e(padv))" graad="basis" his="normal" his_1="normal" id="19" infl="no_e" lcat="ppart" lemma="gewond" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="gewond" sense="gewond" vform="psp" word="gewond"/>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Daarbij kwamen twee slachtoffers om het leven en raakten twintig personen gewond .</sentence>
+  <comments>
+    <comment>Q#3|Daarbij kwamen twee slachtoffers om het leven en raakten twintig personen gewond .|1|1|-9.792719815000002</comment>
+  </comments>
+</alpino_ds>

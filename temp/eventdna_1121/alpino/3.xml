@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="25" end="26" frame="punct(haak_open)" his="normal" his_1="normal" id="3" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="0" cat="du" end="27" id="4" rel="--">
+      <node begin="0" cat="smain" end="25" id="5" rel="nucl">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="6" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+        <node begin="1" end="2" frame="verb(hebben,sg_heeft,np_pc_pp(van))" his="normal" his_1="normal" id="7" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="np_pc_pp(van)" sense="heb-van" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+        <node begin="2" cat="np" end="12" id="8" rel="obj1">
+          <node begin="2" cat="mwu" end="4" his="name" his_1="not_begin" id="9" mwu_root="Oriol Junqueras" mwu_sense="Oriol Junqueras" rel="hd">
+            <node begin="2" end="3" frame="proper_name(both,'PER')" id="10" lcat="np" lemma="Oriol" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Oriol" sense="Oriol" spectype="deeleigen" word="Oriol"/>
+            <node begin="3" end="4" frame="proper_name(both,'PER')" id="11" lcat="np" lemma="Junqueras" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Junqueras" sense="Junqueras" spectype="deeleigen" word="Junqueras"/>
+          </node>
+          <node begin="5" cat="np" end="12" id="12" rel="app">
+            <node begin="5" cat="np" end="7" id="13" rel="mod">
+              <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="14" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="6" end="7" frame="meas_mod_noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="nummer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="nummer" sense="nummer" special="meas_mod" word="nummer"/>
+            </node>
+            <node begin="7" end="8" frame="number(hoofd(pl_num))" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="16" infl="pl_num" lcat="np" lemma="twee" numtype="hoofd" pos="num" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="pl" root="twee" sense="twee" special="hoofd" word="twee"/>
+            <node begin="8" cat="pp" end="12" id="17" rel="mod">
+              <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="9" cat="np" end="12" id="19" rel="obj1">
+                <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="20" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="21" infl="e" lcat="ap" lemma="Catalaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Catalaans" sense="Catalaans" vform="adj" word="Catalaanse"/>
+                <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="14" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+        <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="24" infl="no_e" lcat="ppart" lemma="gezegd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="gezegd" sense="gezegd" vform="psp" word="gezegd" wvorm="vd"/>
+        <node begin="15" cat="pp" end="23" id="25" rel="mod">
+          <node begin="15" end="16" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="26" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="16" cat="np" end="23" id="27" rel="obj1">
+            <node begin="16" end="17" frame="determiner(een)" his="normal" his_1="normal" id="28" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="bijeenkomst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bijeenkomst" sense="bijeenkomst" word="bijeenkomst"/>
+            <node begin="18" cat="pp" end="23" id="30" rel="mod">
+              <node begin="18" end="19" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="31" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="19" cat="np" end="23" id="32" rel="obj1">
+                <node begin="19" buiging="zonder" end="20" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="33" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+                <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="partij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="partij" sense="partij" word="partij"/>
+                <node begin="21" cat="mwu" end="23" his="name" his_1="not_begin" id="35" mwu_root="Republikeins Links" mwu_sense="Republikeins Links" rel="app">
+                  <node begin="21" end="22" frame="proper_name(both,'ORG')" id="36" lcat="np" lemma="Republikeins" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Republikeins" sense="Republikeins" spectype="deeleigen" word="Republikeins"/>
+                  <node begin="22" end="23" frame="proper_name(both,'ORG')" id="37" lcat="np" lemma="Links" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Links" sense="Links" spectype="deeleigen" word="Links"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="23" cat="pp" end="25" id="38" rel="pc">
+          <node begin="23" end="24" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="39" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="24" end="25" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="40" lcat="np" lemma="Catalonië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Catalonië" sense="Catalonië" word="Catalonië"/>
+        </node>
+      </node>
+      <node begin="26" end="27" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="41" lcat="np" lemma="erc" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="sat" rnum="sg" root="erc" sense="erc" word="ERC"/>
+    </node>
+    <node begin="27" end="28" frame="punct(haak_sluit)" his="normal" his_1="normal" id="42" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="28" end="29" frame="punct(punt)" his="normal" his_1="normal" id="43" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat heeft Oriol Junqueras , het nummer twee van de Catalaanse regering , zaterdag gezegd op een bijeenkomst van zijn partij Republikeins Links van Catalonië ( ERC ) .</sentence>
+  <comments>
+    <comment>Q#3|Dat heeft Oriol Junqueras , het nummer twee van de Catalaanse regering , zaterdag gezegd op een bijeenkomst van zijn partij Republikeins Links van Catalonië ( ERC ) .|1|1|9.654025171830014</comment>
+  </comments>
+</alpino_ds>

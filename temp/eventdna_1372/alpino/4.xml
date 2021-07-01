@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" index="1" lcat="np" lemma="partij_genoot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="partij_genoot" sense="partij_genoot" word="Partijgenoten"/>
+      <node begin="1" end="2" frame="verb(hebben,past(pl),vp)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="proberen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="probeer" sc="vp" sense="probeer" stype="declarative" tense="past" word="probeerden" wvorm="pv"/>
+      <node begin="0" cat="ti" end="6" id="4" rel="vc">
+        <node begin="4" end="5" frame="complementizer(te)" his="normal" his_1="normal" id="5" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="6" id="6" rel="body">
+          <node begin="0" end="1" id="7" index="1" rel="su"/>
+          <node begin="2" case="dat_acc" def="def" end="3" frame="pronoun(nwh,thi,sg,de,dat_acc,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="8" lcat="np" lemma="hem" naamval="obl" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,obl,vol,3,ev,masc)" pt="vnw" rel="obj1" rnum="sg" root="hem" sense="hem" status="vol" vwtype="pers" wh="nwh" word="hem"/>
+          <node begin="3" end="4" frame="particle(om)" his="normal" his_1="normal" id="9" lcat="part" lemma="om" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="om" sense="om" vztype="fin" word="om"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(hebben,inf,part_transitive(om))" his="normal" his_1="normal" id="10" infl="inf" lcat="inf" lemma="om_praten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="praat_om" sc="part_transitive(om)" sense="praat_om" word="praten" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="6" end="7" frame="punct(punt)" his="normal" his_1="normal" id="11" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Partijgenoten probeerden hem om te praten .</sentence>
+  <comments>
+    <comment>Q#4|Partijgenoten probeerden hem om te praten .|1|1|-1.4220933474199995</comment>
+  </comments>
+</alpino_ds>

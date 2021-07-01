@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" conjtype="neven" end="1" frame="complementizer(root)" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="du" lemma="want" pos="comp" postag="VG(neven)" pt="vg" rel="dlink" root="want" sc="root" sense="want" word="Want"/>
+      <node begin="1" cat="du" end="16" id="4" rel="nucl">
+        <node begin="1" cat="smain" end="12" id="5" rel="nucl">
+          <node begin="1" end="2" frame="het_noun" genus="onz" getal="ev" his="normal" his_1="normal" id="6" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="sup" rnum="sg" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+          <node begin="2" end="3" frame="verb(hebben,modal_not_u,sbar_subj)" his="normal" his_1="normal" id="7" infl="modal_not_u" lcat="smain" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="sbar_subj" sense="kan" stype="declarative" tense="present" word="kan" wvorm="pv"/>
+          <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="8" lcat="advp" lemma="toch" pos="adv" postag="BW()" pt="bw" rel="mod" root="toch" sense="toch" word="toch"/>
+          <node begin="4" end="5" frame="adverb" his="normal" his_1="normal" id="9" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="5" cat="cp" end="12" id="10" rel="su">
+            <node begin="5" conjtype="onder" end="6" frame="complementizer(dat)" his="normal" his_1="normal" id="11" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+            <node begin="6" cat="ssub" end="12" id="12" rel="body">
+              <node begin="6" cat="np" end="9" id="13" rel="su">
+                <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                <node aform="base" begin="7" buiging="zonder" end="8" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="15" infl="no_e" lcat="ap" lemma="Slavisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Slavisch" sense="Slavisch" vform="adj" word="Slavisch"/>
+                <node begin="8" end="9" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="volk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="volk" sense="volk" word="volk"/>
+              </node>
+              <node begin="9" cat="np" end="11" id="17" rel="obj1">
+                <node begin="9" buiging="met-e" end="10" frame="determiner(onze)" getal="mv" his="normal" his_1="normal" id="18" infl="onze" lcat="detp" lemma="ons" naamval="stan" npagr="rest" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,met-e,rest)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="onze"/>
+                <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="geschiedenis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="geschiedenis" sense="geschiedenis" word="geschiedenis"/>
+              </node>
+              <node begin="11" end="12" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="20" infl="sg3" lcat="ssub" lemma="kapen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="kaap" sc="transitive" sense="kaap" tense="present" word="kaapt" wvorm="pv"/>
+            </node>
+          </node>
+        </node>
+        <node begin="13" cat="sv1" end="16" id="21" rel="tag">
+          <node begin="13" end="14" frame="verb(hebben,pl,sbar)" his="normal" his_1="normal" id="22" infl="pl" lcat="sv1" lemma="argumenteren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="argumenteer" sc="sbar" sense="argumenteer" tense="present" word="argumenteren" wvorm="pv"/>
+          <node begin="14" cat="np" end="16" id="23" rel="su">
+            <node begin="14" end="15" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="Griek" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="hd" rnum="pl" root="Griek" sense="Griek" word="Grieken"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Want het kan toch niet dat een Slavisch volk onze geschiedenis kaapt , argumenteren de Grieken .</sentence>
+  <comments>
+    <comment>Q#4|Want het kan toch niet dat een Slavisch volk onze geschiedenis kaapt , argumenteren de Grieken .|1|1|-3.928981565120001</comment>
+  </comments>
+</alpino_ds>

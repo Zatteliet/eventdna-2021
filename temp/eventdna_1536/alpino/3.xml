@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(unacc,sg3,pc_pp(uit))" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="blijken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijk" sc="pc_pp(uit)" sense="blijk-uit" stype="declarative" tense="present" word="blijkt" wvorm="pv"/>
+      <node begin="2" cat="pp" end="11" id="4" rel="pc">
+        <node begin="2" end="3" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="5" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+        <node begin="3" cat="np" end="11" id="6" rel="obj1">
+          <node begin="3" end="4" frame="determiner(een)" his="normal" his_1="normal" id="7" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="grootschalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="grootschalig" sense="grootschalig" vform="adj" word="grootschalige"/>
+          <node begin="5" end="6" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="9" lcat="np" lemma="bevraging" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bevraging" sense="bevraging" word="bevraging"/>
+          <node begin="6" cat="pp" end="11" id="10" rel="mod">
+            <node begin="6" cat="mwu" end="9" his="normal" his_1="normal" id="11" mwu_root="in opdracht van" mwu_sense="in opdracht van" rel="hd">
+              <node begin="6" end="7" frame="preposition([in,opdracht,van],[])" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="7" end="8" frame="preposition([in,opdracht,van],[])" genus="zijd" getal="ev" graad="basis" id="13" lcat="pp" lemma="opdracht" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="opdracht" sense="opdracht" word="opdracht"/>
+              <node begin="8" end="9" frame="preposition([in,opdracht,van],[])" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+            </node>
+            <node begin="9" cat="np" end="11" id="15" rel="obj1">
+              <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="16" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+              <node begin="10" end="11" frame="proper_name(sg,'ORG')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="Nieuwsblad" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Nieuwsblad" sense="Nieuwsblad" word="Nieuwsblad"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat blijkt uit een grootschalige bevraging in opdracht van Het Nieuwsblad .</sentence>
+  <comments>
+    <comment>Q#3|Dat blijkt uit een grootschalige bevraging in opdracht van Het Nieuwsblad .|1|1|-10.377400518700005</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="0" cat="smain" end="22" id="1" rel="--">
+      <node begin="0" cat="pp" end="3" id="2" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="3" id="4" rel="obj1">
+          <node begin="1" end="2" frame="determiner(een)" his="normal" his_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="persbericht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="persbericht" sense="persbericht" word="persbericht"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="schrijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="schrijf" sc="sbar" sense="schrijf" stype="declarative" tense="present" word="schrijft" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="su">
+        <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="justitie_minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="justitie_minister" sense="justitie_minister" word="justitieminister"/>
+      </node>
+      <node begin="6" cat="conj" end="22" id="11" rel="vc">
+        <node begin="6" cat="cp" end="11" id="12" rel="cnj">
+          <node begin="6" conjtype="onder" end="7" frame="complementizer(dat)" his="normal" his_1="normal" id="13" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="7" cat="ssub" end="11" id="14" rel="body">
+            <node begin="7" cat="np" end="9" id="15" rel="su">
+              <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="markt" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="markt" sense="markt" word="markt"/>
+            </node>
+            <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(padv))" graad="basis" his="normal" his_1="normal" id="18" infl="no_e" lcat="ap" lemma="oververhit" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="oververhit" sense="oververhit" vform="adj" word="oververhit"/>
+            <node begin="10" end="11" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="19" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="11" conjtype="neven" end="12" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="12" cat="cp" end="22" id="21" rel="cnj">
+          <node begin="12" conjtype="onder" end="13" frame="complementizer(dat)" his="normal" his_1="normal" id="22" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="13" cat="ssub" end="22" id="23" rel="body">
+            <node begin="13" cat="np" end="16" id="24" index="1" rel="su">
+              <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="26" infl="e" lcat="ap" lemma="virtueel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="virtueel" sense="virtueel" vform="adj" word="virtuele"/>
+              <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="munt" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="munt" sense="munt" word="munten"/>
+            </node>
+            <node begin="19" end="20" frame="verb('hebben/zijn',pl,aux(inf))" his="normal" his_1="normal" id="28" infl="pl" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kunnen" wvorm="pv"/>
+            <node begin="13" cat="inf" end="22" id="29" rel="vc">
+              <node begin="13" end="16" id="30" index="1" rel="su"/>
+              <node begin="20" buiging="zonder" end="21" frame="verb(unacc,inf,passive)" his="normal" his_1="normal" id="31" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+              <node begin="13" cat="ppart" end="22" id="32" rel="vc">
+                <node begin="13" end="16" id="33" index="1" rel="obj1"/>
+                <node begin="16" end="17" frame="adverb" his="normal" his_1="normal" id="34" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                <node begin="17" cat="cp" end="19" id="35" rel="predc">
+                  <node begin="17" end="18" frame="complementizer(als)" his="normal" his_1="normal" id="36" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+                  <node begin="18" end="19" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="betaal_middel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="body" rnum="sg" root="betaal_middel" sense="betaal_middel" word="betaalmiddel"/>
+                </node>
+                <node begin="21" buiging="zonder" end="22" frame="verb(hebben,psp,als_pred_np)" his="normal" his_1="normal" id="38" infl="psp" lcat="ppart" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" sc="als_pred_np" sense="gebruik" word="gebruikt" wvorm="vd"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="39" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">In een persbericht schrijft de justitieminister dat de markt oververhit is en dat de virtuele munten niet als betaalmiddel kunnen worden gebruikt .</sentence>
+  <comments>
+    <comment>Q#4|In een persbericht schrijft de justitieminister dat de markt oververhit is en dat de virtuele munten niet als betaalmiddel kunnen worden gebruikt .|1|1|-15.798261841860002</comment>
+  </comments>
+</alpino_ds>

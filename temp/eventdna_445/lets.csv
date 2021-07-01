@@ -1,0 +1,57 @@
+Snowden	snowde	N(soort,mv,basis)	B-NP	O
+brengt	brengen	WW(pv,tgw,met-t)	B-VP	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	O	O
+in	in	VZ(init)	B-PP	O
+lastig	lastig	ADJ(prenom,basis,zonder)	B-NP	O
+parket	parket	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Russische	Russisch	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+'	'	LET()	O	O
+in	in	VZ(init)	B-PP	O
+veel	veel	VNW(onbep,grad,basis)	B-NP	O
+opzichten	opzicht	N(soort,mv,basis)	I-NP	O
+corrupt	corrupt	ADJ(vrij,basis,zonder)	B-AP	O
+'	'	LET()	O	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+zegt	zeggen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+klokkenluider	klokkenluider	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+NSA-schandaal	NSA-schandaal	SPEC(deeleigen)	I-NP	B-MISC
+Edward	Edward	SPEC(deeleigen)	I-NP	B-PER
+Snowden	Snowden	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+al	al	BW()	B-NP	O
+vijf	vijf	TW(hoofd,prenom,stan)	I-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+land	land	N(soort,ev,basis,onz,stan)	I-NP	O
+verblijft	verblijven	WW(pv,tgw,met-t)	B-VP	O
+om	om	VZ(init)	O	O
+te	te	VZ(init)	B-VP	O
+ontkomen	ontkomen	WW(inf,vrij,zonder)	I-VP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+inlichtingendiensten	inlichtingendienst	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Door	door	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+uitspraak	uitspraak	N(soort,ev,basis,zijd,stan)	I-NP	O
+brengt	brengen	WW(pv,tgw,met-t)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	O	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	O	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+problemen	probleem	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				

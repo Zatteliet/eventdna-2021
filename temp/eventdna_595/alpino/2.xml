@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="3" end="4" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="5" end="6" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="3" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="du" end="9" id="4" rel="--">
+      <node begin="0" end="1" frame="tag" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="advp" lemma="tiens" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="tiens" sense="tiens" word="Tiens"/>
+      <node begin="2" cat="sv1" end="9" id="6" rel="nucl">
+        <node begin="2" end="3" frame="verb(unacc,past(sg),passive)" his="normal" his_1="normal" id="7" infl="sg" lcat="sv1" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="passive" sense="ben" stype="ynquestion" tense="past" word="was" wvorm="pv"/>
+        <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="8" index="1" lcat="np" lemma="Calais" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Calais" sense="Calais" word="Calais"/>
+        <node begin="4" cat="ppart" end="9" id="9" rel="vc">
+          <node begin="4" end="5" id="10" index="1" rel="obj1"/>
+          <node begin="6" end="7" frame="tmp_adverb" his="normal" his_1="normal" id="11" lcat="advp" lemma="dan" pos="adv" postag="BW()" pt="bw" rel="mod" root="dan" sense="dan" special="tmp" word="dan"/>
+          <node begin="7" end="8" frame="adverb" his="normal" his_1="normal" id="12" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+          <node begin="8" buiging="zonder" end="9" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="13" infl="psp" lcat="ppart" lemma="op_ruimen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ruim_op" sc="part_transitive(op)" sense="ruim_op" word="opgeruimd" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="9" end="10" frame="punct(vraag)" his="normal" his_1="normal" id="14" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="2">Tiens , was &apos; Calais &apos; dan niet opgeruimd ?</sentence>
+  <comments>
+    <comment>Q#2|Tiens , was &apos; Calais &apos; dan niet opgeruimd ?|1|1|-1.28120742869</comment>
+  </comments>
+</alpino_ds>

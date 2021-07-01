@@ -1,0 +1,43 @@
+Laatste	laat	ADJ(prenom,sup,met-e,stan)	B-NP	O
+ernstige	ernstig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+uitdager	uitdager	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Sisi	Sisi	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+cel	cel	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+sterke	sterk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+man	man	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Egypte	Egypte	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+Abdelfattah	Abdelfattah	SPEC(deeleigen)	B-NP	B-PER
+al-Sisi	al-Sisi	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+wil	willen	WW(pv,tgw,ev)	B-VP	O
+eind	eind	N(soort,ev,basis,onz,stan)	B-NP	O
+maart	maart	N(eigen,ev,basis,zijd,stan)	I-NP	O
+herverkozen	herverkiezen	WW(vd,vrij,zonder)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+voor	voor	VZ(init)	O	O
+een	een	LID(onbep)	B-AP	O
+tweede	twee	TW(rang,prenom,stan)	I-AP	O
+en	en	VG(neven)	O	O
+laatste	laat	ADJ(prenom,sup,met-e,stan)	B-NP	O
+termijn	termijn	N(soort,ev,basis,zijd,stan)	I-NP	O
+als	als	VZ(init)	B-PP	O
+president	president	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				
+Serieuze	serieus	ADJ(prenom,basis,met-e,stan)	B-NP	O
+uitdagers	uitdager	N(soort,mv,basis)	I-NP	O
+als	als	VZ(init)	B-PP	O
+Sami	Sami	SPEC(deeleigen)	B-NP	B-PER
+Anan	Anan	SPEC(deeleigen)	I-NP	I-PER
+moeten	moeten	WW(pv,tgw,mv)	B-VP	O
+dus	dus	BW()	B-ADVP	O
+wijken	wijken	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

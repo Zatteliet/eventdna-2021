@@ -1,0 +1,40 @@
+'	'	LET()	O	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+banken	bank	N(soort,mv,basis)	I-NP	O
+investeren	investeren	WW(pv,tgw,mv)	B-VP	O
+16	16	TW(hoofd,prenom,stan)	B-NP	O
+miljard	miljard	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+kernwapens	kernwapen	N(soort,mv,basis)	B-NP	O
+'	'	LET()	O	O
+				
+Ook	ook	BW()	B-ADVP	O
+Belgische	Belgisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+banken	bank	N(soort,mv,basis)	I-NP	O
+blijven	blijven	WW(pv,tgw,mv)	B-VP	O
+volop	volop	BW()	B-ADVP	O
+investeren	investeren	WW(inf,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+productie	productie	N(soort,ev,basis,zijd,stan)	I-NP	O
+en	en	VG(neven)	O	O
+onderhoud	onderhoud	N(soort,ev,basis,onz,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+kernwapens	kernwapen	N(soort,mv,basis)	B-NP	O
+.	.	LET()	O	O
+				
+Ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+leenden	lenen	WW(pv,verl,mv)	B-VP	O
+10	10	TW(hoofd,prenom,stan)	B-NP	O
+procent	procent	N(soort,ev,basis,onz,stan)	I-NP	O
+meer	veel	VNW(onbep,grad,comp)	O	O
+dan	dan	VG(onder)	O	O
+vorig	vorig	ADJ(prenom,basis,zonder)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+toont	tonen	WW(pv,tgw,met-t)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+nieuw	nieuw	ADJ(prenom,basis,zonder)	I-NP	O
+rapport	rapport	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,61 @@
+Cambridge	Cambridge	SPEC(deeleigen)	B-NP	B-PER
+Analytica	Analytica	SPEC(deeleigen)	I-NP	I-PER
+speelt	spelen	WW(pv,tgw,met-t)	B-VP	O
+omzet	omzet	N(soort,ev,basis,zijd,stan)	B-NP	O
+Facebook	Facebook	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+parten	part	N(soort,mv,basis)	I-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+privacyschandaal	privacyschandaal	N(soort,ev,basis,onz,stan)	I-NP	O
+rondom	rondom	VZ(init)	B-PP	O
+Cambridge	Cambridge	SPEC(deeleigen)	B-NP	B-LOC
+Analytica	Analytica	SPEC(deeleigen)	I-NP	I-LOC
+lijkt	lijken	WW(pv,tgw,met-t)	B-VP	O
+techbedrijf	techbedrijf	N(soort,ev,basis,zijd,stan)	B-NP	O
+Facebook	Facebook	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+te	te	VZ(init)	B-VP	O
+hebben	hebben	WW(inf,vrij,zonder)	I-VP	O
+geraakt	raken	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+aanwas	aanwas	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	B-NP	O
+gebruikers	gebruiker	N(soort,mv,basis)	I-NP	O
+groeide	groeien	WW(pv,verl,ev)	B-VP	O
+gestaag	gestaag	ADJ(vrij,basis,zonder)	B-AP	O
+verder	ver	ADJ(vrij,comp,zonder)	I-AP	O
+,	,	LET()	O	O
+maar	maar	VG(neven)	O	O
+minder	weinig	VNW(onbep,grad,comp)	B-AP	O
+sterk	sterk	ADJ(vrij,basis,zonder)	I-AP	O
+dan	dan	VG(onder)	O	O
+waar	waar	VNW(vb,adv-pron,3o,getal)	B-NP	O
+experts	expert	N(soort,mv,basis)	I-NP	O
+op	op	VZ(fin)	O	O
+hadden	hebben	WW(pv,verl,mv)	B-VP	O
+gerekend	rekenen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Dit	dit	VNW(aanw,pron,3o,ev)	B-NP	O
+gold	gelden	WW(pv,verl,ev)	B-VP	O
+ook	ook	BW()	B-ADVP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+omzet	omzet	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+nabeurshandel	nabeurshandel	N(soort,ev,basis,zijd,stan)	I-NP	O
+ging	gaan	WW(pv,verl,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+aandeel	aandeel	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+bedrijf	bedrijf	N(soort,ev,basis,onz,stan)	I-NP	O
+stevig	stevig	ADJ(vrij,basis,zonder)	B-AP	O
+onderuit	onderuit	BW()	B-ADVP	O
+.	.	LET()	O	O
+				

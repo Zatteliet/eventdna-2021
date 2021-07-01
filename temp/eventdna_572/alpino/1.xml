@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="smain" end="11" id="2" rel="--">
+      <node begin="0" cat="np" end="4" id="3" rel="su">
+        <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="referendum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="referendum" sense="referendum" word="Referendum"/>
+        <node begin="1" end="2" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Catalonië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Catalonië" sense="Catalonië" word="Catalonië"/>
+        <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Madrid" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="Madrid" sense="Madrid" word="Madrid"/>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg3,part_np_vp_obj1(op))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="op_roepen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="roep_op" sc="part_np_vp_obj1(op)" sense="roep_op" stype="declarative" tense="present" word="roept" wvorm="pv"/>
+      <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="8" index="1" lcat="np" lemma="Puigdemont" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Puigdemont" sense="Puigdemont" word="Puigdemont"/>
+      <node begin="6" end="7" frame="particle(op)" his="normal" his_1="normal" id="9" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+      <node begin="5" cat="ti" end="11" id="10" rel="vc">
+        <node begin="9" end="10" frame="complementizer(te)" his="normal" his_1="normal" id="11" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="5" cat="inf" end="11" id="12" rel="body">
+          <node begin="5" end="6" id="13" index="1" rel="su"/>
+          <node begin="7" cat="np" end="9" id="14" rel="obj1">
+            <node begin="7" end="8" frame="iets_noun" getal="ev" his="normal" his_1="normal" id="15" lcat="np" lemma="niets" naamval="stan" pdtype="pron" persoon="3o" pos="noun" postag="VNW(onbep,pron,stan,vol,3o,ev)" pt="vnw" rel="hd" rnum="sg" root="niets" sc="iets" sense="niets" status="vol" vwtype="onbep" word="niets"/>
+            <node aform="base" begin="8" buiging="met-s" end="9" frame="post_adjective(no_e)" graad="basis" his="normal" his_1="Adj-s" id="16" iets="true" infl="no_e" lcat="ap" lemma="onomkeerbaar" pos="adj" positie="postnom" postag="ADJ(postnom,basis,met-s)" pt="adj" rel="mod" root="onomkeerbaar" sense="onomkeerbaar" special="iets" vform="adj" word="onomkeerbaars"/>
+          </node>
+          <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="17" infl="inf" lcat="inf" lemma="ondernemen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="onderneem" sc="transitive" sense="onderneem" word="ondernemen" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Referendum Catalonië : Madrid roept Puigdemont op niets onomkeerbaars te ondernemen</sentence>
+  <comments>
+    <comment>Q#1|Referendum Catalonië : Madrid roept Puigdemont op niets onomkeerbaars te ondernemen|1|1|1.0502411431700023</comment>
+  </comments>
+</alpino_ds>

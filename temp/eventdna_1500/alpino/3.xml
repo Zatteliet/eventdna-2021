@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="7" end="8" frame="punct(haak_open)" his="normal" his_1="normal" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="9" end="10" frame="punct(haak_sluit)" his="normal" his_1="normal" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="11" id="4" rel="--">
+      <node begin="0" cat="np" end="3" id="5" rel="predc">
+        <node begin="0" cat="mwu" end="2" his="name_gen" his_1="begin" id="6" mwu_root="Hallucinant Brussels" mwu_sense="Hallucinant Brussels" rel="det">
+          <node begin="0" end="1" frame="name_determiner(pron,'PER')" id="7" infl="pron" lcat="detp" lemma="Hallucinant" neclass="PER" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Hallucinant" sense="Hallucinant" special="name" spectype="deeleigen" word="Hallucinant"/>
+          <node begin="1" end="2" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="8" infl="pron" lcat="detp" lemma="Brussels" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Brussels" sense="Brussels" special="name" word="Brussels"/>
+        </node>
+        <node begin="2" end="3" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="wan_beleid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="wan_beleid" sense="wan_beleid" word="wanbeleid"/>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,past(sg),pred_np)" his="normal" his_1="normal" id="10" infl="sg" lcat="smain" lemma="noemen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="noem" sc="pred_np" sense="noem" stype="declarative" tense="past" word="noemde" wvorm="pv"/>
+      <node begin="5" cat="np" end="9" id="11" rel="su">
+        <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="12" mwu_root="Theo Francken" mwu_sense="Theo Francken" rel="hd">
+          <node begin="5" end="6" frame="proper_name(both,'PER')" id="13" lcat="np" lemma="Theo" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theo" sense="Theo" spectype="deeleigen" word="Theo"/>
+          <node begin="6" end="7" frame="proper_name(both,'PER')" id="14" lcat="np" lemma="Francken" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Francken" sense="Francken" spectype="deeleigen" word="Francken"/>
+        </node>
+        <node begin="8" end="9" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="15" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+      </node>
+      <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="16" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj1" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="17" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Hallucinant Brussels wanbeleid , noemde Theo Francken ( N-VA ) het .</sentence>
+  <comments>
+    <comment>Q#3|Hallucinant Brussels wanbeleid , noemde Theo Francken ( N-VA ) het .|1|1|0.19412687681999785</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="15" id="0" rel="top">
+    <node begin="0" cat="smain" end="15" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" index="1" rel="su">
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="3" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="0" cat="np" end="4" id="4" rel="cnj">
+          <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="np" lemma="gemeente_raad_lid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gemeente_raad_lid" sense="gemeente_raad_lid" word="Gemeenteraadslid"/>
+          <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" index="2" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+        </node>
+        <node begin="2" cat="np" end="4" id="7" rel="cnj">
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="fractie_leider" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fractie_leider" sense="fractie_leider" word="fractieleider"/>
+          <node begin="3" end="4" id="9" index="2" rel="app"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg3,aux(te))" his="normal" his_1="normal" id="10" infl="sg3" lcat="smain" lemma="dreigen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dreig" sc="aux(te)" sense="dreig" stype="declarative" tense="present" word="dreigt" wvorm="pv"/>
+      <node begin="0" cat="ti" end="15" id="11" rel="vc">
+        <node begin="6" end="7" frame="complementizer(te)" his="normal" his_1="normal" id="12" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="15" id="13" rel="body">
+          <node begin="0" end="4" id="14" index="1" rel="su"/>
+          <node begin="7" buiging="zonder" end="8" frame="verb(unacc,inf,passive)" his="normal" his_1="normal" id="15" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+          <node begin="0" cat="ppart" end="15" id="16" rel="vc">
+            <node begin="0" end="4" id="17" index="1" rel="obj1"/>
+            <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="18" infl="psp" lcat="ppart" lemma="schorsen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="schors" sc="transitive" sense="schors" word="geschorst" wvorm="vd"/>
+            <node begin="8" cat="cp" end="15" id="19" rel="mod">
+              <node begin="8" conjtype="onder" end="9" frame="complementizer" his="normal" his_1="normal" id="20" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+              <node begin="9" cat="ssub" end="15" id="21" rel="body">
+                <node begin="9" case="nom" def="def" end="10" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="22" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+                <node begin="10" end="11" frame="adverb" his="normal" his_1="normal" id="23" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                <node begin="11" cat="pp" end="14" id="24" rel="ld">
+                  <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="25" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="12" cat="np" end="14" id="26" rel="obj1">
+                    <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="27" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="gemeente" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="gemeente" sense="gemeente" word="gemeente"/>
+                  </node>
+                </node>
+                <node begin="14" end="15" frame="verb(hebben,sg3,ld_pp)" his="normal" his_1="normal" id="29" infl="sg3" lcat="ssub" lemma="wonen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="woon" sc="ld_pp" sense="woon" tense="present" word="woont" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Gemeenteraadslid en fractieleider N-VA dreigt geschorst te worden omdat hij niet in de gemeente woont</sentence>
+  <comments>
+    <comment>Q#1|Gemeenteraadslid en fractieleider N-VA dreigt geschorst te worden omdat hij niet in de gemeente woont|1|1|-8.783170444740001</comment>
+  </comments>
+</alpino_ds>

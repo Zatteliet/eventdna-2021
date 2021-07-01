@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="Gerechtshof" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Gerechtshof" sense="Gerechtshof" word="Gerechtshof"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="dansen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="dans" sc="intransitive" sense="dans" stype="declarative" tense="present" word="danst" wvorm="pv"/>
+      <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="4" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+      <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="5" lcat="advp" lemma="zomaar" pos="adv" postag="BW()" pt="bw" rel="mod" root="zomaar" sense="zomaar" word="zomaar"/>
+      <node begin="4" end="5" frame="loc_adverb" his="normal" his_1="normal" id="6" lcat="advp" lemma="mee" pos="adv" postag="BW()" pt="bw" rel="mod" root="mee" sense="mee" special="loc" word="mee"/>
+      <node begin="5" cat="pp" end="7" id="7" rel="mod">
+        <node begin="5" end="6" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+        <node begin="6" end="7" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="9" lcat="np" lemma="Ageas" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Ageas" sense="Ageas" word="Ageas"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Gerechtshof danst niet zomaar mee met Ageas</sentence>
+  <comments>
+    <comment>Q#1|Gerechtshof danst niet zomaar mee met Ageas|1|1|0.5362925922600026</comment>
+  </comments>
+</alpino_ds>

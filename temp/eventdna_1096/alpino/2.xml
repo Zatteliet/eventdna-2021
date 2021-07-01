@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" cat="smain" end="23" id="1" rel="--">
+      <node begin="8" end="9" frame="verb(hebben,pl,aux_psp_hebben)" his="normal" his_1="normal" id="2" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+      <node begin="9" cat="np" end="11" id="3" index="1" rel="su">
+        <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Pools" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Pools" sense="Pools" vform="adj" word="Poolse"/>
+        <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="speurder" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="speurder" sense="speurder" word="speurders"/>
+      </node>
+      <node begin="0" cat="inf" end="23" id="6" rel="vc">
+        <node begin="9" end="11" id="7" index="1" rel="su"/>
+        <node begin="14" buiging="zonder" end="15" frame="verb('hebben/zijn',inf,aux(inf))" his="normal" his_1="normal" id="8" infl="inf" lcat="inf" lemma="kunnen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="kan" sc="aux(inf)" sense="kan" word="kunnen" wvorm="inf"/>
+        <node begin="0" cat="inf" end="23" id="9" rel="vc">
+          <node begin="0" cat="pp" end="8" id="10" rel="mod">
+            <node begin="0" cat="mwu" end="3" his="normal" his_1="decap" his_1_1="normal" id="11" mwu_root="in samenwerking met" mwu_sense="in samenwerking met" rel="hd">
+              <node begin="0" end="1" frame="preposition([in,samenwerking,met],[])" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="In"/>
+              <node begin="1" end="2" frame="preposition([in,samenwerking,met],[])" genus="zijd" getal="ev" graad="basis" id="13" lcat="pp" lemma="samenwerking" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="samenwerking" sense="samenwerking" word="samenwerking"/>
+              <node begin="2" end="3" frame="preposition([in,samenwerking,met],[])" id="14" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="met" sense="met" vztype="init" word="met"/>
+            </node>
+            <node begin="3" cat="conj" end="8" id="15" rel="obj1">
+              <node begin="3" cat="np" end="6" id="16" rel="cnj">
+                <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="18" infl="e" lcat="ap" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" sense="Belgisch" vform="adj" word="Belgische"/>
+                <node begin="5" end="6" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+              </node>
+              <node begin="6" conjtype="neven" end="7" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="7" end="8" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="Europol" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Europol" sense="Europol" word="Europol"/>
+            </node>
+          </node>
+          <node begin="9" end="11" id="22" index="1" rel="su"/>
+          <node begin="15" buiging="zonder" end="16" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="23" infl="inf" lcat="inf" lemma="vatten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="vat" sc="transitive" sense="vat" word="vatten" wvorm="inf"/>
+          <node begin="11" cat="np" end="23" id="24" rel="obj1">
+            <node begin="11" end="12" frame="determiner(een)" his="normal" his_1="normal" id="25" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="26" infl="e" lcat="ap" lemma="Pools" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Pools" sense="Pools" vform="adj" word="Poolse"/>
+            <node begin="13" end="14" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="27" lcat="np" lemma="cybercrimineel" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="cybercrimineel" sense="cybercrimineel" word="cybercrimineel"/>
+            <node begin="16" cat="rel" end="23" id="28" rel="mod">
+              <node begin="16" case="no_obl" end="17" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="29" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="16" cat="ssub" end="23" id="30" rel="body">
+                <node begin="16" end="17" id="31" index="2" rel="su"/>
+                <node begin="17" cat="np" end="19" id="32" rel="mod">
+                  <node begin="17" end="18" frame="determiner(een)" his="normal" his_1="normal" id="33" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="18" end="19" frame="tmp_noun(both,count,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="tijdlang" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tijdlang" sense="tijdlang" special="tmp" word="tijdlang"/>
+                </node>
+                <node begin="19" cat="pp" end="22" id="35" rel="mod">
+                  <node begin="19" end="20" frame="preposition(in,[])" his="normal" his_1="normal" id="36" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="20" cat="np" end="22" id="37" rel="obj1">
+                    <node begin="20" buiging="zonder" end="21" frame="determiner(het)" getal="mv" his="normal" his_1="normal" id="38" infl="het" lcat="detp" lemma="ons" naamval="stan" npagr="evon" pdtype="det" persoon="1" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,1,mv,prenom,zonder,evon)" pt="vnw" rel="det" root="ons" sense="ons" status="vol" vwtype="bez" word="ons"/>
+                    <node begin="21" end="22" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="land" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="land" sense="land" word="land"/>
+                  </node>
+                </node>
+                <node begin="22" end="23" frame="verb(zijn,past(sg),ninv(intransitive,part_intransitive(onder)))" his="normal" his_1="part-V" id="40" infl="sg" lcat="ssub" lemma="onder_duiken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="duik_onder" sc="part_intransitive(onder)" sense="duik_onder" tense="past" word="onderdook" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="41" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">In samenwerking met de Belgische politie en Europol hebben Poolse speurders een Poolse cybercrimineel kunnen vatten die een tijdlang in ons land onderdook .</sentence>
+  <comments>
+    <comment>Q#2|In samenwerking met de Belgische politie en Europol hebben Poolse speurders een Poolse cybercrimineel kunnen vatten die een tijdlang in ons land onderdook .|1|1|-3.8216444000000016</comment>
+  </comments>
+</alpino_ds>

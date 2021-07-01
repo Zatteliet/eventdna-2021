@@ -1,0 +1,65 @@
+3.707	3.707	SPEC(symb)	B-NP	O
+politie-agenten	politie-agent	N(soort,mv,basis)	I-NP	O
+te	te	BW()	B-AP	O
+kort	kort	ADJ(vrij,basis,zonder)	I-AP	O
+				
+Bonden	bond	N(soort,mv,basis)	B-NP	O
+klagen	klagen	WW(pv,tgw,mv)	B-VP	O
+aan	aan	VZ(fin)	O	O
+:	:	LET()	O	O
+minister	minister	N(soort,ev,basis,zijd,stan)	B-NP	O
+Jambon	Jambon	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+krijgt	krijgen	WW(pv,tgw,met-t)	B-VP	O
+probleem	probleem	N(soort,ev,basis,onz,stan)	B-NP	O
+niet	niet	BW()	B-ADVP	O
+opgelost	oplossen	WW(vd,vrij,zonder)	B-VP	O
+				
+De	de	LID(bep)	B-NP	O
+politiediensten	politiedienst	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+onderbemand	onderbemannen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+totaal	totaal	N(soort,ev,basis,onz,stan)	B-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+3.707	3.707	TW(hoofd,prenom,stan)	I-NP	O
+agenten	agent	N(soort,mv,basis)	I-NP	O
+te	te	BW()	B-AP	O
+kort	kort	ADJ(vrij,basis,zonder)	I-AP	O
+:	:	LET()	O	O
+1.610	1.610	TW(hoofd,vrij)	B-NP	O
+bij	bij	VZ(init)	O	O
+de	de	LID(bep)	B-AP	O
+federale	federaal	ADJ(prenom,basis,met-e,stan)	I-AP	O
+en	en	VG(neven)	O	O
+2.097	2.097	TW(hoofd,vrij)	B-NP	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+lokale	lokaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+politie	politie	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+driekwart	driekwart	ADJ(nom,basis,zonder,zonder-n)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+politiezones	politiezone	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+minder	weinig	VNW(onbep,grad,comp)	I-NP	O
+agenten	agent	N(soort,mv,basis)	I-NP	O
+dan	dan	VG(onder)	O	O
+voorzien	voorzien	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Vooral	vooral	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+grote	groot	ADJ(prenom,basis,met-e,stan)	I-NP	O
+steden	stad	N(soort,mv,basis)	I-NP	O
+kampen	kampen	WW(pv,tgw,mv)	B-VP	O
+met	met	VZ(init)	B-PP	O
+personeelstekort	personeelstekort	N(soort,ev,basis,onz,stan)	B-NP	O
+.	.	LET()	O	O
+				

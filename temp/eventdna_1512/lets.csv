@@ -1,0 +1,50 @@
+Eerste	een	TW(rang,prenom,stan)	B-NP	O
+uitgewezen	uitwijzen	WW(vd,prenom,zonder)	I-NP	O
+gezin	gezin	N(soort,ev,basis,onz,stan)	I-NP	O
+opgesloten	opsluiten	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+Steenokkerzeel	Steenokkerzeel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+:	:	LET()	O	O
+België	België	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+één	één	TW(hoofd,prenom,stan)	B-NP	O
+klap	klap	N(soort,ev,basis,zijd,stan)	I-NP	O
+10	10	TW(hoofd,prenom,stan)	I-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+achteruit	achteruit	BW()	B-ADVP	O
+				
+Dinsdagvoormiddag	Dinsdagvoormiddag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+een	een	TW(hoofd,nom,zonder-n,basis)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+woonunits	woonunit	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+gesloten	sluiten	WW(vd,prenom,zonder)	I-NP	O
+centrum	centrum	N(soort,ev,basis,onz,stan)	I-NP	O
+127bis	127bis	SPEC(symb)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Steenokkerzeel	Steenokkerzeel	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+een	een	LID(onbep)	B-NP	O
+eerste	een	TW(rang,prenom,stan)	I-NP	O
+gezin	gezin	N(soort,ev,basis,onz,stan)	I-NP	O
+aangekomen	aankomen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Dienst	dienst	N(soort,ev,basis,zijd,stan)	I-NP	B-ORG
+Vreemdelingenzaken	vreemdelingenzaak	N(soort,mv,basis)	I-NP	I-ORG
+bevestigd	bevestigen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Middenveldorganisaties	middenveldorganisatie	N(soort,mv,basis)	B-NP	O
+reageren	reageren	WW(pv,tgw,mv)	B-VP	O
+misnoegd	misnoegen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Okra Bocholt" mwu_sense="Okra Bocholt" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Okra" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Okra" sense="Okra" spectype="deeleigen" word="Okra"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Bocholt" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bocholt" sense="Bocholt" spectype="deeleigen" word="Bocholt"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="vieren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vier" sc="transitive" sense="vier" stype="declarative" tense="present" word="viert" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="obj1">
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(stof)" graad="basis" his="normal" his_1="normal" id="7" infl="stof" lcat="ap" lemma="diamanten" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="diamanten" sense="diamanten" vform="adj" word="diamanten"/>
+        <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="jubileum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jubileum" sense="jubileum" word="jubileum"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Okra Bocholt viert diamanten jubileum</sentence>
+  <comments>
+    <comment>Q#1|Okra Bocholt viert diamanten jubileum|1|1|-3.8905178544500005</comment>
+  </comments>
+</alpino_ds>

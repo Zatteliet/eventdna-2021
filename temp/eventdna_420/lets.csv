@@ -1,0 +1,32 @@
+'	'	LET()	O	O
+Mayeur	mayeur	N(soort,ev,basis,zijd,stan)	B-NP	O
+en	en	VG(neven)	O	O
+Peraïta	Peraïta	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+moeten	moeten	WW(pv,tgw,mv)	B-VP	O
+225.000	225.000	TW(hoofd,prenom,stan)	B-NP	O
+euro	euro	N(soort,ev,basis,zijd,stan)	I-NP	O
+terugbetalen	terugbetalen	WW(inf,vrij,zonder)	B-VP	O
+'	'	LET()	O	O
+				
+Commissie-Samusocial	Commissie-Samusocial	N(soort,ev,basis,onz,stan)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+hard	hard	ADJ(vrij,basis,zonder)	B-AP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+organisatie	organisatie	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Ze	ze	VNW(pers,pron,3,mv)	B-NP	O
+willen	willen	WW(pv,tgw,mv)	B-VP	O
+onterecht	onterecht	ADJ(vrij,basis,zonder)	B-NP	O
+betaalde	betalen	WW(vd,prenom,met-e)	I-NP	O
+zitpenningen	zitpenning	N(soort,mv,basis)	I-NP	O
+terug	terug	BW()	B-ADVP	O
+				
+Alles	alles	VNW(onbep,pron,3o,ev)	B-NP	O
+samen	samen	BW()	B-ADVP	O
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+om	om	VZ(init)	B-PP	O
+346.000	346.000	TW(hoofd,prenom,stan)	B-NP	O
+euro	euro	N(soort,ev,basis,zijd,stan)	I-NP	O
+				

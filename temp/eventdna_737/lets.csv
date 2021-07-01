@@ -1,0 +1,29 @@
+Saudi's	saudi	N(soort,mv,basis)	B-NP	O
+vrezen	vrezen	WW(pv,tgw,mv)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+Belgisch	Belgisch	ADJ(prenom,basis,zonder)	B-NP	B-LOC
+precedent	precedent	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Grote	Grote	SPEC(deeleigen)	I-NP	B-LOC
+Moskee	Moskee	SPEC(deeleigen)	I-NP	I-LOC
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+uit	uit	VZ(init)	B-PP	O
+Saudische	saudisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+handen	hand	N(soort,mv,basis)	I-NP	O
+getrokken	trekken	WW(vd,vrij,zonder)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+organisatorisch	organisatorisch	ADJ(vrij,basis,zonder)	B-AP	O
+en	en	VG(neven)	O	O
+financieel	financieel	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+laat	laten	WW(pv,tgw,ev)	B-VP	O
+Saudi-Arabië	Saudi-Arabië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+dat	dat	VNW(betr,pron,3,ev)	B-NP	O
+zomaar	zomaar	BW()	B-ADVP	O
+gebeuren	gebeuren	WW(inf,vrij,zonder)	B-VP	O
+?	?	LET()	O	O
+				

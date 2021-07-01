@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="5" id="2" rel="--">
+      <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="no_e" lcat="ap" lemma="rijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="rijk" sense="rijk" vform="adj" word="Rijk"/>
+      <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="discreet" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="discreet" sense="discreet" vform="adj" word="discreet"/>
+      <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="5" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(both))" graad="basis" his="compound" his_1="2" id="6" infl="no_e" lcat="ap" lemma="kosten_bewust" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="cnj" root="kosten_bewust" sense="kosten_bewust" vform="adj" word="kostenbewust"/>
+    </node>
+  </node>
+  <sentence sentid="1">Rijk , discreet en kostenbewust</sentence>
+  <comments>
+    <comment>Q#1|Rijk , discreet en kostenbewust|1|1|-1.2512126971900013</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,27 @@
+Stichter	stichter	N(soort,ev,basis,zijd,stan)	B-NP	O
+Ikea	Ikea	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+overlijdt	overlijden	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	B-PP	O
+91-jarige	91-jarig	ADJ(prenom,basis,met-e,stan)	B-NP	O
+leeftijd	leeftijd	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Ingvar	Ingvar	SPEC(deeleigen)	B-NP	B-PER
+Kamprad	Kamprad	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+de	de	LID(bep)	B-NP	O
+oprichter	oprichter	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Ikea	Ikea	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+zaterdag	zaterdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+overleden	overlijden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+meldt	melden	WW(pv,tgw,met-t)	B-VP	O
+het	het	LID(bep)	B-NP	O
+Zweedse	Zweeds	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+bedrijf	bedrijf	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

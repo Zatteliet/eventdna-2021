@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="32" id="0" rel="top">
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="31" id="2" rel="--">
+      <node begin="0" cat="pp" end="17" id="3" rel="mod">
+        <node begin="0" cat="mwu" end="3" his="normal" his_1="decap" his_1_1="normal" id="4" mwu_root="in tegenstelling tot" mwu_sense="in tegenstelling tot" rel="hd">
+          <node begin="0" end="1" frame="preposition([in,tegenstelling,tot],[])" id="5" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="In"/>
+          <node begin="1" end="2" frame="preposition([in,tegenstelling,tot],[])" genus="zijd" getal="ev" graad="basis" id="6" lcat="pp" lemma="tegenstelling" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="tegenstelling" sense="tegenstelling" word="tegenstelling"/>
+          <node begin="2" end="3" frame="preposition([in,tegenstelling,tot],[])" id="7" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="tot" sense="tot" vztype="init" word="tot"/>
+        </node>
+        <node begin="3" cat="whrel" end="17" id="8" rel="obj1">
+          <node begin="3" case="both" def="indef" end="4" frame="pronoun(ywh,thi,sg,het,both,indef,nparg)" gen="het" getal="ev" his="normal" his_1="normal" id="9" index="1" lcat="np" lemma="wat" naamval="stan" num="sg" pdtype="pron" per="thi" persoon="3o" pos="pron" postag="VNW(vb,pron,stan,vol,3o,ev)" pt="vnw" rel="rhd" rnum="sg" root="wat" sense="wat" special="nparg" status="vol" vwtype="vb" wh="ywh" word="wat"/>
+          <node begin="3" cat="ssub" end="17" id="10" rel="body">
+            <node begin="3" end="4" id="11" index="1" rel="obj1"/>
+            <node begin="4" cat="conj" end="14" id="12" rel="su">
+              <node begin="4" end="5" frame="within_word_conjunct" his="within_word_conjunct" id="13" lcat="np" lemma="N-VA" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="N-VA" sense="N-VA" spectype="afgebr" word="N-VA-"/>
+              <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="6" cat="np" end="14" id="15" rel="cnj">
+                <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(both(adv))" graad="basis" his="decap" his_1="not_begin" id="16" infl="both" lcat="ap" lemma="open" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="open" sense="open" vform="adj" word="Open"/>
+                <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="17" lcat="np" lemma="VLD_voorzitter" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="VLD_voorzitter" sense="VLD_voorzitter" word="VLD-voorzitters"/>
+                <node begin="8" cat="conj" end="14" id="18" rel="app">
+                  <node begin="8" cat="mwu" end="11" his="normal" his_1="names_dictionary" id="19" mwu_root="Bart De Wever" mwu_sense="Bart De Wever" rel="cnj">
+                    <node begin="8" end="9" frame="proper_name(sg,'PER')" id="20" lcat="np" lemma="Bart" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bart" sense="Bart" spectype="deeleigen" word="Bart"/>
+                    <node begin="9" end="10" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+                    <node begin="10" end="11" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Wever" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Wever" sense="Wever" spectype="deeleigen" word="Wever"/>
+                  </node>
+                  <node begin="11" conjtype="neven" end="12" frame="conj(en)" his="normal" his_1="normal" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                  <node begin="12" cat="mwu" end="14" his="name" his_1="not_begin" id="24" mwu_root="Gwendolyn Rutten" mwu_sense="Gwendolyn Rutten" rel="cnj">
+                    <node begin="12" end="13" frame="proper_name(both,'PER')" id="25" lcat="np" lemma="Gwendolyn" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Gwendolyn" sense="Gwendolyn" spectype="deeleigen" word="Gwendolyn"/>
+                    <node begin="13" end="14" frame="proper_name(both,'PER')" id="26" lcat="np" lemma="Rutten" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rutten" sense="Rutten" spectype="deeleigen" word="Rutten"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="14" cat="np" end="16" id="27" rel="mod">
+              <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="28" infl="e" lcat="ap" lemma="vorig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="vorig" sense="vorig" vform="adj" word="vorige"/>
+              <node begin="15" end="16" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="week" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="week" sense="week" special="tmp" word="week"/>
+            </node>
+            <node begin="16" end="17" frame="verb(hebben,past(pl),transitive)" his="normal" his_1="normal" id="30" infl="pl" lcat="ssub" lemma="zeggen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="zeg" sc="transitive" sense="zeg" tense="past" word="zeiden" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="31" infl="sg3" lcat="smain" lemma="geloven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="geloof" sc="sbar" sense="geloof" stype="declarative" tense="present" word="gelooft" wvorm="pv"/>
+      <node begin="19" cat="np" end="23" id="32" rel="su">
+        <node begin="19" end="20" frame="determiner(de)" his="normal" his_1="normal" id="33" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+        <node begin="21" cat="pp" end="23" id="35" rel="mod">
+          <node begin="21" end="22" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="36" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="22" end="23" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="37" lcat="np" lemma="Werk" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Werk" sense="Werk" word="Werk"/>
+        </node>
+      </node>
+      <node aform="base" begin="23" end="24" frame="adjective(pred(adv))" his="normal" his_1="normal" id="38" infl="pred" lcat="ap" lemma="wel" pos="adj" postag="BW()" pt="bw" rel="mod" root="wel" sense="wel" vform="adj" word="wel"/>
+      <node begin="24" cat="cp" end="31" id="39" rel="vc">
+        <node begin="24" conjtype="onder" end="25" frame="complementizer(dat)" his="normal" his_1="normal" id="40" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="25" cat="ssub" end="31" id="41" rel="body">
+          <node begin="26" cat="np" end="28" id="42" index="2" rel="su">
+            <node begin="26" end="27" frame="determiner(een)" his="normal" his_1="normal" id="43" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="27" end="28" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="44" lcat="np" lemma="oplossing" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="oplossing" sense="oplossing" word="oplossing"/>
+          </node>
+          <node begin="29" end="30" frame="verb('hebben/zijn',modal_not_u,aux(inf))" his="normal" his_1="normal" id="45" infl="modal_not_u" lcat="ssub" lemma="kunnen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="kan" sc="aux(inf)" sense="kan" tense="present" word="kan" wvorm="pv"/>
+          <node begin="25" cat="inf" end="31" id="46" rel="vc">
+            <node begin="26" end="28" id="47" index="2" rel="su"/>
+            <node begin="25" cat="ppart" end="29" id="48" rel="vc">
+              <node begin="25" end="26" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="49" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+              <node begin="26" end="28" id="50" index="2" rel="obj1"/>
+              <node begin="28" buiging="zonder" end="29" frame="verb(hebben,psp,transitive_ndev_ndev)" his="normal" his_1="normal" id="51" infl="psp" lcat="ppart" lemma="vinden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vind" sc="transitive_ndev_ndev" sense="vind" word="gevonden" wvorm="vd"/>
+            </node>
+            <node begin="30" buiging="zonder" end="31" frame="verb(unacc,inf,passive)" his="normal" his_1="normal" id="52" infl="inf" lcat="inf" lemma="worden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="word" sc="passive" sense="word" word="worden" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="31" end="32" frame="punct(punt)" his="normal" his_1="normal" id="53" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">In tegenstelling tot wat N-VA- en Open VLD-voorzitters Bart De Wever en Gwendolyn Rutten vorige week zeiden , gelooft de minister van Werk wel dat er een oplossing gevonden kan worden .</sentence>
+  <comments>
+    <comment>Q#3|In tegenstelling tot wat N-VA- en Open VLD-voorzitters Bart De Wever en Gwendolyn Rutten vorige week zeiden , gelooft de minister van Werk wel dat er een oplossing gevonden kan worden .|1|1|-21.901023481460005</comment>
+  </comments>
+</alpino_ds>

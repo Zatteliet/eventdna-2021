@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="13" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="4" lcat="np" lemma="fod" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fod" sense="fod" word="FOD"/>
+        <node begin="2" end="3" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="5" lcat="np" lemma="Financiën" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Financiën" sense="Financiën" word="Financiën"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg,part_transitive(op))" his="normal" his_1="normal" id="6" infl="sg" lcat="smain" lemma="op_schorten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="schort_op" sc="part_transitive(op)" sense="schort_op" stype="declarative" tense="present" word="schort" wvorm="pv"/>
+      <node begin="4" cat="np" end="9" id="7" rel="obj1">
+        <node begin="4" buiging="met-e" end="5" frame="determiner(elke,nwh,mod)" his="normal" his_1="normal" id="8" infl="elke" lcat="detp" lemma="elk" naamval="stan" npagr="evz" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,evz)" pt="vnw" rel="det" root="elk" sense="elk" vwtype="onbep" wh="nwh" word="elke"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="verkoop" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verkoop" sense="verkoop" word="verkoop"/>
+        <node begin="6" cat="pp" end="9" id="10" rel="mod">
+          <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="7" cat="np" end="9" id="12" rel="obj1">
+            <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="alcoholisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="alcoholisch" sense="alcoholisch" vform="adj" word="alcoholische"/>
+            <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="drank" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="drank" sense="drank" word="dranken"/>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="pp" end="12" id="15" rel="mod">
+        <node begin="9" end="10" frame="preposition(via,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" sense="via" vztype="init" word="via"/>
+        <node begin="10" cat="mwu" end="12" his="name" his_1="not_begin" id="17" mwu_root="Fin Shop" mwu_sense="Fin Shop" rel="obj1">
+          <node begin="10" end="11" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Fin" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Fin" sense="Fin" spectype="deeleigen" word="Fin"/>
+          <node begin="11" end="12" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Shop" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Shop" sense="Shop" spectype="deeleigen" word="Shop"/>
+        </node>
+      </node>
+      <node begin="12" end="13" frame="particle(op)" his="normal" his_1="normal" id="20" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" his="normal" his_1="normal" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De FOD Financiën schort elke verkoop van alcoholische dranken via Fin Shop op .</sentence>
+  <comments>
+    <comment>Q#2|De FOD Financiën schort elke verkoop van alcoholische dranken via Fin Shop op .|1|1|-6.6421769935200015</comment>
+  </comments>
+</alpino_ds>

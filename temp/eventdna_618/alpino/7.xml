@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="1" end="2" frame="verb(hebben,past(sg),aux_psp_hebben)" his="normal" his_1="normal" id="2" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node begin="3" cat="np" end="7" id="3" index="1" rel="su">
+        <node begin="3" cat="mwu" end="5" his="name" his_1="not_begin" id="4" mwu_root="Bob Corker" mwu_sense="Bob Corker" rel="hd">
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Bob" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bob" sense="Bob" spectype="deeleigen" word="Bob"/>
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Corker" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Corker" sense="Corker" spectype="deeleigen" word="Corker"/>
+        </node>
+        <node begin="5" cat="pp" end="7" id="7" rel="mod">
+          <node begin="5" end="6" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="8" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+          <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Tennessee" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Tennessee" sense="Tennessee" word="Tennessee"/>
+        </node>
+      </node>
+      <node begin="0" cat="ppart" end="11" id="10" rel="vc">
+        <node aform="compar" begin="0" buiging="zonder" end="1" frame="adjective(er(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="11" infl="no_e" lcat="ap" lemma="eerder" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eerder" sense="eerder" vform="adj" word="Eerder"/>
+        <node begin="2" end="3" frame="sentence_adverb" his="normal" his_1="normal" id="12" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+        <node begin="3" end="7" id="13" index="1" rel="su"/>
+        <node begin="7" case="dat_acc" def="def" end="8" frame="pronoun(nwh,thi,both,de,dat_acc,def,wkpro)" gen="de" getal="getal" his="normal" his_1="normal" id="14" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zich" sense="zich" special="wkpro" status="red" vwtype="refl" wh="nwh" word="zich"/>
+        <node begin="8" end="9" frame="adverb" his="normal" his_1="normal" id="15" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+        <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="16" infl="no_e" lcat="ap" lemma="kritisch" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="kritisch" sense="kritisch" vform="adj" word="kritisch"/>
+        <node begin="10" buiging="zonder" end="11" frame="verb(hebben,psp,ninv(transitive,part_transitive(uit)))" his="normal" his_1="part-V" id="17" infl="psp" lcat="ppart" lemma="uit_laten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="laat_uit" sc="part_transitive(uit)" sense="laat_uit" word="uitgelaten" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="18" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="7">Eerder had ook Bob Corker uit Tennessee zich al kritisch uitgelaten .</sentence>
+  <comments>
+    <comment>Q#7|Eerder had ook Bob Corker uit Tennessee zich al kritisch uitgelaten .|1|1|-4.06902801367</comment>
+  </comments>
+</alpino_ds>

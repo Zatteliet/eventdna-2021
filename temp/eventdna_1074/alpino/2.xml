@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="3" id="0" rel="top">
+    <node begin="0" cat="np" end="3" id="1" rel="--">
+      <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" infl="e" lcat="ap" lemma="enorm" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="enorm" sense="enorm" vform="adj" word="Enorme"/>
+      <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="form_of_suffix" his_1="ische" id="3" infl="e" lcat="ap" lemma="geostrategisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="geostrategisch" sense="geostrategisch" vform="adj" word="geostrategische"/>
+      <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="fout" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fout" sense="fout" word="fout"/>
+    </node>
+  </node>
+  <sentence sentid="2">Enorme geostrategische fout</sentence>
+  <comments>
+    <comment>Q#2|Enorme geostrategische fout|1|1|-0.14438863746999983</comment>
+  </comments>
+</alpino_ds>

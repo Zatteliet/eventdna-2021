@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="normal" his_1="english_compound" id="2" mwu_root="uitstoot_broeikas_gas" mwu_sense="uitstoot_broeikas_gas" rel="ld">
+        <node begin="0" end="1" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="3" lcat="np" lemma="Uitstoot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="Uitstoot" sense="Uitstoot" word="Uitstoot"/>
+        <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" id="4" lcat="np" lemma="broeikasgassen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="broeikasgassen" sense="broeikasgassen" word="broeikasgassen"/>
+      </node>
+      <node begin="2" end="3" frame="verb(zijn,sg3,part_ld_transitive(op))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="op_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_op" sc="part_ld_transitive(op)" sense="ga_op" stype="declarative" tense="present" word="gaat" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="su">
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="verkeerd" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="verkeerd" sense="verkeerd" vform="adj" word="verkeerde"/>
+        <node begin="4" end="5" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="weg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="weg" sense="weg" special="tmp" word="weg"/>
+      </node>
+      <node begin="5" end="6" frame="particle(op)" his="normal" his_1="normal" id="9" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+    </node>
+  </node>
+  <sentence sentid="1">Uitstoot broeikasgassen gaat verkeerde weg op</sentence>
+  <comments>
+    <comment>Q#1|Uitstoot broeikasgassen gaat verkeerde weg op|1|1|7.6642873021</comment>
+  </comments>
+</alpino_ds>

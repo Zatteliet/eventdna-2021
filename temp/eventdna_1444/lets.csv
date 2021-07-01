@@ -1,0 +1,36 @@
+Sylvester	Sylvester	SPEC(deeleigen)	B-NP	B-PER
+Stallone	Stallone	SPEC(deeleigen)	I-NP	I-PER
+beschuldigd	beschuldigen	WW(vd,vrij,zonder)	B-VP	O
+van	van	VZ(init)	B-PP	O
+seksueel	seksueel	ADJ(prenom,basis,zonder)	B-NP	O
+misbruik	misbruik	N(soort,ev,basis,onz,stan)	I-NP	O
+minderjarige	minderjarig	ADJ(prenom,basis,met-e,stan)	B-AP	O
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+acteur	acteur	N(soort,ev,basis,zijd,stan)	I-NP	O
+Sylvester	Sylvester	SPEC(deeleigen)	I-NP	B-PER
+Stallone	Stallone	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+71	71	TW(hoofd,vrij)	B-NP	O
+)	)	LET()	O	O
+ontkent	ontkennen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+beschuldigingen	beschuldiging	N(soort,mv,basis)	I-NP	O
+dat	dat	VG(onder)	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+en	en	VG(neven)	O	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+bodyguard	bodyguard	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+jaren	jaar	N(soort,mv,basis)	I-NP	O
+tachtig	tachtig	TW(hoofd,vrij)	I-NP	O
+een	een	LID(onbep)	B-NP	O
+16-jarige	16-jarig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+fan	fan	N(soort,ev,basis,zijd,stan)	I-NP	O
+seksueel	seksueel	ADJ(vrij,basis,zonder)	B-AP	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+misbruikt	misbruiken	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

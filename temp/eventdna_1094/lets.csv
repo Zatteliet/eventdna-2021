@@ -1,0 +1,33 @@
+Argentinië	Argentinië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+worstelt	worstelen	WW(pv,tgw,met-t)	B-VP	O
+met	met	VZ(init)	B-PP	O
+duister	duister	N(soort,ev,basis,zijd,stan)	B-NP	O
+verleden	verleden	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+satelliet	satelliet	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Vuile	vuil	ADJ(prenom,basis,met-e,stan)	I-NP	B-EVE
+Oorlog	oorlog	N(soort,ev,basis,zijd,stan)	I-NP	I-EVE
+in	in	VZ(init)	B-PP	O
+Argentinië	Argentinië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+sloeg	slaan	WW(pv,verl,ev)	B-VP	O
+diepe	diep	ADJ(prenom,basis,met-e,stan)	B-NP	O
+wonden	wonde	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+48	48	TW(hoofd,prenom,stan)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+veroordelingen	veroordeling	N(soort,mv,basis)	I-NP	O
+bewijzen	bewijzen	WW(inf,vrij,zonder)	B-VP	O
+dat	dat	VG(onder)	O	O
+het	het	LID(bep)	B-NP	O
+land	land	N(soort,ev,basis,onz,stan)	I-NP	O
+op	op	VZ(init)	B-PP	O
+weg	weg	N(soort,ev,basis,zijd,stan)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+naar	naar	VZ(init)	B-PP	O
+gerechtigheid	gerechtigheid	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				

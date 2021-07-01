@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="np" end="12" id="2" rel="--">
+      <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ap" lemma="symbolisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="symbolisch" sense="symbolisch" vform="adj" word="Symbolische"/>
+      <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="daad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="daad" sense="daad" word="daad"/>
+      <node begin="3" cat="np" end="12" id="5" rel="app">
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="zus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zus" sense="zus" word="zus"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="9" mwu_root="Kim Jong-un" mwu_sense="Kim Jong-un" rel="obj1">
+            <node begin="5" end="6" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="Kim" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kim" sense="Kim" spectype="deeleigen" word="Kim"/>
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Jong-un" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jong-un" sense="Jong-un" spectype="deeleigen" word="Jong-un"/>
+          </node>
+        </node>
+        <node begin="7" cat="pp" end="12" id="12" rel="mod">
+          <node begin="7" end="8" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="13" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="8" cat="np" end="12" id="14" rel="obj1">
+            <node begin="8" cat="mwu" end="10" his="normal" his_1="names_dictionary" id="15" mwu_root="Olympische Winterspelen" mwu_sense="Olympische Winterspelen" rel="hd">
+              <node begin="8" end="9" frame="proper_name(both)" id="16" lcat="np" lemma="Olympische" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Olympische" sense="Olympische" spectype="deeleigen" word="Olympische"/>
+              <node begin="9" end="10" frame="proper_name(both)" id="17" lcat="np" lemma="Winterspelen" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Winterspelen" sense="Winterspelen" spectype="deeleigen" word="Winterspelen"/>
+            </node>
+            <node begin="10" cat="pp" end="12" id="18" rel="mod">
+              <node begin="10" end="11" frame="preposition(in,[])" his="normal" his_1="normal" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="11" end="12" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="20" lcat="np" lemma="Zuid-Korea" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Zuid-Korea" sense="Zuid-Korea" word="Zuid-Korea"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Symbolische daad : zus van Kim Jong-un naar Olympische Winterspelen in Zuid-Korea</sentence>
+  <comments>
+    <comment>Q#1|Symbolische daad : zus van Kim Jong-un naar Olympische Winterspelen in Zuid-Korea|1|1|0.5273417229699978</comment>
+  </comments>
+</alpino_ds>

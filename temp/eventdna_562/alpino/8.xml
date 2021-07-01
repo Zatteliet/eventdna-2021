@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="21" end="22" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="28" id="2" rel="--">
+      <node begin="0" cat="mwu" end="4" his="normal" his_1="decap" his_1_1="normal" id="3" mwu_root="niet in het minst" mwu_sense="niet in het minst" rel="dp">
+        <node begin="0" end="1" frame="adverb" id="4" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mwp" root="niet" sense="niet" word="Niet"/>
+        <node begin="1" end="2" frame="adverb" id="5" lcat="advp" lemma="in" pos="adv" postag="BW()" pt="bw" rel="mwp" root="in" sense="in" word="in"/>
+        <node begin="2" end="3" frame="adverb" id="6" lcat="advp" lemma="het" pos="adv" postag="BW()" pt="bw" rel="mwp" root="het" sense="het" word="het"/>
+        <node begin="3" end="4" frame="adverb" id="7" lcat="advp" lemma="minst" pos="adv" postag="BW()" pt="bw" rel="mwp" root="minst" sense="minst" word="minst"/>
+      </node>
+      <node begin="4" cat="cp" end="28" id="8" rel="dp">
+        <node begin="4" conjtype="onder" end="5" frame="complementizer" his="normal" his_1="normal" id="9" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+        <node begin="5" cat="ssub" end="28" id="10" rel="body">
+          <node begin="5" cat="np" end="21" id="11" index="1" rel="su">
+            <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="6" end="7" frame="noun(both,mass,sg)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="heisa" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="heisa" sense="heisa" word="heisa"/>
+            <node begin="7" cat="pp" end="21" id="14" rel="mod">
+              <node begin="7" end="8" frame="preposition(over,[heen])" his="normal" his_1="normal" id="15" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="8" cat="np" end="21" id="16" rel="obj1">
+                <node begin="8" end="9" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="9" cat="ap" end="12" id="18" rel="mod">
+                  <node begin="9" cat="advp" end="11" id="19" rel="mod">
+                    <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(no_e(odet_adv))" graad="basis" his="normal" his_1="normal" id="20" infl="no_e" lcat="np" lemma="veel" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,basis)" pt="vnw" rel="me" rnum="sg" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+                    <node begin="10" end="11" frame="me_intensifier" his="normal" his_1="normal" id="21" lcat="advp" lemma="te" pos="adv" postag="BW()" pt="bw" rel="hd" root="te" sense="te" special="me_intensifier" word="te"/>
+                  </node>
+                  <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="duur" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="hd" root="duur" sense="duur" vform="adj" word="dure"/>
+                </node>
+                <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="23" infl="e" lcat="ap" lemma="officieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="officieel" sense="officieel" vform="adj" word="officiële"/>
+                <node begin="13" end="14" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="24" lcat="np" lemma="tafel_servies" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="tafel_servies" sense="tafel_servies" word="tafelservies"/>
+                <node begin="14" cat="rel" end="21" id="25" rel="mod">
+                  <node begin="14" case="no_obl" end="15" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" his="normal" his_1="normal" id="26" index="2" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+                  <node begin="14" cat="ssub" end="21" id="27" rel="body">
+                    <node begin="15" cat="np" end="17" id="28" index="3" rel="su">
+                      <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="29" lcat="np" lemma="president_vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president_vrouw" sense="president_vrouw" word="presidentsvrouw"/>
+                      <node begin="16" end="17" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="30" lcat="np" lemma="Brigitte" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Brigitte" sense="Brigitte" word="Brigitte"/>
+                    </node>
+                    <node begin="19" end="20" frame="verb(hebben,past(sg),aux_psp_hebben)" his="normal" his_1="normal" id="31" infl="sg" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="had" wvorm="pv"/>
+                    <node begin="14" cat="ppart" end="21" id="32" rel="vc">
+                      <node begin="14" end="15" id="33" index="2" rel="obj1"/>
+                      <node begin="15" end="17" id="34" index="3" rel="su"/>
+                      <node aform="base" begin="17" end="18" frame="adjective(both(tmpadv))" his="normal" his_1="normal" id="35" infl="both" lcat="ap" lemma="even" pos="adj" postag="BW()" pt="bw" rel="mod" root="even" sense="even" vform="adj" word="even"/>
+                      <node begin="18" end="19" frame="pp" his="normal" his_1="normal" id="36" lcat="pp" lemma="voordien" pos="pp" postag="BW()" pt="bw" rel="mod" root="voordien" sense="voordien" word="voordien"/>
+                      <node begin="20" buiging="zonder" end="21" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="37" infl="psp" lcat="ppart" lemma="bestellen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bestel" sc="transitive" sense="bestel" word="besteld" wvorm="vd"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node begin="25" end="26" frame="verb(unacc,past(sg),aux_psp_zijn)" his="normal" his_1="normal" id="38" infl="sg" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past" word="was" wvorm="pv"/>
+          <node begin="5" cat="inf" end="28" id="39" rel="vc">
+            <node begin="5" end="21" id="40" index="1" rel="su"/>
+            <node begin="26" buiging="zonder" end="27" frame="verb(zijn,inf(no_e),aux(inf))" his="normal" his_1="normal" id="41" infl="inf(no_e)" lcat="inf" lemma="gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga" sc="aux(inf)" sense="ga" word="gaan" wvorm="inf"/>
+            <node begin="5" cat="inf" end="28" id="42" rel="vc">
+              <node begin="5" end="21" id="43" index="1" rel="su"/>
+              <node begin="22" cat="conj" end="25" id="44" rel="mod">
+                <node begin="22" end="23" frame="adverb" his="normal" his_1="normal" id="45" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="cnj" root="nog" sense="nog" word="nog"/>
+                <node begin="23" conjtype="neven" end="24" frame="conj(maar)" his="normal" his_1="normal" id="46" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+                <node begin="24" end="25" frame="adverb" his="normal" his_1="normal" id="47" lcat="advp" lemma="amper" pos="adv" postag="BW()" pt="bw" rel="cnj" root="amper" sense="amper" word="amper"/>
+              </node>
+              <node begin="27" buiging="zonder" end="28" frame="verb(hebben,inf,intransitive)" his="normal" his_1="normal" id="48" infl="inf" lcat="inf" lemma="liggen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="lig" sc="intransitive" sense="lig" word="liggen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" frame="punct(punt)" his="normal" his_1="normal" id="49" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="8">Niet in het minst omdat de heisa over het veel te dure officiële tafelservies dat presidentsvrouw Brigitte even voordien had besteld , nog maar amper was gaan liggen .</sentence>
+  <comments>
+    <comment>Q#8|Niet in het minst omdat de heisa over het veel te dure officiële tafelservies dat presidentsvrouw Brigitte even voordien had besteld , nog maar amper was gaan liggen .|1|1|-8.899970154629997</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="19" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="aanwas" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="aanwas" sense="aanwas" word="aanwas"/>
+        <node begin="2" cat="pp" end="5" id="6" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="np" end="5" id="8" rel="obj1">
+            <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="nieuw" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nieuw" sense="nieuw" vform="adj" word="nieuwe"/>
+            <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="gebruiker" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gebruiker" sense="gebruiker" word="gebruikers"/>
+          </node>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(unacc,past(sg),intransitive)" his="normal" his_1="normal" id="11" infl="sg" lcat="smain" lemma="groeien" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="groei" sc="intransitive" sense="groei" stype="declarative" tense="past" word="groeide" wvorm="pv"/>
+      <node begin="6" cat="ap" end="8" id="12" rel="mod">
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="gestaag" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="gestaag" sense="gestaag" vform="adj" word="gestaag"/>
+        <node aform="compar" begin="7" buiging="zonder" end="8" frame="adjective(er(locadv))" graad="comp" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="ver" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="ver" sense="ver" vform="adj" word="verder"/>
+      </node>
+      <node begin="9" end="10" frame="adverb" his="normal" his_1="normal" id="15" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+      <node begin="10" cat="ap" end="18" id="16" rel="mod">
+        <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="17" infl="no_e" lcat="ap" lemma="sterk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="sterk" sense="sterk" vform="adj" word="sterk"/>
+        <node begin="10" cat="ap" end="18" id="18" rel="mod">
+          <node aform="compar" begin="10" buiging="zonder" end="11" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="19" infl="meer" lcat="ap" lemma="minder" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="hd" root="minder" sense="minder" vform="adj" vwtype="onbep" word="minder"/>
+          <node begin="12" cat="cp" end="18" id="20" rel="obcomp">
+            <node begin="12" conjtype="onder" end="13" frame="comparative(dan)" his="normal" his_1="normal" id="21" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+            <node begin="13" cat="whsub" end="18" id="22" rel="body">
+              <node begin="13" end="14" frame="er_wh_loc_adverb" getal="getal" his="normal" his_1="normal" id="23" index="1" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="whd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+              <node begin="13" cat="ssub" end="18" id="24" rel="body">
+                <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="25" index="2" lcat="np" lemma="expert" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="expert" sense="expert" word="experts"/>
+                <node begin="16" end="17" frame="verb(hebben,past(pl),aux_psp_hebben)" his="normal" his_1="normal" id="26" infl="pl" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="past" word="hadden" wvorm="pv"/>
+                <node begin="13" cat="ppart" end="18" id="27" rel="vc">
+                  <node begin="14" end="15" id="28" index="2" rel="su"/>
+                  <node begin="13" cat="pp" end="16" id="29" rel="pc">
+                    <node begin="13" end="14" id="30" index="1" rel="obj1"/>
+                    <node begin="15" end="16" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="31" lcat="pp" lemma="op" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="op" sense="op" vztype="fin" word="op"/>
+                  </node>
+                  <node begin="17" buiging="zonder" end="18" frame="verb(hebben,psp,pc_pp(op))" his="normal" his_1="normal" id="32" infl="psp" lcat="ppart" lemma="rekenen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="reken" sc="pc_pp(op)" sense="reken-op" word="gerekend" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="18" end="19" frame="punct(punt)" his="normal" his_1="normal" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">De aanwas van nieuwe gebruikers groeide gestaag verder , maar minder sterk dan waar experts op hadden gerekend .</sentence>
+  <comments>
+    <comment>Q#3|De aanwas van nieuwe gebruikers groeide gestaag verder , maar minder sterk dan waar experts op hadden gerekend .|1|1|-2.5705240495199893</comment>
+  </comments>
+</alpino_ds>

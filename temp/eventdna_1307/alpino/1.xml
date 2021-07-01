@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="super_belegger" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="super_belegger" sense="super_belegger" word="Superbelegger"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="strip_repeated_letters" id="4" lcat="np" lemma="Buffet" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Buffet" sense="Buffet" word="Buffett"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,np_pc_pp(in))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="investeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="investeer" sc="np_pc_pp(in)" sense="investeer-in" stype="declarative" tense="present" word="investeert" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="obj1">
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="50" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="50" sense="50" special="hoofd" word="50"/>
+        <node begin="4" end="5" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sense="miljoen" special="meas_mod" word="miljoen"/>
+      </node>
+      <node begin="5" cat="pp" end="9" id="9" rel="pc">
+        <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="6" cat="np" end="9" id="11" rel="obj1">
+          <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="name_adj" his_1="not_begin" id="12" infl="e" lcat="ap" lemma="Aarschotse" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Aarschotse" sense="Aarschotse" vform="adj" word="Aarschotse"/>
+          <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="vestiging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vestiging" sense="vestiging" word="vestiging"/>
+          <node begin="8" end="9" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="14" lcat="np" lemma="Duracell" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Duracell" sense="Duracell" word="Duracell"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Superbelegger Buffett investeert 50 miljoen in Aarschotse vestiging Duracell</sentence>
+  <comments>
+    <comment>Q#1|Superbelegger Buffett investeert 50 miljoen in Aarschotse vestiging Duracell|1|1|-4.121314793300001</comment>
+  </comments>
+</alpino_ds>

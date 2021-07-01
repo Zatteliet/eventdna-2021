@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Asia Argento" mwu_sense="Asia Argento" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" id="3" lcat="np" lemma="Asia" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Asia" sense="Asia" spectype="deeleigen" word="Asia"/>
+        <node begin="1" end="2" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Argento" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Argento" sense="Argento" spectype="deeleigen" word="Argento"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(over))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="spreken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="spreek" sc="pc_pp(over)" sense="spreek-over" stype="declarative" tense="present" word="spreekt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="5" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(over,[heen])" his="normal" his_1="normal" id="7" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="verkrachting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="verkrachting" sense="verkrachting" word="verkrachting"/>
+      </node>
+    </node>
+    <node begin="5" end="6" frame="punct(punt)" his="normal" his_1="normal" id="9" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Asia Argento spreekt over verkrachting .</sentence>
+  <comments>
+    <comment>Q#3|Asia Argento spreekt over verkrachting .|1|1|-2.1456426973000005</comment>
+  </comments>
+</alpino_ds>

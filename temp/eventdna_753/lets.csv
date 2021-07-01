@@ -1,0 +1,31 @@
+Merkel	Merkel	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+begint	beginnen	WW(pv,tgw,met-t)	B-VP	O
+aan	aan	VZ(init)	B-PP	O
+regeringsvorming	regeringsvorming	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+christendemocratische	christendemocratisch	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Duitse	Duits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+bondskanselier	bondskanselier	N(soort,ev,basis,zijd,stan)	I-NP	O
+Angela	Angela	SPEC(deeleigen)	I-NP	B-PER
+Merkel	Merkel	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+zaterdag	zaterdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+voor	voor	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+eerst	een	TW(rang,nom,zonder-n)	I-NP	O
+officieel	officieel	ADJ(vrij,basis,zonder)	B-AP	O
+aangekondigd	aankondigen	WW(vd,vrij,zonder)	B-VP	O
+coalitiegesprekken	coalitiegesprek	N(soort,mv,basis)	B-NP	O
+met	met	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+liberale	liberaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+FDP	FDP	N(eigen,ev,basis,zijd,stan)	I-NP	B-ORG
+en	en	VG(neven)	O	O
+de	de	LID(bep)	B-NP	O
+Groenen	Groen	N(eigen,mv,basis)	I-NP	B-LOC
+aan	aan	VZ(fin)	O	O
+te	te	VZ(init)	B-VP	O
+gaan	gaan	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="11" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="6" end="7" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="ppart" end="11" id="3" rel="--">
+      <node begin="0" cat="np" end="6" id="4" rel="obj1">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" infl="e" lcat="ap" lemma="berucht" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="berucht" sense="berucht" vform="adj" word="Beruchte"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="crimineel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="crimineel" sense="crimineel" vform="adj" word="criminele"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="familie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="familie" sense="familie" word="familie"/>
+        <node begin="4" cat="mwu" end="6" his="quoted_name" his_1="&apos;" his_2="&apos;" id="8" mwu_root="De Visboeren" mwu_sense="De Visboeren" rel="app">
+          <node begin="4" end="5" frame="proper_name(both)" id="9" lcat="np" lemma="De" lwtype="bep" naamval="stan" neclass="MISC" npagr="rest" num="both" pos="name" postag="LID(bep,stan,rest)" pt="lid" rel="mwp" root="De" sense="De" word="De"/>
+          <node begin="5" end="6" frame="proper_name(both)" genus="zijd" getal="ev" graad="basis" id="10" lcat="np" lemma="Visboeren" naamval="stan" neclass="MISC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" root="Visboeren" sense="Visboeren" word="Visboeren"/>
+        </node>
+      </node>
+      <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="11" infl="psp" lcat="ppart" lemma="op_pakken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="pak_op" sc="part_transitive(op)" sense="pak_op" word="opgepakt" wvorm="vd"/>
+      <node begin="8" cat="pp" end="11" id="12" rel="mod">
+        <node begin="8" end="9" frame="preposition(wegens,[])" his="normal" his_1="normal" id="13" lcat="pp" lemma="wegens" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="wegens" sense="wegens" vztype="init" word="wegens"/>
+        <node begin="9" cat="np" end="11" id="14" rel="obj1">
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="internationale"/>
+          <node begin="10" end="11" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="cocaïne_smokkel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="cocaïne_smokkel" sense="cocaïne_smokkel" word="cocaïnesmokkel"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Beruchte criminele familie &apos; De Visboeren &apos; opgepakt wegens internationale cocaïnesmokkel</sentence>
+  <comments>
+    <comment>Q#1|Beruchte criminele familie &apos; De Visboeren &apos; opgepakt wegens internationale cocaïnesmokkel|1|1|-0.3516970165500029</comment>
+  </comments>
+</alpino_ds>

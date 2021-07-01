@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="dp">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="kogel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kogel" sense="kogel" word="kogel"/>
+      </node>
+      <node begin="2" cat="cp" end="8" id="5" rel="dp">
+        <node begin="2" conjtype="onder" end="3" frame="complementizer" his="normal" his_1="normal" id="6" lcat="cp" lemma="omdat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="omdat" sense="omdat" word="omdat"/>
+        <node begin="3" cat="ssub" end="8" id="7" rel="body">
+          <node begin="3" case="nom" def="def" end="4" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="8" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+          <node begin="4" cat="np" end="7" id="9" rel="obj1">
+            <node begin="4" cat="ap" end="6" id="10" rel="det">
+              <node begin="4" end="5" frame="intensifier" his="normal" his_1="normal" id="11" lcat="advp" lemma="te" pos="adv" postag="BW()" pt="bw" rel="mod" root="te" sense="te" special="intensifier" word="te"/>
+              <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(no_e(odet_adv))" graad="basis" his="normal" his_1="normal" id="12" infl="no_e" lcat="ap" lemma="veel" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,basis)" pt="vnw" rel="hd" root="veel" sense="veel" vform="adj" vwtype="onbep" word="veel"/>
+            </node>
+            <node begin="6" end="7" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="geheim" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="geheim" sense="geheim" word="geheimen"/>
+          </node>
+          <node begin="7" end="8" frame="verb(hebben,past(sg),ninv(transitive,part_transitive(bloot)))" his="normal" his_1="part-V" id="14" infl="sg" lcat="ssub" lemma="bloot_leggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="leg_bloot" sc="part_transitive(bloot)" sense="leg_bloot" tense="past" word="blootlegde" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">De kogel omdat hij te veel geheimen blootlegde</sentence>
+  <comments>
+    <comment>Q#1|De kogel omdat hij te veel geheimen blootlegde|1|1|-0.008367497480001342</comment>
+  </comments>
+</alpino_ds>

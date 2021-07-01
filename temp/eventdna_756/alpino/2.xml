@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="0" cat="conj" end="6" id="3" index="1" rel="su">
+        <node begin="0" cat="np" end="4" id="4" rel="cnj">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+          <node begin="2" cat="pp" end="4" id="7" rel="mod">
+            <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="3" end="4" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Papoea-Nieuw-Guinea" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Papoea-Nieuw-Guinea" sense="Papoea-Nieuw-Guinea" word="Papoea-Nieuw-Guinea"/>
+          </node>
+        </node>
+        <node begin="4" conjtype="neven" end="5" frame="conj(en)" his="normal" his_1="normal" id="10" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="11" lcat="np" lemma="immigratie_autoriteit" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="immigratie_autoriteit" sense="immigratie_autoriteit" word="immigratieautoriteiten"/>
+      </node>
+      <node begin="6" end="7" frame="verb(unacc,pl,aux_psp_zijn)" his="normal" his_1="normal" id="12" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="21" id="13" rel="vc">
+        <node begin="0" end="6" id="14" index="1" rel="su"/>
+        <node begin="7" end="8" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="donderdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="donderdag" sense="donderdag" special="tmp" word="donderdag"/>
+        <node begin="8" cat="np" end="20" id="16" rel="obj1">
+          <node begin="8" end="9" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="17" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="9" cat="ppart" end="12" id="18" rel="mod">
+            <node begin="9" cat="pp" end="11" id="19" rel="mod">
+              <node begin="9" end="10" frame="preposition(door,[heen])" his="normal" his_1="normal" id="20" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+              <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="21" lcat="np" lemma="Australië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Australië" sense="Australië" word="Australië"/>
+            </node>
+            <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(ge_e)" his="normal" his_1="normal" id="22" infl="e" lcat="ppart" lemma="beheerd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="beheerd" sense="beheerd" vform="psp" word="beheerde" wvorm="vd"/>
+          </node>
+          <node begin="13" cat="ppart" end="15" id="23" rel="mod">
+            <node begin="13" end="14" frame="adverb" his="normal" his_1="normal" id="24" lcat="advp" lemma="inmiddels" pos="adv" postag="BW()" pt="bw" rel="mod" root="inmiddels" sense="inmiddels" word="inmiddels"/>
+            <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="25" infl="both" lcat="ppart" lemma="gesloten" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="gesloten" sense="gesloten" vform="psp" word="gesloten" wvorm="vd"/>
+          </node>
+          <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="26" lcat="np" lemma="detentie_centrum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="detentie_centrum" sense="detentie_centrum" word="detentiecentrum"/>
+          <node begin="16" cat="pp" end="20" id="27" rel="mod">
+            <node begin="16" end="17" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="28" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="17" cat="np" end="20" id="29" rel="obj1">
+              <node begin="17" end="18" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="30" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="18" end="19" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="eiland" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="eiland" sense="eiland" word="eiland"/>
+              <node begin="19" end="20" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="32" lcat="np" lemma="Manus" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Manus" sense="Manus" word="Manus"/>
+            </node>
+          </node>
+        </node>
+        <node begin="20" buiging="zonder" end="21" frame="verb(zijn,psp,ninv(transitive,part_transitive(binnen)))" his="normal" his_1="part-V" id="33" infl="psp" lcat="ppart" lemma="binnen_dringen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dring_binnen" sc="part_transitive(binnen)" sense="dring_binnen" word="binnengedrongen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De politie van Papoea-Nieuw-Guinea en immigratieautoriteiten zijn donderdag het door Australië beheerde , inmiddels gesloten detentiecentrum op het eiland Manus binnengedrongen .</sentence>
+  <comments>
+    <comment>Q#2|De politie van Papoea-Nieuw-Guinea en immigratieautoriteiten zijn donderdag het door Australië beheerde , inmiddels gesloten detentiecentrum op het eiland Manus binnengedrongen .|1|1|-0.7351214512000002</comment>
+  </comments>
+</alpino_ds>

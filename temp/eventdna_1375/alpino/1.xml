@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="0" cat="smain" end="9" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaamse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="regering" sense="regering" word="regering"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,part_np_pc_pp(vrij,voor))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="vrij_maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak_vrij" sc="part_np_pc_pp(vrij,voor)" sense="maak_vrij-voor" stype="declarative" tense="present" word="maakt" wvorm="pv"/>
+      <node begin="3" cat="np" end="5" id="6" rel="obj1">
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="9" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="9" sense="9" special="hoofd" word="9"/>
+        <node begin="4" end="5" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="miljoen" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="miljoen" sense="miljoen" special="meas_mod" word="miljoen"/>
+      </node>
+      <node begin="5" buiging="zonder" end="6" frame="particle(vrij)" graad="basis" his="normal" his_1="normal" id="9" lcat="part" lemma="vrij" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vrij" sense="vrij" word="vrij"/>
+      <node begin="6" cat="pp" end="9" id="10" rel="pc">
+        <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="11" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="7" cat="np" end="9" id="12" rel="obj1">
+          <node begin="7" end="8" frame="noun(de,count,pl,app_measure)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="leerkracht" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="leerkracht" sc="app_measure" sense="leerkracht" word="leerkrachten"/>
+          <node begin="8" end="9" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="basis_onderwijs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="app" rnum="sg" root="basis_onderwijs" sense="basis_onderwijs" word="basisonderwijs"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Vlaamse regering maakt 9 miljoen vrij voor leerkrachten basisonderwijs</sentence>
+  <comments>
+    <comment>Q#1|Vlaamse regering maakt 9 miljoen vrij voor leerkrachten basisonderwijs|1|1|-5.860251430469997</comment>
+  </comments>
+</alpino_ds>

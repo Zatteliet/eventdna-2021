@@ -1,0 +1,45 @@
+Bonte	bonte	N(soort,ev,basis,zijd,stan)	B-NP	O
+verlaat	verlaten	WW(pv,tgw,ev)	B-VP	O
+nationale	nationaal	ADJ(prenom,basis,met-e,stan)	B-NP	O
+politiek	politiek	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Als	als	VZ(init)	B-PP	O
+laatste	laat	ADJ(prenom,sup,met-e,stan)	B-NP	O
+SP.A-cumulard	SP.A-cumulard	N(eigen,ev,basis,zijd,stan)	I-NP	B-MISC
+verlaat	verlaten	WW(pv,tgw,ev)	B-VP	O
+Hans	Hans	SPEC(deeleigen)	B-NP	B-PER
+Bonte	Bonte	SPEC(deeleigen)	I-NP	I-PER
+het	het	LID(bep)	B-NP	O
+parlement	parlement	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+kiest	kiezen	WW(pv,tgw,met-t)	B-VP	O
+'	'	LET()	O	O
+100	100	TW(hoofd,prenom,stan)	B-NP	O
+procent	procent	N(soort,ev,basis,onz,stan)	I-NP	O
+'	'	LET()	O	O
+voor	voor	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+lokale	lokaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+niveau	niveau	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+missie	missie	N(soort,ev,basis,zijd,stan)	I-NP	O
+om	om	VZ(init)	O	O
+van	van	VZ(init)	B-PP	O
+Vilvoorde	Vilvoorde	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+een	een	LID(onbep)	B-NP	O
+centrumstad	centrumstad	N(soort,ev,basis,zijd,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+maken	maken	WW(inf,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+partijprogramma	partijprogramma	N(soort,ev,basis,onz,stan)	I-NP	O
+gekregen	krijgen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

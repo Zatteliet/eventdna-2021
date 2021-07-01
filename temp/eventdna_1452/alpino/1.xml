@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="smain" end="4" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="hyphen" id="2" lcat="np" lemma="Soedan_onderzoek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Soedan_onderzoek" sense="Soedan_onderzoek" word="Soedan-onderzoek"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,ld_adv)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="staan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="sta" sc="ld_adv" sense="sta" stype="declarative" tense="present" word="staat" wvorm="pv"/>
+      <node begin="2" end="3" frame="adverb" his="normal" his_1="normal" id="4" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+      <node begin="3" end="4" frame="er_loc_adverb" getal="getal" his="normal" his_1="normal" id="5" lcat="advp" lemma="nergens" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(onbep,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="ld" root="nergens" sense="nergens" special="er_loc" status="vol" vwtype="onbep" word="nergens"/>
+    </node>
+  </node>
+  <sentence sentid="1">Soedan-onderzoek staat nog nergens</sentence>
+  <comments>
+    <comment>Q#1|Soedan-onderzoek staat nog nergens|1|1|-2.3919604304999993</comment>
+  </comments>
+</alpino_ds>

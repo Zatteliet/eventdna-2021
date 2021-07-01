@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="smain" end="5" id="1" rel="--">
+      <node begin="0" cat="mwu" end="3" his="name" his_1="begin" id="2" mwu_root="Chaotisch Witte Huis" mwu_sense="Chaotisch Witte Huis" rel="su">
+        <node begin="0" end="1" frame="proper_name(both,'LOC')" id="3" lcat="np" lemma="Chaotisch" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Chaotisch" sense="Chaotisch" spectype="deeleigen" word="Chaotisch"/>
+        <node begin="1" end="2" frame="proper_name(both,'LOC')" id="4" lcat="np" lemma="Witte" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Witte" sense="Witte" spectype="deeleigen" word="Witte"/>
+        <node begin="2" end="3" frame="proper_name(both,'LOC')" id="5" lcat="np" lemma="Huis" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Huis" sense="Huis" spectype="deeleigen" word="Huis"/>
+      </node>
+      <node begin="3" end="4" frame="verb(zijn,sg3,part_intransitive(leeg))" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="leeg_lopen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="loop_leeg" sc="part_intransitive(leeg)" sense="loop_leeg" stype="declarative" tense="present" word="loopt" wvorm="pv"/>
+      <node begin="4" buiging="zonder" end="5" frame="particle(leeg)" graad="basis" his="normal" his_1="normal" id="7" lcat="part" lemma="leeg" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="leeg" sense="leeg" word="leeg"/>
+    </node>
+  </node>
+  <sentence sentid="1">Chaotisch Witte Huis loopt leeg</sentence>
+  <comments>
+    <comment>Q#1|Chaotisch Witte Huis loopt leeg|1|1|-1.8381124364700006</comment>
+  </comments>
+</alpino_ds>

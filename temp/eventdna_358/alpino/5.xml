@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="11" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="predc">
+        <node aform="super" begin="0" buiging="met-e" end="1" frame="adjective(ste)" graad="sup" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ap" lemma="voornaam" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,sup,met-e,stan)" pt="adj" rel="mod" root="voornaam" sense="voornaam" vform="adj" word="Voornaamste"/>
+        <node begin="1" end="2" frame="noun(de,count,sg,subject_sbar)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="verandering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="verandering" sc="subject_sbar" sense="verandering" word="verandering"/>
+      </node>
+      <node begin="2" end="3" frame="verb(unacc,sg_heeft,copula_sbar)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula_sbar" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="3" cat="cp" end="11" id="6" rel="su">
+        <node begin="3" conjtype="onder" end="4" frame="complementizer(dat)" his="normal" his_1="normal" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="4" cat="ssub" end="11" id="8" rel="body">
+          <node begin="5" cat="np" end="7" id="9" index="1" rel="su">
+            <node aform="compar" begin="5" buiging="zonder" end="6" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="10" infl="meer" lcat="ap" lemma="minder" naamval="stan" npagr="agr" pdtype="grad" pos="adj" positie="prenom" postag="VNW(onbep,grad,stan,prenom,zonder,agr,comp)" pt="vnw" rel="det" root="minder" sense="minder" vform="adj" vwtype="onbep" word="minder"/>
+            <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="militair" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="militair" sense="militair" word="militairen"/>
+          </node>
+          <node begin="9" end="10" frame="verb(hebben,pl,aux(inf))" his="normal" his_1="normal" id="12" infl="pl" lcat="ssub" lemma="zullen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="zal" sc="aux(inf)" sense="zal" tense="present" word="zullen" wvorm="pv"/>
+          <node begin="4" cat="inf" end="11" id="13" rel="vc">
+            <node begin="4" end="5" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="14" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+            <node begin="5" end="7" id="15" index="1" rel="su"/>
+            <node begin="7" cat="pp" end="9" id="16" rel="ld">
+              <node begin="7" end="8" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="17" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+              <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="straat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="straat" sense="straat" word="straat"/>
+            </node>
+            <node begin="10" buiging="zonder" end="11" frame="verb(hebben,inf(no_e),ld_pp)" his="normal" his_1="normal" id="19" infl="inf(no_e)" lcat="inf" lemma="staan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="sta" sc="ld_pp" sense="sta" word="staan" wvorm="inf"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Voornaamste verandering is dat er minder militairen op straat zullen staan .</sentence>
+  <comments>
+    <comment>Q#5|Voornaamste verandering is dat er minder militairen op straat zullen staan .|1|1|-8.080340812270007</comment>
+  </comments>
+</alpino_ds>

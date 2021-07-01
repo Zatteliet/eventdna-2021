@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" index="1" lcat="np" lemma="Groen" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Groen" sense="Groen" word="Groen"/>
+      <node begin="1" end="2" frame="verb(hebben,modal_not_u,modifier(aux(inf)))" his="normal" his_1="normal" id="3" infl="modal_not_u" lcat="smain" lemma="willen" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="wil" sc="modifier(aux(inf))" sense="wil" stype="declarative" tense="present" word="wil" wvorm="pv"/>
+      <node begin="0" cat="inf" end="10" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="2" case="both" def="def" end="3" frame="pronoun(nwh,u,sg,de,both,def)" gen="de" getal="getal" his="normal" his_1="normal" id="6" index="2" lcat="np" lemma="u" naamval="nomin" num="sg" pdtype="pron" per="u" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="obj1" rnum="sg" root="u" sense="u" status="vol" vwtype="pers" wh="nwh" word="u"/>
+        <node begin="3" buiging="zonder" end="4" frame="verb(hebben,inf,aci)" his="normal" his_1="normal" id="7" infl="inf" lcat="inf" lemma="laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat" sc="aci" sense="laat" word="laten" wvorm="inf"/>
+        <node begin="2" cat="inf" end="10" id="8" rel="vc">
+          <node begin="2" end="3" id="9" index="2" rel="su"/>
+          <node begin="4" buiging="zonder" end="5" frame="verb(hebben,inf,sbar)" his="normal" his_1="normal" id="10" infl="inf" lcat="inf" lemma="bepalen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="bepaal" sc="sbar" sense="bepaal" word="bepalen" wvorm="inf"/>
+          <node begin="5" cat="whsub" end="8" id="11" rel="vc">
+            <node begin="5" end="6" frame="wh_adjective(odet_adv)" his="normal" his_1="normal" id="12" index="3" lcat="ap" lemma="hoeveel" numtype="hoofd" pos="adj" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="whd" root="hoeveel" sense="hoeveel" wh="ywh" word="hoeveel"/>
+            <node begin="5" cat="ssub" end="8" id="13" rel="body">
+              <node begin="5" end="6" id="14" index="3" rel="mod"/>
+              <node begin="6" case="both" def="def" end="7" frame="pronoun(nwh,u,sg,de,both,def)" gen="de" getal="getal" his="normal" his_1="normal" id="15" lcat="np" lemma="u" naamval="nomin" num="sg" pdtype="pron" per="u" persoon="2b" pos="pron" postag="VNW(pers,pron,nomin,vol,2b,getal)" pt="vnw" rel="su" rnum="sg" root="u" sense="u" status="vol" vwtype="pers" wh="nwh" word="u"/>
+              <node begin="7" end="8" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="16" infl="sg3" lcat="ssub" lemma="werken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="werk" sc="intransitive" sense="werk" tense="present" word="werkt" wvorm="pv"/>
+            </node>
+          </node>
+          <node begin="8" cat="pp" end="10" id="17" rel="mod">
+            <node begin="8" end="9" frame="preposition(dankzij,[])" his="normal" his_1="normal" id="18" lcat="pp" lemma="dankzij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="dankzij" sense="dankzij" vztype="init" word="dankzij"/>
+            <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="19" lcat="np" lemma="welvaart_garantie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="welvaart_garantie" sense="welvaart_garantie" word="welvaartsgarantie"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Groen wil u laten bepalen hoeveel u werkt dankzij welvaartsgarantie</sentence>
+  <comments>
+    <comment>Q#1|Groen wil u laten bepalen hoeveel u werkt dankzij welvaartsgarantie|1|1|-6.390050404270001</comment>
+  </comments>
+</alpino_ds>

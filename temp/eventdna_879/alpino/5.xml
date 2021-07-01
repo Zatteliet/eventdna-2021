@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="2" id="0" rel="top">
+    <node begin="0" end="1" frame="waar_adverb(om)" his="normal" his_1="decap" his_1_1="normal" id="1" lcat="pp" lemma="waarom" pos="pp" postag="BW()" pt="bw" rel="--" root="waarom" sense="waarom" special="waar" stype="whquestion" word="Waarom"/>
+    <node begin="1" end="2" frame="punct(vraag)" his="normal" his_1="normal" id="2" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="5">Waarom ?</sentence>
+  <comments>
+    <comment>Q#5|Waarom ?|1|1|0.039331365999999986</comment>
+  </comments>
+</alpino_ds>

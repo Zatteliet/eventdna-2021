@@ -1,0 +1,44 @@
+Concurrerende	concurreren	WW(od,prenom,met-e)	B-NP	O
+havens	haven	N(soort,mv,basis)	I-NP	O
+Antwerpen	Antwerpen	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+en	en	VG(neven)	O	O
+Zeebrugge	Zeebrugge	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+zetten	zetten	WW(pv,tgw,mv)	B-VP	O
+stap	stap	N(soort,ev,basis,zijd,stan)	B-NP	O
+richting	richting	N(soort,ev,basis,zijd,stan)	I-NP	O
+samenwerking	samenwerking	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+havens	haven	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Antwerpen	Antwerpen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+Zeebrugge	Zeebrugge	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+historische	historisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+concurrenten	concurrent	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+laten	laten	WW(inf,vrij,zonder)	B-VP	O
+onderzoeken	onderzoeken	WW(inf,vrij,zonder)	I-VP	O
+hoe	hoe	BW()	B-ADVP	O
+ze	ze	VNW(pers,pron,3,mv)	I-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+kunnen	kunnen	WW(pv,tgw,mv)	B-VP	O
+samenwerken	samenwerken	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+Zeebrugge	Zeebrugge	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+weerklinken	weerklinken	WW(pv,tgw,mv)	B-VP	O
+tevreden	tevreden	ADJ(vrij,basis,zonder)	B-NP	O
+reacties	reactie	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+Antwerpen	Antwerpen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+ze	ze	VNW(pers,pron,3,mv)	B-AP	O
+voorlopig	voorlopig	ADJ(vrij,basis,zonder)	I-AP	O
+voorzichtiger	voorzichtig	ADJ(vrij,comp,zonder)	I-AP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="8" end="9" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="0" cat="np" end="8" id="4" rel="su">
+        <node begin="0" buiging="zonder" end="1" frame="determiner(pron)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="5" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="Zijn"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="partij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="partij" sense="partij" word="partij"/>
+        <node begin="2" cat="mwu" end="6" his="name" his_1="not_begin" id="7" mwu_root="Actie van Ontevreden Burgers" mwu_sense="Actie van Ontevreden Burgers" rel="app">
+          <node begin="2" end="3" frame="proper_name(both,'ORG')" id="8" lcat="np" lemma="Actie" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Actie" sense="Actie" spectype="deeleigen" word="Actie"/>
+          <node begin="3" end="4" frame="proper_name(both,'ORG')" id="9" lcat="np" lemma="van" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="van" sense="van" spectype="deeleigen" word="van"/>
+          <node begin="4" end="5" frame="proper_name(both,'ORG')" id="10" lcat="np" lemma="Ontevreden" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Ontevreden" sense="Ontevreden" spectype="deeleigen" word="Ontevreden"/>
+          <node begin="5" end="6" frame="proper_name(both,'ORG')" id="11" lcat="np" lemma="Burgers" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Burgers" sense="Burgers" spectype="deeleigen" word="Burgers"/>
+        </node>
+        <node begin="7" end="8" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="12" lcat="np" lemma="ano" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="ano" sense="ano" word="ANO"/>
+      </node>
+      <node begin="9" end="10" frame="verb(hebben,past(sg),transitive)" his="normal" his_1="normal" id="13" infl="sg" lcat="smain" lemma="behalen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="behaal" sc="transitive" sense="behaal" stype="declarative" tense="past" word="behaalde" wvorm="pv"/>
+      <node begin="10" cat="np" end="17" id="14" rel="obj1">
+        <node begin="10" cat="detp" end="13" id="15" rel="det">
+          <node begin="10" cat="mwu" end="12" his="normal" his_1="normal" id="16" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+            <node begin="10" buiging="zonder" end="11" frame="pre_num_adv(both)" graad="comp" id="17" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+            <node begin="11" conjtype="onder" end="12" frame="pre_num_adv(both)" id="18" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+          </node>
+          <node begin="12" end="13" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="19" infl="pl_num" lcat="detp" lemma="29" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="29" sense="29" special="hoofd" word="29"/>
+        </node>
+        <node begin="13" end="14" frame="meas_mod_noun(both,count,meas)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="procent" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" word="procent"/>
+        <node begin="14" cat="pp" end="17" id="21" rel="mod">
+          <node begin="14" end="15" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="22" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="15" cat="np" end="17" id="23" rel="obj1">
+            <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="stem" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="stem" sense="stem" word="stemmen"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="26" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Zijn partij Actie van Ontevreden Burgers ( ANO ) behaalde meer dan 29 procent van de stemmen .</sentence>
+  <comments>
+    <comment>Q#3|Zijn partij Actie van Ontevreden Burgers ( ANO ) behaalde meer dan 29 procent van de stemmen .|1|1|-9.64118219020999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,43 @@
+Studenten	student	N(soort,mv,basis)	B-NP	O
+dwingen	dwingen	WW(pv,tgw,mv)	B-VP	O
+UGent	UGent	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+tot	tot	VZ(init)	O	O
+ethisch	ethisch	ADJ(vrij,basis,zonder)	B-AP	O
+beleggen	beleggen	WW(inf,vrij,zonder)	B-VP	O
+				
+Fossiele	fossiel	ADJ(prenom,basis,met-e,stan)	B-NP	O
+brandstoffen	brandstof	N(soort,mv,basis)	I-NP	O
+maar	maar	VG(neven)	O	O
+ook	ook	BW()	B-ADVP	O
+tabak	tabak	N(soort,ev,basis,zijd,stan)	B-NP	O
+,	,	LET()	O	O
+wapens	wapen	N(soort,mv,basis)	B-NP	O
+en	en	VG(neven)	O	O
+zelfs	zelfs	BW()	B-ADVP	O
+pornografie	pornografie	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				
+Het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+waren	zijn	WW(pv,verl,mv)	B-VP	O
+branches	branche	N(soort,mv,basis)	B-NP	O
+waarin	waarin	BW()	B-ADVP	O
+de	de	LID(bep)	B-NP	O
+Universiteit	universiteit	N(soort,ev,basis,zijd,stan)	I-NP	B-ORG
+Gent	Gent	N(eigen,ev,basis,onz,stan)	I-NP	I-ORG
+tot	tot	VZ(init)	O	O
+voor	voor	VZ(init)	O	O
+kort	kort	ADJ(vrij,basis,zonder)	B-AP	O
+belegde	beleggen	WW(pv,verl,ev)	B-VP	O
+.	.	LET()	O	O
+				
+Onder	onder	VZ(init)	B-PP	O
+druk	druk	N(soort,ev,basis,zijd,stan)	B-NP	O
+van	van	VZ(init)	B-PP	O
+studenten	student	N(soort,mv,basis)	B-NP	O
+stopt	stoppen	WW(pv,tgw,met-t)	B-VP	O
+ze	ze	VNW(pers,pron,3,ev,fem)	O	O
+daar	daar	VNW(aanw,adv-pron,3o,getal)	O	O
+nu	nu	BW()	B-ADVP	O
+mee	mee	VZ(fin)	O	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="13" end="14" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="15" end="16" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="17" id="3" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="grootmoeder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="grootmoeder" sense="grootmoeder" word="Grootmoeder"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="voorkomen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="voorkom" sc="transitive" sense="voorkom" stype="declarative" tense="present" word="voorkomt" wvorm="pv"/>
+      <node begin="2" cat="np" end="9" id="6" rel="obj1">
+        <node begin="2" cat="ap" end="4" id="7" rel="mod">
+          <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="8" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijk"/>
+          <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(both))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="nieuw" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="hd" root="nieuw" sense="nieuw" vform="adj" word="nieuw"/>
+        </node>
+        <node begin="4" end="5" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="bloedbad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bloedbad" sense="bloedbad" word="bloedbad"/>
+        <node begin="5" cat="pp" end="9" id="11" rel="mod">
+          <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="6" cat="np" end="9" id="13" rel="obj1">
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="school" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="school" sense="school" word="school"/>
+            <node begin="7" cat="pp" end="9" id="15" rel="mod">
+              <node begin="7" end="8" frame="preposition(in,[])" his="normal" his_1="normal" id="16" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="8" end="9" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="17" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="obj1" rnum="sg" root="VS" sense="VS" word="VS"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="cp" end="17" id="18" rel="mod">
+        <node begin="9" conjtype="onder" end="10" frame="complementizer" his="normal" his_1="normal" id="19" lcat="cp" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" sense="nadat" word="nadat"/>
+        <node begin="10" cat="ssub" end="17" id="20" rel="body">
+          <node begin="10" case="both" def="def" end="11" frame="pronoun(nwh,thi,both,de,both,def,wkpro)" gen="de" genus="fem" getal="ev" his="normal" his_1="normal" id="21" lcat="np" lemma="ze" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,stan,red,3,ev,fem)" pt="vnw" rel="su" rnum="sg" root="ze" sense="ze" special="wkpro" status="red" vwtype="pers" wh="nwh" word="ze"/>
+          <node begin="11" cat="np" end="15" id="22" rel="obj1">
+            <node begin="11" end="12" frame="noun(het,count,sg,app_measure)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="dag_boek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="dag_boek" sc="app_measure" sense="dag_boek" word="dagboek"/>
+            <node begin="12" cat="np" end="15" id="24" rel="app">
+              <node begin="12" end="13" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="kleinzoon" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kleinzoon" sense="kleinzoon" word="kleinzoon"/>
+              <node begin="14" end="15" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="26" infl="pl_num" lcat="np" lemma="18" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="pl" root="18" sense="18" special="hoofd" word="18"/>
+            </node>
+          </node>
+          <node begin="16" end="17" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="27" infl="sg3" lcat="ssub" lemma="lezen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="lees" sc="transitive" sense="lees" tense="present" word="leest" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Grootmoeder voorkomt mogelijk nieuw bloedbad op school in VS nadat ze dagboek kleinzoon ( 18 ) leest</sentence>
+  <comments>
+    <comment>Q#1|Grootmoeder voorkomt mogelijk nieuw bloedbad op school in VS nadat ze dagboek kleinzoon ( 18 ) leest|1|1|5.563161133000007</comment>
+  </comments>
+</alpino_ds>

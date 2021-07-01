@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" end="1" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="vrijdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="vrijdag" sense="vrijdag" special="tmp" word="Vrijdag"/>
+      <node begin="1" end="2" frame="verb(zijn,pl,intransitive)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="beginnen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="begin" sc="intransitive" sense="begin" stype="declarative" tense="present" word="beginnen" wvorm="pv"/>
+      <node begin="2" cat="np" end="7" id="4" rel="su">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="3" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="6" mwu_root="Olympische Spelen" mwu_sense="Olympische Spelen" rel="hd">
+          <node begin="3" end="4" frame="proper_name(both)" id="7" lcat="np" lemma="Olympische" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Olympische" sense="Olympische" spectype="deeleigen" word="Olympische"/>
+          <node begin="4" end="5" frame="proper_name(both)" id="8" lcat="np" lemma="Spelen" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="pl" root="Spelen" sense="Spelen" spectype="deeleigen" word="Spelen"/>
+        </node>
+        <node begin="5" cat="pp" end="7" id="9" rel="mod">
+          <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="11" lcat="np" lemma="Zuid-Korea" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Zuid-Korea" sense="Zuid-Korea" word="Zuid-Korea"/>
+        </node>
+      </node>
+    </node>
+    <node begin="7" end="8" frame="punct(punt)" his="normal" his_1="normal" id="12" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Vrijdag beginnen de Olympische Spelen in Zuid-Korea .</sentence>
+  <comments>
+    <comment>Q#2|Vrijdag beginnen de Olympische Spelen in Zuid-Korea .|1|1|-1.366102292449999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="ppart" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="obj1">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="3" lcat="np" lemma="Congo_expert" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Congo_expert" sense="Congo_expert" word="Congo-expert"/>
+        <node begin="1" cat="mwu" end="3" his="name" his_1="not_begin" id="4" mwu_root="Kris Berwouts" mwu_sense="Kris Berwouts" rel="app">
+          <node begin="1" end="2" frame="proper_name(both,'PER')" id="5" lcat="np" lemma="Kris" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kris" sense="Kris" spectype="deeleigen" word="Kris"/>
+          <node begin="2" end="3" frame="proper_name(both,'PER')" id="6" lcat="np" lemma="Berwouts" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Berwouts" sense="Berwouts" spectype="deeleigen" word="Berwouts"/>
+        </node>
+      </node>
+      <node begin="3" cat="np" end="5" id="7" rel="mod">
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="kort" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="kort" sense="kort" vform="adj" word="korte"/>
+        <node begin="4" end="5" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="tijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tijd" sense="tijd" special="tmp" word="tijd"/>
+      </node>
+      <node begin="5" cat="pp" end="7" id="10" rel="ld">
+        <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="6" end="7" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="12" lcat="np" lemma="Congo" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Congo" sense="Congo" word="Congo"/>
+      </node>
+      <node begin="7" buiging="zonder" end="8" frame="verb(hebben,psp,ninv(np_ld_pp,part_np_ld_pp(vast)))" his="normal" his_1="part-V" id="13" infl="psp" lcat="ppart" lemma="vast_houden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="houd_vast" sc="part_np_ld_pp(vast)" sense="houd_vast" word="vastgehouden" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Congo-expert Kris Berwouts korte tijd in Congo vastgehouden</sentence>
+  <comments>
+    <comment>Q#1|Congo-expert Kris Berwouts korte tijd in Congo vastgehouden|1|1|1.4411025876700005</comment>
+  </comments>
+</alpino_ds>

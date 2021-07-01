@@ -1,0 +1,47 @@
+Turkije	Turkije	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+en	en	VG(neven)	O	O
+VS	VS	N(eigen,mv,basis)	B-NP	B-LOC
+praten	praten	WW(inf,vrij,zonder)	B-VP	O
+over	over	VZ(init)	B-PP	O
+vrijlating	vrijlating	N(soort,ev,basis,zijd,stan)	B-NP	O
+gevangen	vangen	WW(vd,vrij,zonder)	B-VP	O
+dominee	dominee	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+nationale	nationaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+veiligheidsadviseur	veiligheidsadviseur	N(soort,ev,basis,zijd,stan)	I-NP	O
+John	John	SPEC(deeleigen)	I-NP	B-PER
+Bolton	Bolton	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+maandagavond	maandagavond	N(soort,ev,basis,zijd,stan)	B-NP	O
+met	met	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Turkse	Turks	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+ambassadeur	ambassadeur	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+Washington	Washington	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+gesproken	spreken	WW(vd,vrij,zonder)	B-VP	O
+over	over	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+gevangenschap	gevangenschap	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+dominee	dominee	N(soort,ev,basis,zijd,stan)	I-NP	O
+Andrew	Andrew	SPEC(deeleigen)	I-NP	B-PER
+Brunson	Brunson	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				
+Die	die	VNW(aanw,pron,3,getal)	B-NP	O
+zit	zitten	WW(pv,tgw,ev)	B-VP	O
+in	in	VZ(init)	B-PP	O
+Turkije	Turkije	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+vast	vast	ADJ(vrij,basis,zonder)	B-AP	O
+sinds	sinds	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+staatsgreep	staatsgreep	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+2016	2016	TW(hoofd,vrij)	B-NP	O
+.	.	LET()	O	O
+				

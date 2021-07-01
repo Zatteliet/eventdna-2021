@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="du" end="5" id="1" rel="--">
+      <node begin="0" cat="du" end="2" id="2" rel="dp">
+        <node begin="0" buiging="met-e" end="1" frame="noun(de,count,pl)" gen="de" getal-n="mv-n" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="verdachte" num="pl" pos="noun" positie="nom" postag="WW(vd,nom,met-e,mv-n)" pt="ww" rel="dp" rnum="pl" root="verdachte" sense="verdachte" word="Verdachten" wvorm="vd"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="zaak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="dp" rnum="sg" root="zaak" sense="zaak" word="zaak"/>
+      </node>
+      <node begin="2" cat="ppart" end="5" id="5" rel="dp">
+        <node begin="2" cat="np" end="4" id="6" rel="obj1">
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(ge_e)" his="normal" his_1="normal" id="7" infl="e" lcat="ppart" lemma="gekruisigd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gekruisigd" sense="gekruisigd" vform="psp" word="gekruisigde" wvorm="vd"/>
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="koe" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="koe" sense="koe" word="koe"/>
+        </node>
+        <node begin="4" buiging="zonder" end="5" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="9" infl="psp" lcat="ppart" lemma="op_pakken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="pak_op" sc="part_transitive(op)" sense="pak_op" word="opgepakt" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Verdachten zaak gekruisigde koe opgepakt</sentence>
+  <comments>
+    <comment>Q#1|Verdachten zaak gekruisigde koe opgepakt|1|2|4.96034502763</comment>
+  </comments>
+</alpino_ds>

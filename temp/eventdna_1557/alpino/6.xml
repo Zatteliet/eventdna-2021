@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="13" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="3" end="4" frame="verb(unacc,past(pl),passive)" his="normal" his_1="normal" id="4" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" stype="declarative" tense="past" word="werden" wvorm="pv"/>
+        <node begin="4" cat="np" end="6" id="5" index="1" rel="su">
+          <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="6" infl="pl_num" lcat="detp" lemma="23" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="23" sense="23" special="hoofd" word="23"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="dode" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="dode" sense="dode" word="doden"/>
+        </node>
+        <node begin="0" cat="ppart" end="7" id="8" rel="vc">
+          <node begin="0" cat="advp" end="3" id="9" rel="mod">
+            <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="10" mwu_root="alleen al" mwu_sense="alleen al" rel="mod">
+              <node begin="0" end="1" frame="modal_adverb" id="11" lcat="advp" lemma="alleen" pos="adv" postag="BW()" pt="bw" rel="mwp" root="alleen" sc="modal" sense="alleen" word="Alleen"/>
+              <node begin="1" end="2" frame="modal_adverb" id="12" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mwp" root="al" sc="modal" sense="al" word="al"/>
+            </node>
+            <node begin="2" end="3" frame="er_loc_adverb" getal="getal" his="normal" his_1="normal" id="13" lcat="advp" lemma="daar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(aanw,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="hd" root="daar" sense="daar" special="er_loc" status="vol" vwtype="aanw" word="daar"/>
+          </node>
+          <node begin="4" end="6" id="14" index="1" rel="obj1"/>
+          <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="15" infl="psp" lcat="ppart" lemma="melden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="meld" sc="transitive" sense="meld" word="gemeld" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="8" cat="sv1" end="13" id="16" rel="tag">
+        <node begin="8" end="9" frame="verb(hebben,past(sg),part_sbar(mee))" his="normal" his_1="normal" id="17" infl="sg" lcat="sv1" lemma="mee_delen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="deel_mee" sc="part_sbar(mee)" sense="deel_mee" tense="past" word="deelde" wvorm="pv"/>
+        <node begin="9" cat="np" end="12" id="18" rel="su">
+          <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="20" infl="e" lcat="ap" lemma="nationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="nationaal" sense="nationaal" vform="adj" word="nationale"/>
+          <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="3" id="21" lcat="np" lemma="ramp_bestrijding_dienst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="ramp_bestrijding_dienst" sense="ramp_bestrijding_dienst" word="rampenbestrijdingsdienst"/>
+        </node>
+        <node begin="12" end="13" frame="particle(mee)" his="normal" his_1="normal" id="22" lcat="part" lemma="mee" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="mee" sense="mee" vztype="fin" word="mee"/>
+      </node>
+    </node>
+    <node begin="13" end="14" frame="punct(punt)" his="normal" his_1="normal" id="23" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Alleen al daar werden 23 doden gemeld , deelde de nationale rampenbestrijdingsdienst mee .</sentence>
+  <comments>
+    <comment>Q#6|Alleen al daar werden 23 doden gemeld , deelde de nationale rampenbestrijdingsdienst mee .|1|1|-10.31726380281</comment>
+  </comments>
+</alpino_ds>

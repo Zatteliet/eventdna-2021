@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="1" end="2" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="6" id="2" rel="--">
+      <node begin="0" end="1" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="amateurisme" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="amateurisme" sense="amateurisme" word="Amateurisme"/>
+      <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="clan_oorlog" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="clan_oorlog" sense="clan_oorlog" word="clanoorlogen"/>
+      <node begin="3" conjtype="neven" end="4" frame="conj(en)" his="normal" his_1="normal" id="5" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="4" cat="np" end="6" id="6" rel="cnj">
+        <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="7" infl="no_e" lcat="ap" lemma="hysterisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="hysterisch" sense="hysterisch" vform="adj" word="hysterisch"/>
+        <node begin="5" end="6" frame="ge_v_noun(intransitive)" genus="onz" getal="ev" graad="basis" his="normal" his_1="ge-" id="8" lcat="np" lemma="geschreeuw" naamval="stan" ntype="soort" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="geschreeuw" sc="intransitive" sense="geschreeuw" special="ge_v_noun" word="geschreeuw"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Amateurisme , clanoorlogen en hysterisch geschreeuw</sentence>
+  <comments>
+    <comment>Q#1|Amateurisme , clanoorlogen en hysterisch geschreeuw|1|1|0.9725498408799998</comment>
+  </comments>
+</alpino_ds>

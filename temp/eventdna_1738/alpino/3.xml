@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="10" end="11" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="19" id="3" rel="--">
+      <node begin="0" cat="smain" end="14" id="4" rel="cnj">
+        <node begin="0" cat="np" end="10" id="5" index="1" rel="su">
+          <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="6" mwu_root="Vladimir Nestrovich" mwu_sense="Vladimir Nestrovich" rel="hd">
+            <node begin="0" end="1" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Vladimir" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vladimir" sense="Vladimir" spectype="deeleigen" word="Vladimir"/>
+            <node begin="1" end="2" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Nestrovich" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Nestrovich" sense="Nestrovich" spectype="deeleigen" word="Nestrovich"/>
+          </node>
+          <node begin="3" cat="np" end="10" id="9" rel="app">
+            <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="chef" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="chef" sense="chef" word="chef"/>
+            <node begin="4" cat="pp" end="10" id="11" rel="mod">
+              <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="5" cat="np" end="10" id="13" rel="obj1">
+                <node begin="5" end="6" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="militair" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="militair" sense="militair" vform="adj" word="militaire"/>
+                <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="inlichting_dienst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="inlichting_dienst" sense="inlichting_dienst" word="inlichtingendienst"/>
+                <node begin="8" cat="pp" end="10" id="17" rel="mod">
+                  <node begin="8" end="9" frame="preposition(in,[])" his="normal" his_1="normal" id="18" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="9" end="10" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="19" lcat="np" lemma="Wenen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Wenen" sense="Wenen" word="Wenen"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="11" end="12" frame="verb(zijn,sg,ld_pp)" his="normal" his_1="normal" id="20" infl="sg" lcat="smain" lemma="vluchten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="vlucht" sc="ld_pp" sense="vlucht" tense="present" word="vlucht" wvorm="pv"/>
+        <node begin="12" cat="pp" end="14" id="21" rel="ld">
+          <node begin="12" end="13" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="22" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="13" end="14" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="23" lcat="np" lemma="Duitsland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Duitsland" sense="Duitsland" word="Duitsland"/>
+        </node>
+      </node>
+      <node begin="14" conjtype="neven" end="15" frame="conj(en)" his="normal" his_1="normal" id="24" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+      <node begin="0" cat="smain" end="19" id="25" rel="cnj">
+        <node begin="0" end="10" id="26" index="1" rel="su"/>
+        <node begin="15" end="16" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="27" infl="sg3" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="19" id="28" rel="vc">
+          <node begin="0" end="10" id="29" index="1" rel="obj1"/>
+          <node begin="16" cat="pp" end="18" id="30" rel="mod">
+            <node begin="16" end="17" frame="preposition(in,[])" his="normal" his_1="normal" id="31" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="17" end="18" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="32" lcat="np" lemma="Mainz" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Mainz" sense="Mainz" word="Mainz"/>
+          </node>
+          <node begin="18" buiging="zonder" end="19" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="33" infl="psp" lcat="ppart" lemma="vergiftigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="vergiftig" sc="transitive" sense="vergiftig" word="vergiftigd" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Vladimir Nestrovich , chef van de militaire inlichtingendienst in Wenen , vlucht naar Duitsland en wordt in Mainz vergiftigd .</sentence>
+  <comments>
+    <comment>Q#3|Vladimir Nestrovich , chef van de militaire inlichtingendienst in Wenen , vlucht naar Duitsland en wordt in Mainz vergiftigd .|1|1|-9.444722835399999</comment>
+  </comments>
+</alpino_ds>

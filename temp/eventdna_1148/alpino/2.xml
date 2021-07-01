@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="40" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="18" end="19" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="31" end="32" frame="punct(dubb_punt)" his="normal" his_1="normal" id="4" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="33" end="34" frame="punct(komma)" his="normal" his_1="normal" id="5" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="35" end="36" frame="punct(komma)" his="normal" his_1="normal" id="6" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="39" id="7" rel="--">
+      <node begin="0" cat="du" end="31" id="8" rel="nucl">
+        <node begin="0" cat="cp" end="18" id="9" rel="sat">
+          <node begin="0" conjtype="onder" end="1" frame="complementizer(als)" his="normal" his_1="decap" his_1_1="normal" id="10" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="Als"/>
+          <node begin="1" cat="ssub" end="18" id="11" rel="body">
+            <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="12" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+            <node begin="2" cat="pp" end="17" id="13" rel="pc">
+              <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="3" cat="conj" end="17" id="15" rel="obj1">
+                <node begin="3" cat="np" end="5" id="16" rel="cnj">
+                  <node begin="3" end="4" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="18" lcat="np" lemma="sociaal_democraat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="sociaal_democraat" sense="sociaal_democraat" word="sociaaldemocraten"/>
+                </node>
+                <node aform="base" begin="6" buiging="met-e" end="7" frame="nominalized_adjective" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="groen" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="cnj" rnum="pl" root="groen" sense="groen" special="a_noun" word="groenen"/>
+                <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="20" lcat="np" lemma="extreem_link" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="extreem_link" sense="extreem_link" word="extreemlinks"/>
+                <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="21" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="10" cat="np" end="17" id="22" rel="cnj">
+                  <node begin="10" buiging="met-e" end="11" frame="adj_number(enkele)" his="normal" his_1="normal" id="23" infl="enkele" lcat="detp" lemma="enkel" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="enkel" sense="enkel" special="adj_number" vwtype="onbep" word="enkele"/>
+                  <node aform="base" begin="11" buiging="met-e" end="12" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="24" infl="e" lcat="ap" lemma="rechts" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="rechts" sense="rechts" vform="adj" word="rechtse"/>
+                  <node begin="12" end="13" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="politicus" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="politicus" sense="politicus" word="politici"/>
+                  <node begin="13" cat="pp" end="17" id="26" rel="mod">
+                    <node begin="13" end="14" frame="preposition(in,[])" his="normal" his_1="normal" id="27" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                    <node begin="14" cat="np" end="17" id="28" rel="obj1">
+                      <node begin="14" end="15" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="29" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                      <node begin="15" cat="mwu" end="17" his="normal" his_1="names_dictionary" id="30" mwu_root="Europees Parlement" mwu_sense="Europees Parlement" rel="hd">
+                        <node begin="15" end="16" frame="proper_name(sg,'ORG')" id="31" lcat="np" lemma="Europees" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Europees" sense="Europees" spectype="deeleigen" word="Europees"/>
+                        <node begin="16" end="17" frame="proper_name(sg,'ORG')" id="32" lcat="np" lemma="Parlement" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Parlement" sense="Parlement" spectype="deeleigen" word="Parlement"/>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node begin="17" end="18" frame="verb(hebben,sg3,ninv(pc_pp(van),part_pc_pp(af,van)))" his="normal" his_1="part-V" id="33" infl="sg3" lcat="ssub" lemma="af_hangen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="hang_af" sc="part_pc_pp(af,van)" sense="hang_af-van" tense="present" word="afhangt" wvorm="pv"/>
+          </node>
+        </node>
+        <node begin="19" cat="sv1" end="31" id="34" rel="nucl">
+          <node begin="19" end="20" frame="verb(unacc,sg3,so_nonp_copula)" his="normal" his_1="normal" id="35" infl="sg3" lcat="sv1" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="so_nonp_copula" sense="word" tense="present" word="wordt" wvorm="pv"/>
+          <node begin="20" cat="np" end="24" id="36" rel="obj2">
+            <node begin="20" end="21" frame="determiner(de)" his="normal" his_1="normal" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="21" cat="ppart" end="23" id="38" rel="mod">
+              <node aform="base" begin="21" buiging="zonder" end="22" frame="adjective(no_e(tmpadv))" graad="basis" his="normal" his_1="normal" id="39" infl="no_e" lcat="ap" lemma="recent" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="recent" sense="recent" vform="adj" word="recent"/>
+              <node aform="base" begin="22" buiging="zonder" end="23" frame="adjective(ge_both(padv))" his="normal" his_1="normal" id="40" infl="both" lcat="ppart" lemma="aangenomen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="aangenomen" sense="aangenomen" vform="psp" word="aangenomen" wvorm="vd"/>
+            </node>
+            <node aform="base" begin="23" buiging="met-e" end="24" frame="adjective(e)" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="41" infl="e" lcat="np" lemma="Europees" naamval="stan" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,zonder-n,stan)" pt="adj" rel="hd" rnum="sg" root="Europees" sense="Europees" vform="adj" word="Europese"/>
+          </node>
+          <node begin="24" cat="np" end="27" id="42" rel="su">
+            <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="43" lcat="np" lemma="lijst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="lijst" sense="lijst" word="lijst"/>
+            <node begin="25" cat="pp" end="27" id="44" rel="mod">
+              <node begin="25" end="26" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="45" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="26" end="27" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="46" lcat="np" lemma="belasting_paradijs" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="belasting_paradijs" sense="belasting_paradijs" word="belastingparadijzen"/>
+            </node>
+          </node>
+          <node begin="27" cat="ppart" end="31" id="47" rel="predc">
+            <node aform="base" begin="27" buiging="zonder" end="28" frame="adjective(ge_no_e(adv),pp(met))" his="normal" his_1="normal" id="48" infl="no_e" lcat="ppart" lemma="uitgebreid" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="uitgebreid" sc="pp(met)" sense="uitgebreid-met" vform="psp" word="uitgebreid" wvorm="vd"/>
+            <node begin="28" cat="pp" end="31" id="49" rel="pc">
+              <node begin="28" end="29" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="50" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+              <node begin="29" cat="np" end="31" id="51" rel="obj1">
+                <node begin="29" end="30" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="52" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+                <node begin="30" end="31" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="53" lcat="np" lemma="EU_lidstaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="EU_lidstaat" sense="EU_lidstaat" word="EU-lidstaten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="32" cat="conj" end="39" id="54" rel="sat">
+        <node begin="32" end="33" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="55" lcat="np" lemma="Nederland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Nederland" sense="Nederland" word="Nederland"/>
+        <node begin="34" end="35" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="56" lcat="np" lemma="Ierland" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Ierland" sense="Ierland" word="Ierland"/>
+        <node begin="36" end="37" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="57" lcat="np" lemma="Luxemburg" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="Luxemburg" sense="Luxemburg" word="Luxemburg"/>
+        <node begin="37" conjtype="neven" end="38" frame="conj(en)" his="normal" his_1="normal" id="58" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="38" end="39" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="59" lcat="np" lemma="Malta" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="Malta" sense="Malta" word="Malta"/>
+      </node>
+    </node>
+    <node begin="39" end="40" frame="punct(punt)" his="normal" his_1="normal" id="60" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Als het van de sociaaldemocraten , groenen , extreemlinks en enkele rechtse politici in het Europees Parlement afhangt , wordt de recent aangenomen Europese lijst met belastingparadijzen uitgebreid met vier EU-lidstaten : Nederland , Ierland , Luxemburg en Malta .</sentence>
+  <comments>
+    <comment>Q#2|Als het van de sociaaldemocraten , groenen , extreemlinks en enkele rechtse politici in het Europees Parlement afhangt , wordt de recent aangenomen Europese lijst met belastingparadijzen uitgebreid met vier EU-lidstaten : Nederland , Ierland , Luxemburg en Malta .|1|1|0.7935402743500171</comment>
+  </comments>
+</alpino_ds>

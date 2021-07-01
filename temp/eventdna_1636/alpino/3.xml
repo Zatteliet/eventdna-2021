@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="33" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="15" end="16" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="19" end="20" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="25" end="26" frame="punct(komma)" his="normal" his_1="normal" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="32" id="5" rel="--">
+      <node begin="0" cat="smain" end="8" id="6" rel="dp">
+        <node begin="0" end="1" frame="het_noun" genus="onz" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="7" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="pl" root="het" sense="het" special="het" status="red" vwtype="pers" word="Het"/>
+        <node begin="1" end="2" frame="verb(unacc,past(pl),cleft)" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="ben" sc="cleft" sense="ben" stype="declarative" tense="past" word="waren" wvorm="pv"/>
+        <node begin="2" cat="np" end="8" id="9" rel="predc">
+          <node begin="2" cat="mwu" end="4" his="name" his_1="not_begin" id="10" mwu_root="Setsuko Thurlow" mwu_sense="Setsuko Thurlow" rel="hd">
+            <node begin="2" end="3" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Setsuko" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Setsuko" sense="Setsuko" spectype="deeleigen" word="Setsuko"/>
+            <node begin="3" end="4" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Thurlow" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Thurlow" sense="Thurlow" spectype="deeleigen" word="Thurlow"/>
+          </node>
+          <node begin="5" cat="np" end="8" id="13" rel="app">
+            <node begin="5" end="6" frame="determiner(een)" his="normal" his_1="normal" id="14" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="Japans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Japans" sense="Japans" vform="adj" word="Japanse"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="vrouw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrouw" sense="vrouw" word="vrouw"/>
+          </node>
+        </node>
+      </node>
+      <node begin="8" cat="rel" end="32" id="17" rel="dp">
+        <node begin="8" case="no_obl" end="9" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="18" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+        <node begin="8" cat="ssub" end="32" id="19" rel="body">
+          <node begin="8" end="9" id="20" index="1" rel="su"/>
+          <node begin="13" end="14" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="21" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+          <node begin="8" cat="ppart" end="32" id="22" rel="vc">
+            <node begin="8" end="9" id="23" index="1" rel="su"/>
+            <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="24" infl="psp" lcat="ppart" lemma="overleven" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="overleef" sc="transitive" sense="overleef" word="overleefd" wvorm="vd"/>
+            <node begin="9" cat="conj" end="32" id="25" rel="obj1">
+              <node begin="16" conjtype="neven" end="17" frame="conj(en)" his="normal" his_1="normal" id="26" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="9" cat="np" end="32" id="27" rel="cnj">
+                <node begin="9" end="10" frame="determiner(de)" his="normal" his_1="normal" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="29" lcat="np" lemma="atoom_bom_aanval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="atoom_bom_aanval" sense="atoom_bom_aanval" word="atoombomaanval"/>
+                <node begin="11" cat="pp" end="13" id="30" rel="mod">
+                  <node begin="11" end="12" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="31" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+                  <node begin="12" end="13" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="32" lcat="np" lemma="Hiroshima" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Hiroshima" sense="Hiroshima" word="Hiroshima"/>
+                </node>
+                <node begin="26" cat="rel" end="32" id="33" index="2" rel="mod">
+                  <node begin="26" case="no_obl" end="27" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="34" index="3" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="pl" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                  <node begin="26" cat="ssub" end="32" id="35" rel="body">
+                    <node begin="26" end="27" id="36" index="3" rel="su"/>
+                    <node begin="27" cat="np" end="29" id="37" rel="obj1">
+                      <node begin="27" end="28" frame="determiner(de)" his="normal" his_1="normal" id="38" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="28" end="29" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="prijs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="prijs" sense="prijs" word="prijs"/>
+                    </node>
+                    <node begin="29" cat="mwu" end="31" his="normal" his_1="normal" id="40" mwu_root="in ontvangst" mwu_sense="in ontvangst" rel="svp">
+                      <node begin="29" end="30" frame="fixed_part([in,ontvangst])" id="41" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+                      <node begin="30" end="31" frame="fixed_part([in,ontvangst])" genus="zijd" getal="ev" graad="basis" id="42" lcat="fixed" lemma="ontvangst" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="ontvangst" sense="ontvangst" word="ontvangst"/>
+                    </node>
+                    <node begin="31" end="32" frame="verb(hebben,past(pl),fixed([[in,ontvangst],acc],norm_passive))" his="normal" his_1="normal" id="43" infl="pl" lcat="ssub" lemma="nemen" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="neem" sc="fixed([[in,ontvangst],acc],norm_passive)" sense="in-ontvangst-neem" tense="past" word="namen" wvorm="pv"/>
+                  </node>
+                </node>
+              </node>
+              <node begin="17" cat="np" end="32" id="44" rel="cnj">
+                <node begin="17" cat="mwu" end="19" his="name" his_1="not_begin" id="45" mwu_root="Beatrice Fihn" mwu_sense="Beatrice Fihn" rel="hd">
+                  <node begin="17" end="18" frame="proper_name(sg,'PER')" id="46" lcat="np" lemma="Beatrice" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Beatrice" sense="Beatrice" spectype="deeleigen" word="Beatrice"/>
+                  <node begin="18" end="19" frame="proper_name(sg,'PER')" id="47" lcat="np" lemma="Fihn" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Fihn" sense="Fihn" spectype="deeleigen" word="Fihn"/>
+                </node>
+                <node begin="20" cat="np" end="25" id="48" rel="app">
+                  <node begin="20" end="21" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="49" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="21" end="22" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="50" lcat="np" lemma="gezicht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gezicht" sense="gezicht" word="gezicht"/>
+                  <node begin="22" cat="pp" end="25" id="51" rel="mod">
+                    <node begin="22" end="23" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="52" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                    <node begin="23" cat="np" end="25" id="53" rel="obj1">
+                      <node begin="23" end="24" frame="determiner(de)" his="normal" his_1="normal" id="54" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="24" end="25" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="55" lcat="np" lemma="campagne" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="campagne" sense="campagne" word="campagne"/>
+                    </node>
+                  </node>
+                </node>
+                <node begin="26" end="32" id="56" index="2" rel="mod"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="32" end="33" frame="punct(punt)" his="robust_skip" id="57" lcat="--" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Het waren Setsuko Thurlow , een Japanse vrouw die de atoombomaanval op Hiroshima heeft overleefd , en Beatrice Fihn , het gezicht van de campagne , die de prijs in ontvangst namen .</sentence>
+  <comments>
+    <comment>Q#3|Het waren Setsuko Thurlow , een Japanse vrouw die de atoombomaanval op Hiroshima heeft overleefd , en Beatrice Fihn , het gezicht van de campagne , die de prijs in ontvangst namen .|1|2|-10.954370556739995</comment>
+  </comments>
+</alpino_ds>

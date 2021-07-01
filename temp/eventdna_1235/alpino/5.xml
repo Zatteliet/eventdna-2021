@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="ap" end="4" id="2" rel="mod">
+        <node aform="compar" begin="0" buiging="zonder" end="1" frame="adjective(er(tmpadv))" graad="comp" his="normal" his_1="decap" his_1_1="normal" id="3" infl="no_e" lcat="ap" lemma="laat" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="laat" sense="laat" vform="adj" word="Later"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="5" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="7" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(unacc,past(sg),part_sbar_subj_no_het(bekend))" his="normal" his_1="normal" id="9" infl="sg" lcat="smain" lemma="bekend_raken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="raak_bekend" sc="part_sbar_subj_no_het(bekend)" sense="raak_bekend" stype="declarative" tense="past" word="raakte" wvorm="pv"/>
+      <node begin="5" buiging="zonder" end="6" frame="particle(bekend)" graad="basis" his="normal" his_1="normal" id="10" lcat="part" lemma="bekend" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="bekend" sense="bekend" word="bekend"/>
+      <node begin="6" cat="cp" end="12" id="11" rel="su">
+        <node begin="6" conjtype="onder" end="7" frame="complementizer(dat)" his="normal" his_1="normal" id="12" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="7" cat="ssub" end="12" id="13" rel="body">
+          <node begin="7" cat="np" end="9" id="14" rel="su">
+            <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="staatssecretaris" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staatssecretaris" sense="staatssecretaris" word="staatssecretaris"/>
+          </node>
+          <node begin="9" cat="np" end="11" id="17" rel="obj1">
+            <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="18" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node begin="10" end="11" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="klacht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="klacht" sense="klacht" word="klacht"/>
+          </node>
+          <node begin="11" end="12" frame="verb(hebben,sg3,ninv(transitive,part_transitive(voor)))" his="normal" his_1="part-V" id="20" infl="sg3" lcat="ssub" lemma="voor_bereiden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="bereid_voor" sc="part_transitive(voor)" sense="bereid_voor" tense="present" word="voorbereidt" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="21" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Later op de dag raakte bekend dat de staatssecretaris een klacht voorbereidt .</sentence>
+  <comments>
+    <comment>Q#5|Later op de dag raakte bekend dat de staatssecretaris een klacht voorbereidt .|1|1|-5.237364802089999</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="conj" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="prefix_name" id="3" lcat="np" lemma="SP.A_Groen" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="SP.A_Groen" sense="SP.A_Groen" word="SP.A-Groen"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="normal" his_1="normal" id="4" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+        <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="5" mwu_root="Open VLD" mwu_sense="Open VLD" rel="cnj">
+          <node begin="2" end="3" frame="proper_name(sg,'ORG')" id="6" lcat="np" lemma="Open" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Open" sense="Open" spectype="deeleigen" word="Open"/>
+          <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="7" lcat="np" lemma="VLD" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="VLD" sense="VLD" spectype="deeleigen" word="VLD"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb('hebben/zijn',pl,ld_pp)" his="normal" his_1="normal" id="8" infl="pl" lcat="smain" lemma="botsen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="bots" sc="ld_pp" sense="bots" stype="declarative" tense="present" word="botsen" wvorm="pv"/>
+      <node begin="5" cat="pp" end="7" id="9" rel="mod">
+        <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="10" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="gemeente_raad" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="gemeente_raad" sense="gemeente_raad" word="gemeenteraad"/>
+      </node>
+      <node begin="7" end="8" frame="adverb" his="normal" his_1="normal" id="12" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+      <node begin="8" end="9" frame="adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+      <node begin="9" end="10" frame="tmp_adverb" his="normal" his_1="normal" id="14" lcat="advp" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" sense="eens" special="tmp" word="eens"/>
+      <node begin="10" cat="pp" end="12" id="15" rel="ld">
+        <node begin="10" end="11" frame="preposition(over,[heen])" his="normal" his_1="normal" id="16" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+        <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="17" lcat="np" lemma="parkeren_tarief" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="parkeer_tarief" sense="parkeer_tarief" word="parkeertarieven"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">SP.A-Groen en Open VLD botsen in gemeenteraad nog maar eens over parkeertarieven</sentence>
+  <comments>
+    <comment>Q#2|SP.A-Groen en Open VLD botsen in gemeenteraad nog maar eens over parkeertarieven|1|1|2.109886398649999</comment>
+  </comments>
+</alpino_ds>

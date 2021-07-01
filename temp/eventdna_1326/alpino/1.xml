@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ge_e)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ppart" lemma="afgezet" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="afgezet" sense="afgezet" vform="psp" word="Afgezette" wvorm="vd"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Zuidkoreaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Zuidkoreaans" sense="Zuidkoreaans" vform="adj" word="Zuid-Koreaanse"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="presidente" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="presidente" sense="presidente" word="presidente"/>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="riskeren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="riskeer" sc="transitive" sense="riskeer" stype="declarative" tense="present" word="riskeert" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="7" rel="mod">
+        <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="8" infl="pl_num" lcat="detp" lemma="dertig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="dertig" sense="dertig" special="hoofd" word="dertig"/>
+        <node begin="5" end="6" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="pl" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+      </node>
+      <node begin="6" end="7" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="opsluiting" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="opsluiting" sense="opsluiting" word="opsluiting"/>
+    </node>
+  </node>
+  <sentence sentid="1">Afgezette Zuid-Koreaanse presidente riskeert dertig jaar opsluiting</sentence>
+  <comments>
+    <comment>Q#1|Afgezette Zuid-Koreaanse presidente riskeert dertig jaar opsluiting|1|1|-1.001368681890002</comment>
+  </comments>
+</alpino_ds>

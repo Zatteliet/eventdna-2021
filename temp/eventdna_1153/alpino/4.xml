@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="23" id="2" rel="--">
+      <node begin="0" cat="pp" end="3" id="3" rel="mod">
+        <node begin="0" end="1" frame="preposition(in,[])" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="In"/>
+        <node begin="1" cat="np" end="3" id="5" rel="obj1">
+          <node begin="1" end="2" frame="determiner(een)" his="normal" his_1="normal" id="6" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="tweet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="tweet" sense="tweet" word="tweet"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg3,refl_er_pp_sbar(over))" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="verbazen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verbaas" sc="refl_er_pp_sbar(over)" sense="zich-verbaas-over" stype="declarative" tense="present" word="verbaast" wvorm="pv"/>
+      <node begin="4" case="nom" def="def" end="5" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="9" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+      <node begin="5" end="6" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="10" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+      <node begin="6" cat="pp" end="23" id="11" rel="pc">
+        <node begin="6" end="7" frame="er_adverb(over)" his="normal" his_1="normal" id="12" lcat="pp" lemma="erover" pos="pp" postag="BW()" pt="bw" rel="hd" root="erover" sense="erover" special="er" word="erover"/>
+        <node begin="7" cat="cp" end="23" id="13" rel="vc">
+          <node begin="7" conjtype="onder" end="8" frame="complementizer(dat)" his="normal" his_1="normal" id="14" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+          <node begin="8" cat="ssub" end="23" id="15" rel="body">
+            <node begin="8" cat="np" end="10" id="16" rel="su">
+              <node begin="8" end="9" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="9" end="10" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="18" lcat="np" lemma="EU" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="EU" sense="EU" word="EU"/>
+            </node>
+            <node begin="10" end="11" frame="adverb" his="normal" his_1="normal" id="19" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+            <node begin="11" end="12" frame="verb(hebben,sg3,ninv(intransitive,part_intransitive(in)))" his="normal" his_1="part-V" id="20" infl="sg3" lcat="ssub" lemma="in_grijpen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="grijp_in" sc="part_intransitive(in)" sense="grijp_in" tense="present" word="ingrijpt" wvorm="pv"/>
+            <node begin="13" cat="cp" end="23" id="21" rel="mod">
+              <node begin="13" conjtype="onder" end="14" frame="complementizer" his="normal" his_1="normal" id="22" lcat="cp" lemma="terwijl" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="terwijl" sense="terwijl" word="terwijl"/>
+              <node begin="14" cat="ssub" end="23" id="23" rel="body">
+                <node begin="14" end="15" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="EU_land" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="su" rnum="pl" root="EU_land" sense="EU_land" word="EU-landen"/>
+                <node begin="15" cat="np" end="17" id="25" rel="obj1">
+                  <node begin="15" end="16" frame="meas_mod_noun(both,count,pl,measure)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="miljoen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="miljoen" sc="measure" sense="miljoen" special="meas_mod" word="miljoenen"/>
+                  <node begin="16" end="17" frame="meas_mod_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="27" lcat="np" lemma="euro" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="euro" sense="euro" special="meas_mod" word="euro&apos;s"/>
+                </node>
+                <node begin="17" end="18" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="28" infl="pl" lcat="ssub" lemma="investeren" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="investeer" sc="transitive" sense="investeer" tense="present" word="investeren" wvorm="pv"/>
+                <node begin="18" cat="oti" end="23" id="29" rel="mod">
+                  <node begin="18" end="19" frame="complementizer(om)" his="normal" his_1="normal" id="30" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+                  <node begin="19" cat="ti" end="23" id="31" rel="body">
+                    <node begin="21" end="22" frame="complementizer(te)" his="normal" his_1="normal" id="32" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                    <node begin="19" cat="inf" end="23" id="33" rel="body">
+                      <node begin="19" cat="np" end="21" id="34" rel="obj1">
+                        <node begin="19" end="20" frame="determiner(de)" his="normal" his_1="normal" id="35" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                        <node begin="20" end="21" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="36" lcat="np" lemma="soort" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="soort" sense="soort" word="soorten"/>
+                      </node>
+                      <node begin="22" buiging="zonder" end="23" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="37" infl="inf" lcat="inf" lemma="behouden" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="behoud" sc="transitive" sense="behoud" word="behouden" wvorm="inf"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="38" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">In een tweet verbaast hij zich erover dat de EU niet ingrijpt , terwijl EU-landen miljoenen euro&apos;s investeren om de soorten te behouden .</sentence>
+  <comments>
+    <comment>Q#4|In een tweet verbaast hij zich erover dat de EU niet ingrijpt , terwijl EU-landen miljoenen euro&apos;s investeren om de soorten te behouden .|1|1|-13.092015506120005</comment>
+  </comments>
+</alpino_ds>

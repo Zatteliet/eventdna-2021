@@ -1,0 +1,30 @@
+Seehofer	Seehofer	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+verliest	verliezen	WW(pv,tgw,met-t)	B-VP	O
+van	van	VZ(init)	B-PP	O
+Merkel	Merkel	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+				
+CSU-voorzitter	CSU-voorzitter	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+Horst	Horst	SPEC(deeleigen)	I-NP	B-PER
+Seehofer	Seehofer	SPEC(deeleigen)	I-NP	I-PER
+was	zijn	WW(pv,verl,ev)	B-VP	O
+gisteravond	gisteravond	BW()	B-ADVP	O
+van	van	VZ(init)	B-PP	O
+plan	plan	N(soort,ev,basis,onz,stan)	B-NP	O
+ontslag	ontslag	N(soort,ev,basis,onz,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+nemen	nemen	WW(inf,vrij,zonder)	I-VP	O
+				
+als	als	VZ(init)	B-PP	O
+partijvoorzitter	partijvoorzitter	N(soort,ev,basis,zijd,stan)	B-NP	O
+en	en	VG(neven)	O	O
+minister	minister	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				
+Partijgenoten	partijgenoot	N(soort,mv,basis)	B-NP	O
+probeerden	proberen	WW(pv,verl,mv)	B-VP	O
+hem	hem	VNW(pers,pron,3,ev,masc)	B-NP	O
+om	om	VZ(init)	O	O
+te	te	VZ(init)	B-VP	O
+praten	praten	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

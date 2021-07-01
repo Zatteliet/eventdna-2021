@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="ppart" end="7" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="2" mwu_root="Drag queen" mwu_sense="Drag queen" rel="obj1">
+        <node begin="0" end="1" frame="proper_name(both)" id="3" lcat="np" lemma="Drag" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Drag" sense="Drag" spectype="deeleigen" word="Drag"/>
+        <node begin="1" end="2" frame="proper_name(both)" id="4" lcat="np" lemma="queen" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="queen" sense="queen" spectype="deeleigen" word="queen"/>
+      </node>
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,ninv(np_pc_pp(van),part_np_pc_pp(vrij,van)))" his="normal" his_1="part-V" id="5" infl="psp" lcat="ppart" lemma="vrij_spreken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="spreek_vrij" sc="part_np_pc_pp(vrij,van)" sense="spreek_vrij-van" word="vrijgesproken" wvorm="vd"/>
+      <node begin="3" cat="pp" end="7" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="vecht_partij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vecht_partij" sense="vecht_partij" word="vechtpartij"/>
+          <node begin="5" cat="pp" end="7" id="10" rel="mod">
+            <node begin="5" end="6" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="12" lcat="np" lemma="paar_club" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="paar_club" sense="paar_club" word="parenclub"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Drag queen vrijgesproken van vechtpartij in parenclub</sentence>
+  <comments>
+    <comment>Q#1|Drag queen vrijgesproken van vechtpartij in parenclub|1|1|4.209295433609999</comment>
+  </comments>
+</alpino_ds>

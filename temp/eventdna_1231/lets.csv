@@ -1,0 +1,35 @@
+Waarom	waarom	BW()	B-ADVP	O
+democratie	democratie	N(soort,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+China	China	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+holler	hol	ADJ(vrij,comp,zonder)	B-AP	O
+klinkt	klinken	WW(pv,tgw,met-t)	B-VP	O
+dan	dan	BW()	B-ADVP	O
+Xi	Xi	SPEC(deeleigen)	B-NP	B-LOC
+				
+Xi	Xi	SPEC(deeleigen)	B-NP	B-PER
+Jinping	Jinping	SPEC(deeleigen)	I-NP	I-PER
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+zichzelf	zichzelf	VNW(refl,pron,3,getal)	O	O
+een	een	LID(onbep)	B-NP	O
+levenslange	levenslang	ADJ(prenom,basis,met-e,stan)	I-NP	O
+regeerperiode	regeerperiode	N(soort,ev,basis,zijd,stan)	I-NP	O
+cadeau	cadeau	N(soort,ev,basis,onz,stan)	I-NP	O
+doen	doen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Waarom	waarom	BW()	B-ADVP	O
+aanvaarden	aanvaarden	WW(pv,tgw,mv)	B-VP	O
+1,3	1,3	TW(hoofd,prenom,stan)	B-NP	O
+miljard	miljard	N(soort,ev,basis,onz,stan)	I-NP	O
+Chinezen	Chinees	N(eigen,mv,basis)	I-NP	B-LOC
+dat	dat	VG(onder)	O	O
+,	,	LET()	O	O
+en	en	VG(neven)	O	O
+wat	wat	VNW(vb,pron,3o,ev)	B-NP	O
+mist	missen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+westerse	westers	ADJ(prenom,basis,met-e,stan)	I-NP	O
+blik	blik	N(soort,ev,basis,zijd,stan)	I-NP	O
+?	?	LET()	O	O
+				

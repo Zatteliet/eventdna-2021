@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="1" />
+  <node begin="0" cat="top" end="16" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="10" end="11" frame="punct(schuin_streep)" his="normal" his_1="normal" id="2" lcat="punct" lemma="/" pos="punct" postag="LET()" pt="let" rel="--" root="/" sense="/" special="schuin_streep" word="/"/>
+    <node begin="11" end="12" frame="tmp_noun(het,count,meas)" gen="het" genus="onz" getal="ev" graad="basis" his="robust_skip" id="3" lcat="--" lemma="uur" naamval="stan" ntype="soort" num="meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="--" root="uur" sense="uur" special="tmp" word="uur"/>
+    <node begin="0" cat="du" end="16" id="4" rel="--">
+      <node begin="0" cat="smain" end="10" id="5" rel="dp">
+        <node begin="0" cat="np" end="7" id="6" rel="su">
+          <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="7" lcat="np" lemma="crash" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="crash" sense="crash" word="Crash"/>
+          <node begin="1" cat="pp" end="3" id="8" rel="mod">
+            <node begin="1" end="2" frame="preposition(in,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="2" end="3" frame="proper_name(both,'LOC')" getal="mv" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="VS" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,mv,basis)" pt="n" rel="obj1" rnum="sg" root="VS" sense="VS" word="VS"/>
+          </node>
+          <node begin="3" cat="pp" end="7" id="11" rel="mod">
+            <node begin="3" end="4" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="12" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="4" cat="np" end="7" id="13" rel="obj1">
+              <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="auto_weg" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="auto_weg" sense="auto_weg" word="autoweg"/>
+              <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="trein" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="trein" sense="trein" word="trein"/>
+            </node>
+          </node>
+        </node>
+        <node begin="7" end="8" frame="verb(hebben,past(sg),intransitive)" his="normal" his_1="normal" id="16" infl="sg" lcat="smain" lemma="rijden" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="rijd" sc="intransitive" sense="rijd" stype="declarative" tense="past" word="reed" wvorm="pv"/>
+        <node begin="8" cat="np" end="10" id="17" rel="mod">
+          <node begin="8" end="9" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="18" infl="pl_num" lcat="detp" lemma="130" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="130" sense="130" special="hoofd" word="130"/>
+          <node begin="9" end="10" frame="meas_mod_noun(de,count,meas)" gen="de" his="normal" his_1="abbreviation" his_1_1="normal" id="19" lcat="np" lemma="kilo_meter" num="meas" pos="noun" postag="SPEC(afk)" pt="spec" rel="hd" rnum="pl" root="kilo_meter" sense="kilo_meter" special="meas_mod" spectype="afk" word="km"/>
+        </node>
+      </node>
+      <node begin="12" cat="rel" end="16" id="20" rel="dp">
+        <node begin="12" end="13" frame="er_wh_loc_adverb" getal="getal" his="normal" his_1="normal" id="21" index="1" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+        <node begin="12" cat="ssub" end="16" id="22" rel="body">
+          <node begin="12" end="13" id="23" index="1" rel="mod"/>
+          <node begin="13" case="nom" def="def" end="14" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="normal" id="24" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="hij"/>
+          <node begin="14" end="15" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="25" infl="pl_num" lcat="np" lemma="50" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="50" sense="50" special="hoofd" word="50"/>
+          <node begin="15" end="16" frame="verb(hebben,past(sg),transitive_ndev_ndev)" his="normal" his_1="normal" id="26" infl="sg" lcat="ssub" lemma="mogen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="mag" sc="transitive_ndev_ndev" sense="mag" tense="past" word="mocht" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Crash in VS op autoweg : trein reed 130 km / uur waar hij 50 mocht</sentence>
+  <comments>
+    <comment>Q#1|Crash in VS op autoweg : trein reed 130 km / uur waar hij 50 mocht|1|3|11.048488025020006</comment>
+  </comments>
+</alpino_ds>

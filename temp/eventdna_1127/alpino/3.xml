@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="44" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(haak_open)" his="normal" his_1="normal" id="2" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="23" end="24" frame="punct(haak_sluit)" his="normal" his_1="normal" id="3" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="43" id="4" rel="--">
+      <node begin="0" end="1" frame="dip_sbar_adverb" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="advp" lemma="zo" pos="adv" postag="BW()" pt="bw" rel="mod" root="zo" sc="dip_sbar" sense="zo" word="Zo"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="6" infl="sg3" lcat="smain" lemma="reageren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="reageer" sc="intransitive" sense="reageer" tense="present" word="reageert" wvorm="pv"/>
+      <node begin="2" cat="np" end="4" id="7" rel="su">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="8" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="luchtvaart_maatschappij" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="luchtvaart_maatschappij" sense="luchtvaart_maatschappij" word="luchtvaartmaatschappij"/>
+      </node>
+      <node begin="4" end="5" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="woensdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="woensdag" sense="woensdag" special="tmp" word="woensdag"/>
+      <node begin="6" cat="cp" end="43" id="11" rel="mod">
+        <node begin="6" conjtype="onder" end="7" frame="complementizer" his="normal" his_1="normal" id="12" lcat="cp" lemma="nadat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="nadat" sense="nadat" word="nadat"/>
+        <node begin="7" cat="ssub" end="43" id="13" rel="body">
+          <node begin="7" end="8" frame="verb(unacc,past(sg),aux_psp_zijn)" his="normal" his_1="normal" id="14" infl="sg" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" tense="past" word="was" wvorm="pv"/>
+          <node begin="8" cat="ppart" end="43" id="15" rel="vc">
+            <node begin="8" buiging="zonder" end="9" frame="particle(bekend)" graad="basis" his="normal" his_1="normal" id="16" lcat="part" lemma="bekend" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="bekend" sense="bekend" word="bekend"/>
+            <node begin="9" buiging="zonder" end="10" frame="verb(unacc,psp,part_sbar_subj_no_het(bekend))" his="normal" his_1="normal" id="17" infl="psp" lcat="ppart" lemma="bekend_raken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="raak_bekend" sc="part_sbar_subj_no_het(bekend)" sense="raak_bekend" word="geraakt" wvorm="vd"/>
+            <node begin="10" cat="cp" end="43" id="18" rel="su">
+              <node begin="10" conjtype="onder" end="11" frame="complementizer(dat)" his="normal" his_1="normal" id="19" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+              <node begin="11" cat="conj" end="43" id="20" rel="body">
+                <node begin="11" cat="ssub" end="30" id="21" rel="cnj">
+                  <node begin="11" cat="np" end="23" id="22" index="1" rel="su">
+                    <node begin="11" end="12" frame="determiner(de)" his="normal" his_1="normal" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                    <node aform="base" begin="12" buiging="met-e" end="13" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="24" infl="e" lcat="ap" lemma="federaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="federaal" sense="federaal" vform="adj" word="federale"/>
+                    <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="overheid_dienst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overheid_dienst" sense="overheid_dienst" word="overheidsdienst"/>
+                    <node begin="14" cat="mwu" end="17" his="name" his_1="not_begin" id="26" mwu_root="Mobiliteit de vlieglicentie" mwu_sense="Mobiliteit de vlieglicentie" rel="app">
+                      <node begin="14" end="15" frame="proper_name(both,'ORG')" id="27" lcat="np" lemma="Mobiliteit" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Mobiliteit" sense="Mobiliteit" spectype="deeleigen" word="Mobiliteit"/>
+                      <node begin="15" end="16" frame="proper_name(both,'ORG')" id="28" lcat="np" lemma="de" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="de" sense="de" spectype="deeleigen" word="de"/>
+                      <node begin="16" end="17" frame="proper_name(both,'ORG')" id="29" lcat="np" lemma="vlieglicentie" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="vlieglicentie" sense="vlieglicentie" spectype="deeleigen" word="vlieglicentie"/>
+                    </node>
+                    <node begin="18" cat="conj" end="23" id="30" rel="mod">
+                      <node begin="18" end="19" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="31" lcat="np" lemma="AOC" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="AOC" sense="AOC" word="AOC"/>
+                      <node begin="19" conjtype="neven" end="20" frame="conj(of)" his="normal" his_1="normal" id="32" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+                      <node begin="20" cat="mwu" end="23" his="name" his_1="not_begin" id="33" mwu_root="air operator certificate" mwu_sense="air operator certificate" rel="cnj">
+                        <node begin="20" end="21" frame="proper_name(both)" id="34" lcat="np" lemma="air" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="air" sense="air" spectype="deeleigen" word="air"/>
+                        <node begin="21" end="22" frame="proper_name(both)" id="35" lcat="np" lemma="operator" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="operator" sense="operator" spectype="deeleigen" word="operator"/>
+                        <node begin="22" end="23" frame="proper_name(both)" id="36" lcat="np" lemma="certificate" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="certificate" sense="certificate" spectype="deeleigen" word="certificate"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="28" end="29" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="37" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+                  <node begin="11" cat="ppart" end="30" id="38" rel="vc">
+                    <node begin="11" end="23" id="39" index="1" rel="su"/>
+                    <node begin="24" cat="pp" end="27" id="40" rel="mod">
+                      <node begin="24" end="25" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="41" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+                      <node begin="25" cat="np" end="27" id="42" rel="obj1">
+                        <node begin="25" end="26" frame="determiner(de)" his="normal" his_1="normal" id="43" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                        <node begin="26" end="27" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="44" lcat="np" lemma="Fokker" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Fokker" sense="Fokker" word="Fokker"/>
+                      </node>
+                    </node>
+                    <node begin="27" end="28" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="45" infl="pl_num" lcat="np" lemma="50" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="pl" root="50" sense="50" special="hoofd" word="50"/>
+                    <node begin="29" buiging="zonder" end="30" frame="verb(hebben,psp,ninv(transitive,part_transitive(toe)))" his="normal" his_1="part-V" id="46" infl="psp" lcat="ppart" lemma="toe_kennen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="ken_toe" sc="part_transitive(toe)" sense="ken_toe" word="toegekend" wvorm="vd"/>
+                  </node>
+                </node>
+                <node begin="30" conjtype="neven" end="31" frame="conj(en)" his="normal" his_1="normal" id="47" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="11" cat="ssub" end="43" id="48" rel="cnj">
+                  <node begin="11" end="23" id="49" index="1" rel="su"/>
+                  <node begin="41" end="42" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="50" infl="sg_heeft" lcat="ssub" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" tense="present" word="heeft" wvorm="pv"/>
+                  <node begin="11" cat="ppart" end="43" id="51" rel="vc">
+                    <node begin="11" end="23" id="52" index="1" rel="su"/>
+                    <node begin="31" cat="np" end="41" id="53" rel="obj1">
+                      <node begin="31" end="32" frame="determiner(de)" his="normal" his_1="normal" id="54" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="32" end="33" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="55" lcat="np" lemma="overname" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="overname" sense="overname" word="overname"/>
+                      <node begin="33" cat="pp" end="41" id="56" rel="mod">
+                        <node begin="33" end="34" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="57" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                        <node begin="34" cat="np" end="41" id="58" rel="obj1">
+                          <node begin="34" end="35" frame="determiner(de)" his="normal" his_1="normal" id="59" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                          <node begin="35" end="36" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="60" lcat="np" lemma="A320_licentie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="A320_licentie" sense="A320_licentie" word="A320-licentie"/>
+                          <node begin="36" cat="pp" end="41" id="61" rel="mod">
+                            <node begin="36" end="37" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="62" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                            <node begin="37" cat="np" end="41" id="63" rel="obj1">
+                              <node begin="37" cat="mwu" end="40" his="name_gen" his_1="not_begin" id="64" mwu_root="Thomas Cook Airlines" mwu_sense="Thomas Cook Airlines" rel="det">
+                                <node begin="37" end="38" frame="name_determiner(pron,'ORG')" id="65" infl="pron" lcat="detp" lemma="Thomas" neclass="ORG" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Thomas" sense="Thomas" special="name" spectype="deeleigen" word="Thomas"/>
+                                <node begin="38" end="39" frame="name_determiner(pron,'ORG')" id="66" infl="pron" lcat="detp" lemma="Cook" neclass="ORG" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Cook" sense="Cook" special="name" spectype="deeleigen" word="Cook"/>
+                                <node begin="39" end="40" frame="name_determiner(pron,'ORG')" getal="ev" graad="basis" id="67" infl="pron" lcat="detp" lemma="Airlines" naamval="gen" neclass="ORG" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Airlines" sense="Airlines" special="name" word="Airlines"/>
+                              </node>
+                              <node begin="40" end="41" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="68" lcat="np" lemma="Belgium" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="Belgium" sense="Belgium" word="Belgium"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="42" buiging="zonder" end="43" frame="verb(hebben,psp,ninv(transitive,part_transitive(goed)))" his="normal" his_1="part-V" id="69" infl="psp" lcat="ppart" lemma="goed_keuren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="keur_goed" sc="part_transitive(goed)" sense="keur_goed" word="goedgekeurd" wvorm="vd"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="43" end="44" frame="punct(punt)" his="normal" his_1="normal" id="70" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Zo reageert de luchtvaartmaatschappij woensdag , nadat was bekend geraakt dat de federale overheidsdienst Mobiliteit de vlieglicentie ( AOC of air operator certificate ) voor de Fokker 50 heeft toegekend en de overname van de A320-licentie van Thomas Cook Airlines Belgium heeft goedgekeurd .</sentence>
+  <comments>
+    <comment>Q#3|Zo reageert de luchtvaartmaatschappij woensdag , nadat was bekend geraakt dat de federale overheidsdienst Mobiliteit de vlieglicentie ( AOC of air operator certificate ) voor de Fokker 50 heeft toegekend en de overname van de A320-licentie van Thomas Cook Airlines Belgium heeft goedgekeurd .|1|1|-19.794689955579997</comment>
+  </comments>
+</alpino_ds>

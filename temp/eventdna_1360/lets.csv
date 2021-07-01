@@ -1,0 +1,32 @@
+Rechter	rechter	ADJ(vrij,basis,zonder)	B-NP	O
+Catalaanse	Catalaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+politici	politicus	N(soort,mv,basis)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+'	'	LET()	O	O
+partijdig	partijdig	ADJ(vrij,basis,zonder)	B-AP	O
+'	'	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+advocaten	advocaat	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Catalaanse	Catalaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+politici	politicus	N(soort,mv,basis)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+vlucht	vlucht	N(soort,ev,basis,zijd,stan)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Spaanse	Spaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+gerecht	gerecht	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+vinden	vinden	WW(pv,tgw,mv)	B-VP	O
+dat	dat	VG(onder)	O	O
+onderzoeksrechter	onderzoeksrechter	N(soort,ev,basis,zijd,stan)	B-NP	O
+Llarena	Llarena	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+bevooroordeeld	bevooroordelen	WW(vd,vrij,zonder)	B-VP	O
+is	zijn	WW(pv,tgw,ev)	I-VP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="0" cat="du" end="18" id="1" rel="--">
+      <node begin="0" cat="smain" end="11" id="2" rel="dp">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="president" sense="president" word="President"/>
+        <node begin="1" end="2" frame="verb('hebben/zijn',sg3,part_transitive(op))" his="normal" his_1="normal" id="4" infl="sg3" lcat="smain" lemma="op_volgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="volg_op" sc="part_transitive(op)" sense="volg_op" stype="declarative" tense="present" word="volgt" wvorm="pv"/>
+        <node begin="2" case="dat_acc" def="def" end="3" frame="pronoun(nwh,thi,both,de,dat_acc,def)" gen="de" getal="getal" his="normal" his_1="normal" id="5" lcat="np" lemma="zichzelf" naamval="obl" num="both" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,nadr,3,getal)" pt="vnw" rel="obj1" rnum="sg" root="zichzelf" sense="zichzelf" status="nadr" vwtype="refl" wh="nwh" word="zichzelf"/>
+        <node begin="3" end="4" frame="particle(op)" his="normal" his_1="normal" id="6" lcat="part" lemma="op" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="op" sense="op" vztype="fin" word="op"/>
+        <node begin="4" cat="pp" end="11" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+          <node begin="5" cat="np" end="11" id="9" rel="obj1">
+            <node begin="5" cat="detp" end="8" id="10" rel="det">
+              <node begin="5" cat="mwu" end="7" his="normal" his_1="normal" id="11" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+                <node begin="5" buiging="zonder" end="6" frame="pre_num_adv(both)" graad="comp" id="12" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="meer"/>
+                <node begin="6" conjtype="onder" end="7" frame="pre_num_adv(both)" id="13" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+              </node>
+              <node begin="7" end="8" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="14" infl="pl_num" lcat="detp" lemma="70" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="70" sense="70" special="hoofd" word="70"/>
+            </node>
+            <node begin="8" end="9" frame="meas_mod_noun(both,count,meas)" gen="both" his="normal" his_1="normal" id="15" lcat="np" lemma="procent" num="meas" pos="noun" postag="SPEC(symb)" pt="spec" rel="hd" rnum="pl" root="procent" sense="procent" special="meas_mod" spectype="symb" word="%"/>
+            <node begin="9" cat="pp" end="11" id="16" rel="mod">
+              <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="stem" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="stem" sense="stem" word="stemmen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" cat="smain" end="18" id="19" rel="dp">
+        <node begin="11" cat="conj" end="14" id="20" rel="su">
+          <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="decap" his_1="not_begin" id="21" lcat="np" lemma="oppositie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="oppositie" sense="oppositie" word="Oppositie"/>
+          <node begin="12" conjtype="neven" end="13" frame="conj(en)" his="normal" his_1="normal" id="22" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="ngo" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="ngo" sense="ngo" word="ngo"/>
+        </node>
+        <node begin="14" end="15" frame="verb(hebben,pl,transitive)" his="normal" his_1="normal" id="24" infl="pl" lcat="smain" lemma="hekelen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="hekel" sc="transitive" sense="hekel" stype="declarative" tense="present" word="hekelen" wvorm="pv"/>
+        <node begin="15" cat="np" end="18" id="25" rel="obj1">
+          <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="fraude" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="fraude" sense="fraude" word="fraude"/>
+          <node begin="16" cat="pp" end="18" id="27" rel="mod">
+            <node begin="16" end="17" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="17" end="18" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="29" lcat="np" lemma="stem_biljet" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="stem_biljet" sense="stem_biljet" word="stembiljetten"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">President volgt zichzelf op met meer dan 70 % van stemmen Oppositie en ngo hekelen fraude met stembiljetten</sentence>
+  <comments>
+    <comment>Q#2|President volgt zichzelf op met meer dan 70 % van stemmen Oppositie en ngo hekelen fraude met stembiljetten|1|2|2.70780130649</comment>
+  </comments>
+</alpino_ds>

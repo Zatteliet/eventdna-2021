@@ -1,0 +1,52 @@
+Een	een	LID(onbep)	B-NP	O
+griezelig	griezelig	ADJ(prenom,basis,zonder)	I-NP	O
+financieel	financieel	ADJ(prenom,basis,zonder)	I-NP	O
+probleem	probleem	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+belastingplan	belastingplan	N(soort,ev,basis,onz,stan)	I-NP	O
+holt	hollen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+overheidsfinanciën	overheidsfinanciën	N(soort,mv,basis)	I-NP	O
+extra	extra	ADJ(vrij,basis,zonder)	B-AP	O
+uit	uit	VZ(fin)	O	O
+.	.	LET()	O	O
+				
+Zelfs	zelfs	BW()	B-ADVP	O
+als	als	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+economie	economie	N(soort,ev,basis,zijd,stan)	I-NP	O
+groeit	groeien	WW(pv,tgw,met-t)	B-VP	O
+met	met	VZ(init)	O	O
+drie	drie	TW(hoofd,prenom,stan)	B-AP	O
+tot	tot	VZ(init)	B-PP	O
+vier	vier	TW(hoofd,prenom,stan)	B-NP	O
+procent	procent	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+staatsschuld	staatsschuld	N(soort,ev,basis,zijd,stan)	I-NP	O
+met	met	VZ(init)	O	O
+meer	veel	VNW(onbep,grad,comp)	O	O
+dan	dan	VG(onder)	O	O
+duizend	duizend	TW(hoofd,prenom,stan)	B-NP	O
+miljard	miljard	N(soort,ev,basis,onz,stan)	I-NP	O
+dollar	dollar	N(soort,ev,basis,zijd,stan)	I-NP	O
+toenemen	toenemen	WW(pv,tgw,mv)	B-VP	O
+de	de	LID(bep)	B-NP	O
+komende	komen	WW(od,prenom,met-e)	I-NP	O
+jaren	jaar	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+misschien	misschien	BW()	B-ADVP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+ook	ook	BW()	B-ADVP	O
+precies	precies	ADJ(vrij,basis,zonder)	B-AP	O
+de	de	LID(bep)	B-NP	O
+bedoeling	bedoeling	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

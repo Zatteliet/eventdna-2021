@@ -1,0 +1,26 @@
+Trump	trump	N(soort,ev,basis,zijd,stan)	B-NP	O
+erkent	erkennen	WW(pv,tgw,met-t)	B-VP	O
+Jeruzalem	Jeruzalem	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+als	als	VZ(init)	B-PP	O
+hoofdstad	hoofdstad	N(soort,ev,basis,zijd,stan)	B-NP	O
+Israël	Israël	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+				
+De	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Donald	Donald	SPEC(deeleigen)	I-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+aangekondigd	aankondigen	WW(vd,vrij,zonder)	I-VP	O
+dat	dat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+VS	VS	N(eigen,mv,basis)	I-NP	B-LOC
+Jeruzalem	Jeruzalem	N(eigen,ev,basis,onz,stan)	I-NP	I-LOC
+als	als	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+hoofdstad	hoofdstad	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Israël	Israël	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+erkent	erkennen	WW(pv,tgw,met-t)	B-VP	O
+.	.	LET()	O	O
+				

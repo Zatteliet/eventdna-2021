@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="18" id="3" rel="--">
+      <node begin="0" cat="smain" end="6" id="4" rel="nucl">
+        <node begin="0" cat="np" end="4" id="5" index="1" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="6" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="Nobel_prijs" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Nobel_prijs" sense="Nobel_prijs" word="Nobelprijs"/>
+          <node begin="2" cat="pp" end="4" id="8" rel="mod">
+            <node begin="2" end="3" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="3" end="4" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="10" lcat="np" lemma="Geneeskunde" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Geneeskunde" sense="Geneeskunde" word="Geneeskunde"/>
+          </node>
+        </node>
+        <node begin="4" end="5" frame="verb(unacc,sg_heeft,passive)" his="normal" his_1="normal" id="11" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="6" id="12" rel="vc">
+          <node begin="0" end="4" id="13" index="1" rel="obj1"/>
+          <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(transitive,part_transitive(uit)))" his="normal" his_1="part-V" id="14" infl="psp" lcat="ppart" lemma="uit_delen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="deel_uit" sc="part_transitive(uit)" sense="deel_uit" word="uitgedeeld" wvorm="vd"/>
+        </node>
+      </node>
+      <node begin="7" cat="smain" end="18" id="15" rel="sat">
+        <node begin="7" cat="conj" end="15" id="16" rel="su">
+          <node begin="7" cat="mwu" end="9" his="name" his_1="begin" id="17" mwu_root="Jeffrey Hall" mwu_sense="Jeffrey Hall" rel="cnj">
+            <node begin="7" end="8" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Jeffrey" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jeffrey" sense="Jeffrey" spectype="deeleigen" word="Jeffrey"/>
+            <node begin="8" end="9" frame="proper_name(sg,'PER')" id="19" lcat="np" lemma="Hall" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Hall" sense="Hall" spectype="deeleigen" word="Hall"/>
+          </node>
+          <node begin="10" cat="mwu" end="12" his="name" his_1="not_begin" id="20" mwu_root="Michael Rosbash" mwu_sense="Michael Rosbash" rel="cnj">
+            <node begin="10" end="11" frame="proper_name(sg,'PER')" id="21" lcat="np" lemma="Michael" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Michael" sense="Michael" spectype="deeleigen" word="Michael"/>
+            <node begin="11" end="12" frame="proper_name(sg,'PER')" id="22" lcat="np" lemma="Rosbash" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rosbash" sense="Rosbash" spectype="deeleigen" word="Rosbash"/>
+          </node>
+          <node begin="12" conjtype="neven" end="13" frame="conj(en)" his="normal" his_1="normal" id="23" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+          <node begin="13" cat="mwu" end="15" his="name" his_1="not_begin" id="24" mwu_root="Michael Young" mwu_sense="Michael Young" rel="cnj">
+            <node begin="13" end="14" frame="proper_name(sg,'PER')" id="25" lcat="np" lemma="Michael" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Michael" sense="Michael" spectype="deeleigen" word="Michael"/>
+            <node begin="14" end="15" frame="proper_name(sg,'PER')" id="26" lcat="np" lemma="Young" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Young" sense="Young" spectype="deeleigen" word="Young"/>
+          </node>
+        </node>
+        <node begin="15" end="16" frame="verb(unacc,pl,intransitive)" his="normal" his_1="normal" id="27" infl="pl" lcat="smain" lemma="vallen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="val" sc="intransitive" sense="val" stype="declarative" tense="present" word="vallen" wvorm="pv"/>
+        <node begin="16" cat="pp" end="18" id="28" rel="mod">
+          <node begin="16" end="17" frame="preposition(in,[])" his="normal" his_1="normal" id="29" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="17" end="18" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="prijs" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="prijs" sense="prijs" word="prijzen"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">De Nobelprijs voor Geneeskunde is uitgedeeld : Jeffrey Hall , Michael Rosbash en Michael Young vallen in prijzen</sentence>
+  <comments>
+    <comment>Q#1|De Nobelprijs voor Geneeskunde is uitgedeeld : Jeffrey Hall , Michael Rosbash en Michael Young vallen in prijzen|1|1|-5.819173703620003</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="ppart" end="5" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="obj1">
+        <node begin="0" end="1" frame="noun(de,count,pl,measure)" gen="de" getal="mv" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="tienduizenden" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="tienduizenden" sc="measure" sense="tienduizenden" word="Tienduizenden"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="Iraniër" ntype="eigen" num="pl" pos="noun" postag="N(eigen,mv,basis)" pt="n" rel="mod" rnum="pl" root="Iraniër" sense="Iraniër" word="Iraniërs"/>
+      </node>
+      <node begin="2" buiging="zonder" end="3" frame="verb(hebben,psp,ninv(transitive,part_transitive(op)))" his="normal" his_1="part-V" id="5" infl="psp" lcat="ppart" lemma="op_trommelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="trommel_op" sc="part_transitive(op)" sense="trommel_op" word="opgetrommeld" wvorm="vd"/>
+      <node begin="3" cat="pp" end="5" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="7" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+        <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="8" lcat="np" lemma="tegen_betoging" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="tegen_betoging" sense="tegen_betoging" word="tegenbetogingen"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Tienduizenden Iraniërs opgetrommeld voor tegenbetogingen</sentence>
+  <comments>
+    <comment>Q#1|Tienduizenden Iraniërs opgetrommeld voor tegenbetogingen|1|1|3.9113827301299997</comment>
+  </comments>
+</alpino_ds>

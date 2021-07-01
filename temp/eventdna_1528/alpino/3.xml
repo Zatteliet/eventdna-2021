@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="4" end="5" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="17" end="18" frame="punct(komma)" his="normal" his_1="normal" id="4" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="27" id="5" rel="--">
+      <node begin="0" cat="np" end="17" id="6" index="1" rel="su">
+        <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="7" mwu_root="Eddy Houben" mwu_sense="Eddy Houben" rel="hd">
+          <node begin="0" end="1" frame="proper_name(both,'PER')" id="8" lcat="np" lemma="Eddy" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Eddy" sense="Eddy" spectype="deeleigen" word="Eddy"/>
+          <node begin="1" end="2" frame="proper_name(both,'PER')" id="9" lcat="np" lemma="Houben" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Houben" sense="Houben" spectype="deeleigen" word="Houben"/>
+        </node>
+        <node begin="3" end="4" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="10" infl="pl_num" lcat="np" lemma="59" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mod" rnum="pl" root="59" sense="59" special="hoofd" word="59"/>
+        <node begin="6" cat="np" end="17" id="11" rel="app">
+          <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="12" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(e)" graad="basis" his="name_adj" his_1="not_begin" id="13" infl="e" lcat="ap" lemma="Hasseltse" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Hasseltse" sense="Hasseltse" vform="adj" word="Hasseltse"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="14" lcat="np" lemma="schrijn_werker" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="schrijn_werker" sense="schrijn_werker" word="schrijnwerker"/>
+          <node begin="9" cat="rel" end="17" id="15" rel="mod">
+            <node begin="9" case="no_obl" end="10" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="16" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+            <node begin="9" cat="ssub" end="17" id="17" rel="body">
+              <node begin="9" end="10" id="18" index="2" rel="su"/>
+              <node begin="10" end="11" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+              <node begin="11" cat="ppart" end="13" id="20" rel="predc">
+                <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="21" infl="no_e" lcat="ap" lemma="levensgevaarlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="levensgevaarlijk" sense="levensgevaarlijk" vform="adj" word="levensgevaarlijk"/>
+                <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(ge_no_e(padv))" graad="basis" his="normal" his_1="normal" id="22" infl="no_e" lcat="ppart" lemma="gewond" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="gewond" sense="gewond" vform="psp" word="gewond"/>
+              </node>
+              <node begin="13" end="14" frame="verb(unacc,past(sg),nonp_copula)" his="normal" his_1="normal" id="23" infl="sg" lcat="ssub" lemma="raken" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="raak" sc="nonp_copula" sense="raak" tense="past" word="raakte" wvorm="pv"/>
+              <node begin="14" cat="pp" end="17" id="24" rel="mod">
+                <node begin="14" end="15" frame="preposition(bij,[vandaan])" his="normal" his_1="normal" id="25" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="bij"/>
+                <node begin="15" cat="np" end="17" id="26" rel="obj1">
+                  <node begin="15" end="16" frame="determiner(een)" his="normal" his_1="normal" id="27" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+                  <node begin="16" end="17" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="28" lcat="np" lemma="arbeid_ongeval" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="arbeid_ongeval" sense="arbeid_ongeval" word="arbeidsongeval"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="18" end="19" frame="verb(unacc,sg_heeft,aux_psp_zijn)" his="normal" his_1="normal" id="29" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="27" id="30" rel="vc">
+        <node begin="0" end="17" id="31" index="1" rel="su"/>
+        <node begin="19" end="20" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="32" lcat="np" lemma="dinsdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="dinsdag" sense="dinsdag" special="tmp" word="dinsdag"/>
+        <node begin="20" cat="pp" end="23" id="33" rel="mod">
+          <node begin="20" end="21" frame="preposition(in,[])" his="normal" his_1="normal" id="34" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="21" cat="np" end="23" id="35" rel="obj1">
+            <node begin="21" end="22" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="36" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="22" end="23" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="ziekenhuis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ziekenhuis" sense="ziekenhuis" word="ziekenhuis"/>
+          </node>
+        </node>
+        <node begin="23" cat="pp" end="26" id="38" rel="pc">
+          <node begin="23" end="24" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="39" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+          <node begin="24" cat="np" end="26" id="40" rel="obj1">
+            <node begin="24" buiging="zonder" end="25" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="41" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+            <node begin="25" end="26" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="42" lcat="np" lemma="verwonding" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verwonding" sense="verwonding" word="verwondingen"/>
+          </node>
+        </node>
+        <node begin="26" buiging="zonder" end="27" frame="verb(zijn,psp,pc_pp(aan))" his="normal" his_1="normal" id="43" infl="psp" lcat="ppart" lemma="bezwijken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="bezwijk" sc="pc_pp(aan)" sense="bezwijk-aan" word="bezweken" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" his="normal" his_1="normal" id="44" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Eddy Houben ( 59 ) , de Hasseltse schrijnwerker die zaterdag levensgevaarlijk gewond raakte bij een arbeidsongeval , is dinsdag in het ziekenhuis aan zijn verwondingen bezweken .</sentence>
+  <comments>
+    <comment>Q#3|Eddy Houben ( 59 ) , de Hasseltse schrijnwerker die zaterdag levensgevaarlijk gewond raakte bij een arbeidsongeval , is dinsdag in het ziekenhuis aan zijn verwondingen bezweken .|1|1|-18.930961792939996</comment>
+  </comments>
+</alpino_ds>

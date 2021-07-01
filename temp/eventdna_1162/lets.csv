@@ -1,0 +1,66 @@
+Bewoner	bewoneren	WW(pv,tgw,ev)	B-VP	O
+lichtgewond	lichtgewond	ADJ(vrij,basis,zonder)	B-AP	O
+na	na	VZ(init)	B-PP	O
+uitslaande	uitslaan	WW(od,prenom,met-e)	B-NP	O
+brand	brand	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+In	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Sellekaertsstraat	Sellekaertsstraat	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+in	in	VZ(init)	B-PP	O
+Overpelt	Overpelt	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+zaterdagochtend	zaterdagochtend	ADJ(vrij,basis,zonder)	B-AP	O
+een	een	LID(onbep)	B-NP	O
+huis	huis	N(soort,ev,basis,onz,stan)	I-NP	O
+volledig	volledig	ADJ(vrij,basis,zonder)	B-AP	O
+uitgebrand	uitbranden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+bewoner	bewoner	N(soort,ev,basis,zijd,stan)	I-NP	O
+wist	weten	WW(pv,verl,ev)	B-VP	O
+zich	zich	VNW(refl,pron,3,getal)	B-AP	O
+tijdig	tijdig	ADJ(vrij,basis,zonder)	I-AP	O
+in	in	VZ(init)	B-PP	O
+veiligheid	veiligheid	N(soort,ev,basis,zijd,stan)	B-NP	O
+te	te	VZ(init)	B-VP	O
+brengen	brengen	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Met	met	VZ(init)	B-PP	O
+lichte	licht	ADJ(prenom,basis,met-e,stan)	B-NP	O
+brandwonden	brandwonde	N(soort,mv,basis)	I-NP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+overgebracht	overbrengen	WW(vd,vrij,zonder)	B-VP	O
+naar	naar	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+ziekenhuis	ziekenhuis	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Omdat	omdat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+dakbedekking	dakbedekking	N(soort,ev,basis,zijd,stan)	I-NP	O
+asbest	asbest	N(soort,ev,basis,onz,stan)	I-NP	O
+bevatte	bevatten	WW(pv,verl,ev)	B-VP	O
+,	,	LET()	O	O
+werden	worden	WW(pv,verl,mv)	B-VP	O
+een	een	LID(onbep)	B-NP	O
+deskundige	deskundig	ADJ(nom,basis,met-e,zonder-n,stan)	I-NP	O
+en	en	VG(neven)	O	O
+een	een	LID(onbep)	B-NP	O
+speciale	speciaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+reinigingsfirma	reinigingsfirma	N(soort,ev,basis,zijd,stan)	I-NP	O
+verwittigd	verwittigen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+omgeving	omgeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+dreigde	dreigen	WW(pv,verl,ev)	B-VP	O
+evenwel	evenwel	BW()	B-NP	O
+geen	geen	VNW(onbep,det)	I-NP	O
+gevaar	gevaar	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				

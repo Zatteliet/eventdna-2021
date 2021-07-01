@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="np" end="9" id="2" rel="--">
+      <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(ge_e)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="e" lcat="ppart" lemma="afgezet" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="afgezet" sense="afgezet" vform="psp" word="Afgezette" wvorm="vd"/>
+      <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="4" infl="e" lcat="ap" lemma="Catalaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Catalaans" sense="Catalaans" vform="adj" word="Catalaanse"/>
+      <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="minister" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="minister" sense="minister" word="ministers"/>
+      <node begin="3" cat="ppart" end="9" id="6" rel="mod">
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="7" infl="both" lcat="ppart" lemma="aangekomen" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="aangekomen" sense="aangekomen" vform="psp" word="aangekomen" wvorm="vd"/>
+        <node begin="4" cat="pp" end="9" id="8" rel="mod">
+          <node begin="4" end="5" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="9" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="5" cat="np" end="9" id="10" rel="obj1">
+            <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rechtbank" sense="rechtbank" word="rechtbank"/>
+            <node begin="7" cat="pp" end="9" id="12" rel="mod">
+              <node begin="7" end="8" frame="preposition(zonder,[])" his="normal" his_1="normal" id="13" lcat="pp" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" sense="zonder" vztype="init" word="zonder"/>
+              <node begin="8" end="9" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="14" lcat="np" lemma="Puigdemont" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Puigdemont" sense="Puigdemont" word="Puigdemont"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Afgezette Catalaanse ministers aangekomen op rechtbank , zonder Puigdemont</sentence>
+  <comments>
+    <comment>Q#1|Afgezette Catalaanse ministers aangekomen op rechtbank , zonder Puigdemont|1|1|7.283490695080004</comment>
+  </comments>
+</alpino_ds>

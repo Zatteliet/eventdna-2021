@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="12" id="2" rel="--">
+      <node begin="0" cat="whrel" end="5" id="3" rel="su">
+        <node begin="0" case="both" def="indef" end="1" frame="pronoun(ywh,thi,both,de,both,indef)" gen="de" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="4" index="1" lcat="np" lemma="wie" naamval="stan" num="both" pdtype="pron" per="thi" persoon="3p" pos="pron" postag="VNW(vb,pron,stan,vol,3p,getal)" pt="vnw" rel="rhd" rnum="sg" root="wie" sense="wie" status="vol" vwtype="vb" wh="ywh" word="Wie"/>
+        <node begin="0" cat="ssub" end="5" id="5" rel="body">
+          <node begin="0" end="1" id="6" index="1" rel="su"/>
+          <node begin="1" cat="np" end="4" id="7" rel="obj1">
+            <node begin="1" end="2" frame="determiner(een)" his="normal" his_1="normal" id="8" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+            <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="9" infl="no_e" lcat="ap" lemma="Belgisch" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Belgisch" sense="Belgisch" vform="adj" word="Belgisch"/>
+            <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="paspoort" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="paspoort" sense="paspoort" word="paspoort"/>
+          </node>
+          <node begin="4" end="5" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="11" infl="sg3" lcat="ssub" lemma="krijgen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="krijg" sc="transitive" sense="krijg" tense="present" word="krijgt" wvorm="pv"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="12" infl="sg3" lcat="smain" lemma="behouden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="behoud" sc="transitive" sense="behoud" stype="declarative" tense="present" word="behoudt" wvorm="pv"/>
+      <node begin="7" end="8" frame="sentence_adverb" his="normal" his_1="normal" id="13" lcat="advp" lemma="trouwens" pos="adv" postag="BW()" pt="bw" rel="mod" root="trouwens" sense="trouwens" special="sentence" word="trouwens"/>
+      <node begin="8" end="9" frame="sentence_adverb" his="normal" his_1="normal" id="14" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+      <node begin="9" cat="np" end="12" id="15" rel="obj1">
+        <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="16" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="17" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="nationaliteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="nationaliteit" sense="nationaliteit" word="nationaliteit"/>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="6">Wie een Belgisch paspoort krijgt , behoudt trouwens ook zijn Britse nationaliteit .</sentence>
+  <comments>
+    <comment>Q#6|Wie een Belgisch paspoort krijgt , behoudt trouwens ook zijn Britse nationaliteit .|1|1|-8.784925884130004</comment>
+  </comments>
+</alpino_ds>

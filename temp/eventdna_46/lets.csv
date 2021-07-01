@@ -1,0 +1,47 @@
+'	'	LET()	O	O
+Geen	geen	VNW(onbep,det)	B-NP	O
+handelsakkoord	handelsakkoord	N(soort,ev,basis,onz,stan)	I-NP	O
+,	,	LET()	O	O
+geen	geen	VNW(onbep,det)	B-NP	O
+geld	geld	N(soort,ev,basis,onz,stan)	I-NP	O
+'	'	LET()	O	O
+				
+Ja	ja	TSW()	O	O
+,	,	LET()	O	O
+premier	premier	N(soort,ev,basis,zijd,stan)	B-NP	O
+Theresa	Theresa	SPEC(deeleigen)	I-NP	B-PER
+May	May	SPEC(deeleigen)	I-NP	I-PER
+en	en	VG(neven)	O	O
+Commissievoorzitter	commissievoorzitter	N(soort,ev,basis,zijd,stan)	B-NP	B-MISC
+Jean-Claude	Jean-Claude	SPEC(deeleigen)	I-NP	B-PER
+Juncker	Juncker	SPEC(deeleigen)	I-NP	I-PER
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+vorige	vorig	ADJ(prenom,basis,met-e,stan)	B-NP	O
+vrijdag	vrijdag	N(eigen,ev,basis,zijd,stan)	I-NP	O
+een	een	LID(onbep)	B-NP	O
+compromis	compromis	N(soort,ev,basis,onz,stan)	I-NP	O
+gevonden	vinden	WW(vd,vrij,zonder)	B-VP	O
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Brexit	Brexit	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				
+Maar	maar	VG(neven)	O	O
+daarom	daarom	BW()	B-ADVP	O
+zit	zitten	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Britse	Brits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+nog	nog	BW()	B-ADVP	O
+niet	niet	BW()	I-ADVP	O
+op	op	VZ(init)	B-PP	O
+één	één	TW(hoofd,prenom,stan)	B-NP	O
+lijn	lijn	N(soort,ev,basis,zijd,stan)	I-NP	O
+over	over	VZ(init)	B-PP	O
+wat	wat	VNW(vb,pron,3o,ev)	B-NP	O
+dat	dat	VNW(aanw,det)	I-NP	O
+akkoord	akkoord	N(soort,ev,basis,onz,stan)	I-NP	O
+precies	precies	ADJ(vrij,basis,zonder)	B-AP	O
+betekent	betekenen	WW(pv,tgw,met-t)	B-VP	O
+.	.	LET()	O	O
+				

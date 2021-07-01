@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaamse"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="loods" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="loods" sense="loods" word="loodsen"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,past(pl),intransitive)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="staken" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="staak" sc="intransitive" sense="staak" stype="declarative" tense="past" word="staakten" wvorm="pv"/>
+      <node begin="3" cat="pp" end="12" id="6" rel="mod">
+        <node begin="3" cat="mwu" end="6" his="normal" his_1="normal" id="7" mwu_root="naar aanleiding van" mwu_sense="naar aanleiding van" rel="hd">
+          <node begin="3" end="4" frame="preposition([naar,aanleiding,van],[])" id="8" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="naar" sense="naar" vztype="init" word="naar"/>
+          <node begin="4" end="5" frame="preposition([naar,aanleiding,van],[])" genus="zijd" getal="ev" graad="basis" id="9" lcat="pp" lemma="aanleiding" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="aanleiding" sense="aanleiding" word="aanleiding"/>
+          <node begin="5" end="6" frame="preposition([naar,aanleiding,van],[])" id="10" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+        </node>
+        <node begin="6" cat="np" end="12" id="11" rel="obj1">
+          <node begin="6" end="7" frame="determiner(een)" his="normal" his_1="normal" id="12" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+          <node aform="base" begin="7" buiging="met-e" end="8" frame="adjective(ge_e)" his="normal" his_1="normal" id="13" infl="e" lcat="ppart" lemma="gepland" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gepland" sense="gepland" vform="psp" word="geplande" wvorm="vd"/>
+          <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="hervorming" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="hervorming" sense="hervorming" word="hervorming"/>
+          <node begin="9" cat="pp" end="12" id="15" rel="mod">
+            <node begin="9" end="10" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="16" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="10" cat="np" end="12" id="17" rel="obj1">
+              <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="18" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+              <node begin="11" end="12" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="19" lcat="np" lemma="lood_wezen" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="lood_wezen" sense="lood_wezen" word="loodswezen"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="20" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Vlaamse loodsen staakten naar aanleiding van een geplande hervorming van het loodswezen .</sentence>
+  <comments>
+    <comment>Q#3|Vlaamse loodsen staakten naar aanleiding van een geplande hervorming van het loodswezen .|1|1|-2.1729504548200014</comment>
+  </comments>
+</alpino_ds>

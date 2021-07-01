@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="9" end="10" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="1" end="2" frame="verb(unacc,sg_heeft,passive)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+      <node begin="2" cat="np" end="5" id="4" index="1" rel="su">
+        <node begin="2" end="3" frame="determiner(een)" his="normal" his_1="normal" id="5" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="6" infl="e" lcat="ap" lemma="gedeeltelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="gedeeltelijk" sense="gedeeltelijk" vform="adj" word="gedeeltelijke"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="7" lcat="np" lemma="alarm_toestand" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="alarm_toestand" sense="alarm_toestand" word="alarmtoestand"/>
+      </node>
+      <node begin="0" cat="ppart" end="16" id="8" rel="vc">
+        <node begin="0" end="1" frame="er_vp_adverb" getal="getal" his="normal" his_1="decap" his_1_1="normal" id="9" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="mod" root="er" sense="er" special="er" status="red" vwtype="aanw" word="Er"/>
+        <node begin="2" end="5" id="10" index="1" rel="obj1"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,ninv(transitive,part_transitive(af)))" his="normal" his_1="part-V" id="11" infl="psp" lcat="ppart" lemma="af_kondigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="kondig_af" sc="part_transitive(af)" sense="kondig_af" word="afgekondigd" wvorm="vd"/>
+        <node begin="6" cat="pp" end="16" id="12" rel="mod">
+          <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="13" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="7" cat="np" end="16" id="14" rel="obj1">
+            <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="15" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="8" end="9" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="staat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="staat" sense="staat" word="staat"/>
+            <node begin="10" cat="rel" end="16" id="17" rel="mod">
+              <node begin="10" end="11" frame="er_wh_loc_adverb" getal="getal" his="normal" his_1="normal" id="18" index="2" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+              <node begin="10" cat="ssub" end="16" id="19" rel="body">
+                <node begin="12" cat="np" end="14" id="20" index="3" rel="su">
+                  <node begin="12" end="13" frame="noun(de,count,pl,measure)" gen="de" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="duizenden" num="pl" numtype="hoofd" pos="noun" positie="nom" postag="TW(hoofd,nom,mv-n,basis)" pt="tw" rel="hd" rnum="pl" root="duizenden" sc="measure" sense="duizenden" word="duizenden"/>
+                  <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="inwoner" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="mod" rnum="pl" root="inwoner" sense="inwoner" word="inwoners"/>
+                </node>
+                <node begin="14" end="15" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="23" infl="pl" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+                <node begin="10" cat="ppart" end="16" id="24" rel="vc">
+                  <node begin="10" end="11" id="25" index="2" rel="mod"/>
+                  <node begin="11" end="12" frame="sentence_adverb" his="normal" his_1="normal" id="26" lcat="advp" lemma="ook" pos="adv" postag="BW()" pt="bw" rel="mod" root="ook" sense="ook" special="sentence" word="ook"/>
+                  <node begin="12" end="14" id="27" index="3" rel="obj1"/>
+                  <node begin="15" buiging="zonder" end="16" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="28" infl="psp" lcat="ppart" lemma="evacueren" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="evacueer" sc="transitive" sense="evacueer" word="geëvacueerd" wvorm="vd"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="29" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Er is een gedeeltelijke alarmtoestand afgekondigd in de staat , waar ook duizenden inwoners zijn geëvacueerd .</sentence>
+  <comments>
+    <comment>Q#3|Er is een gedeeltelijke alarmtoestand afgekondigd in de staat , waar ook duizenden inwoners zijn geëvacueerd .|1|1|-8.632708291550001</comment>
+  </comments>
+</alpino_ds>

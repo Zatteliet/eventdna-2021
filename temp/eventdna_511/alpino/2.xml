@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="34" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(haak_open)" his="normal" his_1="normal" id="1" lcat="punct" lemma="(" pos="punct" postag="LET()" pt="let" rel="--" root="(" sense="(" special="haak_open" word="("/>
+    <node begin="9" end="10" frame="punct(haak_sluit)" his="normal" his_1="normal" id="2" lcat="punct" lemma=")" pos="punct" postag="LET()" pt="let" rel="--" root=")" sense=")" special="haak_sluit" word=")"/>
+    <node begin="0" cat="smain" end="33" id="3" rel="--">
+      <node begin="0" cat="np" end="9" id="4" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(nonadv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="Vlaams" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaams"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+        <node begin="2" cat="pp" end="5" id="7" rel="mod">
+          <node begin="2" end="3" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="3" cat="mwu" end="5" his="normal" his_1="names_dictionary" id="9" mwu_root="Binnenlands Bestuur" mwu_sense="Binnenlands Bestuur" rel="obj1">
+            <node begin="3" end="4" frame="proper_name(sg,'ORG')" id="10" lcat="np" lemma="Binnenlands" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Binnenlands" sense="Binnenlands" spectype="deeleigen" word="Binnenlands"/>
+            <node begin="4" end="5" frame="proper_name(sg,'ORG')" id="11" lcat="np" lemma="Bestuur" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bestuur" sense="Bestuur" spectype="deeleigen" word="Bestuur"/>
+          </node>
+        </node>
+        <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="12" mwu_root="Liesbeth Homans" mwu_sense="Liesbeth Homans" rel="app">
+          <node begin="5" end="6" frame="proper_name(both,'PER')" id="13" lcat="np" lemma="Liesbeth" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Liesbeth" sense="Liesbeth" spectype="deeleigen" word="Liesbeth"/>
+          <node begin="6" end="7" frame="proper_name(both,'PER')" id="14" lcat="np" lemma="Homans" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Homans" sense="Homans" spectype="deeleigen" word="Homans"/>
+        </node>
+        <node begin="8" end="9" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="15" lcat="np" lemma="N-VA" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="N-VA" sense="N-VA" word="N-VA"/>
+      </node>
+      <node begin="10" end="11" frame="verb(hebben,sg3,pred_np)" his="normal" his_1="normal" id="16" infl="sg3" lcat="smain" lemma="maken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="maak" sc="pred_np" sense="maak" stype="declarative" tense="present" word="maakt" wvorm="pv"/>
+      <node begin="11" cat="np" end="13" id="17" rel="obj1">
+        <node begin="11" end="12" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="18" infl="pl_num" lcat="detp" lemma="438.000" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="438.000" sense="438.000" special="hoofd" word="438.000"/>
+        <node begin="12" end="13" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="euro" sense="euro" special="meas_mod" word="euro"/>
+      </node>
+      <node begin="13" cat="ap" end="33" id="20" rel="predc">
+        <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(no_e(both),object_vp)" graad="basis" his="normal" his_1="normal" id="21" infl="no_e" lcat="ap" lemma="vrij" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="vrij" sc="object_vp" sense="vrij" vform="adj" word="vrij"/>
+        <node begin="14" cat="oti" end="33" id="22" rel="vc">
+          <node begin="14" end="15" frame="complementizer(om)" his="normal" his_1="normal" id="23" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="15" cat="ti" end="33" id="24" rel="body">
+            <node begin="18" end="19" frame="complementizer(te)" his="normal" his_1="normal" id="25" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="15" cat="inf" end="33" id="26" rel="body">
+              <node begin="17" end="18" frame="particle(aan)" his="normal" his_1="normal" id="27" lcat="part" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" sense="aan" vztype="fin" word="aan"/>
+              <node begin="19" buiging="zonder" end="20" frame="verb('hebben/zijn',inf(no_e),part_transitive(aan))" his="normal" his_1="normal" id="28" infl="inf(no_e)" lcat="inf" lemma="aan_gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga_aan" sc="part_transitive(aan)" sense="ga_aan" word="gaan" wvorm="inf"/>
+              <node begin="15" cat="np" end="33" id="29" rel="obj1">
+                <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="30" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="31" lcat="np" lemma="strijd" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="strijd" sense="strijd" word="strijd"/>
+                <node begin="20" cat="pp" end="33" id="32" rel="mod">
+                  <node begin="20" end="21" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="33" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+                  <node begin="21" cat="conj" end="33" id="34" rel="obj1">
+                    <node begin="21" cat="np" end="28" id="35" rel="cnj">
+                      <node aform="base" begin="21" buiging="met-e" end="22" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="36" index="1" infl="e" lcat="ap" lemma="extremistisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="extremistisch" sense="extremistisch" vform="adj" word="extremistische"/>
+                      <node begin="22" end="23" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="propaganda" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="propaganda" sense="propaganda" word="propaganda"/>
+                      <node begin="23" cat="rel" end="28" id="38" rel="mod">
+                        <node begin="23" case="no_obl" end="24" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="39" index="2" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+                        <node begin="23" cat="ssub" end="28" id="40" rel="body">
+                          <node begin="23" end="24" id="41" index="2" rel="su"/>
+                          <node begin="24" end="25" frame="verb(unacc,sg3,passive)" his="normal" his_1="normal" id="42" infl="sg3" lcat="ssub" lemma="worden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="word" sc="passive" sense="word" tense="present" word="wordt" wvorm="pv"/>
+                          <node begin="23" cat="ppart" end="28" id="43" rel="vc">
+                            <node begin="23" end="24" id="44" index="2" rel="obj1"/>
+                            <node begin="25" buiging="zonder" end="26" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="45" infl="psp" lcat="ppart" lemma="verspreiden" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verspreid" sc="transitive" sense="verspreid" word="verspreid" wvorm="vd"/>
+                            <node begin="26" cat="pp" end="28" id="46" rel="mod">
+                              <node begin="26" end="27" frame="preposition(door,[heen])" his="normal" his_1="normal" id="47" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+                              <node begin="27" end="28" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="48" lcat="np" lemma="IS" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="IS" sense="IS" word="IS"/>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node begin="28" conjtype="neven" end="29" frame="conj(of)" his="normal" his_1="normal" id="49" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+                    <node begin="21" cat="np" end="31" id="50" rel="cnj">
+                      <node begin="21" end="22" id="51" index="1" rel="mod"/>
+                      <node aform="base" begin="29" buiging="met-e" end="30" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="52" infl="e" lcat="ap" lemma="soortgelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="soortgelijk" sense="soortgelijk" vform="adj" word="soortgelijke"/>
+                      <node begin="30" end="31" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="53" lcat="np" lemma="groepering" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="groepering" sense="groepering" word="groeperingen"/>
+                    </node>
+                    <node begin="31" conjtype="neven" end="32" frame="conj(of)" his="normal" his_1="normal" id="54" lcat="vg" lemma="of" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="of" sense="of" word="of"/>
+                    <node begin="21" cat="np" end="33" id="55" rel="cnj">
+                      <node begin="21" end="22" id="56" index="1" rel="mod"/>
+                      <node begin="32" end="33" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="57" lcat="np" lemma="individu" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="individu" sense="individu" word="individuen"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="33" end="34" frame="punct(punt)" his="normal" his_1="normal" id="58" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Vlaams minister van Binnenlands Bestuur Liesbeth Homans ( N-VA ) maakt 438.000 euro vrij om de strijd aan te gaan tegen extremistische propaganda die wordt verspreid door IS of soortgelijke groeperingen of individuen .</sentence>
+  <comments>
+    <comment>Q#2|Vlaams minister van Binnenlands Bestuur Liesbeth Homans ( N-VA ) maakt 438.000 euro vrij om de strijd aan te gaan tegen extremistische propaganda die wordt verspreid door IS of soortgelijke groeperingen of individuen .|1|1|-20.472905948589997</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,46 @@
+Ik	ik	VNW(pers,pron,1,ev)	B-NP	O
+heb	hebben	WW(pv,tgw,ev)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+gelogen	liegen	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+parlement	parlement	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+Defensieminister	defensieminister	N(soort,ev,basis,zijd,stan)	B-NP	O
+Vandeput	Vandeput	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+denkt	denken	WW(pv,tgw,met-t)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+aan	aan	VZ(init)	O	O
+opstappen	opstappen	WW(inf,vrij,zonder)	B-VP	O
+				
+Defensieminister	defensieminister	N(soort,ev,basis,zijd,stan)	B-NP	O
+Steven	Steven	SPEC(deeleigen)	I-NP	B-PER
+Vandeput	Vandeput	SPEC(deeleigen)	I-NP	I-PER
+(	(	LET()	O	O
+N-VA	N-VA	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+)	)	LET()	O	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+opnieuw	opnieuw	BW()	B-ADVP	O
+herhaald	herhalen	WW(vd,vrij,zonder)	B-VP	O
+dat	dat	VG(onder)	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+niet	niet	BW()	B-ADVP	O
+denkt	denken	WW(pv,tgw,met-t)	B-VP	O
+aan	aan	VZ(fin)	O	O
+opstappen	opstappen	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+minister	minister	N(soort,ev,basis,zijd,stan)	I-NP	O
+staat	staan	WW(pv,tgw,met-t)	B-VP	O
+recht	recht	ADJ(vrij,basis,zonder)	B-AP	O
+in	in	VZ(init)	B-PP	O
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+schoenen	schoen	N(soort,mv,basis)	I-NP	O
+,	,	LET()	O	O
+klonk	klinken	WW(pv,verl,ev)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Terzake	Terzake	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				

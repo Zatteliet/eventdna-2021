@@ -1,0 +1,66 @@
+Vlaming	Vlaming	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+in	in	VZ(init)	B-PP	O
+Mexico	Mexico	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+:	:	LET()	O	O
+Dacht	dachten	WW(pv,tgw,ev)	B-VP	O
+dat	dat	VG(onder)	O	O
+ik	ik	VNW(pers,pron,1,ev)	B-AP	O
+duizelig	duizelig	ADJ(vrij,basis,zonder)	I-AP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+				
+Mexico	Mexico	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+tweede	twee	TW(rang,prenom,stan)	I-NP	O
+keer	keer	N(soort,ev,basis,genus,stan)	I-NP	O
+deze	deze	VNW(aanw,det)	B-NP	O
+maand	maand	N(soort,ev,basis,zijd,stan)	I-NP	O
+opgeschrikt	opschrikken	WW(vd,vrij,zonder)	B-VP	O
+door	door	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+zware	zwaar	ADJ(prenom,basis,met-e,stan)	I-NP	O
+aardbeving	aardbeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+Vlaming	Vlaming	SPEC(deeleigen)	I-NP	B-LOC
+Bart	Bart	SPEC(deeleigen)	I-NP	B-PER
+Van	Van	SPEC(deeleigen)	I-NP	I-PER
+Ruymbeke	Ruymbeke	SPEC(deeleigen)	I-NP	I-PER
+voelde	voelen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+schokken	schok	N(soort,mv,basis)	I-NP	O
+tot	tot	VZ(init)	O	O
+in	in	VZ(init)	B-PP	O
+Mexico	Mexico	SPEC(deeleigen)	B-NP	B-LOC
+City	City	SPEC(deeleigen)	I-NP	I-LOC
+.	.	LET()	O	O
+				
+Ik	ik	VNW(pers,pron,1,ev)	B-NP	O
+dacht	denken	WW(pv,verl,ev)	B-VP	O
+eerst	eerst	BW()	B-ADVP	O
+dat	dat	VG(onder)	O	O
+ik	ik	VNW(pers,pron,1,ev)	B-AP	O
+duizelig	duizelig	ADJ(vrij,basis,zonder)	I-AP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+,	,	LET()	O	O
+vertelt	vertellen	WW(pv,tgw,met-t)	B-VP	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+VTM	VTM	N(eigen,ev,basis,zijd,stan)	B-NP	B-ORG
+NIEUWS	NIEUWS	N(soort,ev,basis,onz,stan)	I-NP	I-ORG
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+hele	heel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+omgeving	omgeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+zit	zitten	WW(pv,tgw,ev)	B-VP	O
+op	op	VZ(init)	B-PP	O
+dit	dit	VNW(aanw,det)	B-NP	O
+moment	moment	N(soort,ev,basis,onz,stan)	I-NP	O
+nog	nog	BW()	B-ADVP	O
+zonder	zonder	VZ(init)	B-PP	O
+elektriciteit	elektriciteit	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				

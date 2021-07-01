@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="pp" end="11" id="1" rel="--">
+      <node begin="0" buiging="zonder" end="1" frame="modal_adverb(adv_noun_prep)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="advp" lemma="dik" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="dik" sc="adv_noun_prep" sense="dik" word="Dik"/>
+      <node begin="1" end="2" frame="preposition(tegen,[aan,in,op])" his="normal" his_1="normal" id="3" lcat="pp" lemma="tegen" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tegen" sense="tegen" vztype="init" word="tegen"/>
+      <node begin="2" cat="np" end="11" id="4" rel="obj1">
+        <node begin="2" end="3" frame="determiner(de)" his="normal" his_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="zin" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zin" sense="zin" word="zin"/>
+        <node begin="4" cat="pp" end="11" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="np" end="11" id="9" rel="obj1">
+            <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="minister"/>
+            <node begin="6" cat="pp" end="9" id="11" rel="mod">
+              <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="7" cat="mwu" end="9" his="normal" his_1="names_dictionary" id="13" mwu_root="Binnenlandse Zaken" mwu_sense="Binnenlandse Zaken" rel="obj1">
+                <node begin="7" end="8" frame="proper_name(sg,'ORG')" id="14" lcat="np" lemma="Binnenlandse" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Binnenlandse" sense="Binnenlandse" spectype="deeleigen" word="Binnenlandse"/>
+                <node begin="8" end="9" frame="proper_name(sg,'ORG')" id="15" lcat="np" lemma="Zaken" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Zaken" sense="Zaken" spectype="deeleigen" word="Zaken"/>
+              </node>
+            </node>
+            <node begin="9" cat="mwu" end="11" his="name" his_1="not_begin" id="16" mwu_root="Jan Jambon" mwu_sense="Jan Jambon" rel="app">
+              <node begin="9" end="10" frame="proper_name(sg,'PER')" id="17" lcat="np" lemma="Jan" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jan" sense="Jan" spectype="deeleigen" word="Jan"/>
+              <node begin="10" end="11" frame="proper_name(sg,'PER')" id="18" lcat="np" lemma="Jambon" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jambon" sense="Jambon" spectype="deeleigen" word="Jambon"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="11" end="12" frame="punct(punt)" his="normal" his_1="normal" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Dik tegen de zin van minister van Binnenlandse Zaken Jan Jambon .</sentence>
+  <comments>
+    <comment>Q#5|Dik tegen de zin van minister van Binnenlandse Zaken Jan Jambon .|1|1|-3.378235672250003</comment>
+  </comments>
+</alpino_ds>

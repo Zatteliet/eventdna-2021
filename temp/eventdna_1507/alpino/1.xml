@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="12" id="2" rel="--">
+      <node begin="0" cat="smain" end="7" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="np" lemma="orkaan" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="orkaan" sense="orkaan" word="Orkaan"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Maria" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Maria" sense="Maria" word="Maria"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,ap_pred_np)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="leggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leg" sc="ap_pred_np" sense="leg" stype="declarative" tense="present" word="legt" wvorm="pv"/>
+        <node begin="3" cat="np" end="6" id="8" rel="obj1">
+          <node begin="3" buiging="zonder" end="4" frame="modal_adverb(adv_noun_prep)" graad="basis" his="normal" his_1="normal" id="9" lcat="advp" lemma="heel" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="heel" sc="adv_noun_prep" sense="heel" word="heel"/>
+          <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="10" mwu_root="Puerto Rico" mwu_sense="Puerto Rico" rel="hd">
+            <node begin="4" end="5" frame="proper_name(sg,'LOC')" id="11" lcat="np" lemma="Puerto" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Puerto" sense="Puerto" spectype="deeleigen" word="Puerto"/>
+            <node begin="5" end="6" frame="proper_name(sg,'LOC')" id="12" lcat="np" lemma="Rico" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Rico" sense="Rico" spectype="deeleigen" word="Rico"/>
+          </node>
+        </node>
+        <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="13" infl="no_e" lcat="ap" lemma="plat" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="plat" sense="plat" vform="adj" word="plat"/>
+      </node>
+      <node begin="8" cat="np" end="12" id="14" rel="sat">
+        <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="15" infl="no_e" lcat="ap" lemma="volledig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="volledig" sense="volledig" vform="adj" word="volledig"/>
+        <node begin="9" end="10" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="eiland" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="eiland" sense="eiland" word="eiland"/>
+        <node begin="10" cat="pp" end="12" id="17" rel="mod">
+          <node begin="10" end="11" frame="preposition(zonder,[])" his="normal" his_1="normal" id="18" lcat="pp" lemma="zonder" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="zonder" sense="zonder" vztype="init" word="zonder"/>
+          <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="elektriciteit" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="elektriciteit" sense="elektriciteit" word="elektriciteit"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Orkaan Maria legt heel Puerto Rico plat : volledig eiland zonder elektriciteit</sentence>
+  <comments>
+    <comment>Q#1|Orkaan Maria legt heel Puerto Rico plat : volledig eiland zonder elektriciteit|1|1|2.1342047042000005</comment>
+  </comments>
+</alpino_ds>

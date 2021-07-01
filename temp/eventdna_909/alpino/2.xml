@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="10" id="0" rel="top">
+    <node begin="0" cat="smain" end="10" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="rij_verbod" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="rij_verbod" sense="rij_verbod" word="Rijverbod"/>
+        <node begin="1" cat="pp" end="4" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="4" id="6" rel="obj1">
+            <node begin="2" end="3" frame="number(hoofd(both))" his="normal" his_1="normal" id="7" infl="both" lcat="detp" lemma="2,5" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="2,5" sense="2,5" special="hoofd" word="2,5"/>
+            <node begin="3" end="4" frame="tmp_noun(het,count,bare_meas)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="jaar" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="jaar" sense="jaar" special="tmp" word="jaar"/>
+          </node>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(zijn,sg3,part_intransitive(in))" his="normal" his_1="normal" id="9" infl="sg3" lcat="smain" lemma="in_gaan" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ga_in" sc="part_intransitive(in)" sense="ga_in" stype="declarative" tense="present" word="gaat" wvorm="pv"/>
+      <node begin="5" end="6" frame="particle(in)" his="normal" his_1="normal" id="10" lcat="part" lemma="in" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="in" sense="in" vztype="fin" word="in"/>
+      <node begin="6" cat="cp" end="10" id="11" rel="mod">
+        <node begin="6" conjtype="onder" end="7" frame="complementizer" his="normal" his_1="normal" id="12" lcat="cp" lemma="zodra" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="zodra" sense="zodra" word="zodra"/>
+        <node begin="7" cat="ssub" end="10" id="13" rel="body">
+          <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="vonnis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="vonnis" sense="vonnis" word="vonnis"/>
+          <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="15" infl="no_e" lcat="ap" lemma="definitief" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="predc" root="definitief" sense="definitief" vform="adj" word="definitief"/>
+          <node begin="9" end="10" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="16" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Rijverbod van 2,5 jaar gaat in zodra vonnis definitief is</sentence>
+  <comments>
+    <comment>Q#2|Rijverbod van 2,5 jaar gaat in zodra vonnis definitief is|1|1|-3.2400241266399967</comment>
+  </comments>
+</alpino_ds>

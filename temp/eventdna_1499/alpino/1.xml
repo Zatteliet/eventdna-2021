@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="0" cat="smain" end="14" id="1" rel="--">
+      <node begin="0" cat="np" end="7" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="vrijspraak" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrijspraak" sense="vrijspraak" word="Vrijspraak"/>
+        <node begin="1" cat="pp" end="7" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" cat="np" end="7" id="6" rel="obj1">
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="agent" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="agent" sense="agent" word="agent"/>
+            <node begin="3" cat="rel" end="7" id="8" rel="mod">
+              <node begin="3" case="no_obl" end="4" frame="rel_pronoun(de,no_obl)" gen="de" getal="getal" his="normal" his_1="normal" id="9" index="1" lcat="np" lemma="die" naamval="stan" pdtype="pron" persoon="persoon" pos="pron" postag="VNW(betr,pron,stan,vol,persoon,getal)" pt="vnw" rel="rhd" rnum="sg" root="die" sense="die" status="vol" vwtype="betr" wh="rel" word="die"/>
+              <node begin="3" cat="ssub" end="7" id="10" rel="body">
+                <node begin="3" end="4" id="11" index="1" rel="su"/>
+                <node begin="4" cat="np" end="6" id="12" rel="obj1">
+                  <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="13" infl="e" lcat="ap" lemma="zwart" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="zwart" sense="zwart" vform="adj" word="zwarte"/>
+                  <node begin="5" end="6" frame="noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="man" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="man" sense="man" word="man"/>
+                </node>
+                <node begin="6" end="7" frame="verb(hebben,past(sg),ninv(transitive,part_transitive(dood)))" his="normal" his_1="part-V" id="15" infl="sg" lcat="ssub" lemma="dood_schieten" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="schiet_dood" sc="part_transitive(dood)" sense="schiet_dood" tense="past" word="doodschoot" wvorm="pv"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(hebben,sg3,pc_pp(tot))" his="normal" his_1="normal" id="16" infl="sg3" lcat="smain" lemma="leiden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="leid" sc="pc_pp(tot)" sense="leid-tot" stype="declarative" tense="present" word="leidt" wvorm="pv"/>
+      <node begin="8" cat="pp" end="14" id="17" rel="pc">
+        <node begin="8" end="9" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="18" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="9" cat="np" end="14" id="19" rel="obj1">
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="20" infl="e" lcat="ap" lemma="hevig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="hevig" sense="hevig" vform="adj" word="hevige"/>
+          <node begin="10" end="11" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="protest" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="protest" sense="protest" word="protesten"/>
+          <node begin="11" cat="pp" end="14" id="22" rel="mod">
+            <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="23" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="12" cat="mwu" end="14" his="name" his_1="not_begin" id="24" mwu_root="Saint Louis" mwu_sense="Saint Louis" rel="obj1">
+              <node begin="12" end="13" frame="proper_name(both,'LOC')" id="25" lcat="np" lemma="Saint" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Saint" sense="Saint" spectype="deeleigen" word="Saint"/>
+              <node begin="13" end="14" frame="proper_name(both,'LOC')" id="26" lcat="np" lemma="Louis" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Louis" sense="Louis" spectype="deeleigen" word="Louis"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Vrijspraak van agent die zwarte man doodschoot leidt tot hevige protesten in Saint Louis</sentence>
+  <comments>
+    <comment>Q#1|Vrijspraak van agent die zwarte man doodschoot leidt tot hevige protesten in Saint Louis|1|1|-8.972827546940001</comment>
+  </comments>
+</alpino_ds>

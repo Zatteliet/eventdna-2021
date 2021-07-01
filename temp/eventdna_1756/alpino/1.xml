@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="pp" end="4" id="3" rel="nucl">
+        <node begin="0" end="1" frame="preposition(ondanks,[])" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="pp" lemma="ondanks" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="ondanks" sense="ondanks" vztype="init" word="Ondanks"/>
+        <node begin="1" cat="np" end="4" id="5" rel="obj1">
+          <node begin="1" buiging="met-e" end="2" frame="determiner(alle,nwh,mod,pro,nparg)" his="normal" his_1="normal" id="6" infl="alle" lcat="detp" lemma="alle" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,agr)" pt="vnw" rel="det" root="alle" sense="alle" vwtype="onbep" wh="nwh" word="alle"/>
+          <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(ende(padv))" his="normal" his_1="V-de" his_1_1="normal" id="7" infl="e" lcat="ppres" lemma="lopen" pos="adj" positie="prenom" postag="WW(od,prenom,met-e)" pt="ww" rel="mod" root="loop" sense="loop" vform="gerund" word="lopende" wvorm="od"/>
+          <node begin="3" end="4" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="procedure" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="procedure" sense="procedure" word="procedures"/>
+        </node>
+      </node>
+      <node begin="5" cat="smain" end="14" id="9" rel="sat">
+        <node begin="5" cat="np" end="9" id="10" rel="su">
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="11" lcat="np" lemma="keuze" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="keuze" sense="keuze" word="Keuze"/>
+          <node begin="6" cat="pp" end="9" id="12" rel="mod">
+            <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="7" cat="mwu" end="9" his="normal" his_1="amount" id="14" mwu_root="F -35" mwu_sense="F -35" rel="obj1">
+              <node begin="7" end="8" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="15" lcat="np" lemma="F" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="F" sense="F" special="amount_meas_mod" word="F"/>
+              <node begin="8" end="9" frame="amount_meas_mod_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" id="16" lcat="np" lemma="-35" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="-35" sense="-35" special="amount_meas_mod" word="-35"/>
+            </node>
+          </node>
+        </node>
+        <node begin="9" end="10" frame="verb(hebben,past(sg),part_intransitive(vast))" his="normal" his_1="normal" id="17" infl="sg" lcat="smain" lemma="vast_liggen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="lig_vast" sc="part_intransitive(vast)" sense="lig_vast" stype="declarative" tense="past" word="lag" wvorm="pv"/>
+        <node begin="10" cat="pp" end="12" id="18" rel="mod">
+          <node begin="10" end="11" frame="preposition(in,[])" his="normal" his_1="normal" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="11" end="12" frame="np(year)" his="normal" his_1="normal" id="20" lcat="np" lemma="2015" neclass="year" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="obj1" rnum="sg" root="2015" sense="2015" word="2015"/>
+        </node>
+        <node begin="12" end="13" frame="adverb" his="normal" his_1="normal" id="21" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+        <node begin="13" buiging="zonder" end="14" frame="particle(vast)" graad="basis" his="normal" his_1="normal" id="22" lcat="part" lemma="vast" pos="part" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="svp" root="vast" sense="vast" word="vast"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Ondanks alle lopende procedures : Keuze voor F -35 lag in 2015 al vast</sentence>
+  <comments>
+    <comment>Q#1|Ondanks alle lopende procedures : Keuze voor F -35 lag in 2015 al vast|1|1|-1.5615102822799956</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,64 @@
+Tsunami-alarm	tsunami-alarm	N(soort,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+VS	VS	N(eigen,mv,basis)	B-NP	B-LOC
+afgeblazen	afblazen	WW(vd,vrij,zonder)	B-VP	O
+				
+De	de	LID(bep)	B-NP	O
+aardbeving	aardbeving	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+dinsdag	dinsdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+,	,	LET()	O	O
+met	met	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+kracht	kracht	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+7,9	7,9	TW(hoofd,vrij)	B-NP	O
+op	op	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+schaal	schaal	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Richter	Richter	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+een	een	TW(hoofd,nom,zonder-n,basis)	B-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+krachtigste	krachtig	ADJ(nom,sup,met-e,zonder-n,stan)	I-NP	O
+uit	uit	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+geschiedenis	geschiedenis	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Verenigde	Verenigde	SPEC(deeleigen)	I-NP	B-LOC
+Staten	Staten	SPEC(deeleigen)	I-NP	I-LOC
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+epicentrum	epicentrum	N(soort,ev,basis,onz,stan)	I-NP	O
+bevond	bevinden	WW(pv,verl,ev)	B-VP	O
+zich	zich	VNW(refl,pron,3,getal)	O	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+kust	kust	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Alaska	Alaska	N(eigen,ev,basis,zijd,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+bijhorende	bijhorend	ADJ(prenom,basis,met-e,stan)	I-NP	O
+tsunami-alarm	tsunami-alarm	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+afgeblazen	afblazen	WW(vd,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+Er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+voorlopig	voorlopig	ADJ(vrij,basis,zonder)	B-AP	O
+geen	geen	VNW(onbep,det)	B-NP	O
+meldingen	melding	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+slachtoffers	slachtoffer	N(soort,mv,basis)	B-NP	O
+of	of	VG(neven)	O	O
+schade	schade	N(soort,ev,basis,zijd,stan)	B-NP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" lcat="np" lemma="Partij" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Partij" sense="Partij" word="Partij"/>
+      <node begin="1" end="2" frame="verb(hebben,sg_heeft,nonp_pred_np_ndev)" his="normal" his_1="normal" id="3" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="nonp_pred_np_ndev" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="2" end="3" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="4" lcat="np" lemma="tweederdemeerderheid" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="tweederdemeerderheid" sense="tweederdemeerderheid" word="tweederdemeerderheid"/>
+      <node begin="3" cat="ap" end="8" id="5" rel="predc">
+        <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv),object_vp)" graad="basis" his="normal" his_1="normal" id="6" infl="no_e" lcat="ap" lemma="nodig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="nodig" sc="object_vp" sense="nodig" vform="adj" word="nodig"/>
+        <node begin="4" cat="oti" end="8" id="7" rel="vc">
+          <node begin="4" end="5" frame="complementizer(om)" his="normal" his_1="normal" id="8" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="5" cat="ti" end="8" id="9" rel="body">
+            <node begin="6" end="7" frame="complementizer(te)" his="normal" his_1="normal" id="10" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="5" cat="inf" end="8" id="11" rel="body">
+              <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="grond_wet" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="grond_wet" sense="grond_wet" word="grondwet"/>
+              <node begin="7" buiging="zonder" end="8" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="13" infl="inf" lcat="inf" lemma="wijzigen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="wijzig" sc="transitive" sense="wijzig" word="wijzigen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">Partij heeft tweederdemeerderheid nodig om grondwet te wijzigen</sentence>
+  <comments>
+    <comment>Q#2|Partij heeft tweederdemeerderheid nodig om grondwet te wijzigen|1|1|-8.449189316959998</comment>
+  </comments>
+</alpino_ds>

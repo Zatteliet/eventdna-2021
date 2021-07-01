@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="16" id="2" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="obj1" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="4" infl="sg3" lcat="smain" lemma="melden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="meld" sc="transitive" sense="meld" stype="declarative" tense="present" word="meldt" wvorm="pv"/>
+      <node begin="2" cat="np" end="16" id="5" rel="su">
+        <node begin="2" end="3" frame="noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="pers_bureau" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="pers_bureau" sense="pers_bureau" word="persbureau"/>
+        <node begin="3" end="4" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="7" lcat="np" lemma="Reuters" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Reuters" sense="Reuters" word="Reuters"/>
+        <node begin="5" cat="rel" end="16" id="8" rel="mod">
+          <node begin="5" case="no_obl" end="6" frame="rel_pronoun(het,no_obl)" gen="het" getal="ev" his="normal" his_1="normal" id="9" index="1" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3" pos="pron" postag="VNW(betr,pron,stan,vol,3,ev)" pt="vnw" rel="rhd" rnum="sg" root="dat" sense="dat" status="vol" vwtype="betr" wh="rel" word="dat"/>
+          <node begin="5" cat="ssub" end="16" id="10" rel="body">
+            <node begin="5" end="6" id="11" index="1" rel="su"/>
+            <node begin="6" cat="mwu" end="9" his="normal" his_1="normal" id="12" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+              <node aform="base" begin="6" end="7" frame="adjective(pred(adv))" id="13" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="voor"/>
+              <node aform="base" begin="7" end="8" frame="adjective(pred(adv))" id="14" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+              <node aform="base" begin="8" end="9" frame="adjective(pred(adv))" getal-n="zonder-n" id="15" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+            </node>
+            <node begin="9" cat="np" end="13" id="16" rel="obj1">
+              <node begin="9" end="10" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="kopie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kopie" sense="kopie" word="kopieën"/>
+              <node begin="10" cat="pp" end="13" id="18" rel="mod">
+                <node begin="10" end="11" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="11" cat="np" end="13" id="20" rel="obj1">
+                  <node begin="11" buiging="zonder" end="12" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="normal" id="21" infl="de" lcat="detp" lemma="die" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,zonder,rest)" pt="vnw" rel="det" root="die" sense="die" vwtype="aanw" wh="nwh" word="die"/>
+                  <node begin="12" end="13" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="paspoort" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="paspoort" sense="paspoort" word="paspoorten"/>
+                </node>
+              </node>
+            </node>
+            <node begin="13" cat="mwu" end="15" his="normal" his_1="normal" id="23" mwu_root="in handen" mwu_sense="in handen" rel="svp">
+              <node begin="13" end="14" frame="fixed_part([in,handen])" id="24" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="14" end="15" frame="fixed_part([in,handen])" getal="mv" graad="basis" id="25" lcat="fixed" lemma="handen" ntype="soort" pos="fixed" postag="N(soort,mv,basis)" pt="n" rel="mwp" root="handen" sense="handen" word="handen"/>
+            </node>
+            <node begin="15" end="16" frame="verb(hebben,past(sg),fixed([[in,handen],acc],no_passive))" his="normal" his_1="normal" id="26" infl="sg" lcat="ssub" lemma="krijgen" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="krijg" sc="fixed([[in,handen],acc],no_passive)" sense="in-handen-krijg" tense="past" word="kreeg" wvorm="pv"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat meldt persbureau Reuters , dat voor het eerst kopieën van die paspoorten in handen kreeg .</sentence>
+  <comments>
+    <comment>Q#3|Dat meldt persbureau Reuters , dat voor het eerst kopieën van die paspoorten in handen kreeg .|1|1|-8.50407635162</comment>
+  </comments>
+</alpino_ds>

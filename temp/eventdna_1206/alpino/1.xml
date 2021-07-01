@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="9" end="10" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="14" id="3" rel="--">
+      <node begin="0" cat="np" end="2" id="4" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Antwerps" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Antwerps" sense="Antwerps" vform="adj" word="Antwerpse"/>
+        <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,fixed([[in,beslag],acc],norm_passive))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem" sc="fixed([[in,beslag],acc],norm_passive)" sense="in-beslag-neem" stype="declarative" tense="present" word="neemt" wvorm="pv"/>
+      <node begin="4" cat="np" end="9" id="8" rel="obj1">
+        <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="arsenaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="arsenaal" sense="arsenaal" word="arsenaal"/>
+        <node begin="5" cat="pp" end="9" id="10" rel="mod">
+          <node begin="5" end="6" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="11" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+          <node begin="6" cat="conj" end="9" id="12" rel="obj1">
+            <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="stok" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="stok" sense="stok" word="stokken"/>
+            <node begin="7" conjtype="neven" end="8" frame="conj(en)" his="normal" his_1="normal" id="14" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+            <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="staf" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="staf" sense="staf" word="staven"/>
+          </node>
+        </node>
+      </node>
+      <node begin="10" cat="mwu" end="12" his="normal" his_1="normal" id="16" mwu_root="in beslag" mwu_sense="in beslag" rel="svp">
+        <node begin="10" end="11" frame="fixed_part([in,beslag])" id="17" lcat="fixed" lemma="in" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="11" end="12" frame="fixed_part([in,beslag])" genus="onz" getal="ev" graad="basis" id="18" lcat="fixed" lemma="beslag" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="beslag" sense="beslag" word="beslag"/>
+      </node>
+      <node begin="12" cat="pp" end="14" id="19" rel="mod">
+        <node begin="12" end="13" frame="preposition(na,[])" his="normal" his_1="normal" id="20" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="13" end="14" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="rel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="rel" sense="rel" word="rellen"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Antwerpse politie neemt &apos; arsenaal aan stokken en staven &apos; in beslag na rellen</sentence>
+  <comments>
+    <comment>Q#1|Antwerpse politie neemt &apos; arsenaal aan stokken en staven &apos; in beslag na rellen|1|1|-1.9490499397899987</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="zonder" end="1" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" infl="no_e" lcat="ap" lemma="megalomaan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="megalomaan" sense="megalomaan" vform="adj" word="Megalomaan"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="museum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="museum" sense="museum" word="museum"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,intransitive)" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="openen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="open" sc="intransitive" sense="open" stype="declarative" tense="present" word="opent" wvorm="pv"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="7" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="8" mwu_root="Abu Dhabi" mwu_sense="Abu Dhabi" rel="obj1">
+          <node begin="4" end="5" frame="proper_name(sg,'LOC')" id="9" lcat="np" lemma="Abu" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Abu" sense="Abu" spectype="deeleigen" word="Abu"/>
+          <node begin="5" end="6" frame="proper_name(sg,'LOC')" id="10" lcat="np" lemma="Dhabi" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Dhabi" sense="Dhabi" spectype="deeleigen" word="Dhabi"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Megalomaan museum opent in Abu Dhabi</sentence>
+  <comments>
+    <comment>Q#1|Megalomaan museum opent in Abu Dhabi|1|1|-0.17658741484000107</comment>
+  </comments>
+</alpino_ds>

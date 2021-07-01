@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="0" cat="smain" end="21" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,thi,sg,de,nom,def)" gen="de" genus="masc" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="hij" naamval="nomin" num="sg" pdtype="pron" per="thi" persoon="3" pos="pron" postag="VNW(pers,pron,nomin,vol,3,ev,masc)" pt="vnw" rel="su" rnum="sg" root="hij" sense="hij" status="vol" vwtype="pers" wh="nwh" word="Hij"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,sbar_obj)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem" sc="sbar_obj" sense="neem" stype="declarative" tense="present" word="neemt" wvorm="pv"/>
+      <node begin="2" end="3" frame="het_noun" genus="onz" getal="ev" his="normal" his_1="normal" id="4" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="noun" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="pobj1" root="het" sense="het" special="het" status="red" vwtype="pers" word="het"/>
+      <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="5" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+      <node begin="4" cat="cp" end="21" id="6" rel="vc">
+        <node begin="4" conjtype="onder" end="5" frame="complementizer(dat)" his="normal" his_1="normal" id="7" lcat="cp" lemma="dat" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="dat" sc="dat" sense="dat" word="dat"/>
+        <node begin="5" cat="ssub" end="21" id="8" rel="body">
+          <node begin="5" cat="np" end="8" id="9" index="1" rel="su">
+            <node begin="5" end="6" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="10" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="11" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+            <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="12" lcat="np" lemma="verhuur_platform" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verhuur_platform" sense="verhuur_platform" word="verhuurplatform"/>
+          </node>
+          <node begin="8" end="9" frame="verb(unacc,sg3,aux(inf))" his="normal" his_1="normal" id="13" infl="sg3" lcat="ssub" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" sc="aux(inf)" sense="blijf" tense="present" word="blijft" wvorm="pv"/>
+          <node begin="5" cat="inf" end="21" id="14" rel="vc">
+            <node begin="5" end="8" id="15" index="1" rel="su"/>
+            <node begin="9" buiging="zonder" end="10" frame="verb(hebben,inf,vp)" his="normal" his_1="normal" id="16" infl="inf" lcat="inf" lemma="weigeren" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="weiger" sc="vp" sense="weiger" word="weigeren" wvorm="inf"/>
+            <node begin="5" cat="oti" end="21" id="17" rel="vc">
+              <node begin="10" end="11" frame="complementizer(om)" his="normal" his_1="normal" id="18" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+              <node begin="5" cat="ti" end="21" id="19" rel="body">
+                <node begin="19" end="20" frame="complementizer(te)" his="normal" his_1="normal" id="20" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+                <node begin="5" cat="inf" end="21" id="21" rel="body">
+                  <node begin="5" end="8" id="22" index="1" rel="su"/>
+                  <node begin="11" cat="np" end="15" id="23" rel="obj1">
+                    <node begin="11" end="12" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="gegeven" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="gegeven" sense="gegeven" word="gegevens"/>
+                    <node begin="12" cat="pp" end="15" id="25" rel="mod">
+                      <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="26" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                      <node begin="13" cat="np" end="15" id="27" rel="obj1">
+                        <node aform="base" begin="13" buiging="met-e" end="14" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="28" infl="e" lcat="ap" lemma="Vlaams" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Vlaams" sense="Vlaams" vform="adj" word="Vlaamse"/>
+                        <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="29" lcat="np" lemma="Airbnb_verhuurder" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="Airbnb_verhuurder" sense="Airbnb_verhuurder" word="Airbnb-verhuurders"/>
+                      </node>
+                    </node>
+                  </node>
+                  <node begin="15" cat="pp" end="18" id="30" rel="obj2">
+                    <node begin="15" end="16" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="31" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+                    <node begin="16" cat="np" end="18" id="32" rel="obj1">
+                      <node begin="16" end="17" frame="determiner(de)" his="normal" his_1="normal" id="33" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="34" lcat="np" lemma="inspectie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="inspectie" sense="inspectie" word="inspectie"/>
+                    </node>
+                  </node>
+                  <node begin="18" end="19" frame="particle(over)" his="normal" his_1="normal" id="35" lcat="part" lemma="over" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="over" sense="over" vztype="fin" word="over"/>
+                  <node begin="20" buiging="zonder" end="21" frame="verb(hebben,inf,part_so_pp_np(over,aan))" his="normal" his_1="normal" id="36" infl="inf" lcat="inf" lemma="over_maken" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="maak_over" sc="part_so_pp_np(over,aan)" sense="maak_over" word="maken" wvorm="inf"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" his="normal" his_1="normal" id="37" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="4">Hij neemt het niet dat het Amerikaanse verhuurplatform blijft weigeren om gegevens van Vlaamse Airbnb-verhuurders aan de inspectie over te maken .</sentence>
+  <comments>
+    <comment>Q#4|Hij neemt het niet dat het Amerikaanse verhuurplatform blijft weigeren om gegevens van Vlaamse Airbnb-verhuurders aan de inspectie over te maken .|1|1|-8.362281187699987</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,54 @@
+Dodentol	dodentol	N(soort,ev,basis,zijd,stan)	B-NP	O
+bosbranden	bosbrannen	WW(pv,verl,mv)	B-VP	O
+Californië	Californië	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+loopt	lopen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(fin)	O	O
+tot	tot	VZ(init)	B-PP	O
+31	31	TW(hoofd,vrij)	B-NP	O
+				
+Al	al	BW()	B-NP	O
+minstens	minstens	BW()	I-NP	O
+31	31	TW(hoofd,prenom,stan)	I-NP	O
+mensen	mens	N(soort,mv,basis)	I-NP	O
+kwamen	komen	WW(pv,verl,mv)	B-VP	O
+om	om	VZ(fin)	O	O
+bij	bij	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+bosbranden	bosbrand	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+staat	staat	N(soort,ev,basis,zijd,stan)	I-NP	O
+Californië	Californië	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+,	,	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+nu	nu	BW()	B-ADVP	O
+al	al	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+week	week	N(soort,ev,basis,zijd,stan)	I-NP	O
+woeden	woeden	WW(pv,tgw,mv)	B-VP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+overheden	overheid	N(soort,mv,basis)	I-NP	O
+gaat	gaan	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+om	om	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+dodelijkste	dodelijk	ADJ(prenom,sup,met-e,stan)	I-NP	O
+bosbrand	bosbrand	N(soort,ev,basis,zijd,stan)	I-NP	O
+ooit	ooit	BW()	B-ADVP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+westelijke	westelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+staat	staat	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Nog	nog	BW()	B-ADVP	O
+honderden	honderd	TW(hoofd,nom,mv-n,basis)	B-NP	O
+inwoners	inwoner	N(soort,mv,basis)	I-NP	O
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+vermist	vermist	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="4" id="0" rel="top">
+    <node begin="0" cat="du" end="4" id="1" rel="--">
+      <node begin="0" case="nom" def="def" end="1" frame="pronoun(nwh,fir,pl,de,nom,def)" gen="de" getal="mv" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="wij" naamval="nomin" num="pl" pdtype="pron" per="fir" persoon="1" pos="pron" postag="VNW(pers,pron,nomin,vol,1,mv)" pt="vnw" rel="dp" rnum="pl" root="wij" sense="wij" status="vol" vwtype="pers" wh="nwh" word="Wij"/>
+      <node begin="1" cat="ppart" end="3" id="3" rel="dp">
+        <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="4" infl="no_e" lcat="ap" lemma="eerlijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="eerlijk" sense="eerlijk" vform="adj" word="eerlijk"/>
+        <node aform="base" begin="2" buiging="zonder" end="3" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="5" infl="no_e" lcat="ppart" lemma="gezegd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gezegd" sense="gezegd" vform="psp" word="gezegd" wvorm="vd"/>
+      </node>
+      <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="6" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="dp" root="niet" sense="niet" word="niet"/>
+    </node>
+  </node>
+  <sentence sentid="3">Wij eerlijk gezegd niet</sentence>
+  <comments>
+    <comment>Q#3|Wij eerlijk gezegd niet|1|1|1.2554353405599998</comment>
+  </comments>
+</alpino_ds>

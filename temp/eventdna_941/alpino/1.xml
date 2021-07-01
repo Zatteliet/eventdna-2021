@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="3" id="2" rel="su">
+        <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="3" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="President"/>
+        <node begin="1" cat="pp" end="3" id="4" rel="mod">
+          <node begin="1" end="2" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="5" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="2" end="3" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="6" lcat="np" lemma="Myanmar" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Myanmar" sense="Myanmar" word="Myanmar"/>
+        </node>
+      </node>
+      <node begin="3" end="4" frame="verb(hebben,sg,np_ld_dir)" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="zetten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="zet" sc="np_ld_dir" sense="zet" stype="declarative" tense="present" word="zet" wvorm="pv"/>
+      <node begin="4" cat="np" end="6" id="8" rel="obj1">
+        <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(end(adv))" his="normal" his_1="normal" id="9" infl="no_e" lcat="ppres" lemma="verrassend" pos="adj" positie="prenom" postag="WW(od,prenom,zonder)" pt="ww" rel="mod" root="verrassend" sense="verrassend" vform="gerund" word="verrassend" wvorm="od"/>
+        <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="stap" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stap" sense="stap" word="stap"/>
+      </node>
+      <node begin="6" end="7" frame="dir_adverb" his="normal" his_1="normal" id="11" lcat="advp" lemma="opzij" pos="adv" postag="BW()" pt="bw" rel="ld" root="opzij" sense="opzij" special="dir" word="opzij"/>
+    </node>
+  </node>
+  <sentence sentid="1">President van Myanmar zet verrassend stap opzij</sentence>
+  <comments>
+    <comment>Q#1|President van Myanmar zet verrassend stap opzij|1|1|-3.431223656509999</comment>
+  </comments>
+</alpino_ds>

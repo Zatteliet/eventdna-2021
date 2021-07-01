@@ -1,0 +1,71 @@
+Antwerpse	antwerps	ADJ(prenom,basis,met-e,stan)	B-NP	O
+primeur	primeur	N(soort,ev,basis,zijd,stan)	I-NP	O
+:	:	LET()	O	O
+cruiseschip	cruiseschip	N(soort,ev,basis,onz,stan)	B-NP	O
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+gedoopt	dopen	WW(vd,vrij,zonder)	I-VP	O
+in	in	VZ(init)	B-PP	O
+Schelde	Schelde	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Toerisme	toerisme	N(soort,ev,basis,onz,stan)	B-NP	O
+-	-	LET()	O	O
+Prestigezaak	prestigezaak	N(soort,ev,basis,zijd,stan)	B-NP	O
+toont	tonen	WW(pv,tgw,met-t)	B-VP	O
+dat	dat	VG(onder)	O	O
+rederij	rederij	N(soort,ev,basis,zijd,stan)	B-NP	O
+vertrouwen	vertrouwen	N(soort,ev,basis,onz,stan)	I-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+stad	stad	N(soort,ev,basis,zijd,stan)	B-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+nieuwste	nieuw	ADJ(prenom,sup,met-e,stan)	I-NP	O
+cruiseschip	cruiseschip	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+rederij	rederij	N(soort,ev,basis,zijd,stan)	B-NP	O
+Hapag	Hapag	SPEC(deeleigen)	I-NP	B-PER
+Lloyd	Lloyd	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+de	de	LID(bep)	O	O
+Hanseatic	hanseatic	SPEC(vreemd)	O	B-ORG
+Inspiration	inspiration	SPEC(vreemd)	O	I-ORG
+,	,	LET()	O	O
+wordt	worden	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	B-PP	O
+13	13	TW(hoofd,vrij)	B-NP	O
+oktober	oktober	N(eigen,ev,basis,zijd,stan)	I-NP	O
+2019	2019	TW(hoofd,vrij)	I-NP	O
+gedoopt	dopen	WW(vd,vrij,zonder)	B-VP	O
+in	in	VZ(init)	B-PP	O
+Antwerpen	Antwerpen	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+.	.	LET()	O	O
+				
+Een	een	LID(onbep)	B-NP	O
+primeur	primeur	N(soort,ev,basis,zijd,stan)	I-NP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Scheldestad	scheldestad	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+.	.	LET()	O	O
+				
+Het	het	LID(bep)	B-NP	O
+evenement	evenement	N(soort,ev,basis,onz,stan)	I-NP	O
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+plaatsvinden	plaatsvinden	WW(inf,vrij,zonder)	I-VP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Scheldekaaien	Scheldekaaien	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+belooft	beloven	WW(pv,tgw,met-t)	B-VP	O
+dus	dus	BW()	B-ADVP	O
+ook	ook	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+spektakel	spektakel	N(soort,ev,basis,onz,stan)	I-NP	O
+te	te	VZ(init)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Antwerpenaren	antwerpenaar	N(soort,mv,basis)	I-NP	B-LOC
+.	.	LET()	O	O
+				

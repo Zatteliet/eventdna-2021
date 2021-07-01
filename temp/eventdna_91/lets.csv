@@ -1,0 +1,42 @@
+Gerechtshof	gerechtshof	N(soort,ev,basis,onz,stan)	B-NP	O
+danst	dansen	WW(pv,tgw,met-t)	B-VP	O
+niet	niet	BW()	B-ADVP	O
+zomaar	zomaar	BW()	I-ADVP	O
+mee	mee	VZ(fin)	O	O
+met	met	VZ(init)	B-PP	O
+Ageas	Ageas	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+				
+Het	het	LID(bep)	B-NP	O
+gerechtshof	gerechtshof	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Amsterdam	Amsterdam	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+stelde	stellen	WW(pv,verl,ev)	B-VP	O
+kritische	kritisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+vragen	vraag	N(soort,mv,basis)	I-NP	O
+over	over	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+vergoedingen	vergoeding	N(soort,mv,basis)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+verzekeraar	verzekeraar	N(soort,ev,basis,zijd,stan)	I-NP	O
+Ageas	Ageas	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+betaalt	betalen	WW(pv,tgw,met-t)	B-VP	O
+in	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+kader	kader	N(soort,ev,basis,onz,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Fortis-schikking	fortis-schikking	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+indirecte	indirect	ADJ(prenom,basis,met-e,stan)	I-NP	O
+vraag	vraag	N(soort,ev,basis,zijd,stan)	I-NP	O
+was	zijn	WW(pv,verl,ev)	B-VP	O
+of	of	VG(neven)	O	O
+Ageas	Ageas	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+zijn	zijn	VNW(bez,det,3,ev)	B-NP	O
+ja-woord	ja-woord	N(soort,ev,basis,onz,stan)	I-NP	O
+gekocht	kopen	WW(vd,vrij,zonder)	B-VP	O
+heeft	hebben	WW(pv,tgw,met-t)	I-VP	O
+.	.	LET()	O	O
+				

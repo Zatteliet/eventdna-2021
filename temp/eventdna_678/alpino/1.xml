@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Amerikaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Amerikaans" sense="Amerikaans" vform="adj" word="Amerikaanse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="wapen_lobby" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="wapen_lobby" sense="wapen_lobby" word="wapenlobby"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(om))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="vragen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vraag" sc="pc_pp(om)" sense="vraag-om" stype="declarative" tense="present" word="vraagt" wvorm="pv"/>
+      <node begin="3" cat="pp" end="8" id="6" rel="pc">
+        <node begin="3" end="4" frame="preposition(om,[heen])" his="normal" his_1="normal" id="7" lcat="pp" lemma="om" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="om" sense="om" vztype="init" word="om"/>
+        <node begin="4" cat="np" end="8" id="8" rel="obj1">
+          <node aform="compar" begin="4" buiging="met-e" end="5" frame="adjective(ere)" graad="comp" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="streng" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,comp,met-e,stan)" pt="adj" rel="mod" root="streng" sense="streng" vform="adj" word="strengere"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="regel" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="regel" sense="regel" word="regels"/>
+          <node begin="6" cat="pp" end="8" id="11" rel="mod">
+            <node begin="6" end="7" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+            <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="13" lcat="np" lemma="bump_stock" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="bump_stock" sense="bump_stock" word="bump-stocks"/>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Amerikaanse wapenlobby vraagt om strengere regels voor bump-stocks</sentence>
+  <comments>
+    <comment>Q#1|Amerikaanse wapenlobby vraagt om strengere regels voor bump-stocks|1|1|-4.2947374607299995</comment>
+  </comments>
+</alpino_ds>

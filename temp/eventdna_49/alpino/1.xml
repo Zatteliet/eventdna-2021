@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="du" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="tag" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="advp" lemma="jongen" pos="tag" postag="TSW()" pt="tsw" rel="tag" root="jongen" sense="jongen" word="Jongen"/>
+      <node begin="1" cat="sv1" end="6" id="3" rel="nucl">
+        <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="4" infl="sg3" lcat="sv1" lemma="ontdekken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontdek" sc="transitive" sense="ontdek" stype="ynquestion" tense="present" word="ontdekt" wvorm="pv"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="schat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="schat" sense="schat" word="schat"/>
+        <node begin="3" cat="np" end="6" id="6" rel="obj1">
+          <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="7" infl="e" lcat="ap" lemma="Deens" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Deens" sense="Deens" vform="adj" word="Deense"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="koning" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="koning" sense="koning" word="koning"/>
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="9" lcat="np" lemma="Blauwtand" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Blauwtand" sense="Blauwtand" word="Blauwtand"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Jongen ontdekt schat Deense koning Blauwtand</sentence>
+  <comments>
+    <comment>Q#1|Jongen ontdekt schat Deense koning Blauwtand|1|1|2.738651009470001</comment>
+  </comments>
+</alpino_ds>

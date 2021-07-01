@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="17" id="2" rel="--">
+      <node begin="13" end="14" frame="verb(unacc,pl,aux_psp_zijn)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="aux_psp_zijn" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="14" cat="np" end="16" id="4" index="1" rel="su">
+        <node begin="14" end="15" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="5" infl="pl_num" lcat="detp" lemma="vier" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vier" sense="vier" special="hoofd" word="vier"/>
+        <node aform="base" begin="15" buiging="met-e" end="16" frame="nominalized_adjective" getal-n="mv-n" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="gewond" num="pl" personalized="true" pos="adj" positie="nom" postag="ADJ(nom,basis,met-e,mv-n)" pt="adj" rel="hd" rnum="pl" root="gewond" sense="gewond" special="a_noun" word="gewonden"/>
+      </node>
+      <node begin="0" cat="ppart" end="17" id="7" rel="vc">
+        <node begin="0" cat="pp" end="12" id="8" rel="mod">
+          <node begin="0" end="1" frame="preposition(bij,[vandaan])" his="normal" his_1="decap" his_1_1="normal" id="9" lcat="pp" lemma="bij" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="bij" sense="bij" vztype="init" word="Bij"/>
+          <node begin="1" cat="np" end="12" id="10" rel="obj1">
+            <node begin="1" end="2" frame="determiner(de)" his="normal" his_1="normal" id="11" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="explosie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="explosie" sense="explosie" word="explosie"/>
+            <node begin="3" cat="pp" end="5" id="13" rel="mod">
+              <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="4" end="5" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="maandag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="maandag" sense="maandag" special="tmp" word="maandag"/>
+            </node>
+            <node begin="5" cat="pp" end="12" id="16" rel="mod">
+              <node begin="5" end="6" frame="preposition(aan,[vooraf])" his="normal" his_1="normal" id="17" lcat="pp" lemma="aan" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="aan" sense="aan" vztype="init" word="aan"/>
+              <node begin="6" cat="np" end="12" id="18" rel="obj1">
+                <node begin="6" end="7" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="19" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="bus_station" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bus_station" sense="bus_station" word="busstation"/>
+                <node begin="8" cat="mwu" end="12" his="name" his_1="not_begin" id="21" mwu_root="Port Authority in Manhattan" mwu_sense="Port Authority in Manhattan" rel="app">
+                  <node begin="8" end="9" frame="proper_name(both,'LOC')" id="22" lcat="np" lemma="Port" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Port" sense="Port" spectype="deeleigen" word="Port"/>
+                  <node begin="9" end="10" frame="proper_name(both,'LOC')" id="23" lcat="np" lemma="Authority" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Authority" sense="Authority" spectype="deeleigen" word="Authority"/>
+                  <node begin="10" end="11" frame="proper_name(both,'LOC')" id="24" lcat="np" lemma="in" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="in" sense="in" spectype="deeleigen" word="in"/>
+                  <node begin="11" end="12" frame="proper_name(both,'LOC')" id="25" lcat="np" lemma="Manhattan" neclass="LOC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Manhattan" sense="Manhattan" spectype="deeleigen" word="Manhattan"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="14" end="16" id="26" index="1" rel="su"/>
+        <node begin="16" buiging="zonder" end="17" frame="verb(unacc,psp,intransitive)" his="normal" his_1="normal" id="27" infl="psp" lcat="ppart" lemma="vallen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="val" sc="intransitive" sense="val" word="gevallen" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Bij de explosie van maandag aan het busstation Port Authority in Manhattan , zijn vier gewonden gevallen .</sentence>
+  <comments>
+    <comment>Q#2|Bij de explosie van maandag aan het busstation Port Authority in Manhattan , zijn vier gewonden gevallen .|1|1|-7.3220286172500035</comment>
+  </comments>
+</alpino_ds>

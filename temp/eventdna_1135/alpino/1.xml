@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="2" lcat="np" lemma="staking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="staking" sense="staking" word="Staking"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="3" infl="sg3" lcat="smain" lemma="verlammen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="verlam" sc="transitive" sense="verlam" stype="declarative" tense="present" word="verlamt" wvorm="pv"/>
+      <node begin="2" cat="mwu" end="4" his="name" his_1="not_begin" id="4" mwu_root="Oiltanking Stolthaven" mwu_sense="Oiltanking Stolthaven" rel="obj1">
+        <node begin="2" end="3" frame="proper_name(both,'PER')" id="5" lcat="np" lemma="Oiltanking" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Oiltanking" sense="Oiltanking" spectype="deeleigen" word="Oiltanking"/>
+        <node begin="3" end="4" frame="proper_name(both,'PER')" id="6" lcat="np" lemma="Stolthaven" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Stolthaven" sense="Stolthaven" spectype="deeleigen" word="Stolthaven"/>
+      </node>
+      <node begin="4" cat="np" end="6" id="7" rel="mod">
+        <node aform="base" begin="4" buiging="met-e" end="5" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="half" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="half" sense="half" vform="adj" word="halve"/>
+        <node begin="5" end="6" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="dag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="dag" sense="dag" special="tmp" word="dag"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Staking verlamt Oiltanking Stolthaven halve dag</sentence>
+  <comments>
+    <comment>Q#1|Staking verlamt Oiltanking Stolthaven halve dag|1|1|0.10723843117000098</comment>
+  </comments>
+</alpino_ds>

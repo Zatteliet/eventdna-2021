@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="6" end="7" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="conj" end="17" id="2" rel="--">
+      <node begin="0" cat="smain" end="6" id="3" rel="cnj">
+        <node begin="0" cat="np" end="2" id="4" index="1" rel="su">
+          <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" infl="e" lcat="ap" lemma="chemisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="chemisch" sense="chemisch" vform="adj" word="Chemische"/>
+          <node begin="1" end="2" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="wapen" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="wapen" sense="wapen" word="wapens"/>
+        </node>
+        <node begin="2" end="3" frame="verb(unacc,pl,copula)" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="zijn" wvorm="pv"/>
+        <node begin="3" cat="ap" end="5" id="8" rel="mod">
+          <node begin="3" end="4" frame="adverb" his="normal" his_1="normal" id="9" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(no_e(tmpadv))" graad="basis" his="normal" his_1="normal" id="10" infl="no_e" lcat="ap" lemma="decennium_lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="decennium_lang" sense="decennium_lang" vform="adj" word="decennialang"/>
+        </node>
+        <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="11" infl="both" lcat="ppart" lemma="verboden" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="predc" root="verboden" sense="verboden" vform="psp" word="verboden" wvorm="vd"/>
+      </node>
+      <node begin="7" conjtype="neven" end="8" frame="conj(maar)" his="normal" his_1="normal" id="12" lcat="vg" lemma="maar" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="maar" sense="maar" word="maar"/>
+      <node begin="0" cat="smain" end="17" id="13" rel="cnj">
+        <node begin="0" end="2" id="14" index="1" rel="su"/>
+        <node begin="8" end="9" frame="verb(unacc,past(pl),passive)" his="normal" his_1="normal" id="15" infl="pl" lcat="smain" lemma="worden" pos="verb" postag="WW(pv,verl,mv)" pt="ww" pvagr="mv" pvtijd="verl" rel="hd" root="word" sc="passive" sense="word" tense="past" word="werden" wvorm="pv"/>
+        <node begin="0" cat="ppart" end="17" id="16" rel="vc">
+          <node begin="0" end="2" id="17" index="1" rel="obj1"/>
+          <node begin="9" cat="np" end="11" id="18" rel="mod">
+            <node aform="base" begin="9" buiging="zonder" end="10" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="19" infl="both" lcat="ppart" lemma="afgelopen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="afgelopen" sense="afgelopen" vform="psp" word="afgelopen" wvorm="vd"/>
+            <node begin="10" end="11" frame="tmp_noun(both,count,sg)" gen="both" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="weekend" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="weekend" sense="weekend" special="tmp" word="weekend"/>
+          </node>
+          <node begin="11" end="12" frame="adverb" his="normal" his_1="normal" id="21" lcat="advp" lemma="nog" pos="adv" postag="BW()" pt="bw" rel="mod" root="nog" sense="nog" word="nog"/>
+          <node begin="12" end="13" frame="adverb" his="normal" his_1="normal" id="22" lcat="advp" lemma="maar" pos="adv" postag="BW()" pt="bw" rel="mod" root="maar" sense="maar" word="maar"/>
+          <node begin="13" end="14" frame="tmp_adverb" his="normal" his_1="normal" id="23" lcat="advp" lemma="eens" pos="adv" postag="BW()" pt="bw" rel="mod" root="eens" sense="eens" special="tmp" word="eens"/>
+          <node begin="14" buiging="zonder" end="15" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="24" infl="psp" lcat="ppart" lemma="gebruiken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="gebruik" sc="transitive" sense="gebruik" word="gebruikt" wvorm="vd"/>
+          <node begin="15" cat="pp" end="17" id="25" rel="mod">
+            <node begin="15" end="16" frame="preposition(in,[])" his="normal" his_1="normal" id="26" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="16" end="17" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="27" lcat="np" lemma="Syrië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Syrië" sense="Syrië" word="Syrië"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="17" end="18" frame="punct(punt)" his="normal" his_1="normal" id="28" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Chemische wapens zijn al decennialang verboden , maar werden afgelopen weekend nog maar eens gebruikt in Syrië .</sentence>
+  <comments>
+    <comment>Q#2|Chemische wapens zijn al decennialang verboden , maar werden afgelopen weekend nog maar eens gebruikt in Syrië .|1|1|-11.625482766849998</comment>
+  </comments>
+</alpino_ds>

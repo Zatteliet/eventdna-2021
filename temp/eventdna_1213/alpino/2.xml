@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="23" id="0" rel="top">
+    <node begin="15" end="16" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="22" id="2" rel="--">
+      <node begin="0" cat="np" end="5" id="3" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="4" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="correctioneel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="correctioneel" sense="correctioneel" vform="adj" word="correctionele"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="rechtbank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="rechtbank" sense="rechtbank" word="rechtbank"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Antwerpen" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Antwerpen" sense="Antwerpen" word="Antwerpen"/>
+        </node>
+      </node>
+      <node begin="5" end="6" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="10" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="22" id="11" rel="vc">
+        <node begin="0" end="5" id="12" index="1" rel="su"/>
+        <node begin="6" cat="np" end="12" id="13" rel="obj1">
+          <node begin="6" end="7" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="14" infl="pl_num" lcat="detp" lemma="elf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="elf" sense="elf" special="hoofd" word="elf"/>
+          <node begin="7" end="8" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="15" lcat="np" lemma="lid" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="lid" sense="lid" word="leden"/>
+          <node begin="8" cat="pp" end="12" id="16" rel="mod">
+            <node begin="8" end="9" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="9" cat="np" end="12" id="18" rel="obj1">
+              <node begin="9" end="10" frame="determiner(een)" his="normal" his_1="normal" id="19" infl="een" lcat="detp" lemma="een" lwtype="onbep" naamval="stan" npagr="agr" pos="det" postag="LID(onbep,stan,agr)" pt="lid" rel="det" root="een" sense="een" word="een"/>
+              <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="20" infl="e" lcat="ap" lemma="crimineel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="crimineel" sense="crimineel" vform="adj" word="criminele"/>
+              <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="organisatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="organisatie" sense="organisatie" word="organisatie"/>
+            </node>
+          </node>
+        </node>
+        <node begin="12" buiging="zonder" end="13" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="22" infl="psp" lcat="ppart" lemma="veroordelen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="veroordeel" sc="transitive" sense="veroordeel" word="veroordeeld" wvorm="vd"/>
+        <node begin="13" cat="pp" end="17" id="23" rel="mod">
+          <node begin="13" end="14" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="24" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="14" cat="np" end="17" id="25" rel="obj1">
+            <node begin="14" end="15" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="mens_smokkel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="mens_smokkel" sense="mens_smokkel" word="mensensmokkel"/>
+            <node aform="base" begin="16" buiging="zonder" end="17" frame="adjective(ge_no_e(padv))" his="normal" his_1="normal" id="27" infl="no_e" lcat="ppart" lemma="georganiseerd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="georganiseerd" sense="georganiseerd" vform="psp" word="georganiseerd" wvorm="vd"/>
+          </node>
+        </node>
+        <node begin="17" cat="pp" end="22" id="28" rel="mod">
+          <node begin="17" end="18" frame="preposition(via,[])" his="normal" his_1="normal" id="29" lcat="pp" lemma="via" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="via" sense="via" vztype="init" word="via"/>
+          <node begin="18" cat="mwu" end="22" his="name" his_1="not_begin" id="30" mwu_root="vakantiepark Sunparks in Mol" mwu_sense="vakantiepark Sunparks in Mol" rel="obj1">
+            <node begin="18" end="19" frame="proper_name(both)" id="31" lcat="np" lemma="vakantiepark" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="vakantiepark" sense="vakantiepark" spectype="deeleigen" word="vakantiepark"/>
+            <node begin="19" end="20" frame="proper_name(both)" id="32" lcat="np" lemma="Sunparks" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Sunparks" sense="Sunparks" spectype="deeleigen" word="Sunparks"/>
+            <node begin="20" end="21" frame="proper_name(both)" id="33" lcat="np" lemma="in" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="in" sense="in" spectype="deeleigen" word="in"/>
+            <node begin="21" end="22" frame="proper_name(both)" id="34" lcat="np" lemma="Mol" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Mol" sense="Mol" spectype="deeleigen" word="Mol"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="22" end="23" frame="punct(punt)" his="normal" his_1="normal" id="35" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De correctionele rechtbank van Antwerpen heeft elf leden van een criminele organisatie veroordeeld voor mensensmokkel , georganiseerd via vakantiepark Sunparks in Mol .</sentence>
+  <comments>
+    <comment>Q#2|De correctionele rechtbank van Antwerpen heeft elf leden van een criminele organisatie veroordeeld voor mensensmokkel , georganiseerd via vakantiepark Sunparks in Mol .|1|1|-13.128584913649982</comment>
+  </comments>
+</alpino_ds>

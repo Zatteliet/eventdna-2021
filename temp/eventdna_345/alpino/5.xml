@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="26" id="0" rel="top">
+    <node begin="7" end="8" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="14" end="15" frame="punct(komma)" his="normal" his_1="normal" id="2" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="21" end="22" frame="punct(komma)" his="normal" his_1="normal" id="3" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="25" id="4" rel="--">
+      <node begin="0" cat="cp" end="21" id="5" rel="su">
+        <node begin="0" conjtype="onder" end="1" frame="complementizer(of)" his="normal" his_1="decap" his_1_1="normal" id="6" lcat="cp" lemma="of" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="of" sc="of" sense="of" word="Of"/>
+        <node begin="1" cat="ssub" end="21" id="7" rel="body">
+          <node begin="1" cat="np" end="12" id="8" rel="su">
+            <node begin="1" end="2" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="9" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="2" end="3" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="10" lcat="np" lemma="verstand_huwelijk" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="verstand_huwelijk" sense="verstand_huwelijk" word="verstandshuwelijk"/>
+            <node begin="3" cat="pp" end="12" id="11" rel="mod">
+              <node begin="3" end="4" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="4" cat="conj" end="12" id="13" rel="obj1">
+                <node begin="4" end="5" frame="within_word_conjunct" his="within_word_conjunct" id="14" lcat="np" lemma="rechts" pos="prefix" postag="SPEC(afgebr)" pt="spec" rel="cnj" root="rechts" sense="rechts" spectype="afgebr" word="rechts-"/>
+                <node begin="5" conjtype="neven" end="6" frame="conj(en)" his="normal" his_1="normal" id="15" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                <node begin="6" cat="np" end="12" id="16" rel="cnj">
+                  <node begin="6" end="7" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="17" lcat="np" lemma="links_liberaal" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="links_liberaal" sense="links_liberaal" word="links-liberalen"/>
+                  <node begin="8" cat="conj" end="12" id="18" rel="app">
+                    <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="19" lcat="np" lemma="christendemocraat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="cnj" rnum="pl" root="christendemocraat" sense="christendemocraat" word="christendemocraten"/>
+                    <node begin="9" conjtype="neven" end="10" frame="conj(en)" his="normal" his_1="normal" id="20" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+                    <node begin="10" cat="np" end="12" id="21" rel="cnj">
+                      <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="22" infl="e" lcat="ap" lemma="christelijk" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="christelijk" sense="christelijk" vform="adj" word="christelijke"/>
+                      <node begin="11" end="12" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="conservatief" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="conservatief" sense="conservatief" word="conservatieven"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(no_e(tmpadv))" graad="basis" his="normal" his_1="normal" id="24" infl="no_e" lcat="ap" lemma="lang" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="lang" sense="lang" vform="adj" word="lang"/>
+          <node begin="13" end="14" frame="verb(hebben,sg3,ninv(intransitive,part_intransitive(stand)))" his="normal" his_1="part-V" id="25" infl="sg3" lcat="ssub" lemma="stand_houden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="houd_stand" sc="part_intransitive(stand)" sense="houd_stand" tense="present" word="standhoudt" wvorm="pv"/>
+          <node begin="15" cat="pp" end="21" id="26" rel="mod">
+            <node begin="15" end="16" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="27" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="16" cat="np" end="21" id="28" rel="obj1">
+              <node begin="16" buiging="zonder" end="17" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="29" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+              <node begin="17" end="18" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="Kamer_meerderheid" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Kamer_meerderheid" sense="Kamer_meerderheid" word="Kamermeerderheid"/>
+              <node begin="18" cat="pp" end="21" id="31" rel="mod">
+                <node begin="18" end="19" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="32" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="19" cat="np" end="21" id="33" rel="obj1">
+                  <node begin="19" end="20" frame="number(hoofd(sg_num))" his="normal" his_1="normal" id="34" infl="sg_num" lcat="detp" lemma="één" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="één" sense="één" special="hoofd" word="één"/>
+                  <node begin="20" end="21" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="35" lcat="np" lemma="zetel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="zetel" sense="zetel" word="zetel"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="22" end="23" frame="verb(unacc,sg3,copula_sbar)" his="normal" his_1="normal" id="36" infl="sg3" lcat="smain" lemma="blijven" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="blijf" sc="copula_sbar" sense="blijf" stype="declarative" tense="present" word="blijft" wvorm="pv"/>
+      <node begin="23" cat="np" end="25" id="37" rel="predc">
+        <node begin="23" end="24" frame="determiner(de)" his="normal" his_1="normal" id="38" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+        <node begin="24" end="25" frame="noun(de,count,sg,subject_sbar)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="vraag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vraag" sc="subject_sbar" sense="vraag" word="vraag"/>
+      </node>
+    </node>
+    <node begin="25" end="26" frame="punct(punt)" his="normal" his_1="normal" id="40" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="5">Of het verstandshuwelijk van rechts- en links-liberalen , christendemocraten en christelijke conservatieven lang standhoudt , met zijn Kamermeerderheid van één zetel , blijft de vraag .</sentence>
+  <comments>
+    <comment>Q#5|Of het verstandshuwelijk van rechts- en links-liberalen , christendemocraten en christelijke conservatieven lang standhoudt , met zijn Kamermeerderheid van één zetel , blijft de vraag .|1|1|-5.253085691719992</comment>
+  </comments>
+</alpino_ds>

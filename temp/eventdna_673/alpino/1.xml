@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="2" end="3" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="np" end="6" id="2" rel="--">
+      <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Spaans" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Spaans" sense="Spaans" vform="adj" word="Spaanse"/>
+      <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="politicus" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politicus" sense="politicus" word="politicus"/>
+      <node begin="3" cat="mwu" end="6" his="name" his_1="begin" id="5" mwu_root="Jambon in neofascist" mwu_sense="Jambon in neofascist" rel="app">
+        <node begin="3" end="4" frame="proper_name(both)" id="6" lcat="np" lemma="Jambon" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Jambon" sense="Jambon" spectype="deeleigen" word="Jambon"/>
+        <node begin="4" end="5" frame="proper_name(both)" id="7" lcat="np" lemma="in" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="in" sense="in" spectype="deeleigen" word="in"/>
+        <node begin="5" end="6" frame="proper_name(both)" id="8" lcat="np" lemma="neofascist" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="neofascist" sense="neofascist" spectype="deeleigen" word="neofascist"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Spaanse politicus : Jambon in neofascist</sentence>
+  <comments>
+    <comment>Q#1|Spaanse politicus : Jambon in neofascist|1|1|0.5335552662599996</comment>
+  </comments>
+</alpino_ds>

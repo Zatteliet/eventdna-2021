@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="14" id="0" rel="top">
+    <node begin="5" end="6" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="du" end="14" id="2" rel="--">
+      <node begin="0" cat="smain" end="5" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" end="1" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="5" lcat="np" lemma="minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="minister" sense="minister" word="Minister"/>
+          <node begin="1" end="2" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="6" lcat="np" lemma="Weyts" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="app" rnum="sg" root="Weyts" sense="Weyts" word="Weyts"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg,pc_pp(voor))" his="normal" his_1="normal" id="7" infl="sg" lcat="smain" lemma="pleiten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="pleit" sc="pc_pp(voor)" sense="pleit-voor" stype="declarative" tense="present" word="pleit" wvorm="pv"/>
+        <node begin="3" cat="pp" end="5" id="8" rel="pc">
+          <node begin="3" end="4" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="9" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="3" id="10" lcat="np" lemma="asiel_dier_data_bank" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="asiel_dier_data_bank" sense="asiel_dier_data_bank" word="asieldierendatabank"/>
+        </node>
+      </node>
+      <node begin="6" cat="sv1" end="14" id="11" rel="sat">
+        <node begin="6" end="7" frame="verb(hebben,pl,vp_no_control)" his="normal" his_1="decap" his_1_1="normal" id="12" infl="pl" lcat="sv1" lemma="helpen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="help" sc="vp_no_control" sense="help" stype="topic_drop" tense="present" word="Helpen" wvorm="pv"/>
+        <node begin="7" cat="oti" end="14" id="13" rel="vc">
+          <node begin="7" end="8" frame="complementizer(om)" his="normal" his_1="normal" id="14" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="8" cat="ti" end="14" id="15" rel="body">
+            <node begin="12" end="13" frame="complementizer(te)" his="normal" his_1="normal" id="16" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="8" cat="inf" end="14" id="17" rel="body">
+              <node begin="8" end="9" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="dier" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="dier" sense="dier" word="dieren"/>
+              <node begin="9" cat="pp" end="12" id="19" rel="ld">
+                <node begin="9" end="10" frame="preposition(uit,[vandaan])" his="normal" his_1="normal" id="20" lcat="pp" lemma="uit" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="uit" sense="uit" vztype="init" word="uit"/>
+                <node begin="10" cat="np" end="12" id="21" rel="obj1">
+                  <node begin="10" end="11" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="22" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+                  <node begin="11" end="12" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="asiel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="asiel" sense="asiel" word="asiel"/>
+                </node>
+              </node>
+              <node begin="13" buiging="zonder" end="14" frame="verb(hebben,inf,np_ld_pp)" his="normal" his_1="normal" id="24" infl="inf" lcat="inf" lemma="halen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="haal" sc="np_ld_pp" sense="haal" word="halen" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Minister Weyts pleit voor asieldierendatabank : Helpen om dieren uit het asiel te halen</sentence>
+  <comments>
+    <comment>Q#1|Minister Weyts pleit voor asieldierendatabank : Helpen om dieren uit het asiel te halen|1|1|-10.779769181610003</comment>
+  </comments>
+</alpino_ds>

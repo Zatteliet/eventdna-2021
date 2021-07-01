@@ -1,0 +1,33 @@
+Nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	B-NP	O
+evacuaties	evacuatie	N(soort,mv,basis)	I-NP	O
+na	na	VZ(init)	B-PP	O
+bosbrand	bosbrand	N(soort,ev,basis,zijd,stan)	B-NP	O
+Californië	Californië	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+				
+Wegens	wegens	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+hevige	hevig	ADJ(prenom,basis,met-e,stan)	I-NP	O
+branden	brand	N(soort,mv,basis)	I-NP	O
+in	in	VZ(init)	B-PP	O
+VS-staat	VS-staat	N(eigen,ev,basis,zijd,stan)	B-NP	B-MISC
+Californië	Californië	N(eigen,ev,basis,onz,stan)	I-NP	B-LOC
+moeten	moeten	WW(pv,tgw,mv)	B-VP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	B-NP	O
+gebieden	gebied	N(soort,mv,basis)	I-NP	O
+geëvacueerd	evacueren	WW(vd,vrij,zonder)	B-VP	O
+worden	worden	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+nieuwe	nieuw	ADJ(prenom,basis,met-e,stan)	I-NP	O
+evacuatiebevelen	evacuatiebevel	N(soort,mv,basis)	I-NP	O
+werden	worden	WW(pv,verl,mv)	B-VP	O
+gisteren	gisteren	BW()	B-ADVP	O
+afgekondigd	afkondigen	WW(vd,vrij,zonder)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+county	county	SPEC(vreemd)	I-NP	O
+Santa	Santa	SPEC(deeleigen)	I-NP	B-PER
+Barbara	Barbara	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="27" id="2" rel="--">
+      <node begin="0" cat="smain" end="16" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" buiging="met-e" end="1" frame="determiner(de,nwh,nmod,pro,nparg)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="deze" naamval="stan" npagr="rest" pdtype="det" pos="det" positie="prenom" postag="VNW(aanw,det,stan,prenom,met-e,rest)" pt="vnw" rel="det" root="deze" sense="deze" vwtype="aanw" wh="nwh" word="Deze"/>
+          <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="baby" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="baby" sense="baby" word="baby&apos;s"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,pl,ld_pp)" his="normal" his_1="normal" id="7" infl="pl" lcat="smain" lemma="leven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="leef" sc="ld_pp" sense="leef" stype="declarative" tense="present" word="leven" wvorm="pv"/>
+        <node begin="3" cat="pp" end="16" id="8" rel="ld">
+          <node begin="3" end="4" frame="preposition(in,[])" his="normal" his_1="normal" id="9" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="4" cat="np" end="16" id="10" rel="obj1">
+            <node begin="4" end="5" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="regio" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="regio" sense="regio" word="regio&apos;s"/>
+            <node begin="5" cat="rel" end="16" id="12" rel="mod">
+              <node begin="5" end="6" frame="er_wh_loc_adverb" getal="getal" his="normal" his_1="normal" id="13" index="1" lcat="advp" lemma="waar" naamval="obl" pdtype="adv-pron" persoon="3o" pos="adv" postag="VNW(vb,adv-pron,obl,vol,3o,getal)" pt="vnw" rel="rhd" root="waar" sense="waar" special="er_loc" status="vol" vwtype="vb" wh="ywh" word="waar"/>
+              <node begin="5" cat="ssub" end="16" id="14" rel="body">
+                <node begin="5" end="6" id="15" index="1" rel="mod"/>
+                <node begin="6" cat="np" end="8" id="16" rel="su">
+                  <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="17" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                  <node begin="7" end="8" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="18" lcat="np" lemma="luchtverontreiniging" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="luchtverontreiniging" sense="luchtverontreiniging" word="luchtverontreiniging"/>
+                </node>
+                <node begin="8" end="9" frame="adverb" his="normal" his_1="normal" id="19" lcat="advp" lemma="minstens" pos="adv" postag="BW()" pt="bw" rel="mod" root="minstens" sense="minstens" word="minstens"/>
+                <node begin="11" end="12" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="20" infl="sg_heeft" lcat="ssub" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" tense="present" word="is" wvorm="pv"/>
+                <node begin="9" cat="ap" end="16" id="21" rel="predc">
+                  <node begin="9" end="10" frame="tmp_noun(both,count,bare_meas)" gen="both" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="zesmaal" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="me" rnum="sg" root="zesmaal" sense="zesmaal" special="tmp" word="zesmaal"/>
+                  <node aform="compar" begin="10" buiging="zonder" end="11" frame="adjective(er(adv))" graad="comp" his="normal" his_1="normal" id="23" infl="no_e" lcat="ap" lemma="hoog" pos="adj" positie="vrij" postag="ADJ(vrij,comp,zonder)" pt="adj" rel="hd" root="hoog" sense="hoog" vform="adj" word="hoger"/>
+                  <node begin="12" cat="cp" end="16" id="24" rel="obcomp">
+                    <node begin="12" conjtype="onder" end="13" frame="comparative(dan)" his="normal" his_1="normal" id="25" lcat="comparative" lemma="dan" pos="comparative" postag="VG(onder)" pt="vg" rel="cmp" root="dan" sense="dan" word="dan"/>
+                    <node begin="13" cat="np" end="16" id="26" rel="body">
+                      <node begin="13" cat="ppart" end="15" id="27" rel="mod">
+                        <node aform="base" begin="13" buiging="zonder" end="14" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="28" infl="no_e" lcat="ap" lemma="internationaal" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="internationaal"/>
+                        <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(ge_e)" his="normal" his_1="normal" id="29" infl="e" lcat="ppart" lemma="vastgelegd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="vastgelegd" sense="vastgelegd" vform="psp" word="vastgelegde" wvorm="vd"/>
+                      </node>
+                      <node begin="15" end="16" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="norm" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="norm" sense="norm" word="normen"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="17" cat="sv1" end="27" id="31" rel="tag">
+        <node begin="17" end="18" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="32" infl="sg3" lcat="sv1" lemma="klinken" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="klink" sc="sbar" sense="klink" tense="present" word="klinkt" wvorm="pv"/>
+        <node begin="18" end="19" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="33" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="su" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+        <node begin="19" cat="pp" end="27" id="34" rel="mod">
+          <node begin="19" end="20" frame="preposition(in,[])" his="normal" his_1="normal" id="35" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+          <node begin="20" cat="np" end="27" id="36" rel="obj1">
+            <node begin="20" end="21" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="37" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+            <node begin="21" cat="ppart" end="26" id="38" rel="mod">
+              <node begin="21" end="22" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="39" lcat="np" lemma="woensdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="woensdag" sense="woensdag" special="tmp" word="woensdag"/>
+              <node begin="22" cat="pp" end="25" id="40" rel="mod">
+                <node begin="22" end="23" frame="preposition(in,[])" his="normal" his_1="normal" id="41" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                <node begin="23" cat="mwu" end="25" his="normal" his_1="names_dictionary" id="42" mwu_root="New York" mwu_sense="New York" rel="obj1">
+                  <node begin="23" end="24" frame="proper_name(sg,'LOC')" id="43" lcat="np" lemma="New" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="New" sense="New" spectype="deeleigen" word="New"/>
+                  <node begin="24" end="25" frame="proper_name(sg,'LOC')" id="44" lcat="np" lemma="York" neclass="LOC" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="York" sense="York" spectype="deeleigen" word="York"/>
+                </node>
+              </node>
+              <node aform="base" begin="25" buiging="met-e" end="26" frame="adjective(ge_e)" his="normal" his_1="normal" id="45" infl="e" lcat="ppart" lemma="gepubliceerd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="hd" root="gepubliceerd" sense="gepubliceerd" vform="psp" word="gepubliceerde" wvorm="vd"/>
+            </node>
+            <node begin="26" end="27" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="46" lcat="np" lemma="rapport" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="rapport" sense="rapport" word="rapport"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" his="normal" his_1="normal" id="47" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Deze baby&apos;s leven in regio&apos;s waar de luchtverontreiniging minstens zesmaal hoger is dan internationaal vastgelegde normen , klinkt het in het woensdag in New York gepubliceerde rapport .</sentence>
+  <comments>
+    <comment>Q#3|Deze baby&apos;s leven in regio&apos;s waar de luchtverontreiniging minstens zesmaal hoger is dan internationaal vastgelegde normen , klinkt het in het woensdag in New York gepubliceerde rapport .|1|1|0.5005671188000065</comment>
+  </comments>
+</alpino_ds>

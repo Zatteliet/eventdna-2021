@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="19" id="2" rel="--">
+      <node begin="0" cat="smain" end="8" id="3" rel="dp">
+        <node begin="0" cat="np" end="3" id="4" rel="su">
+          <node begin="0" cat="detp" end="2" his="normal" his_1="decap" his_1_1="normal" id="5" rel="det">
+            <node begin="0" end="1" frame="number(hoofd(both))" id="6" infl="both" lcat="detp" lemma="zoveel" numtype="hoofd" pos="num" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="hd" root="zoveel" sense="zoveel" special="hoofd" word="Zoveel"/>
+            <node aform="base" begin="1" buiging="zonder" end="2" frame="adjective(no_e(adv))" graad="basis" id="7" infl="no_e" lcat="ap" lemma="mogelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="obcomp" root="mogelijk" sense="mogelijk" vform="adj" word="mogelijk"/>
+          </node>
+          <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="form_of_suffix" his_1="aars" id="8" lcat="np" lemma="leuvenaar" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="leuvenaar" sense="leuvenaar" word="Leuvenaars"/>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,pl,aci_no_obj)" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="laten" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="laat" sc="aci_no_obj" sense="laat" stype="declarative" tense="present" word="laten" wvorm="pv"/>
+        <node begin="4" cat="inf" end="8" id="10" rel="vc">
+          <node begin="4" buiging="zonder" end="5" frame="verb(zijn,inf,ninv(ld_pp,part_ld_pp(over)))" his="normal" his_1="part-V" id="11" infl="inf" lcat="inf" lemma="over_stappen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="stap_over" sc="part_ld_pp(over)" sense="stap_over" word="overstappen" wvorm="inf"/>
+          <node begin="5" cat="pp" end="8" id="12" rel="ld">
+            <node begin="5" end="6" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="13" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="6" cat="np" end="8" id="14" rel="obj1">
+              <node aform="base" begin="6" buiging="met-e" end="7" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="15" infl="e" lcat="ap" lemma="groen" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="groen" sense="groen" vform="adj" word="groene"/>
+              <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="16" lcat="np" lemma="stroom" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="stroom" sense="stroom" word="stroom"/>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="9" cat="smain" end="19" id="17" rel="dp">
+        <node begin="9" end="10" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="normal" id="18" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="dat"/>
+        <node begin="10" end="11" frame="verb(unacc,sg_heeft,copula)" his="normal" his_1="normal" id="19" infl="sg_heeft" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben" sc="copula" sense="ben" stype="declarative" tense="present" word="is" wvorm="pv"/>
+        <node begin="11" cat="np" end="19" id="20" rel="predc">
+          <node begin="11" case="both" def="indef" end="12" frame="pronoun(nwh,thi,sg,both,both,indef,strpro)" gen="both" getal-n="zonder-n" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="één" num="sg" numtype="hoofd" per="thi" pos="pron" positie="nom" postag="TW(hoofd,nom,zonder-n,basis)" pt="tw" rel="hd" rnum="sg" root="één" sense="één" special="strpro" wh="nwh" word="een"/>
+          <node begin="12" cat="pp" end="19" id="22" rel="mod">
+            <node begin="12" end="13" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="23" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="13" cat="np" end="19" id="24" rel="obj1">
+              <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="25" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="14" end="15" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="ambitie" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="ambitie" sense="ambitie" word="ambities"/>
+              <node begin="15" cat="pp" end="19" id="27" rel="mod">
+                <node begin="15" end="16" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="28" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="16" cat="np" end="19" id="29" rel="obj1">
+                  <node begin="16" end="17" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="30" lcat="np" lemma="vzw" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vzw" sense="vzw" word="vzw"/>
+                  <node begin="17" cat="mwu" end="19" his="name" his_1="not_begin" id="31" mwu_root="Leuven 2030" mwu_sense="Leuven 2030" rel="app">
+                    <node begin="17" end="18" frame="proper_name(both)" id="32" lcat="np" lemma="Leuven" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Leuven" sense="Leuven" spectype="deeleigen" word="Leuven"/>
+                    <node begin="18" end="19" frame="proper_name(both)" id="33" lcat="np" lemma="2030" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="2030" sense="2030" spectype="deeleigen" word="2030"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="34" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Zoveel mogelijk Leuvenaars laten overstappen op groene stroom , dat is een van de ambities van vzw Leuven 2030 .</sentence>
+  <comments>
+    <comment>Q#2|Zoveel mogelijk Leuvenaars laten overstappen op groene stroom , dat is een van de ambities van vzw Leuven 2030 .|1|1|-2.425335413009993</comment>
+  </comments>
+</alpino_ds>

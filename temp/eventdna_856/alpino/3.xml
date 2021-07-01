@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="28" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="19" end="20" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="27" id="3" rel="--">
+      <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg)" getal="ev" his="normal" his_1="decap" his_1_1="normal" id="4" infl="het" lcat="np" lemma="dat" naamval="stan" pdtype="pron" persoon="3o" pos="det" postag="VNW(aanw,pron,stan,vol,3o,ev)" pt="vnw" rel="su" rnum="sg" root="dat" sense="dat" status="vol" vwtype="aanw" wh="nwh" word="Dat"/>
+      <node begin="1" end="2" frame="verb(hebben,sg3,np_pc_pp(in))" his="normal" his_1="normal" id="5" infl="sg3" lcat="smain" lemma="zeggen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="zeg" sc="np_pc_pp(in)" sense="zeg-in" stype="declarative" tense="present" word="zegt" wvorm="pv"/>
+      <node begin="2" end="3" frame="proper_name(both,'PER')" genus="zijd" getal="ev" graad="basis" his="name" his_1="not_begin" id="6" lcat="np" lemma="Francken" naamval="stan" neclass="PER" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="Francken" sense="Francken" word="Francken"/>
+      <node begin="3" cat="pp" end="19" id="7" rel="mod">
+        <node begin="3" end="4" frame="preposition(na,[])" his="normal" his_1="normal" id="8" lcat="pp" lemma="na" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="na" sense="na" vztype="init" word="na"/>
+        <node begin="4" cat="np" end="19" id="9" rel="obj1">
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="kritiek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kritiek" sense="kritiek" word="kritiek"/>
+          <node begin="5" cat="pp" end="11" id="11" rel="mod">
+            <node begin="5" end="6" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="12" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+            <node begin="6" cat="np" end="11" id="13" rel="obj1">
+              <node begin="6" end="7" frame="determiner(de)" his="normal" his_1="normal" id="14" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="7" cat="mwu" end="11" his="name" his_1="not_begin" id="15" mwu_root="Orde van Vlaamse Balies" mwu_sense="Orde van Vlaamse Balies" rel="hd">
+                <node begin="7" end="8" frame="proper_name(both,'ORG')" id="16" lcat="np" lemma="Orde" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Orde" sense="Orde" spectype="deeleigen" word="Orde"/>
+                <node begin="8" end="9" frame="proper_name(both,'ORG')" id="17" lcat="np" lemma="van" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="van" sense="van" spectype="deeleigen" word="van"/>
+                <node begin="9" end="10" frame="proper_name(both,'ORG')" id="18" lcat="np" lemma="Vlaamse" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Vlaamse" sense="Vlaamse" spectype="deeleigen" word="Vlaamse"/>
+                <node begin="10" end="11" frame="proper_name(both,'ORG')" id="19" lcat="np" lemma="Balies" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Balies" sense="Balies" spectype="deeleigen" word="Balies"/>
+              </node>
+            </node>
+          </node>
+          <node begin="11" cat="pp" end="19" id="20" rel="mod">
+            <node begin="11" end="12" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="21" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="12" cat="np" end="19" id="22" rel="obj1">
+              <node begin="12" end="13" frame="determiner(de)" his="normal" his_1="normal" id="23" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+              <node begin="13" end="14" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="24" lcat="np" lemma="opening" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="opening" sense="opening" word="opening"/>
+              <node begin="14" cat="pp" end="19" id="25" rel="mod">
+                <node begin="14" end="15" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="26" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+                <node begin="15" cat="np" end="19" id="27" rel="obj1">
+                  <node begin="15" end="16" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="28" infl="pl_num" lcat="detp" lemma="vijf" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="vijf" sense="vijf" special="hoofd" word="vijf"/>
+                  <node begin="17" cat="mwu" end="19" his="quoted_name" his_1="&apos;" his_2="&apos;" id="29" mwu_root="family units" mwu_sense="family units" rel="hd">
+                    <node begin="17" end="18" frame="proper_name(both)" genus="zijd" getal="ev" graad="basis" id="30" lcat="np" lemma="family" naamval="stan" neclass="MISC" ntype="soort" num="both" pos="name" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="pl" root="family" sense="family" word="family"/>
+                    <node begin="18" end="19" frame="proper_name(both)" getal="mv" graad="basis" id="31" lcat="np" lemma="units" neclass="MISC" ntype="soort" num="both" pos="name" postag="N(soort,mv,basis)" pt="n" rel="mwp" rnum="pl" root="units" sense="units" word="units"/>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="20" cat="pp" end="27" id="32" rel="pc">
+        <node begin="20" end="21" frame="preposition(in,[])" his="normal" his_1="normal" id="33" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="21" cat="np" end="27" id="34" rel="obj1">
+          <node begin="21" end="22" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="35" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node aform="base" begin="22" buiging="zonder" end="23" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="36" infl="both" lcat="ppart" lemma="gesloten" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="mod" root="gesloten" sense="gesloten" vform="psp" word="gesloten" wvorm="vd"/>
+          <node begin="23" end="24" frame="noun(het,count,sg,app_measure)" gen="het" genus="onz" getal="ev" graad="basis" his="compound" his_1="2" id="37" lcat="np" lemma="repatriëring_centrum" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="repatriëring_centrum" sc="app_measure" sense="repatriëring_centrum" word="repatriëringscentrum"/>
+          <node begin="24" end="25" frame="noun(both,both,both)" gen="both" genus="zijd" getal="ev" graad="basis" his="noun" id="38" lcat="np" lemma="127bis" naamval="stan" ntype="soort" num="both" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="app" root="127bis" sense="127bis" word="127bis"/>
+          <node begin="25" cat="pp" end="27" id="39" rel="mod">
+            <node begin="25" end="26" frame="preposition(in,[])" his="normal" his_1="normal" id="40" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="26" end="27" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="41" lcat="np" lemma="Steenokkerzeel" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Steenokkerzeel" sense="Steenokkerzeel" word="Steenokkerzeel"/>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="27" end="28" frame="punct(punt)" his="normal" his_1="normal" id="42" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Dat zegt Francken na kritiek van de Orde van Vlaamse Balies op de opening van vijf &apos; family units &apos; in het gesloten repatriëringscentrum 127bis in Steenokkerzeel .</sentence>
+  <comments>
+    <comment>Q#3|Dat zegt Francken na kritiek van de Orde van Vlaamse Balies op de opening van vijf &apos; family units &apos; in het gesloten repatriëringscentrum 127bis in Steenokkerzeel .|1|1|2.061231678100016</comment>
+  </comments>
+</alpino_ds>

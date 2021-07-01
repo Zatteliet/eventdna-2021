@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="du" end="8" id="1" rel="--">
+      <node begin="0" cat="smain" end="7" id="2" rel="dp">
+        <node begin="0" cat="mwu" end="3" his="normal" his_1="names_dictionary" id="3" mwu_root="Bart De Pauw" mwu_sense="Bart De Pauw" rel="su">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Bart" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bart" sense="Bart" spectype="deeleigen" word="Bart"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="De" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="De" sense="De" spectype="deeleigen" word="De"/>
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="Pauw" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Pauw" sense="Pauw" spectype="deeleigen" word="Pauw"/>
+        </node>
+        <node begin="3" end="4" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem" sc="transitive" sense="neem" stype="declarative" tense="present" word="neemt" wvorm="pv"/>
+        <node begin="4" cat="np" end="7" id="8" rel="obj1">
+          <node begin="4" end="5" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="ontslag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="ontslag" sense="ontslag" word="ontslag"/>
+          <node begin="5" cat="cp" end="7" id="10" rel="mod">
+            <node begin="5" end="6" frame="complementizer(als)" his="normal" his_1="normal" id="11" lcat="cp" lemma="als" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="als" sc="als" sense="als" vztype="init" word="als"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="zaakvoerder" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="body" rnum="sg" root="zaakvoerder" sense="zaakvoerder" word="zaakvoerder"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="productie_huis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="dp" rnum="sg" root="productie_huis" sense="productie_huis" word="productiehuis"/>
+    </node>
+  </node>
+  <sentence sentid="1">Bart De Pauw neemt ontslag als zaakvoerder productiehuis</sentence>
+  <comments>
+    <comment>Q#1|Bart De Pauw neemt ontslag als zaakvoerder productiehuis|1|2|2.2376259892700014</comment>
+  </comments>
+</alpino_ds>

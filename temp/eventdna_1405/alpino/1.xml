@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="4" end="5" frame="punct(dubb_punt)" his="normal" his_1="normal" id="1" lcat="punct" lemma=":" pos="punct" postag="LET()" pt="let" rel="--" root=":" sense=":" special="dubb_punt" word=":"/>
+    <node begin="0" cat="ppart" end="12" id="2" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg)" genus="genus" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="Aquarius" naamval="stan" neclass="MISC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,genus,stan)" pt="n" rel="obj1" rnum="sg" root="Aquarius" sense="Aquarius" word="Aquarius"/>
+      <node begin="1" end="2" frame="adverb" his="normal" his_1="normal" id="4" lcat="advp" lemma="weer" pos="adv" postag="BW()" pt="bw" rel="mod" root="weer" sense="weer" word="weer"/>
+      <node begin="2" cat="pp" end="11" id="5" rel="ld">
+        <node begin="2" end="3" frame="preposition(in,[])" his="normal" his_1="normal" id="6" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="3" cat="np" end="11" id="7" rel="obj1">
+          <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="actie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="actie" sense="actie" word="actie"/>
+          <node begin="5" cat="np" end="11" id="9" rel="app">
+            <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="10" infl="e" lcat="ap" lemma="veilig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="veilig" sense="veilig" vform="adj" word="veilige"/>
+            <node begin="6" end="7" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="haven" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="haven" sense="haven" word="haven"/>
+            <node begin="7" cat="pp" end="11" id="12" rel="mod">
+              <node begin="7" end="8" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="13" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+              <node begin="8" cat="np" end="11" id="14" rel="obj1">
+                <node begin="8" end="9" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="15" infl="pl_num" lcat="detp" lemma="141" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="141" sense="141" special="hoofd" word="141"/>
+                <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(ge_e)" his="normal" his_1="normal" id="16" infl="e" lcat="ppart" lemma="gered" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gered" sense="gered" vform="psp" word="geredde" wvorm="vd"/>
+                <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="migrant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="migrant" sense="migrant" word="migranten"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node begin="11" buiging="zonder" end="12" frame="verb(hebben,psp,np_ld_pp)" his="normal" his_1="normal" id="18" infl="psp" lcat="ppart" lemma="zoeken" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="zoek" sc="np_ld_pp" sense="zoek" word="gezocht" wvorm="vd"/>
+    </node>
+  </node>
+  <sentence sentid="1">Aquarius weer in actie : veilige haven voor 141 geredde migranten gezocht</sentence>
+  <comments>
+    <comment>Q#1|Aquarius weer in actie : veilige haven voor 141 geredde migranten gezocht|1|1|4.9315814902800135</comment>
+  </comments>
+</alpino_ds>

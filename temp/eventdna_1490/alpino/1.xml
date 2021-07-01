@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="smain" end="6" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Brits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Brits" sense="Brits" vform="adj" word="Britse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="4" lcat="np" lemma="Brexit_minister" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Brexit_minister" sense="Brexit_minister" word="Brexit-minister"/>
+        <node begin="2" cat="mwu" end="4" his="normal" his_1="names_dictionary" id="5" mwu_root="David Davis" mwu_sense="David Davis" rel="app">
+          <node begin="2" end="3" frame="proper_name(sg,'PER')" id="6" lcat="np" lemma="David" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="David" sense="David" spectype="deeleigen" word="David"/>
+          <node begin="3" end="4" frame="proper_name(sg,'PER')" id="7" lcat="np" lemma="Davis" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Davis" sense="Davis" spectype="deeleigen" word="Davis"/>
+        </node>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,sg3,transitive)" his="normal" his_1="normal" id="8" infl="sg3" lcat="smain" lemma="nemen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="neem" sc="transitive" sense="neem" stype="declarative" tense="present" word="neemt" wvorm="pv"/>
+      <node begin="5" end="6" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="ontslag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="ontslag" sense="ontslag" word="ontslag"/>
+    </node>
+  </node>
+  <sentence sentid="1">Britse Brexit-minister David Davis neemt ontslag</sentence>
+  <comments>
+    <comment>Q#1|Britse Brexit-minister David Davis neemt ontslag|1|1|-3.2256039177300013</comment>
+  </comments>
+</alpino_ds>

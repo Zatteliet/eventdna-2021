@@ -1,0 +1,35 @@
+Cambridge	Cambridge	SPEC(deeleigen)	B-NP	B-PER
+Analytica	Analytica	SPEC(deeleigen)	I-NP	I-PER
+sluit	sluiten	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+deuren	deur	N(soort,mv,basis)	I-NP	O
+na	na	VZ(init)	B-PP	O
+privacyschandaal	privacyschandaal	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Het	het	LID(bep)	B-NP	O
+Britse	Brits	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+consultingbedrijf	consultingbedrijf	N(soort,ev,basis,onz,stan)	I-NP	O
+Cambridge	Cambridge	SPEC(deeleigen)	I-NP	B-PER
+Analytica	Analytica	SPEC(deeleigen)	I-NP	I-PER
+,	,	LET()	O	O
+dat	dat	VG(onder)	O	O
+de	de	LID(bep)	B-NP	O
+gegevens	gegeven	N(soort,mv,basis)	I-NP	O
+van	van	VZ(init)	B-PP	O
+miljoenen	miljoen	N(soort,mv,basis)	B-NP	O
+Facebook-gebruikers	facebook-gebruiker	N(soort,mv,basis)	I-NP	B-MISC
+misbruikte	misbruiken	WW(pv,verl,ev)	B-VP	O
+,	,	LET()	O	O
+sluit	sluiten	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+deuren	deur	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+maakt	maken	WW(pv,tgw,met-t)	B-VP	O
+het	het	VNW(pers,pron,3,ev,onz)	B-NP	O
+woensdagavond	woensdagavond	N(soort,ev,basis,zijd,stan)	I-NP	O
+zelf	zelf	BW()	B-AP	O
+bekend	bekend	ADJ(vrij,basis,zonder)	I-AP	O
+.	.	LET()	O	O
+				

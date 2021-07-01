@@ -1,0 +1,47 @@
+Strandlopers	strandloper	N(soort,mv,basis)	B-NP	O
+ruimden	ruimen	WW(pv,verl,mv)	B-VP	O
+al	al	BW()	B-NP	O
+41.000	41.000	TW(hoofd,prenom,stan)	I-NP	O
+liter	liter	N(soort,ev,basis,zijd,stan)	I-NP	O
+afval	afval	N(soort,ev,basis,onz,stan)	I-NP	O
+				
+De	de	LID(bep)	O	O
+'	'	LET()	O	O
+Proper	Proper	SPEC(deeleigen)	B-NP	B-PRO
+Strand	Strand	SPEC(deeleigen)	I-NP	I-PRO
+Lopers	Lopers	SPEC(deeleigen)	I-NP	I-PRO
+'	'	LET()	O	O
+hebben	hebben	WW(pv,tgw,mv)	B-VP	O
+in	in	VZ(init)	B-PP	O
+hun	hun	VNW(bez,det,3,mv)	B-NP	O
+eerste	een	TW(rang,prenom,stan)	I-NP	O
+werkjaar	werkjaar	N(soort,ev,basis,zijd,stan)	I-NP	O
+ruim	ruim	ADJ(vrij,basis,zonder)	B-NP	O
+41.000	41.000	TW(hoofd,prenom,stan)	I-NP	O
+liter	liter	N(soort,ev,basis,zijd,stan)	I-NP	O
+vuilnis	vuilnis	N(soort,ev,basis,zijd,stan)	I-NP	O
+verzameld	verzamelen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Wat	wat	VNW(vb,pron,3o,ev)	B-NP	O
+begon	beginnen	WW(pv,verl,ev)	B-VP	O
+als	als	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+Facebookgroep	facebookgroep	N(soort,ev,basis,zijd,stan)	I-NP	B-MISC
+onder	onder	VZ(init)	B-PP	O
+vrienden	vriend	N(soort,mv,basis)	B-NP	O
+,	,	LET()	O	O
+groeide	groeien	WW(pv,verl,ev)	B-VP	O
+uit	uit	VZ(fin)	O	O
+tot	tot	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+vereniging	vereniging	N(soort,ev,basis,zijd,stan)	I-NP	O
+die	die	VNW(betr,pron,persoon,getal)	B-AP	O
+actief	actief	ADJ(vrij,basis,zonder)	I-AP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+aan	aan	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+hele	heel	ADJ(prenom,basis,met-e,stan)	I-NP	O
+kust	kust	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

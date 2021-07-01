@@ -1,0 +1,76 @@
+Islamitische	islamitisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-ORG
+Staat	staat	N(soort,ev,basis,zijd,stan)	I-NP	I-ORG
+eist	eisen	WW(pv,tgw,met-t)	B-VP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	B-NP	O
+in	in	VZ(init)	B-PP	O
+Frankrijk	Frankrijk	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+op	op	VZ(fin)	O	O
+,	,	LET()	O	O
+dader	dader	N(soort,ev,basis,zijd,stan)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+doodgeschoten	doodschieten	WW(vd,vrij,zonder)	I-VP	O
+				
+In	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+dorp	dorp	N(soort,ev,basis,onz,stan)	I-NP	O
+Trèbes	Trèbes	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+,	,	LET()	O	O
+bij	bij	VZ(init)	B-PP	O
+Carcassonne	Carcassonne	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+,	,	LET()	O	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+gijzeling	gijzeling	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+supermarkt	supermarkt	N(soort,ev,basis,zijd,stan)	I-NP	O
+afgelopen	aflopen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+dader	dader	N(soort,ev,basis,zijd,stan)	I-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+doodgeschoten	doodschieten	WW(vd,vrij,zonder)	I-VP	O
+door	door	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+politie	politie	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+De	de	LID(bep)	B-NP	O
+schutter	schutter	N(soort,ev,basis,zijd,stan)	I-NP	O
+eiste	eisen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+vrijlating	vrijlating	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Salah	Salah	SPEC(deeleigen)	B-NP	B-PER
+Abdeslam	Abdeslam	SPEC(deeleigen)	I-NP	I-PER
+.	.	LET()	O	O
+				
+Islamitische	islamitisch	ADJ(prenom,basis,met-e,stan)	B-NP	B-ORG
+Staat	staat	N(soort,ev,basis,zijd,stan)	I-NP	I-ORG
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+aanslag	aanslag	N(soort,ev,basis,zijd,stan)	I-NP	O
+intussen	intussen	BW()	B-ADVP	O
+opgeëist	opeisen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Volgens	volgens	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+minister	minister	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+Binnenlandse	binnenlands	ADJ(prenom,basis,met-e,stan)	B-NP	B-MISC
+Zaken	zaak	N(soort,mv,basis)	I-NP	I-MISC
+zijn	zijn	WW(pv,tgw,mv)	B-VP	O
+er	er	VNW(aanw,adv-pron,3,getal)	B-NP	O
+minstens	minstens	BW()	B-NP	O
+drie	drie	TW(hoofd,prenom,stan)	I-NP	O
+doden	dood	ADJ(nom,basis,met-e,mv-n)	I-NP	O
+en	en	VG(neven)	O	O
+verschillende	verschillend	ADJ(prenom,basis,met-e,stan)	B-NP	O
+zwaargewonden	zwaargewonde	N(soort,mv,basis)	I-NP	O
+gevallen	vallen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

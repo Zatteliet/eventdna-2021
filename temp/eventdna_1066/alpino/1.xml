@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="8" id="0" rel="top">
+    <node begin="0" cat="smain" end="8" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Joods" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Joods" sense="Joods" vform="adj" word="Joodse"/>
+        <node begin="1" end="2" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="kandidaat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="kandidaat" sense="kandidaat" word="kandidaat"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg,np_ld_pp)" his="normal" his_1="normal" id="5" infl="sg" lcat="smain" lemma="storten" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="stort" sc="np_ld_pp" sense="stort" stype="declarative" tense="present" word="stort" wvorm="pv"/>
+      <node begin="3" cat="mwu" end="6" his="name" his_1="not_begin" id="6" mwu_root="CD &amp; V" mwu_sense="CD &amp; V" rel="obj1">
+        <node begin="3" end="4" frame="proper_name(both,'ORG')" id="7" lcat="np" lemma="CD" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="CD" sense="CD" spectype="deeleigen" word="CD"/>
+        <node begin="4" end="5" frame="proper_name(both,'ORG')" id="8" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+        <node begin="5" end="6" frame="proper_name(both,'ORG')" id="9" lcat="np" lemma="V" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="V" sense="V" spectype="deeleigen" word="V"/>
+      </node>
+      <node begin="6" cat="pp" end="8" id="10" rel="ld">
+        <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="11" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="12" lcat="np" lemma="crisis" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="crisis" sense="crisis" word="crisis"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Joodse kandidaat stort CD &amp; V in crisis</sentence>
+  <comments>
+    <comment>Q#1|Joodse kandidaat stort CD &amp; V in crisis|1|1|1.9821979151500009</comment>
+  </comments>
+</alpino_ds>

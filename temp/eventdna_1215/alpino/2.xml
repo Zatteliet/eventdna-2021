@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="17" id="0" rel="top">
+    <node begin="12" end="13" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="du" end="16" id="2" rel="--">
+      <node begin="0" cat="smain" end="12" id="3" rel="nucl">
+        <node begin="0" cat="np" end="2" id="4" rel="su">
+          <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="5" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+          <node begin="1" end="2" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="politie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="politie" sense="politie" word="politie"/>
+        </node>
+        <node begin="2" end="3" frame="verb(hebben,sg3,pc_pp(op))" his="normal" his_1="normal" id="7" infl="sg3" lcat="smain" lemma="controleren" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="controleer" sc="pc_pp(op)" sense="controleer-op" stype="declarative" tense="present" word="controleert" wvorm="pv"/>
+        <node begin="3" cat="pp" end="5" id="8" rel="pc">
+          <node begin="3" end="4" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="9" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="10" lcat="np" lemma="straat" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="straat" sense="straat" word="straat"/>
+        </node>
+        <node begin="5" cat="advp" end="7" his="normal" his_1="normal" id="11" rel="mod">
+          <node begin="5" end="6" frame="adverb" id="12" lcat="advp" lemma="wel" pos="adv" postag="BW()" pt="bw" rel="hd" root="wel" sense="wel" word="wel"/>
+          <node aform="base" begin="6" buiging="zonder" end="7" frame="adjective(no_e(adv))" graad="basis" id="13" infl="no_e" lcat="ap" lemma="degelijk" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="degelijk" sense="degelijk" vform="adj" word="degelijk"/>
+        </node>
+        <node begin="7" cat="pp" end="12" id="14" rel="mod">
+          <node begin="7" cat="mwu" end="10" his="normal" his_1="normal" id="15" mwu_root="op basis van" mwu_sense="op basis van" rel="hd">
+            <node begin="7" end="8" frame="preposition([op,basis,van],[])" id="16" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="op" sense="op" vztype="init" word="op"/>
+            <node begin="8" end="9" frame="preposition([op,basis,van],[])" genus="zijd" getal="ev" graad="basis" id="17" lcat="pp" lemma="basis" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="basis" sense="basis" word="basis"/>
+            <node begin="9" end="10" frame="preposition([op,basis,van],[])" id="18" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+          </node>
+          <node begin="10" cat="np" end="12" id="19" rel="obj1">
+            <node aform="base" begin="10" buiging="met-e" end="11" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="20" infl="e" lcat="ap" lemma="etnisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="etnisch" sense="etnisch" vform="adj" word="etnische"/>
+            <node begin="11" end="12" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="21" lcat="np" lemma="achtergrond" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="achtergrond" sense="achtergrond" word="achtergrond"/>
+          </node>
+        </node>
+      </node>
+      <node begin="13" cat="sv1" end="16" id="22" rel="tag">
+        <node begin="13" end="14" frame="verb(hebben,sg3,sbar)" his="normal" his_1="normal" id="23" infl="sg3" lcat="sv1" lemma="stellen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="stel" sc="sbar" sense="stel" tense="present" word="stelt" wvorm="pv"/>
+        <node begin="14" cat="mwu" end="16" his="normal" his_1="names_dictionary" id="24" mwu_root="Amnesty International" mwu_sense="Amnesty International" rel="su">
+          <node begin="14" end="15" frame="proper_name(sg,'ORG')" id="25" lcat="np" lemma="Amnesty" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Amnesty" sense="Amnesty" spectype="deeleigen" word="Amnesty"/>
+          <node begin="15" end="16" frame="proper_name(sg,'ORG')" id="26" lcat="np" lemma="International" neclass="ORG" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="International" sense="International" spectype="deeleigen" word="International"/>
+        </node>
+      </node>
+    </node>
+    <node begin="16" end="17" frame="punct(punt)" his="normal" his_1="normal" id="27" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De politie controleert op straat wel degelijk op basis van etnische achtergrond , stelt Amnesty International .</sentence>
+  <comments>
+    <comment>Q#2|De politie controleert op straat wel degelijk op basis van etnische achtergrond , stelt Amnesty International .|1|1|-0.27350870282999407</comment>
+  </comments>
+</alpino_ds>

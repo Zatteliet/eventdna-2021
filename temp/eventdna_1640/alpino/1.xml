@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="2" skips="0" />
+  <node begin="0" cat="top" end="5" id="0" rel="top">
+    <node begin="0" cat="du" end="5" id="1" rel="--">
+      <node begin="0" cat="inf" end="3" id="2" rel="dp">
+        <node begin="0" cat="mwu" end="2" his="name" his_1="begin" id="3" mwu_root="Bondgenoten Kiev" mwu_sense="Bondgenoten Kiev" rel="obj1">
+          <node begin="0" end="1" frame="proper_name(sg,'PER')" id="4" lcat="np" lemma="Bondgenoten" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bondgenoten" sense="Bondgenoten" spectype="deeleigen" word="Bondgenoten"/>
+          <node begin="1" end="2" frame="proper_name(sg,'PER')" id="5" lcat="np" lemma="Kiev" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Kiev" sense="Kiev" spectype="deeleigen" word="Kiev"/>
+        </node>
+        <node begin="2" buiging="zonder" end="3" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="6" infl="inf" lcat="inf" lemma="steunen" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="steun" sc="transitive" sense="steun" word="steunen" wvorm="inf"/>
+      </node>
+      <node begin="3" cat="np" end="5" id="7" rel="dp">
+        <node aform="base" begin="3" buiging="met-e" end="4" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="internationaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="internationaal" sense="internationaal" vform="adj" word="internationale"/>
+        <node begin="4" end="5" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="9" lcat="np" lemma="vrede_missie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="vrede_missie" sense="vrede_missie" word="vredesmissie"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Bondgenoten Kiev steunen internationale vredesmissie</sentence>
+  <comments>
+    <comment>Q#1|Bondgenoten Kiev steunen internationale vredesmissie|1|2|2.076391521849999</comment>
+  </comments>
+</alpino_ds>

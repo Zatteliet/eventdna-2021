@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="24" id="0" rel="top">
+    <node begin="0" cat="smain" end="23" id="1" rel="--">
+      <node begin="0" end="1" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="2" index="1" lcat="np" lemma="Italië" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Italië" sense="Italië" word="Italië"/>
+      <node begin="1" end="2" frame="verb(hebben,past(sg),aux_psp_hebben)" his="normal" his_1="normal" id="3" infl="sg" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,verl,ev)" pt="ww" pvagr="ev" pvtijd="verl" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="past" word="had" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="23" id="4" rel="vc">
+        <node begin="0" end="1" id="5" index="1" rel="su"/>
+        <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="zondag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zondag" sense="zondag" special="tmp" word="zondag"/>
+        <node begin="5" buiging="zonder" end="6" frame="verb(hebben,psp,er_pp_vp(met))" his="normal" his_1="normal" id="7" infl="psp" lcat="ppart" lemma="dreigen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="dreig" sc="er_pp_vp(met)" sense="dreig-met" word="gedreigd" wvorm="vd"/>
+        <node begin="0" cat="pp" end="23" id="8" rel="pc">
+          <node begin="2" end="3" frame="er_vp_adverb" getal="getal" his="normal" his_1="normal" id="9" lcat="advp" lemma="er" naamval="stan" pdtype="adv-pron" persoon="3" pos="adv" postag="VNW(aanw,adv-pron,stan,red,3,getal)" pt="vnw" rel="pobj1" root="er" sense="er" special="er" status="red" vwtype="aanw" word="er"/>
+          <node begin="4" end="5" frame="preposition(met,[mee],extracted_np)" his="normal" his_1="normal" id="10" lcat="pp" lemma="met" pos="prep" postag="VZ(fin)" pt="vz" rel="hd" root="met" sc="extracted_np" sense="met" vztype="fin" word="mee"/>
+          <node begin="0" cat="ti" end="23" id="11" rel="vc">
+            <node begin="13" end="14" frame="complementizer(te)" his="normal" his_1="normal" id="12" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="0" cat="inf" end="23" id="13" rel="body">
+              <node begin="0" end="1" id="14" index="1" rel="su"/>
+              <node begin="6" cat="np" end="11" id="15" rel="obj1">
+                <node begin="6" buiging="zonder" end="7" frame="determiner(geen,nwh,mod,pro,yparg,nwkpro,geen)" his="normal" his_1="normal" id="16" infl="geen" lcat="detp" lemma="geen" naamval="stan" npagr="agr" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,zonder,agr)" pt="vnw" rel="det" root="geen" sense="geen" vwtype="onbep" wh="nwh" word="geen"/>
+                <node begin="7" end="8" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="boot" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="boot" sense="boot" word="boten"/>
+                <node begin="8" cat="pp" end="11" id="18" rel="mod">
+                  <node begin="8" end="9" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+                  <node begin="9" cat="np" end="11" id="20" rel="obj1">
+                    <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(ge_e)" his="normal" his_1="normal" id="21" infl="e" lcat="ppart" lemma="gered" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gered" sense="gered" vform="psp" word="geredde" wvorm="vd"/>
+                    <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="boot_vluchteling" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="boot_vluchteling" sense="boot_vluchteling" word="bootvluchtelingen"/>
+                  </node>
+                </node>
+              </node>
+              <node aform="compar" begin="11" buiging="zonder" end="12" frame="adjective(meer)" graad="comp" his="normal" his_1="normal" id="23" infl="meer" lcat="ap" lemma="meer" naamval="stan" pdtype="grad" pos="adj" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mod" root="meer" sense="meer" vform="adj" vwtype="onbep" word="meer"/>
+              <node begin="12" end="13" frame="particle(toe)" his="normal" his_1="normal" id="24" lcat="part" lemma="toe" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="toe" sense="toe" vztype="fin" word="toe"/>
+              <node begin="14" buiging="zonder" end="15" frame="verb(hebben,inf,part_transitive(toe))" his="normal" his_1="normal" id="25" infl="inf" lcat="inf" lemma="toe_laten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="laat_toe" sc="part_transitive(toe)" sense="laat_toe" word="laten" wvorm="inf"/>
+              <node begin="15" cat="cp" end="23" id="26" rel="mod">
+                <node begin="15" conjtype="onder" end="16" frame="complementizer(als)" his="normal" his_1="normal" id="27" lcat="cp" lemma="als" pos="comp" postag="VG(onder)" pt="vg" rel="cmp" root="als" sc="als" sense="als" word="als"/>
+                <node begin="16" cat="ssub" end="23" id="28" rel="body">
+                  <node begin="16" end="17" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="29" lcat="np" lemma="Malta" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="su" rnum="sg" root="Malta" sense="Malta" word="Malta"/>
+                  <node begin="17" end="18" frame="reflexive(u_thi,both)" getal="getal" his="normal" his_1="normal" id="30" lcat="np" lemma="zich" naamval="obl" num="both" pdtype="pron" per="u_thi" persoon="3" pos="pron" postag="VNW(refl,pron,obl,red,3,getal)" pt="vnw" refl="refl" rel="se" root="zich" sense="zich" status="red" vwtype="refl" word="zich"/>
+                  <node begin="18" end="19" frame="adverb" his="normal" his_1="normal" id="31" lcat="advp" lemma="niet" pos="adv" postag="BW()" pt="bw" rel="mod" root="niet" sense="niet" word="niet"/>
+                  <node begin="19" end="20" frame="verb(hebben,sg3,refl_pc_pp(over))" his="normal" his_1="normal" id="32" infl="sg3" lcat="ssub" lemma="ontfermen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="ontferm" sc="refl_pc_pp(over)" sense="zich-ontferm-over" tense="present" word="ontfermt" wvorm="pv"/>
+                  <node begin="20" cat="pp" end="23" id="33" rel="pc">
+                    <node begin="20" end="21" frame="preposition(over,[heen])" his="normal" his_1="normal" id="34" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+                    <node begin="21" cat="np" end="23" id="35" rel="obj1">
+                      <node begin="21" end="22" frame="determiner(de)" his="normal" his_1="normal" id="36" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                      <node begin="22" end="23" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="37" lcat="np" lemma="opvarende" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="opvarende" sense="opvarende" word="opvarenden"/>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="23" end="24" frame="punct(punt)" his="normal" his_1="normal" id="38" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="3">Italië had er zondag mee gedreigd geen boten met geredde bootvluchtelingen meer toe te laten als Malta zich niet ontfermt over de opvarenden .</sentence>
+  <comments>
+    <comment>Q#3|Italië had er zondag mee gedreigd geen boten met geredde bootvluchtelingen meer toe te laten als Malta zich niet ontfermt over de opvarenden .|1|1|-6.474755999039999</comment>
+  </comments>
+</alpino_ds>

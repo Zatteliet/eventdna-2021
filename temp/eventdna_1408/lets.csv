@@ -1,0 +1,39 @@
+Longspecialisten	longspecialist	N(soort,mv,basis)	B-NP	O
+eisen	eisen	WW(pv,tgw,mv)	B-VP	O
+ban	ban	N(soort,ev,basis,zijd,stan)	B-NP	O
+op	op	VZ(init)	B-PP	O
+e-sigaret	e-sigaret	N(soort,ev,basis,onz,stan)	B-NP	O
+				
+Een	een	LID(onbep)	B-NP	O
+internationale	internationaal	ADJ(prenom,basis,met-e,stan)	I-NP	O
+groep	groep	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+longspecialisten	longspecialist	N(soort,mv,basis)	B-NP	O
+en	en	VG(neven)	O	O
+wetenschappers	wetenschapper	N(soort,mv,basis)	B-NP	O
+eist	eisen	WW(pv,tgw,met-t)	B-VP	O
+strengere	streng	ADJ(prenom,comp,met-e,stan)	B-NP	O
+maatregelen	maatregel	N(soort,mv,basis)	I-NP	O
+om	om	VZ(init)	B-PP	O
+jongeren	jong	ADJ(nom,comp,met-e,mv-n)	B-NP	O
+te	te	VZ(init)	B-VP	O
+beschermen	beschermen	WW(inf,vrij,zonder)	I-VP	O
+tegen	tegen	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+e-sigaret	e-sigaret	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+vele	veel	VNW(onbep,grad,basis)	B-NP	O
+gevallen	geval	N(soort,mv,basis)	I-NP	O
+vormt	vormen	WW(pv,tgw,met-t)	B-VP	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+een	een	LID(onbep)	B-NP	O
+opstapje	opstap	N(soort,ev,dim,onz,stan)	I-NP	O
+naar	naar	VZ(init)	O	O
+'	'	LET()	O	O
+echt	echt	ADJ(vrij,basis,zonder)	B-AP	O
+'	'	LET()	O	O
+roken	roken	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

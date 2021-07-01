@@ -1,0 +1,25 @@
+Trumps	Trump	N(eigen,ev,basis,gen)	B-NP	B-PER
+adviseur	adviseur	N(soort,ev,basis,zijd,stan)	I-NP	O
+binnenlandse	binnenlands	ADJ(prenom,basis,met-e,stan)	B-NP	O
+veiligheid	veiligheid	N(soort,ev,basis,zijd,stan)	I-NP	O
+stapt	stappen	WW(pv,tgw,met-t)	B-VP	O
+op	op	VZ(init)	O	O
+				
+In	in	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Witte	wit	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Huis	huis	N(soort,ev,basis,onz,stan)	I-NP	I-LOC
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+dinsdag	dinsdag	N(eigen,ev,basis,zijd,stan)	B-NP	O
+opnieuw	opnieuw	BW()	B-ADVP	O
+een	een	LID(onbep)	B-NP	O
+vertrouweling	vertrouweling	N(soort,ev,basis,zijd,stan)	I-NP	O
+van	van	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+president	president	N(soort,ev,basis,zijd,stan)	I-NP	O
+Donald	Donald	SPEC(deeleigen)	I-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+opgestapt	opstappen	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

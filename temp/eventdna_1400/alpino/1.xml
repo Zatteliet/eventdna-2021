@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="7" id="0" rel="top">
+    <node begin="0" cat="smain" end="7" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" rel="su">
+        <node aform="base" begin="0" buiging="met-e" end="1" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="3" infl="e" lcat="ap" lemma="Belgisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Belgisch" sense="Belgisch" vform="adj" word="Belgische"/>
+        <node begin="1" end="2" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="2" id="4" lcat="np" lemma="geloof_gemeenschap" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="geloof_gemeenschap" sense="geloof_gemeenschap" word="geloofgemeenschappen"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,pl,np_np)" his="normal" his_1="normal" id="5" infl="pl" lcat="smain" lemma="betalen" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="betaal" sc="np_np" sense="betaal" stype="declarative" tense="present" word="betalen" wvorm="pv"/>
+      <node begin="3" end="4" frame="noun(de,mass,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="6" lcat="np" lemma="over_komst" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj2" rnum="sg" root="over_komst" sense="over_komst" word="overkomst"/>
+      <node begin="4" cat="np" end="7" id="7" rel="obj1">
+        <node begin="4" end="5" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="8" infl="pl_num" lcat="detp" lemma="zeven" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="zeven" sense="zeven" special="hoofd" word="zeven"/>
+        <node aform="base" begin="5" buiging="met-e" end="6" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="9" infl="e" lcat="ap" lemma="Syrisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Syrisch" sense="Syrisch" vform="adj" word="Syrische"/>
+        <node begin="6" end="7" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="10" lcat="np" lemma="vluchteling_gezin" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="vluchteling_gezin" sense="vluchteling_gezin" word="vluchtelingengezinnen"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Belgische geloofgemeenschappen betalen overkomst zeven Syrische vluchtelingengezinnen</sentence>
+  <comments>
+    <comment>Q#1|Belgische geloofgemeenschappen betalen overkomst zeven Syrische vluchtelingengezinnen|1|1|0.37113374374999986</comment>
+  </comments>
+</alpino_ds>

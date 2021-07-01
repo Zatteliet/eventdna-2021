@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="np" end="6" id="1" rel="--">
+      <node begin="0" cat="mwu" end="2" his="name_gen" his_1="begin" id="2" mwu_root="René Stockmans" mwu_sense="René Stockmans" rel="det">
+        <node begin="0" end="1" frame="name_determiner(pron,'PER')" id="3" infl="pron" lcat="detp" lemma="René" neclass="PER" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="René" sense="René" special="name" spectype="deeleigen" word="René"/>
+        <node begin="1" end="2" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="4" infl="pron" lcat="detp" lemma="Stockmans" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Stockmans" sense="Stockmans" special="name" word="Stockmans"/>
+      </node>
+      <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="5" lcat="np" lemma="uithaal" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="uithaal" sense="uithaal" word="uithaal"/>
+      <node begin="3" cat="pp" end="6" id="6" rel="mod">
+        <node begin="3" end="4" frame="preposition(naar,[toe])" his="normal" his_1="normal" id="7" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="naar" sense="naar" vztype="init" word="naar"/>
+        <node begin="4" cat="np" end="6" id="8" rel="obj1">
+          <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="9" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+          <node begin="5" end="6" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="10" lcat="np" lemma="VN" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="VN" sense="VN" word="VN"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">René Stockmans uithaal naar de VN</sentence>
+  <comments>
+    <comment>Q#2|René Stockmans uithaal naar de VN|1|1|-1.0690656249400003</comment>
+  </comments>
+</alpino_ds>

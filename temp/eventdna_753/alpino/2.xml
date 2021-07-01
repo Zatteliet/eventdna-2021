@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="25" id="0" rel="top">
+    <node begin="0" cat="smain" end="24" id="1" rel="--">
+      <node begin="0" cat="np" end="6" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(de)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="De"/>
+        <node aform="base" begin="1" buiging="met-e" end="2" frame="adjective(e)" graad="basis" his="compound" his_1="2" id="4" infl="e" lcat="ap" lemma="christen_democratisch" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="christen_democratisch" sense="christen_democratisch" vform="adj" word="christendemocratische"/>
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="Duits" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="Duits" sense="Duits" vform="adj" word="Duitse"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="bondskanselier" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="bondskanselier" sense="bondskanselier" word="bondskanselier"/>
+        <node begin="4" cat="mwu" end="6" his="normal" his_1="names_dictionary" id="7" mwu_root="Angela Merkel" mwu_sense="Angela Merkel" rel="app">
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="8" lcat="np" lemma="Angela" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Angela" sense="Angela" spectype="deeleigen" word="Angela"/>
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" id="9" lcat="np" lemma="Merkel" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Merkel" sense="Merkel" spectype="deeleigen" word="Merkel"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg_heeft,subj_control(pass_te))" his="normal" his_1="normal" id="10" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="subj_control(pass_te)" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="7" end="8" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="zaterdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="zaterdag" sense="zaterdag" special="tmp" word="zaterdag"/>
+      <node begin="8" cat="ap" end="12" id="12" rel="mod">
+        <node begin="8" cat="mwu" end="11" his="normal" his_1="normal" id="13" mwu_root="voor het eerst" mwu_sense="voor het eerst" rel="mod">
+          <node aform="base" begin="8" end="9" frame="adjective(pred(adv))" id="14" infl="pred" lcat="ap" lemma="voor" pos="adj" postag="VZ(init)" pt="vz" rel="mwp" root="voor" sense="voor" vform="adj" vztype="init" word="voor"/>
+          <node aform="base" begin="9" end="10" frame="adjective(pred(adv))" id="15" infl="pred" lcat="ap" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="adj" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" vform="adj" word="het"/>
+          <node aform="base" begin="10" end="11" frame="adjective(pred(adv))" getal-n="zonder-n" id="16" infl="pred" lcat="ap" lemma="eerst" numtype="rang" pos="adj" positie="nom" postag="TW(rang,nom,zonder-n)" pt="tw" rel="mwp" root="eerst" sense="eerst" vform="adj" word="eerst"/>
+        </node>
+        <node aform="base" begin="11" buiging="zonder" end="12" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="17" infl="no_e" lcat="ap" lemma="officieel" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="hd" root="officieel" sense="officieel" vform="adj" word="officieel"/>
+      </node>
+      <node aform="base" begin="12" buiging="zonder" end="13" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="18" infl="no_e" lcat="ppart" lemma="aangekondigd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="mod" root="aangekondigd" sense="aangekondigd" vform="psp" word="aangekondigd" wvorm="vd"/>
+      <node begin="0" cat="ti" end="24" id="19" rel="vc">
+        <node begin="22" end="23" frame="complementizer(te)" his="normal" his_1="normal" id="20" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+        <node begin="0" cat="inf" end="24" id="21" rel="body">
+          <node begin="0" end="6" id="22" index="1" rel="su"/>
+          <node begin="13" end="14" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="compound" his_1="2" id="23" lcat="np" lemma="coalitie_gesprek" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="obj1" rnum="pl" root="coalitie_gesprek" sense="coalitie_gesprek" word="coalitiegesprekken"/>
+          <node begin="14" cat="pp" end="21" id="24" rel="pc">
+            <node begin="14" end="15" frame="preposition(met,[mee,[en,al]])" his="normal" his_1="normal" id="25" lcat="pp" lemma="met" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="met" sense="met" vztype="init" word="met"/>
+            <node begin="15" cat="conj" end="21" id="26" rel="obj1">
+              <node begin="15" cat="np" end="18" id="27" rel="cnj">
+                <node begin="15" end="16" frame="determiner(de)" his="normal" his_1="normal" id="28" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="16" buiging="met-e" end="17" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="29" infl="e" lcat="ap" lemma="liberaal" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="liberaal" sense="liberaal" vform="adj" word="liberale"/>
+                <node begin="17" end="18" frame="proper_name(sg,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="30" lcat="np" lemma="FDP" naamval="stan" neclass="ORG" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="FDP" sense="FDP" word="FDP"/>
+              </node>
+              <node begin="18" conjtype="neven" end="19" frame="conj(en)" his="normal" his_1="normal" id="31" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="en"/>
+              <node begin="19" cat="np" end="21" id="32" rel="cnj">
+                <node begin="19" end="20" frame="determiner(de)" his="normal" his_1="normal" id="33" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="20" end="21" frame="proper_name(both,'ORG')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="34" lcat="np" lemma="Groenen" naamval="stan" neclass="ORG" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="Groenen" sense="Groenen" word="Groenen"/>
+              </node>
+            </node>
+          </node>
+          <node begin="21" end="22" frame="particle(aan)" his="normal" his_1="normal" id="35" lcat="part" lemma="aan" pos="part" postag="VZ(fin)" pt="vz" rel="svp" root="aan" sense="aan" vztype="fin" word="aan"/>
+          <node begin="23" buiging="zonder" end="24" frame="verb(zijn,inf(no_e),part_np_pc_pp(aan,met))" his="normal" his_1="normal" id="36" infl="inf(no_e)" lcat="inf" lemma="aan_gaan" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="ga_aan" sc="part_np_pc_pp(aan,met)" sense="ga_aan-met" word="gaan" wvorm="inf"/>
+        </node>
+      </node>
+    </node>
+    <node begin="24" end="25" frame="punct(punt)" his="normal" his_1="normal" id="37" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">De christendemocratische Duitse bondskanselier Angela Merkel heeft zaterdag voor het eerst officieel aangekondigd coalitiegesprekken met de liberale FDP en de Groenen aan te gaan .</sentence>
+  <comments>
+    <comment>Q#2|De christendemocratische Duitse bondskanselier Angela Merkel heeft zaterdag voor het eerst officieel aangekondigd coalitiegesprekken met de liberale FDP en de Groenen aan te gaan .|1|1|-1.0408338288499959</comment>
+  </comments>
+</alpino_ds>

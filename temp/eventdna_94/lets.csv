@@ -1,0 +1,58 @@
+Milieuadviesraad	milieuadviesraad	N(soort,ev,basis,zijd,stan)	B-NP	O
+30	30	TW(hoofd,prenom,stan)	I-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+bres	bres	N(soort,ev,basis,zijd,stan)	I-NP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+natuur	natuur	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+Bilzerse	bilzers	ADJ(prenom,basis,met-e,stan)	I-NP	B-ORG
+Milieuadviesraad	milieuadviesraad	N(soort,ev,basis,zijd,stan)	I-NP	I-ORG
+Alebi	Alebi	N(eigen,ev,basis,zijd,stan)	I-NP	I-ORG
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+30	30	TW(hoofd,prenom,stan)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+jong	jong	ADJ(vrij,basis,zonder)	B-AP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,det)	B-NP	O
+jubileum	jubileum	N(soort,ev,basis,onz,stan)	I-NP	O
+werd	worden	WW(pv,verl,ev)	B-VP	O
+midden	midden	BW()	B-NP	O
+november	november	N(eigen,ev,basis,zijd,stan)	I-NP	O
+gevierd	vieren	WW(vd,vrij,zonder)	B-VP	O
+met	met	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+feestelijke	feestelijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+bijeenkomst	bijeenkomst	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+zaal	zaal	N(soort,ev,basis,zijd,stan)	B-NP	O
+Concordia	Concordia	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				
+In	in	VZ(init)	B-PP	O
+die	die	VNW(aanw,det)	B-NP	O
+drie	drie	TW(hoofd,prenom,stan)	I-NP	O
+decennia	decennium	N(soort,mv,basis)	I-NP	O
+kende	kennen	WW(pv,verl,ev)	B-VP	O
+de	de	LID(bep)	B-NP	O
+raad	raad	N(soort,ev,basis,zijd,stan)	I-NP	O
+evenveel	evenveel	TW(hoofd,prenom,stan)	I-NP	O
+voorzitters	voorzitter	N(soort,mv,basis)	I-NP	O
+.	.	LET()	O	O
+				
+Voor	voor	VZ(init)	B-PP	O
+elk	elk	VNW(onbep,det)	B-NP	O
+van	van	VZ(init)	B-PP	O
+hen	hen	VNW(pers,pron,3p,mv)	B-NP	O
+is	zijn	WW(pv,tgw,ev)	B-VP	O
+het	het	LID(bep)	B-NP	O
+milieu	milieu	N(soort,ev,basis,onz,stan)	I-NP	O
+een	een	LID(onbep)	B-NP	O
+levenslange	levenslang	ADJ(prenom,basis,met-e,stan)	I-NP	O
+passie	passie	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				

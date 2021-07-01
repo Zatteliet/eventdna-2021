@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="18" id="0" rel="top">
+    <node begin="8" end="9" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="18" id="2" rel="--">
+      <node begin="0" cat="np" end="11" id="3" rel="su">
+        <node begin="0" end="1" frame="modal_adverb(adv_noun_prep)" his="normal" his_1="decap" his_1_1="normal" id="4" lcat="advp" lemma="bijna" pos="adv" postag="BW()" pt="bw" rel="mod" root="bijna" sc="adv_noun_prep" sense="bijna" word="Bijna"/>
+        <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="5" infl="pl_num" lcat="detp" lemma="100" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="100" sense="100" special="hoofd" word="100"/>
+        <node begin="2" end="3" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="compound" his_1="hyphen" id="6" lcat="np" lemma="Ryanair_vlucht" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="Ryanair_vlucht" sense="Ryanair_vlucht" word="Ryanair-vluchten"/>
+        <node begin="3" cat="pp" end="5" id="7" rel="mod">
+          <node begin="3" end="4" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="8" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="4" end="5" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="9" lcat="np" lemma="Charleroi" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Charleroi" sense="Charleroi" word="Charleroi"/>
+        </node>
+        <node begin="5" cat="ppart" end="8" id="10" rel="mod">
+          <node aform="base" begin="5" buiging="zonder" end="6" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="11" infl="no_e" lcat="ppart" lemma="geannuleerd" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="geannuleerd" sense="geannuleerd" vform="psp" word="geannuleerd" wvorm="vd"/>
+          <node begin="6" cat="pp" end="8" id="12" rel="mod">
+            <node begin="6" end="7" frame="preposition(door,[heen])" his="normal" his_1="normal" id="13" lcat="pp" lemma="door" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="door" sense="door" vztype="init" word="door"/>
+            <node begin="7" end="8" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="staking" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="staking" sense="staking" word="staking"/>
+          </node>
+        </node>
+        <node begin="9" cat="np" end="11" id="15" rel="app">
+          <node aform="base" begin="9" buiging="met-e" end="10" frame="adjective(ge_e)" his="normal" his_1="normal" id="16" infl="e" lcat="ppart" lemma="gedupeerd" pos="adj" positie="prenom" postag="WW(vd,prenom,met-e)" pt="ww" rel="mod" root="gedupeerd" sense="gedupeerd" vform="psp" word="gedupeerde" wvorm="vd"/>
+          <node begin="10" end="11" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="klant" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="klant" sense="klant" word="klanten"/>
+        </node>
+      </node>
+      <node begin="11" end="12" frame="verb(hebben,pl,fixed([{[acc(recht),pc(tot)]}],no_passive))" his="normal" his_1="normal" id="18" infl="pl" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="heb" sc="fixed([{[acc(recht),pc(tot)]}],no_passive)" sense="recht-heb-tot" stype="declarative" tense="present" word="hebben" wvorm="pv"/>
+      <node begin="12" cat="np" end="15" id="19" rel="obj1">
+        <node begin="12" end="13" frame="noun(het,both,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="recht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="recht" sense="recht" word="recht"/>
+        <node begin="13" cat="pp" end="15" id="21" rel="mod">
+          <node begin="13" end="14" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="22" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+          <node begin="14" end="15" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="23" lcat="np" lemma="compensatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="compensatie" sense="compensatie" word="compensatie"/>
+        </node>
+      </node>
+      <node begin="15" cat="pp" end="18" id="24" rel="pc">
+        <node begin="15" end="16" frame="preposition(tot,[toe,[aan,toe]])" his="normal" his_1="normal" id="25" lcat="pp" lemma="tot" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="tot" sense="tot" vztype="init" word="tot"/>
+        <node begin="16" cat="np" end="18" id="26" rel="obj1">
+          <node begin="16" end="17" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="27" infl="pl_num" lcat="detp" lemma="600" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="600" sense="600" special="hoofd" word="600"/>
+          <node begin="17" end="18" frame="meas_mod_noun(de,count,bare_meas)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="28" lcat="np" lemma="euro" naamval="stan" ntype="soort" num="bare_meas" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="pl" root="euro" sense="euro" special="meas_mod" word="euro"/>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Bijna 100 Ryanair-vluchten op Charleroi geannuleerd door staking , gedupeerde klanten hebben recht op compensatie tot 600 euro</sentence>
+  <comments>
+    <comment>Q#1|Bijna 100 Ryanair-vluchten op Charleroi geannuleerd door staking , gedupeerde klanten hebben recht op compensatie tot 600 euro|1|1|1.5782049026400071</comment>
+  </comments>
+</alpino_ds>

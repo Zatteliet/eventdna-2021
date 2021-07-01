@@ -1,0 +1,42 @@
+Trump	trump	N(soort,ev,basis,zijd,stan)	B-NP	O
+voorgedragen	voordragen	WW(vd,vrij,zonder)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+Nobelprijs	Nobelprijs	SPEC(deeleigen)	B-NP	B-PRO
+Vrede	Vrede	SPEC(deeleigen)	I-NP	I-PRO
+				
+Washington	Washington	N(eigen,ev,basis,onz,stan)	B-NP	B-LOC
+				
+Een	een	LID(onbep)	B-NP	O
+groep	groep	N(soort,ev,basis,zijd,stan)	I-NP	O
+Republikeinen	republikein	N(soort,mv,basis)	I-NP	B-MISC
+van	van	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+Amerikaanse	Amerikaans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Congres	congres	N(soort,ev,basis,onz,stan)	I-NP	B-ORG
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+hun	hun	VNW(bez,det,3,mv)	B-NP	O
+partijgenoot	partijgenoot	N(soort,ev,basis,zijd,stan)	I-NP	O
+en	en	VG(neven)	O	O
+president	president	N(soort,ev,basis,zijd,stan)	B-NP	O
+Donald	Donald	SPEC(deeleigen)	I-NP	B-PER
+Trump	Trump	SPEC(deeleigen)	I-NP	I-PER
+officieel	officieel	ADJ(vrij,basis,zonder)	I-NP	O
+voorgedragen	voordragen	WW(vd,vrij,zonder)	B-VP	O
+voor	voor	VZ(init)	B-PP	O
+de	de	LID(bep)	B-NP	O
+Nobelprijs	Nobelprijs	N(eigen,ev,basis,zijd,stan)	I-NP	B-PRO
+voor	voor	VZ(init)	B-PP	I-PRO
+de	de	LID(bep)	B-NP	I-PRO
+Vrede	vrede	N(soort,ev,basis,zijd,stan)	I-NP	I-PRO
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+conservatieve	conservatief	ADJ(prenom,basis,met-e,stan)	I-NP	O
+zender	zender	N(soort,ev,basis,zijd,stan)	I-NP	O
+Fox	Fox	SPEC(deeleigen)	I-NP	B-PER
+News	News	SPEC(deeleigen)	I-NP	I-PER
+gemeld	melden	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

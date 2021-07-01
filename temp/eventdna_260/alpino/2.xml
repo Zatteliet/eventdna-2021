@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="9" id="0" rel="top">
+    <node begin="3" end="4" frame="punct(ligg_streep)" his="normal" his_1="normal" id="1" lcat="punct" lemma="-" pos="punct" postag="LET()" pt="let" rel="--" root="-" sense="-" special="ligg_streep" word="-"/>
+    <node begin="0" cat="du" end="9" id="2" rel="--">
+      <node begin="0" cat="conj" end="3" id="3" rel="dp">
+        <node begin="0" end="1" frame="noun(het,mass,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="special" his_1="decap" his_1_1="normal" id="4" lcat="np" lemma="slag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="cnj" rnum="sg" root="slag" sense="slag" word="SLAG"/>
+        <node begin="1" conjtype="neven" end="2" frame="conj(en)" his="special" his_1="decap" his_1_1="normal" id="5" lcat="vg" lemma="en" pos="vg" postag="VG(neven)" pt="vg" rel="crd" root="en" sense="en" word="EN"/>
+        <node begin="2" end="3" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="special" his_1="decap" his_1_1="normal" id="6" lcat="np" lemma="terugslag" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="cnj" rnum="sg" root="terugslag" sense="terugslag" word="TERUGSLAG"/>
+      </node>
+      <node begin="4" cat="du" end="9" id="7" rel="dp">
+        <node begin="4" cat="np" end="8" id="8" rel="dp">
+          <node aform="base" begin="4" buiging="zonder" end="5" frame="adjective(both(nonadv))" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="9" infl="both" lcat="ap" lemma="voormalig" pos="adj" positie="prenom" postag="ADJ(prenom,basis,zonder)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="Voormalig"/>
+          <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="hyphen" id="10" lcat="np" lemma="pro-Poetin_betoger" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="pro-Poetin_betoger" sense="pro-Poetin_betoger" word="pro-Poetin-betoger"/>
+          <node begin="6" cat="pp" end="8" id="11" rel="mod">
+            <node begin="6" end="7" frame="preposition(in,[])" his="normal" his_1="normal" id="12" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+            <node begin="7" case="dat_acc" def="def" end="8" frame="pronoun(nwh,thi,pl,de,dat_acc,def)" gen="de" getal="mv" his="normal" his_1="normal" id="13" lcat="np" lemma="elkaar" naamval="obl" num="pl" pdtype="pron" per="thi" persoon="persoon" pos="pron" postag="VNW(recip,pron,obl,vol,persoon,mv)" pt="vnw" rel="obj1" rnum="pl" root="elkaar" sense="elkaar" status="vol" vwtype="recip" wh="nwh" word="elkaar"/>
+          </node>
+        </node>
+        <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(ge_no_e(adv))" his="normal" his_1="normal" id="14" infl="no_e" lcat="ppart" lemma="gemept" pos="adj" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="dp" root="gemept" sense="gemept" vform="psp" word="gemept" wvorm="vd"/>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="2">SLAG EN TERUGSLAG - Voormalig pro-Poetin-betoger in elkaar gemept</sentence>
+  <comments>
+    <comment>Q#2|SLAG EN TERUGSLAG - Voormalig pro-Poetin-betoger in elkaar gemept|1|1|7.0877231623</comment>
+  </comments>
+</alpino_ds>

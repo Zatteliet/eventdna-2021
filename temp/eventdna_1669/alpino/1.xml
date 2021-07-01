@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="12" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="4" id="2" rel="su">
+        <node begin="0" cat="detp" end="3" id="3" rel="det">
+          <node begin="0" cat="mwu" end="2" his="normal" his_1="decap" his_1_1="normal" id="4" mwu_root="meer dan" mwu_sense="meer dan" rel="mod">
+            <node begin="0" buiging="zonder" end="1" frame="pre_num_adv(both)" graad="comp" id="5" infl="both" lcat="advp" lemma="meer" naamval="stan" pdtype="grad" pos="det" positie="vrij" postag="VNW(onbep,grad,stan,vrij,zonder,comp)" pt="vnw" rel="mwp" root="meer" sense="meer" special="pre_num_adv" vwtype="onbep" word="Meer"/>
+            <node begin="1" conjtype="onder" end="2" frame="pre_num_adv(both)" id="6" infl="both" lcat="advp" lemma="dan" pos="det" postag="VG(onder)" pt="vg" rel="mwp" root="dan" sense="dan" special="pre_num_adv" word="dan"/>
+          </node>
+          <node begin="2" end="3" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="7" infl="pl_num" lcat="detp" lemma="200" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="hd" root="200" sense="200" special="hoofd" word="200"/>
+        </node>
+        <node begin="3" end="4" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="mens" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="mens" sense="mens" word="mensen"/>
+      </node>
+      <node begin="4" end="5" frame="verb(hebben,pl,np_np)" his="normal" his_1="normal" id="9" infl="pl" lcat="smain" lemma="geven" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="geef" sc="np_np" sense="geef" stype="declarative" tense="present" word="geven" wvorm="pv"/>
+      <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="10" mwu_root="Theo Francken" mwu_sense="Theo Francken" rel="obj2">
+        <node begin="5" end="6" frame="proper_name(both,'PER')" id="11" lcat="np" lemma="Theo" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Theo" sense="Theo" spectype="deeleigen" word="Theo"/>
+        <node begin="6" end="7" frame="proper_name(both,'PER')" id="12" lcat="np" lemma="Francken" neclass="PER" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Francken" sense="Francken" spectype="deeleigen" word="Francken"/>
+      </node>
+      <node begin="7" cat="np" end="12" id="13" rel="obj1">
+        <node begin="7" end="8" frame="noun(het,count,sg,vp)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="14" lcat="np" lemma="bevel" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="bevel" sc="vp" sense="bevel" word="bevel"/>
+        <node begin="8" cat="oti" end="12" id="15" rel="vc">
+          <node begin="8" end="9" frame="complementizer(om)" his="normal" his_1="normal" id="16" lcat="oti" lemma="om" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="om" sc="om" sense="om" vztype="init" word="om"/>
+          <node begin="9" cat="ti" end="12" id="17" rel="body">
+            <node begin="10" end="11" frame="complementizer(te)" his="normal" his_1="normal" id="18" lcat="ti" lemma="te" pos="comp" postag="VZ(init)" pt="vz" rel="cmp" root="te" sc="te" sense="te" vztype="init" word="te"/>
+            <node begin="9" cat="inf" end="12" id="19" rel="body">
+              <node begin="9" end="10" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="20" lcat="np" lemma="regering" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="obj1" rnum="sg" root="regering" sense="regering" word="regering"/>
+              <node begin="11" buiging="zonder" end="12" frame="verb(hebben,inf,transitive)" his="normal" his_1="normal" id="21" infl="inf" lcat="inf" lemma="verlaten" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="verlaat" sc="transitive" sense="verlaat" word="verlaten" wvorm="inf"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <sentence sentid="1">Meer dan 200 mensen geven Theo Francken bevel om regering te verlaten</sentence>
+  <comments>
+    <comment>Q#1|Meer dan 200 mensen geven Theo Francken bevel om regering te verlaten|1|1|-5.949583853310001</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="22" id="0" rel="top">
+    <node begin="11" end="12" frame="punct(komma)" his="normal" his_1="normal" id="1" lcat="punct" lemma="," pos="punct" postag="LET()" pt="let" rel="--" root="," sense="," special="komma" word=","/>
+    <node begin="0" cat="smain" end="21" id="2" rel="--">
+      <node begin="12" end="13" frame="verb(unacc,pl,passive)" his="normal" his_1="normal" id="3" infl="pl" lcat="smain" lemma="zijn" pos="verb" postag="WW(pv,tgw,mv)" pt="ww" pvagr="mv" pvtijd="tgw" rel="hd" root="ben" sc="passive" sense="ben" stype="declarative" tense="present" word="zijn" wvorm="pv"/>
+      <node begin="14" cat="np" end="17" id="4" index="1" rel="su">
+        <node begin="14" end="15" frame="modal_adverb(noun_prep)" his="normal" his_1="normal" id="5" lcat="advp" lemma="ongeveer" pos="adv" postag="BW()" pt="bw" rel="mod" root="ongeveer" sc="noun_prep" sense="ongeveer" word="ongeveer"/>
+        <node begin="15" end="16" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="6" infl="pl_num" lcat="detp" lemma="dertig" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="dertig" sense="dertig" special="hoofd" word="dertig"/>
+        <node begin="16" end="17" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="7" lcat="np" lemma="kandidaat" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="kandidaat" sense="kandidaat" word="kandidaten"/>
+      </node>
+      <node begin="0" cat="ppart" end="21" id="8" rel="vc">
+        <node begin="0" cat="pp" end="11" id="9" rel="mod">
+          <node begin="0" cat="np" end="3" id="10" rel="mod">
+            <node begin="0" buiging="zonder" end="1" frame="modal_adverb" graad="basis" his="normal" his_1="decap" his_1_1="normal" id="11" lcat="advp" lemma="ruim" pos="adv" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="ruim" sc="modal" sense="ruim" word="Ruim"/>
+            <node begin="1" end="2" frame="number(hoofd(pl_num))" his="normal" his_1="normal" id="12" infl="pl_num" lcat="detp" lemma="drie" naamval="stan" numtype="hoofd" pos="num" positie="prenom" postag="TW(hoofd,prenom,stan)" pt="tw" rel="det" root="drie" sense="drie" special="hoofd" word="drie"/>
+            <node begin="2" end="3" frame="tmp_noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="13" lcat="np" lemma="maand" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="maand" sense="maand" special="tmp" word="maanden"/>
+          </node>
+          <node begin="3" end="4" frame="preposition(voor,[aan,door,uit,[in,de,plaats]])" his="normal" his_1="normal" id="14" lcat="pp" lemma="voor" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="voor" sense="voor" vztype="init" word="voor"/>
+          <node begin="4" cat="np" end="11" id="15" rel="obj1">
+            <node begin="4" end="5" frame="determiner(de)" his="normal" his_1="normal" id="16" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="5" end="6" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="start" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="start" sense="start" word="start"/>
+            <node begin="6" cat="pp" end="11" id="18" rel="mod">
+              <node begin="6" end="7" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="19" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+              <node begin="7" cat="np" end="11" id="20" rel="obj1">
+                <node begin="7" end="8" frame="determiner(de)" his="normal" his_1="normal" id="21" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="8" end="9" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="22" lcat="np" lemma="verkiezing" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="verkiezing" sense="verkiezing" word="verkiezingen"/>
+                <node begin="9" cat="pp" end="11" id="23" rel="mod">
+                  <node begin="9" end="10" frame="preposition(in,[])" his="normal" his_1="normal" id="24" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+                  <node begin="10" end="11" frame="proper_name(sg,'LOC')" genus="onz" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="25" lcat="np" lemma="Mexico" naamval="stan" neclass="LOC" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="obj1" rnum="sg" root="Mexico" sense="Mexico" word="Mexico"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node begin="13" end="14" frame="adverb" his="normal" his_1="normal" id="26" lcat="advp" lemma="al" pos="adv" postag="BW()" pt="bw" rel="mod" root="al" sense="al" word="al"/>
+        <node begin="14" end="17" id="27" index="1" rel="obj1"/>
+        <node begin="17" cat="mwu" end="20" his="normal" his_1="normal" id="28" mwu_root="om het leven" mwu_sense="om het leven" rel="svp">
+          <node begin="17" end="18" frame="fixed_part([om,het,leven])" id="29" lcat="fixed" lemma="om" pos="fixed" postag="VZ(init)" pt="vz" rel="mwp" root="om" sense="om" vztype="init" word="om"/>
+          <node begin="18" end="19" frame="fixed_part([om,het,leven])" id="30" lcat="fixed" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="fixed" postag="LID(bep,stan,evon)" pt="lid" rel="mwp" root="het" sense="het" word="het"/>
+          <node begin="19" end="20" frame="fixed_part([om,het,leven])" genus="onz" getal="ev" graad="basis" id="31" lcat="fixed" lemma="leven" naamval="stan" ntype="soort" pos="fixed" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="mwp" root="leven" sense="leven" word="leven"/>
+        </node>
+        <node begin="20" buiging="zonder" end="21" frame="verb(hebben,psp,fixed([[om,het,leven],acc],norm_passive))" his="normal" his_1="normal" id="32" infl="psp" lcat="ppart" lemma="brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng" sc="fixed([[om,het,leven],acc],norm_passive)" sense="om-het-leven-breng" word="gebracht" wvorm="vd"/>
+      </node>
+    </node>
+    <node begin="21" end="22" frame="punct(punt)" his="normal" his_1="normal" id="33" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Ruim drie maanden voor de start van de verkiezingen in Mexico , zijn al ongeveer dertig kandidaten om het leven gebracht .</sentence>
+  <comments>
+    <comment>Q#2|Ruim drie maanden voor de start van de verkiezingen in Mexico , zijn al ongeveer dertig kandidaten om het leven gebracht .|1|1|-8.868039058390004</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,50 @@
+Macron	Macron	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+trekt	trekken	WW(pv,tgw,met-t)	B-VP	O
+ten	te	VZ(versm)	B-NP	O
+strijde	strijd	N(soort,ev,basis,dat)	I-NP	O
+tegen	tegen	VZ(init)	O	O
+fake	fake	SPEC(vreemd)	O	O
+news	news	SPEC(vreemd)	O	O
+				
+De	de	LID(bep)	B-NP	O
+Franse	Frans	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+regering	regering	N(soort,ev,basis,zijd,stan)	I-NP	O
+zal	zullen	WW(pv,tgw,ev)	B-VP	O
+'	'	LET()	O	O
+allicht	allicht	BW()	B-ADVP	O
+voor	voor	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+jaareinde	jaareinde	N(soort,ev,basis,onz,stan)	I-NP	O
+'	'	LET()	O	O
+een	een	LID(onbep)	B-NP	O
+wetsontwerp	wetsontwerp	N(soort,ev,basis,onz,stan)	I-NP	O
+tegen	tegen	VZ(init)	B-PP	O
+het	het	LID(bep)	B-NP	O
+verspreiden	verspreiden	WW(inf,nom,zonder,zonder-n)	I-NP	O
+van	van	VZ(init)	O	O
+fake	fake	SPEC(vreemd)	O	O
+news	news	SPEC(vreemd)	O	O
+in	in	VZ(init)	B-PP	O
+verkiezingstijden	verkiezingstijd	N(soort,mv,basis)	B-NP	O
+presenteren	presenteren	WW(inf,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				
+Dat	dat	VNW(aanw,pron,3o,ev)	B-NP	O
+heeft	hebben	WW(pv,tgw,met-t)	B-VP	O
+regeringswoordvoerder	regeringswoordvoerder	N(soort,ev,basis,zijd,stan)	B-NP	O
+Benjamin	Benjamin	SPEC(deeleigen)	I-NP	B-PER
+Griveaux	Griveaux	SPEC(deeleigen)	I-NP	I-PER
+toegelicht	toelichten	WW(vd,vrij,zonder)	B-VP	O
+op	op	VZ(init)	B-PP	O
+nieuwszender	nieuwszender	N(soort,ev,basis,zijd,stan)	B-NP	O
+BFMTV	BFMTV	N(eigen,ev,basis,zijd,stan)	I-NP	B-LOC
+.	.	LET()	O	O
+				
+Rechters	rechter	N(soort,mv,basis)	B-NP	O
+zouden	zullen	WW(pv,verl,mv)	B-VP	O
+daardoor	daardoor	BW()	B-ADVP	O
+inhoudelijk	inhoudelijk	ADJ(vrij,basis,zonder)	B-AP	O
+kunnen	kunnen	WW(inf,vrij,zonder)	B-VP	O
+ingrijpen	ingrijpen	WW(inf,vrij,zonder)	I-VP	O
+.	.	LET()	O	O
+				

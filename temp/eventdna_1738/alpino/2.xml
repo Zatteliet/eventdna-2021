@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="13" id="0" rel="top">
+    <node begin="0" cat="smain" end="12" id="1" rel="--">
+      <node begin="0" cat="np" end="7" id="2" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="number(rang)" his="normal" his_1="normal" id="4" lcat="ap" lemma="eerste" naamval="stan" numtype="rang" pos="num" positie="prenom" postag="TW(rang,prenom,stan)" pt="tw" rel="mod" root="eerste" sense="eerste" special="rang" word="eerste"/>
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="5" infl="e" lcat="ap" lemma="officieel" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="officieel" sense="officieel" vform="adj" word="officiële"/>
+        <node begin="3" end="4" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="6" lcat="np" lemma="slachtoffer" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="slachtoffer" sense="slachtoffer" word="slachtoffer"/>
+        <node begin="4" cat="pp" end="7" id="7" rel="mod">
+          <node begin="4" end="5" frame="preposition(van,[af,uit,vandaan,[af,aan]])" his="normal" his_1="normal" id="8" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="van" sense="van" vztype="init" word="van"/>
+          <node begin="5" cat="mwu" end="7" his="name" his_1="not_begin" id="9" mwu_root="Lab X" mwu_sense="Lab X" rel="obj1">
+            <node begin="5" end="6" frame="proper_name(sg,'PER')" id="10" lcat="np" lemma="Lab" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Lab" sense="Lab" spectype="deeleigen" word="Lab"/>
+            <node begin="6" end="7" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="X" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="X" sense="X" spectype="deeleigen" word="X"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" end="8" frame="verb(unacc,sg3,ld_pp)" his="normal" his_1="normal" id="12" infl="sg3" lcat="smain" lemma="vallen" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="val" sc="ld_pp" sense="val" stype="declarative" tense="present" word="valt" wvorm="pv"/>
+      <node begin="8" cat="pp" end="12" id="13" rel="ld">
+        <node begin="8" end="9" frame="preposition(op,[af,na])" his="normal" his_1="normal" id="14" lcat="pp" lemma="op" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="op" sense="op" vztype="init" word="op"/>
+        <node begin="9" cat="mwu" end="12" his="normal" his_1="date_expression" id="15" mwu_root="6 augustus 1925" mwu_sense="6 augustus 1925" rel="obj1">
+          <node begin="9" end="10" frame="tmp_np" id="16" lcat="np" lemma="6" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="6" sense="6" special="tmp" word="6"/>
+          <node begin="10" end="11" frame="tmp_np" genus="zijd" getal="ev" graad="basis" id="17" lcat="np" lemma="augustus" naamval="stan" ntype="eigen" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mwp" rnum="sg" root="augustus" sense="augustus" special="tmp" word="augustus"/>
+          <node begin="11" end="12" frame="tmp_np" id="18" lcat="np" lemma="1925" numtype="hoofd" pos="noun" positie="vrij" postag="TW(hoofd,vrij)" pt="tw" rel="mwp" rnum="sg" root="1925" sense="1925" special="tmp" word="1925"/>
+        </node>
+      </node>
+    </node>
+    <node begin="12" end="13" frame="punct(punt)" his="normal" his_1="normal" id="19" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Het eerste officiële slachtoffer van Lab X valt op 6 augustus 1925 .</sentence>
+  <comments>
+    <comment>Q#2|Het eerste officiële slachtoffer van Lab X valt op 6 augustus 1925 .|1|1|-2.685592946800003</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="29" id="0" rel="top">
+    <node begin="16" end="17" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="1" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="20" end="21" frame="punct(aanhaal_both)" his="normal" his_1="normal" id="2" lcat="punct" lemma="&apos;" pos="punct" postag="LET()" pt="let" rel="--" root="&apos;" sense="&apos;" special="aanhaal_both" word="&apos;"/>
+    <node begin="0" cat="smain" end="28" id="3" rel="--">
+      <node begin="0" cat="np" end="6" id="4" rel="su">
+        <node begin="0" cat="mwu" end="2" his="normal" his_1="gen" his_1_1="names_dictionary" id="5" mwu_root="Donald Trump" mwu_sense="Donald Trump" rel="det">
+          <node begin="0" end="1" frame="name_determiner(pron,'PER')" id="6" infl="pron" lcat="detp" lemma="Donald" neclass="PER" pos="det" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Donald" sense="Donald" special="name" spectype="deeleigen" word="Donald"/>
+          <node begin="1" end="2" frame="name_determiner(pron,'PER')" getal="ev" graad="basis" id="7" infl="pron" lcat="detp" lemma="Trump" naamval="gen" neclass="PER" ntype="eigen" pos="det" postag="N(eigen,ev,basis,gen)" pt="n" rel="mwp" root="Trump" sense="Trump" special="name" word="Trumps"/>
+        </node>
+        <node aform="base" begin="2" buiging="met-e" end="3" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="8" infl="e" lcat="ap" lemma="voormalig" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="voormalig" sense="voormalig" vform="adj" word="voormalige"/>
+        <node begin="3" end="4" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="compound" his_1="2" id="9" lcat="np" lemma="top_adviseur" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="top_adviseur" sense="top_adviseur" word="topadviseur"/>
+        <node begin="4" cat="mwu" end="6" his="name" his_1="not_begin" id="10" mwu_root="Steve Bannon" mwu_sense="Steve Bannon" rel="app">
+          <node begin="4" end="5" frame="proper_name(sg,'PER')" id="11" lcat="np" lemma="Steve" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Steve" sense="Steve" spectype="deeleigen" word="Steve"/>
+          <node begin="5" end="6" frame="proper_name(sg,'PER')" id="12" lcat="np" lemma="Bannon" neclass="PER" num="sg" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" rnum="sg" root="Bannon" sense="Bannon" spectype="deeleigen" word="Bannon"/>
+        </node>
+      </node>
+      <node begin="6" end="7" frame="verb(hebben,sg3,aci)" his="normal" his_1="normal" id="13" infl="sg3" lcat="smain" lemma="vinden" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="vind" sc="aci" sense="vind" stype="declarative" tense="present" word="vindt" wvorm="pv"/>
+      <node aform="base" begin="8" buiging="zonder" end="9" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="14" infl="no_e" lcat="ap" lemma="spijtig" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="spijtig" sense="spijtig" vform="adj" word="spijtig"/>
+      <node begin="9" cat="np" end="11" id="15" index="1" rel="obj1">
+        <node begin="9" buiging="zonder" end="10" frame="determiner(pron)" getal="ev" his="normal" his_1="normal" id="16" infl="pron" lcat="detp" lemma="zijn" naamval="stan" npagr="agr" pdtype="det" persoon="3" pos="det" positie="prenom" postag="VNW(bez,det,stan,vol,3,ev,prenom,zonder,agr)" pron="true" pt="vnw" rel="det" root="zijn" sense="zijn" status="vol" vwtype="bez" word="zijn"/>
+        <node begin="10" end="11" frame="noun(both,count,pl)" gen="both" getal="mv" graad="basis" his="normal" his_1="normal" id="17" lcat="np" lemma="getuigenis" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="getuigenis" sense="getuigenis" word="getuigenissen"/>
+      </node>
+      <node begin="11" cat="pp" end="20" id="18" rel="mod">
+        <node begin="11" end="12" frame="preposition(in,[])" his="normal" his_1="normal" id="19" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+        <node begin="12" cat="np" end="20" id="20" rel="obj1">
+          <node begin="12" end="13" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="normal" id="21" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="het"/>
+          <node begin="13" cat="ppart" end="15" id="22" rel="mod">
+            <node begin="13" end="14" frame="adverb" his="normal" his_1="normal" id="23" lcat="advp" lemma="pas" pos="adv" postag="BW()" pt="bw" rel="mod" root="pas" sense="pas" word="pas"/>
+            <node aform="base" begin="14" buiging="zonder" end="15" frame="adjective(ge_both(adv))" his="normal" his_1="normal" id="24" infl="both" lcat="ppart" lemma="verschenen" pos="adj" positie="prenom" postag="WW(vd,prenom,zonder)" pt="ww" rel="hd" root="verschenen" sense="verschenen" vform="psp" word="verschenen" wvorm="vd"/>
+          </node>
+          <node begin="15" end="16" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="25" lcat="np" lemma="boek" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="boek" sense="boek" word="boek"/>
+          <node begin="17" cat="mwu" end="20" his="name" his_1="begin" id="26" mwu_root="Fire and Fury" mwu_sense="Fire and Fury" rel="app">
+            <node begin="17" end="18" frame="proper_name(both)" id="27" lcat="np" lemma="Fire" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Fire" sense="Fire" spectype="deeleigen" word="Fire"/>
+            <node begin="18" end="19" frame="proper_name(both)" id="28" lcat="np" lemma="and" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="and" sense="and" spectype="deeleigen" word="and"/>
+            <node begin="19" end="20" frame="proper_name(both)" id="29" lcat="np" lemma="Fury" neclass="MISC" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Fury" sense="Fury" spectype="deeleigen" word="Fury"/>
+          </node>
+        </node>
+      </node>
+      <node begin="7" cat="inf" end="28" id="30" rel="vc">
+        <node begin="9" end="11" id="31" index="1" rel="su"/>
+        <node begin="26" buiging="zonder" end="27" frame="verb(hebben,inf,aux_psp_hebben)" his="normal" his_1="normal" id="32" infl="inf" lcat="inf" lemma="hebben" pos="verb" positie="vrij" postag="WW(inf,vrij,zonder)" pt="ww" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" word="hebben" wvorm="inf"/>
+        <node begin="7" cat="ppart" end="28" id="33" rel="vc">
+          <node begin="7" end="8" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" genus="onz" getal="ev" his="normal" his_1="normal" id="34" infl="het" lcat="np" lemma="het" naamval="stan" pdtype="pron" persoon="3" pos="det" postag="VNW(pers,pron,stan,red,3,ev,onz)" pt="vnw" rel="obj2" rnum="sg" root="het" sense="het" status="red" vwtype="pers" wh="nwh" word="het"/>
+          <node begin="9" end="11" id="35" index="1" rel="su"/>
+          <node begin="21" cat="np" end="26" id="36" rel="obj1">
+            <node begin="21" end="22" frame="determiner(de)" his="normal" his_1="normal" id="37" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="22" end="23" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="38" lcat="np" lemma="president" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="president" sense="president" word="president"/>
+            <node begin="23" cat="pp" end="26" id="39" rel="mod">
+              <node begin="23" end="24" frame="preposition(in,[])" his="normal" his_1="normal" id="40" lcat="pp" lemma="in" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="in" sense="in" vztype="init" word="in"/>
+              <node begin="24" cat="np" end="26" id="41" rel="obj1">
+                <node begin="24" end="25" frame="determiner(de)" his="normal" his_1="normal" id="42" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node begin="25" end="26" frame="noun(het,count,pl)" gen="het" getal="mv" graad="basis" his="normal" his_1="normal" id="43" lcat="np" lemma="probleem" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="probleem" sense="probleem" word="problemen"/>
+              </node>
+            </node>
+          </node>
+          <node begin="27" buiging="zonder" end="28" frame="verb(hebben,psp,np_np)" his="normal" his_1="normal" id="44" infl="psp" lcat="ppart" lemma="brengen" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="breng" sc="np_np" sense="breng" word="gebracht" wvorm="vd"/>
+        </node>
+      </node>
+    </node>
+    <node begin="28" end="29" frame="punct(punt)" his="normal" his_1="normal" id="45" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Donald Trumps voormalige topadviseur Steve Bannon vindt het spijtig zijn getuigenissen in het pas verschenen boek &apos; Fire and Fury &apos; de president in de problemen hebben gebracht .</sentence>
+  <comments>
+    <comment>Q#2|Donald Trumps voormalige topadviseur Steve Bannon vindt het spijtig zijn getuigenissen in het pas verschenen boek &apos; Fire and Fury &apos; de president in de problemen hebben gebracht .|1|1|-2.4435787247999876</comment>
+  </comments>
+</alpino_ds>

@@ -1,0 +1,64 @@
+Tien	tien	TW(hoofd,prenom,stan)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+afzien	afzien	WW(inf,vrij,zonder)	B-VP	O
+na	na	VZ(init)	B-PP	O
+medische	medisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+blunder	blunder	N(soort,ev,basis,zijd,stan)	I-NP	O
+				
+Collega	collega	N(soort,ev,basis,zijd,stan)	B-NP	O
+leerkracht	leerkracht	N(soort,ev,basis,zijd,stan)	I-NP	O
+schrijft	schrijven	WW(pv,tgw,met-t)	B-VP	O
+boek	boek	N(soort,ev,basis,onz,stan)	B-NP	O
+over	over	VZ(init)	B-PP	O
+Pedrouchka	Pedrouchka	N(eigen,ev,basis,zijd,stan)	B-NP	B-PER
+,	,	LET()	O	O
+die	die	VNW(betr,pron,persoon,getal)	B-NP	O
+aan	aan	VZ(init)	B-PP	O
+chronische	chronisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+zenuwpijn	zenuwpijn	N(soort,ev,basis,zijd,stan)	I-NP	O
+lijdt	lijden	WW(pv,tgw,met-t)	B-VP	O
+				
+Na	na	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+fout	fout	N(soort,ev,basis,zijd,stan)	I-NP	O
+gelopen	lopen	WW(vd,vrij,zonder)	B-VP	O
+medische	medisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+ingreep	ingreep	N(soort,ev,basis,zijd,stan)	I-NP	O
+kampt	kampen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+Dadizeelse	dadizeels	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+Pedrouchka	Pedrouchka	SPEC(deeleigen)	I-NP	B-PER
+Samyn	Samyn	SPEC(deeleigen)	I-NP	I-PER
+al	al	BW()	B-ADVP	O
+meer	veel	VNW(onbep,grad,comp)	I-ADVP	O
+dan	dan	VG(onder)	I-ADVP	O
+tien	tien	TW(hoofd,prenom,stan)	B-NP	O
+jaar	jaar	N(soort,ev,basis,onz,stan)	I-NP	O
+met	met	VZ(init)	B-PP	O
+chronische	chronisch	ADJ(prenom,basis,met-e,stan)	B-NP	O
+pijn	pijn	N(soort,ev,basis,zijd,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Ze	ze	VNW(pers,pron,3,ev,fem)	B-NP	O
+schreef	schrijven	WW(pv,verl,ev)	B-VP	O
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+ervaringen	ervaring	N(soort,mv,basis)	I-NP	O
+op	op	VZ(fin)	O	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+dagboek	dagboek	N(soort,ev,basis,onz,stan)	I-NP	O
+.	.	LET()	O	O
+				
+Die	die	VNW(aanw,det)	B-NP	O
+dagboekfragmenten	dagboekfragment	N(soort,mv,basis)	I-NP	O
+werden	worden	WW(pv,verl,mv)	B-VP	O
+nu	nu	BW()	B-ADVP	O
+door	door	VZ(init)	B-PP	O
+haar	haar	VNW(bez,det,3,ev)	B-NP	O
+collega	collega	N(soort,ev,basis,zijd,stan)	I-NP	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+boek	boek	N(soort,ev,basis,onz,stan)	I-NP	O
+gegoten	gieten	WW(vd,vrij,zonder)	B-VP	O
+.	.	LET()	O	O
+				

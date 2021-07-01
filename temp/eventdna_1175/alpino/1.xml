@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="6" id="0" rel="top">
+    <node begin="0" cat="sv1" end="5" id="1" rel="--">
+      <node begin="0" end="1" frame="verb(unacc,sg_heeft,part_intransitive(weg))" his="normal" his_1="decap" his_1_1="normal" id="2" infl="sg_heeft" lcat="sv1" lemma="weg_zijn" pos="verb" postag="WW(pv,tgw,ev)" pt="ww" pvagr="ev" pvtijd="tgw" rel="hd" root="ben_weg" sc="part_intransitive(weg)" sense="ben_weg" stype="ynquestion" tense="present" word="Is" wvorm="pv"/>
+      <node begin="1" end="2" frame="proper_name(sg,'PER')" genus="zijd" getal="ev" graad="basis" his="normal" his_1="names_dictionary" id="3" lcat="np" lemma="Kabila" naamval="stan" neclass="PER" ntype="eigen" num="sg" pos="name" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="su" rnum="sg" root="Kabila" sense="Kabila" word="Kabila"/>
+      <node begin="2" end="3" frame="tmp_adverb" his="normal" his_1="normal" id="4" lcat="advp" lemma="straks" pos="adv" postag="BW()" pt="bw" rel="mod" root="straks" sense="straks" special="tmp" word="straks"/>
+      <node aform="base" begin="3" buiging="zonder" end="4" frame="adjective(no_e(adv))" graad="basis" his="normal" his_1="normal" id="5" infl="no_e" lcat="ap" lemma="echt" pos="adj" positie="vrij" postag="ADJ(vrij,basis,zonder)" pt="adj" rel="mod" root="echt" sense="echt" vform="adj" word="echt"/>
+      <node begin="4" end="5" frame="particle(weg)" his="normal" his_1="normal" id="6" lcat="part" lemma="weg" pos="part" postag="BW()" pt="bw" rel="svp" root="weg" sense="weg" word="weg"/>
+    </node>
+    <node begin="5" end="6" frame="punct(vraag)" his="normal" his_1="normal" id="7" lcat="punct" lemma="?" pos="punct" postag="LET()" pt="let" rel="--" root="?" sense="?" special="vraag" word="?"/>
+  </node>
+  <sentence sentid="1">Is Kabila straks echt weg ?</sentence>
+  <comments>
+    <comment>Q#1|Is Kabila straks echt weg ?|1|1|-3.3668539512799995</comment>
+  </comments>
+</alpino_ds>

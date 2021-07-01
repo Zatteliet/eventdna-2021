@@ -1,0 +1,35 @@
+Chinese	Chinees	ADJ(prenom,basis,met-e,stan)	B-NP	B-LOC
+monnik	monnik	N(soort,ev,basis,zijd,stan)	I-NP	O
+beschuldigd	beschuldigen	WW(vd,vrij,zonder)	B-VP	O
+van	van	VZ(init)	B-PP	O
+verkrachten	verkracht	N(soort,mv,basis)	B-NP	O
+nonnen	non	N(soort,mv,basis)	I-NP	O
+				
+De	de	LID(bep)	B-NP	O
+invloedrijke	invloedrijk	ADJ(prenom,basis,met-e,stan)	I-NP	O
+Chinese	Chinees	ADJ(prenom,basis,met-e,stan)	I-NP	B-LOC
+monnik	monnik	N(soort,ev,basis,zijd,stan)	I-NP	O
+Xuecheng	Xuecheng	N(eigen,ev,basis,zijd,stan)	I-NP	B-PER
+ontkent	ontkennen	WW(pv,tgw,met-t)	B-VP	O
+de	de	LID(bep)	B-NP	O
+beschuldiging	beschuldiging	N(soort,ev,basis,zijd,stan)	I-NP	O
+dat	dat	VG(onder)	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	B-NP	O
+meerdere	meerdere	VNW(onbep,det)	I-NP	O
+vrouwen	vrouw	N(soort,mv,basis)	I-NP	O
+verkrachtte	verkrachten	WW(pv,verl,ev)	B-VP	O
+nadat	nadat	VG(onder)	O	O
+hij	hij	VNW(pers,pron,3,ev,masc)	O	O
+hen	hen	VNW(pers,pron,3p,mv)	O	O
+zou	zullen	WW(pv,verl,ev)	B-VP	O
+hebben	hebben	WW(inf,vrij,zonder)	I-VP	O
+betoverd	betoveren	WW(vd,vrij,zonder)	I-VP	O
+,	,	LET()	O	O
+zoals	zoals	VG(onder)	O	O
+in	in	VZ(init)	B-PP	O
+een	een	LID(onbep)	B-NP	O
+gelekt	lekken	WW(vd,prenom,zonder)	I-NP	O
+rapport	rapport	N(soort,ev,basis,onz,stan)	I-NP	O
+staat	staan	WW(pv,tgw,met-t)	B-VP	O
+.	.	LET()	O	O
+				

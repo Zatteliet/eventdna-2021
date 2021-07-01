@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alpino_ds version="1.6">
+  <parser cats="1" skips="0" />
+  <node begin="0" cat="top" end="20" id="0" rel="top">
+    <node begin="0" cat="smain" end="19" id="1" rel="--">
+      <node begin="0" cat="np" end="2" id="2" index="1" rel="su">
+        <node begin="0" end="1" frame="determiner(het,nwh,nmod,pro,nparg,wkpro)" his="normal" his_1="decap" his_1_1="normal" id="3" infl="het" lcat="detp" lemma="het" lwtype="bep" naamval="stan" npagr="evon" pos="det" postag="LID(bep,stan,evon)" pt="lid" rel="det" root="het" sense="het" wh="nwh" word="Het"/>
+        <node begin="1" end="2" frame="noun(het,count,sg)" gen="het" genus="onz" getal="ev" graad="basis" his="normal" his_1="normal" id="4" lcat="np" lemma="gerecht" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="gerecht" sense="gerecht" word="gerecht"/>
+      </node>
+      <node begin="2" end="3" frame="verb(hebben,sg_heeft,aux_psp_hebben)" his="normal" his_1="normal" id="5" infl="sg_heeft" lcat="smain" lemma="hebben" pos="verb" postag="WW(pv,tgw,met-t)" pt="ww" pvagr="met-t" pvtijd="tgw" rel="hd" root="heb" sc="aux_psp_hebben" sense="heb" stype="declarative" tense="present" word="heeft" wvorm="pv"/>
+      <node begin="0" cat="ppart" end="19" id="6" rel="vc">
+        <node begin="0" end="2" id="7" index="1" rel="su"/>
+        <node begin="3" end="4" frame="tmp_noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="8" lcat="np" lemma="vrijdag" naamval="stan" ntype="eigen" num="sg" pos="noun" postag="N(eigen,ev,basis,zijd,stan)" pt="n" rel="mod" rnum="sg" root="vrijdag" sense="vrijdag" special="tmp" word="vrijdag"/>
+        <node begin="4" cat="np" end="6" id="9" rel="obj1">
+          <node begin="4" buiging="met-e" end="5" frame="determiner(pl_num,nwh,nmod,pro,yparg)" his="normal" his_1="normal" id="10" infl="pl_num" lcat="detp" lemma="meerdere" naamval="stan" npagr="mv" pdtype="det" pos="det" positie="prenom" postag="VNW(onbep,det,stan,prenom,met-e,mv)" pt="vnw" rel="det" root="meerdere" sense="meerdere" vwtype="onbep" wh="nwh" word="meerdere"/>
+          <node begin="5" end="6" frame="noun(de,count,pl)" gen="de" getal="mv" graad="basis" his="normal" his_1="normal" id="11" lcat="np" lemma="huiszoeking" ntype="soort" num="pl" pos="noun" postag="N(soort,mv,basis)" pt="n" rel="hd" rnum="pl" root="huiszoeking" sense="huiszoeking" word="huiszoekingen"/>
+        </node>
+        <node begin="6" buiging="zonder" end="7" frame="verb(hebben,psp,transitive)" his="normal" his_1="normal" id="12" infl="psp" lcat="ppart" lemma="verrichten" pos="verb" positie="vrij" postag="WW(vd,vrij,zonder)" pt="ww" rel="hd" root="verricht" sc="transitive" sense="verricht" word="verricht" wvorm="vd"/>
+        <node begin="7" cat="pp" end="19" id="13" rel="mod">
+          <node begin="7" cat="mwu" end="10" his="normal" his_1="normal" id="14" mwu_root="naar aanleiding van" mwu_sense="naar aanleiding van" rel="hd">
+            <node begin="7" end="8" frame="preposition([naar,aanleiding,van],[])" id="15" lcat="pp" lemma="naar" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="naar" sense="naar" vztype="init" word="naar"/>
+            <node begin="8" end="9" frame="preposition([naar,aanleiding,van],[])" genus="zijd" getal="ev" graad="basis" id="16" lcat="pp" lemma="aanleiding" naamval="stan" ntype="soort" pos="prep" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="mwp" root="aanleiding" sense="aanleiding" word="aanleiding"/>
+            <node begin="9" end="10" frame="preposition([naar,aanleiding,van],[])" id="17" lcat="pp" lemma="van" pos="prep" postag="VZ(init)" pt="vz" rel="mwp" root="van" sense="van" vztype="init" word="van"/>
+          </node>
+          <node begin="10" cat="np" end="19" id="18" rel="obj1">
+            <node begin="10" end="11" frame="determiner(de)" his="normal" his_1="normal" id="19" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+            <node begin="11" end="12" frame="proper_name(both,'LOC')" genus="onz" getal="ev" graad="basis" his="name" his_1="not_begin" id="20" lcat="np" lemma="VRT-televisiereportage" naamval="stan" neclass="LOC" ntype="eigen" num="both" pos="name" postag="N(eigen,ev,basis,onz,stan)" pt="n" rel="hd" rnum="sg" root="VRT-televisiereportage" sense="VRT-televisiereportage" word="VRT-televisiereportage"/>
+            <node begin="12" cat="pp" end="19" id="21" rel="mod">
+              <node begin="12" end="13" frame="preposition(over,[heen])" his="normal" his_1="normal" id="22" lcat="pp" lemma="over" pos="prep" postag="VZ(init)" pt="vz" rel="hd" root="over" sense="over" vztype="init" word="over"/>
+              <node begin="13" cat="np" end="19" id="23" rel="obj1">
+                <node begin="13" end="14" frame="determiner(de)" his="normal" his_1="normal" id="24" infl="de" lcat="detp" lemma="de" lwtype="bep" naamval="stan" npagr="rest" pos="det" postag="LID(bep,stan,rest)" pt="lid" rel="det" root="de" sense="de" word="de"/>
+                <node aform="base" begin="14" buiging="met-e" end="15" frame="adjective(e)" graad="basis" his="normal" his_1="normal" id="25" infl="e" lcat="ap" lemma="extreem_rechts" naamval="stan" pos="adj" positie="prenom" postag="ADJ(prenom,basis,met-e,stan)" pt="adj" rel="mod" root="extreem_rechts" sense="extreem_rechts" vform="adj" word="extreemrechtse"/>
+                <node begin="15" end="16" frame="noun(de,count,sg)" gen="de" genus="zijd" getal="ev" graad="basis" his="normal" his_1="normal" id="26" lcat="np" lemma="jongere_organisatie" naamval="stan" ntype="soort" num="sg" pos="noun" postag="N(soort,ev,basis,zijd,stan)" pt="n" rel="hd" rnum="sg" root="jongere_organisatie" sense="jongere_organisatie" word="jongerenorganisatie"/>
+                <node begin="16" cat="mwu" end="19" his="name" his_1="not_begin" id="27" mwu_root="Schild &amp; Vrienden" mwu_sense="Schild &amp; Vrienden" rel="app">
+                  <node begin="16" end="17" frame="proper_name(both,'ORG')" id="28" lcat="np" lemma="Schild" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Schild" sense="Schild" spectype="deeleigen" word="Schild"/>
+                  <node begin="17" end="18" frame="proper_name(both,'ORG')" id="29" lcat="np" lemma="&amp;" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="&amp;" sense="&amp;" spectype="deeleigen" word="&amp;"/>
+                  <node begin="18" end="19" frame="proper_name(both,'ORG')" id="30" lcat="np" lemma="Vrienden" neclass="ORG" num="both" pos="name" postag="SPEC(deeleigen)" pt="spec" rel="mwp" root="Vrienden" sense="Vrienden" spectype="deeleigen" word="Vrienden"/>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node begin="19" end="20" frame="punct(punt)" his="normal" his_1="normal" id="31" lcat="punct" lemma="." pos="punct" postag="LET()" pt="let" rel="--" root="." sense="." special="punt" word="."/>
+  </node>
+  <sentence sentid="2">Het gerecht heeft vrijdag meerdere huiszoekingen verricht naar aanleiding van de VRT-televisiereportage over de extreemrechtse jongerenorganisatie Schild &amp; Vrienden .</sentence>
+  <comments>
+    <comment>Q#2|Het gerecht heeft vrijdag meerdere huiszoekingen verricht naar aanleiding van de VRT-televisiereportage over de extreemrechtse jongerenorganisatie Schild &amp; Vrienden .|1|1|-7.595137330860004</comment>
+  </comments>
+</alpino_ds>
