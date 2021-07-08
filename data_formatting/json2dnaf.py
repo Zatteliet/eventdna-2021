@@ -9,6 +9,7 @@ from pprint import pprint
 from wasabi import msg
 
 from data_formatting.iptc_tree import iptc_handler
+# from iptc_tree import iptc_handler
 
 # def format_over_corpus(corpus_json_dirp, out_dirp, test=False):
 #     """Expects an input dir of json files. For each json, writes a corresponding dnaf file to `our_dirp`.

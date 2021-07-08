@@ -54,6 +54,7 @@ def transform(in_zip: Path, out_path: Path) -> None:
             except Exception as e:
                 msg.warn(f"Error processing file: <{webanno_json_file.name}>")
                 msg.text(e)
+                continue
 
             # Write out the resulting files and zip the archive.
             article_out_dir = temp_out_dir / current_id

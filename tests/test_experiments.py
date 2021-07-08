@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from experiments.prepare_data import Corpus
+from experiments.data_handler import Corpus
 
 
 def test_dataprepper():
-    case = Path("assets/eventdna_data/EventDNA_dnaf_corpus.zip")
+    case = Path("/mnt/c/Users/camie/OneDrive/LRE paper/data/EventDNA_dnaf_corpus.zip")
     out_dir = Path("tests/data/out")
 
     prepper = Corpus(case)

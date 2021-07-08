@@ -14,6 +14,15 @@ class Corpus:
         self.zip: Path = corpus_path
 
         msg.info(f"Extracting corpus...")
+
+        # temp_d = Path("temp/")
+        # if not temp_d.exists():
+        #     temp_d.mkdir()
+        # with ZipFile(self.zip) as z:
+        #     z.extractall(temp_d)
+        #     self.Xy = self._get_Xy(temp_d)
+        # util.clean_dir(temp_d)
+        
         with TemporaryDirectory() as d:
             with ZipFile(self.zip) as z:
                 z.extractall(d)
@@ -31,16 +40,25 @@ class Corpus:
         # An example is a dict with three keys: X, y and doc_id.
         Xy = []
 
+        # The data in data_dir is given in the form of documents.
+        # Transform these to the sentence level.
+        # TODO adapt logic to work on sentence level.
+
         msg.info("Featurizing data...")
         for doc_dir in Path(data_dir).iterdir():
             doc_id = doc_dir.stem
 
             # Extract X features.
-            X_instance: dict = featurize(
-                dnaf=doc_dir / "dnaf.json",
-                lets=doc_dir / "lets.csv",
-                alpino=doc_dir / "alpino",
-            )
+            try:
+                X_instance: dict = featurize(
+                    dnaf=doc_dir / "dnaf.json",
+                    lets=doc_dir / "lets.csv",
+                    alpino=doc_dir / "alpino",
+                )
+            except Exception as e:
+                msg.fail(f"Error on processing {doc_id}. Skipping...")
+                print(e)
+                continue
 
             # Extract y labels (IOB sequences).
             y_instance: dict = get_iob(dnaf=doc_dir / "dnaf.json")
