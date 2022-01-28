@@ -1,0 +1,2 @@
+class FeaturizationError(Exception):
+    pass

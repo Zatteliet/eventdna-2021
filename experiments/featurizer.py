@@ -1,160 +1,112 @@
-from pathlib import Path
-from collections import defaultdict
-import json
 import csv
-import xml.etree.ElementTree as ET
+import json
+from pathlib import Path
+
+from experiments.errors import FeaturizationError
 
 
-def featurize(dnaf: Path, lets: Path, alpino: Path):
-    """Featurize a DNAF document.
-    Returns a json-like with the form:
-    ```
-    [  # document
-        [  # sentence
-            tokens: [{feature: str}]
-        [
-    ]
-    ```
+def featurize(dnaf_path: Path, lets_path: Path):
+    """Featurize a DNAF document, using only LETS features.
+    The DNAF file is used to fetch sentence id codes, for later sanity checking against y labels.
+
+    Yield (`sent_id`, `sent_feats`) tuples, where each sentence in `sent_feats` is a list of token feature dictionaries.
     """
 
-    with open(dnaf) as j:
+    with open(dnaf_path) as j:
         dnaf = json.load(j)
 
-    # Get the sentence ids used in this doc. This is useful for many variable definitions down the road.
+    # Get the sentence ids used in this doc.
     sent_ids = [s_id for s_id in dnaf["doc"]["sentences"]]
-    # Little helper function to simply an id e.g. "sentence_1" to "1".
-    as_int = lambda sent_id: sent_id.split("_")[-1]
 
-    # Find the right alpino file for each sentence id.
-    sent_to_alpino = {}
-    for i in sent_ids:
-        filename = as_int(i) + ".xml"
-        sent_to_alpino[i] = alpino / filename
+    # Get the LETS features in this doc, sentence by sentence.
+    for sent_id, lets_sent in zip(sent_ids, get_sentences(lets_path)):
+        yield sent_id, list(featurize_lets_sentence(lets_sent))
 
-    # Read in the LETS rows.
-    with open(lets, newline="") as lets_in:
-        lets_reader = csv.reader(lets_in, delimiter="\t")
-        lets_rows = list(lets_reader)
 
-    # Get the LETS rows pertaining to each sentence.
-    sent_to_lets = defaultdict(list)
-    current_sent = 0
-    for row in lets_rows:
-        if len(row[0].strip()) == 0:
-            current_sent += 1
+def featurize_lets_sentence(rows):
+    for i, row in enumerate(rows):
+        previous = rows[i - 1] if i > 0 else None
+        next = rows[i + 1] if i < (len(rows) - 1) else None
+        yield featurize_lets_token(row, previous, next)
+
+
+def get_sentences(lets_path):
+    """Each row of a LETS csv file is a 5-tuple:
+        (token, lemma, POS, chunk_iob, named_ent_iob)
+    One file contains multiple sentences, separated by rows of five empty elements.
+
+    Read in `lets_path` and yield `(sentence_id, [row])` tuples.
+    """
+
+    def is_separator(row):
+        return len(row[0].strip()) == 0
+
+    with open(lets_path, newline="") as f:
+        rows = list(csv.reader(f, delimiter="\t"))
+
+    current_sent = []
+    for row in rows:
+        # Check wellformedness.
+        if not len(row) == 5:
+            m = f"{lets_path.stem}: LETS file badly formed. -> {row}"
+            raise FeaturizationError(m)
+
+        if is_separator(row):
+            yield current_sent
+            current_sent = []
         else:
-            sent_to_lets[sent_ids[current_sent]].append(row)
-
-    # Process each sentence.
-    featurized_doc = []
-    for sent_id, sent_dict in dnaf["doc"]["sentences"].items():
-        # read Alpino data for this sentence
-        alpino_tree = ET.parse(sent_to_alpino[sent_id])
-
-        sentence_feats = []
-        s_tokens = sent_dict["token_ids"]
-        for token_i_in_sent, _ in enumerate(s_tokens):
-            token_feats = {"sentence_index": as_int(sent_id)}
-
-            # get LETS features
-            token_feats.update(lets_features(lets_rows, token_i_in_sent))
-
-            # get Alpino features
-            token_feats.update(alpino_features(alpino_tree, token_i_in_sent))
-
-            sentence_feats.append(token_feats)
-        featurized_doc.append(sentence_feats)
-
-    return featurized_doc
+            current_sent.append(row)
 
 
-def alpino_features(alpino_tree, token_idx_in_sentence):
+# def alpino_features(alpino_tree, token_idx_in_sentence):
+#     """Return a dict of features for the given token."""
+#     # for testing
+#     return {}
+
+
+def featurize_lets_token(current, previous=None, next=None):
     """Return a dict of features for the given token."""
-    # for testing
-    return {"dummyFeature": "dummyValue"}
 
+    def get_features(row, prefix=None):
+        """Return a dict with the token features.
+        If `prefix` is True, all feature names are given this prefix.
+        """
+        token, lemma, pos, lets_chunk, lets_named_entity = row
+        f = {
+            "token": token,
+            "lemma": lemma,
+            "pos": pos,
+            "lets_chunk": lets_chunk,
+            "lets_named_entity": lets_named_entity,  # ! check if not the same as NE type, can be binary.
+            "token_all_lower": token.islower(),
+            "token[-3:]": token[-3:],
+            "token[-2:]": token[-2:],
+            "token_all_upper": token.isupper(),
+            "token_contains_upper": any(c.isupper() for c in token),
+            "token_isDigit": token.isdigit(),
+            "token_containsOnlyAlpha": all(c.isalpha() for c in token),
+            "token_capitalized": token.istitle(),
+            "postag_major_cat": pos.split("(")[0],
+            "chunk_major_cat": lets_chunk.split("-")[0],
+            "ne_type": lets_named_entity.split("-")[-1],
+        }
+        if prefix:
+            return {f"{prefix}{name}": val for name, val in f.items()}
+        return f
 
-def lets_features(sentence_rows, token_idx_in_sentence):
-    """Return a dict of features for the given token."""
-    # logger.debug("Processing token {}", token_idx_in_sentence)
+    features = get_features(current)
 
-    token, lemma, pos, lets_chunk, lets_named_entity = [
-        el.strip() for el in sentence_rows[token_idx_in_sentence]
-    ]
-
-    features = {
-        "token": token,
-        "lemma": lemma,
-        "pos": pos,
-        "lets_chunk": lets_chunk,
-        "lets_named_entity": lets_named_entity,  # ! check if not the same as NE type, can be binary.
-        "token_all_lower()": token.islower(),
-        "token[-3:]": token[-3:],
-        "token[-2:]": token[-2:],
-        "token_all_upper": token.isupper(),
-        "token_contains_upper": any(c.isupper() for c in token),
-        "token_isDigit": token.isdigit(),
-        "token_containsOnlyAlpha": all(c.isalpha() for c in token),
-        "token_capitalized": token.istitle(),
-        "postag_majorCategory": pos.split("(")[0],
-        "chunk_majorCategory": lets_chunk.split("-")[0],
-        "ne_type": lets_named_entity.split("-")[-1],
-    }
-
-    # in sentence with word before
-    if token_idx_in_sentence > 0:
-        prev_token, prev_lemma, prev_pos, prev_chunk, prev_ne = sentence_rows[
-            token_idx_in_sentence - 1
-        ]
-
-        features.update(
-            {
-                "-1:token": prev_token,
-                "-1:lemma": prev_lemma,
-                "-1:postag": prev_pos,
-                "-1:chunk": prev_chunk,
-                "-1:ne": prev_ne,
-                "-1:token_all_lower()": prev_token.islower(),
-                "-1:token[-3:]": prev_token[-3:],
-                "-1:token[-2:]": prev_token[-2:],
-                "-1:token_all_upper": prev_token.isupper(),
-                "-1:token_contains_upper": any(c.isupper() for c in prev_token),
-                "-1:token_isdigit": prev_token.isdigit(),
-                "-1:token_containsonlyalpha": all(c.isalpha() for c in prev_token),
-                "-1:token_capitalized": prev_token.istitle(),
-                "-1:postag_majorcategory": prev_pos.split("(")[0],
-                "-1:chunk_majorcategory": prev_chunk.split("-")[0],
-                "-1:ne_type": prev_ne.split("-")[-1],
-            }
-        )
-    else:  # beginning of sentence
+    # Features of the preceding token.
+    if previous:
+        features.update(get_features(previous, "prev_"))
+    # Add a beginning-of-sentence feature otherwise.
+    else:
         features["BOS"] = True
 
-    if token_idx_in_sentence < len(sentence_rows) - 1:  # in sentence with word after
-        next_token, next_lemma, next_pos, next_chunk, next_ne = sentence_rows[
-            token_idx_in_sentence + 1
-        ]
-
-        features.update(
-            {
-                "+1:token": next_token,
-                "+1:lemma": next_lemma,
-                "+1:postag": next_pos,
-                "+1:chunk": next_chunk,
-                "+1:ne": next_ne,
-                "+1:token_all_lower()": next_token.islower(),
-                "+1:token[-3:]": next_token[-3:],
-                "+1:token[-2:]": next_token[-2:],
-                "+1:token_all_upper": next_token.isupper(),
-                "+1:token_contains_upper": any(c.isupper() for c in next_token),
-                "+1:token_isdigit": next_token.isdigit(),
-                "+1:token_containsonlyalpha": all(c.isalpha() for c in next_token),
-                "+1:token_capitalized": next_token.istitle(),
-                "+1:postag_majorcategory": next_token.split("(")[0],
-                "+1:chunk_majorcategory": next_token.split("-")[0],
-                "+1:ne_type": next_token.split("-")[-1],
-            }
-        )
+    # Features of the following token.
+    if next:
+        features.update(get_features(next, "next_"))
+    # Add an end-of-sentence feature otherwise.
     else:
         features["EOS"] = True
 
