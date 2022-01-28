@@ -5,9 +5,8 @@ import joblib
 import typer
 from loguru import logger
 
-from experiments.corpus import Corpus
 from experiments.training.training import score_crossval, train_crossval
-
+from experiments.corpus import get_examples, check_extract, DATA_EXTRACTED, DATA_ZIPPED
 
 def main(
     out_dir: str,
@@ -47,13 +46,13 @@ def main(
     if not model_dir.exists():
         model_dir.mkdir()
 
-    # Process.
 
-    corpus = Corpus()
-    examples = list(corpus.examples())
+    # Prepare the X and y examples.
+    check_extract(DATA_ZIPPED, DATA_EXTRACTED)
+    examples = list(get_examples(DATA_EXTRACTED))
 
+    # Perform cross-validation training and score the results.
     cv = train_crossval(examples, cfg)
-
     fold_scores = []
     for id, model, score in cv:
         fold_scores.append(score)

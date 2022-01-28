@@ -1,7 +1,6 @@
 import json
 from collections import defaultdict
 from pathlib import Path
-from enum import Enum
 from typing import Optional
 
 
@@ -24,7 +23,7 @@ def get_iob_sequence(sent, event_ann: Optional[dict]):
     return iob
 
 
-def get_iob(dnaf_path: Path, main_events_only: bool, show: bool = False):
+def get_iob(dnaf_path: Path, main_events_only: bool):
     """Get the IOB representation of the events of a document.
     Yield (sent_id, iob_list) tuples.
     """
@@ -60,19 +59,3 @@ def get_iob(dnaf_path: Path, main_events_only: bool, show: bool = False):
             iob = get_iob_sequence(sent, target_ev)
 
         yield sent_id, iob
-
-    # ### for testing ###
-
-    # if show == True:
-    #     for s_id, iob_seq in sent_to_iob.items():
-    #         print("\n", s_id)
-    #         sent_toks = [
-    #             tok
-    #             for i, tok in enumerate(dnaf["doc"]["token_string"].split())
-    #             if i in dnaf["doc"]["sentences"][s_id]["token_ids"]
-    #         ]
-    #         print(sent_toks)
-    #         print(iob_seq)
-    #         print(list(zip(sent_toks, iob_seq)))
-
-    # return sent_to_iob
