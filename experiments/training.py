@@ -1,14 +1,14 @@
-from collections import defaultdict
+from dataclasses import dataclass
+from statistics import mean
 from typing import Iterable, List
 
-from sklearn_crfsuite import CRF
-from experiments.corpus import Example
 from loguru import logger
 from sklearn.model_selection import KFold
+from sklearn_crfsuite import CRF
+
+from experiments.corpus import Example
 from experiments.scoring import ScoreReport
-from experiments.util import merge_list, map_over_leaves
-from statistics import mean
-from dataclasses import dataclass
+from experiments.util import map_over_leaves, merge_list
 
 
 @dataclass

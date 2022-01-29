@@ -1,11 +1,10 @@
 from itertools import chain
-from typing import Callable, Iterable
+from typing import Iterable
 
 from sklearn.metrics import classification_report
+from sklearn_crfsuite import CRF
 
 from experiments.corpus import Example
-from dataclasses import dataclass
-from sklearn_crfsuite import CRF
 
 IOBSequence = list[str]
 
@@ -14,12 +13,11 @@ class ScoreReport:
     def __init__(self, dev_set: Iterable[Example], crf: CRF) -> None:
         y_gold, y_pred = predict_on(dev_set, crf)
 
-        self.iob = classification_report(
-            *iob_vectors(y_gold, y_pred), output_dict=True
-        )
-        self.events = classification_report(
-            *event_vectors(y_gold, y_pred), output_dict=True
-        )
+        iob_vs = iob_vectors(y_gold, y_pred)
+        self.iob = classification_report(*iob_vs, output_dict=True)
+
+        event_vs = event_vectors(y_gold, y_pred)
+        self.events = classification_report(*event_vs, output_dict=True)
 
 
 def iob_vectors(
