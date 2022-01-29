@@ -1,13 +1,23 @@
 from collections import defaultdict
 from typing import Iterable, List
 
-import sklearn_crfsuite
+from sklearn_crfsuite import CRF
 from experiments.corpus import Example
 from loguru import logger
 from sklearn.model_selection import KFold
-from experiments.scoring import score
+from experiments.scoring import ScoreReport
 from experiments.util import merge_list, map_over_leaves
 from statistics import mean
+from dataclasses import dataclass
+
+
+@dataclass
+class Fold:
+    id: int
+    train: Iterable[Example]
+    dev: Iterable[Example]
+    scores: ScoreReport = None
+    crf: CRF = None
 
 
 def make_folds(
@@ -19,28 +29,22 @@ def make_folds(
     kf = KFold(n_splits=n, shuffle=True)
 
     # `folds` is a list of tuples, where a tuple = 2 numpy arrays of indices representing train-test sets.
-    for train, test in kf.split(examples):
+    for i, (train, test) in enumerate(kf.split(examples)):
         # Convert np arrays to lists for ease of use.
         train = [examples[i] for i in train.tolist()]
         test = [examples[i] for i in test.tolist()]
-        yield train, test
+        yield Fold(i, train, test)
 
 
-def train_crossval(examples: List[Example], config):
+def train_crossval(folds: Iterable[Fold], max_iter, verbose) -> None:
     """Run crossvalidation training. Yield trained CRF models and their scores."""
-
-    # Split the data into folds.
-    folds = make_folds(examples, config["n_folds"])
-
-    # Train and score each fold.
-    for fold_id, (tr, dv) in enumerate(folds):
-        logger.info(f"Training fold {fold_id}")
-        crf = train(tr, dv, config["max_iter"], config["verbose"])
-        scores_pretty, scores_dict = score("iob", crf, dv)
-        yield fold_id, crf, scores_pretty, scores_dict
+    for fold in folds:
+        logger.info(f"Training fold {fold.id}")
+        fold.crf = train(fold.train, fold.dev, max_iter, verbose)
+        fold.scores = ScoreReport(fold.dev, fold.crf)
 
 
-def score_crossval(fold_score_dicts: Iterable[dict]):
+def average_scores(fold_score_dicts: Iterable[dict]):
     """Flatten and process the scores from crossval training."""
 
     merged = merge_list(fold_score_dicts)
@@ -74,7 +78,7 @@ def train(
 
     # Initialize CRf.
     # Docs & options = https://sklearn-crfsuite.readthedocs.io/en/latest/api.html#module-sklearn_crfsuite
-    crf = sklearn_crfsuite.CRF(verbose=verbose, max_iterations=max_iter)
+    crf = CRF(verbose=verbose, max_iterations=max_iter)
 
     # Fit a model.
     X_train, y_train = [ex.x for ex in train_set], [ex.y for ex in train_set]

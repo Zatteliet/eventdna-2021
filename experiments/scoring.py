@@ -1,66 +1,114 @@
-from typing import Iterable
-import sklearn.metrics as skl_metrics
-from sklearn.preprocessing import MultiLabelBinarizer, label_binarize
+from itertools import chain
+from typing import Callable, Iterable
+
+from sklearn.metrics import classification_report
+
 from experiments.corpus import Example
-from sklearn.metrics import DistanceMetric
-from scipy.spatial.distance import dice
+from dataclasses import dataclass
+from sklearn_crfsuite import CRF
 
 IOBSequence = list[str]
 
 
-def score_iob(
+class ScoreReport:
+    def __init__(self, dev_set: Iterable[Example], crf: CRF) -> None:
+        y_gold, y_pred = predict_on(dev_set, crf)
+
+        self.iob = classification_report(
+            *iob_vectors(y_gold, y_pred), output_dict=True
+        )
+        self.events = classification_report(
+            *event_vectors(y_gold, y_pred), output_dict=True
+        )
+
+
+def iob_vectors(
     y_gold: Iterable[IOBSequence], y_pred: Iterable[IOBSequence]
 ) -> dict:
-    """Score a `crf` model over `X_dev` against `y_dev`.
-
-    We use classification reports as provided by `sklearn.metrics`.
-
-    Return a scores dict.
-    """
-
-    def flatten(lists):
-        for l in lists:
-            for item in l:
-                yield item
-
-    gold_iob_tags: IOBSequence = list(flatten(y_gold))
-    pred_iob_tags: IOBSequence = list(flatten(y_pred))
-
-    # # Transform the data to SKLearn's preference.
-    # # https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MultiLabelBinarizer.html
-    # targets = ["I", "O", "B"]
-    # mlb = MultiLabelBinarizer(classes=targets)
-    # y_gold = mlb.fit_transform(y_gold)
-    # y_pred = mlb.fit_transform(y_pred)
-
-    # Collect various scores and return them.
-    dict_report = skl_metrics.classification_report(
-        gold_iob_tags, pred_iob_tags, output_dict=True
-    )
-
-    pretty_report = skl_metrics.classification_report(
-        gold_iob_tags, pred_iob_tags, output_dict=False
-    )
-
-    return pretty_report, dict_report
+    gold_iob_tags: IOBSequence = list(chain.from_iterable(y_gold))
+    pred_iob_tags: IOBSequence = list(chain.from_iterable(y_pred))
+    return gold_iob_tags, pred_iob_tags
 
 
-def score_event_matches(
+def event_vectors(
     y_gold: Iterable[IOBSequence], y_pred: Iterable[IOBSequence]
 ):
-    """Score events according to a Dice-based metric."""
+    def collect_outcomes():
+        for gold_sent, pred_sent in zip(y_gold, y_pred):
+            gold_events = list(get_events(gold_sent))
+            pred_events = list(get_events(pred_sent))
+            for outcome in match_between(gold_events, pred_events):
+                yield outcome
 
-    def match(set1, set2):
-        return dice(set1, set2) > 0.8
+    outcomes = list(collect_outcomes())
 
-    def score_sentence(gold: IOBSequence, pred: IOBSequence):
-        pass
+    # Sanity check. We expect all types of outcomes to occur.
+    assert set(outcomes) == {"TP", "TN", "FP", "FN"}, collect_outcomes
 
-    pass
+    gold_vector, pred_vector = [], []
+    for outcome in outcomes:
+        if outcome == "TP":
+            gold_vector.append(1)
+            pred_vector.append(1)
+        if outcome == "TN":
+            gold_vector.append(0)
+            pred_vector.append(0)
+        if outcome == "FP":
+            gold_vector.append(0)
+            pred_vector.append(1)
+        if outcome == "FN":
+            gold_vector.append(1)
+            pred_vector.append(0)
+
+    return gold_vector, pred_vector
+
+
+def dice_fuzzy_match(set1, set2):
+    def dice_coef(items1, items2) -> float:
+        if len(items1) + len(items2) == 0:
+            return 0
+        intersect = set(items1).intersection(set(items2))
+        return 2.0 * len(intersect) / (len(items1) + len(items2))
+
+    return dice_coef(set1, set2) > 0.8
+
+
+def match_between(gold_events: Iterable[set], pred_events: Iterable[set]):
+    """Yield strings indication a True Positive, etc. score.
+
+    Note that this function support matching multiple events in a sentence, though current experimental setting only counts on one event per sentence.
+    """
+    if not pred_events:
+        if gold_events:
+            yield "FN"
+        elif not gold_events:
+            yield "TN"
+    elif pred_events:
+        for p in pred_events:
+            if not gold_events:
+                yield "FP"
+            elif gold_events:
+                if any(dice_fuzzy_match(p, g) for g in gold_events):
+                    yield "TP"
+
+    # if gold_events and pred_events:
+    #     for g in gold_events:
+    #         for p in pred_events:
+    #             if dice_fuzzy_match(g, p):
+    #                 yield "TP"
+    #             else:
+    #                 yield "FN"
+    # elif gold_events and not pred_events:
+    #     yield "FN"
+    # elif not gold_events and pred_events:
+    #     yield "FP"
+    # elif not gold_events and not pred_events:
+    #     yield "TN"
 
 
 def get_events(sent: IOBSequence):
-    assert set(tag for tag in sent) == {"I", "O", "B"}
+    assert len(sent) > 0, sent
+    assert all(tag in {"I", "O", "B"} for tag in sent), sent
     current_event = set()
     for i, iob_tag in enumerate(sent):
         if iob_tag in {"I", "B"}:
@@ -71,17 +119,9 @@ def get_events(sent: IOBSequence):
                 current_event = set()
 
 
-METHODS = {"iob": score_iob, "event_spans": score_event_matches}
-
-
-def score(method: str, crf, dev_set: Iterable[Example]):
-    method = METHODS[method]
-
-    X, y_gold = [ex.x for ex in dev_set], [ex.y for ex in dev_set]
-    y_pred = crf.predict(X)
-
-    # Sanity check.
-    for g, p in zip(y_gold, y_pred):
-        assert len(g) == len(p)
-
-    return method(y_gold, y_pred)
+def predict_on(
+    examples: Iterable[Example], crf: CRF
+) -> tuple[Iterable[IOBSequence], Iterable[IOBSequence]]:
+    x, y_gold = [ex.x for ex in examples], [ex.y for ex in examples]
+    y_pred = crf.predict(x)
+    return y_gold, y_pred

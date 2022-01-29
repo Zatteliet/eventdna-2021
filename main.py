@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+from typing import Iterable
 
 import joblib
 import typer
@@ -11,7 +12,12 @@ from experiments.corpus import (
     check_extract,
     get_examples,
 )
-from experiments.training import score_crossval, train_crossval
+from experiments.training import (
+    Fold,
+    average_scores,
+    make_folds,
+    train_crossval,
+)
 
 
 def main(
@@ -40,9 +46,10 @@ def main(
     # Setup directories.
 
     out_dir = Path(out_dir)
-    scores_dir = out_dir / "scores"
+    iob_scores_dir = out_dir / "scores_iob"
+    event_scores_dir = out_dir / "scores_event_spans"
     model_dir = out_dir / "models"
-    for p in [out_dir, scores_dir, model_dir]:
+    for p in [out_dir, iob_scores_dir, event_scores_dir, model_dir]:
         setup(p)
 
     # Prepare the X and y examples.
@@ -50,19 +57,32 @@ def main(
     examples = list(get_examples(DATA_EXTRACTED))
     logger.info(f"Training with {len(examples)} training examples.")
 
-    # Perform cross-validation training and score the results.
-    cv = train_crossval(examples, cfg)
-    fold_scores = []
-    for id, model, pretty_report, dict_report in cv:
-        fold_scores.append(dict_report)
-        with open(scores_dir / f"scores_{id}.txt", "w") as f:
-            f.write(pretty_report)
-        joblib.dump(model, model_dir / f"model_{id}.pkl")
+    folds: Iterable[Fold] = list(make_folds(examples, cfg["n_folds"]))
+    # Perform cross-validation training.
+    train_crossval(folds, max_iter=cfg["max_iter"], verbose=cfg["verbose"])
 
-    logger.info("Computing overall scores...")
-    overall_score = score_crossval(fold_scores)
-    with open(scores_dir / f"overall_scores.json", "w") as f:
-        json.dump(overall_score, f, sort_keys=True, indent=4)
+    # Dump the models.
+    for fold in folds:
+        joblib.dump(fold.crf, model_dir / f"model_{fold.id}.pkl")
+
+    # Write out scores per fold and averaged.
+    def write(json_dict, path):
+        with open(path, "w") as f:
+            json.dump(json_dict, f, sort_keys=True, indent=4)
+
+    for fold in folds:
+        write(fold.scores.iob, iob_scores_dir / f"scores_{fold.id}.json")
+        write(fold.scores.events, event_scores_dir / f"scores_{fold.id}.json")
+
+    write(
+        average_scores([fold.scores.iob for fold in folds]),
+        iob_scores_dir / "averaged.json",
+    )
+
+    write(
+        average_scores([fold.scores.events for fold in folds]),
+        event_scores_dir / "averaged.json",
+    )
 
     logger.success(f"Done training, wrote models and scores to {out_dir}")
 
@@ -76,6 +96,7 @@ def setup(dir: Path):
         for item in dir.iterdir():
             if item.is_dir():
                 clean(item)
+                item.rmdir()
             else:
                 item.unlink()
 

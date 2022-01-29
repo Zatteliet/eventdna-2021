@@ -1,5 +1,5 @@
-from experiments.scoring import score_iob, get_events
-
+from experiments.scoring import match_between, iob_vectors, get_events
+from sklearn.metrics import classification_report
 
 def test_get_events():
     case = ["O", "B", "I", "I", "O", "O", "B", "I", "O", "O"]
@@ -20,6 +20,15 @@ def test_score_iob():
         ],
     }
 
-    pretty_report, dict_report = score_iob(case["gold"], case["pred"])
-    assert dict_report["O"]["precision"] == 1.0
-    print(pretty_report)
+    g, p = iob_vectors(case["gold"], case["pred"])
+    print(g, p)
+    report = classification_report(g, p, output_dict=True)
+
+    assert report["O"]["precision"] == 1.0
+    print(report)
+
+
+def test_match_between():
+    cases = [([{1}, {3, 4}], [{1}, {3, 4, 5}])]
+    for g, p in cases:
+        print(list(match_between(g, p)))
