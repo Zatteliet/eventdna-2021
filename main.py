@@ -22,15 +22,15 @@ from experiments.training import (
 
 def main(
     out_dir: str,
-    n_folds: int = None,
-    max_iter: int = None,
+    n_folds: int = 10,
+    max_iter: int = 500,
     verbose: bool = False,
     test: bool = False,
 ):
     """Run experiments, write out results to `out_dir`."""
 
     cfg = {
-        "n_folds": n_folds if n_folds else 10,
+        "n_folds": n_folds,
         "max_iter": max_iter,
         "verbose": verbose,
         "test": test,
@@ -57,7 +57,9 @@ def main(
     examples = list(get_examples(DATA_EXTRACTED))
     logger.info(f"Training with {len(examples)} training examples.")
 
+    # Initialize training folds.
     folds: Iterable[Fold] = list(make_folds(examples, cfg["n_folds"]))
+
     # Perform cross-validation training.
     train_crossval(folds, max_iter=cfg["max_iter"], verbose=cfg["verbose"])
 
@@ -71,16 +73,16 @@ def main(
             json.dump(json_dict, f, sort_keys=True, indent=4)
 
     for fold in folds:
-        write(fold.scores.iob, iob_scores_dir / f"scores_{fold.id}.json")
-        write(fold.scores.events, event_scores_dir / f"scores_{fold.id}.json")
+        write(fold.iob_scores, iob_scores_dir / f"scores_{fold.id}.json")
+        write(fold.event_scores, event_scores_dir / f"scores_{fold.id}.json")
 
     write(
-        average_scores([fold.scores.iob for fold in folds]),
+        average_scores([fold.iob_scores for fold in folds]),
         iob_scores_dir / "averaged.json",
     )
 
     write(
-        average_scores([fold.scores.events for fold in folds]),
+        average_scores([fold.event_scores for fold in folds]),
         event_scores_dir / "averaged.json",
     )
 

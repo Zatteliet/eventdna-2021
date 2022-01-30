@@ -1,5 +1,11 @@
 from typing import Callable, Iterable
 from copy import deepcopy
+from statistics import mean
+
+
+def merge_mean(ds: Iterable[dict]) -> dict:
+    d = merge_list(ds)
+    return map_over_leaves(d, mean)
 
 
 def merge_list(ds: Iterable[dict]) -> dict:
@@ -12,7 +18,7 @@ def merge_list(ds: Iterable[dict]) -> dict:
 
     # Check: all dictionaries should have the same keys.
     for other in ds[1:]:
-        assert set(first.keys()) == set(other.keys())
+        assert (a:= set(first.keys())) == (b:= set(other.keys())), f"{a} != {b}"
 
     for k, v in first.items():
         if isinstance(v, dict):

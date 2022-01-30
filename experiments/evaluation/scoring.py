@@ -11,7 +11,7 @@ IOBSequence = list[str]
 
 class ScoreReport:
     def __init__(self, dev_set: Iterable[Example], crf: CRF) -> None:
-        y_gold, y_pred = predict_on(dev_set, crf)
+        y_gold, y_pred = get_gold_pred(dev_set, crf)
 
         iob_vs = iob_vectors(y_gold, y_pred)
         self.iob = classification_report(*iob_vs, output_dict=True)
@@ -29,8 +29,11 @@ def iob_vectors(
 
 
 def event_vectors(
-    y_gold: Iterable[IOBSequence], y_pred: Iterable[IOBSequence]
+    y_gold: Iterable[IOBSequence], y_pred: Iterable[IOBSequence], head_v=None
 ):
+    """`head_v` is a binary vector mapping heads over the sentence tokens.
+    If it is `None`, vectors are computed over the entire token span of the event."""
+
     def collect_outcomes():
         for gold_sent, pred_sent in zip(y_gold, y_pred):
             gold_events = list(get_events(gold_sent))
@@ -61,18 +64,33 @@ def event_vectors(
     return gold_vector, pred_vector
 
 
-def dice_fuzzy_match(set1, set2):
+def match_events(event1, event2):
     def dice_coef(items1, items2) -> float:
         if len(items1) + len(items2) == 0:
             return 0
         intersect = set(items1).intersection(set(items2))
         return 2.0 * len(intersect) / (len(items1) + len(items2))
 
-    return dice_coef(set1, set2) > 0.8
+    def dice_fuzzy_match(set1, set2):
+        return dice_coef(set1, set2) > 0.8
+
+
+
+def get_events(sent: IOBSequence, head_v):
+    assert len(sent) > 0, sent
+    assert all(tag in {"I", "O", "B"} for tag in sent), sent
+    current_event = set()
+    for i, (iob_tag, head_tag) in enumerate(zip(sent, head_v)):
+        if iob_tag in {"I", "B"}:
+            current_event.update({i})
+        else:
+            if len(current_event) > 0:
+                yield current_event
+                current_event = set()
 
 
 def match_between(gold_events: Iterable[set], pred_events: Iterable[set]):
-    """Yield strings indication a True Positive, etc. score.
+    """Yield strings indicating a True Positive, etc. score.
 
     Note that this function support matching multiple events in a sentence, though current experimental setting only counts on one event per sentence.
     """
@@ -104,20 +122,7 @@ def match_between(gold_events: Iterable[set], pred_events: Iterable[set]):
     #     yield "TN"
 
 
-def get_events(sent: IOBSequence):
-    assert len(sent) > 0, sent
-    assert all(tag in {"I", "O", "B"} for tag in sent), sent
-    current_event = set()
-    for i, iob_tag in enumerate(sent):
-        if iob_tag in {"I", "B"}:
-            current_event.update({i})
-        else:
-            if len(current_event) > 0:
-                yield current_event
-                current_event = set()
-
-
-def predict_on(
+def get_gold_pred(
     examples: Iterable[Example], crf: CRF
 ) -> tuple[Iterable[IOBSequence], Iterable[IOBSequence]]:
     x, y_gold = [ex.x for ex in examples], [ex.y for ex in examples]

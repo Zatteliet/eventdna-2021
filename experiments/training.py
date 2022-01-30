@@ -7,7 +7,9 @@ from sklearn.model_selection import KFold
 from sklearn_crfsuite import CRF
 
 from experiments.corpus import Example
-from experiments.scoring import ScoreReport
+from experiments.evaluation import iob_level, event_level
+
+# from experiments.evaluation.scoring import ScoreReport
 from experiments.util import map_over_leaves, merge_list
 
 
@@ -16,7 +18,9 @@ class Fold:
     id: int
     train: Iterable[Example]
     dev: Iterable[Example]
-    scores: ScoreReport = None
+    iob_scores: dict = None
+    event_scores: dict = None
+    # scores: ScoreReport = None
     crf: CRF = None
 
 
@@ -26,7 +30,7 @@ def make_folds(
     """Separate `examples` in `n` sets of `(train, dev)` splits.
     Docs: https://scikit-learn.org/stable/modules/cross_validation.html#k-fold
     """
-    kf = KFold(n_splits=n, shuffle=True)
+    kf = KFold(n_splits=n, shuffle=True, random_state=42)
 
     # `folds` is a list of tuples, where a tuple = 2 numpy arrays of indices representing train-test sets.
     for i, (train, test) in enumerate(kf.split(examples)):
@@ -41,7 +45,9 @@ def train_crossval(folds: Iterable[Fold], max_iter, verbose) -> None:
     for fold in folds:
         logger.info(f"Training fold {fold.id}")
         fold.crf = train(fold.train, fold.dev, max_iter, verbose)
-        fold.scores = ScoreReport(fold.dev, fold.crf)
+
+        fold.iob_scores = iob_level.score_macro_average(fold.dev, fold.crf)
+        fold.event_scores = event_level.score_macro_average(fold.dev, fold.crf)
 
 
 def average_scores(fold_score_dicts: Iterable[dict]):

@@ -7,6 +7,7 @@ from loguru import logger
 from experiments.errors import FeaturizationError
 from experiments.featurizer import featurize
 from experiments.iob_fmt import get_iob
+from experiments.evaluation.alpino import AlpinoTree
 
 DATA_ZIPPED = Path("data/eventdna_corpus_2020-13-02.zip")
 DATA_EXTRACTED = DATA_ZIPPED.parent / "extracted"
@@ -17,6 +18,7 @@ class Example:
     id: str
     x: dict
     y: dict
+    alpino_tree: AlpinoTree
 
 
 def get_examples(data_dir):
@@ -24,36 +26,45 @@ def get_examples(data_dir):
     Every sentence in the corpus will become a training example.
     """
     logger.info("Featurizing data...")
-    for doc_id, dnaf_p, lets_p, _ in read_files(data_dir):
+    for doc_id, dnaf_p, lets_p, alpino_dir in read_files(data_dir):
         try:
-            examples = list(get_featurized_sents(doc_id, dnaf_p, lets_p))
+            examples = list(
+                get_featurized_sents(doc_id, dnaf_p, lets_p, alpino_dir)
+            )
         except FeaturizationError as e:
             logger.error(e)
         for example in examples:
             yield example
 
 
-def get_featurized_sents(doc_id: str, dnaf: Path, lets: Path):
+def get_featurized_sents(
+    doc_id: str, dnaf: Path, lets: Path, alpino_dir: Path
+):
     """Stream examples from a single document directory."""
 
     # Extract X and y features.
     x_sents = list(featurize(dnaf, lets))
     y_sents = list(get_iob(dnaf, main_events_only=True))
 
-    for (x_id, x), (y_id, y) in zip(x_sents, y_sents):
+    for (x_sent_id, x_sent), (y_sent_id, y_sent) in zip(x_sents, y_sents):
 
         # Check the correct sentences are matched.
-        if x_id != y_id:
+        if x_sent_id != y_sent_id:
             raise FeaturizationError("Sentence ids do not match.")
 
         # Check the n of tokens in each sentence is the same.
-        if not len(x) == len(y):
-            t = [d["token"] for d in x]
-            m = f"{doc_id}: number of tokens in x and y don't match.\n{t} != {y}"
+        if not len(x_sent) == len(y_sent):
+            t = [d["token"] for d in x_sent]
+            m = f"{doc_id}: number of tokens in x and y don't match.\n{t} != {y_sent}"
             raise FeaturizationError(m)
 
-        ex_id = f"{doc_id}_{x_id}"
-        yield Example(id=ex_id, x=x, y=y)
+        # Parse and attach the alpino tree.
+        sentence_number = x_sent_id.split("_")[-1]
+        alp = alpino_dir / f"{sentence_number}.xml"
+        tree = AlpinoTree(alpino_file=alp, restricted_mode=True)
+
+        ex_id = f"{doc_id}_{x_sent_id}"
+        yield Example(id=ex_id, x=x_sent, y=y_sent, alpino_tree=tree)
 
 
 def check_extract(zip: Path, target: Path):
