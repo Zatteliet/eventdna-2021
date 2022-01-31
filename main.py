@@ -52,10 +52,17 @@ def main(
     for p in [out_dir, iob_scores_dir, event_scores_dir, model_dir]:
         setup(p)
 
+    write(cfg, out_dir / "config.json")
+
     # Prepare the X and y examples.
     check_extract(DATA_ZIPPED, DATA_EXTRACTED)
     examples = list(get_examples(DATA_EXTRACTED))
     logger.info(f"Training with {len(examples)} training examples.")
+
+    _n_no_events = len([ex for ex in examples if set(ex.y) == {"O"}])
+    logger.info(
+        f"{_n_no_events} examples have no events. {len(examples) -_n_no_events} do."
+    )
 
     # Initialize training folds.
     folds: Iterable[Fold] = list(make_folds(examples, cfg["n_folds"]))
@@ -68,9 +75,6 @@ def main(
         joblib.dump(fold.crf, model_dir / f"model_{fold.id}.pkl")
 
     # Write out scores per fold and averaged.
-    def write(json_dict, path):
-        with open(path, "w") as f:
-            json.dump(json_dict, f, sort_keys=True, indent=4)
 
     for fold in folds:
         write(fold.iob_scores, iob_scores_dir / f"scores_{fold.id}.json")
@@ -107,6 +111,11 @@ def setup(dir: Path):
     else:
         logger.warning(f"Found existing data in {dir}. Erasing...")
         clean(dir)
+
+
+def write(json_dict, path):
+    with open(path, "w") as f:
+        json.dump(json_dict, f, sort_keys=True, indent=4)
 
 
 if __name__ == "__main__":

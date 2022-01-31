@@ -13,12 +13,13 @@ def merge_list(ds: Iterable[dict]) -> dict:
 
     Given two dictionaries with the same structure
     """
+
     result = {}
     first = ds[0]
 
-    # Check: all dictionaries should have the same keys.
-    for other in ds[1:]:
-        assert (a:= set(first.keys())) == (b:= set(other.keys())), f"{a} != {b}"
+    # # Check: all dictionaries should have the same keys.
+    # for other in ds[1:]:
+    #     assert (a:= set(first.keys())) == (b:= set(other.keys())), f"{a} != {b}"
 
     for k, v in first.items():
         if isinstance(v, dict):

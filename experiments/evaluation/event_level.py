@@ -37,16 +37,45 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
     return averaged
 
 
+def score_macro_average(examples: Iterable[Example], crf: CRF):
+    def f1_score(prec, rec):
+        return (2 * (prec * rec)) / (prec + rec)
+
+    predictions = crf.predict([ex.x for ex in examples])
+
+    scores = {FOUND: [], NOT_FOUND: []}
+    for example, prediction in zip(examples, predictions):
+
+        gold_events = list(get_events(example.y, example.alpino_tree))
+        pred_events = list(get_events(prediction, example.alpino_tree))
+
+        report = score(gold_events, pred_events)
+
+        if report.get(FOUND):
+            scores[FOUND].append(report[FOUND])
+        if report.get(NOT_FOUND):
+            scores[NOT_FOUND].append(report[NOT_FOUND])
+
+    for label in [FOUND, NOT_FOUND]:
+        scores[label] = merge_mean(scores[label])
+        p = scores[label]["precision"]
+        r = scores[label]["recall"]
+        scores[label]["f1-score"] = f1_score(p, r)
+
+    return scores
+
+
 def score(gold_events, pred_events):
     gold_vector, pred_vector = match_between(gold_events, pred_events)
     report = classification_report(
         gold_vector,
         pred_vector,
         output_dict=True,
-        zero_division=1,
-        labels=[FOUND, NOT_FOUND],
+        zero_division=0,
+        # labels=[FOUND, NOT_FOUND],
     )
-    return {FOUND: report[FOUND], NOT_FOUND: report[NOT_FOUND]}
+    return report
+    # return {FOUND: report[FOUND], NOT_FOUND: report[NOT_FOUND]}
 
 
 def match_between(gold_events: list[Event], pred_events: list[Event]) -> list:
