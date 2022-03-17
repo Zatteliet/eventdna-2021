@@ -8,6 +8,11 @@ from experiments.util import merge_mean
 from experiments.evaluation.alpino import AlpinoTree
 from dataclasses import dataclass
 
+from loguru import logger
+
+
+logger.add("log.log", level="TRACE", format="{message}", mode="w")
+
 
 FOUND = "Found"
 NOT_FOUND = "Not found"
@@ -19,22 +24,28 @@ class Event:
     heads: set[int]
 
 
-def score_macro_average(examples: Iterable[Example], crf: CRF):
-
+def score_micro_average(examples: Iterable[Example], crf: CRF):
     predictions = crf.predict([ex.x for ex in examples])
 
-    reports = []
+    gold_vector = []
+    pred_vector = []
     for example, prediction in zip(examples, predictions):
-
         gold_events = list(get_events(example.y, example.alpino_tree))
         pred_events = list(get_events(prediction, example.alpino_tree))
 
-        s = score(gold_events, pred_events)
-        if s is not None:
-            reports.append(s)
+        # ###### TODO DELETE
+        # if len(gold_events) == 0:
+        #     continue
 
-    averaged = merge_mean(reports)
-    return averaged
+        gv, pv = match_between(gold_events, pred_events)
+        gold_vector.extend(gv)
+        pred_vector.extend(pv)
+
+    # print(gold_vector[:50])
+    # print(pred_vector[:50])
+
+    report = classification_report(gold_vector, pred_vector, output_dict=True)
+    return report
 
 
 def score_macro_average(examples: Iterable[Example], crf: CRF):
@@ -78,11 +89,12 @@ def score(gold_events, pred_events):
     # return {FOUND: report[FOUND], NOT_FOUND: report[NOT_FOUND]}
 
 
-def match_between(gold_events: list[Event], pred_events: list[Event]) -> list:
-    """Yield strings indicating a True Positive, etc. score.
+def match_between(gold_events: list[Event], pred_events: list[Event]):
+    """Yield gold and pred event vectors for the given sets of events.
 
     Note that this function support matching multiple events in a sentence, though current experimental setting only counts on one event per sentence.
     """
+
     assert isinstance(gold_events, list)
     assert isinstance(pred_events, list)
 
@@ -98,13 +110,14 @@ def match_between(gold_events: list[Event], pred_events: list[Event]) -> list:
         pred_vector.append(NOT_FOUND)
 
     elif not has(pred_events) and has(gold_events):
-        # False negative.
-        gold_vector.append(FOUND)
-        pred_vector.append(NOT_FOUND)
+        for _ in gold_events:
+            # False negative.
+            gold_vector.append(FOUND)
+            pred_vector.append(NOT_FOUND)
 
     elif has(pred_events) and not has(gold_events):
         # One false positive for each predicted event.
-        for p in pred_events:
+        for _ in pred_events:
             gold_vector.append(NOT_FOUND)
             pred_vector.append(FOUND)
 
@@ -118,6 +131,13 @@ def match_between(gold_events: list[Event], pred_events: list[Event]) -> list:
             else:
                 gold_vector.append(NOT_FOUND)
                 pred_vector.append(FOUND)
+
+    # # Careful -- creates a text log of multiple MB
+    # logger.trace("")
+    # logger.trace(gold_events)
+    # logger.trace(gold_vector)
+    # logger.trace(pred_events)
+    # logger.trace(pred_vector)
 
     return gold_vector, pred_vector
 
@@ -134,8 +154,8 @@ def get_events(sent: list[str], tree: AlpinoTree):
             current_event.append(i)
         else:
             if len(current_event) > 0:
-                heads = list(get_head_set(current_event, tree))
-                yield Event(tokens=current_event, heads=heads)
+                heads = get_head_set(current_event, tree)
+                yield Event(tokens=set(current_event), heads=set(heads))
                 current_event = []
 
 
@@ -147,6 +167,10 @@ def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
 
 
 def fallback_match(gold: Event, pred: Event):
+    if gold.tokens == pred.tokens:
+        return True
+    if len(gold.tokens.intersection(pred.tokens)) == 0:
+        return False
     if fuzzy_match(gold.heads, pred.heads):
         return True
     return fuzzy_match(gold.tokens, pred.tokens)

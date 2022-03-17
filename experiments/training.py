@@ -18,10 +18,9 @@ class Fold:
     id: int
     train: Iterable[Example]
     dev: Iterable[Example]
-    iob_scores: dict = None
-    event_scores: dict = None
-    # scores: ScoreReport = None
-    crf: CRF = None
+    # micro_iob_scores: dict = None
+    # event_scores: dict = None
+    # crf: CRF = None
 
 
 def make_folds(
@@ -41,13 +40,23 @@ def make_folds(
 
 
 def train_crossval(folds: Iterable[Fold], max_iter, verbose) -> None:
-    """Run crossvalidation training. Yield trained CRF models and their scores."""
+    """Run crossvalidation training."""
     for fold in folds:
         logger.info(f"Training fold {fold.id}")
         fold.crf = train(fold.train, fold.dev, max_iter, verbose)
 
-        fold.iob_scores = iob_level.score_macro_average(fold.dev, fold.crf)
-        fold.event_scores = event_level.score_macro_average(fold.dev, fold.crf)
+        fold.micro_iob_scores = iob_level.score_micro_average(
+            fold.dev, fold.crf
+        )
+        fold.macro_iob_scores = iob_level.score_macro_average(
+            fold.dev, fold.crf
+        )
+        fold.micro_event_scores = event_level.score_micro_average(
+            fold.dev, fold.crf
+        )
+        fold.macro_event_scores = event_level.score_macro_average(
+            fold.dev, fold.crf
+        )
 
 
 def average_scores(fold_score_dicts: Iterable[dict]):
@@ -56,22 +65,6 @@ def average_scores(fold_score_dicts: Iterable[dict]):
     merged = merge_list(fold_score_dicts)
     averaged = map_over_leaves(merged, mean)
     return averaged
-
-    # def flatten(score_dict):
-    #     new = {}
-    #     for label_name, label_scores in score_dict.items():
-    #         for score_name, value in label_scores.items():
-    #             new_key = label_name + "_" + score_name
-    #             new[new_key] = value
-    #     return new
-
-    # avg_scores = defaultdict(list)
-    # for sc in score_dicts:
-    #     sc = flatten(sc)
-    #     for k, v in sc.items():
-    #         avg_scores[k].append(v)
-
-    # return avg_scores
 
 
 def train(

@@ -21,7 +21,7 @@ class Example:
     alpino_tree: AlpinoTree
 
 
-def get_examples(data_dir):
+def get_examples(data_dir, main_events_only: bool):
     """Read and yield features and labels from a data dir.
     Every sentence in the corpus will become a training example.
     """
@@ -29,7 +29,7 @@ def get_examples(data_dir):
     for doc_id, dnaf_p, lets_p, alpino_dir in read_files(data_dir):
         try:
             examples = list(
-                get_featurized_sents(doc_id, dnaf_p, lets_p, alpino_dir)
+                get_featurized_sents(doc_id, dnaf_p, lets_p, alpino_dir, main_events_only)
             )
         except FeaturizationError as e:
             logger.error(e)
@@ -38,13 +38,13 @@ def get_examples(data_dir):
 
 
 def get_featurized_sents(
-    doc_id: str, dnaf: Path, lets: Path, alpino_dir: Path
+    doc_id: str, dnaf: Path, lets: Path, alpino_dir: Path, main_events_only
 ):
     """Stream examples from a single document directory."""
 
     # Extract X and y features.
     x_sents = list(featurize(dnaf, lets))
-    y_sents = list(get_iob(dnaf, main_events_only=True))
+    y_sents = list(get_iob(dnaf, main_events_only))
 
     for (x_sent_id, x_sent), (y_sent_id, y_sent) in zip(x_sents, y_sents):
 

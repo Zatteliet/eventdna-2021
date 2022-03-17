@@ -25,6 +25,7 @@ def main(
     n_folds: int = 10,
     max_iter: int = 500,
     verbose: bool = False,
+    main_events_only: bool = False,
     test: bool = False,
 ):
     """Run experiments, write out results to `out_dir`."""
@@ -33,6 +34,7 @@ def main(
         "n_folds": n_folds,
         "max_iter": max_iter,
         "verbose": verbose,
+        "main_events_only": main_events_only,
         "test": test,
     }
 
@@ -46,23 +48,35 @@ def main(
     # Setup directories.
 
     out_dir = Path(out_dir)
-    iob_scores_dir = out_dir / "scores_iob"
-    event_scores_dir = out_dir / "scores_event_spans"
+    micro_iob_scores_dir = out_dir / "scores_iob_micro"
+    macro_iob_scores_dir = out_dir / "scores_iob_macro"
+    micro_event_scores_dir = out_dir / "scores_event_spans_micro"
+    macro_event_scores_dir = out_dir / "scores_event_spans_macro"
     model_dir = out_dir / "models"
-    for p in [out_dir, iob_scores_dir, event_scores_dir, model_dir]:
+    for p in [
+        out_dir,
+        micro_iob_scores_dir,
+        macro_iob_scores_dir,
+        micro_event_scores_dir,
+        macro_event_scores_dir,
+        model_dir,
+    ]:
         setup(p)
 
     write(cfg, out_dir / "config.json")
 
     # Prepare the X and y examples.
     check_extract(DATA_ZIPPED, DATA_EXTRACTED)
-    examples = list(get_examples(DATA_EXTRACTED))
+    examples = list(
+        get_examples(DATA_EXTRACTED, main_events_only=cfg["main_events_only"])
+    )
     logger.info(f"Training with {len(examples)} training examples.")
 
-    _n_no_events = len([ex for ex in examples if set(ex.y) == {"O"}])
-    logger.info(
-        f"{_n_no_events} examples have no events. {len(examples) -_n_no_events} do."
-    )
+    # # Info.
+    # _n_no_events = len([ex for ex in examples if set(ex.y) == {"O"}])
+    # logger.info(
+    #     f"{_n_no_events} examples have no events. {len(examples) -_n_no_events} do."
+    # )
 
     # Initialize training folds.
     folds: Iterable[Fold] = list(make_folds(examples, cfg["n_folds"]))
@@ -77,17 +91,40 @@ def main(
     # Write out scores per fold and averaged.
 
     for fold in folds:
-        write(fold.iob_scores, iob_scores_dir / f"scores_{fold.id}.json")
-        write(fold.event_scores, event_scores_dir / f"scores_{fold.id}.json")
+        write(
+            fold.micro_iob_scores,
+            micro_iob_scores_dir / f"scores_{fold.id}.json",
+        )
+        write(
+            fold.macro_iob_scores,
+            macro_iob_scores_dir / f"scores_{fold.id}.json",
+        )
+        write(
+            fold.macro_event_scores,
+            macro_event_scores_dir / f"scores_{fold.id}.json",
+        )
+        write(
+            fold.micro_event_scores,
+            micro_event_scores_dir / f"scores_{fold.id}.json",
+        )
 
     write(
-        average_scores([fold.iob_scores for fold in folds]),
-        iob_scores_dir / "averaged.json",
+        average_scores([fold.micro_iob_scores for fold in folds]),
+        micro_iob_scores_dir / "averaged.json",
     )
 
     write(
-        average_scores([fold.event_scores for fold in folds]),
-        event_scores_dir / "averaged.json",
+        average_scores([fold.macro_iob_scores for fold in folds]),
+        macro_iob_scores_dir / "averaged.json",
+    )
+
+    write(
+        average_scores([fold.micro_event_scores for fold in folds]),
+        micro_event_scores_dir / "averaged.json",
+    )
+    write(
+        average_scores([fold.macro_event_scores for fold in folds]),
+        macro_event_scores_dir / "averaged.json",
     )
 
     logger.success(f"Done training, wrote models and scores to {out_dir}")
