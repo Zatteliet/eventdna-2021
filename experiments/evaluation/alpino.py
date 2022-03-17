@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 
 
 class AlpinoTree:
-    """Read in an do operations on an alpino .xml file.
+    """Read in and do operations on an alpino .xml file.
     Provides methods to find which tokens are heads.
 
     An easy way to check whether the token at index `i` in a sentence is part of a syntactic head:
@@ -32,12 +32,14 @@ class AlpinoTree:
                 break
 
     def find_head_leaves(self, restricted_mode: bool):
-        """Depth-search through the tree. Only leaves are returned."""
+        """Depth-search through the tree. Only leaves are returned.
+        If `restricted_mode` is True, only return heads that are not part of modifiers.
+        """
 
         def check_stop(node, restricted_mode: bool):
             """If a node gets a True check here, search stops at that node and doesn't travel deeper in the tree."""
             if restricted_mode:
-                if node.get("cat") in ["ap", "advp", "pp"]:  # "pp", "advp"
+                if node.get("cat") in ["ap", "advp", "pp"]:
                     return True
                 if node.get("rel") == "mod":
                     return True
@@ -88,6 +90,8 @@ class AlpinoTree:
         """Given an alpino tree, give a binary vector mapping over the tokens of the sentence described by the tree,
         such that 1 indicates that a token is part of a head node.
         e.g. [0, 1, 0, 1, 0, 0] --> tokens at index 1 and 3 are part of head nodes over the sentence.
+
+        If `restricted_mode` is True, only return heads that are not part of modifiers.
         """
 
         def is_leaf(node):
@@ -129,7 +133,10 @@ class AlpinoTree:
 
 
 def add_heads(dnaf, alpino_dir, restricted_mode) -> None:
-    """Add head set info to the event annotations found in the given DNAF."""
+    """Add head set info to the event annotations found in the given DNAF.
+
+    If `restricted_mode` is True, only return heads that are not part of modifiers.
+    """
 
     # Get a dict of sentence numbers to the correct head vector.
     head_vector_map = {

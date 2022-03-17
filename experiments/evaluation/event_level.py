@@ -1,15 +1,12 @@
+from dataclasses import dataclass
 from typing import Iterable
 
+from experiments.corpus import Example
+from experiments.evaluation.alpino import AlpinoTree
+from experiments.util import merge_mean
+from loguru import logger
 from sklearn.metrics import classification_report
 from sklearn_crfsuite import CRF
-
-from experiments.corpus import Example
-from experiments.util import merge_mean
-from experiments.evaluation.alpino import AlpinoTree
-from dataclasses import dataclass
-
-from loguru import logger
-
 
 logger.add("log.log", level="TRACE", format="{message}", mode="w")
 
@@ -25,6 +22,7 @@ class Event:
 
 
 def score_micro_average(examples: Iterable[Example], crf: CRF):
+    """Score the performance of `crf` against the gold in each `example`. Return a report of micro-averaged scores."""
     predictions = crf.predict([ex.x for ex in examples])
 
     gold_vector = []
@@ -33,22 +31,17 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
         gold_events = list(get_events(example.y, example.alpino_tree))
         pred_events = list(get_events(prediction, example.alpino_tree))
 
-        # ###### TODO DELETE
-        # if len(gold_events) == 0:
-        #     continue
-
         gv, pv = match_between(gold_events, pred_events)
         gold_vector.extend(gv)
         pred_vector.extend(pv)
-
-    # print(gold_vector[:50])
-    # print(pred_vector[:50])
 
     report = classification_report(gold_vector, pred_vector, output_dict=True)
     return report
 
 
 def score_macro_average(examples: Iterable[Example], crf: CRF):
+    """Score the performance of `crf` against the gold in each `example`. Return a report of macro-averaged scores."""
+
     def f1_score(prec, rec):
         return (2 * (prec * rec)) / (prec + rec)
 
@@ -76,21 +69,20 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
     return scores
 
 
-def score(gold_events, pred_events):
+def score(gold_events: list[Event], pred_events: list[Event]):
+    """Use SKLearn to score lis list of predicted events against their gold equivalent."""
     gold_vector, pred_vector = match_between(gold_events, pred_events)
     report = classification_report(
         gold_vector,
         pred_vector,
         output_dict=True,
         zero_division=0,
-        # labels=[FOUND, NOT_FOUND],
     )
     return report
-    # return {FOUND: report[FOUND], NOT_FOUND: report[NOT_FOUND]}
 
 
 def match_between(gold_events: list[Event], pred_events: list[Event]):
-    """Yield gold and pred event vectors for the given sets of events.
+    """Yield gold and pred event vectors for the given sets of events. These are binary vectors, where the positive class (`FOUND`) represents that the event is present in the event list.
 
     Note that this function support matching multiple events in a sentence, though current experimental setting only counts on one event per sentence.
     """
@@ -132,17 +124,13 @@ def match_between(gold_events: list[Event], pred_events: list[Event]):
                 gold_vector.append(NOT_FOUND)
                 pred_vector.append(FOUND)
 
-    # # Careful -- creates a text log of multiple MB
-    # logger.trace("")
-    # logger.trace(gold_events)
-    # logger.trace(gold_vector)
-    # logger.trace(pred_events)
-    # logger.trace(pred_vector)
-
     return gold_vector, pred_vector
 
 
 def get_events(sent: list[str], tree: AlpinoTree):
+    """Find and yield `Event` objects from `sent`. These encode the tokens and head tokens of the event, encoded as integer indices over the sentence tokens.
+    `sent` is a list of IOB tags, without label information.
+    """
 
     # Sanity checks.
     assert len(sent) > 0, sent
@@ -160,6 +148,7 @@ def get_events(sent: list[str], tree: AlpinoTree):
 
 
 def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
+    """Given a list of event tokens (as indices over sentence tokens), yield those indices that also mark head tokens."""
     heads = alpino_tree.head_indices
     for token in event_tokens:
         if token in heads:
@@ -167,6 +156,7 @@ def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
 
 
 def fallback_match(gold: Event, pred: Event):
+    """Perform fuzzy matching to compare `gold` and `pred` events."""
     if gold.tokens == pred.tokens:
         return True
     if len(gold.tokens.intersection(pred.tokens)) == 0:

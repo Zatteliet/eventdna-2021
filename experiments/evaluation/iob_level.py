@@ -1,15 +1,15 @@
+from itertools import chain
 from typing import Iterable
 
+from experiments.corpus import Example
+from experiments.util import merge_mean
 from sklearn.metrics import classification_report
 from sklearn_crfsuite import CRF
 
-from experiments.corpus import Example
-from experiments.util import merge_mean, map_over_leaves
-from itertools import chain
-from statistics import mean
-
 
 def score_macro_average(examples: Iterable[Example], crf: CRF):
+    """Score each prediction made by `crf` on an `example` against its gold. Return the macro-averaged precision, recall and f1 scores."""
+
     def f1_score(prec, rec):
         return (2 * (prec * rec)) / (prec + rec)
 
@@ -55,14 +55,12 @@ def score(gold, pred):
 
 
 def score_micro_average(examples: Iterable[Example], crf: CRF):
+    """Score each prediction made by `crf` on an `example` against its gold. Return a micro-averaged score report."""
 
     golds = [ex.y for ex in examples]
     predictions = crf.predict([ex.x for ex in examples])
 
     flat_golds = list(chain.from_iterable(golds))
     flat_preds = list(chain.from_iterable(predictions))
-    # print(flat_golds[:50])
-    # print(flat_preds[:50])
     report = classification_report(flat_golds, flat_preds, output_dict=True)
-    # print(report)
     return report
