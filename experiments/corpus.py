@@ -84,7 +84,7 @@ def _get_featurized_sents(
         # Check the n of tokens in each sentence is the same.
         if not len(x_sent) == len(y_sent):
             t = [d["token"] for d in x_sent]
-            m = f"{doc_id}: number of tokens in x and y don't match.\n{t} != {y_sent}"
+            m = f"{doc_id}: number of tokens in x and y don't match.\n\t-> {t} != {y_sent}"
             raise FeaturizationError(m)
 
         # Parse and attach the alpino tree.
