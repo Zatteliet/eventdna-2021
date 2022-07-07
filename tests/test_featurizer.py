@@ -1,8 +1,10 @@
+from pathlib import Path
 from experiments.featurizer import get_sentences, featurize_lets_sentence
 
 
 def test_read_lets():
-    case = "tests/data/in/lets.csv"
+    case = Path("tests/data/lets.csv")
+    assert case.exists()
     sentences = get_sentences(case)
     assert next(sentences) == [
         ["Provincie", "provincie", "N(soort,ev,basis,zijd,stan)", "B-NP", "O"],

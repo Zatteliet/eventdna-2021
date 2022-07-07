@@ -1,7 +1,7 @@
 from experiments.evaluation.alpino import AlpinoTree
 
 def test_alpino_tree_handler():
-    case = "tests/data/in/example_alpino.xml"
+    case = "tests/data/example_alpino.xml"
     
     tree = AlpinoTree(case, restricted_mode=False)
 
