@@ -33,9 +33,13 @@ def get_examples(main_events_only: bool):
     if not DATA_DIR.exists():
         DATA_DIR.mkdir()
         logger.info(f"Extracting corpus to {DATA_DIR}")
-        with ZipFile(zip) as z:
+        with ZipFile(ZIP) as z:
             z.extractall(DATA_DIR)
     else:
+        if len(list(DATA_DIR.iterdir())) == 0:
+            raise ValueError(
+                f"No data files found in {DATA_DIR.resolve()}. Delete this dir to allow unzipping."
+            )
         logger.info(f"Using existing data dir: {DATA_DIR}")
 
     # Read in the files and extract features.
@@ -45,7 +49,7 @@ def get_examples(main_events_only: bool):
             sentence_examples = _get_featurized_sents(
                 doc_id=doc_dir.stem,
                 dnaf=doc_dir / "dnaf.json",
-                lets=doc_dir / "lets/csv",
+                lets=doc_dir / "lets.csv",
                 alpino_dir=doc_dir / "alpino",
                 main_events_only=main_events_only,
             )
@@ -54,6 +58,8 @@ def get_examples(main_events_only: bool):
             continue
 
         examples.extend(sentence_examples)
+
+    logger.info(f"Loaded {len(examples)} examples.")
 
     return examples
 
