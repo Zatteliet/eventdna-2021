@@ -61,12 +61,7 @@ def main(
     write(cfg, out_dir / "config.json")
 
     # Prepare the X and y examples.
-    corpus.check_extract(corpus.DATA_ZIPPED, corpus.DATA_EXTRACTED)
-    examples = list(
-        corpus.get_examples(
-            corpus.DATA_EXTRACTED, main_events_only=cfg["main_events_only"]
-        )
-    )
+    examples = corpus.get_examples(main_events_only=cfg["main_events_only"])
     logger.info(f"Training with {len(examples)} training examples.")
 
     # # Info.
