@@ -1,16 +1,18 @@
+import logging
 from dataclasses import dataclass
 from statistics import mean
 from typing import Iterable, List
 
-from loguru import logger
 from sklearn.model_selection import KFold
 from sklearn_crfsuite import CRF
 
 from experiments.corpus import Example
-from experiments.evaluation import iob_level, event_level
+from experiments.evaluation import event_level, iob_level
 
 # from experiments.evaluation.scoring import ScoreReport
 from experiments.util import map_over_leaves, merge_list
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass

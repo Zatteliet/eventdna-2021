@@ -1,13 +1,15 @@
 import json
+import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
 import joblib
 import typer
-from loguru import logger
 
 from experiments import corpus, training
+
+logger = logging.getLogger(__name__)
 
 
 def main(
@@ -124,7 +126,7 @@ def main(
         macro_event_scores_dir / "averaged.json",
     )
 
-    logger.success(f"Done training, wrote models and scores to {out_dir}")
+    logger.info(f"Done training, wrote models and scores to {out_dir}")
 
 
 def write(json_dict, path):

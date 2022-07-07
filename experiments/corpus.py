@@ -1,13 +1,15 @@
+import logging
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from zipfile import ZipFile
-from loguru import logger
 
 from experiments.errors import FeaturizationError
+from experiments.evaluation.alpino import AlpinoTree
 from experiments.featurizer import featurize
 from experiments.iob_fmt import get_iob
-from experiments.evaluation.alpino import AlpinoTree
+
+logger = logging.getLogger(__name__)
 
 DATA_ZIPPED = Path("data/EventDNA_dnaf_corpus.zip")
 DATA_EXTRACTED = Path("extracted")

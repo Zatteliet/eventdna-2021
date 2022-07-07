@@ -1,14 +1,14 @@
+import logging
 from dataclasses import dataclass
 from typing import Iterable
 
 from experiments.corpus import Example
 from experiments.evaluation.alpino import AlpinoTree
 from experiments.util import merge_mean
-from loguru import logger
 from sklearn.metrics import classification_report
 from sklearn_crfsuite import CRF
 
-logger.add("log.log", level="TRACE", format="{message}", mode="w")
+logger = logging.getLogger(__name__)
 
 
 FOUND = "Found"
