@@ -1,5 +1,4 @@
 import logging
-from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from zipfile import ZipFile
@@ -11,8 +10,8 @@ from experiments.iob_fmt import get_iob
 
 logger = logging.getLogger(__name__)
 
-DATA_ZIPPED = Path("data/EventDNA_dnaf_corpus.zip")
-DATA_EXTRACTED = Path("extracted")
+ZIP = Path("data/EventDNA_dnaf_corpus.zip")
+DATA_DIR = Path("extracted")
 
 
 @dataclass
@@ -23,28 +22,54 @@ class Example:
     alpino_tree: AlpinoTree
 
 
-def get_examples(data_dir, main_events_only: bool):
+def get_examples(main_events_only: bool):
     """Read and yield features and labels from a data dir.
     Every sentence in the corpus will become a training example.
     """
-    logger.info("Featurizing data...")
-    for doc_id, dnaf_p, lets_p, alpino_dir in read_files(data_dir):
+
+    examples = []
+
+    # Extract the zipped data if needed.
+    if not DATA_DIR.exists():
+        DATA_DIR.mkdir()
+        logger.info(f"Extracting corpus to {DATA_DIR}")
+        with ZipFile(ZIP) as z:
+            z.extractall(DATA_DIR)
+    else:
+        if len(list(DATA_DIR.iterdir())) == 0:
+            raise ValueError(
+                f"No data files found in {DATA_DIR.resolve()}. Delete this dir to allow unzipping."
+            )
+        logger.info(f"Using existing data dir: {DATA_DIR}")
+
+    # Read in the files and extract features.
+    for doc_dir in DATA_DIR.iterdir():
+
         try:
-            examples = list(
-                get_featurized_sents(
-                    doc_id, dnaf_p, lets_p, alpino_dir, main_events_only
-                )
+            sentence_examples = _get_featurized_sents(
+                doc_id=doc_dir.stem,
+                dnaf=doc_dir / "dnaf.json",
+                lets=doc_dir / "lets.csv",
+                alpino_dir=doc_dir / "alpino",
+                main_events_only=main_events_only,
             )
         except FeaturizationError as e:
             logger.error(e)
-        for example in examples:
-            yield example
+            continue
+
+        examples.extend(sentence_examples)
+
+    logger.info(f"Loaded {len(examples)} examples.")
+
+    return examples
 
 
-def get_featurized_sents(
+def _get_featurized_sents(
     doc_id: str, dnaf: Path, lets: Path, alpino_dir: Path, main_events_only
 ):
-    """Stream examples from a single document directory."""
+    """Return examples from a single document directory."""
+
+    examples = []
 
     # Extract X and y features.
     x_sents = list(featurize(dnaf, lets))
@@ -59,7 +84,7 @@ def get_featurized_sents(
         # Check the n of tokens in each sentence is the same.
         if not len(x_sent) == len(y_sent):
             t = [d["token"] for d in x_sent]
-            m = f"{doc_id}: number of tokens in x and y don't match.\n{t} != {y_sent}"
+            m = f"{doc_id}: number of tokens in x and y don't match.\n\t-> {t} != {y_sent}"
             raise FeaturizationError(m)
 
         # Parse and attach the alpino tree.
@@ -68,27 +93,7 @@ def get_featurized_sents(
         tree = AlpinoTree(alpino_file=alp, restricted_mode=True)
 
         ex_id = f"{doc_id}_{x_sent_id}"
-        yield Example(id=ex_id, x=x_sent, y=y_sent, alpino_tree=tree)
+        example = Example(id=ex_id, x=x_sent, y=y_sent, alpino_tree=tree)
+        examples.append(example)
 
-
-def check_extract(zip: Path, target: Path):
-    """Extract `zip_p` to `target` if this has not been done already."""
-    if not target.exists():
-        target.mkdir()
-        logger.info(f"Extracting corpus to {target}")
-        with ZipFile(zip) as z:
-            z.extractall(target)
-    else:
-        logger.info(f"Using existing data dir: {target}")
-
-
-def read_files(data_dir: Path):
-
-    all_paths = data_dir.rglob("*")
-
-    files = defaultdict(dict)
-    for p in all_paths:
-        if p.parent.stem in {"dnaf", "lets", "alpino"}:
-            files[str(p.stem)][str(p.parent.stem)] = p
-    for id, paths in files.items():
-        yield id, paths["dnaf"], paths["lets"], paths["alpino"]
+    return examples

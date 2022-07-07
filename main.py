@@ -2,7 +2,6 @@ import json
 import logging
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable
 
 import joblib
 import typer
@@ -13,14 +12,19 @@ logger = logging.getLogger(__name__)
 
 
 def main(
-    out_dir: str,
     n_folds: int = 10,
     max_iter: int = 500,
     verbose: bool = False,
     main_events_only: bool = False,
     test: bool = False,
 ):
-    """Run experiments, write out results to a time-stamped dir under `out_dir`."""
+    """Run experiments, write out results to a time-stamped dir under `./output/`."""
+
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    out_dir = Path("output") / f"output-{timestamp}"
+    out_dir.mkdir(parents=True)
+
+    logging.basicConfig(filename=out_dir / "log.log", level=logging.DEBUG)
 
     cfg = {
         "n_folds": n_folds,
@@ -39,17 +43,12 @@ def main(
 
     # Setup directories.
 
-    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    out_dir = Path(out_dir) / f"output-{timestamp}"
-    out_dir.mkdir()
-
     micro_iob_scores_dir = out_dir / "scores_iob_micro"
     macro_iob_scores_dir = out_dir / "scores_iob_macro"
     micro_event_scores_dir = out_dir / "scores_event_spans_micro"
     macro_event_scores_dir = out_dir / "scores_event_spans_macro"
     model_dir = out_dir / "models"
     for p in [
-        out_dir,
         micro_iob_scores_dir,
         macro_iob_scores_dir,
         micro_event_scores_dir,
@@ -61,12 +60,7 @@ def main(
     write(cfg, out_dir / "config.json")
 
     # Prepare the X and y examples.
-    corpus.check_extract(corpus.DATA_ZIPPED, corpus.DATA_EXTRACTED)
-    examples = list(
-        corpus.get_examples(
-            corpus.DATA_EXTRACTED, main_events_only=cfg["main_events_only"]
-        )
-    )
+    examples = corpus.get_examples(main_events_only=cfg["main_events_only"])
     logger.info(f"Training with {len(examples)} training examples.")
 
     # # Info.
