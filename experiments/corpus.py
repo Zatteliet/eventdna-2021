@@ -9,8 +9,8 @@ from experiments.featurizer import featurize
 from experiments.iob_fmt import get_iob
 from experiments.evaluation.alpino import AlpinoTree
 
-DATA_ZIPPED = Path("data/eventdna_corpus_2020-13-02.zip")
-DATA_EXTRACTED = DATA_ZIPPED.parent / "extracted"
+DATA_ZIPPED = Path("data/EventDNA_dnaf_corpus.zip")
+DATA_EXTRACTED = Path("extracted")
 
 
 @dataclass
@@ -29,7 +29,9 @@ def get_examples(data_dir, main_events_only: bool):
     for doc_id, dnaf_p, lets_p, alpino_dir in read_files(data_dir):
         try:
             examples = list(
-                get_featurized_sents(doc_id, dnaf_p, lets_p, alpino_dir, main_events_only)
+                get_featurized_sents(
+                    doc_id, dnaf_p, lets_p, alpino_dir, main_events_only
+                )
             )
         except FeaturizationError as e:
             logger.error(e)

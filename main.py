@@ -7,18 +7,7 @@ import joblib
 import typer
 from loguru import logger
 
-from experiments.corpus import (
-    DATA_EXTRACTED,
-    DATA_ZIPPED,
-    check_extract,
-    get_examples,
-)
-from experiments.training import (
-    Fold,
-    average_scores,
-    make_folds,
-    train_crossval,
-)
+from experiments import corpus, training
 
 
 def main(
@@ -70,9 +59,11 @@ def main(
     write(cfg, out_dir / "config.json")
 
     # Prepare the X and y examples.
-    check_extract(DATA_ZIPPED, DATA_EXTRACTED)
+    corpus.check_extract(corpus.DATA_ZIPPED, corpus.DATA_EXTRACTED)
     examples = list(
-        get_examples(DATA_EXTRACTED, main_events_only=cfg["main_events_only"])
+        corpus.get_examples(
+            corpus.DATA_EXTRACTED, main_events_only=cfg["main_events_only"]
+        )
     )
     logger.info(f"Training with {len(examples)} training examples.")
 
@@ -83,10 +74,12 @@ def main(
     # )
 
     # Initialize training folds.
-    folds: Iterable[Fold] = list(make_folds(examples, cfg["n_folds"]))
+    folds = list(training.make_folds(examples, cfg["n_folds"]))
 
     # Perform cross-validation training.
-    train_crossval(folds, max_iter=cfg["max_iter"], verbose=cfg["verbose"])
+    training.train_crossval(
+        folds, max_iter=cfg["max_iter"], verbose=cfg["verbose"]
+    )
 
     # Dump the models.
     for fold in folds:
@@ -113,21 +106,21 @@ def main(
         )
 
     write(
-        average_scores([fold.micro_iob_scores for fold in folds]),
+        training.average_scores([fold.micro_iob_scores for fold in folds]),
         micro_iob_scores_dir / "averaged.json",
     )
 
     write(
-        average_scores([fold.macro_iob_scores for fold in folds]),
+        training.average_scores([fold.macro_iob_scores for fold in folds]),
         macro_iob_scores_dir / "averaged.json",
     )
 
     write(
-        average_scores([fold.micro_event_scores for fold in folds]),
+        training.average_scores([fold.micro_event_scores for fold in folds]),
         micro_event_scores_dir / "averaged.json",
     )
     write(
-        average_scores([fold.macro_event_scores for fold in folds]),
+        training.average_scores([fold.macro_event_scores for fold in folds]),
         macro_event_scores_dir / "averaged.json",
     )
 
