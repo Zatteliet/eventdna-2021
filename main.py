@@ -1,4 +1,5 @@
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Iterable
 
@@ -28,7 +29,7 @@ def main(
     main_events_only: bool = False,
     test: bool = False,
 ):
-    """Run experiments, write out results to `out_dir`."""
+    """Run experiments, write out results to a time-stamped dir under `out_dir`."""
 
     cfg = {
         "n_folds": n_folds,
@@ -47,7 +48,10 @@ def main(
 
     # Setup directories.
 
-    out_dir = Path(out_dir)
+    timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    out_dir = Path(out_dir) / f"output-{timestamp}"
+    out_dir.mkdir()
+
     micro_iob_scores_dir = out_dir / "scores_iob_micro"
     macro_iob_scores_dir = out_dir / "scores_iob_macro"
     micro_event_scores_dir = out_dir / "scores_event_spans_micro"
@@ -61,7 +65,7 @@ def main(
         macro_event_scores_dir,
         model_dir,
     ]:
-        setup(p)
+        p.mkdir()
 
     write(cfg, out_dir / "config.json")
 
@@ -128,26 +132,6 @@ def main(
     )
 
     logger.success(f"Done training, wrote models and scores to {out_dir}")
-
-
-def setup(dir: Path):
-    """Create the given directory if it does not exist.
-    If it does, clean out its contents.
-    """
-
-    def clean(dir: Path):
-        for item in dir.iterdir():
-            if item.is_dir():
-                clean(item)
-                item.rmdir()
-            else:
-                item.unlink()
-
-    if not dir.exists():
-        dir.mkdir()
-    else:
-        logger.warning(f"Found existing data in {dir}. Erasing...")
-        clean(dir)
 
 
 def write(json_dict, path):
