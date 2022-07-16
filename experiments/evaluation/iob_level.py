@@ -18,7 +18,7 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
     # Gather precision and recall scores for each gold, pred pair.
     scores = {"B": [], "I": [], "O": []}
     for example, prediction in zip(examples, predictions):
-        report = score(example.y, prediction)
+        report = _score(example.y, prediction)
 
         if report.get("B"):
             scores["B"].append(report["B"])
@@ -38,8 +38,8 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
     return scores
 
 
-def score(gold, pred):
-    """Score a single pairs of IOB sequences, representing a sentence.
+def _score(gold, pred):
+    """Score a single pair of IOB sequences, representing a sentence.
 
     Note that the output dict does not carry scores for labels that weren't found in the sequences.
 

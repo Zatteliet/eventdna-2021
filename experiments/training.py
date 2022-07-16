@@ -44,15 +44,20 @@ def make_folds(
 def train_crossval(folds: Iterable[Fold], max_iter, verbose) -> None:
     """Run crossvalidation training."""
     for fold in folds:
+
+        # Train fold.
         logger.info(f"Training fold {fold.id}")
         fold.crf = train(fold.train, fold.dev, max_iter, verbose)
 
+        # Compute micro and macro IOB scores.
         fold.micro_iob_scores = iob_level.score_micro_average(
             fold.dev, fold.crf
         )
         fold.macro_iob_scores = iob_level.score_macro_average(
             fold.dev, fold.crf
         )
+
+        # Compute micro and macro event scores.
         fold.micro_event_scores = event_level.score_micro_average(
             fold.dev, fold.crf
         )

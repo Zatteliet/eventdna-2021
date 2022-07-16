@@ -1,7 +1,7 @@
 # from experiments.evaluation.scoring import match_between, iob_vectors, get_events
 # from sklearn.metrics import classification_report
 
-from experiments.evaluation.iob_level import score
+from experiments.evaluation.iob_level import _score
 
 # def test_get_events():
 #     case = ["O", "B", "I", "I", "O", "O", "B", "I", "O", "O"]
@@ -21,7 +21,7 @@ def test_score_iob():
     ]
 
     for g, p in zip(golds, preds):
-        scores = score(g, p)
+        scores = _score(g, p)
         print(scores)
 
     # g, p = iob_vectors(case["gold"], case["pred"])

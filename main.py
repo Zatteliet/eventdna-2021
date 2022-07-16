@@ -47,12 +47,14 @@ def main(
     macro_iob_scores_dir = out_dir / "scores_iob_macro"
     micro_event_scores_dir = out_dir / "scores_event_spans_micro"
     macro_event_scores_dir = out_dir / "scores_event_spans_macro"
+    folds_defs_dir = out_dir / "fold_checks"
     model_dir = out_dir / "models"
     for p in [
         micro_iob_scores_dir,
         macro_iob_scores_dir,
         micro_event_scores_dir,
         macro_event_scores_dir,
+        folds_defs_dir,
         model_dir,
     ]:
         p.mkdir()
@@ -71,6 +73,12 @@ def main(
 
     # Initialize training folds.
     folds = list(training.make_folds(examples, cfg["n_folds"]))
+
+    # Write out the example texts in each fold, to check consistency over training runs.
+    for fold in folds:
+        ids = [ex.id for ex in fold.train]
+        with open(folds_defs_dir / f"fold_{fold.id}.txt", mode="w") as f:
+            f.write("\n".join(ids))
 
     # Perform cross-validation training.
     training.train_crossval(
