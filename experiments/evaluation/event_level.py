@@ -22,16 +22,23 @@ class Event:
 
 
 def score_micro_average(examples: Iterable[Example], crf: CRF):
-    """Score the performance of `crf` against the gold in each `example`. Return a report of micro-averaged scores."""
+    """Score the performance of `crf` against the gold in each `example`. Return a report of micro-averaged scores.
+
+    This is used to score a single fold in micro-average fashion.
+    """
     predictions = crf.predict([ex.x for ex in examples])
 
     gold_vector = []
     pred_vector = []
     for example, prediction in zip(examples, predictions):
+
+        # Get sets of tokens indices and head token indices for each gold and pred event.
         gold_events = list(get_events(example.y, example.alpino_tree))
         pred_events = list(get_events(prediction, example.alpino_tree))
 
+        # Compute a y_actual and y_pred vector by tallying TP, FN, FP, TN event matches for this example.
         gv, pv = match_between(gold_events, pred_events)
+
         gold_vector.extend(gv)
         pred_vector.extend(pv)
 
@@ -44,6 +51,17 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
 
     def f1_score(prec, rec):
         return (2 * (prec * rec)) / (prec + rec)
+
+    def score(gold_events: list[Event], pred_events: list[Event]):
+        """Use SKLearn to score lis list of predicted events against their gold equivalent."""
+        gold_vector, pred_vector = match_between(gold_events, pred_events)
+        report = classification_report(
+            gold_vector,
+            pred_vector,
+            output_dict=True,
+            zero_division=0,
+        )
+        return report
 
     predictions = crf.predict([ex.x for ex in examples])
 
@@ -69,18 +87,6 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
     return scores
 
 
-def score(gold_events: list[Event], pred_events: list[Event]):
-    """Use SKLearn to score lis list of predicted events against their gold equivalent."""
-    gold_vector, pred_vector = match_between(gold_events, pred_events)
-    report = classification_report(
-        gold_vector,
-        pred_vector,
-        output_dict=True,
-        zero_division=0,
-    )
-    return report
-
-
 def match_between(gold_events: list[Event], pred_events: list[Event]):
     """Yield gold and pred event vectors for the given sets of events. These are binary vectors, where the positive class (`FOUND`) represents that the event is present in the event list.
 
@@ -96,8 +102,8 @@ def match_between(gold_events: list[Event], pred_events: list[Event]):
     gold_vector = []
     pred_vector = []
 
+    # There are no gold or pred events in the example. Count a TN.
     if not has(pred_events) and not has(gold_events):
-        # True negative.
         gold_vector.append(NOT_FOUND)
         pred_vector.append(NOT_FOUND)
 
@@ -129,6 +135,7 @@ def match_between(gold_events: list[Event], pred_events: list[Event]):
 
 def get_events(sent: list[str], tree: AlpinoTree):
     """Find and yield `Event` objects from `sent`. These encode the tokens and head tokens of the event, encoded as integer indices over the sentence tokens.
+
     `sent` is a list of IOB tags, without label information.
     """
 
@@ -157,9 +164,9 @@ def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
 
 def fallback_match(gold: Event, pred: Event):
     """Perform fuzzy matching to compare `gold` and `pred` events.
-    
-    The match is always True if the gold tokens match the pred tokens exactly, and always False if there is no overlap between the tokens of pred and gold. 
-    
+
+    The match is always True if the gold tokens match the pred tokens exactly, and always False if there is no overlap between the tokens of pred and gold.
+
     If neither these conditions pass, perform a fuzzy match on the heads of the events and return True if that check passes.
 
     Else, perform fuzzy match on the tokens of the events and return that conclusion.
