@@ -51,7 +51,7 @@ def get_iob(dnaf_path: Path, main_events_only: bool):
     for sent_id, sent in dnaf["doc"]["sentences"].items():
         events = sent_to_events[sent_id]
 
-        # ! Select longest main event, discard the rest.
+        # NOTE ! Select longest main event, discard the rest.
         if len(events) == 0:
             iob = get_iob_sequence(sent, None)
         else:

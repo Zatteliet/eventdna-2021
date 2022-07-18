@@ -24,7 +24,10 @@ def main(
     """Run experiments, write out results to a time-stamped dir under `./output/`."""
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    out_dir = Path("output") / f"output-{timestamp}"
+    if test:
+        out_dir = Path("output") / f"output-{timestamp}-test"
+    else:
+        out_dir = Path("output") / f"output-{timestamp}"
     out_dir.mkdir(parents=True)
 
     logging.basicConfig(filename=out_dir / "log.log", level=logging.DEBUG)

@@ -134,15 +134,34 @@ def match_between(gold_events: list[Event], pred_events: list[Event]):
     # There are gold events AND there are pred events.
     # For each predicted event, attempt to match it to a gold event.
     # If there is a match, count a TP. If there is no match, count a FP.
-    # TODO also count a FN for each gold event lacking a link to a pred event?
+    # For every gold event that was NOT matched to a pred event, also count a FN.
+
+    # TODO 1. count FN for each leftover gold event
+    # TODO 2. reverse: count TP for each gold event predicted, and FNs for leftover pred events.
     elif has(pred_events) and has(gold_events):
+
+        matched_gold_events = []
+
         for p in pred_events:
-            if any(fallback_match(p, g) for g in gold_events):
-                gv.append(FOUND)
-                pv.append(FOUND)
-            else:
+
+            p_was_matched = False
+            for g in gold_events:
+                if fallback_match(p, g):
+                    matched_gold_events.append(g)
+                    gv.append(FOUND)
+                    pv.append(FOUND)
+                    p_was_matched = True
+                    break
+            if not p_was_matched:
                 gv.append(NOT_FOUND)
                 pv.append(FOUND)
+
+        unmatched_gold_events = [
+            g for g in gold_events if g not in matched_gold_events
+        ]
+        for g in unmatched_gold_events:
+            gv.append(FOUND)
+            pv.append(NOT_FOUND)
 
     # There are no gold or pred events in the example.
     # -> Count 1x TN.
