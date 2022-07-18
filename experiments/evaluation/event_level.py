@@ -32,15 +32,37 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
     pred_vector = []
     for example, prediction in zip(examples, predictions):
 
-        # Get sets of tokens indices and head token indices for each gold and pred event.
+        # Assume there is a single event in both example and pred. Sanity check this.
         gold_events = list(get_events(example.y, example.alpino_tree))
+        assert len(gold_events) <= 1
+        gold_event = gold_events[0] if gold_events else None
+
         pred_events = list(get_events(prediction, example.alpino_tree))
+        assert len(pred_events) <= 1
+        pred_event = pred_events[0] if pred_events else None
 
-        # Compute a y_actual and y_pred vector by tallying TP, FN, FP, TN event matches for this example.
-        gv, pv = match_between(gold_events, pred_events)
+        # Determine wether there the gold and pred event match as TP, FP, TN, FN. Add to the vectors accordingly.
 
-        gold_vector.extend(gv)
-        pred_vector.extend(pv)
+        # No gold or pred event -> TN
+        if not gold_event and not pred_event:
+            gold_vector.append(NOT_FOUND)
+            pred_vector.append(NOT_FOUND)
+        # Pred event BUT no gold event -> FP
+        elif not gold_event and pred_event:
+            gold_vector.append(NOT_FOUND)
+            pred_vector.append(FOUND)
+        # Gold event BUT no pred event -> FN
+        elif gold_event and not pred_event:
+            gold_vector.append(FOUND)
+            pred_vector.append(NOT_FOUND)
+        # Gold event AND pred event -> TP is there is a fuzzy match, otherwise FN
+        else:
+            if fallback_match(gold_event, pred_event):
+                gold_vector.append(FOUND)
+                pred_vector.append(FOUND)
+            else:
+                gold_vector.append(FOUND)
+                pred_vector.append(NOT_FOUND)
 
     # Report a count of CM categories.
     counts = {"tp": 0, "fp": 0, "fn": 0, "tn": 0}
@@ -102,74 +124,70 @@ def score_macro_average(examples: Iterable[Example], crf: CRF):
     return scores
 
 
-def match_between(gold_events: list[Event], pred_events: list[Event]):
-    """Yield gold and pred event vectors for the given sets of events. These are binary vectors, where the positive class (`FOUND`) represents that the event is present in the event list.
+# def match_between(gold_event: Event, pred_event: Event)-> str:
+#     """Return TP, FP, TN or FN."""
 
-    Note that this function support matching multiple events in a sentence, though current experimental setting only counts on one event per sentence.
-    """
+#     # There is no
 
-    assert isinstance(gold_events, list)
-    assert isinstance(pred_events, list)
+#     def has(l):
+#         return len(l) > 0
 
-    def has(l):
-        return len(l) > 0
+#     gv = []
+#     pv = []
 
-    gv = []
-    pv = []
+#     # There are pred events, but no gold events.
+#     # -> Count one FP for each predicted event.
+#     if has(pred_events) and not has(gold_events):
+#         for _ in pred_events:
+#             gv.append(NOT_FOUND)
+#             pv.append(FOUND)
 
-    # There are pred events, but no gold events.
-    # -> Count one FP for each predicted event.
-    if has(pred_events) and not has(gold_events):
-        for _ in pred_events:
-            gv.append(NOT_FOUND)
-            pv.append(FOUND)
+#     # There are gold events, but no pred events.
+#     # -> Count one FN for each gold event.
+#     elif has(gold_events) and not has(pred_events):
+#         for _ in gold_events:
+#             gv.append(FOUND)
+#             pv.append(NOT_FOUND)
 
-    # There are gold events, but no pred events.
-    # -> Count one FN for each gold event.
-    elif has(gold_events) and not has(pred_events):
-        for _ in gold_events:
-            gv.append(FOUND)
-            pv.append(NOT_FOUND)
+#     # There are gold events AND there are pred events.
+#     # For each predicted event, attempt to match it to a gold event.
+#     # If there is a match, count a TP. If there is no match, count a FP.
+#     # For every gold event that was NOT matched to a pred event, also count a FN.
 
-    # There are gold events AND there are pred events.
-    # For each predicted event, attempt to match it to a gold event.
-    # If there is a match, count a TP. If there is no match, count a FP.
-    # For every gold event that was NOT matched to a pred event, also count a FN.
+#     # TODO 1. count FN for each leftover gold event
+#     # TODO 2. reverse: count TP for each gold event predicted, and FNs for leftover pred events.
+#     elif has(pred_events) and has(gold_events):
 
-    # TODO 1. count FN for each leftover gold event
-    # TODO 2. reverse: count TP for each gold event predicted, and FNs for leftover pred events.
-    elif has(pred_events) and has(gold_events):
+#         matched_gold_events = []
 
-        matched_gold_events = []
+#         for p in pred_events:
 
-        for p in pred_events:
+#             p_was_matched = False
+#             for g in gold_events:
+#                 if fallback_match(p, g):
+#                     matched_gold_events.append(g)
+#                     gv.append(FOUND)
+#                     pv.append(FOUND)
+#                     p_was_matched = True
+#                     break
+#             if not p_was_matched:
+#                 gv.append(NOT_FOUND)
+#                 pv.append(FOUND)
 
-            p_was_matched = False
-            for g in gold_events:
-                if fallback_match(p, g):
-                    matched_gold_events.append(g)
-                    gv.append(FOUND)
-                    pv.append(FOUND)
-                    p_was_matched = True
-                    break
-            if not p_was_matched:
-                gv.append(NOT_FOUND)
-                pv.append(FOUND)
+#         unmatched_gold_events = [
+#             g for g in gold_events if g not in matched_gold_events
+#         ]
+#         for g in unmatched_gold_events:
+#             gv.append(FOUND)
+#             pv.append(NOT_FOUND)
 
-        unmatched_gold_events = [
-            g for g in gold_events if g not in matched_gold_events
-        ]
-        for g in unmatched_gold_events:
-            gv.append(FOUND)
-            pv.append(NOT_FOUND)
+#     # There are no gold or pred events in the example.
+#     # -> Count 1x TN.
+#     else:
+#         gv.append(NOT_FOUND)
+#         pv.append(NOT_FOUND)
 
-    # There are no gold or pred events in the example.
-    # -> Count 1x TN.
-    else:
-        gv.append(NOT_FOUND)
-        pv.append(NOT_FOUND)
-
-    return gv, pv
+#     return gv, pv
 
 
 def get_events(sent: list[str], tree: AlpinoTree):
