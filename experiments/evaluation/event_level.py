@@ -42,6 +42,21 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
         gold_vector.extend(gv)
         pred_vector.extend(pv)
 
+    # Report a count of CM categories.
+    counts = {"tp": 0, "fp": 0, "fn": 0, "tn": 0}
+    for g, p in zip(gold_vector, pred_vector):
+        if g == p == FOUND:
+            counts["tp"] += 1
+        elif g == FOUND and p == NOT_FOUND:
+            counts["fn"] += 1
+        elif g == NOT_FOUND and p == FOUND:
+            counts["fp"] += 1
+        else:
+            counts["tn"] += 1
+    logger.info(
+        f"In event level scoring, collected the following CM counts: {counts}"
+    )
+
     report = classification_report(gold_vector, pred_vector, output_dict=True)
     return report
 
@@ -99,38 +114,43 @@ def match_between(gold_events: list[Event], pred_events: list[Event]):
     def has(l):
         return len(l) > 0
 
-    gold_vector = []
-    pred_vector = []
+    gv = []
+    pv = []
 
-    # There are no gold or pred events in the example. Count a TN.
-    if not has(pred_events) and not has(gold_events):
-        gold_vector.append(NOT_FOUND)
-        pred_vector.append(NOT_FOUND)
-
-    elif not has(pred_events) and has(gold_events):
-        for _ in gold_events:
-            # False negative.
-            gold_vector.append(FOUND)
-            pred_vector.append(NOT_FOUND)
-
-    elif has(pred_events) and not has(gold_events):
-        # One false positive for each predicted event.
+    # There are pred events, but no gold events.
+    # -> Count one FP for each predicted event.
+    if has(pred_events) and not has(gold_events):
         for _ in pred_events:
-            gold_vector.append(NOT_FOUND)
-            pred_vector.append(FOUND)
+            gv.append(NOT_FOUND)
+            pv.append(FOUND)
 
+    # There are gold events, but no pred events.
+    # -> Count one FN for each gold event.
+    elif has(gold_events) and not has(pred_events):
+        for _ in gold_events:
+            gv.append(FOUND)
+            pv.append(NOT_FOUND)
+
+    # There are gold events AND there are pred events.
+    # For each predicted event, attempt to match it to a gold event.
+    # If there is a match, count a TP. If there is no match, count a FP.
+    # TODO also count a FN for each gold event lacking a link to a pred event?
     elif has(pred_events) and has(gold_events):
         for p in pred_events:
-            # One true positive for each predicted event matching any gold event.
             if any(fallback_match(p, g) for g in gold_events):
-                gold_vector.append(FOUND)
-                pred_vector.append(FOUND)
-            # One false positive for each predicted event not matching any gold events.
+                gv.append(FOUND)
+                pv.append(FOUND)
             else:
-                gold_vector.append(NOT_FOUND)
-                pred_vector.append(FOUND)
+                gv.append(NOT_FOUND)
+                pv.append(FOUND)
 
-    return gold_vector, pred_vector
+    # There are no gold or pred events in the example.
+    # -> Count 1x TN.
+    else:
+        gv.append(NOT_FOUND)
+        pv.append(NOT_FOUND)
+
+    return gv, pv
 
 
 def get_events(sent: list[str], tree: AlpinoTree):
