@@ -156,7 +156,15 @@ def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
 
 
 def fallback_match(gold: Event, pred: Event):
-    """Perform fuzzy matching to compare `gold` and `pred` events."""
+    """Perform fuzzy matching to compare `gold` and `pred` events.
+    
+    The match is always True if the gold tokens match the pred tokens exactly, and always False if there is no overlap between the tokens of pred and gold. 
+    
+    If neither these conditions pass, perform a fuzzy match on the heads of the events and return True if that check passes.
+
+    Else, perform fuzzy match on the tokens of the events and return that conclusion.
+    """
+
     if gold.tokens == pred.tokens:
         return True
     if len(gold.tokens.intersection(pred.tokens)) == 0:

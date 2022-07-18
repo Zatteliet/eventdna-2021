@@ -7,6 +7,9 @@ import joblib
 import typer
 
 from experiments import corpus, training
+from experiments.evaluation import event_level
+from sklearn.metrics import classification_report
+
 
 logger = logging.getLogger(__name__)
 
@@ -88,6 +91,29 @@ def main(
     # Dump the models.
     for fold in folds:
         joblib.dump(fold.crf, model_dir / f"model_{fold.id}.pkl")
+
+    # Run micro->micro evaluation for event-level.
+    logger.info("RUNNING EVENT LEVEL EVAL")
+
+    # 1. Concatenate found/not-found vectors over all examples.
+    gold_vector = []
+    pred_vector = []
+    for fold in folds:
+        dev_xs = [ex.x for ex in fold.dev]
+        predictions = fold.crf.predict(dev_xs)
+        for example, prediction in zip(fold.dev, predictions):
+            gold_events = list(
+                event_level.get_events(example.y, example.alpino_tree)
+            )
+            pred_events = list(
+                event_level.get_events(prediction, example.alpino_tree)
+            )
+            gv, pv = event_level.match_between(gold_events, pred_events)
+            gold_vector.extend(gv)
+            pred_vector.extend(pv)
+
+    report = classification_report(gold_vector, pred_vector, output_dict=False)
+    logger.info(report)
 
     # Write out scores per fold and averaged.
 
