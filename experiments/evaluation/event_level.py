@@ -32,32 +32,33 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
     pred_vector = []
     for example, prediction in zip(examples, predictions):
 
-        # Assume there is a single event in both example and pred. Sanity check this.
+        # Assume there is only 1 gold event. Assert this.
         gold_events = list(get_events(example.y, example.alpino_tree))
         assert len(gold_events) <= 1
         gold_event = gold_events[0] if gold_events else None
 
+        # The CRF was trained with example each containing 1 event, so we expect mostly output with 1 event, but this is not guaranteed.
+        # We handle cases with multiple pred events.
+
         pred_events = list(get_events(prediction, example.alpino_tree))
-        assert len(pred_events) <= 1
-        pred_event = pred_events[0] if pred_events else None
 
         # Determine wether there the gold and pred event match as TP, FP, TN, FN. Add to the vectors accordingly.
 
-        # No gold or pred event -> TN
-        if not gold_event and not pred_event:
+        # No gold or pred events -> TN
+        if not gold_event and not pred_events:
             gold_vector.append(NOT_FOUND)
             pred_vector.append(NOT_FOUND)
-        # Pred event BUT no gold event -> FP
-        elif not gold_event and pred_event:
+        # Pred events BUT no gold event -> FP
+        elif not gold_event and pred_events:
             gold_vector.append(NOT_FOUND)
             pred_vector.append(FOUND)
         # Gold event BUT no pred event -> FN
-        elif gold_event and not pred_event:
+        elif gold_event and not pred_events:
             gold_vector.append(FOUND)
             pred_vector.append(NOT_FOUND)
         # Gold event AND pred event -> TP is there is a fuzzy match, otherwise FN
         else:
-            if fallback_match(gold_event, pred_event):
+            if any(fallback_match(gold_event, p) for p in pred_events):
                 gold_vector.append(FOUND)
                 pred_vector.append(FOUND)
             else:
@@ -83,45 +84,45 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
     return report
 
 
-def score_macro_average(examples: Iterable[Example], crf: CRF):
-    """Score the performance of `crf` against the gold in each `example`. Return a report of macro-averaged scores."""
+# def score_macro_average(examples: Iterable[Example], crf: CRF):
+#     """Score the performance of `crf` against the gold in each `example`. Return a report of macro-averaged scores."""
 
-    def f1_score(prec, rec):
-        return (2 * (prec * rec)) / (prec + rec)
+#     def f1_score(prec, rec):
+#         return (2 * (prec * rec)) / (prec + rec)
 
-    def score(gold_events: list[Event], pred_events: list[Event]):
-        """Use SKLearn to score lis list of predicted events against their gold equivalent."""
-        gold_vector, pred_vector = match_between(gold_events, pred_events)
-        report = classification_report(
-            gold_vector,
-            pred_vector,
-            output_dict=True,
-            zero_division=0,
-        )
-        return report
+#     def score(gold_events: list[Event], pred_events: list[Event]):
+#         """Use SKLearn to score lis list of predicted events against their gold equivalent."""
+#         gold_vector, pred_vector = match_between(gold_events, pred_events)
+#         report = classification_report(
+#             gold_vector,
+#             pred_vector,
+#             output_dict=True,
+#             zero_division=0,
+#         )
+#         return report
 
-    predictions = crf.predict([ex.x for ex in examples])
+#     predictions = crf.predict([ex.x for ex in examples])
 
-    scores = {FOUND: [], NOT_FOUND: []}
-    for example, prediction in zip(examples, predictions):
+#     scores = {FOUND: [], NOT_FOUND: []}
+#     for example, prediction in zip(examples, predictions):
 
-        gold_events = list(get_events(example.y, example.alpino_tree))
-        pred_events = list(get_events(prediction, example.alpino_tree))
+#         gold_events = list(get_events(example.y, example.alpino_tree))
+#         pred_events = list(get_events(prediction, example.alpino_tree))
 
-        report = score(gold_events, pred_events)
+#         report = score(gold_events, pred_events)
 
-        if report.get(FOUND):
-            scores[FOUND].append(report[FOUND])
-        if report.get(NOT_FOUND):
-            scores[NOT_FOUND].append(report[NOT_FOUND])
+#         if report.get(FOUND):
+#             scores[FOUND].append(report[FOUND])
+#         if report.get(NOT_FOUND):
+#             scores[NOT_FOUND].append(report[NOT_FOUND])
 
-    for label in [FOUND, NOT_FOUND]:
-        scores[label] = merge_mean(scores[label])
-        p = scores[label]["precision"]
-        r = scores[label]["recall"]
-        scores[label]["f1-score"] = f1_score(p, r)
+#     for label in [FOUND, NOT_FOUND]:
+#         scores[label] = merge_mean(scores[label])
+#         p = scores[label]["precision"]
+#         r = scores[label]["recall"]
+#         scores[label]["f1-score"] = f1_score(p, r)
 
-    return scores
+#     return scores
 
 
 # def match_between(gold_event: Event, pred_event: Event)-> str:
