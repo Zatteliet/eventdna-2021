@@ -12,6 +12,7 @@ class AlpinoTree:
     """
 
     def __init__(self, alpino_file, restricted_mode):
+        self.file = alpino_file
         self.tree = ET.parse(alpino_file)
         self.nodes_to_parents = {c: p for p in self.tree.iter() for c in p}
         self.head_vector = self._head_vector(restricted_mode)
