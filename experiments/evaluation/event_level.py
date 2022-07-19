@@ -208,7 +208,8 @@ def get_events(sent: list[str], tree: AlpinoTree):
         else:
             if len(current_event) > 0:
                 heads = get_head_set(current_event, tree)
-                yield Event(tokens=set(current_event), heads=set(heads))
+                event = Event(tokens=set(current_event), heads=set(heads))
+                yield event
                 current_event = []
 
 

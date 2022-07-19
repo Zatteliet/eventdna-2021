@@ -30,7 +30,7 @@ def main(
         out_dir = Path("output") / f"output-{timestamp}"
     out_dir.mkdir(parents=True)
 
-    logging.basicConfig(filename=out_dir / "log.log", level=logging.DEBUG)
+    logging.basicConfig(filename=out_dir / "info.log", level=logging.DEBUG)
 
     cfg = {
         "n_folds": n_folds,
