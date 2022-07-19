@@ -4,6 +4,8 @@ This repo bundles experimental code for the EventDNA LRE paper.
 
 ## Usage
 
-`main.py` is a CLI file. Simply run it with `python main.py` to start training and evaluation. `python main.py --help` details some options; in particular, `--test` can be used to run a limited training routine taking very little time to complete.
+`main.py` is a CLI file. The command has two main options: `train` and `eval`.
 
-The results will be output to a timestamped directory under `./output`. An `info.log` file tracks parameters and intermediary results.
+`python main.py train` will train CRF models in crossvalidation fashion. The resulting models as well as the dev datasets are saved to a timestamped dir under `./output`. Training parameters can be changed on the CLI, and there is a `--test` option to run a limited training routine quickly. Use `--help` to check the options.
+
+To evaluate the resulting models, use `python main.py eval <timestamped_output_dir>`. A directory called `eval` will be created in the same dir, containing PRF evaluations per fold and averaged.
