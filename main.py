@@ -26,12 +26,6 @@ config = {
 
 
 def train(args):
-    if args.test:
-        args.n_folds = 2
-        args.max_iter = 10
-        logger.warning(f"Using test config: {args}")
-    else:
-        logger.info(f"Starting training with config: {args}")
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     if args.test:
@@ -41,6 +35,13 @@ def train(args):
     out_dir.mkdir(parents=True)
 
     logging.basicConfig(filename=out_dir / "train.log", level=logging.DEBUG)
+
+    if args.test:
+        args.n_folds = 2
+        args.max_iter = 10
+        logger.warning(f"Using test config: {args}")
+    else:
+        logger.info(f"Starting training with config: {args}")
 
     # Prepare the X and y examples.
     examples = corpus.get_examples(main_events_only=args.main_events_only)
@@ -71,7 +72,6 @@ def train(args):
         joblib.dump(fold.crf, fold_dir / "crf.pkl")
 
         # Save each example in the fold.
-        save_examples(fold.train, fold_dir / "data" / "train")
         save_examples(fold.dev, fold_dir / "data" / "dev")
 
     logger.info(f"Finished training -> {out_dir}")
@@ -82,10 +82,11 @@ def eval(args):
     eval_dir = args.dir / "eval"
 
     if eval_dir.exists():
-        raise ValueError("Eval dir already exists, hinting that evaluation has already been run on this dir. Remove the existing eval dir first.")
+        raise ValueError(
+            "Eval dir already exists, hinting that evaluation has already been run on this dir. Remove the existing eval dir first."
+        )
     else:
         eval_dir.mkdir(parents=True)
-
 
     logging.basicConfig(filename=eval_dir / "eval.log", level=logging.DEBUG)
 
@@ -105,20 +106,18 @@ def eval(args):
             examples.append(example)
         return examples
 
-    def load_fold(dir):
-        id = dir.stem.split("_")[-1]
-        crf = joblib.load(dir / "crf.pkl")
-        train = load_examples(dir / "data" / "train")
-        dev = load_examples(dir / "data" / "dev")
-        fold = training.Fold(id=id, train=train, dev=dev)
-        fold.crf = crf
-        return fold
-
     # Load fold data.
     fold_dirs = ((args.dir) / "folds").iterdir()
+
     folds = []
     for fold_dir in fold_dirs:
-        fold = load_fold(fold_dir)
+        id = fold_dir.stem.split("_")[-1]
+        crf = joblib.load(fold_dir / "crf.pkl")
+        dev = load_examples(fold_dir / "data" / "dev")
+
+        # For evaluation, no need to search for training data.
+        fold = training.Fold(id=id, train=[], dev=dev)
+        fold.crf = crf
         folds.append(fold)
 
     # Setup directories.
@@ -130,6 +129,7 @@ def eval(args):
     # Write out scores per fold and averaged.
     for fold in folds:
         training.score_fold(fold)
+
         write(
             fold.micro_iob_scores,
             micro_iob_scores_dir / f"scores_{fold.id}.json",
@@ -148,9 +148,7 @@ def eval(args):
         )
 
     write(
-        training.average_scores(
-            [fold.micro_iob_scores for fold in folds]
-        ),
+        training.average_scores([fold.micro_iob_scores for fold in folds]),
         micro_iob_scores_dir / "averaged.json",
     )
 
@@ -160,9 +158,7 @@ def eval(args):
     # )
 
     write(
-        training.average_scores(
-            [fold.micro_event_scores for fold in folds]
-        ),
+        training.average_scores([fold.micro_event_scores for fold in folds]),
         micro_event_scores_dir / "averaged.json",
     )
     # write(
