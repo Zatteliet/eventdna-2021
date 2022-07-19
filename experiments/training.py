@@ -6,11 +6,9 @@ from typing import Iterable, List
 from sklearn.model_selection import KFold
 from sklearn_crfsuite import CRF
 
+from experiments import util
 from experiments.corpus import Example
 from experiments.evaluation import event_level, iob_level
-
-# from experiments.evaluation.scoring import ScoreReport
-from experiments.util import map_over_leaves, merge_list
 
 logger = logging.getLogger(__name__)
 
@@ -51,26 +49,20 @@ def train_crossval(folds: Iterable[Fold], max_iter) -> None:
 
 
 def score_fold(fold):
-    # Compute micro and macro IOB scores.
+    # Compute IOB scores.
     fold.micro_iob_scores = iob_level.score_micro_average(fold.dev, fold.crf)
-    # fold.macro_iob_scores = iob_level.score_macro_average(
-    #     fold.dev, fold.crf
-    # )
 
-    # Compute micro and macro event scores.
+    # Compute event scores.
     fold.micro_event_scores = event_level.score_micro_average(
         fold.dev, fold.crf
     )
-    # fold.macro_event_scores = event_level.score_macro_average(
-    #     fold.dev, fold.crf
-    # )
 
 
 def average_scores(fold_score_dicts: Iterable[dict]):
     """Flatten and process the scores from crossval training."""
 
-    merged = merge_list(fold_score_dicts)
-    averaged = map_over_leaves(merged, mean)
+    merged = util.merge_list(fold_score_dicts)
+    averaged = util.map_over_leaves(merged, mean)
     return averaged
 
 

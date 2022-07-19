@@ -4,7 +4,6 @@ from typing import Iterable
 
 from experiments.corpus import Example
 from experiments.evaluation.alpino import AlpinoTree
-from experiments.util import merge_mean
 from sklearn.metrics import classification_report
 from sklearn_crfsuite import CRF
 
@@ -84,47 +83,6 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
 
     report = classification_report(gold_vector, pred_vector, output_dict=True)
     return report
-
-
-# def score_macro_average(examples: Iterable[Example], crf: CRF):
-#     """Score the performance of `crf` against the gold in each `example`. Return a report of macro-averaged scores."""
-
-#     def f1_score(prec, rec):
-#         return (2 * (prec * rec)) / (prec + rec)
-
-#     def score(gold_events: list[Event], pred_events: list[Event]):
-#         """Use SKLearn to score lis list of predicted events against their gold equivalent."""
-#         gold_vector, pred_vector = match_between(gold_events, pred_events)
-#         report = classification_report(
-#             gold_vector,
-#             pred_vector,
-#             output_dict=True,
-#             zero_division=0,
-#         )
-#         return report
-
-#     predictions = crf.predict([ex.x for ex in examples])
-
-#     scores = {FOUND: [], NOT_FOUND: []}
-#     for example, prediction in zip(examples, predictions):
-
-#         gold_events = list(get_events(example.y, example.alpino_tree))
-#         pred_events = list(get_events(prediction, example.alpino_tree))
-
-#         report = score(gold_events, pred_events)
-
-#         if report.get(FOUND):
-#             scores[FOUND].append(report[FOUND])
-#         if report.get(NOT_FOUND):
-#             scores[NOT_FOUND].append(report[NOT_FOUND])
-
-#     for label in [FOUND, NOT_FOUND]:
-#         scores[label] = merge_mean(scores[label])
-#         p = scores[label]["precision"]
-#         r = scores[label]["recall"]
-#         scores[label]["f1-score"] = f1_score(p, r)
-
-#     return scores
 
 
 def get_events(sent: list[str], tree: AlpinoTree):

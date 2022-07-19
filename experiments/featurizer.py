@@ -58,12 +58,6 @@ def get_sentences(lets_path):
             current_sent.append(row)
 
 
-# def alpino_features(alpino_tree, token_idx_in_sentence):
-#     """Return a dict of features for the given token."""
-#     # for testing
-#     return {}
-
-
 def featurize_lets_token(current, previous=None, next=None):
     """Return a dict of features for the given token."""
 

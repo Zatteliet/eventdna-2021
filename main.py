@@ -1,19 +1,14 @@
-from genericpath import exists
+import argparse
 import json
 import logging
+import shutil
 from datetime import datetime
 from pathlib import Path
 
 import joblib
-import typer
 
 from experiments import corpus, training
-from experiments.evaluation import event_level, alpino
-from sklearn.metrics import classification_report
-import pickle
-import argparse
-import json
-import shutil
+from experiments.evaluation import alpino
 
 logger = logging.getLogger(__name__)
 
@@ -122,9 +117,7 @@ def eval(args):
 
     # Setup directories.
     micro_iob_scores_dir = eval_dir / "scores_iob_micro"
-    # macro_iob_scores_dir = eval_dir / "scores_iob_macro"
     micro_event_scores_dir = eval_dir / "scores_event_spans_micro"
-    # macro_event_scores_dir = eval_dir / "scores_event_spans_macro"
 
     # Write out scores per fold and averaged.
     for fold in folds:
@@ -134,14 +127,6 @@ def eval(args):
             fold.micro_iob_scores,
             micro_iob_scores_dir / f"scores_{fold.id}.json",
         )
-        # write(
-        #     fold.macro_iob_scores,
-        #     macro_iob_scores_dir / f"scores_{fold.id}.json",
-        # )
-        # write(
-        #     fold.macro_event_scores,
-        #     macro_event_scores_dir / f"scores_{fold.id}.json",
-        # )
         write(
             fold.micro_event_scores,
             micro_event_scores_dir / f"scores_{fold.id}.json",
@@ -152,19 +137,10 @@ def eval(args):
         micro_iob_scores_dir / "averaged.json",
     )
 
-    # write(
-    #     training.average_scores([fold.macro_iob_scores for fold in folds]),
-    #     macro_iob_scores_dir / "averaged.json",
-    # )
-
     write(
         training.average_scores([fold.micro_event_scores for fold in folds]),
         micro_event_scores_dir / "averaged.json",
     )
-    # write(
-    #     training.average_scores([fold.macro_event_scores for fold in folds]),
-    #     macro_event_scores_dir / "averaged.json",
-    # )
 
     logger.info(f"Finished evaluation -> {eval_dir}")
 
