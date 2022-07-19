@@ -17,6 +17,8 @@ NOT_FOUND = "Not found"
 
 @dataclass
 class Event:
+    """Defines an event in terms of token indices over the host sentence. Additionally encodes the head tokens, derived from alpino trees."""
+
     tokens: set[int]
     heads: set[int]
 
@@ -38,7 +40,7 @@ def score_micro_average(examples: Iterable[Example], crf: CRF):
         gold_event = gold_events[0] if gold_events else None
 
         # The CRF was trained with example each containing 1 event, so we expect mostly output with 1 event, but this is not guaranteed.
-        # We handle cases with multiple pred events.
+        # In this evaluation, to conform with the original evaluation, we ignore the significance of having multiple pred events.
 
         pred_events = list(get_events(prediction, example.alpino_tree))
 
@@ -197,6 +199,13 @@ def get_events(sent: list[str], tree: AlpinoTree):
     `sent` is a list of IOB tags, without label information.
     """
 
+    def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
+        """Given a list of event tokens (as indices over sentence tokens), yield those indices that also mark head tokens."""
+        heads = alpino_tree.head_indices
+        for token in event_tokens:
+            if token in heads:
+                yield token
+
     # Sanity checks.
     assert len(sent) > 0, sent
     assert all(tag in {"I", "O", "B"} for tag in sent), sent
@@ -213,14 +222,6 @@ def get_events(sent: list[str], tree: AlpinoTree):
                 current_event = []
 
 
-def get_head_set(event_tokens: list[int], alpino_tree: AlpinoTree):
-    """Given a list of event tokens (as indices over sentence tokens), yield those indices that also mark head tokens."""
-    heads = alpino_tree.head_indices
-    for token in event_tokens:
-        if token in heads:
-            yield token
-
-
 def fallback_match(gold: Event, pred: Event):
     """Perform fuzzy matching to compare `gold` and `pred` events.
 
@@ -231,6 +232,19 @@ def fallback_match(gold: Event, pred: Event):
     Else, perform fuzzy match on the tokens of the events and return that conclusion.
     """
 
+    def dice_coef(s1: set, s2: set) -> float:
+        if not isinstance(s1, set) or not isinstance(s2, set):
+            raise TypeError("Arguments must be sets.")
+
+        if len(s1) + len(s2) == 0:
+            return 0
+        num = 2.0 * len(s1.intersection(s2))
+        den = len(s1) + len(s2)
+        return num / den
+
+    def fuzzy_match(set1, set2):
+        return dice_coef(set1, set2) > 0.8
+
     if gold.tokens == pred.tokens:
         return True
     if len(gold.tokens.intersection(pred.tokens)) == 0:
@@ -238,13 +252,3 @@ def fallback_match(gold: Event, pred: Event):
     if fuzzy_match(gold.heads, pred.heads):
         return True
     return fuzzy_match(gold.tokens, pred.tokens)
-
-
-def fuzzy_match(set1, set2):
-    def dice_coef(items1, items2) -> float:
-        if len(items1) + len(items2) == 0:
-            return 0
-        intersect = set(items1).intersection(set(items2))
-        return 2.0 * len(intersect) / (len(items1) + len(items2))
-
-    return dice_coef(set1, set2) > 0.8
