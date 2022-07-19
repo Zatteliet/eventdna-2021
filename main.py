@@ -30,7 +30,7 @@ def main(
         out_dir = Path("output") / f"output-{timestamp}"
     out_dir.mkdir(parents=True)
 
-    logging.basicConfig(filename=out_dir / "log.log", level=logging.DEBUG)
+    logging.basicConfig(filename=out_dir / "info.log", level=logging.DEBUG)
 
     cfg = {
         "n_folds": n_folds,
@@ -50,16 +50,16 @@ def main(
     # Setup directories.
 
     micro_iob_scores_dir = out_dir / "scores_iob_micro"
-    macro_iob_scores_dir = out_dir / "scores_iob_macro"
+    # macro_iob_scores_dir = out_dir / "scores_iob_macro"
     micro_event_scores_dir = out_dir / "scores_event_spans_micro"
-    macro_event_scores_dir = out_dir / "scores_event_spans_macro"
+    # macro_event_scores_dir = out_dir / "scores_event_spans_macro"
     folds_defs_dir = out_dir / "fold_checks"
     model_dir = out_dir / "models"
     for p in [
         micro_iob_scores_dir,
-        macro_iob_scores_dir,
+        # macro_iob_scores_dir,
         micro_event_scores_dir,
-        macro_event_scores_dir,
+        # macro_event_scores_dir,
         folds_defs_dir,
         model_dir,
     ]:
@@ -125,14 +125,14 @@ def main(
             fold.micro_iob_scores,
             micro_iob_scores_dir / f"scores_{fold.id}.json",
         )
-        write(
-            fold.macro_iob_scores,
-            macro_iob_scores_dir / f"scores_{fold.id}.json",
-        )
-        write(
-            fold.macro_event_scores,
-            macro_event_scores_dir / f"scores_{fold.id}.json",
-        )
+        # write(
+        #     fold.macro_iob_scores,
+        #     macro_iob_scores_dir / f"scores_{fold.id}.json",
+        # )
+        # write(
+        #     fold.macro_event_scores,
+        #     macro_event_scores_dir / f"scores_{fold.id}.json",
+        # )
         write(
             fold.micro_event_scores,
             micro_event_scores_dir / f"scores_{fold.id}.json",
@@ -143,19 +143,19 @@ def main(
         micro_iob_scores_dir / "averaged.json",
     )
 
-    write(
-        training.average_scores([fold.macro_iob_scores for fold in folds]),
-        macro_iob_scores_dir / "averaged.json",
-    )
+    # write(
+    #     training.average_scores([fold.macro_iob_scores for fold in folds]),
+    #     macro_iob_scores_dir / "averaged.json",
+    # )
 
     write(
         training.average_scores([fold.micro_event_scores for fold in folds]),
         micro_event_scores_dir / "averaged.json",
     )
-    write(
-        training.average_scores([fold.macro_event_scores for fold in folds]),
-        macro_event_scores_dir / "averaged.json",
-    )
+    # write(
+    #     training.average_scores([fold.macro_event_scores for fold in folds]),
+    #     macro_event_scores_dir / "averaged.json",
+    # )
 
     logger.info(f"Done training, wrote models and scores to {out_dir}")
 
