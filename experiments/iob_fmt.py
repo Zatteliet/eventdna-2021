@@ -4,25 +4,6 @@ from pathlib import Path
 from typing import Optional
 
 
-def get_iob_sequence(sent, event_ann: Optional[dict]):
-
-    sent_tokens: list[str] = sent["token_ids"]
-    if event_ann is None:
-        return ["O" for _ in sent_tokens]
-
-    event_tokens = event_ann["features"]["span"]
-    iob = []
-    for sent_token in sent_tokens:
-        if sent_token == event_tokens[0]:
-            iob.append("B")
-        elif sent_token in event_tokens:
-            iob.append("I")
-        else:
-            iob.append("O")
-
-    return iob
-
-
 def get_iob(dnaf_path: Path, main_events_only: bool):
     """Get the IOB representation of the events of a document.
     Yield (sent_id, iob_list) tuples.
@@ -51,7 +32,7 @@ def get_iob(dnaf_path: Path, main_events_only: bool):
     for sent_id, sent in dnaf["doc"]["sentences"].items():
         events = sent_to_events[sent_id]
 
-        # ! Select longest main event, discard the rest.
+        # NOTE ! Select longest main event, discard the rest.
         if len(events) == 0:
             iob = get_iob_sequence(sent, None)
         else:
@@ -59,3 +40,24 @@ def get_iob(dnaf_path: Path, main_events_only: bool):
             iob = get_iob_sequence(sent, target_ev)
 
         yield sent_id, iob
+
+
+def get_iob_sequence(sent, event_ann: Optional[dict]):
+    """Return the IOB sequence over a sentence, given an event annotation in that sentence."""
+
+    sent_tokens: list[str] = sent["token_ids"]
+
+    if event_ann is None:
+        return ["O" for _ in sent_tokens]
+
+    iob = []
+    event_tokens = event_ann["features"]["span"]
+    for sent_token in sent_tokens:
+        if sent_token == event_tokens[0]:
+            iob.append("B")
+        elif sent_token in event_tokens:
+            iob.append("I")
+        else:
+            iob.append("O")
+
+    return iob

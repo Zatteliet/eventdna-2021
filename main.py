@@ -7,6 +7,9 @@ import joblib
 import typer
 
 from experiments import corpus, training
+from experiments.evaluation import event_level
+from sklearn.metrics import classification_report
+
 
 logger = logging.getLogger(__name__)
 
@@ -21,10 +24,13 @@ def main(
     """Run experiments, write out results to a time-stamped dir under `./output/`."""
 
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
-    out_dir = Path("output") / f"output-{timestamp}"
+    if test:
+        out_dir = Path("output") / f"output-{timestamp}-test"
+    else:
+        out_dir = Path("output") / f"output-{timestamp}"
     out_dir.mkdir(parents=True)
 
-    logging.basicConfig(filename=out_dir / "log.log", level=logging.DEBUG)
+    logging.basicConfig(filename=out_dir / "info.log", level=logging.DEBUG)
 
     cfg = {
         "n_folds": n_folds,
@@ -44,16 +50,16 @@ def main(
     # Setup directories.
 
     micro_iob_scores_dir = out_dir / "scores_iob_micro"
-    macro_iob_scores_dir = out_dir / "scores_iob_macro"
+    # macro_iob_scores_dir = out_dir / "scores_iob_macro"
     micro_event_scores_dir = out_dir / "scores_event_spans_micro"
-    macro_event_scores_dir = out_dir / "scores_event_spans_macro"
+    # macro_event_scores_dir = out_dir / "scores_event_spans_macro"
     folds_defs_dir = out_dir / "fold_checks"
     model_dir = out_dir / "models"
     for p in [
         micro_iob_scores_dir,
-        macro_iob_scores_dir,
+        # macro_iob_scores_dir,
         micro_event_scores_dir,
-        macro_event_scores_dir,
+        # macro_event_scores_dir,
         folds_defs_dir,
         model_dir,
     ]:
@@ -89,6 +95,29 @@ def main(
     for fold in folds:
         joblib.dump(fold.crf, model_dir / f"model_{fold.id}.pkl")
 
+    # # Run micro->micro evaluation for event-level.
+    # logger.info("RUNNING EVENT LEVEL EVAL")
+
+    # # 1. Concatenate found/not-found vectors over all examples.
+    # gold_vector = []
+    # pred_vector = []
+    # for fold in folds:
+    #     dev_xs = [ex.x for ex in fold.dev]
+    #     predictions = fold.crf.predict(dev_xs)
+    #     for example, prediction in zip(fold.dev, predictions):
+    #         gold_events = list(
+    #             event_level.get_events(example.y, example.alpino_tree)
+    #         )
+    #         pred_events = list(
+    #             event_level.get_events(prediction, example.alpino_tree)
+    #         )
+    #         gv, pv = event_level.match_between(gold_events, pred_events)
+    #         gold_vector.extend(gv)
+    #         pred_vector.extend(pv)
+
+    # report = classification_report(gold_vector, pred_vector, output_dict=False)
+    # logger.info(report)
+
     # Write out scores per fold and averaged.
 
     for fold in folds:
@@ -96,14 +125,14 @@ def main(
             fold.micro_iob_scores,
             micro_iob_scores_dir / f"scores_{fold.id}.json",
         )
-        write(
-            fold.macro_iob_scores,
-            macro_iob_scores_dir / f"scores_{fold.id}.json",
-        )
-        write(
-            fold.macro_event_scores,
-            macro_event_scores_dir / f"scores_{fold.id}.json",
-        )
+        # write(
+        #     fold.macro_iob_scores,
+        #     macro_iob_scores_dir / f"scores_{fold.id}.json",
+        # )
+        # write(
+        #     fold.macro_event_scores,
+        #     macro_event_scores_dir / f"scores_{fold.id}.json",
+        # )
         write(
             fold.micro_event_scores,
             micro_event_scores_dir / f"scores_{fold.id}.json",
@@ -114,19 +143,19 @@ def main(
         micro_iob_scores_dir / "averaged.json",
     )
 
-    write(
-        training.average_scores([fold.macro_iob_scores for fold in folds]),
-        macro_iob_scores_dir / "averaged.json",
-    )
+    # write(
+    #     training.average_scores([fold.macro_iob_scores for fold in folds]),
+    #     macro_iob_scores_dir / "averaged.json",
+    # )
 
     write(
         training.average_scores([fold.micro_event_scores for fold in folds]),
         micro_event_scores_dir / "averaged.json",
     )
-    write(
-        training.average_scores([fold.macro_event_scores for fold in folds]),
-        macro_event_scores_dir / "averaged.json",
-    )
+    # write(
+    #     training.average_scores([fold.macro_event_scores for fold in folds]),
+    #     macro_event_scores_dir / "averaged.json",
+    # )
 
     logger.info(f"Done training, wrote models and scores to {out_dir}")
 
